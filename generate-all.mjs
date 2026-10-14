@@ -147,7 +147,8 @@ ${currentTopic}
 - Primary Accent Color: ${selectedTheme.primaryColor}
 - Layout Characteristic: ${selectedTheme.layout}
 - You MUST incorporate native Markdown and inline styled HTML callouts tailored to this theme.
-  * Use custom styled tip/warning boxes (e.g., <div style="border-left: 4px solid ${selectedTheme.primaryColor}; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px;">...</div>).
+* Use custom styled tip/warning boxes (e.g., <div style="border-left: 4px solid ${selectedTheme.primaryColor}; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">...</div>).
+  * CRITICAL: All text inside callout/tip/warning boxes MUST be crisp dark charcoal/black (color: #111827) so it is 100% legible against any light background.
   * Structure the sections uniquely based on: "${selectedTheme.layout}".
 
 [Tone & Writing Style Rules (STRICT - NO AI VIBE)]
