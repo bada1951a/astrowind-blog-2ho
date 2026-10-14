@@ -1,6 +1,6 @@
 site:
   name: 'Daily Insight'
-  site: 'https://post.storydailyview.com'
+  site: 'https://m.storydailyview.com'
   base: '/'
   trailingSlash: false
 
