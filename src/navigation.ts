@@ -11,8 +11,8 @@ export const headerData = {
       href: getBlogPermalink(),
     },
     {
-      text: 'Tech & IT',
-      href: getPermalink('/category/hardware'),
+      text: 'Life & Tech',
+      href: getPermalink('/category/life-tech'),
     },
   ],
   actions: [{ text: 'Explore Articles', href: getBlogPermalink() }],
@@ -24,7 +24,7 @@ export const footerData = {
       title: 'Categories',
       links: [
         { text: 'All Articles', href: getBlogPermalink() },
-        { text: 'Tech & IT', href: getPermalink('/category/hardware') },
+        { text: 'Life & Tech', href: getPermalink('/category/life-tech') },
       ],
     },
     {
@@ -43,6 +43,6 @@ export const footerData = {
   ],
   socialLinks: [],
   footNote: `
-    © 2026 Daily Insight. All rights reserved.
+    © 2026 Story Daily Tech. All rights reserved.
   `,
 };
