@@ -1,36 +1,51 @@
-# Privacy Policy
+---
+import Layout from '~/layouts/PageLayout.astro';
 
-**Last updated:** October 15, 2026
+const metadata = {
+  title: 'Privacy Policy - Story Daily Tech',
+};
+---
 
-At **Story Daily Tech** (accessible from https://m.storydailyview.com), the privacy of our visitors is of extreme importance to us. This Privacy Policy document outlines the types of personal information that is received and collected by Story Daily Tech and how it is used.
+<Layout metadata={metadata}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <header class="mb-8 md:mb-12 text-center">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
+        Privacy Policy
+      </h1>
+      <p class="text-muted dark:text-slate-400 text-sm">
+        Last updated: October 15, 2026
+      </p>
+    </header>
 
-## 1. Information We Collect
-Story Daily Tech operates as an independent technical and digital publication. We may collect non-personally identifiable information automatically via standard web server logs and analytics tools, including:
-- Internet Protocol (IP) addresses
-- Browser type and version
-- Operating system details
-- Date and time stamps
-- Referring and exit pages
-- Clickstream data and page interactions
+    <div class="mx-auto prose prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 leading-relaxed space-y-6">
+      <p>
+        At <strong>Story Daily Tech</strong> (accessible from <a href="https://m.storydailyview.com" class="text-primary hover:underline">https://m.storydailyview.com</a>), the privacy of our visitors is one of our main priorities. This Privacy Policy document outlines the types of information that is collected and recorded by Story Daily Tech and how we use it.
+      </p>
 
-This data is used solely to analyze trends, administer the site, track user movement around the website, and gather demographic information.
+      <h2 class="text-2xl font-bold mt-8 mb-4">1. Information We Collect</h2>
+      <p>
+        Story Daily Tech operates as an independent technical and digital publication. We may collect non-personally identifiable information automatically via standard web server logs and analytics tools, including browser type, referring/exit pages, operating system, date/time stamps, and clickstream data.
+      </p>
 
-## 2. Cookies and Web Beacons
-We use cookies to store information about visitors' preferences, record user-specific information on which pages the user accesses or visits, and customize web page content based on visitors' browser type or other information that the visitor sends via their browser.
+      <h2 class="text-2xl font-bold mt-8 mb-4">2. Cookies and Web Beacons</h2>
+      <p>
+        Like any other website, Story Daily Tech uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and other details.
+      </p>
 
-## 3. Google AdSense & DoubleClick Cookie
-- Third-party vendors, including **Google**, use cookies to serve ads based on a user's prior visits to this website or other websites on the Internet.
-- Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to **Story Daily Tech** and other sites across the World Wide Web.
-- Users may opt out of personalized advertising by visiting [Google Ads Settings](https://www.google.com/settings/ads). Alternatively, you can opt out of a third-party vendor's use of cookies for personalized advertising by visiting [AboutAds.info](https://www.aboutads.info/choices/).
+      <h2 class="text-2xl font-bold mt-8 mb-4">3. Google AdSense & DoubleClick Cookie</h2>
+      <p>
+        Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to Story Daily Tech and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">https://policies.google.com/technologies/ads</a>.
+      </p>
 
-## 4. Third-Party Content & Analytics
-We may partner with third-party analytics providers (such as Google Analytics) to help understand website traffic, audience retention, and usage patterns. These services collect information transmitted by your web browser as part of a standard web page request. Third-party ad servers or ad networks use technology in their respective advertisements and links that appear on Story Daily Tech, which are sent directly to your browser.
+      <h2 class="text-2xl font-bold mt-8 mb-4">4. Third-Party Content & Analytics</h2>
+      <p>
+        We may partner with third-party analytics providers (such as Google Analytics) to help understand website traffic and usage patterns. These services may collect information sent by your browser as part of a web page request. Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons in their respective advertisements and links.
+      </p>
 
-## 5. Children's Information
-Story Daily Tech does not knowingly collect any personally identifiable information from children under the age of 13. If you believe that your child provided this kind of information on our website, we strongly encourage you to contact us immediately, and we will use our best efforts to promptly remove such information from our records.
-
-## 6. Consent
-By using our website, you hereby consent to our Privacy Policy and agree to its terms.
-
-## 7. Contact Us
-If you have any questions, concerns, or feedback regarding this Privacy Policy, please reach out via our [Contact Us](/contact) page or email us directly at **contact@storydailyview.com**.
+      <h2 class="text-2xl font-bold mt-8 mb-4">5. Contact Us</h2>
+      <p>
+        If you have any questions or feedback regarding this Privacy Policy, please reach out directly via our contact email: <a href="mailto:contact@storydailyview.com" class="text-primary hover:underline">contact@storydailyview.com</a>.
+      </p>
+    </div>
+  </section>
+</Layout>
