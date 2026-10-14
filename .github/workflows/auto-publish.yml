@@ -2,11 +2,9 @@ name: Auto Multi-Language Blog Publishing Pipeline
 
 on:
   schedule:
-    # 한국 시간 기준: 밤 20:58 (밤 9시 직전) / 아침 05:58 (아침 6시 직전)
-    # 정각 00분 트래픽 병목을 피해 즉시 실행되는 58분 세팅
-    # UTC 11:58 -> KST 20:58
-    # UTC 20:58 -> KST 05:58
-    - cron: '58 11,20 * * *'
+    # 2호기 스케줄: 한국 시간 밤 21:28 (UTC 12:28) / 아침 06:28 (UTC 21:28)
+    # 1호기와 30분 시차를 두어 API 제한 회피 및 정각 병목 회피
+    - cron: '28 12,21 * * *'
 
   workflow_dispatch:
 
@@ -49,6 +47,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "변경사항이 없습니다."
           else
-            git commit -m "chore: auto-publish 12-language blog posts [skip ci]"
+            git commit -m "chore: auto-publish 12-language mobile blog posts [skip ci]"
             git push origin main
           fi
