@@ -46,7 +46,7 @@ jobs:
           git add src/data/post/ topics.txt
           if git diff --staged --quiet; then
             echo "변경사항이 없습니다."
+       git commit -m "chore: auto-publish 12-language mobile blog posts"
           else
-            git commit -m "chore: auto-publish 12-language mobile blog posts [skip ci]"
             git push origin main
           fi
