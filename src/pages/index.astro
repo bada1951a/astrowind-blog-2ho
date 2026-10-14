@@ -1,14 +1,13 @@
 ---
-import moonImg from '~/assets/images/moon.jpg';
 import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
-// 대문 이미지(JPG) 불러오기
-import heroImage from '~/assets/images/satellite-earth.jpg';
+// 2호기 대문 이미지 불러오기
+import moonImg from '~/assets/images/moon.jpg';
 
 const metadata = {
-  title: 'Daily Insight — Practical Tech Insights & Troubleshooting Guides',
+  title: 'Story Daily Tech — Practical Life & Tech Insights',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,24 +24,24 @@ const metadata = {
       },
     ]}
     image={{
-      src: heroImage,
-      alt: 'Troubleshooting Tutorials - Daily Insight Cover',
+      src: moonImg,
+      alt: 'Story Daily Tech - Troubleshooting Guides & Solutions',
     }}
   >
     <Fragment slot="title">
-      Daily Practical Tech Insights,<br />
-      <span class="text-accent dark:text-white highlight">Daily Insight</span>
+      Practical Life & Tech Insights,<br />
+      <span class="text-accent dark:text-white highlight">Story Daily Tech</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      From trending IT topics to in-depth hardware troubleshooting and practical tech guides.
+      Practical troubleshooting guides, mobile diagnostics, and actionable digital workflows for everyday tech.
     </Fragment>
   </Hero>
 
   <!-- Latest Posts Section -->
   <BlogLatestPosts
     title="Latest Articles"
-    information="Explore carefully selected technical guides and troubleshooting tutorials."
+    information="Explore verified troubleshooting workflows and practical tech guides."
     count={6}
   />
 </Layout>
