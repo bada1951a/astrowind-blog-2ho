@@ -3,7 +3,7 @@ title: "Fehlermeldung 'Feuchtigkeit im Anschluss' beim Galaxy Z Fold: Schweißau
 description: "Panik am Flughafen: Das Galaxy Fold zeigt plötzlich Feuchtigkeitsalarm beim Laden. So trocknest du das Gerät sicher und rettest wichtige Business-Chats."
 publishDate: 2026-10-14T12:15:00.000Z
 image: "https://picsum.photos/seed/mobile-873/1200/630"
-category: "Mobile"
+category: "life-tech"
 tags: ["Samsung Galaxy", "Troubleshooting", "Android", "Hardware Care"]
 theme: "Mint Fresh Engineering"
 ---
