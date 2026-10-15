@@ -134,7 +134,7 @@ async function generateSinglePost(lang, index) {
   const pubDateIso = postDate.toISOString();
 
   // =========================================================================
-  // [모바일 특화 현지화 + LaTeX 금지 + 가독성 최적화 프롬프트]
+  // [모바일 특화 현지화 + 한글 혼입 원천 차단 + LaTeX 금지 + 가독성 최적화 프롬프트]
   // =========================================================================
   const prompt = `
 You are a ${lang.persona}.
@@ -149,13 +149,19 @@ ${currentTopic}
 - ABSOLUTELY FORBIDDEN for non-Korean languages:
   * NEVER mention Korean infrastructure, trains, or places (NO KTX, NO Gyeongbu line, NO Seoul, NO Gangnam, NO Kakao/Naver) in English, Japanese, German, etc.
   * Your opening story MUST naturally incorporate the authentic local environment:
-    - English (en): Caltrain, Amtrak, US airports, Silicon Valley / New York offices.
+    - English (en): Caltrain, Amtrak Acela, US airports, Silicon Valley / New York offices.
     - Japanese (ja): Yamanote Line rush hour, Tokaido Shinkansen, Marunouchi offices.
     - German (de): Deutsche Bahn ICE, Frankfurt/Munich business trips.
     - French (fr): TGV, Paris Metro, La Défense business district.
     - Italian (it): Frecciarossa trains, Milan Metro.
     - And corresponding native transit/workplace for other languages.
   * The protagonist must be 100% perceived as a local resident/worker of that country.
+
+[CRITICAL OUTPUT LANGUAGE INTEGRITY - ZERO HANGUL IN GLOBAL POSTS]
+- If target language is NOT Korean (ko):
+  * Absolutely NEVER include any Korean Hangul characters (가-힣) anywhere in the title, description, tags, or body.
+  * Special note for Dutch/German/European languages: Never attach Korean phonetic words like "브랜드" to words containing "brand" (e.g., Dutch "OLED-inbranden" must be written strictly in native Dutch, NEVER with Korean text).
+  * Every single character in the title and description MUST strictly be in native ${lang.name}.
 
 [TECHNICAL TEXT FORMATTING RULE (STRICT NO LATEX)]
 - ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters or academic math symbols (DO NOT use $, $$, \\times, \\approx, \\degree).
@@ -225,6 +231,16 @@ theme: "${selectedTheme.name}"
                .replace(/\\times/g, 'x')
                .replace(/\\circ/g, '°')
                .replace(/\\approx/g, '≈');
+
+    // 비한국어 글인데 제목/설명에 한글 단어가 혼입된 경우 자동 제거 필터링
+    if (lang.code !== 'ko') {
+      text = text.replace(/(title:\s*")([^"]*)(")/g, (match, p1, p2, p3) => {
+        return `${p1}${p2.replace(/[가-힣]+/g, '').trim()}${p3}`;
+      });
+      text = text.replace(/(description:\s*")([^"]*)(")/g, (match, p1, p2, p3) => {
+        return `${p1}${p2.replace(/[가-힣]+/g, '').trim()}${p3}`;
+      });
+    }
 
     const fmMatch = text.match(/^---[\s\S]*?---\n*/);
     if (fmMatch) {
