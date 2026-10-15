@@ -44,7 +44,7 @@ function getDistributedImages(langIndex, seedStr) {
   const bodySeed = ((coverSeed + 499) % 1000) + 1;
 
   // 엑박 원천 차단: Picsum 고유 Seed 이미지 (모바일 전용)
-  const coverUrl = `https://picsum.photos/seed/phone${coverSeed}/1200/630`;
+  const coverUrl = `https://picsum.photos/seed/phone${coverSeed}/900/600`;
   const bodyUrl = `https://picsum.photos/seed/mobile${bodySeed}/1000/550`;
 
   return { coverUrl, bodyUrl };
