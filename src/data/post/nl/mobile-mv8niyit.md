@@ -1,5 +1,5 @@
 ---
-title: "Geen paniek in de NS-intercity: Zo regel je automatisch de Donkere Modus tegen OLED-inbr 브랜드"
+title: 'Geen paniek in de NS-intercity: Zo regel je automatisch de Donkere Modus tegen OLED-inbranding'
 description: "Snel mobiel internet tetheren in de trein zonder dat je OLED-scherm naar de knoppen helpt? Configureer direct deze automatische iOS & Android darkmode routine."
 publishDate: 2026-10-14T18:30:00.000Z
 image: "https://picsum.photos/seed/mobile-905/1200/630"
