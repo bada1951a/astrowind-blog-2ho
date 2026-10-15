@@ -29,7 +29,7 @@ const currentTopic = lines[0];
 console.log(`📌 오늘 처리할 주제 (2호기 모바일): "${currentTopic}"`);
 
 // =========================================================================
-// [최적화 완료] 렉 없는 초고속 1,000개 모바일 이미지 무작위 분산 매핑 (O(1) 연산)
+// [2호기 전용] 1,000종 스마트폰/모바일 고유 이미지 무작위 분산 (풍경/자연 원천 차단)
 // =========================================================================
 function getDistributedImages(langIndex, seedStr) {
   let hash = 0;
@@ -38,12 +38,14 @@ function getDistributedImages(langIndex, seedStr) {
     hash |= 0;
   }
 
+  // 1부터 1000 사이의 고유 Seed 번호 연산
   const baseNum = (Math.abs(hash) % 1000) + 1;
   const coverSeed = ((baseNum + (langIndex * 73)) % 1000) + 1;
-  const bodySeed = ((coverSeed + 499) % 1000) + 1;
+  const bodySeed = ((coverSeed + 499) % 1000) + 1; // 커버와 겹치지 않는 본문 번호
 
-  const coverUrl = `https://picsum.photos/seed/mobile-${coverSeed}/1200/630`;
-  const bodyUrl = `https://picsum.photos/seed/smartphone-${bodySeed}/1000/550`;
+  // 모바일, 스마트폰, 아이폰, 안드로이드 전용 1,000종 이미지 소스
+  const coverUrl = `https://loremflickr.com/1200/630/smartphone,iphone,android,mobile?lock=${coverSeed}`;
+  const bodyUrl = `https://loremflickr.com/1000/550/screen,battery,gadget,phone?lock=${bodySeed}`;
 
   return { coverUrl, bodyUrl };
 }
@@ -82,28 +84,25 @@ const THEME_PRESETS = [
   { id: 30, name: "Pure Titanium Clean", primaryColor: "#334155", bgColor: "#ffffff", layout: "초고화질 모바일 매뉴얼 스타일, 볼드 타이포그래피 강조, 깔끔한 구분선" }
 ];
 
-// 모바일 환경에 최적화된 12개국 페르소나 및 모바일 OS 설정 메뉴 용어
+// 모바일 환경에 최적화된 12개국 페르소나, 설정 메뉴 용어 및 현지 이동/출퇴근 인프라
 const TARGET_LANGS = [
-  { code: 'ko', name: 'Korean', persona: '8년 차 모바일 현업 직장인 (사내 블라인드/커뮤니티 썰 장인)', osUi: '설정 > 배터리, 애플리케이션 저장공간 캐시 삭제, 네트워크 설정 초기화, 개발자 옵션' },
-  { code: 'en', name: 'English', persona: 'Silicon Valley Mobile Field Engineer sharing real office mobile crises', osUi: 'Settings > Battery, Clear App Cache, Reset Network Settings, Developer Options' },
-  { code: 'ja', name: 'Japanese', persona: 'スマホの修羅場トラブルを解決してきた日本の現役ITワーカー', osUi: '設定 > バッテリー, アプリのキャッシュ消去, ネットワーク設定のリセット, 開発者向けオプション' },
-  { code: 'de', name: 'German', persona: 'Erfahrener deutscher Mobilfunk- und Smartphone-Experte aus der Praxis', osUi: 'Einstellungen > Akku, App-Cache leeren, Netzwerkeinstellungen zurücksetzen, Entwickleroptionen' },
-  { code: 'fr', name: 'French', persona: 'Technicien support mobile français racontant ses galères de smartphone en entreprise', osUi: 'Paramètres > Batterie, Vider le cache des applications, Réinitialiser les paramètres réseau, Options pour les développeurs' },
-  { code: 'es', name: 'Spanish', persona: 'Especialista en soporte móvil corporativo compartiendo soluciones reales', osUi: 'Ajustes > Batería, Borrar caché de aplicaciones, Restablecer ajustes de red, Opciones de desarrollador' },
-  { code: 'it', name: 'Italian', persona: 'Tecnico riparatore smartphone italiano con esperienza diretta sul campo', osUi: 'Impostazioni > Batteria, Svuota cache app, Ripristina impostazioni di rete, Opzioni sviluppatore' },
-  { code: 'pt', name: 'Portuguese', persona: 'Técnico de smartphones brasileiro contando perrengues e soluções práticas', osUi: 'Configurações > Bateria, Limpar cache do aplicativo, Redefinir configurações de rede, Opções do desenvolvedor' },
-  { code: 'nl', name: 'Dutch', persona: 'Nederlandse mobiele tech-specialist met praktijkervaring op de werkvloer', osUi: 'Instellingen > Batterij, App-cache wissen, Netwerkinstellingen resetten, Ontwikkelaarsopties' },
-  { code: 'pl', name: 'Polish', persona: 'Polski specjalista serwisu smartfonów dzielący się sprawdzonymi poradami', osUi: 'Ustawienia > Bateria, Wyczyść pamięć podręczną aplikacji, Resetuj ustawienia sieciowe, Opcje programisty' },
-  { code: 'id', name: 'Indonesian', persona: 'Teknisi smartphone Indonesia yang berbagi solusi praktis sehari-hari', osUi: 'Pengaturan > Baterai, Hapus cache aplikasi, Reset pengaturan jaringan, Opsi pengembang' },
-  { code: 'vi', name: 'Vietnamese', persona: 'Chuyên viên kỹ thuật di động thực chiến chia sẻ mẹo xử lý lỗi smartphone', osUi: 'Cài đặt > Pin, Xóa bộ nhớ đệm ứng dụng, Đặt lại cài đặt mạng, Tùy chọn nhà phát triển' }
+  { code: 'ko', name: 'Korean', persona: '8년 차 모바일 현업 직장인 (사내 블라인드/커뮤니티 썰 장인)', osUi: '설정 > 배터리, 애플리케이션 저장공간 캐시 삭제, 네트워크 설정 초기화, 개발자 옵션', localeContext: '서울/판교 출퇴근길, KTX 경부선 이동 중 모바일 핫스팟, 지하철 2호선 만원 전철' },
+  { code: 'en', name: 'English', persona: 'Silicon Valley Mobile Field Engineer sharing real office mobile crises', osUi: 'Settings > Battery, Clear App Cache, Reset Network Settings, Developer Options', localeContext: 'Caltrain commute (SF to Mountain View), Amtrak Acela (NYC to DC), busy airport security lines, Uber rides between client meetings' },
+  { code: 'ja', name: 'Japanese', persona: 'スマホの修羅場トラブルを解決してきた日本の現役ITワーカー', osUi: '設定 > バッテリー, アプリのキャッシュ消去, ネットワーク設定のリセット, 開発者向けオプション', localeContext: '山手線満員電車でのテザリング, 東海道新幹線(のぞみ)車内, 丸の内・品川オフィスでの緊急スマホトラブル' },
+  { code: 'de', name: 'German', persona: 'Erfahrener deutscher Mobilfunk- und Smartphone-Experte aus der Praxis', osUi: 'Einstellungen > Akku, App-Cache leeren, Netzwerkeinstellungen zurücksetzen, Entwickleroptionen', localeContext: 'Deutsche Bahn ICE (Frankfurt nach München) mit schwachem Netz, Büroalltag in Berlin, Berufsverkehr' },
+  { code: 'fr', name: 'French', persona: 'Technicien support mobile français racontant ses galères de smartphone en entreprise', osUi: 'Paramètres > Batterie, Vider le cache des applications, Réinitialiser les paramètres réseau, Options pour les développeurs', localeContext: 'TGV (Paris à Lyon), métro parisien bondé à l\'heure de pointe, bureau à La Défense' },
+  { code: 'es', name: 'Spanish', persona: 'Especialista en soporte móvil corporativo compartiendo soluciones reales', osUi: 'Ajustes > Batería, Borrar caché de aplicaciones, Restablecer ajustes de red, Opciones de desarrollador', localeContext: 'Tren AVE (Madrid-Barcelona), cercanías de Madrid, prisas por llegar a la reunión con el móvil casi apagado' },
+  { code: 'it', name: 'Italian', persona: 'Tecnico riparatore smartphone italiano con esperienza diretta sul campo', osUi: 'Impostazioni > Batteria, Svuota cache app, Ripristina impostazioni di rete, Opzioni sviluppatore', localeContext: 'Treno Frecciarossa (Milano-Roma), metro di Milano nell\'ora di punta, emergenze batteria prima dell\'incontro con il cliente' },
+  { code: 'pt', name: 'Portuguese', persona: 'Técnico de smartphones brasileiro contando perrengues e soluções práticas', osUi: 'Configurações > Bateria, Limpar cache do aplicativo, Redefinir configurações de rede, Opções do desenvolvedor', localeContext: 'Metrô de São Paulo, trânsito na Marginal Pinheiros/Paulista, celular superaquecendo no calor e reunião urgente' },
+  { code: 'nl', name: 'Dutch', persona: 'Nederlandse mobiele tech-specialist met praktijkervaring op de werkvloer', osUi: 'Instellingen > Batterij, App-cache wissen, Netwerkinstellingen resetten, Ontwikkelaarsopties', localeContext: 'NS intercity trein (Utrecht-Amsterdam), Zuidas zakenwijk, drukke werkdagen' },
+  { code: 'pl', name: 'Polish', persona: 'Polski specjalista serwisu smartfonów dzielący się sprawdzonymi poradami', osUi: 'Ustawienia > Bateria, Wyczyść pamięć podręczną aplikacji, Resetuj ustawienia sieciowe, Opcje programisty', localeContext: 'Pociąg PKP Intercity, warszawskie Mordor, kryzys z rozładowanym smartfonem przed prezentacją' },
+  { code: 'id', name: 'Indonesian', persona: 'Teknisi smartphone Indonesia yang berbagi solusi praktis sehari-hari', osUi: 'Pengaturan > Baterai, Hapus cache aplikasi, Reset pengaturan jaringan, Opsi pengembang', localeContext: 'KRL Commuter Line Jabodetabek, kemacetan Jakarta, baterai drop mendadak saat bos menelepon' },
+  { code: 'vi', name: 'Vietnamese', persona: 'Chuyên viên kỹ thuật di động thực chiến chia sẻ mẹo xử lý lỗi smartphone', osUi: 'Cài đặt > Pin, Xóa bộ nhớ đệm ứng dụng, Đặt lại cài đặt mạng, Tùy chọn nhà phát triển', localeContext: 'Giờ cao điểm kẹt xe Hà Nội / TP.HCM, điện thoại sập nguồn trước cuộc gọi quan trọng của sếp' }
 ];
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 const fileSlug = `mobile-${Date.now().toString(36)}`;
 
-// =========================================================================
-// [최저가 모델 적용] gemini-3.5-flash-lite로 실행 및 지수 백오프 재시도
-// =========================================================================
 async function fetchWithRetry(prompt, maxRetries = 15, delayMs = 20000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
@@ -134,31 +133,55 @@ async function generateSinglePost(lang, index) {
   postDate.setHours(Math.floor(baseMinutes / 60), baseMinutes % 60, 0, 0);
   const pubDateIso = postDate.toISOString();
 
+  // =========================================================================
+  // [모바일 특화 현지화 + LaTeX 금지 + 가독성 최적화 프롬프트]
+  // =========================================================================
   const prompt = `
 You are a ${lang.persona}.
 Write a highly practical, authoritative, 1st-person technical storytelling guide natively in ${lang.name}.
-CRITICAL: DO NOT translate literally. Write from scratch using authentic local office workplace tone, smartphone community slang, and native mobile OS terminology (iOS / Android).
+CRITICAL: DO NOT translate literally from Korean. Write completely from scratch as an authentic native user living and working in THAT specific country/culture.
 
 [Topic]
 ${currentTopic}
+
+[CRITICAL LOCALIZATION & REAL WORLD MOBILE CONTEXT (MANDATORY)]
+- Target Locale Context: "${lang.localeContext}"
+- ABSOLUTELY FORBIDDEN for non-Korean languages:
+  * NEVER mention Korean infrastructure, trains, or places (NO KTX, NO Gyeongbu line, NO Seoul, NO Gangnam, NO Kakao/Naver) in English, Japanese, German, etc.
+  * Your opening story MUST naturally incorporate the authentic local environment:
+    - English (en): Caltrain, Amtrak, US airports, Silicon Valley / New York offices.
+    - Japanese (ja): Yamanote Line rush hour, Tokaido Shinkansen, Marunouchi offices.
+    - German (de): Deutsche Bahn ICE, Frankfurt/Munich business trips.
+    - French (fr): TGV, Paris Metro, La Défense business district.
+    - Italian (it): Frecciarossa trains, Milan Metro.
+    - And corresponding native transit/workplace for other languages.
+  * The protagonist must be 100% perceived as a local resident/worker of that country.
+
+[TECHNICAL TEXT FORMATTING RULE (STRICT NO LATEX)]
+- ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters or academic math symbols (DO NOT use $, $$, \\times, \\approx, \\degree).
+- Always use plain, human-readable numbers and units:
+  * Write "305 km/h" instead of "$305~km/h$"
+  * Write "42°C" or "42 C" instead of "$42^{\\circ}C$"
+  * Write "Qualcomm X70 / X75" instead of "Qualcomm $X70/\\times75$"
+- Mobile-friendly formatting: DO NOT use complex, wide 4-column tables that break on phone screens. Use clean 2-column key-value lists or bulleted summary cards instead.
 
 [Design Theme & Layout Dynamic Rules (MANDATORY)]
 - Assigned Theme: "${selectedTheme.name}"
 - Primary Accent Color: ${selectedTheme.primaryColor}
 - Layout Characteristic: ${selectedTheme.layout}
 - You MUST incorporate native Markdown and inline styled HTML callouts tailored to this theme.
-* Use custom styled tip/warning boxes (e.g., <div style="border-left: 4px solid ${selectedTheme.primaryColor}; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">...</div>).
-  * CRITICAL: All text inside callout/tip/warning boxes MUST be crisp dark charcoal/black (color: #111827) so it is 100% legible against any light background.
+- Use custom styled tip/warning boxes (e.g., <div style="border-left: 4px solid ${selectedTheme.primaryColor}; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">...</div>).
+  * CRITICAL: All text inside callout/tip/warning boxes MUST be crisp dark charcoal/black (color: #111827) so it is 100% legible against any background.
   * Structure the sections uniquely based on: "${selectedTheme.layout}".
 
 [Tone & Writing Style Rules (STRICT - NO AI VIBE)]
 1. Mandatory Opening:
    - Absolutely FORBIDDEN: Boring textbook intros like "Hello", "In this post", "Today we will look into", "~습니다" rigid style.
-   - You MUST start immediately with an intense, sweat-inducing real smartphone emergency scenario during work or transit (e.g., "10 minutes before a crucial call", "while rushing to a client meeting", "right when boarding a flight with 5% battery").
+   - You MUST start immediately with an intense, sweat-inducing real smartphone emergency scenario during work or transit (e.g., "10 minutes before a crucial call", "while rushing to a client meeting", "right when boarding with 5% battery").
 2. Tone & Voice:
-   - Write like a real employee venting in an anonymous workplace community (like Blind / Reddit / Bamboo) in a relatable, conversational 1st-person voice.
+   - Write like a real employee venting in an anonymous workplace community (like Blind / Reddit / 5ch) in a relatable, conversational 1st-person voice.
 3. Fast-Paced 3-Step Narrative:
-   - Step 1: Sudden mobile disaster (Opening story)
+   - Step 1: Sudden mobile disaster (Opening story set in ${lang.localeContext})
    - Step 2: Desperate trial-and-error & wasted hours (Real struggles)
    - Step 3: The breakthrough secret tip & actionable step-by-step resolution.
 
@@ -197,12 +220,19 @@ theme: "${selectedTheme.name}"
     if (text.startsWith('```markdown')) text = text.replace(/^```markdown\n/, '').replace(/\n```$/, '');
     if (text.startsWith('```')) text = text.replace(/^```\n/, '').replace(/\n```$/, '');
 
+    // 혹시라도 LLM이 LaTeX 수식 기호를 남겼을 경우를 대비한 안전 정규식 치환
+    text = text.replace(/\$([^$]+)\$/g, '$1')
+               .replace(/\\times/g, 'x')
+               .replace(/\\circ/g, '°')
+               .replace(/\\approx/g, '≈');
+
     const fmMatch = text.match(/^---[\s\S]*?---\n*/);
     if (fmMatch) {
       const frontmatter = fmMatch[0];
       let body = text.slice(frontmatter.length).trim();
       body = body.replace(/^#\s+[^\n]+\n+/, '');
 
+      // 본문 중간(2번째 큰 섹션 부근)에 스마트폰 관련 사진 안전 삽입
       const middleImageMarkdown = `\n\n![Smartphone Diagnostic & Troubleshooting](${bodyUrl})\n\n`;
       if (body.includes('## 2.') || body.includes('### 2.')) {
         body = body.replace(/(#{2,3}\s*2\.[^\n]+)/, `${middleImageMarkdown}$1`);
@@ -236,7 +266,7 @@ theme: "${selectedTheme.name}"
 
 async function run() {
   console.log("==================================================");
-  console.log("📱 2호기 모바일 12개국 초고속 자동 포스팅 파이프라인 시작");
+  console.log("📱 2호기 모바일 12개국 초고속 자동 포스팅 파이프라인 시작 (1,000종 스마트폰 이미지 + 현지화)");
   console.log("==================================================");
 
   let successCount = 0;
