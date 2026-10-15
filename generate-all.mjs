@@ -41,9 +41,9 @@ function getDistributedImages(langIndex, seedStr) {
   // 1부터 1000 사이의 고유 Seed 번호 연산
   const baseNum = (Math.abs(hash) % 1000) + 1;
   const coverSeed = ((baseNum + (langIndex * 73)) % 1000) + 1;
-  const bodySeed = ((coverSeed + 499) % 1000) + 1; // 커버와 겹치지 않는 본문 번호
+  const bodySeed = ((coverSeed + 499) % 1000) + 1;
 
-  // 엑박 원천 차단: Picsum 고유 Seed 이미지
+  // 엑박 원천 차단: Picsum 고유 Seed 이미지 (모바일 전용)
   const coverUrl = `https://picsum.photos/seed/phone${coverSeed}/1200/630`;
   const bodyUrl = `https://picsum.photos/seed/mobile${bodySeed}/1000/550`;
 
@@ -95,7 +95,7 @@ const TARGET_LANGS = [
   { code: 'it', name: 'Italian', persona: 'Tecnico riparatore smartphone italiano che spiega le soluzioni pratiche in modo semplice', osUi: 'Impostazioni > Schermo e luminosità, Batteria, Spazio, Comandi Rapidi', localeContext: 'Treno Frecciarossa (Milano-Roma), metro di Milano nell\'ora di punta, emergenze batteria prima dell\'incontro' },
   { code: 'pt', name: 'Portuguese', persona: 'Técnico de smartphones brasileiro gente boa que ensina a resolver perrengues de celular no dia a dia', osUi: 'Ajustes > Tela e Brilho, Bateria, Armazenamento, Atalhos', localeContext: 'Metrô de São Paulo, trânsito na Marginal Pinheiros/Paulista, celular esquentando no calor do transporte' },
   { code: 'nl', name: 'Dutch', persona: 'Nederlandse mobiele tech-specialist die smartphone-oplossingen in duidelijke mensentaal uitlegt', osUi: 'Instellingen > Scherm en helderheid, Batterij, Opslag, Opdrachten', localeContext: 'NS intercity trein (Utrecht-Amsterdam), Zuidas zakenwijk, drukke werkdagen' },
-  { code: 'pl', name: 'Polish', persona: 'Polski ekspert od smartfonów tłumaczący przydatne triki i naprawy w prosty sposób', osUi: 'Ustawienia > Ekran i jasność, Bateria, Pamięć, Skróty', localeContext: 'Pociąg PKP Intercity, warszawskie Mordor, kryzys z rozładowanym smartfonem w drodze do pracy' },
+  { code: 'pl', name: 'Polish', persona: 'Polski ekspert od smartfonów tłumaczący przydatne triki i naprawy w prosty 방식', osUi: 'Ustawienia > Ekran i jasność, Bateria, Pamięć, Skróty', localeContext: 'Pociąg PKP Intercity, warszawskie Mordor, kryzys z rozładowanym smartfonem w drodze do pracy' },
   { code: 'id', name: 'Indonesian', persona: 'Teknisi smartphone Indonesia yang berbagi solusi praktis dan mudah dipahami sehari-hari', osUi: 'Pengaturan > Tampilan & Kecerahan, Baterai, Penyimpanan, Pintasan', localeContext: 'KRL Commuter Line Jabodetabek, kemacetan Jakarta, baterai boros saat jam sibuk pulang kerja' },
   { code: 'vi', name: 'Vietnamese', persona: 'Chuyên viên kỹ thuật di động thực chiến chia sẻ mẹo dùng điện thoại cực kỳ dễ hiểu', osUi: 'Cài đặt > Màn hình & Độ sáng, Pin, Dung lượng, Phím tắt', localeContext: 'Giờ cao điểm kẹt xe Hà Nội / TP.HCM, điện thoại sập nguồn trước cuộc gọi quan trọng' }
 ];
