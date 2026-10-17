@@ -2,9 +2,9 @@ name: Auto Multi-Language Blog Publishing Pipeline
 
 on:
   schedule:
-    # 2호기 스케줄: 한국 시간 밤 21:28 (UTC 12:28) / 아침 06:28 (UTC 21:28)
-    # 1호기와 30분 시차를 두어 API 제한 회피 및 정각 병목 회피
-    - cron: '28 12,21 * * *'
+    # 2호기 스케줄: 한국 시간(KST) 매일 오후 3시 정각 (15:00 KST) 1회 발행
+    # UTC 기준: 06:00
+    - cron: '0 6 * * *'
 
   workflow_dispatch:
 
