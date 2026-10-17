@@ -1,7 +1,7 @@
 ---
 title: "Pantalla táctil del Samsung Galaxy no responde: Cómo reiniciarlo a la fuerza sin perder datos"
 description: "Aprende cómo forzar el reinicio de tu Samsung Galaxy cuando la pantalla táctil deja de responder, evitando perder tus archivos importantes en el último minuto."
-publishDate: "2026-10-16T14:45:00.000Z"
+publishDate: 2026-10-16T14:45:00.000Z
 image: "https://picsum.photos/seed/tech641/900/600"
 category: 'life-tech'
 tags: ["Samsung Galaxy", "Soporte Técnico", "Android", "Trucos de Hardware"]
