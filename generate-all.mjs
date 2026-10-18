@@ -11,7 +11,6 @@ if (!GEMINI_API_KEY) {
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 const POSTS_BASE_DIR = path.resolve('src/data/post');
 const TOPICS_FILE = path.resolve('topics.txt');
-const LOCAL_IMAGE_BASE_DIR = path.resolve('public/assets/images');
 
 if (!fs.existsSync(TOPICS_FILE)) {
   console.error("❌ topics.txt 파일이 존재하지 않습니다.");
@@ -30,41 +29,27 @@ const currentTopic = lines[0];
 console.log(`📌 오늘 처리할 주제 (2호기 라이프테크/트러블슈팅): "${currentTopic}"`);
 
 // =========================================================================
-// [2호기 전용] 무료 실사 하드웨어/트러블슈팅 AI 이미지 로컬 다운로드 로직
+// [2호기 전용] 검증된 고속 IT 트러블슈팅/라이프테크 실사 CDN 매핑
 // =========================================================================
-async function downloadAndSaveImage(promptText, saveRelativePath) {
-  const fullSavePath = path.resolve('public', saveRelativePath.replace(/^\//, ''));
-  const dir = path.dirname(fullSavePath);
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
+function getTechKeyword(topic = '') {
+  const t = topic.toLowerCase();
+  if (/외장|외장하드|usb|드라이브|용량|storage|ssd|disk/.test(t)) return 'external-hard-drive,ssd,usb';
+  if (/ram|메모리|부팅|화면|crash|blue screen|오류/.test(t)) return 'computer-repair,hardware,motherboard';
+  if (/키보드|마우스|입력|연결|bluetooth|cable/.test(t)) return 'computer-mouse,keyboard,workspace';
+  if (/모니터|디스플레이|hdmi|신호/.test(t)) return 'computer-monitor,dual-screen,cable';
+  if (/네트워크|wifi|인터넷|공유기|lan/.test(t)) return 'router,ethernet,network';
+  return 'technology,workspace,electronics';
+}
 
-  const encodedPrompt = encodeURIComponent(promptText);
-  const seed = Math.floor(Math.random() * 999999);
-  const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1200&height=675&nologo=true&seed=${seed}`;
+function getPostImages(topic, index) {
+  const kw = getTechKeyword(topic);
+  const sig1 = (index * 19 + 7) % 500;
+  const sig2 = (index * 29 + 17) % 500;
 
-  // 최대 3회 재시도 (다운로드 안전망 확보)
-  for (let attempt = 1; attempt <= 3; attempt++) {
-    try {
-      const response = await fetch(imageUrl, { signal: AbortSignal.timeout(25000) });
-      if (response.ok) {
-        const arrayBuffer = await response.arrayBuffer();
-        const buffer = Buffer.from(arrayBuffer);
-        if (buffer.length > 5000) {
-          fs.writeFileSync(fullSavePath, buffer);
-          // AstroWind 에셋 참조 경로 반환
-          return `~/assets/images/${saveRelativePath.replace(/^assets\/images\//, '')}`;
-        }
-      }
-    } catch (err) {
-      console.warn(`  ⚠️ [2호기 이미지] 다운로드 재시도 (${attempt}/3): ${err.message}`);
-      await delay(3000);
-    }
-  }
-
-  // 타임아웃 예외 발생 시 하드웨어 테크 전용 고화질 실사로 안전 대체
-  console.warn(`  ⚠️ AI 이미지 생성 지연, 하드웨어 트러블슈팅 실사로 안전 대체합니다.`);
-  return `https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1200&auto=format&fit=crop&q=80`;
+  return {
+    coverUrl: `https://images.unsplash.com/featured/1200x675/?${kw}&sig=${sig1}`,
+    bodyUrl: `https://images.unsplash.com/featured/1000x550/?${kw},repair&sig=${sig2}`
+  };
 }
 
 // 30가지 고유 시각 스타일 및 글 구조 테마 프리셋
@@ -144,16 +129,8 @@ async function generateSinglePost(lang, index) {
 
   console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 라이프테크 포스팅 생성 중... (적용 테마: ${selectedTheme.name})`);
 
-  // 1. 2호기 전용 트러블슈팅/하드웨어 상황 매칭 이미지 생성 및 로컬 다운로드
-  const coverPrompt = `A high quality realistic photograph of an IT workspace resolving ${currentTopic}, showing hardware device diagnostics, computer repair workbench, realistic soft office lighting, editorial photography, no text, no watermark`;
-  const bodyPrompt = `A close-up realistic photograph of hardware components, peripheral cable connection or disk repair setup related to ${currentTopic}, clean work desk, crisp details, no text`;
-
-  console.log(`  📸 2호기 주제 매칭 하드웨어 이미지 다운로드 중...`);
-  const coverRelativePath = `assets/images/${lang.code}/${fileSlug}-cover.jpg`;
-  const bodyRelativePath = `assets/images/${lang.code}/${fileSlug}-body.jpg`;
-
-  const coverUrl = await downloadAndSaveImage(coverPrompt, coverRelativePath);
-  const bodyUrl = await downloadAndSaveImage(bodyPrompt, bodyRelativePath);
+  // 고속 라이프테크 실사 이미지 즉시 배정 (다운로드 타임아웃 0초)
+  const { coverUrl, bodyUrl } = getPostImages(currentTopic, index);
 
   const postDate = new Date();
   const baseMinutes = 8 * 60 + 30 + Math.floor(index * 75);
@@ -186,12 +163,12 @@ ${currentTopic}
 
 [WRITING STYLE: PLAIN & PRACTICAL FOR EVERYDAY USERS]
 1. Plain & Easy Explanations:
-   - Avoid overly abstract technical jargon without explanation.
-   - Write in warm, friendly, everyday language that any user can easily follow.
-   - Give concrete settings, commands, or step-by-step clicks.
+    - Avoid overly abstract technical jargon without explanation.
+    - Write in warm, friendly, everyday language that any user can easily follow.
+    - Give concrete settings, commands, or step-by-step clicks.
 2. Laser-Focused Narrative:
-   - The opening emergency story MUST be 100% strictly about the assigned [Topic] (${currentTopic}).
-   - Keep the opening story centered around the exact moment this specific hardware/software error threatened the workday.
+    - The opening emergency story MUST be 100% strictly about the assigned [Topic] (${currentTopic}).
+    - Keep the opening story centered around the exact moment this specific hardware/software error threatened the workday.
 
 [TECHNICAL TEXT FORMATTING RULE (STRICT NO LATEX)]
 - ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters or academic math symbols (DO NOT use $, $$, \\times, \\approx, \\degree).
@@ -210,21 +187,21 @@ ${currentTopic}
 
 [Tone & Writing Style Rules (STRICT - NO AI VIBE)]
 1. Mandatory Opening:
-   - Absolutely FORBIDDEN: Boring textbook intros like "Hello", "In this post", "Today we will explore".
-   - Start immediately with an intense, relatable workplace emergency strictly about [Topic].
+    - Absolutely FORBIDDEN: Boring textbook intros like "Hello", "In this post", "Today we will explore".
+    - Start immediately with an intense, relatable workplace emergency strictly about [Topic].
 2. Tone & Voice:
-   - Write like a real colleague sharing an honest, battle-tested hardware/software fix.
+    - Write like a real colleague sharing an honest, battle-tested hardware/software fix.
 3. Fast-Paced 3-Step Narrative:
-   - Step 1: Sudden error regarding [Topic] set in ${lang.localeContext}.
-   - Step 2: Frustrating trial-and-error and root cause identification.
-   - Step 3: Clear, step-by-step resolution.
+    - Step 1: Sudden error regarding [Topic] set in ${lang.localeContext}.
+    - Step 2: Frustrating trial-and-error and root cause identification.
+    - Step 3: Clear, step-by-step resolution.
 
 [Content & Structure (AdSense E-E-A-T Compliant)]
 1. Opening Story: Intense real incident strictly regarding this topic.
 2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the issue.
 3. Step-by-Step Resolution:
-   - Use official local software/OS UI terminology matching: "${lang.osUi}".
-   - Provide exact configurations, setting steps, or hardware troubleshooting steps.
+    - Use official local software/OS UI terminology matching: "${lang.osUi}".
+    - Provide exact configurations, setting steps, or hardware troubleshooting steps.
 4. Expert Warning / Advice: Practical precautions regarding stability, data backup, or preventing recurrence.
 5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that everyday users would ask.
 
@@ -274,7 +251,7 @@ theme: "${selectedTheme.name}"
       let body = text.slice(frontmatter.length).trim();
       body = body.replace(/^#\s+[^\n]+\n+/, '');
 
-      // 2호기 카테고리 영구 고정 규칙 (life-tech)
+      // 2호기 영구 고정 규칙: category: 'life-tech'
       frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'life-tech'")
                                .replace(/category:\s*[^\n\r]+/i, "category: 'life-tech'");
 
@@ -307,7 +284,7 @@ theme: "${selectedTheme.name}"
 
     const filePath = path.join(targetDir, `${fileSlug}.md`);
     fs.writeFileSync(filePath, text, 'utf-8');
-    console.log(`✅ [성공] 2호기 저장 완료: src/data/post/${lang.code}/${fileSlug}.md (로컬 에셋 연동 완료)`);
+    console.log(`✅ [성공] 2호기 저장 완료: src/data/post/${lang.code}/${fileSlug}.md (라이프테크 이미지 적용 완료)`);
     return true;
   } catch (error) {
     console.error(`❌ [최종 실패] ${lang.name} 생성 실패:`, error.message);
