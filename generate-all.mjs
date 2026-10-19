@@ -12,6 +12,20 @@ const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 const POSTS_BASE_DIR = path.resolve('src/data/post');
 const TOPICS_FILE = path.resolve('topics.txt');
 
+// =========================================================================
+// [2호기 전용] 100% 무에러 영구 고정 Picsum 실사 CDN 매핑
+// =========================================================================
+function getPostImages(topic, index) {
+  const seedBase = Date.now().toString(36);
+  const coverSeed = `mob-${seedBase}-${index}-c`;
+  const bodySeed = `mob-${seedBase}-${index}-b`;
+
+  return {
+    coverUrl: `https://picsum.photos/seed/${coverSeed}/1200/675.jpg`,
+    bodyUrl: `https://picsum.photos/seed/${bodySeed}/1000/550.jpg`
+  };
+}
+
 if (!fs.existsSync(TOPICS_FILE)) {
   console.error("❌ topics.txt 파일이 존재하지 않습니다.");
   process.exit(1);
@@ -26,80 +40,21 @@ if (lines.length === 0) {
 }
 
 const currentTopic = lines[0];
-console.log(`📌 오늘 처리할 주제 (2호기 라이프테크/트러블슈팅): "${currentTopic}"`);
+console.log(`📌 오늘 처리할 주제 (2호기 Mobile): "${currentTopic}"`);
 
-// =========================================================================
-// [2호기 전용] 검증된 고속 IT 트러블슈팅/라이프테크 실사 CDN 매핑
-// =========================================================================
-function getTechKeyword(topic = '') {
-  const t = topic.toLowerCase();
-  if (/외장|외장하드|usb|드라이브|용량|storage|ssd|disk/.test(t)) return 'external-hard-drive,ssd,usb';
-  if (/ram|메모리|부팅|화면|crash|blue screen|오류/.test(t)) return 'computer-repair,hardware,motherboard';
-  if (/키보드|마우스|입력|연결|bluetooth|cable/.test(t)) return 'computer-mouse,keyboard,workspace';
-  if (/모니터|디스플레이|hdmi|신호/.test(t)) return 'computer-monitor,dual-screen,cable';
-  if (/네트워크|wifi|인터넷|공유기|lan/.test(t)) return 'router,ethernet,network';
-  return 'technology,workspace,electronics';
-}
-
-function getPostImages(topic, index) {
-  const kw = getTechKeyword(topic);
-  const sig1 = (index * 19 + 7) % 500;
-  const sig2 = (index * 29 + 17) % 500;
-
-  return {
-    coverUrl: `https://images.unsplash.com/featured/1200x675/?${kw}&sig=${sig1}`,
-    bodyUrl: `https://images.unsplash.com/featured/1000x550/?${kw},repair&sig=${sig2}`
-  };
-}
-
-// 30가지 고유 시각 스타일 및 글 구조 테마 프리셋
-const THEME_PRESETS = [
-  { id: 1, name: "Cyberpunk Terminal", primaryColor: "#00ffcc", bgColor: "#111827", layout: "CLI/터미널 스타일, 문제 해결 단축 경로 최상단 배치" },
-  { id: 2, name: "Modern Minimalist Slate", primaryColor: "#3b82f6", bgColor: "#f8fafc", layout: "미니멀 가이드 스타일, 여백 중심의 깔끔한 단계별 넘버링, 직관적 핵심 요약" },
-  { id: 3, name: "Industrial Blueprint", primaryColor: "#f59e0b", bgColor: "#1e293b", layout: "엔지니어링 청사진 스타일, 시스템 오류 원인 시각화, 쉬운 3단 비교표 포함" },
-  { id: 4, name: "Retro Monokai", primaryColor: "#a6e22e", bgColor: "#272822", layout: "개발자 에디터 스타일, 실전 명령어 코드 박스 중심 전개, 디버깅 팁" },
-  { id: 5, name: "Nordic Clean Ice", primaryColor: "#0284c7", bgColor: "#f0f9ff", layout: "북유럽 감성 클린 레이아웃, 인용구 중심 도입부, 실무 체크리스트" },
-  { id: 6, name: "Dark Velvet Obsidian", primaryColor: "#a855f7", bgColor: "#0f172a", layout: "고급 다크 모드, 전문가 독점 복구 팁 배너, 단계별 문제 해결 타임라인" },
-  { id: 7, name: "Crimson Emergency Field", primaryColor: "#ef4444", bgColor: "#fff1f2", layout: "긴급 오류 복구 매뉴얼 스타일, 위험 경고 박스 최우선 강조, FAQ 아코디언형" },
-  { id: 8, name: "Forest Emerald Bio", primaryColor: "#10b981", bgColor: "#f0fdf4", layout: "생활 효율 가이드 스타일, 시간 절약 지표 박스, 친절하고 명쾌한 어조" },
-  { id: 9, name: "Solarized Amber Warm", primaryColor: "#d97706", bgColor: "#fef3c7", layout: "실무 공방 노트 스타일, 실측 작업시간 단축 분석표, 초보자 세팅 팁" },
-  { id: 10, name: "Deep Ocean Cobalt", primaryColor: "#2563eb", bgColor: "#eff6ff", layout: "표준 소프트웨어 매뉴얼 지침서, 원인 분석 심층 다이어그램 텍스트, 권장 설정 안내" },
-  { id: 11, name: "Tokyo Neon Violet", primaryColor: "#8b5cf6", bgColor: "#2e1065", layout: "파워유저 최적화 스타일, 실행 속도 및 단축키 비교, 커스텀 세팅 팁" },
-  { id: 12, name: "Graphite Technical Paper", primaryColor: "#475569", bgColor: "#f1f5f9", layout: "깔끔한 기술 백서 스타일, 수식/코드 원인 가설 및 검증 절차, 표준화된 결론" },
-  { id: 13, name: "High-Contrast Charcoal", primaryColor: "#e11d48", bgColor: "#18181b", layout: "고대비 경보 스타일, 데이터 손실 방지 수칙, 긴급 롤백 팁 박스" },
-  { id: 14, name: "Warm Coffee Latte", primaryColor: "#78350f", bgColor: "#fefae0", layout: "초보자를 위한 친절한 오피스 수필 가이드, 쉬운 비유법, 차근차근 따라하기" },
-  { id: 15, name: "Steel Silver Metallic", primaryColor: "#64748b", bgColor: "#e2e8f0", layout: "공식 기술지원 티켓 스타일, 증상 체크리스트, 사전 자가진단표" },
-  { id: 16, name: "Sunset Horizon Coral", primaryColor: "#f97316", bgColor: "#fff7ed", layout: "생산성 꿀팁 세팅 스타일, 전후 비교 표, 추천 세팅 모음 배너" },
-  { id: 17, name: "Mint Fresh Engineering", primaryColor: "#059669", bgColor: "#ecfdf5", layout: "가벼운 워크플로우 최적화 매뉴얼, 불필요한 단계 정리 팁, 명쾌한 솔루션" },
-  { id: 18, name: "Midnight Navy Royal", primaryColor: "#1d4ed8", bgColor: "#172554", layout: "야간 배포 로그 스타일, 치명적 시스템 에러 극복 타임스탬프, 재발 방지책" },
-  { id: 19, name: "Matte Black stealth", primaryColor: "#ffffff", bgColor: "#09090b", layout: "전문 실무 가이드 스타일, 불필요한 서술 배제, 직관적인 단계별 설명" },
-  { id: 20, name: "Teal Matrix Digital", primaryColor: "#14b8a6", bgColor: "#042f2e", layout: "기기 및 데이터 연동 분석 스타일, 하드웨어 점검 체크리스트" },
-  { id: 21, name: "Pastel Lavender Tech", primaryColor: "#7c3aed", bgColor: "#faf5ff", layout: "사용자 경험 중심 가이드, 사용자가 가장 자주 묻는 질문 5선 최상단 요약 배치" },
-  { id: 22, name: "Bronze Artisan Workshop", primaryColor: "#b45309", bgColor: "#fffbeb", layout: "기기 튜닝 가이드, 하드웨어 분해/조립 시 주의 박스, 준비물 목록" },
-  { id: 23, name: "Cobalt Enterprise Lab", primaryColor: "#1e40af", bgColor: "#dbeafe", layout: "엔터프라이즈 실사용 테크 리포트 형식, 비용 및 수명 절감 수치 인용" },
-  { id: 24, name: "Rosewood Hardware Guide", primaryColor: "#be123c", bgColor: "#ffe4e6", layout: "하드웨어 매니아 분석기, 버전별/플랫폼별 기능 차이점 설명, 설정 기준표" },
-  { id: 25, name: "Deep Indigo System", primaryColor: "#4338ca", bgColor: "#e0e7ff", layout: "운영체제 최적화 파이프라인 분석 형식, 불필요한 백그라운드 병목 식별법" },
-  { id: 26, name: "Acid Lime Hacker Space", primaryColor: "#84cc16", bgColor: "#14532d", layout: "유용한 무료 유틸리티 가이드, 안전한 데이터 복구 안내" },
-  { id: 27, name: "Sandstone Desert Minimal", primaryColor: "#a16207", bgColor: "#fefce8", layout: "깔끔한 실무 매뉴얼 스타일, 소제목 하단 1줄 핵심 팁 강조 배너" },
-  { id: 28, name: "Dracula Purple Dev", primaryColor: "#bd93f9", bgColor: "#282a36", layout: "전통 드라큘라 테마 스타일, 필수 단축키 및 복구 명령 하이라이트" },
-  { id: 29, name: "Electric Cyan Speed", primaryColor: "#06b6d4", bgColor: "#ecfeff", layout: "초고속 1분 해결 가이드 형식, 빠른 조치법 -> 심층 세팅 2단계 분리" },
-  { id: 30, name: "Pure Titanium Clean", primaryColor: "#334155", bgColor: "#ffffff", layout: "초고화질 매뉴얼 스타일, 볼드 타이포그래피 강조, 깔끔한 구분선" }
-];
-
-// 글로벌 12개국 페르소나 및 실무 환경
 const TARGET_LANGS = [
-  { code: 'ko', name: 'Korean', persona: '친절하고 경험 많은 IT/하드웨어 트러블슈팅 전문가 (내돈내산 실전 테크 장인)', osUi: '설정 > 시스템, 장치 관리자, 디스크 관리, 명령 프롬프트', localeContext: '서울/판교 IT 기업, 중요한 업무 작업 중 PC/외장기기 오류로 식은땀 나는 상황' },
-  { code: 'en', name: 'English', persona: 'Friendly Silicon Valley hardware & tech troubleshooting specialist sharing real-world fixes', osUi: 'Settings > System, Device Manager, Disk Management, Command Prompt', localeContext: 'Silicon Valley tech office / Austin tech hub, urgent presentation blocked by a device error' },
-  { code: 'ja', name: 'Japanese', persona: 'PCトラブルや周辺機器の設定を分かりやすく解決する現役ITサポートエンジニア', osUi: '設定 > システム, デバイス マネージャー, ディスクの管理, コマンド プロンプト', localeContext: '秋葉原・丸の内のオフィス, クライアント提出直前に外付けSSDが認識しない緊急事態' },
-  { code: 'de', name: 'German', persona: 'Praxisnaher deutscher Hardware- und IT-Troubleshooting-Experte', osUi: 'Einstellungen > System, Geräte-Manager, Datenträgerverwaltung, Eingabeaufforderung', localeContext: 'Münchner Tech-Unternehmen, akuter Hardwarefehler vor dem wichtigen Kundentermin' },
-  { code: 'fr', name: 'French', persona: 'Spécialiste support technique et matériel expliquant les dépannages informatiques', osUi: 'Paramètres > Système, Gestionnaire de périphériques, Gestion des disques, Invite de commandes', localeContext: 'Bureau à Paris, panique suite à un périphérique bloqué juste avant une réunion stratégique' },
-  { code: 'es', name: 'Spanish', persona: 'Especialista en soporte técnico y hardware que explica soluciones paso a paso', osUi: 'Configuración > Sistema, Administrador de dispositivos, Administración de discos, Símbolo del sistema', localeContext: 'Oficina en Madrid / Barcelona, fallo crítico de almacenamiento minutos antes de entregar el informe' },
-  { code: 'it', name: 'Italian', persona: 'Esperto di supporto IT e periferiche che risolve i problemi tecnologici quotidiani', osUi: 'Impostazioni > Sistema, Gestione dispositivi, Gestione disco, Prompt dei comandi', localeContext: 'Ufficio a Milano, corsa contro il tempo per ripristinare il PC bloccato prima del meeting' },
-  { code: 'pt', name: 'Portuguese', persona: 'Especialista em suporte de informática e periféricos com soluções diretas e práticas', osUi: 'Configurações > Sistema, Gerenciador de Dispositivos, Gerenciamento de Disco, Prompt de Comando', localeContext: 'Escritório corporativo em São Paulo, erro de leitura de dados no meio do expediente corrido' },
-  { code: 'nl', name: 'Dutch', persona: 'Nederlandse tech-support en hardware specialist met heldere stapsgewijze oplossingen', osUi: 'Instellingen > Systeem, Apparaatbeheer, Schijfbeheer, Opdrachtprompt', localeContext: 'Amsterdam tech-kantoor, acuut verbindingsprobleem met randapparatuur vlak voor een deadline' },
-  { code: 'pl', name: 'Polish', persona: 'Polski ekspert od diagnostyki komputerowej i sprzętu tłumaczący naprawy krok po kroku', osUi: 'Ustawienia > System, Menedżer urządzeń, Zarządzanie dyskami, Wiersz polecenia', localeContext: 'Warszawskie biuro, awaria sprzętu komputerowego tuż przed ważną prezentacją projektu' },
-  { code: 'id', name: 'Indonesian', persona: 'Teknisi komputer dan periferal praktis yang berbagi cara mengatasi error sehari-hari', osUi: 'Pengaturan > Sistem, Device Manager, Disk Management, Command Prompt', localeContext: 'Kantor bisnis di Jakarta, panik saat drive eksternal tidak terbaca sebelum laporan dikirim' },
-  { code: 'vi', name: 'Vietnamese', persona: 'Chuyên viên kỹ thuật máy tính và phần cứng thực chiến hướng dẫn khắc phục sự cố', osUi: 'Cài đặt > Hệ thống, Trình quản lý thiết bị, Quản lý ổ đĩa, Dấu nhắc lệnh', localeContext: 'Văn phòng tại TP.HCM, áp lực giải quyết lỗi ổ cứng trước khi sếp kiểm tra dữ liệu' }
+  { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상, 스마트폰 고속 충전 먹통 및 발열 문제' },
+  { code: 'en', name: 'English', persona: 'Expert mobile repair technician and smartphone specialist', localeContext: 'US tech office, sudden charging port failure before important meeting' },
+  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシューティングの専門家', localeContext: '東京のオフィス街、外出直前のスマホ急速充電エラー' },
+  { code: 'de', name: 'German', persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker', localeContext: 'Berlin / München Büro, USB-C Ladebuchsen-Defekt' },
+  { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense, panne de charge rapide sur mobile' },
+  { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid oficina, problemas de puerto de carga en el smartphone' },
+  { code: 'it', name: 'Italian', persona: 'Tecnico esperto in riparazione e diagnostica smartphone', localeContext: 'Milano centro direzionale, malfunzionamento della ricarica' },
+  { code: 'pt', name: 'Portuguese', persona: 'Técnico experiente em reparação de celulares e hardware móvel', localeContext: 'São Paulo ambiente corporativo, conector de carga emperrado' },
+  { code: 'nl', name: 'Dutch', persona: 'Smartphone reparatiespecialist en mobiele hardware-expert', localeContext: 'Amsterdam Zuidas, laadproblemen met smartphone' },
+  { code: 'pl', name: 'Polish', persona: 'Serwisant urządzeń mobilnych i smartfonów', localeContext: 'Warszawa centrum, problem z gniazdem ładowania' },
+  { code: 'id', name: 'Indonesian', persona: 'Teknisi profesional perbaikan smartphone dan gadget', localeContext: 'Jakarta kawasan bisnis, masalah port charger longgar' },
+  { code: 'vi', name: 'Vietnamese', persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm', localeContext: 'Văn phòng TP.HCM, lỗi sạc nhanh cổng type C' }
 ];
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
@@ -114,22 +69,16 @@ async function fetchWithRetry(prompt, maxRetries = 15, delayMs = 20000) {
       });
       return response.text;
     } catch (error) {
-      console.warn(`⚠️ [호출 지연/에러] 시도 ${attempt}/${maxRetries}: ${error.message}`);
-      if (attempt === maxRetries) {
-        throw error;
-      }
-      console.log(`⏳ ${delayMs / 1000}초 동안 대기 후 다시 시도합니다...`);
+      console.warn(`⚠️ [호출 재시도] ${attempt}/${maxRetries}: ${error.message}`);
+      if (attempt === maxRetries) throw error;
       await delay(delayMs);
     }
   }
 }
 
 async function generateSinglePost(lang, index) {
-  const selectedTheme = THEME_PRESETS[Math.floor(Math.random() * THEME_PRESETS.length)];
+  console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 모바일 포스팅 생성 중... (Picsum 실사 적용)`);
 
-  console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 라이프테크 포스팅 생성 중... (적용 테마: ${selectedTheme.name})`);
-
-  // 고속 라이프테크 실사 이미지 즉시 배정 (다운로드 타임아웃 0초)
   const { coverUrl, bodyUrl } = getPostImages(currentTopic, index);
 
   const postDate = new Date();
@@ -139,90 +88,40 @@ async function generateSinglePost(lang, index) {
 
   const prompt = `
 You are a ${lang.persona}.
-Write a highly practical, conversational, 1st-person hardware/tech troubleshooting guide natively in ${lang.name}.
-CRITICAL: DO NOT translate literally from Korean. Write completely from scratch as an authentic native professional working in THAT specific country/culture.
+Write a highly practical, conversational, 1st-person mobile hardware troubleshooting guide natively in ${lang.name}.
+CRITICAL: DO NOT translate literally from Korean. Write completely from scratch as an authentic native technician.
 
 [Topic]
 ${currentTopic}
 
-[CRITICAL LOCALIZATION & REAL WORLD WORKPLACE CONTEXT (MANDATORY)]
-- Target Locale Context: "${lang.localeContext}"
-- ABSOLUTELY FORBIDDEN for non-Korean languages:
-  * NEVER mention Korean infrastructure, companies, or services (NO Seoul, NO Kakao, NO Naver) in non-Korean languages.
-  * Your opening story MUST naturally incorporate the authentic local environment:
-    - English (en): Silicon Valley / NYC corporate offices, executive syncs, Slack threads.
-    - Japanese (ja): Marunouchi / Shinagawa offices, urgent monthly deadlines.
-    - German (de): Frankfurt / Munich tech district, quarterly presentations.
-    - And corresponding native business context for other languages.
-  * The protagonist must be 100% perceived as a local professional of that country.
+[Workplace Scenario]
+Context: "${lang.localeContext}"
 
-[CRITICAL OUTPUT LANGUAGE INTEGRITY - ZERO HANGUL IN GLOBAL POSTS]
-- If target language is NOT Korean (ko):
-  * Absolutely NEVER include any Korean Hangul characters (가-힣) anywhere in the title, description, tags, or body.
-  * Every single character in the title and description MUST strictly be in native ${lang.name}.
+[Strict Output Language Rules]
+- Non-Korean posts MUST NOT contain any Korean characters (가-힣).
 
-[WRITING STYLE: PLAIN & PRACTICAL FOR EVERYDAY USERS]
-1. Plain & Easy Explanations:
-    - Avoid overly abstract technical jargon without explanation.
-    - Write in warm, friendly, everyday language that any user can easily follow.
-    - Give concrete settings, commands, or step-by-step clicks.
-2. Laser-Focused Narrative:
-    - The opening emergency story MUST be 100% strictly about the assigned [Topic] (${currentTopic}).
-    - Keep the opening story centered around the exact moment this specific hardware/software error threatened the workday.
+[Structure]
+1. Opening emergency panic scenario strictly about ${currentTopic}.
+2. 3 Realistic root causes.
+3. Actionable step-by-step diagnostic and cleaning/repair steps.
+4. Expert safety tips (battery/pin protection).
+5. 3 Practical FAQs.
 
-[TECHNICAL TEXT FORMATTING RULE (STRICT NO LATEX)]
-- ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters or academic math symbols (DO NOT use $, $$, \\times, \\approx, \\degree).
-- Always use plain, human-readable numbers, commands, and units:
-  * Write "A1 * B1" instead of "$A1 \\times B1$"
-  * Write "42°C" instead of "$42^{\\circ}C$"
-- Clean 2-column key-value lists or bulleted cards instead of overly wide 4-column tables that break on mobile screens.
+[Length]
+- Korean: Minimum 2,500 characters.
+- Global: 1,200 - 1,500 words.
 
-[Design Theme & Layout Dynamic Rules (MANDATORY)]
-- Assigned Theme: "${selectedTheme.name}"
-- Primary Accent Color: ${selectedTheme.primaryColor}
-- Layout Characteristic: ${selectedTheme.layout}
-- You MUST incorporate native Markdown and inline styled HTML callouts tailored to this theme.
-- Use custom styled tip/warning boxes (e.g., <div style="border-left: 4px solid ${selectedTheme.primaryColor}; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">...</div>).
-  * CRITICAL: All text inside callout/tip/warning boxes MUST be crisp dark charcoal/black (color: #111827) so it is 100% legible against any background.
-
-[Tone & Writing Style Rules (STRICT - NO AI VIBE)]
-1. Mandatory Opening:
-    - Absolutely FORBIDDEN: Boring textbook intros like "Hello", "In this post", "Today we will explore".
-    - Start immediately with an intense, relatable workplace emergency strictly about [Topic].
-2. Tone & Voice:
-    - Write like a real colleague sharing an honest, battle-tested hardware/software fix.
-3. Fast-Paced 3-Step Narrative:
-    - Step 1: Sudden error regarding [Topic] set in ${lang.localeContext}.
-    - Step 2: Frustrating trial-and-error and root cause identification.
-    - Step 3: Clear, step-by-step resolution.
-
-[Content & Structure (AdSense E-E-A-T Compliant)]
-1. Opening Story: Intense real incident strictly regarding this topic.
-2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the issue.
-3. Step-by-Step Resolution:
-    - Use official local software/OS UI terminology matching: "${lang.osUi}".
-    - Provide exact configurations, setting steps, or hardware troubleshooting steps.
-4. Expert Warning / Advice: Practical precautions regarding stability, data backup, or preventing recurrence.
-5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that everyday users would ask.
-
-[Length & Richness Rules]
-- Korean (ko): Minimum 2,500 characters of rich, deep, non-repetitive text.
-- Other languages: 1,200 to 1,500 words of thorough practical explanation.
-
-[Strict Output Format]
-Return ONLY raw Markdown. DO NOT wrap the output in markdown code fences. DO NOT include the post title as an H1 (# Title) in the body. Begin immediately with the frontmatter:
-
+[Format]
+Return raw Markdown starting with frontmatter:
 ---
-title: "Native Catchy Title in ${lang.name}"
-description: "Native concise description in ${lang.name} under 160 characters"
+title: "Catchy Title in ${lang.name}"
+description: "Brief summary in ${lang.name} under 160 chars"
 publishDate: ${pubDateIso}
 image: "${coverUrl}"
-category: "life-tech"
-tags: ["Tech", "Hardware", "Troubleshooting", "Guide"]
-theme: "${selectedTheme.name}"
+category: "mobile"
+tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
 ---
-
-(Body starts directly here without H1 header)
+(Body starts here)
 `;
 
   try {
@@ -231,18 +130,11 @@ theme: "${selectedTheme.name}"
     if (text.startsWith('```markdown')) text = text.replace(/^```markdown\n/, '').replace(/\n```$/, '');
     if (text.startsWith('```')) text = text.replace(/^```\n/, '').replace(/\n```$/, '');
 
-    text = text.replace(/\$([^$]+)\$/g, '$1')
-               .replace(/\\times/g, 'x')
-               .replace(/\\circ/g, '°')
-               .replace(/\\approx/g, '≈');
+    text = text.replace(/\$([^$]+)\$/g, '$1');
 
     if (lang.code !== 'ko') {
-      text = text.replace(/(title:\s*")([^"]*)(")/g, (match, p1, p2, p3) => {
-        return `${p1}${p2.replace(/[가-힣]+/g, '').trim()}${p3}`;
-      });
-      text = text.replace(/(description:\s*")([^"]*)(")/g, (match, p1, p2, p3) => {
-        return `${p1}${p2.replace(/[가-힣]+/g, '').trim()}${p3}`;
-      });
+      text = text.replace(/(title:\s*")([^"]*)(")/g, (match, p1, p2, p3) => `${p1}${p2.replace(/[가-힣]+/g, '').trim()}${p3}`);
+      text = text.replace(/(description:\s*")([^"]*)(")/g, (match, p1, p2, p3) => `${p1}${p2.replace(/[가-힣]+/g, '').trim()}${p3}`);
     }
 
     const fmMatch = text.match(/^---[\s\S]*?---\n*/);
@@ -251,27 +143,19 @@ theme: "${selectedTheme.name}"
       let body = text.slice(frontmatter.length).trim();
       body = body.replace(/^#\s+[^\n]+\n+/, '');
 
-      // 2호기 영구 고정 규칙: category: 'life-tech'
-      frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'life-tech'")
-                               .replace(/category:\s*[^\n\r]+/i, "category: 'life-tech'");
+      frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'mobile'")
+                               .replace(/category:\s*[^\n\r]+/i, "category: 'mobile'");
 
-      // Cloudflare 빌드 실패 방지: publishDate 따옴표 제거
       frontmatter = frontmatter.replace(/publishDate:\s*["']([^"']+)["']/i, "publishDate: $1");
-
-      // 대표 이미지 경로 강제 동기화
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      const middleImageMarkdown = `\n\n![${currentTopic} Hardware & Tech Guide](${bodyUrl})\n\n`;
-      if (body.includes('## 2.') || body.includes('### 2.')) {
-        body = body.replace(/(#{2,3}\s*2\.[^\n]+)/, `${middleImageMarkdown}$1`);
+      const middleImageMarkdown = `\n\n![${currentTopic} Guide](${bodyUrl})\n\n`;
+      const paragraphs = body.split('\n\n');
+      if (paragraphs.length >= 3) {
+        paragraphs.splice(2, 0, middleImageMarkdown.trim());
+        body = paragraphs.join('\n\n');
       } else {
-        const paragraphs = body.split('\n\n');
-        if (paragraphs.length >= 3) {
-          paragraphs.splice(2, 0, middleImageMarkdown.trim());
-          body = paragraphs.join('\n\n');
-        } else {
-          body = `${middleImageMarkdown}${body}`;
-        }
+        body = `${middleImageMarkdown}${body}`;
       }
 
       text = `${frontmatter}\n${body}\n`;
@@ -284,36 +168,31 @@ theme: "${selectedTheme.name}"
 
     const filePath = path.join(targetDir, `${fileSlug}.md`);
     fs.writeFileSync(filePath, text, 'utf-8');
-    console.log(`✅ [성공] 2호기 저장 완료: src/data/post/${lang.code}/${fileSlug}.md (라이프테크 이미지 적용 완료)`);
+    console.log(`✅ [저장 완료] 2호기: src/data/post/${lang.code}/${fileSlug}.md (Picsum 적용)`);
     return true;
   } catch (error) {
-    console.error(`❌ [최종 실패] ${lang.name} 생성 실패:`, error.message);
+    console.error(`❌ [생성 실패] ${lang.name}:`, error.message);
     return false;
   }
 }
 
 async function run() {
   console.log("==================================================");
-  console.log("⚡ 2호기 라이프테크/트러블슈팅 12개국 자동 포스팅 파이프라인 시작");
+  console.log("⚡ 2호기 Mobile 12개국 Picsum 자동 포스팅 파이프라인 시작");
   console.log("==================================================");
 
   let successCount = 0;
-
   for (let i = 0; i < TARGET_LANGS.length; i++) {
     const isSuccess = await generateSinglePost(TARGET_LANGS[i], i);
     if (isSuccess) successCount++;
-    if (i < TARGET_LANGS.length - 1) {
-      await delay(5000);
-    }
+    if (i < TARGET_LANGS.length - 1) await delay(5000);
   }
 
   if (successCount > 0) {
     lines.shift();
     fs.writeFileSync(TOPICS_FILE, lines.join('\n'), 'utf-8');
-    console.log(`\n🧹 총 ${successCount}개국 포스팅 완료. topics.txt에서 주제를 삭제했습니다.`);
-    console.log(`📊 남은 주제 수: ${lines.length}개`);
+    console.log(`\n🧹 총 ${successCount}개국 포스팅 완료. topics.txt 갱신.`);
   } else {
-    console.error("\n❌ 모든 언어 생성이 실패하여 topics.txt를 유지합니다.");
     process.exit(1);
   }
 }
