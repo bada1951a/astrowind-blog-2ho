@@ -40,7 +40,7 @@ if (lines.length === 0) {
 }
 
 const currentTopic = lines[0];
-console.log(`📌 오늘 처리할 주제 (2호기 Mobile): "${currentTopic}"`);
+console.log(`📌 오늘 처리할 주제 (2호기 Life & Tech): "${currentTopic}"`);
 
 const TARGET_LANGS = [
   { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상, 스마트폰 고속 충전 먹통 및 발열 문제' },
@@ -50,7 +50,7 @@ const TARGET_LANGS = [
   { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense, panne de charge rapide sur mobile' },
   { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid oficina, problemas de puerto de carga en el smartphone' },
   { code: 'it', name: 'Italian', persona: 'Tecnico esperto in riparazione e diagnostica smartphone', localeContext: 'Milano centro direzionale, malfunzionamento della ricarica' },
-  { code: 'pt', name: 'Portuguese', persona: 'Técnico experiente em reparação de celulares e hardware móvel', localeContext: 'São Paulo ambiente corporativo, conector de carga emperrado' },
+  { code: 'pt', name: 'Portuguese', persona: 'Técnico experiente em reparação de celulares e hardware móvel', localeContext: 'São Paulo ambiente corporativo, conector de charge emperrado' },
   { code: 'nl', name: 'Dutch', persona: 'Smartphone reparatiespecialist en mobiele hardware-expert', localeContext: 'Amsterdam Zuidas, laadproblemen met smartphone' },
   { code: 'pl', name: 'Polish', persona: 'Serwisant urządzeń mobilnych i smartfonów', localeContext: 'Warszawa centrum, problem z gniazdem ładowania' },
   { code: 'id', name: 'Indonesian', persona: 'Teknisi profesional perbaikan smartphone dan gadget', localeContext: 'Jakarta kawasan bisnis, masalah port charger longgar' },
@@ -77,7 +77,7 @@ async function fetchWithRetry(prompt, maxRetries = 15, delayMs = 20000) {
 }
 
 async function generateSinglePost(lang, index) {
-  console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 모바일 포스팅 생성 중... (Picsum 실사 적용)`);
+  console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 포스팅 생성 중... (Picsum 실사 적용)`);
 
   const { coverUrl, bodyUrl } = getPostImages(currentTopic, index);
 
@@ -118,7 +118,7 @@ title: "Catchy Title in ${lang.name}"
 description: "Brief summary in ${lang.name} under 160 chars"
 publishDate: ${pubDateIso}
 image: "${coverUrl}"
-category: "mobile"
+category: "Life & Tech"
 tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
 ---
 (Body starts here)
@@ -143,13 +143,17 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
       let body = text.slice(frontmatter.length).trim();
       body = body.replace(/^#\s+[^\n]+\n+/, '');
 
-      frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'mobile'")
-                               .replace(/category:\s*[^\n\r]+/i, "category: 'mobile'");
+      // 2호기 영구 고정 단일 카테고리: Life & Tech
+      frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'Life & Tech'")
+                               .replace(/category:\s*[^\n\r]+/i, "category: 'Life & Tech'");
 
       frontmatter = frontmatter.replace(/publishDate:\s*["']([^"']+)["']/i, "publishDate: $1");
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      const middleImageMarkdown = `\n\n![${currentTopic} Guide](${bodyUrl})\n\n`;
+      // 이미지 alt 텍스트 특수문자 제거 방어 로직
+      const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
+      const middleImageMarkdown = `\n\n![${safeAlt} Guide](${bodyUrl})\n\n`;
+
       const paragraphs = body.split('\n\n');
       if (paragraphs.length >= 3) {
         paragraphs.splice(2, 0, middleImageMarkdown.trim());
@@ -168,7 +172,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
 
     const filePath = path.join(targetDir, `${fileSlug}.md`);
     fs.writeFileSync(filePath, text, 'utf-8');
-    console.log(`✅ [저장 완료] 2호기: src/data/post/${lang.code}/${fileSlug}.md (Picsum 적용)`);
+    console.log(`✅ [저장 완료] 2호기: src/data/post/${lang.code}/${fileSlug}.md (카테고리: Life & Tech / Picsum 적용)`);
     return true;
   } catch (error) {
     console.error(`❌ [생성 실패] ${lang.name}:`, error.message);
@@ -178,7 +182,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
 
 async function run() {
   console.log("==================================================");
-  console.log("⚡ 2호기 Mobile 12개국 Picsum 자동 포스팅 파이프라인 시작");
+  console.log("⚡ 2호기 Life & Tech 12개국 Picsum 자동 포스팅 파이프라인 시작");
   console.log("==================================================");
 
   let successCount = 0;
