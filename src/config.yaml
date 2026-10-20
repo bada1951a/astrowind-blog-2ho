@@ -1,6 +1,6 @@
 site:
-  name: '🚀 Daily Prompt Hack'
-  site: 'https://prompt.storydailyview.com'
+  name: 'Story Daily Tech'
+  site: 'https://m.storydailyview.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Metadata
 metadata:
   title:
-    default: 'Daily Prompt Hack'
-    template: '%s — Daily Prompt Hack'
-  description: 'Practical AI Prompt Engineering Guides, LLM Automation Workflows, and Productivity Hacks.'
+    default: 'Story Daily Tech'
+    template: '%s — Story Daily Tech'
+  description: 'Practical Life & Tech Insights, Mobile Diagnostics, and Real-World Troubleshooting.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: 'Daily Prompt Hack'
+    site_name: 'Story Daily Tech'
     type: website
 
 i18n:
