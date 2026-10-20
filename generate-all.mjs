@@ -43,7 +43,7 @@ const currentTopic = lines[0];
 console.log(`📌 오늘 처리할 주제 (2호기 Life & Tech): "${currentTopic}"`);
 
 // =========================================================================
-// 30가지 고유 시각 스타일 및 레이아웃 프리셋 (모바일 수리/하드웨어 최적화)
+// 30가지 고유 시각 스타일 및 레이아웃 프리셋 (모바일 하드웨어/수리 최적화)
 // =========================================================================
 const THEME_PRESETS = [
   { id: 1, name: "Cyberpunk Terminal", primaryColor: "#00ffcc", bgColor: "#111827", layout: "CLI/진단기 로그 스타일, 하드웨어 점검 단축 경로 최상단 배치" },
@@ -230,7 +230,7 @@ theme: "${selectedTheme.name}"
       // 대표 이미지 경로 강제 동기화
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // 이미지 alt 텍스트 특수문자 제거 방어 로직
+      // 이미지 alt 텍스트 특수문자 제거 방어 로직 (마크다운 깨짐 방지)
       const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
       const middleImageMarkdown = `\n\n![${safeAlt} Mobile Repair Guide](${bodyUrl})\n\n`;
 
