@@ -1,7 +1,7 @@
 ---
 title: "iPhone szybko rozładowuje się po aktualizacji iOS? Poradnik serwisu z Warszawy"
 description: "Twój iPhone gubi baterię w oczach po update systemu? Sprawdzone metody i diagnoza z serwisu w centrum Warszawy."
-publishDate: 2026-10-21T19:45:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqfb30-9-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["Serwis iPhone", "Bateria", "iOS Update", "Naprawa telefonów", "Warszawa"]
