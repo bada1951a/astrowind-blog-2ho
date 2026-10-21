@@ -21,8 +21,8 @@ function getPostImages(topic, index) {
   const bodySeed = `mob-${seedBase}-${index}-b`;
 
   return {
-    coverUrl: `[https://picsum.photos/seed/$](https://picsum.photos/seed/$){coverSeed}/1200/675.jpg`,
-    bodyUrl: `[https://picsum.photos/seed/$](https://picsum.photos/seed/$){bodySeed}/1000/550.jpg`
+    coverUrl: `https://picsum.photos/seed/${coverSeed}/1200/675.jpg`,
+    bodyUrl: `https://picsum.photos/seed/${bodySeed}/1000/550.jpg`
   };
 }
 
@@ -46,20 +46,14 @@ function getKstPublishDateIso(index) {
 function sanitizeMarkdownFormatting(content) {
   let cleaned = content;
 
-  // 1) 3개 이상 연달아 붙은 별표(***) 정제 -> **로 통일
   cleaned = cleaned.replace(/\*{3,}/g, '**');
-
-  // 2) 별표 안쪽에 특수기호나 따옴표가 어긋나게 갇힌 경우 정제
   cleaned = cleaned.replace(/\*\*\[([^\]]+)\]\*\*/g, '[**$1**]');
   cleaned = cleaned.replace(/\*\*"([^"]+)"\*\*/g, '"**$1**"');
   cleaned = cleaned.replace(/\*\*'([^']+)'\*\*/g, '\'**$1**\'');
-
-  // 3) 별표 시작 뒤 또는 끝 바로 앞에 공백이 있어 마크다운이 파싱되지 않는 경우 정제
   cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\s+\*\*/g, '**$1**');
   cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\*\*/g, '**$1**');
   cleaned = cleaned.replace(/\*\*([^\*\n]+?)\s+\*\*/g, '**$1**');
 
-  // 4) 짝이 맞지 않는 고립된 단일 ** 제거 (홀수 개수로 남는 경우 방지)
   const lines = cleaned.split('\n');
   const fixedLines = lines.map(line => {
     if (line.trim().startsWith('```') || line.trim().startsWith('`')) return line;
@@ -91,8 +85,49 @@ const currentTopic = lines[0];
 console.log(`📌 오늘 처리할 주제 (2호기 Life & Tech): "${currentTopic}"`);
 
 // =========================================================================
-// 30가지 고유 시각 스타일 및 레이아웃 프리셋 (모바일 하드웨어/수리 최적화)
+// [도입부 다양화] 2호기 모바일/스마트폰 현실 위기 시나리오 30개 풀
 // =========================================================================
+const MOBILE_CRISIS_SCENARIOS_30 = [
+  // [1~8: 배터리 및 긴급 외출 위기]
+  "중요한 외부 미팅을 위해 거래처로 이동하기 10분 전, 스마트폰 배터리가 3%밖에 남지 않아 초조한 순간",
+  "공항 탑승구 앞에서 모바일 탑승권과 여권을 띄워야 하는데 화면 밝기가 급격히 떨어지며 기기가 꺼지려 할 때",
+  "KTX 열차 안에서 좌석 콘센트에 고속 충전기를 꽂았지만 '충전 중이 아님' 경고창이 깜빡거릴 때",
+  "퇴근길 지하철에서 대중교통 모바일 교통카드 결제를 태그해야 하는 순간 터치가 먹통이 된 상황",
+  "주말 장거리 고속도로 주행 중 차량용 거치대에서 내비게이션을 보던 스마트폰이 고온 경고와 함께 종료될 때",
+  "카페에서 급한 업무 전화를 연속으로 받던 중 충전 케이블을 연결해도 배터리 퍼센트가 계속 깎여나가는 순간",
+  "외근 중 배터리 공유를 위해 보조배터리를 연결했으나 단자 접촉 불량으로 충전과 끊김이 무한 반복될 때",
+  "아침 출근 알람을 듣고 일어났더니 밤새 충전기에 꽂아두었던 폰이 차갑게 꺼져 있던 당혹스러운 상황",
+
+  // [9~16: 침수, 이물질 및 단자 오염]
+  "비 오는 날 야외에서 우산을 들고 메신저를 확인하다가 빗방울이 충전 포트에 들어가 '물기 감지' 경고가 뜬 순간",
+  "세면대나 싱크대 옆에 올려둔 스마트폰 모서리가 물에 살짝 닿은 뒤 스피커 소리가 먹먹하게 찢어질 때",
+  "주머니 속 먼지와 보풀이 충전 단자 깊숙이 엉겨 붙어 충전 케이블이 끝까지 딸깍 물리지 않고 튕겨 나올 때",
+  "해변이나 모래사장에서 사진을 찍은 뒤 단자 안쪽에 미세 모래 알갱이가 들어가 충전 핀을 긁는 느낌이 들 때",
+  "운동 후 땀이 묻은 손으로 지문 인식을 시도했으나 잠금이 풀리지 않고 연속 실패 경고가 뜰 때",
+  "카페에서 커피나 음료가 테이블 위 스마트폰 하단부로 쏟아져 긴급히 전원을 차단해야 했던 순간",
+  "습도가 높은 욕실에 음악을 틀어두고 샤워를 마친 후 화면 터치 좌표가 제멋대로 튀는 고스트 터치 발생 시",
+  "식당에서 국물 요리가 스피커 그릴 틈새로 살짝 튀어 알코올 솜과 면봉을 찾아 헤매던 상황",
+
+  // [17~24: 발열, 프리징 및 시스템 급랭]
+  "여름철 대낮 야외 주차장 차 안에서 스마트폰이 과열되어 카메라 앱 실행이 강제 차단된 순간",
+  "고사양 모바일 게임이나 동영상 편집 렌더링 중 기기 후면이 뜨거워지며 프레임이 심각하게 끊길 때",
+  "한겨울 영하의 날씨에 야외에서 사진을 찍으려 하자 배터리가 40%에서 1%로 곤두박질치며 기절한 상황",
+  "중요한 화상 면접이나 라이브 방송 도중 스마트폰 발열로 인해 화면이 멈추고 연결이 끊어질 위기",
+  "소프트웨어 정기 업데이트 다운로드 도중 배터리가 빠르게 닳으며 벽돌(부팅 루프) 조짐을 보일 때",
+  "카카오톡이나 사내 업무 앱을 백그라운드에 10개 이상 띄워둔 상태에서 갑자기 화면 전체가 멈췄을 때",
+  "블루투스 무선 이어폰과 스마트워치가 동시에 연결 해제되며 스마트폰 시스템 설정 창이 튕길 때",
+  "아이 사진을 찍어주려는데 '저장공간 부족'과 함께 갤러리 앱이 멈춰버려 당장 캐시를 정리해야 하는 순간",
+
+  // [25~30: 수리, 분해 및 케이블 쇼트 사고]
+  "인터넷에서 본 자가 수리 팁을 따라 이쑤시개나 바늘로 단자를 쑤셨다가 핀이 손상될 뻔한 아찔한 경험",
+  "저가형 다이소 충전 케이블 끝부분 피복이 벗겨지며 탄 냄새가 살짝 나 급히 코드를 뽑았던 기억",
+  "스마트폰을 바닥에 떨어뜨린 직후 겉유리는 멀쩡한데 내부 OLED 패널에 초록색 세로줄이 번지기 시작할 때",
+  "정품이 아닌 차량용 시거잭 급속 충전기에 폰을 연결하자마자 화면 깜빡임과 함께 전원 리셋이 일어날 때",
+  "중고 스마트폰을 구매하여 첫 세팅을 마치고 유심(USIM)을 꽂았는데 안테나가 전혀 잡히지 않던 순간",
+  "보호 필름 교체 중 기포가 심하게 생겨 터치 감도가 급격히 둔화되어 화면 터치가 씹히는 답답한 상황"
+];
+
+// 30가지 고유 시각 스타일 및 레이아웃 프리셋
 const THEME_PRESETS = [
   { id: 1, name: "Cyberpunk Terminal", primaryColor: "#00ffcc", bgColor: "#111827", layout: "CLI/진단기 로그 스타일, 하드웨어 점검 단축 경로 최상단 배치" },
   { id: 2, name: "Modern Minimalist Slate", primaryColor: "#3b82f6", bgColor: "#f8fafc", layout: "미니멀 가이드 스타일, 여백 중심의 깔끔한 단계별 분해/세척 넘버링" },
@@ -127,18 +162,18 @@ const THEME_PRESETS = [
 ];
 
 const TARGET_LANGS = [
-  { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상, 스마트폰 고속 충전 먹통 및 발열 문제' },
-  { code: 'en', name: 'English', persona: 'Expert mobile repair technician and smartphone specialist', localeContext: 'US tech office, sudden charging port failure before important meeting' },
-  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシューティングの専門家', localeContext: '東京のオフィス街、外出直前のスマホ急速充電エラー' },
-  { code: 'de', name: 'German', persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker', localeContext: 'Berlin / München Büro, USB-C Ladebuchsen-Defekt' },
-  { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense, panne de charge rapide sur mobile' },
-  { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid oficina, problemas de puerto de carga en el smartphone' },
-  { code: 'it', name: 'Italian', persona: 'Tecnico esperto in riparazione e diagnostica smartphone', localeContext: 'Milano centro direzionale, malfunzionamento della ricarica' },
-  { code: 'pt', name: 'Portuguese', persona: 'Técnico experiente em reparação de celulares e hardware móvel', localeContext: 'São Paulo ambiente corporativo, conector de charge emperrado' },
-  { code: 'nl', name: 'Dutch', persona: 'Smartphone reparatiespecialist en mobiele hardware-expert', localeContext: 'Amsterdam Zuidas, laadproblemen met smartphone' },
-  { code: 'pl', name: 'Polish', persona: 'Serwisant urządzeń mobilnych i smartfonów', localeContext: 'Warszawa centrum, problem z gniazdem ładowania' },
-  { code: 'id', name: 'Indonesian', persona: 'Teknisi profesional perbaikan smartphone dan gadget', localeContext: 'Jakarta kawasan bisnis, masalah port charger longgar' },
-  { code: 'vi', name: 'Vietnamese', persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm', localeContext: 'Văn phòng TP.HCM, lỗi sạc nhanh cổng type C' }
+  { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상 및 직장 오피스' },
+  { code: 'en', name: 'English', persona: 'Expert mobile repair technician and smartphone specialist', localeContext: 'Metropolitan US tech workplace & everyday commuting' },
+  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシューティングの専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
+  { code: 'de', name: 'German', persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker', localeContext: 'Berlin / München Unternehmens- und Alltagsalltag' },
+  { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense et environnement urbain quotidien' },
+  { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid y centros corporativos urbanos' },
+  { code: 'it', name: 'Italian', persona: 'Tecnico esperto in riparazione e diagnostica smartphone', localeContext: 'Milano centro direzionale e vita quotidiana' },
+  { code: 'pt', name: 'Portuguese', persona: 'Técnico experiente em reparação de celulares e hardware móvel', localeContext: 'São Paulo ambiente corporativo e transporte diário' },
+  { code: 'nl', name: 'Dutch', persona: 'Smartphone reparatiespecialist en mobiele hardware-expert', localeContext: 'Amsterdam Zuidas en forenzenverkeer' },
+  { code: 'pl', name: 'Polish', persona: 'Serwisant urządzeń mobilnych i smartfonów', localeContext: 'Warszawa centrum i codzienne wyzwania biurowe' },
+  { code: 'id', name: 'Indonesian', persona: 'Teknisi profesional perbaikan smartphone dan gadget', localeContext: 'Kawasan Sudirman Jakarta dan mobilitas harian' },
+  { code: 'vi', name: 'Vietnamese', persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm', localeContext: 'Văn phòng trung tâm TP.HCM và nhịp sống đô thị' }
 ];
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
@@ -162,8 +197,10 @@ async function fetchWithRetry(prompt, maxRetries = 15, delayMs = 20000) {
 
 async function generateSinglePost(lang, index) {
   const selectedTheme = THEME_PRESETS[Math.floor(Math.random() * THEME_PRESETS.length)];
+  const selectedScenario = MOBILE_CRISIS_SCENARIOS_30[Math.floor(Math.random() * MOBILE_CRISIS_SCENARIOS_30.length)];
 
   console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 포스팅 생성 중... (적용 테마: ${selectedTheme.name})`);
+  console.log(`   🎭 선택된 모바일 위기 시나리오: "${selectedScenario.slice(0, 30)}..."`);
 
   const { coverUrl, bodyUrl } = getPostImages(currentTopic, index);
   const pubDateIso = getKstPublishDateIso(index);
@@ -176,8 +213,9 @@ CRITICAL: DO NOT translate literally from Korean. Write completely from scratch 
 [Topic]
 ${currentTopic}
 
-[Workplace Scenario]
-Context: "${lang.localeContext}"
+[Workplace Incident Context]
+- Target City/Culture: ${lang.localeContext}
+- Assigned Emergency Scenario: "${selectedScenario}"
 
 [CRITICAL OUTPUT LANGUAGE INTEGRITY - ZERO HANGUL IN GLOBAL POSTS]
 - If target language is NOT Korean (ko):
@@ -190,7 +228,11 @@ Context: "${lang.localeContext}"
     - Write in warm, friendly, everyday language that any phone owner can safely follow.
     - Give concrete cleaning, inspection, and diagnosis steps.
 2. Laser-Focused Narrative:
-    - The opening emergency story MUST be 100% strictly about the assigned [Topic] (${currentTopic}).
+    - The opening emergency story MUST be 100% strictly about the assigned [Topic] (${currentTopic}) and reflect the given [Assigned Emergency Scenario].
+
+[MANDATORY OPENING VARIATION RULE - ZERO CLICHE REPETITION]
+- You MUST start the opening story based strictly on the assigned scenario: "${selectedScenario}".
+- ABSOLUTELY FORBIDDEN: Do NOT default to a generic "meeting in 30 minutes" trope. Adapt the specific incident (e.g., commute, sudden water splash, dust accumulation, heat warnings, travel) naturally into the local daily culture of ${lang.name}.
 
 [STRICT MARKDOWN & FORMATTING RULES - NO RENDERING GLITCHES]
 1. BOLD FORMATTING RULE:
@@ -198,7 +240,7 @@ Context: "${lang.localeContext}"
     - NEVER put brackets or quotes inside asterisks (FORBIDDEN: **[Word]**, **"Word"**). Instead write: [**Word**] or "**Word**".
     - NEVER leave space inside asterisks (FORBIDDEN: ** Word **).
 2. COMMANDS & CODE BLOCKS:
-    - Always wrap long commands, registry keys, or terminal snippets in standard 3-backtick code blocks (\`\`\`bash or \`\`\`cmd) so they never overflow horizontally on mobile screens.
+    - Always wrap long technical terms, test codes (e.g. *#0*#), or shell snippets in standard 3-backtick code blocks (\`\`\`bash or \`\`\`cmd).
 3. NO LATEX & NO TILDE:
     - ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters ($ or $$). Always write plain text units (e.g., "45°C", "9V 2A", "25W").
     - ABSOLUTELY FORBIDDEN: NEVER use tilde (~) for ranges (e.g., NEVER write "10~20%"). Always use a hyphen (e.g., "10-20%").
@@ -214,16 +256,16 @@ Context: "${lang.localeContext}"
 [Tone & Writing Style Rules (STRICT - NO AI VIBE)]
 1. Mandatory Opening:
     - Absolutely FORBIDDEN: Boring textbook intros like "Hello", "In this post", "Today we will explore".
-    - Start immediately with an intense, relatable panic moment strictly about [Topic] (e.g., 5% battery left with client calls pending and port refusing to charge).
+    - Start immediately with an intense, relatable panic moment strictly about [Topic] based on the assigned incident.
 2. Tone & Voice:
     - Write like an experienced repair shop owner sharing honest, battle-tested practical tips.
 3. Fast-Paced 3-Step Narrative:
-    - Step 1: Sudden charging/port panic regarding [Topic] set in ${lang.localeContext}.
+    - Step 1: Sudden charging/port panic regarding [Topic] set in the assigned incident.
     - Step 2: Dangerous mistakes people make (e.g., using sharp metal pins, blowing saliva).
     - Step 3: Safe, actionable diagnostic and cleaning/repair steps.
 
 [Content & Structure (AdSense E-E-A-T Compliant)]
-1. Opening Story: Intense real-life incident strictly regarding this topic.
+1. Opening Story: Intense real-life incident strictly regarding this topic based on the assigned scenario.
 2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
 3. Step-by-Step Resolution: Actionable, safe diagnostic and cleaning/inspection steps.
 4. Expert Warning / Safety Tip: Crucial warnings on battery safety, pin deformation, or liquid contact.
@@ -240,7 +282,7 @@ title: "Native Catchy Title in ${lang.name}"
 description: "Native concise description in ${lang.name} under 160 characters"
 publishDate: ${pubDateIso}
 image: "${coverUrl}"
-category: "Life & Tech"
+category: "life-tech"
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "${selectedTheme.name}"
 ---
@@ -258,7 +300,6 @@ theme: "${selectedTheme.name}"
                .replace(/\\circ/g, '°')
                .replace(/\\approx/g, '≈');
 
-    // [취소선 버그 원천 차단 후처리]
     text = text.replace(/(\S)\s*~\s*(\S)/g, '$1 - $2');
     text = text.replace(/~/g, '-');
 
@@ -273,9 +314,9 @@ theme: "${selectedTheme.name}"
       let body = text.slice(frontmatter.length).trim();
       body = body.replace(/^#\s+[^\n]+\n+/, '');
 
-      // 2호기 영구 고정 단일 카테고리: Life & Tech
-      frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'Life & Tech'")
-                               .replace(/category:\s*[^\n\r]+/i, "category: 'Life & Tech'");
+      // 2호기 영구 고정 단일 카테고리: life-tech (Slug 규격)
+      frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'life-tech'")
+                               .replace(/category:\s*[^\n\r]+/i, "category: 'life-tech'");
 
       // Cloudflare 빌드 실패 및 날짜 밀림 방지: 정확한 KST 기반 ISO 날짜 강제 주입
       frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
@@ -312,7 +353,7 @@ theme: "${selectedTheme.name}"
 
     const filePath = path.join(targetDir, `${fileSlug}.md`);
     fs.writeFileSync(filePath, text, 'utf-8');
-    console.log(`✅ [저장 완료] 2호기: src/data/post/${lang.code}/${fileSlug}.md (Life & Tech / 테마: ${selectedTheme.name})`);
+    console.log(`✅ [저장 완료] 2호기: src/data/post/${lang.code}/${fileSlug}.md (life-tech / 테마: ${selectedTheme.name})`);
     return true;
   } catch (error) {
     console.error(`❌ [생성 실패] ${lang.name}:`, error.message);
@@ -322,7 +363,7 @@ theme: "${selectedTheme.name}"
 
 async function run() {
   console.log("==================================================");
-  console.log("⚡ 2호기 Life & Tech 12개국 30가지 테마 Picsum 자동 포스팅 파이프라인 시작");
+  console.log("⚡ 2호기 Life & Tech 12개국 30개 위기 시나리오 Picsum 자동 포스팅 시작");
   console.log("==================================================");
 
   let successCount = 0;
