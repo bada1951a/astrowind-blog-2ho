@@ -1,7 +1,7 @@
 ---
 title: "아이폰 iOS 업데이트 후 광탈 현상? 수리 기사가 알려주는 확실한 해결법"
 description: "최신 iOS 업데이트 후 아이폰 배터리가 광탈하고 발열이 생기나요? 서울 수리 센터 현장에서 바로 적용하는 실전 해결법을 공개합니다."
-publishDate: 2026-10-21T08:30:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqczh7-0-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["아이폰배터리", "iOS업데이트", "스마트폰수리", "배터리광탈", "아이폰발열"]
