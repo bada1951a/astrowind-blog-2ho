@@ -21,9 +21,9 @@ Ore 14:45, quarto piano di un palazzo in zona Porta Nuova a Milano. Il mio smart
 
 Prima di metterci a trafficare con il telefono, capiamo cosa sta succedendo dentro quella minuscola fessura metallica. I sensori di umidità e i pin di alimentazione sono estremamente sensibili. Ecco i tre colpevoli più comuni:
 
-1. **Umidità residua o condensa:** Non serve aver immerso il telefono in acqua. Uno sbalzo termico tra la metropolitana fredda e l'ufficio riscaldato crea condensa invisibile direttamente dentro la porta di ricarica.
-2. **Accumulo di lanugine e detriti:** Tasche dei cappotti e zaini sono miniere di polvere. Quando la lanugine si mescola a micro-gocce d'acqua o al sudore, crea una poltiglia conduttiva che inganna il sensore facendogli credere che ci sia una perdita di liquido.
-3. **Falsi positivi da cavi danneggiati o ossidati:** A volte il problema non è il telefono, ma il connettore del cavo che presenta residui di sporco o ossidazione sui pin esterni.
+1. Umidità residua o condensa: Non serve aver immerso il telefono in acqua. Uno sbalzo termico tra la metropolitana fredda e l'ufficio riscaldato crea condensa invisibile direttamente dentro la porta di ricarica.
+2. Accumulo di lanugine e detriti: Tasche dei cappotti e zaini sono miniere di polvere. Quando la lanugine si mescola a micro-gocce d'acqua o al sudore, crea una poltiglia conduttiva che inganna il sensore facendogli credere che ci sia una perdita di liquido.
+3. Falsi positivi da cavi danneggiati o ossidati: A volte il problema non è il telefono, ma il connettore del cavo che presenta residui di sporco o ossidazione sui pin esterni.
 
 ## Guida passo-passo alla risoluzione d'emergenza
 
@@ -37,16 +37,16 @@ Prendi uno stecchino di legno (evita assolutamente aghi di metallo o graffette c
 
 ### Step 3: Asciugatura e ripristino della connessione
 Lascia asciugare il dispositivo all'aria in un ambiente asciutto per almeno trenta minuti. 
-* **Cosa NON fare assolutamente:** Mai usare il phon caldo (fonde le guarnizioni e spinge l'acqua più in profondità), mai infilare cotton fioc (rilasciano fibre di cotone) e soprattutto **mai** mettere il telefono nel riso (la polvere di riso penetra nei circuiti bloccandoli definitivamente).
-* **Soluzione d'emergenza estrema (se non puoi aspettare):** Se proprio devi caricare il telefono per una emergenza vitale, riavvia il dispositivo tenendo collegato il cavo, oppure disattiva temporaneamente gli avvisi accessori se il sistema operativo lo permette (nota: sconsigliato se c'è acqua reale).
+* Cosa NON fare assolutamente: Mai usare il phon caldo (fonde le guarnizioni e spinge l'acqua più in profondità), mai infilare cotton fioc (rilasciano fibre di cotone) e soprattutto mai mettere il telefono nel riso (la polvere di riso penetra nei circuiti bloccandoli definitivamente).
+* Soluzione d'emergenza estrema (se non puoi aspettare): Se proprio devi caricare il telefono per una emergenza vitale, riavvia il dispositivo tenendo collegato il cavo, oppure disattiva temporaneamente gli avvisi accessori se il sistema operativo lo permette (nota: sconsigliato se c'è acqua reale).
 
 ## Consigli dell'esperto per prevenire il problema
 
 La prevenzione è l'arma migliore per evitare di rimanere a piedi durante una giornata lavorativa intensa.
 
-* **Usa tappini antipolvere in silicone:** Se lavori spesso all'aperto o in ambienti polverosi, un piccolo tappino per la porta USB-C/Lightning costa pochi centesimi e salva la vita.
-* **Controlla i cavi:** Pulisci periodicamente anche l'estremità del tuo cavo di ricarica usando un vecchio spazzolino da denti asciutto. Spesso lo sporco si trasferisce dal cavo al telefono.
-* **Backup regolari su cloud:** Tieni sempre sincronizzati i tuoi file di lavoro su servizi cloud locali o aziendali, così se il telefono dovesse subire danni da umidità permanente, potrai accedere subito ai tuoi documenti da un PC muletto.
+* Usa tappini antipolvere in silicone: Se lavori spesso all'aperto o in ambienti polverosi, un piccolo tappino per la porta USB-C/Lightning costa pochi centesimi e salva la vita.
+* Controlla i cavi: Pulisci periodicamente anche l'estremità del tuo cavo di ricarica usando un vecchio spazzolino da denti asciutto. Spesso lo sporco si trasferisce dal cavo al telefono.
+* Backup regolari su cloud: Tieni sempre sincronizzati i tuoi file di lavoro su servizi cloud locali o aziendali, così se il telefono dovesse subire danni da umidità permanente, potrai accedere subito ai tuoi documenti da un PC muletto.
 
 ## Domande Frequenti (FAQ)
 

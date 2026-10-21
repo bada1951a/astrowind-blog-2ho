@@ -22,9 +22,9 @@ Es war exakt 14:15 Uhr an einem Dienstagnachmittag in unserem Buero im Muenchner
 Moderne iPhones und Android-Smartphones mit USB-C oder Lightning-Buchsen sind mit extrem sensiblen Feuchtigkeitssensoren und Kurzschlusserkennungen direkt an den Pins ausgestattet. Sobald der elektrische Widerstand im Port durch winzige Partikel oder Feuchtigkeit sinkt, schaltet das Betriebssystem aus Sicherheitsgruenden die Stromzufuhr ab. 
 
 Drei typische Ursachen fuehren im buerodynamischen Alltag zu diesem Fehler:
-1. **Der Kondensations-Effekt:** Das Smartphone lag im klimatisierten Konferenzraum und kam direkt aus der kalten Herbstluft nach draussen oder umgekehrt.
-2. **Umwelt- und Taschenstaub:** Mikroskopisch kleine Fusseln aus der Hosentasche haben sich mit etwas Luftfeuchtigkeit oder Schweiss zu einer leitenden Paste verbunden.
-3. **Kleine Missgeschicke:** Ein winziger Spritzer vom Mineralwasser oder dem Espresso auf dem Schreibtisch hat den Weg in die Buchse gefunden.
+1. Der Kondensations-Effekt: Das Smartphone lag im klimatisierten Konferenzraum und kam direkt aus der kalten Herbstluft nach draussen oder umgekehrt.
+2. Umwelt- und Taschenstaub: Mikroskopisch kleine Fusseln aus der Hosentasche haben sich mit etwas Luftfeuchtigkeit oder Schweiss zu einer leitenden Paste verbunden.
+3. Kleine Missgeschicke: Ein winziger Spritzer vom Mineralwasser oder dem Espresso auf dem Schreibtisch hat den Weg in die Buchse gefunden.
 
 ### Schritt-fuer-Schritt-Loesung fuer den Notfall
 
@@ -49,11 +49,11 @@ Wer den Fehler ignoriert und die Software-Warnung uebersteuert (oft gibt es bei 
 
 ### Haeufig gestellte Fragen (FAQ)
 
-**1. Kann ich mein Geraet kabellos laden, solange der Port nass ist?**
+1. Kann ich mein Geraet kabellos laden, solange der Port nass ist?
 Ja, das ist der beste Workaround im Buero. MagSafe oder kabelloses Qi-Laden funktionieren unabhaengig vom Zustand des physischen Ports und retten deinen Akku im Ernstfall.
 
-**2. Wie lange dauert es normalerweise, bis die Meldung verschwindet?**
+2. Wie lange dauert es normalerweise, bis die Meldung verschwindet?
 Bei leichter Umgebungsfeuchtigkeit dauert es meist zwischen 15 und 45 Minuten an einem gut belüfteten Ort. Bei echtem Wasserkontakt sollten Sie dem Geraet mindestens 5 Stunden Ruhe goennen.
 
-**3. Darf ich Kontaktspray oder Isopropanol zur Reinigung nutzen?**
+3. Darf ich Kontaktspray oder Isopropanol zur Reinigung nutzen?
 Hochreines Isopropanol (ab 99 Prozent) auf einem staubfreien Wattestaebchen kann helfen, hartnaeckige Verunreinigungen zu loesen. Achten Sie jedoch darauf, das Geraet dabei komplett auszuschalten und es vollstaendig ablueften zu lassen, bevor Sie es wieder ans Netz nehmen.

@@ -23,9 +23,9 @@ Dans ce genre de situation d'urgence, la première fausse bonne idée qui vient 
 
 Pour comprendre comment résoudre le problème, il faut analyser ce qui déclenche le capteur de l'iPhone :
 
-1. **Oxydation ou micro-gouttes invisibles :** Même si l'extérieur semble sec, une infime quantité d'eau s'est logée au fond des broches du connecteur USB-C ou Lightning. Les broches sous tension créent une résistance anormale détectée par le système.
-2. **Débris et poussières conductrices :** Avec le temps, nos poches accumulent des peluches. Si ces peluches captent un tout petit peu d'humidité, elles retiennent l'eau et ferment le circuit de détection, bloquant la charge.
-3. **Bug logiciel temporaire du springboard :** Parfois, le capteur se bloque après une exposition à un taux d'humidité ambiant élevé (comme une salle de bain embuée ou un trajet sous une averse parisienne), et l'algorithme iOS reste bloqué en boucle même après séchage complet.
+1. Oxydation ou micro-gouttes invisibles : Même si l'extérieur semble sec, une infime quantité d'eau s'est logée au fond des broches du connecteur USB-C ou Lightning. Les broches sous tension créent une résistance anormale détectée par le système.
+2. Débris et poussières conductrices : Avec le temps, nos poches accumulent des peluches. Si ces peluches captent un tout petit peu d'humidité, elles retiennent l'eau et ferment le circuit de détection, bloquant la charge.
+3. Bug logiciel temporaire du springboard : Parfois, le capteur se bloque après une exposition à un taux d'humidité ambiant élevé (comme une salle de bain embuée ou un trajet sous une averse parisienne), et l'algorithme iOS reste bloqué en boucle même après séchage complet.
 
 ### Méthode de dépannage étape par étape
 
@@ -33,7 +33,7 @@ Voici la procédure rigoureuse que j'applique sur le terrain pour sauver un post
 
 #### Étape 1 : Le séchage physique par flux d'air contrôlé
 Éteignez complètement votre iPhone. Ne le secouez pas frénétiquement, cela ne ferait que propager le liquide plus profondément dans les composants internes. 
-- Prenez un sèche-cheveux, mais attention : **réglez-le obligatoirement sur air froid (air ambiant)**. La chaleur excessive endommage les joints d'étanchéité et l'écran OLED.
+- Prenez un sèche-cheveux, mais attention : réglez-le obligatoirement sur air froid (air ambiant). La chaleur excessive endommage les joints d'étanchéité et l'écran OLED.
 - Maintenez l'appareil avec le port de charge orienté vers le bas, et laissez le flux d'air frais balayer le connecteur pendant 3 à 5 minutes pour chasser l'eau stagnante.
 
 #### Étape 2 : Le nettoyage mécanique minutieux des micro-débris
@@ -53,11 +53,11 @@ Si vous êtes absolument certain que le port est sec et propre mais que l'iPhone
 
 ### Questions Fréquemment Posées (FAQ)
 
-**Puis-je utiliser de l'alcool isopropylique pour accélérer le séchage ?**
+Puis-je utiliser de l'alcool isopropylique pour accélérer le séchage ?
 Oui, l'alcool isopropylique à 99 pour cent est un excellent déshydratant et nettoyant électronique car il s'évapore instantanément sans laisser de résidus minéraux. Déposez une toute petite goutte sur une brosse à dents souple propre, brossez délicatement le port, puis laissez sécher deux minutes à l'air libre.
 
-**Est-il dangereux de charger en ignorant l'alerte d'urgence ?**
+Est-il dangereux de charger en ignorant l'alerte d'urgence ?
 C'est fortement déconseillé. iOS propose parfois une option de contournement ("Ignorer"), mais l'utiliser alors que du liquide est physiquement présent risque de provoquer une électrolyse, de corroder définitivement les broches du connecteur et d'annuler votre garantie constructeur pour dégâts des eaux.
 
-**Combien de temps faut-il attendre naturellement si je n'ai aucun outil ?**
+Combien de temps faut-il attendre naturellement si je n'ai aucun outil ?
 Dans des conditions normales de température ambiante (environ 20°C), comptez entre 5 et 7 heures pour qu'un port Lightning ou USB-C sèche entièrement par évaporation naturelle, à condition de placer l'appareil dans un endroit sec et bien ventilé.

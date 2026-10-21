@@ -25,13 +25,13 @@ Gelukkig hoef je niet meteen honderden euro's uit te geven aan een compleet nieu
 
 ### Stapsgewijze Oplossing
 
-1. **Grondige reiniging van het scharnier:**
+1. Grondige reiniging van het scharnier:
    Sluit de telefoon volledig. Neem een bus perslucht (of een schone, droge tandenborstel met zachte haren) en blaas voorzichtig vuil, stof en pluisjes weg uit de mechanische scharnieropeningen aan de achterkant. Vaak hoopt zich daar vuil op dat de microschakelaars en sensoren blokkeert.
 
-2. **Sensor-kalibratie en software-herstel via het buitenscherm:**
+2. Sensor-kalibratie en software-herstel via het buitenscherm:
    Omdat het binnenscherm zwart blijft, gebruik je het buitenscherm om de software te controleren. Ga naar *Instellingen > Algemeen beheer > Resetten > Instellingen herstellen* om alle netwerk- en sensorinstellingen terug te zetten naar fabrieksdefaults. Dit wist geen persoonlijke data, maar herstart de hardware-communicatieprotocollen.
 
-3. **De "Scharnier-Flex" methode (Voorzichtig!):**
+3. De "Scharnier-Flex" methode (Voorzichtig!):
    Open de telefoon heel langzaam tot ongeveer 45 graden, sluit hem weer, en herhaal dit een paar keer terwijl het toestel uitgeschakeld is. Dit helpt soms om een klem zittende flexkabel in de behuizing weer op zijn geleiderail te laten vallen. Schakel het toestel daarna pas weer in via de aan/uit-knop aan de zijkant.
 
 <div style="border-left: 4px solid #a16207; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -40,11 +40,11 @@ Gelukkig hoef je niet meteen honderden euro's uit te geven aan een compleet nieu
 
 ### Veelgestelde Vragen (FAQ)
 
-**1. Kan ik mijn data nog redden als het binnenscherm permanent zwart blijft?**
+1. Kan ik mijn data nog redden als het binnenscherm permanent zwart blijft?
 Ja, zeker. Je kunt je Galaxy Z Fold via een USB-C kabel aansluiten op een externe monitor of laptop. Gebruik Samsung DeX om al je bestanden, foto's en documenten direct veilig te stellen voordat je het toestel aanbiedt voor reparatie.
 
-**2. Valt dit probleem onder de standaard garantie?**
+2. Valt dit probleem onder de standaard garantie?
 Als er geen zichtbare val- of stootsporen op het aluminium frame of het scharnier te vinden zijn, valt dit vaak onder de fabrieksgarantie. Servicecentra erkennen dat stofophoping in het scharnier een bekend constructieprobleem kan zijn bij opvouwbare schermen.
 
-**3. Hoe kan ik dit in de toekomst voorkomen?**
+3. Hoe kan ik dit in de toekomst voorkomen?
 Gebruik bij voorkeur een hoesje dat het scharnier volledig afschermt wanneer de telefoon opgeslagen zit in je tas of broekzak. Stof en zandzakjes zijn de grootste vijanden van de interne flexkabels van foldables.

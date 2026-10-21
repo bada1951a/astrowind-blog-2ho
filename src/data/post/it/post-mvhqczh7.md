@@ -25,9 +25,9 @@ In questo articolo ti spiego esattamente cosa sta succedendo dentro il tuo iPhon
 
 Prima di mettere mano alle impostazioni o correre a comprare un power bank, capiamo cosa sta mandando in tilt l'hardware. Nel mio lavoro diagnostico quotidiano, isolo quasi sempre il problema in tre macro-aree:
 
-1. **Re-indicizzazione Spotlight e Foto:** iOS sta ricostruendo l'intero database del telefono (foto, contatti, messaggi, note). Questo sforzo computazionale tiene i core del processore al massimo regime, generando calore e consumando energia pura.
-2. **Bug di sincronizzazione iCloud e app terze:** Molte applicazioni non sono ancora perfettamente ottimizzate per le nuove API del nuovo iOS. Continuano a richiedere dati in background, generando un ciclo continuo di risveglio della CPU (wake locks).
-3. **Usura chimica latente amplificata:** Se la batteria aveva già una capacità massima inferiore al 85%, il carico di lavoro extra imposto dall'aggiornamento la spinge oltre il suo limite di tolleranza, evidenziando cali improvvisi di percentuale.
+1. Re-indicizzazione Spotlight e Foto: iOS sta ricostruendo l'intero database del telefono (foto, contatti, messaggi, note). Questo sforzo computazionale tiene i core del processore al massimo regime, generando calore e consumando energia pura.
+2. Bug di sincronizzazione iCloud e app terze: Molte applicazioni non sono ancora perfettamente ottimizzate per le nuove API del nuovo iOS. Continuano a richiedere dati in background, generando un ciclo continuo di risveglio della CPU (wake locks).
+3. Usura chimica latente amplificata: Se la batteria aveva già una capacità massima inferiore al 85%, il carico di lavoro extra imposto dall'aggiornamento la spinge oltre il suo limite di tolleranza, evidenziando cali improvvisi di percentuale.
 
 ---
 
@@ -55,10 +55,10 @@ Per darti un'idea chiara di cosa aspettarti dal nostro intervento di ottimizzazi
 
 | Parametro di Diagnosi | Prima dell'Ottimizzazione (Post-Update) | Dopo l'Intervento in 3 Step |
 | :--- | :--- | :--- |
-| **Autonomia media schermo acceso** | 3 ore e 15 minuti | 6 ore e 45 minuti |
-| **Temperatura media in standby** | 36°C - 39°C (Tiepido/Caldo) | 28°C - 31°C (Normale) |
-| **Consumo energetico in background** | Molto Alto (CPU sempre attiva) | Basso (Ottimizzato) |
-| **Stabilità percentuale batteria** | Salti improvvisi (es. dal 40% al 15%) | Lineare e costante |
+| Autonomia media schermo acceso | 3 ore e 15 minuti | 6 ore e 45 minuti |
+| Temperatura media in standby | 36°C - 39°C (Tiepido/Caldo) | 28°C - 31°C (Normale) |
+| Consumo energetico in background | Molto Alto (CPU sempre attiva) | Basso (Ottimizzato) |
+| Stabilità percentuale batteria | Salti improvvisi (es. dal 40% al 15%) | Lineare e costante |
 
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(249, 115, 22, 0.08); border-radius: 4px; color: #111827;">
 <strong>Attenzione alla ricarica!</strong> Quando l'iPhone si scalda a causa di un bug post-aggiornamento, la protezione termica interna rallenta drasticamente la ricarica rapida per evitare danni alle celle al litio. Non preoccuparti se sembra caricarsi lentamente: è una misura di sicurezza integrata.
@@ -68,11 +68,11 @@ Per darti un'idea chiara di cosa aspettarti dal nostro intervento di ottimizzazi
 
 ### Domande Frequenti (FAQ)
 
-**D: Devo per forza formattare il telefono se la batteria continua a durare poco?**
+D: Devo per forza formattare il telefono se la batteria continua a durare poco?
 R: Nella maggior parte dei casi no. Se le ottimizzazioni via software e la chiusura delle app in background non bastano, spesso è sufficiente un ripristino delle sole impostazioni di sistema (*Impostazioni > Generali > Trasferisci o inizializza iPhone > Ripristina > Ripristina impostazioni*), senza perdere alcun dato personale.
 
-**D: È vero che mettere l'iPhone in modalità di risparmio energetico fisso rovina la batteria a lungo termine?**
+D: È vero che mettere l'iPhone in modalità di risparmio energetico fisso rovina la batteria a lungo termine?
 R: Assolutamente falso. La modalità di risparmio energetico limita semplicemente la frequenza di aggiornamento della CPU, riduce la luminosità dello schermo e ferma i download automatici. Anzi, riducendo lo stress termico, aiuta a preservare la salute chimica della batteria durante i periodi critici post-aggiornamento.
 
-**D: Come faccio a capire se il problema è l'aggiornamento o se la batteria è semplicemente guasta?**
+D: Come faccio a capire se il problema è l'aggiornamento o se la batteria è semplicemente guasta?
 R: Se la percentuale della batteria scende a blocchi netti (ad esempio passa di colpo dal 30% al 5% e poi si spegne) o se il telefono si spegne improvvisamente pur segnando il 20% di carica residua, siamo di fronte a un degrado chimico della batteria che richiede la sostituzione fisica del componente nel nostro centro assistenza.

@@ -23,9 +23,9 @@ Hola. Si has llegado hasta aquí, probablemente estés a pocos minutos de perder
 
 Antes de pasar a la acción, vamos a entender por qué sale ese churro de imagen. No es que tu móvil esté roto, es que se confunde con tres cosas muy básicas:
 
-1. **La luz cenital traicionera:** En los trenes, oficinas o cafeterías, la luz suele venir directamente desde arriba. Al poner tu mano encima para sujetar el papel, creas una sombra chinesca perfecta sobre el texto.
-2. **El enfoque automático rebelde:** La cámara de tu Galaxy intenta enfocar el fondo de la mesa o la textura del mantel en lugar de las letras negras del contrato.
-3. **El tamaño monstruoso del archivo:** Las cámaras actuales tienen tantos megapíxeles que una foto escaneada normal puede pesar fácilmente 8 o 10 megas. Intenta enviar eso con una cobertura regular en pleno trayecto... imposible.
+1. La luz cenital traicionera: En los trenes, oficinas o cafeterías, la luz suele venir directamente desde arriba. Al poner tu mano encima para sujetar el papel, creas una sombra chinesca perfecta sobre el texto.
+2. El enfoque automático rebelde: La cámara de tu Galaxy intenta enfocar el fondo de la mesa o la textura del mantel en lugar de las letras negras del contrato.
+3. El tamaño monstruoso del archivo: Las cámaras actuales tienen tantos megapíxeles que una foto escaneada normal puede pesar fácilmente 8 o 10 megas. Intenta enviar eso con una cobertura regular en pleno trayecto... imposible.
 
 ---
 
@@ -51,19 +51,19 @@ Si el cliente es de la vieja escuela y te pide un número de fax, no busques una
 
 Para que la próxima emergencia laboral no te pille con la guardia baja, ten en cuenta estas precauciones rápidas:
 
-* **Limpia la lente:** Parece una tontería, pero llevamos el móvil en el bolsillo junto con las llaves y las pelusas. Una pasada rápida con la manga de la camisa antes de escanear evita ese efecto "niebla" tan molesto.
-* **Cuidado con el brillo de la pantalla:** Si estás escaneando un documento digital que tienes en otro dispositivo, baja el brillo al mínimo para evitar las temidas rayas horizontales (efecto moiré).
-* **Guarda un acceso directo:** Configura el panel rápido de tu Galaxy para tener siempre a mano las herramientas de notas o escaneo rápido.
+* Limpia la lente: Parece una tontería, pero llevamos el móvil en el bolsillo junto con las llaves y las pelusas. Una pasada rápida con la manga de la camisa antes de escanear evita ese efecto "niebla" tan molesto.
+* Cuidado con el brillo de la pantalla: Si estás escaneando un documento digital que tienes en otro dispositivo, baja el brillo al mínimo para evitar las temidas rayas horizontales (efecto moiré).
+* Guarda un acceso directo: Configura el panel rápido de tu Galaxy para tener siempre a mano las herramientas de notas o escaneo rápido.
 
 ---
 
 ### Preguntas Frecuentes (FAQ)
 
-**1. ¿Por qué el escáner automático de la cámara de mi Galaxy no detecta los bordes del papel?**
+1. ¿Por qué el escáner automático de la cámara de mi Galaxy no detecta los bordes del papel?
 Normalmente ocurre porque el fondo (la mesa) es del mismo color que el documento (papel blanco sobre mesa blanca). Pon el contrato encima de una superficie oscura, como una alfombrilla de escritorio o la funda de la tablet, y verás cómo la IA lo detecta al instante.
 
-**2. ¿Cómo puedo reducir el peso del PDF escaneado sin perder calidad en el texto?**
+2. ¿Cómo puedo reducir el peso del PDF escaneado sin perder calidad en el texto?
 Si usas la galería o la app de notas nativa de Samsung para guardar el archivo como PDF, el sistema ya comprime la imagen de forma inteligente. Si aun así pesa demasiado, guárdalo primero como imagen en formato JPG de alta eficiencia (HEIF) y luego conviértelo a PDF utilizando las opciones nativas de compartir.
 
-**3. ¿Es seguro utilizar el escáner de la cámara de Samsung para documentos con datos bancarios o confidenciales?**
+3. ¿Es seguro utilizar el escáner de la cámara de Samsung para documentos con datos bancarios o confidenciales?
 Sí, totalmente. Todo el procesado de detección de documentos y optimización de texto se realiza de manera local en el procesador de tu Galaxy gracias a Samsung Knox, sin subir tus datos personales a servidores externos desconocidos.

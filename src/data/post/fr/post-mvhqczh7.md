@@ -25,9 +25,9 @@ Si vous lisez ces lignes, c'est que vous subissez probablement le même cauchema
 
 Contrairement à ce que beaucoup pensent, Apple ne cherche pas systématiquement à "brider" votre vieux téléphone pour vous forcer à changer. Derrière cette surconsommation soudaine se cachent des phénomènes techniques bien réels que l'on observe tous les jours sur nos bancs de test :
 
-* **L'indexation Spotlight en arrière-plan :** C'est le coupable numéro un. Quand vous installez un nouvel iOS, l'intégralité de vos photos, messages, applications et fichiers est réindexée pour permettre la recherche instantanée. Ce processus monopolise le processeur (CPU) à plein régime pendant 24 à 48 heures, ce qui chauffe le téléphone et vide la batterie à vitesse grand V.
-* **Le calibrage erroné de l'indicateur d'autonomie :** Le système d'exploitation ne sait plus estimer correctement le pourcentage restant. Résultat : l'affichage chute brutalement, vous donnant l'impression d'une panne sèche imminente alors que la cellule contient encore un peu d'énergie.
-* **Les bugs de synchronisation iCloud et de services tiers :** Certaines applications ne sont pas encore optimisées pour la nouvelle architecture d'iOS. Elles bouclent en arrière-plan en essayant de communiquer avec les serveurs, créant une fuite d'énergie invisible mais redoutable.
+* L'indexation Spotlight en arrière-plan : C'est le coupable numéro un. Quand vous installez un nouvel iOS, l'intégralité de vos photos, messages, applications et fichiers est réindexée pour permettre la recherche instantanée. Ce processus monopolise le processeur (CPU) à plein régime pendant 24 à 48 heures, ce qui chauffe le téléphone et vide la batterie à vitesse grand V.
+* Le calibrage erroné de l'indicateur d'autonomie : Le système d'exploitation ne sait plus estimer correctement le pourcentage restant. Résultat : l'affichage chute brutalement, vous donnant l'impression d'une panne sèche imminente alors que la cellule contient encore un peu d'énergie.
+* Les bugs de synchronisation iCloud et de services tiers : Certaines applications ne sont pas encore optimisées pour la nouvelle architecture d'iOS. Elles bouclent en arrière-plan en essayant de communiquer avec les serveurs, créant une fuite d'énergie invisible mais redoutable.
 
 ---
 
@@ -35,9 +35,9 @@ Contrairement à ce que beaucoup pensent, Apple ne cherche pas systématiquement
 
 Avant de paniquer, évitez les pièges que l'on voit trop souvent dans notre atelier parisien :
 
-1. **Mettre le téléphone au congélateur :** C'est la pire idée possible. Le choc thermique crée de la condensation à l'intérieur du boîtier, ce qui grille la carte mère ou oxyde irrémédiablement les connecteurs de batterie.
-2. **Utiliser des épingles en métal pour nettoyer le port Lightning :** En voulant gratter les poussières, vous risquez de court-circuiter les micro-broches de charge, provoquant une panne totale de charge rapide, voire un court-circuit de la puce de gestion d'alimentation (connue sous le nom de Tristar ou Hydra).
-3. **Multiplier les redressements forcés en boucle :** Forcer l'arrêt de l'iPhone toutes les cinq minutes ne fait qu'interrompre l'indexation en cours et oblige le processeur à tout recommencer à zéro au démarrage suivant.
+1. Mettre le téléphone au congélateur : C'est la pire idée possible. Le choc thermique crée de la condensation à l'intérieur du boîtier, ce qui grille la carte mère ou oxyde irrémédiablement les connecteurs de batterie.
+2. Utiliser des épingles en métal pour nettoyer le port Lightning : En voulant gratter les poussières, vous risquez de court-circuiter les micro-broches de charge, provoquant une panne totale de charge rapide, voire un court-circuit de la puce de gestion d'alimentation (connue sous le nom de Tristar ou Hydra).
+3. Multiplier les redressements forcés en boucle : Forcer l'arrêt de l'iPhone toutes les cinq minutes ne fait qu'interrompre l'indexation en cours et oblige le processeur à tout recommencer à zéro au démarrage suivant.
 
 ---
 
@@ -54,18 +54,18 @@ Pensez également à inspecter le port de charge : utilisez un cure-dent en bois
 
 #### Étape 3 : Réinitialiser les réglages réseau et effectuer un redressement propre
 Si les processus logiciels continuent de s'affoler :
-* Allez dans *Réglages > Général > Transférer ou réinitialiser l'iPhone > Réinitialiser* et choisissez **Réinitialiser les réglages réseau**. Cela élimine souvent les micro-bugs de connectivité 4G/5G/Wi-Fi qui forcent l'antenne à surconsommer.
+* Allez dans *Réglages > Général > Transférer ou réinitialiser l'iPhone > Réinitialiser* et choisissez Réinitialiser les réglages réseau. Cela élimine souvent les micro-bugs de connectivité 4G/5G/Wi-Fi qui forcent l'antenne à surconsommer.
 * Faites un redémarrage forcé propre : appuyez brièvement sur Volume Haut, puis Volume Bas, puis maintenez le bouton latéral (Power) enfoncé jusqu'à voir apparaître le logo Apple.
 
 ---
 
 ### Foire Aux Questions (FAQ)
 
-**Q : Est-ce que rétrograder vers l'ancienne version d'iOS résout le problème ?**
+Q : Est-ce que rétrograder vers l'ancienne version d'iOS résout le problème ?
 R : Techniquement, il est parfois possible de "downgrader" vers une version précédente signée par Apple, mais cette manipulation est de plus en plus verrouillée et risque de corrompre vos sauvegardes. De plus, vous perdrez les correctifs de sécurité indispensables. Il vaut mieux patienter ou installer une éventuelle mise à jour corrective (type 1X.X.1) généralement publiée rapidement par Apple.
 
-**Q : Pourquoi mon iPhone chauffe-t-il autant pendant la charge depuis la mise à jour ?**
+Q : Pourquoi mon iPhone chauffe-t-il autant pendant la charge depuis la mise à jour ?
 R : La chaleur est le résultat direct du travail intense du processeur en arrière-plan combiné au flux d'énergie de la charge rapide. Si le téléphone gère mal ses processus, il dissipe l'énergie sous forme de calories. Retirez impérativement votre coque de protection pendant les charges pour dissiper la chaleur.
 
-**Q : À partir de quel seuil d'usure dois-je absolument remplacer la batterie ?**
+Q : À partir de quel seuil d'usure dois-je absolument remplacer la batterie ?
 R : En dessous de 80% de capacité maximale affichée, la résistance interne de la batterie augmente de façon critique. Couplée aux exigences des nouveaux iOS, elle provoque des extinctions intempestives (notamment quand vous lancez l'appareil photo ou le GPS). C'est le signal exact qu'un passage en atelier s'impose pour un remplacement de cellule.

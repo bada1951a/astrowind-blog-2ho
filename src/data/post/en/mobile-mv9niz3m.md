@@ -23,9 +23,9 @@ If you have ever stared at your phone screen on a bumpy Amtrak Acela or a shaky 
 
 Before we fix it, let’s look at why standard snapshots ruin documents. When you are rushing to capture a paper in dim lighting or under harsh overhead office fixtures, three main issues pop up:
 
-1. **The Hand and Phone Shadow Trap:** Holding your phone directly over the paper blocks the primary light source, casting a giant shadow right where the crucial text or signature sits.
-2. **Auto-Focus Distortion and Lens Flare:** Standard camera mode tries to capture the entire background (your desk, the table, your coffee cup) instead of flattening out just the paper, resulting in distorted text and fuzzy edges.
-3. **Aggressive Image Compression:** When mobile fax apps automatically compress photos to speed up transmission, low-contrast grey backgrounds and faint grey ink merge into an unreadable smudge.
+1. The Hand and Phone Shadow Trap: Holding your phone directly over the paper blocks the primary light source, casting a giant shadow right where the crucial text or signature sits.
+2. Auto-Focus Distortion and Lens Flare: Standard camera mode tries to capture the entire background (your desk, the table, your coffee cup) instead of flattening out just the paper, resulting in distorted text and fuzzy edges.
+3. Aggressive Image Compression: When mobile fax apps automatically compress photos to speed up transmission, low-contrast grey backgrounds and faint grey ink merge into an unreadable smudge.
 
 ---
 
@@ -35,20 +35,20 @@ Let's fix this right now so you never get caught off guard again. We are going t
 
 ### Step 1: Turn on the Hidden Document Scanner
 Did you know your Galaxy camera has a dedicated document scanning engine built right into One UI? You don't even need to download a sketchy third-party app.
-- Open your **Camera** app.
-- Tap the **Settings gear icon** in the top corner.
-- Go to **Intelligent optimizations** or look for **Scan documents and text** and make sure the toggle is switched **ON**.
+- Open your Camera app.
+- Tap the Settings gear icon in the top corner.
+- Go to Intelligent optimizations or look for Scan documents and text and make sure the toggle is switched ON.
 
 ### Step 2: Position for Zero Shadows
 - Lay your document flat on a contrasting surface (like a dark wooden table if your paper is white). 
 - Instead of hovering directly overhead where your body blocks the light, step slightly to the side or position yourself where ambient light washes evenly across the page.
-- Open your camera and hold it steady over the paper. A yellow rectangle box labeled **"Scan"** will automatically snap around the edges of your document.
+- Open your camera and hold it steady over the paper. A yellow rectangle box labeled "Scan" will automatically snap around the edges of your document.
 
 ### Step 3: Tap and Clean Up
 - Tap the shutter button once the yellow frame locks in.
-- Tap the thumbnail that appears in the corner. You will see a **"Scan"** button pop up. 
-- Use the corner adjustment handles to crop out the background table. Hit **Save**.
-- If the lighting was uneven, tap the saved image and select **Remaster** or adjust the contrast sliders to turn the background pure white and the text pitch black. 
+- Tap the thumbnail that appears in the corner. You will see a "Scan" button pop up. 
+- Use the corner adjustment handles to crop out the background table. Hit Save.
+- If the lighting was uneven, tap the saved image and select Remaster or adjust the contrast sliders to turn the background pure white and the text pitch black. 
 
 <div style="border-left: 4px solid #1e40af; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Pro Tip for Mobile Faxing:</strong> Always save your processed scan as a <strong>PDF</strong> rather than a standard JPG image before uploading it to a mobile fax app. PDFs preserve vector text sharpness and prevent the fax server from converting grey shading into fuzzy black blocks.
@@ -60,19 +60,19 @@ Did you know your Galaxy camera has a dedicated document scanning engine built r
 
 When you are dealing with sensitive financial documents, NDAs, or signed contracts on your mobile device, security and storage hygiene matter just as much as clarity.
 
-- **Clear Your Temporary Cache:** High-resolution document scans take up significant storage and can linger in your temporary gallery folders. Once your client confirms receipt of the fax or email, delete the raw images from your Gallery and empty the **Trash** bin.
-- **Secure Cloud Sync:** If you auto-sync your entire camera roll to cloud storage, make sure confidential scanned folders are excluded or encrypted behind a Secure Folder layer (**Settings > Security and privacy > Secure Folder**) to prevent accidental exposure.
-- **Lens Cleanliness Check:** Mobile phone lenses pick up natural finger oils rapidly during a busy commute. A quick wipe against your shirt before snapping a document dramatically reduces soft focus and blur.
+- Clear Your Temporary Cache: High-resolution document scans take up significant storage and can linger in your temporary gallery folders. Once your client confirms receipt of the fax or email, delete the raw images from your Gallery and empty the Trash bin.
+- Secure Cloud Sync: If you auto-sync your entire camera roll to cloud storage, make sure confidential scanned folders are excluded or encrypted behind a Secure Folder layer (Settings > Security and privacy > Secure Folder) to prevent accidental exposure.
+- Lens Cleanliness Check: Mobile phone lenses pick up natural finger oils rapidly during a busy commute. A quick wipe against your shirt before snapping a document dramatically reduces soft focus and blur.
 
 ---
 
 ## Frequently Asked Questions
 
-**Q: Can I scan multiple pages into a single PDF file on my Galaxy?**  
-A: Yes! When using the native Galaxy camera scan feature, after capturing the first page, tap the **Plus (+) icon** on the screen to add subsequent pages. Once you hit save, all pages automatically compile into a clean, multi-page PDF document ready for email or faxing.
+Q: Can I scan multiple pages into a single PDF file on my Galaxy?  
+A: Yes! When using the native Galaxy camera scan feature, after capturing the first page, tap the Plus (+) icon on the screen to add subsequent pages. Once you hit save, all pages automatically compile into a clean, multi-page PDF document ready for email or faxing.
 
-**Q: What should I do if the room is too dark and shadows are unavoidable?**  
+Q: What should I do if the room is too dark and shadows are unavoidable?  
 A: Turn on your Galaxy's flashlight toggle in the quick settings panel before opening the camera, or use a companion phone's flashlight angled from a 45-degree side angle. Never use your camera's direct flash right above glossy paper, as it creates a blinding white glare spot that washes out the text.
 
-**Q: Why do mobile fax apps still say my file is too large even after scanning?**  
-A: Built-in scanner apps sometimes output extremely high-resolution image PDFs. Open the PDF in your Samsung Notes app or a lightweight PDF viewer, then choose **"Save as compressed PDF"** or export it with medium quality settings to shrink the file size below the fax service limit without losing text legibility.
+Q: Why do mobile fax apps still say my file is too large even after scanning?  
+A: Built-in scanner apps sometimes output extremely high-resolution image PDFs. Open the PDF in your Samsung Notes app or a lightweight PDF viewer, then choose "Save as compressed PDF" or export it with medium quality settings to shrink the file size below the fax service limit without losing text legibility.

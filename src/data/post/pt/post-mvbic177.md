@@ -23,9 +23,9 @@ Minha primeira reação foi o pânico clássico de quem depende do celular para 
 
 Depois de resolver a emergência no sufoco usando a tela externa conectada ao monitor via modo DeX, fui a fundo entender o que causou essa pane. Aqui estão os três principais culpados por esse defeito nos modelos dobráveis:
 
-1. **Fadiga e Rompimento Parcial do Cabo Flex:** O cabo que conecta a placa principal à tela interna sofre milhares de dobras. Com o tempo, microfissuras interrompem o sinal de vídeo justamente quando o aparelho é totalmente esticado.
-2. **Falha no Sensor Hall (Sensor de Abertura):** O sistema precisa saber exatamente o ângulo em que o aparelho está para ativar a tela interna. Se o sensor magnético acumular poeira metálica ou descalibrar, ele não avisa o sistema que o aparelho abriu.
-3. **Acúmulo de Detritos na Dobradiça:** Sujeira do bolso ou resíduos de uso diário podem bloquear o fechamento perfeito, impedindo que os contatos internos fechem o circuito elétrico da tela principal.
+1. Fadiga e Rompimento Parcial do Cabo Flex: O cabo que conecta a placa principal à tela interna sofre milhares de dobras. Com o tempo, microfissuras interrompem o sinal de vídeo justamente quando o aparelho é totalmente esticado.
+2. Falha no Sensor Hall (Sensor de Abertura): O sistema precisa saber exatamente o ângulo em que o aparelho está para ativar a tela interna. Se o sensor magnético acumular poeira metálica ou descalibrar, ele não avisa o sistema que o aparelho abriu.
+3. Acúmulo de Detritos na Dobradiça: Sujeira do bolso ou resíduos de uso diário podem bloquear o fechamento perfeito, impedindo que os contatos internos fechem o circuito elétrico da tela principal.
 
 ## Passo a Passo Prático para Tentar Recuperar a Tela
 
@@ -36,14 +36,14 @@ Desligue completamente o aparelho. Use uma escova de dentes de cerdas ultra maci
 
 ### Passo 2: Teste de Ângulo (Modo Flex)
 Abra o celular lentamente e pare em diferentes ângulos (90 graus, 120 graus). 
-- Vá em **Configurações > Visor > Modo Flex** e verifique se o painel de controle inferior acende. 
+- Vá em Configurações > Visor > Modo Flex e verifique se o painel de controle inferior acende. 
 - Se a tela acender parcialmente em ângulos específicos, temos a confirmação visual de que o cabo flex interno está rompido internamente e precisará de substituição física.
 
 ### Passo 3: Forçar a Inicialização do Hardware
 Se você suspeitar de um travamento temporário do gerenciador de vídeo do Android:
-1. Pressione e segure o **Botão de Liga/Desliga + Botão de Diminuir Volume** por mais de 10 segundos.
+1. Pressione e segure o Botão de Liga/Desliga + Botão de Diminuir Volume por mais de 10 segundos.
 2. Assim que o logotipo da Samsung aparecer na tela externa, solte os botões.
-3. Conecte o aparelho a um computador via cabo USB e acesse o menu **Configurações > Sistema > Opções de redefinição** para garantir que não há conflitos de drivers de vídeo pendentes.
+3. Conecte o aparelho a um computador via cabo USB e acesse o menu Configurações > Sistema > Opções de redefinição para garantir que não há conflitos de drivers de vídeo pendentes.
 
 <div style="border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Alerta do Especialista:</strong> Nunca force a abertura do aparelho se sentir qualquer resistência mecânica na dobradiça. Tentar desentortar o mecanismo manualmente pode estilhaçar o display OLED interno, transformando um reparo de cabo em um prejuízo total da tela.
@@ -51,11 +51,11 @@ Se você suspeitar de um travamento temporário do gerenciador de vídeo do Andr
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Posso continuar usando o Galaxy Z Fold apenas com a tela externa se a interna quebrar?**
+1. Posso continuar usando o Galaxy Z Fold apenas com a tela externa se a interna quebrar?
 Sim, perfeitamente. O celular continuará funcionando para ligações, mensagens e aplicativos na tela externa. Inclusive, você pode usar o recurso Samsung DeX em uma Smart TV ou monitor para recuperar arquivos e trabalhar enquanto não leva o aparelho para o conserto.
 
-**2. O conserto do cabo flex interno é muito caro?**
+2. O conserto do cabo flex interno é muito caro?
 O valor varia dependendo se o componente pode ser trocado separadamente ou se a assistência exige a troca conjunta do módulo de tela e dobradiça. Por isso, sempre exija um orçamento detalhado em uma assistência técnica especializada antes de autorizar o serviço.
 
-**3. Como evitar que esse problema volte a acontecer?**
+3. Como evitar que esse problema volte a acontecer?
 Evite abrir e fechar o celular com força excessiva ou em ambientes com muita poeira e maresia. O uso de capas protetoras que cobrem a dobradiça também ajuda a minimizar a entrada de detritos no mecanismo interno.

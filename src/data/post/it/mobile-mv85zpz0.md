@@ -22,9 +22,9 @@ Nel mio laboratorio ne vedo di tutti i colori ogni giorno, ma trovarsi dall'altr
 I dispositivi pieghevoli come la serie Z Fold di Samsung hanno tolleranze meccaniche strettissime e una gestione termica complessa. Quando l'algoritmo rileva umidità, non sta tirando a indovinare: misura la resistenza elettrica tra i pin del connettore USB Type-C. 
 
 Ecco i 3 colpevoli reali dietro questo errore fantasma:
-* **Condensazione termica da sbalzo:** Passare da un ufficio climatizzato a 20°C all'afa esterna estiva (o viceversa) crea condensa microscopica nei pin centrali della porta.
-* **Residui di tasca e ossidazione silente:** Pelucchi di tessuto misti a sudore che, appena scaldati dalla ricarica rapida, attivano i sensori di sicurezza antincendio/cortocircuito della One UI.
-* **Bug di sistema della cache USB:** A volte il sottosistema Android (`usbd` o i daemon di ricarica rapida) va in loop dopo un aggiornamento OTA, continuando a segnalare umidità anche a porta perfettamente asciutta.
+* Condensazione termica da sbalzo: Passare da un ufficio climatizzato a 20°C all'afa esterna estiva (o viceversa) crea condensa microscopica nei pin centrali della porta.
+* Residui di tasca e ossidazione silente: Pelucchi di tessuto misti a sudore che, appena scaldati dalla ricarica rapida, attivano i sensori di sicurezza antincendio/cortocircuito della One UI.
+* Bug di sistema della cache USB: A volte il sottosistema Android (`usbd` o i daemon di ricarica rapida) va in loop dopo un aggiornamento OTA, continuando a segnalare umidità anche a porta perfettamente asciutta.
 
 
 
@@ -36,10 +36,10 @@ Dimenticate i miti del riso (che lascia polvere amido dentro i microfoni) o del 
 
 ### Passo 1: Reset forzato del sottosistema USB (Software Check)
 Se siete sicuri al 100% che il telefono non abbia toccato acqua, il problema è quasi certamente software o un blocco della cache di sistema.
-1. Andate su **Impostazioni > Applicazioni**.
-2. Toccate l'icona di filtro a destra e attivate **Mostra applicazioni di sistema**.
-3. Cercate **USBSettings** o **USBintentReceiver**.
-4. Entrate in **Memoria archiviazione** e fate prima *Svuota cache* e poi *Cancella dati*.
+1. Andate su Impostazioni > Applicazioni.
+2. Toccate l'icona di filtro a destra e attivate Mostra applicazioni di sistema.
+3. Cercate USBSettings o USBintentReceiver.
+4. Entrate in Memoria archiviazione e fate prima *Svuota cache* e poi *Cancella dati*.
 5. Riavviate lo smartphone tenendo premuti contemporaneamente *Tasto Accensione + Volume Giù* per 10 secondi.
 
 ### Passo 2: Pulizia meccanica sicura (Hardware Check)
@@ -61,8 +61,8 @@ Se siete in una situazione disperata (come la mia al gate) e dovete assolutament
 
 I pieghevoli sono macchine straordinarie ma delicate. Per evitare di passare le ferie o le trasferte di lavoro nei centri assistenza:
 
-* **Occhio alla ricarica wireless:** Tenete sempre un piccolo pad di ricarica wireless nello zaino o in ufficio. Se la Type-C fa i capricci per un falso positivo di umidità, la ricarica a induzione vi salverà la vita senza rischiare cortocircuiti fisici.
-* **Cover con tappino protettivo:** Se lavorate in ambienti polverosi o umidi (cantieri, cucine, esterni), investite in una custodia rugged dotata di linguetta in silicone protettiva per la porta di ricarica. Riduce i problemi del 90%.
+* Occhio alla ricarica wireless: Tenete sempre un piccolo pad di ricarica wireless nello zaino o in ufficio. Se la Type-C fa i capricci per un falso positivo di umidità, la ricarica a induzione vi salverà la vita senza rischiare cortocircuiti fisici.
+* Cover con tappino protettivo: Se lavorate in ambienti polverosi o umidi (cantieri, cucine, esterni), investite in una custodia rugged dotata di linguetta in silicone protettiva per la porta di ricarica. Riduce i problemi del 90%.
 
 ---
 

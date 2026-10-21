@@ -21,9 +21,9 @@ Erano le 14:45 e mancava esattamente un quarto d'ora a una call cruciale con i p
 
 Prima di agire, capiamo cosa sta succedendo all'interno del dispositivo. L'iPhone non è bagnato dentro (almeno si spera), ma il sensore rileva un'anomalia elettrica. Ecco perché l'avviso persiste:
 
-1. **Micro-gocce intrappolate:** Anche se l'esterno sembra asciutto, la tensione superficiale dell'acqua trattiene minuscole gocce proprio all'interno della porta di ricarica, dove i pin sono ravvicinati.
-2. **Residui di sporco e umidità:** Se nel connettore c'era già accumulo di lanugine o polvere tascabile, l'acqua si è legata a questo sporco creando un composto conduttivo che fa scattare la protezione anti-corto circuito di iOS.
-3. **Cavo o accessori umidi:** A volte non è l'iPhone a essere bagnato, ma i pin del connettore USB-C o Lightning del vostro cavo o dell'alimentatore che avete appena usato.
+1. Micro-gocce intrappolate: Anche se l'esterno sembra asciutto, la tensione superficiale dell'acqua trattiene minuscole gocce proprio all'interno della porta di ricarica, dove i pin sono ravvicinati.
+2. Residui di sporco e umidità: Se nel connettore c'era già accumulo di lanugine o polvere tascabile, l'acqua si è legata a questo sporco creando un composto conduttivo che fa scattare la protezione anti-corto circuito di iOS.
+3. Cavo o accessori umidi: A volte non è l'iPhone a essere bagnato, ma i pin del connettore USB-C o Lightning del vostro cavo o dell'alimentatore che avete appena usato.
 
 ---
 
@@ -42,7 +42,7 @@ Se proprio non puoi fare a meno di ricaricare il telefono per ricevere quel codi
 * Spegni completamente l'iPhone.
 * Collegalo a una power bank o a un caricatore a muro certificato.
 * Riaccendilo mentre è collegato (in alcuni casi iOS bypassa temporaneamente il blocco se avviato già sotto carica, sebbene sia una pratica da usare solo ed esclusivamente in emergenza estrema).
-* In alternativa, sfrutta la ricarica **MagSafe** o wireless: aggira totalmente il problema fisico della porta Lightning/USB-C.
+* In alternativa, sfrutta la ricarica MagSafe o wireless: aggira totalmente il problema fisico della porta Lightning/USB-C.
 
 ---
 
@@ -56,11 +56,11 @@ Se proprio non puoi fare a meno di ricaricare il telefono per ricevere quel codi
 
 ### Domande Frequenti (FAQ)
 
-**Posso usare l'opzione "Ignora avviso" che compare su iOS?**
+Posso usare l'opzione "Ignora avviso" che compare su iOS?
  iOS a volte offre la possibilità di ignorare l'avviso in caso di emergenza. Fallo *solo* se hai assoluta certezza che la porta sia asciutta. Forzare la ricarica con liquido residuo può fondere permanentemente i pin della scheda madre o danneggiare irreparabilmente il cavo.
 
-**Quanto tempo ci vuole perché l'avviso scompaia da solo?**
+Quanto tempo ci vuole perché l'avviso scompaia da solo?
 In condizioni di normale umidità ambientale in un ufficio riscaldato o climatizzato, l'evaporazione naturale richiede dai 30 minuti alle 2 ore. Lasciare il telefono capovolto su una superficie pulita accelera notevolmente il processo.
 
-**Se uso la ricarica wireless rovino comunque il telefono?**
+Se uso la ricarica wireless rovino comunque il telefono?
 No, la ricarica wireless (o MagSafe) è il metodo più sicuro in assoluto quando la porta dati è bloccata dal sensore di umidità, perché non utilizza i pin fisici inferiori ed evita qualsiasi rischio di corto circuito.

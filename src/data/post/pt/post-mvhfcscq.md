@@ -21,9 +21,9 @@ Trabalho na bancada de uma assistencia tecnica ha anos e vejo esse cenario quase
 
 Antes de sair trocando pecas ou gastando dinheiro em assistencias picaretas, voce precisa entender o que esta acontecendo dentro do seu aparelho. Aqui estao as tres raizes mais comuns para esse problema:
 
-* **Apps travados em loop de sincronizacao:** Alguma rede social ou aplicativo de banco ficou preso tentando enviar dados, mantendo o processador trabalhando em capacidade maxima 100% do tempo.
-* **Conector de carga emperrado e em curto parcial:** Acumulo de sujeira, fiapos de tecido e oxidacao leve criam uma resistencia na porta USB-C. O sistema acha que esta recebendo dados ou carga instavel, gerando superaquecimento local.
-* **Bateria degradada combinada com calor ambiente:** Baterias de lithium sofrem muito com calor excessivo. Se o app em segundo plano esquenta o aparelho, a quimica da bateria entra em colapso e perde carga exponencialmente.
+* Apps travados em loop de sincronizacao: Alguma rede social ou aplicativo de banco ficou preso tentando enviar dados, mantendo o processador trabalhando em capacidade maxima 100% do tempo.
+* Conector de carga emperrado e em curto parcial: Acumulo de sujeira, fiapos de tecido e oxidacao leve criam uma resistencia na porta USB-C. O sistema acha que esta recebendo dados ou carga instavel, gerando superaquecimento local.
+* Bateria degradada combinada com calor ambiente: Baterias de lithium sofrem muito com calor excessivo. Se o app em segundo plano esquenta o aparelho, a quimica da bateria entra em colapso e perde carga exponencialmente.
 
 ---
 
@@ -39,12 +39,12 @@ Se o conector estiver entupido, desligue o aparelho imediatamente. Pegue uma esc
 ![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhfej7w-7-b/1000/550.jpg)
 
 ### 2. Identificacao e suspensao de apps vampiros
-Va em **Configuracoes > Assistencia do aparelho e bateria > Bateria**. Toque em "Uso da bateria desde a ultima carga" e veja qual aplicativo esta consumindo mais energia. 
-* Se encontrar um app desconhecido ou travado, clique nele e selecione **"Restringir uso em segundo plano"** ou **"Forcar parada"**.
-* Ative o recurso **"Bateria adaptativa"** para que a inteligencia artificial do Galaxy bloqueie processos fantasmas automaticamente.
+Va em Configuracoes > Assistencia do aparelho e bateria > Bateria. Toque em "Uso da bateria desde a ultima carga" e veja qual aplicativo esta consumindo mais energia. 
+* Se encontrar um app desconhecido ou travado, clique nele e selecione "Restringir uso em segundo plano" ou "Forcar parada".
+* Ative o recurso "Bateria adaptativa" para que a inteligencia artificial do Galaxy bloqueie processos fantasmas automaticamente.
 
 ### 3. Limpeza de cache do sistema (Wipe Cache Partition)
-Se o aquecimento persistir mesmo com o celular ocioso, desligue o Galaxy completamente. Conecte-o a um computador via cabo USB (ja com o conector limpo), segure os botoes de **Ligar + Aumentar Volume** ate aparecer o logotipo da Samsung. Use os botoes de volume para navegar ate **"Wipe cache partition"**, confirme com o botao Power e depois reinicie. Isso limpa arquivos temporarios corrompidos que causam loops de processamento.
+Se o aquecimento persistir mesmo com o celular ocioso, desligue o Galaxy completamente. Conecte-o a um computador via cabo USB (ja com o conector limpo), segure os botoes de Ligar + Aumentar Volume ate aparecer o logotipo da Samsung. Use os botoes de volume para navegar ate "Wipe cache partition", confirme com o botao Power e depois reinicie. Isso limpa arquivos temporarios corrompidos que causam loops de processamento.
 
 ---
 
@@ -60,11 +60,11 @@ Se o aquecimento persistir mesmo com o celular ocioso, desligue o Galaxy complet
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Posso usar alcool comum para limpar o conector de carga emperrado?**
-De jeito nenhum! O alcool comum contem agua na formula (teor de 46% ou mais), o que acelera a oxidacao dos micro-contatos. Se for limpar quimicamente, use exclusivamente **Alcool Isopropilico 99.4%** em quantidades minimas com um cotonete bem espremido.
+1. Posso usar alcool comum para limpar o conector de carga emperrado?
+De jeito nenhum! O alcool comum contem agua na formula (teor de 46% ou mais), o que acelera a oxidacao dos micro-contatos. Se for limpar quimicamente, use exclusivamente Alcool Isopropilico 99.4% em quantidades minimas com um cotonete bem espremido.
 
-**2. O celular continua esquentando mesmo depois de fechar todos os apps. O que pode ser?**
+2. O celular continua esquentando mesmo depois de fechar todos os apps. O que pode ser?
 Se ele esquenta proximo ao modulo de cameras ou embaixo do leitor de digital mesmo sem uso, voce pode estar com um curto-circuito na placa principal (geralmente causado por umidade previa ou defeito no circuito integrado de carga, o famoso CI U2/PMIC). Nesse caso, procure uma assistencia tecnica de confianca para uma analise com multimetro e camera termica.
 
-**3. Carregar o Galaxy usando o computador esquenta mais do que na tomada?**
+3. Carregar o Galaxy usando o computador esquenta mais do que na tomada?
 Sim. Portas USB de computadores antigos fornecem pouca corrente (geralmente 500mA a 900mA), forcando o circuito de carga do celular a trabalhar no limite por muito mais tempo para repor energia, gerando calor dissipado desnecessario. Prefira sempre carregadores de parede originais ou homologados com saida compativel (15W, 25W ou superior).

@@ -23,9 +23,9 @@ Bevor wir wild an den Einstellungen schrauben, müssen wir verstehen, warum dein
 
 Hier sind die drei häufigsten Übeltäter im Detail:
 
-* **Hängende Hintergrundprozesse:** Eine App versucht, Daten zu synchronisieren (oft Cloud-Dienste oder Social-Media-Anwendungen), scheitert am WLAN oder Server und feuert ununterbrochen CPU-Anfragen ab. Das treibt die Temperatur schnell auf über 45°C.
-* **USB-C Anschluss-Fehler:** Staub, Büroklammer-Reste oder Feuchtigkeit in der Ladebuchse erzeugen winzige Kriechströme. Das Smartphone glaubt, es wird geladen oder ein OTG-Gerät ist angeschlossen, was den Power-Management-Chip (PMIC) verwirrt und dauerhaft Strom zieht.
-* **Aggressive Schnelllade-Zyklen:** Wenn das Gerät gleichzeitig unter Volllast läuft und mit 25W oder 45W geladen wird, entsteht massive Abwärme, die den chemischen Alterungsprozess der Lithium-Ionen-Zellen dramatisch beschleunigt.
+* Hängende Hintergrundprozesse: Eine App versucht, Daten zu synchronisieren (oft Cloud-Dienste oder Social-Media-Anwendungen), scheitert am WLAN oder Server und feuert ununterbrochen CPU-Anfragen ab. Das treibt die Temperatur schnell auf über 45°C.
+* USB-C Anschluss-Fehler: Staub, Büroklammer-Reste oder Feuchtigkeit in der Ladebuchse erzeugen winzige Kriechströme. Das Smartphone glaubt, es wird geladen oder ein OTG-Gerät ist angeschlossen, was den Power-Management-Chip (PMIC) verwirrt und dauerhaft Strom zieht.
+* Aggressive Schnelllade-Zyklen: Wenn das Gerät gleichzeitig unter Volllast läuft und mit 25W oder 45W geladen wird, entsteht massive Abwärme, die den chemischen Alterungsprozess der Lithium-Ionen-Zellen dramatisch beschleunigt.
 
 ---
 
@@ -34,18 +34,18 @@ Hier sind die drei häufigsten Übeltäter im Detail:
 Lass uns das Samsung Galaxy wieder in den Griff bekommen. Folge diesen praxiserprobten Schritten direkt an deinem Gerät.
 
 ### Schritt 1: Die Akku-Statistik entlarvt den Übeltäter
-Geh in die Einstellungen deines Smartphones und tippe auf **Gerätewartung** gefolgt von **Akku**. 
+Geh in die Einstellungen deines Smartphones und tippe auf Gerätewartung gefolgt von Akku. 
 - Schau dir die Liste der Apps an, die in den letzten 24 Stunden den meisten Strom verbraucht haben.
-- Taucht hier eine App auf, die du kaum genutzt hast, hast du den Schuldigen gefunden. Tippe auf die App und wähle **Stopp erzwingen** sowie **Im Hintergrund einschränken**.
+- Taucht hier eine App auf, die du kaum genutzt hast, hast du den Schuldigen gefunden. Tippe auf die App und wähle Stopp erzwingen sowie Im Hintergrund einschränken.
 
 ### Schritt 2: Den Cache leeren und Neustarten
 Manchmal hilft ein simpler Neustart nicht, weil beschädigte temporäre Dateien im Cache weiterarbeiten.
 - Schalte das Galaxy komplett aus.
 - Starte es im Recovery-Modus (beim Einschalten die Lautstärke-Leiser-Taste und Power-Taste gleichzeitig gedrückt halten, bis das Samsung-Logo erscheint).
-- Navigiere mit den Lautstärketasten zu **Wipe Cache Partition** und bestätige mit Power. Das löscht alte Datenmüll-Reste, ohne deine persönlichen Dateien zu löschen.
+- Navigiere mit den Lautstärketasten zu Wipe Cache Partition und bestätige mit Power. Das löscht alte Datenmüll-Reste, ohne deine persönlichen Dateien zu löschen.
 
 ### Schritt 3: USB-C Buchse professionell reinigen
-Da wir gerade im Büro sind: Nimm eine **alte, saubere Zahnbürste** oder einen handelsüblichen Holz-Zahnstocher (niemals Metallnadeln!).
+Da wir gerade im Büro sind: Nimm eine alte, saubere Zahnbürste oder einen handelsüblichen Holz-Zahnstocher (niemals Metallnadeln!).
 - Leuchte mit einer Taschenlampe in die Ladebuchse deines Samsung Galaxy.
 - Schabe vorsichtig, aber bestimmt verpresste Fusseln aus den Ecken heraus. 
 - Puste die Buchse mit trockener Druckluft aus (gibt es in jeder Werkstatt oder im Bürobedarf als Spraydose). Das beseitigt oft die Kriechströme, die das Mainboard wachhalten.
@@ -59,8 +59,8 @@ Da wir gerade im Büro sind: Nimm eine **alte, saubere Zahnbürste** oder einen 
 </div>
 
 Vermeide unbedingt folgende Fehler, die ich in der Werkstatt oft sehe:
-- **Keine Büroklammern aus Metall** zum Reinigen der Ladebuchse nutzen. Ein kurzer Funke und die Ladeelektronik ist komplett durchgebrannt.
-- **Keine Kühlschrank-Methode:** Das Smartphone niemals in den Kühlschrank legen, um es abzukühlen. Durch die abrupte Kälte bildet sich Kondenswasser im Inneren, das die Hauptplatine sofort zerstört.
+- Keine Büroklammern aus Metall zum Reinigen der Ladebuchse nutzen. Ein kurzer Funke und die Ladeelektronik ist komplett durchgebrannt.
+- Keine Kühlschrank-Methode: Das Smartphone niemals in den Kühlschrank legen, um es abzukühlen. Durch die abrupte Kälte bildet sich Kondenswasser im Inneren, das die Hauptplatine sofort zerstört.
 
 ---
 

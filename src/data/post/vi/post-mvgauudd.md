@@ -28,9 +28,9 @@ Cái cảm giác đang cần máy gấp để scan tài liệu hay check group Z
 
 Dựa trên kinh nghiệm mổ xẻ hàng trăm ca lỗi sạc không dây từ đế sạc Xiaomi, Samsung cho tới MagSafe của iPhone, mình đúc kết ra 3 nguyên nhân chính sau:
 
-*   **Lệch tâm cuộn dây cảm ứng (Misaligned Induction Coils):** Đây là thủ phạm chiếm tới 70% các ca. Sạc không dây hoạt động dựa trên nguyên lý cảm ứng điện từ giữa hai cuộn dây đồng: một nằm trong đế sạc và một nằm ở mặt lưng điện thoại. Nếu tâm của hai cuộn này lệch nhau quá 3-5mm, từ trường không thể cộng hưởng tối ưu, hệ thống bảo vệ sẽ tự ngắt và bật đèn nhấp nháy để cảnh báo quá dòng/quá nhiệt.
-*   **Vướng dị vật hoặc ốp lưng quá dày/có từ tính:** Nhiều anh em dùng ốp chống sốc dày cộp, ốp lưng gắn nam châm tản nhiệt, hoặc kẹt mấy cái card visit, thẻ giữ xe có dán lá nhôm chống trộm phía sau lưng máy. Mấy thứ này cản trở từ trường cực kỳ mạnh.
-*   **Nguồn cấp điện đầu vào không đủ dòng (Adapter yếu):** Cắm đế sạc nhanh vào mấy cái củ sạc iPhone 5W đời cũ hoặc cắm nhầm vào cổng USB của máy tính bàn văn phòng (chỉ cấp dòng 0.5A - 1A). Khi điện thoại đòi dòng cao mà cấp không đủ, đế sạc sẽ nháy đèn báo lỗi nguồn.
+*   Lệch tâm cuộn dây cảm ứng (Misaligned Induction Coils): Đây là thủ phạm chiếm tới 70% các ca. Sạc không dây hoạt động dựa trên nguyên lý cảm ứng điện từ giữa hai cuộn dây đồng: một nằm trong đế sạc và một nằm ở mặt lưng điện thoại. Nếu tâm của hai cuộn này lệch nhau quá 3-5mm, từ trường không thể cộng hưởng tối ưu, hệ thống bảo vệ sẽ tự ngắt và bật đèn nhấp nháy để cảnh báo quá dòng/quá nhiệt.
+*   Vướng dị vật hoặc ốp lưng quá dày/có từ tính: Nhiều anh em dùng ốp chống sốc dày cộp, ốp lưng gắn nam châm tản nhiệt, hoặc kẹt mấy cái card visit, thẻ giữ xe có dán lá nhôm chống trộm phía sau lưng máy. Mấy thứ này cản trở từ trường cực kỳ mạnh.
+*   Nguồn cấp điện đầu vào không đủ dòng (Adapter yếu): Cắm đế sạc nhanh vào mấy cái củ sạc iPhone 5W đời cũ hoặc cắm nhầm vào cổng USB của máy tính bàn văn phòng (chỉ cấp dòng 0.5A - 1A). Khi điện thoại đòi dòng cao mà cấp không đủ, đế sạc sẽ nháy đèn báo lỗi nguồn.
 
 ---
 
@@ -38,12 +38,12 @@ Dựa trên kinh nghiệm mổ xẻ hàng trăm ca lỗi sạc không dây từ 
 
 Không cần tua vít hay khò hàn gì cả, anh em cứ áp dụng đúng các bước sau đây cho mình:
 
-1.  **Vệ sinh bề mặt tiếp xúc:** Lấy một chiếc khăn giấy khô (hoặc khăn lau kính) lau sạch mặt đế sạc và mặt lưng kính của điện thoại. Bụi bẩn bám lâu ngày ở văn phòng máy lạnh có thể tạo ra khoảng hở vi mô làm suy giảm từ tính.
-2.  **Tháo ốp lưng dày:** Hãy thử nhét máy trần (không ốp) lên sạc. Nếu đang dùng ốp lưng quá dày hoặc có đính đá, kim loại, vòng tản nhiệt bằng sắt, hãy tháo ra ngay lập tức.
-3.  **Căn chuẩn tâm cuộn dây (Alignment):** 
+1.  Vệ sinh bề mặt tiếp xúc: Lấy một chiếc khăn giấy khô (hoặc khăn lau kính) lau sạch mặt đế sạc và mặt lưng kính của điện thoại. Bụi bẩn bám lâu ngày ở văn phòng máy lạnh có thể tạo ra khoảng hở vi mô làm suy giảm từ tính.
+2.  Tháo ốp lưng dày: Hãy thử nhét máy trần (không ốp) lên sạc. Nếu đang dùng ốp lưng quá dày hoặc có đính đá, kim loại, vòng tản nhiệt bằng sắt, hãy tháo ra ngay lập tức.
+3.  Căn chuẩn tâm cuộn dây (Alignment): 
     *   *Với điện thoại Android (Samsung, Xiaomi...):* Cuộn dây sạc thường nằm ở chính giữa thân máy (gần sát logo hãng). Hãy đặt tâm đế sạc trùng khớp với tâm lưng máy.
     *   *Với iPhone (hỗ trợ MagSafe):* Anh em xoay nhẹ điện thoại cho đến khi nghe tiếng "tách" nhẹ do lực hút nam châm tự định vị (nếu dùng ốp chuẩn MagSafe) hoặc căn chỉnh logo quả táo nằm chính giữa đế sạc tròn.
-4.  **Kiểm tra lại củ sạc cấp nguồn (Adapter):** Rút cáp của đế sạc ra và cắm vào củ sạc nhanh tối thiểu từ 18W trở lên (khuyên dùng củ PD 20W/25W chuẩn). Tuyệt đối tránh cắm qua cổng USB Hub rẻ tiền hay cổng PC ở công ty.
+4.  Kiểm tra lại củ sạc cấp nguồn (Adapter): Rút cáp của đế sạc ra và cắm vào củ sạc nhanh tối thiểu từ 18W trở lên (khuyên dùng củ PD 20W/25W chuẩn). Tuyệt đối tránh cắm qua cổng USB Hub rẻ tiền hay cổng PC ở công ty.
 
 ---
 
@@ -51,19 +51,19 @@ Không cần tua vít hay khò hàn gì cả, anh em cứ áp dụng đúng các
 
 Sạc không dây tiện thật, nhưng nếu dùng sai cách thì "tàn phá" tuổi thọ viên pin nhanh hơn sạc cáp truyền thống rất nhiều vì lượng nhiệt tỏa ra lớn hơn. 
 
-*   **Kiểm soát nhiệt độ:** Sạc không dây sinh nhiệt tự nhiên. Nếu văn phòng anh em đang mở điều hòa mát lạnh thì quá tuyệt vời, nhưng tránh đặt đế sạc ở những nơi bị ánh nắng chiếu trực tiếp qua cửa kính cửa sổ. Nhiệt độ cao + nhiệt độ sạc = "sát thủ" giết chết cell pin Li-ion.
-*   **Không vừa sạc vừa cày game nặng:** Đã sạc không dây lại còn bật Genshin Impact hay render video thì cục pin của anh em sẽ phồng lên như cái bánh phồng tôm chỉ sau vài tháng. Lúc đó tốn tiền thay màn hình với thay pin khối tiền nhé!
-*   **Ưu tiên phụ kiện chính hãng hoặc đạt chuẩn Qi:** Đừng tiếc vài chục nghìn mua mấy cái đế sạc trôi nổi không rõ nguồn gốc trên mạng. Mạch bảo vệ kém chất lượng của chúng rất dễ làm sốc điện, hỏng IC sạc trên mainboard điện thoại.
+*   Kiểm soát nhiệt độ: Sạc không dây sinh nhiệt tự nhiên. Nếu văn phòng anh em đang mở điều hòa mát lạnh thì quá tuyệt vời, nhưng tránh đặt đế sạc ở những nơi bị ánh nắng chiếu trực tiếp qua cửa kính cửa sổ. Nhiệt độ cao + nhiệt độ sạc = "sát thủ" giết chết cell pin Li-ion.
+*   Không vừa sạc vừa cày game nặng: Đã sạc không dây lại còn bật Genshin Impact hay render video thì cục pin của anh em sẽ phồng lên như cái bánh phồng tôm chỉ sau vài tháng. Lúc đó tốn tiền thay màn hình với thay pin khối tiền nhé!
+*   Ưu tiên phụ kiện chính hãng hoặc đạt chuẩn Qi: Đừng tiếc vài chục nghìn mua mấy cái đế sạc trôi nổi không rõ nguồn gốc trên mạng. Mạch bảo vệ kém chất lượng của chúng rất dễ làm sốc điện, hỏng IC sạc trên mainboard điện thoại.
 
 ---
 
 ### 5. Câu hỏi thường gặp (FAQ)
 
-**Q1: Tại sao tôi đã đặt đúng chính giữa mà đèn vẫn nhấp nháy đỏ?**
+Q1: Tại sao tôi đã đặt đúng chính giữa mà đèn vẫn nhấp nháy đỏ?
 *A:* Có thể đế sạc của bạn đang bị lỗi quá nhiệt nội tại hoặc củ sạc cấp nguồn không đạt chuẩn công suất yêu cầu. Hãy thử đổi củ sạc khác hoặc rút điện đế sạc ra 5 phút để nguội rồi cắm lại.
 
-**Q2: Dán kính cường lực mặt lưng điện thoại có ảnh hưởng đến sạc không dây không?**
+Q2: Dán kính cường lực mặt lưng điện thoại có ảnh hưởng đến sạc không dây không?
 *A:* Miếng dán PPF mỏng hoặc kính cường lực thông thường không ảnh hưởng đáng kể. Tuy nhiên, nếu bạn dán loại cường lực có viền kim loại trang trí hoặc tấm dán chống nhìn trộm dày có chứa thành phần kim loại thì chắc chắn sẽ gây lỗi ngắt sạc.
 
-**Q3: Sạc không dây có làm chai pin nhanh hơn sạc dây bình thường không?**
-*A:* Bản thân công nghệ sạc không dây không làm chai pin trực tiếp, nhưng **hiệu suất chuyển hóa năng lượng thấp hơn và sinh nhiệt nhiều hơn** mới là nguyên nhân chính. Nếu kiểm soát tốt nhiệt độ máy, pin vẫn bền bình thường anh em nhé!
+Q3: Sạc không dây có làm chai pin nhanh hơn sạc dây bình thường không?
+*A:* Bản thân công nghệ sạc không dây không làm chai pin trực tiếp, nhưng hiệu suất chuyển hóa năng lượng thấp hơn và sinh nhiệt nhiều hơn mới là nguyên nhân chính. Nếu kiểm soát tốt nhiệt độ máy, pin vẫn bền bình thường anh em nhé!

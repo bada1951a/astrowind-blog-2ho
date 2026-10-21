@@ -25,9 +25,9 @@ If you just updated your iPhone and watched your battery percentage plummet from
 
 Before grabbing tools, you need to understand what is happening inside your device. Post-update battery drain usually stems from three primary culprits:
 
-1. **Background Database Re-indexing:** When iOS updates, Spotlight re-indexes every single file, photo, and message on your device. This heavy CPU workload keeps your processor chips running at high frequencies, generating heat and draining power rapidly for 24-48 hours.
-2. **Stuck Background App Refresh:** Older app caches conflict with new iOS APIs, causing apps like social media, navigation, or email clients to get stuck in infinite background refresh loops.
-3. **Hardware Complications Masked as Software Drain:** Sometimes, a dirty or clogged Lightning/USB-C port prevents proper fast charging. Your phone struggles to draw current, leading to incomplete charging cycles that trick you into thinking the battery is failing.
+1. Background Database Re-indexing: When iOS updates, Spotlight re-indexes every single file, photo, and message on your device. This heavy CPU workload keeps your processor chips running at high frequencies, generating heat and draining power rapidly for 24-48 hours.
+2. Stuck Background App Refresh: Older app caches conflict with new iOS APIs, causing apps like social media, navigation, or email clients to get stuck in infinite background refresh loops.
+3. Hardware Complications Masked as Software Drain: Sometimes, a dirty or clogged Lightning/USB-C port prevents proper fast charging. Your phone struggles to draw current, leading to incomplete charging cycles that trick you into thinking the battery is failing.
 
 ---
 
@@ -46,30 +46,30 @@ If your phone isn't holding a charge properly after the update, debris might be 
 
 #### Step 2: Tame Background Processes and Location Services
 Let's stop your apps from chewing through your newly updated system resources.
-* Go to **Settings > General > Background App Refresh** and toggle it entirely **Off**, or selectively disable heavy apps that don't need constant data updates.
-* Navigate to **Settings > Privacy & Security > Location Services**. Check which apps are set to "Always". Switch non-essential apps to "While Using" or "Never" to prevent constant GPS polling.
+* Go to Settings > General > Background App Refresh and toggle it entirely Off, or selectively disable heavy apps that don't need constant data updates.
+* Navigate to Settings > Privacy & Security > Location Services. Check which apps are set to "Always". Switch non-essential apps to "While Using" or "Never" to prevent constant GPS polling.
 
 #### Step 3: Force Restart and Cache Clear
 A clean reboot flushes out stuck temporary system files and halts runaway update threads.
-* **For iPhone 8 and Newer:** Quickly press and release the **Volume Up** button, quickly press and release the **Volume Down** button, then press and hold the **Side/Power** button. Keep holding until the screen goes black and the Apple logo appears (this takes about 10-15 seconds).
+* For iPhone 8 and Newer: Quickly press and release the Volume Up button, quickly press and release the Volume Down button, then press and hold the Side/Power button. Keep holding until the screen goes black and the Apple logo appears (this takes about 10-15 seconds).
 * Plug your phone into a certified 20W wall charger and let it sit undisturbed for 30 minutes to let it finish background syncs with a stable power supply.
 
 ---
 
 ### Expert Warning & Safety Best Practices
 
-* **Watch the Temperature:** If your iPhone feels hot to the touch while sitting idle after an update, **do not** place it in a refrigerator or freezer. Extreme cold condenses moisture inside the chassis and ruins the battery permanently. Instead, take off heavy protective cases, turn off cellular data, and let it rest in a cool, shaded room.
-* **Avoid Cheap Gas Station Chargers:** When troubleshooting charging speeds, always use original Apple cables or MFi-certified third-party bricks. Cheap uncertified chargers deliver unstable voltage that can fry your newly updated iPhone's Tristar charging IC chip.
+* Watch the Temperature: If your iPhone feels hot to the touch while sitting idle after an update, do not place it in a refrigerator or freezer. Extreme cold condenses moisture inside the chassis and ruins the battery permanently. Instead, take off heavy protective cases, turn off cellular data, and let it rest in a cool, shaded room.
+* Avoid Cheap Gas Station Chargers: When troubleshooting charging speeds, always use original Apple cables or MFi-certified third-party bricks. Cheap uncertified chargers deliver unstable voltage that can fry your newly updated iPhone's Tristar charging IC chip.
 
 ---
 
 ### Frequently Asked Questions (FAQ)
 
-**Q: How long does normal post-iOS update battery drain last?**
+Q: How long does normal post-iOS update battery drain last?
 A: Typically, heavy background indexing resolves itself within 24 to 48 hours after installing a major update. If your battery life hasn't stabilized after 3 full days, a fresh backup and DFU restore via a computer may be required.
 
-**Q: Should I replace my battery if health is at 82% right after an update?**
+Q: Should I replace my battery if health is at 82% right after an update?
 A: Not necessarily because of the update alone. An update simply exposes existing battery degradation because the phone is working harder. If your Maximum Capacity is below 80% or you experience sudden shutdowns, it is time for a fresh battery swap.
 
-**Q: Why does my phone get warm when I charge it after an update?**
+Q: Why does my phone get warm when I charge it after an update?
 A: This is normal if the phone is simultaneously charging and performing background software indexing. However, if it becomes painfully hot or smells chemical, disconnect the charger immediately and bring it to a local repair technician for professional inspection.

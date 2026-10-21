@@ -50,15 +50,15 @@ Oft lädt das iPhone nach einem Update nur deshalb so langsam oder gar nicht, we
 
 Ein einfacher Neustart reicht oft nicht aus, um hängende Systemprozesse nach einem Update zu stoppen. Ein Hard Reset zwingt den Kernel zum Clean-Boot.
 
-* Drücke kurz die **Lauter-Taste** und lass sie sofort wieder los.
-* Drücke kurz die **Leiser-Taste** und lass sie sofort wieder los.
-* Halte nun die **Seitentaste** (Power-Button) gedrückt, bis der Bildschirm schwarz wird und das Apple-Logo erscheint. Das kann bis zu 15 Sekunden dauern.
+* Drücke kurz die Lauter-Taste und lass sie sofort wieder los.
+* Drücke kurz die Leiser-Taste und lass sie sofort wieder los.
+* Halte nun die Seitentaste (Power-Button) gedrückt, bis der Bildschirm schwarz wird und das Apple-Logo erscheint. Das kann bis zu 15 Sekunden dauern.
 
 ### Schritt 3: Energiefresser identifizieren und zügeln
 
-Gehe in den Einstellungen auf **Batterie** und scrolle nach unten zur App-Liste. Prüfe, welche App in den letzten 24 Stunden den meisten Strom verbraucht hat.
+Gehe in den Einstellungen auf Batterie und scrolle nach unten zur App-Liste. Prüfe, welche App in den letzten 24 Stunden den meisten Strom verbraucht hat.
 
-* Deaktiviere die **Hintergrundaktualisierung** für Apps, die du nicht zwingend benötigst (Einstellungen > Allgemein > Hintergrundaktualisierung).
+* Deaktiviere die Hintergrundaktualisierung für Apps, die du nicht zwingend benötigst (Einstellungen > Allgemein > Hintergrundaktualisierung).
 * Schalte temporär die Ortungsdienste für Apps auf "Beim Verwenden" um.
 * Gib dem Gerät 2 Tage Zeit: Wenn du das iPhone frisch aktualisiert hast, warte 48 Stunden ab, bis die automatische System-Indexierung abgeschlossen ist.
 

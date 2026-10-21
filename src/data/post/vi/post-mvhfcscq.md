@@ -21,16 +21,16 @@ Thuc te, day la tinh trang ma rat nhieu anh em su dung dong may Galaxy gap phai.
 
 Sau khi kiem tra chiec may cua chi khach tai ban ky thuat TPHCM, nguyen nhan nhanh chong lo dien khong chi nam o mot loi don thuan ma la su ket hop cua phan mem va phan cung:
 
-* **Tien trinh ngam bi treo (Zombie App):** Mot so ung dung mang xa hoi hoac app dat xe bi loi dong bo du lieu, chay ngam khong ngung nghi khien chip xu ly (CPU) luon hoat động o cong suat cao 100%, dan den nong ran toan bo mat lung va sut pin than toc.
-* **Loi mach giao tiep USB Power Delivery (PD):** Khi cong Type C bi bam bui ban hoac am moc, mach dieu khien sac nhanh bi nhieu tin hieu, danh lua bo nguon rang may dang qua nhiet, dan den tinh trang ngat sac nhanh hoac chi nhan sac cham 5W 1A.
-* **Xung dot he thong sau ban cap nhat One UI:** Nhieu tien ich (widgets) hoac dich vu vi tri chay ngam bi loi vong lap (loop) sau khi may tu dong cap nhat phan mem qua OTA.
+* Tien trinh ngam bi treo (Zombie App): Mot so ung dung mang xa hoi hoac app dat xe bi loi dong bo du lieu, chay ngam khong ngung nghi khien chip xu ly (CPU) luon hoat động o cong suat cao 100%, dan den nong ran toan bo mat lung va sut pin than toc.
+* Loi mach giao tiep USB Power Delivery (PD): Khi cong Type C bi bam bui ban hoac am moc, mach dieu khien sac nhanh bi nhieu tin hieu, danh lua bo nguon rang may dang qua nhiet, dan den tinh trang ngat sac nhanh hoac chi nhan sac cham 5W 1A.
+* Xung dot he thong sau ban cap nhat One UI: Nhieu tien ich (widgets) hoac dich vu vi tri chay ngam bi loi vong lap (loop) sau khi may tu dong cap nhat phan mem qua OTA.
 
 ## Cac buoc xu ly tai cho an toan va hieu qua nhat
 
 Truoc khi mang ra tiem de ton tien thay pin hay sua main, ban hoan toan co the tu xu ly tai ban lam viec cua minh bang quy trinh chuan ky thuat vien duoi day:
 
 ### Buoc 1: Buoc khoi dong lai nong (Force Restart) de cat tien trinh loi
-Khi may qua nong va treo, cac thao tac cham thong thuong se bi delay. Ban hay nham giu dong thoi **Nut Nguon (Power) + Nut Giam Am Luong (Volume Down)** lien tuc trong khoang 10 den 15 giay cho den khi man hinh tat han va logo Samsung xuat hien tro lai. Thao tac nay giup xoa sach bo nho dem RAM va ngat lap tuc cac tien trinh ngam dang gay qua tai.
+Khi may qua nong va treo, cac thao tac cham thong thuong se bi delay. Ban hay nham giu dong thoi Nut Nguon (Power) + Nut Giam Am Luong (Volume Down) lien tuc trong khoang 10 den 15 giay cho den khi man hinh tat han va logo Samsung xuat hien tro lai. Thao tac nay giup xoa sach bo nho dem RAM va ngat lap tuc cac tien trinh ngam dang gay qua tai.
 
 ### Buoc 2: Ve sinh sach se long cong Type C
 Dung mot cay tam tre vuot nhon hoac mot soi chi nho de nhe nhang khua sach bui vai, xo bon duoc nen chat o day cong sac Type C. 

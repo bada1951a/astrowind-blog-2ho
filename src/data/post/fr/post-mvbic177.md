@@ -25,13 +25,13 @@ En tant que spécialiste support, je savais pourtant que le problème était phy
 
 Avant de manipuler quoi que ce soit, il faut comprendre ce qui se passe sous le capot de votre bijou technologique :
 
-1. **La fatigue de la nappe flexible (Flex Cable) :** C'est la cause numéro un. Cette minuscule bande de circuits imprimés souples relie les deux moitiés du téléphone à travers la charnière. À force d'ouvrir et de fermer l'appareil, les micro-pistes en cuivre finissent par se fissurer, coupant le signal vidéo vers l'écran principal dès qu'une tension s'exerce lors de l'ouverture.
-2. **Le capteur d'angle (Hall Sensor) défectueux :** Le téléphone utilise des capteurs magnétiques pour savoir si l'appareil est fermé, entrouvert (mode Flex) ou grand ouvert. Si l'un de ces capteurs est désaligné ou encrassé par des poussières métalliques, il envoie une information erronée au processeur, qui coupe l'affichage principal par sécurité.
-3. **L'accumulation de débris dans la charnière :** Des micro-particules de poussière ou de saleté (très courantes au fond d'une poche) peuvent bloquer le mécanisme d'ouverture, empêchant la bonne extension des câbles internes et provoquant un faux contact électrique instantané.
+1. La fatigue de la nappe flexible (Flex Cable) : C'est la cause numéro un. Cette minuscule bande de circuits imprimés souples relie les deux moitiés du téléphone à travers la charnière. À force d'ouvrir et de fermer l'appareil, les micro-pistes en cuivre finissent par se fissurer, coupant le signal vidéo vers l'écran principal dès qu'une tension s'exerce lors de l'ouverture.
+2. Le capteur d'angle (Hall Sensor) défectueux : Le téléphone utilise des capteurs magnétiques pour savoir si l'appareil est fermé, entrouvert (mode Flex) ou grand ouvert. Si l'un de ces capteurs est désaligné ou encrassé par des poussières métalliques, il envoie une information erronée au processeur, qui coupe l'affichage principal par sécurité.
+3. L'accumulation de débris dans la charnière : Des micro-particules de poussière ou de saleté (très courantes au fond d'une poche) peuvent bloquer le mécanisme d'ouverture, empêchant la bonne extension des câbles internes et provoquant un faux contact électrique instantané.
 
 ## Guide de résolution étape par étape
 
-Inutile de triturer les options logicielles dans **Paramètres > Affichage**, le problème est physique. Suivez cette méthode pour valider l'état de votre matériel :
+Inutile de triturer les options logicielles dans Paramètres > Affichage, le problème est physique. Suivez cette méthode pour valider l'état de votre matériel :
 
 ### Étape 1 : Le test d'angle progressif (Mode Diagnostic)
 Ouvrez l'application Téléphone et composez le code secret Samsung pour accéder au mode de test matériel : `*#0*#`.
@@ -48,7 +48,7 @@ Parfois, un simple corps étranger bloque la bonne cinématique du pliage.
 ### Étape 3 : Sauvegarde d'urgence via l'écran externe
 Puisque l'écran externe fonctionne, ne prenez aucun risque avec vos données professionnelles.
 - Connectez votre Z Fold à un PC ou un Mac via un câble USB, ou utilisez Smart Switch.
-- Allez dans **Paramètres > Comptes et sauvegarde > Sauvegarde des données** pour enregistrer l'intégralité de votre contenu sur le cloud ou un support externe. Si la nappe finit par rendre l'âme définitivement, l'écran externe pourrait lui aussi cesser de transmettre le tactile.
+- Allez dans Paramètres > Comptes et sauvegarde > Sauvegarde des données pour enregistrer l'intégralité de votre contenu sur le cloud ou un support externe. Si la nappe finit par rendre l'âme définitivement, l'écran externe pourrait lui aussi cesser de transmettre le tactile.
 
 <div style="border-left: 4px solid #bd93f9; padding: 12px 16px; margin: 20px 0; background-color: rgba(189,147,249,0.08); border-radius: 4px; color: #111827;">
 <strong>Conseil d'expert :</strong> Ne tentez en aucun cas de démonter la charnière vous-même. Les tensions exercées par les écrans pliables AMOLED sont extrêmement sensibles, et une mauvaise manipulation détruira définitivement la dalle pliable, dont le coût de remplacement dépasse souvent la valeur résiduelle de l'appareil.
@@ -56,11 +56,11 @@ Puisque l'écran externe fonctionne, ne prenez aucun risque avec vos données pr
 
 ## Foire aux questions (FAQ)
 
-**Puis-je continuer à utiliser mon Galaxy Z Fold uniquement avec l'écran externe ?**
+Puis-je continuer à utiliser mon Galaxy Z Fold uniquement avec l'écran externe ?
 Oui, c'est tout à fait possible en mode dépannage. Vous pouvez continuer à passer des appels, lire vos e-mails et répondre à vos messages sur l'écran de couverture. C'est d'ailleurs ce qui m'a sauvé la mise pour ma réunion ce jour-là.
 
-**Est-ce que cette panne est prise en charge par la garantie constructeur ?**
+Est-ce que cette panne est prise en charge par la garantie constructeur ?
 Si votre téléphone ne présente pas de trace de choc violent ou de chute marquée sur le châssis, la défaillance de la nappe interne relève généralement de la garantie légale ou de l'usure anormale du mécanisme. N'hésitez pas en faire la demande auprès du SAV Samsung.
 
-**Combien de temps prend une réparation de nappe ou d'écran en centre agréé ?**
+Combien de temps prend une réparation de nappe ou d'écran en centre agréé ?
 Dans un centre de service agréé Samsung (comme ceux présents dans les grandes villes), le remplacement complet du bloc écran et de la charnière prend généralement entre 1 et 2 heures si les pièces sont en stock.

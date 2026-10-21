@@ -21,22 +21,22 @@ Masa bodoh dengan gengsi, saya langsung nyelonong ke meja anak IT sebelah, minta
 
 Sebelum masuk ke eksekusi penyelamatan, mari kita pahami dulu tiga penyebab utama kenapa ponsel pintar kesayangan kita ini bisa mendadak mogok kerja di tengah jam sibuk:
 
-1. **Bug Aplikasi Latar Belakang (App Crash):** Ada aplikasi kantor (seperti Excel mobile, Slack, atau WhatsApp) yang mengalami infinite loop atau memakan memori RAM secara berlebihan hingga sistem operasi iOS mengalami *kernel panic* dan membeku.
-2. **Kapasitas Penyimpanan Hampir Penuh (Full Storage):** Memori internal yang tersisa di bawah 1GB membuat sistem kewalahan melakukan *swap memory* sementara, berujung pada hang mendadak saat membuka file besar.
-3. **Glitch Sistem Operasi:** Kegagalan transisi animasi atau konflik minor antar proses sistem saat perangkat terlalu panas (*overheating*) karena dipakai multitasking non-stop di ruangan ber-AC dingin yang kadang suhunya fluktuatif.
+1. Bug Aplikasi Latar Belakang (App Crash): Ada aplikasi kantor (seperti Excel mobile, Slack, atau WhatsApp) yang mengalami infinite loop atau memakan memori RAM secara berlebihan hingga sistem operasi iOS mengalami *kernel panic* dan membeku.
+2. Kapasitas Penyimpanan Hampir Penuh (Full Storage): Memori internal yang tersisa di bawah 1GB membuat sistem kewalahan melakukan *swap memory* sementara, berujung pada hang mendadak saat membuka file besar.
+3. Glitch Sistem Operasi: Kegagalan transisi animasi atau konflik minor antar proses sistem saat perangkat terlalu panas (*overheating*) karena dipakai multitasking non-stop di ruangan ber-AC dingin yang kadang suhunya fluktuatif.
 
 ---
 
 ## Langkah-Langkah Eksekusi: Cara Force Restart iPhone Berbagai Tipe
 
-Karena layar sentuh sudah lumpuh total, cara normal mematikan lewat geseran "Slide to power off" jelas tidak bisa dipakai. Kita wajib melakukan **Force Restart** (Mulsa Paksa) yang memotong suplai arus ke prosesor secara instan tanpa menghapus satu pun data pribadi Anda.
+Karena layar sentuh sudah lumpuh total, cara normal mematikan lewat geseran "Slide to power off" jelas tidak bisa dipakai. Kita wajib melakukan Force Restart (Mulsa Paksa) yang memotong suplai arus ke prosesor secara instan tanpa menghapus satu pun data pribadi Anda.
 
 ### 1. Untuk Pengguna iPhone 8, X, 11, 12, 13, 14, 15, dan yang Lebih Baru
 Metode tombol kombinasi cepat ini adalah penyelamat utama bagi mayoritas pengguna iPhone modern berlayar penuh:
-* **Langkah 1:** Tekan dan lepaskan dengan cepat tombol **Volume Atas** (Volume Up).
-* **Langkah 2:** Tekan dan lepaskan dengan cepat tombol **Volume Bawah** (Volume Down).
-* **Langkah 3:** Segera tekan dan tahan tombol **Samping (Power/Side Button)** agak lama. Jangan dilepas saat layar masih gelap.
-* **Langkah 4:** Terus tahan sampai logo Apple (gambar buah apel tergigit) muncul di layar, lalu lepaskan tombol. Proses booting biasanya memakan waktu sekitar 15 hingga 30 detik.
+* Langkah 1: Tekan dan lepaskan dengan cepat tombol Volume Atas (Volume Up).
+* Langkah 2: Tekan dan lepaskan dengan cepat tombol Volume Bawah (Volume Down).
+* Langkah 3: Segera tekan dan tahan tombol Samping (Power/Side Button) agak lama. Jangan dilepas saat layar masih gelap.
+* Langkah 4: Terus tahan sampai logo Apple (gambar buah apel tergigit) muncul di layar, lalu lepaskan tombol. Proses booting biasanya memakan waktu sekitar 15 hingga 30 detik.
 
 
 
@@ -44,11 +44,11 @@ Metode tombol kombinasi cepat ini adalah penyelamat utama bagi mayoritas penggun
 
 ### 2. Untuk Pengguna iPhone 7 dan 7 Plus
 Bagi Anda yang masih memegang seri klasik ini, kombinasinya sedikit berbeda karena tombol Home sudah berbasis sensor haptic:
-* Tekan dan tahan secara bersamaan **Tombol Volume Bawah** dan **Tombol Samping (Power)**.
+* Tekan dan tahan secara bersamaan Tombol Volume Bawah dan Tombol Samping (Power).
 * Tahan keduanya selama kurang lebih 10 detik atau sampai logo Apple muncul di layar, lalu lepaskan.
 
 ### 3. Untuk Pengguna iPhone 6s ke Bawah atau iPhone SE Generasi Pertama
-* Tekan dan tahan secara bersamaan **Tombol Utama (Home Button)** di bawah layar dan **Tombol Samping/Atas (Power Button)**.
+* Tekan dan tahan secara bersamaan Tombol Utama (Home Button) di bawah layar dan Tombol Samping/Atas (Power Button).
 * Tahan terus sampai logo Apple menyala di layar, kemudian lepaskan.
 
 <div style="border-left: 4px solid #e11d48; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -59,11 +59,11 @@ Bagi Anda yang masih memegang seri klasik ini, kombinasinya sedikit berbeda kare
 
 ## Tanya Jawab Populer (FAQ)
 
-**Q: Apakah data di dalam iPhone saya akan hilang jika melakukan Force Restart?**  
+Q: Apakah data di dalam iPhone saya akan hilang jika melakukan Force Restart?  
 A: Tidak sama sekali. Force restart murni hanya menyegarkan kembali sistem operasi (RAM dan cache prosesor) tanpa menyentuh penyimpanan memori internal (NAND Flash) tempat foto, dokumen kantor, dan chat WhatsApp Anda tersimpan.
 
-**Q: Mengapa iPhone saya sering mengalami freeze berulang kali dalam seminggu?**  
+Q: Mengapa iPhone saya sering mengalami freeze berulang kali dalam seminggu?  
 A: Biasanya ini indikasi bahwa memori internal Anda sudah hampir penuh (cek di Pengaturan > Umum > Penyimpanan iPhone), atau ada satu aplikasi korup tertentu yang berjalan di latar belakang. Segera hapus aplikasi yang jarang dipakai dan bersihkan file sampah.
 
-**Q: Bagaimana jika setelah logo Apple muncul, iPhone malah terjebak di logo saja (Bootloop)?**  
+Q: Bagaimana jika setelah logo Apple muncul, iPhone malah terjebak di logo saja (Bootloop)?  
 A: Jika hal ini terjadi, masalahnya lebih dalam dari sekadar hang biasa. Anda perlu menyambungkan iPhone ke komputer Mac atau PC Windows yang memiliki aplikasi iTunes/Finder, lalu masuk ke mode pemulihan (*Recovery Mode*) untuk melakukan pembaruan atau pemulihan sistem.

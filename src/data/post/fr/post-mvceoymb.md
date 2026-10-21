@@ -21,9 +21,9 @@ Il est 13h45, le stress monte au 8ème étage de notre bureau à Paris. Dans à 
 
 Ce genre d'incident survient rarement par hasard. En milieu professionnel parisien, entre les tasses de café posées à la hâte sur les bureaux partagés, les trajets sous une bruine fine en trottinette ou les variations brutales d'humidité entre le métro bondé et l'open space climatisé, les capteurs de nos smartphones sont mis à rude épreuve.
 
-1. **Micro-gouttes d'humidité persistantes :** Même après avoir essuyé votre appareil, une fine pellicule d'eau s'infiltre par capillarité dans les intersticiels du connecteur USB-C ou Lightning.
-2. **Oxydation et résidus de saleté :** La poussière accumulée au fond de la poche de votre pantalon se mélange à la transpiration ou à un liquide, créant un pont conducteur qui trompe le circuit de détection de court-circuit.
-3. **Défaut temporaire du contrôleur de charge (IC) :** Un bug logiciel passager au niveau de la gestion de l'énergie peut parfois simuler une présence de liquide alors que le port est parfaitement sec.
+1. Micro-gouttes d'humidité persistantes : Même après avoir essuyé votre appareil, une fine pellicule d'eau s'infiltre par capillarité dans les intersticiels du connecteur USB-C ou Lightning.
+2. Oxydation et résidus de saleté : La poussière accumulée au fond de la poche de votre pantalon se mélange à la transpiration ou à un liquide, créant un pont conducteur qui trompe le circuit de détection de court-circuit.
+3. Défaut temporaire du contrôleur de charge (IC) : Un bug logiciel passager au niveau de la gestion de l'énergie peut parfois simuler une présence de liquide alors que le port est parfaitement sec.
 
 ## Guide de dépannage étape par étape
 
@@ -33,12 +33,12 @@ Puisque nous n'avons pas de temps à perdre avant l'arrivée du comité de direc
 Oubliez le mythe du sachet de riz de grand-mère qui est inefficace et laisse de la fécule corrosive dans les connecteurs. 
 * Débranchez immédiatement le câble.
 * Orientez le port de charge vers le bas et tapotez doucement le dos de l'appareil contre la paume de votre main pour expulser l'excédent de liquide.
-* Placez l'appareil dans un endroit sec et ventilé (proche d'une bouche de climatisation ou devant un ventilateur de bureau à température ambiante, **jamais** de sèche-cheveux chaud qui fait fondre les joints d'étanchéité).
+* Placez l'appareil dans un endroit sec et ventilé (proche d'une bouche de climatisation ou devant un ventilateur de bureau à température ambiante, jamais de sèche-cheveux chaud qui fait fondre les joints d'étanchéité).
 
 ### Étape 2 : Le contournement de secours (Urgence réunion)
 Si votre batterie est critique et que vous devez absolument alimenter le téléphone pour la réunion :
-* **Option sans fil (MagSafe / Induction) :** C'est le plan de secours ultime en entreprise. Posez simplement le téléphone sur un chargeur à induction. Même si le port filaire est bloqué par la sécurité logicielle, la recharge sans fil continue de fonctionner sur la majorité des modèles récents (iPhone et Android haut de gamme).
-* **Mode d'urgence (Ignorer l'alerte - À vos risques et périls) :** Sur certains OS, un bouton "Urgence" ou "Ignorer" apparaît après plusieurs tentatives. *Attention :* n'utilisez cette option qu'en cas de force absolue, car brancher un câble sur un port encore humide risque de provoquer une micro-surcharge et d'endommager définitivement le composant PMIC (Power Management IC).
+* Option sans fil (MagSafe / Induction) : C'est le plan de secours ultime en entreprise. Posez simplement le téléphone sur un chargeur à induction. Même si le port filaire est bloqué par la sécurité logicielle, la recharge sans fil continue de fonctionner sur la majorité des modèles récents (iPhone et Android haut de gamme).
+* Mode d'urgence (Ignorer l'alerte - À vos risques et périls) : Sur certains OS, un bouton "Urgence" ou "Ignorer" apparaît après plusieurs tentatives. *Attention :* n'utilisez cette option qu'en cas de force absolue, car brancher un câble sur un port encore humide risque de provoquer une micro-surcharge et d'endommager définitivement le composant PMIC (Power Management IC).
 
 ### Étape 3 : Nettoyage et réinitialisation du contrôleur
 Une fois la réunion terminée et le calme revenu à l'atelier :
@@ -52,11 +52,11 @@ Une fois la réunion terminée et le calme revenu à l'atelier :
 
 ## Foire Aux Questions (FAQ)
 
-**Puis-je continuer à utiliser mon téléphone si le message disparaît tout seul ?**
+Puis-je continuer à utiliser mon téléphone si le message disparaît tout seul ?
 Oui, dès que le capteur interne ne détecte plus de résistance électrique anormale liée à l'humidité, le message s'efface de lui-même et les fonctions de charge et de transfert de données reviennent à la normale. Veillez simplement à ce que le connecteur ne dégage pas d'odeur de brûlé.
 
-**Pourquoi mon téléphone affiche-t-il ce message alors qu'il n'a pas touché l'eau ?**
+Pourquoi mon téléphone affiche-t-il ce message alors qu'il n'a pas touché l'eau ?
 L'humidité de l'air ambiant dans les transports parisiens ou une forte transpiration dans une poche de veste suffit parfois à déclencher le seuil de sécurité du fabricant. La condensation interne est la première cause de faux positifs.
 
-**Est-ce que l'utilisation d'un spray nettoyant pour contacts électroniques est recommandée ?**
+Est-ce que l'utilisation d'un spray nettoyant pour contacts électroniques est recommandée ?
 Un spray à base d'alcool isopropylique pur (> 99%) peut être utilisé avec précaution par un technicien pour dissoudre les résidus gras, mais veillez à ce que l'appareil soit totalement éteint et patientez au moins 15 minutes avant toute remise sous tension.

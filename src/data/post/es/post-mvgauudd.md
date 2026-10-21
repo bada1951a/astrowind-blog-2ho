@@ -37,8 +37,8 @@ La carga inalámbrica funciona mediante inducción electromagnética. Para que l
 
 ### Causa 2: Fundas demasiado gruesas, metálicas o con tarjeteros
 Aquí en la oficina lo veo cada dos por tres. Compramos fundas súper robustas, acorazadas, con tarjetero incorporado o que llevan una placa metálica trasera para el soporte magnético del coche. 
-* **Grosor:** Si la funda supera los 3 o 4 milímetros de separación, la distancia corta que exige el estándar Qi se rompe.
-* **Metal:** Las placas de metal son kryptonita pura para la carga inalámbrica; generan corrientes parásitas, se calientan y activan el sistema de protección del cargador haciendo que parpadee al instante.
+* Grosor: Si la funda supera los 3 o 4 milímetros de separación, la distancia corta que exige el estándar Qi se rompe.
+* Metal: Las placas de metal son kryptonita pura para la carga inalámbrica; generan corrientes parásitas, se calientan y activan el sistema de protección del cargador haciendo que parpadee al instante.
 
 ### Causa 3: Alimentación eléctrica insuficiente (El adaptador de mechero o USB flojo)
 A veces el problema no está en cómo pones el móvil, sino de dónde saca la energía la base. Muchos compañeros enchufan el cargador inalámbrico a un puerto USB antiguo del ordenador (que da apenas 0.5A o 1A) o a un adaptador de corriente del chino de 5V/1A que no da abasto. Cuando el móvil demanda energía para una carga rápida, la base se queda seca, se reinicia, parpadea y corta el suministro.
@@ -57,7 +57,7 @@ Aunque parezca una tontería, el polvo de la oficina, las migas de las palmeras 
 
 ### Paso 2: Desnuda el terminal (Adiós a la funda temporalmente)
 Quítale la funda al smartphone. Sí, esa tan mona con purpurina o con tarjetero. 
-* Vuelve a colocar el terminal **pelado** directamente sobre el centro geométrico de la base.
+* Vuelve a colocar el terminal pelado directamente sobre el centro geométrico de la base.
 * Observa el led. Si deja de parpadear y empieza a cargar de manera estable, ya has encontrado al culpable: tu funda es demasiado gruesa o interfiere con el campo magnético.
 
 ### Paso 3: La técnica de alineación milimétrica de bobinas
@@ -76,22 +76,22 @@ Aquí está el quid de la cuestión de este artículo. Los móviles actuales (ya
 
 Como técnico que repara terminales a diario, déjame darte par de recomendaciones de oro para que no te cargues el hardware a largo plazo:
 
-* **Cuidado con el calor extremo:** La carga inalámbrica es un 20-30% menos eficiente que la carga por cable, y esa energía que no entra en la batería se disipa en forma de calor. Si notas que el móvil arde cuando parpadea, **retíralo inmediatamente**. El calor es el enemigo número uno de la salud de la batería (degradación prematura de celdas de litio).
-* **No dejes el móvil desalineado "por cabezonería":** Si insistes en dejar el móvil mal colocado parpadeando toda la noche, los circuitos integrados de gestión de energía (PMIC) tanto del cargador como del teléfono sufren picos de voltaje continuos debido a las reconexiones. A la larga, puedes freír el chip receptor de carga inalámbrica de la placa base.
-* **Si tu puerto USB por cable también falla:** Si usas la carga inalámbrica porque el puerto Lightning o USB-C de tu móvil está roto o lleno pelusas, pásate por el taller o limpia el conector con mucho tiento usando un palillo de madera (nunca metal). Depender exclusivamente de la carga inalámbrica con una base mal alineada es jugar a la ruleta rusa con la autonomía del terminal.
+* Cuidado con el calor extremo: La carga inalámbrica es un 20-30% menos eficiente que la carga por cable, y esa energía que no entra en la batería se disipa en forma de calor. Si notas que el móvil arde cuando parpadea, retíralo inmediatamente. El calor es el enemigo número uno de la salud de la batería (degradación prematura de celdas de litio).
+* No dejes el móvil desalineado "por cabezonería": Si insistes en dejar el móvil mal colocado parpadeando toda la noche, los circuitos integrados de gestión de energía (PMIC) tanto del cargador como del teléfono sufren picos de voltaje continuos debido a las reconexiones. A la larga, puedes freír el chip receptor de carga inalámbrica de la placa base.
+* Si tu puerto USB por cable también falla: Si usas la carga inalámbrica porque el puerto Lightning o USB-C de tu móvil está roto o lleno pelusas, pásate por el taller o limpia el conector con mucho tiento usando un palillo de madera (nunca metal). Depender exclusivamente de la carga inalámbrica con una base mal alineada es jugar a la ruleta rusa con la autonomía del terminal.
 
 ---
 
 ## 5. Preguntas Frecuentes (FAQs) de oficina
 
-**Q: ¿Por qué mi cargador inalámbrico parpadea solo cuando pongo el móvil, pero sin el móvil la luz está fija (en espera)?**  
-**A:** Es totalmente normal. Sin el móvil, la base está en modo reposo o en espera de baja potencia. En cuanto detecta el teléfono, intenta establecer el protocolo de comunicación y transferencia de energía (handshake magnético). Si ese proceso falla por mala alineación, funda inadecuada o exceso de consumo, la base entra en modo de error y parpadea para avisarte.
+Q: ¿Por qué mi cargador inalámbrico parpadea solo cuando pongo el móvil, pero sin el móvil la luz está fija (en espera)?  
+A: Es totalmente normal. Sin el móvil, la base está en modo reposo o en espera de baja potencia. En cuanto detecta el teléfono, intenta establecer el protocolo de comunicación y transferencia de energía (handshake magnético). Si ese proceso falla por mala alineación, funda inadecuada o exceso de consumo, la base entra en modo de error y parpadea para avisarte.
 
-**Q: ¿Sirve cualquier funda para la carga inalámbrica MagSafe o Qi?**  
-**A:** No. Las fundas normales de silicona fina o policarbonato transparente de menos de 2-3 mm suelen funcionar sin problemas. Sin embargo, las fundas ultrarresistentes militares, las de madera gruesa, las que llevan anillas metálicas traseras o tarjeteros de cuero bloquean por completo la inducción o provocan sobrecalentamientos peligrosos. Si usas MagSafe, asegúrate de que la funda sea compatible con anillos magnéticos integrados.
+Q: ¿Sirve cualquier funda para la carga inalámbrica MagSafe o Qi?  
+A: No. Las fundas normales de silicona fina o policarbonato transparente de menos de 2-3 mm suelen funcionar sin problemas. Sin embargo, las fundas ultrarresistentes militares, las de madera gruesa, las que llevan anillas metálicas traseras o tarjeteros de cuero bloquean por completo la inducción o provocan sobrecalentamientos peligrosos. Si usas MagSafe, asegúrate de que la funda sea compatible con anillos magnéticos integrados.
 
-**Q: Mi móvil vibra, sale el icono de carga, se apaga, vibra otra vez... ¿Es problema de la base o del teléfono?**  
-**A:** Ese bucle infinito suele indicar que la base intenta cargar, pero al haber una desalineación leve o un adaptador de corriente insuficiente, el voltaje cae por debajo del umbral mínimo de seguridad del teléfono, este corta la entrada, la base vuelve a intentarlo y se genera el bucle. Prueba primero cambiando el adaptador de corriente de la pared. Si sigue igual, prueba la base con otro teléfono diferente. Si con otro móvil funciona bien, el problema es el receptor interno de tu smartphone.
+Q: Mi móvil vibra, sale el icono de carga, se apaga, vibra otra vez... ¿Es problema de la base o del teléfono?  
+A: Ese bucle infinito suele indicar que la base intenta cargar, pero al haber una desalineación leve o un adaptador de corriente insuficiente, el voltaje cae por debajo del umbral mínimo de seguridad del teléfono, este corta la entrada, la base vuelve a intentarlo y se genera el bucle. Prueba primero cambiando el adaptador de corriente de la pared. Si sigue igual, prueba la base con otro teléfono diferente. Si con otro móvil funciona bien, el problema es el receptor interno de tu smartphone.
 
 ---
 

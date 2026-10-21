@@ -25,9 +25,9 @@ La verità è che quando iOS si pianta a livello di interfaccia grafica o il ker
 
 Prima di procedere, capiamo cosa è successo per evitare che accada di nuovo durante un momento critico:
 
-1. **Crash della SpringBoard:** L'interfaccia grafica principale di iOS (chiamata appunto SpringBoard) è andata in crash a causa di un'app pesante o di un conflitto di memoria RAM.
-2. **Loop di sincronizzazione in background:** Un'applicazione ha richiesto troppe risorse di sistema mentre il telefono stava elaborando dati, saturando il processore.
-3. **Anomalia hardware temporanea:** Il chip del touch screen ha perso la comunicazione I2C con la scheda madre, un blocco risolvibile unicamente togliendo e rimettendo l'alimentazione hardware tramite i tasti fisici.
+1. Crash della SpringBoard: L'interfaccia grafica principale di iOS (chiamata appunto SpringBoard) è andata in crash a causa di un'app pesante o di un conflitto di memoria RAM.
+2. Loop di sincronizzazione in background: Un'applicazione ha richiesto troppe risorse di sistema mentre il telefono stava elaborando dati, saturando il processore.
+3. Anomalia hardware temporanea: Il chip del touch screen ha perso la comunicazione I2C con la scheda madre, un blocco risolvibile unicamente togliendo e rimettendo l'alimentazione hardware tramite i tasti fisici.
 
 ---
 
@@ -36,18 +36,18 @@ Prima di procedere, capiamo cosa è successo per evitare che accada di nuovo dur
 A seconda del modello di iPhone che porti in tasca, la sequenza dei tasti cambia leggermente. Segui con precisione questi passaggi:
 
 ### Per iPhone 8, X, 11, 12, 13, 14, 15, 16 e successivi (Face ID o tasti laterali moderni):
-1. Premi e rilascia velocemente il **Tasto Volume Su**.
-2. Premi e rilascia velocemente il **Tasto Volume Giù**.
-3. Tieni premuto immediatamente il **Tasto Laterale** (quello di destra) e **non mollarlo**.
-4. Continua a tenerlo premuto anche se compare la scritta di spegnimento (ignorala). Attendi finché lo schermo diventa nero e compare il **logo Apple (la mela)**.
+1. Premi e rilascia velocemente il Tasto Volume Su.
+2. Premi e rilascia velocemente il Tasto Volume Giù.
+3. Tieni premuto immediatamente il Tasto Laterale (quello di destra) e non mollarlo.
+4. Continua a tenerlo premuto anche se compare la scritta di spegnimento (ignorala). Attendi finché lo schermo diventa nero e compare il logo Apple (la mela).
 5. A quel punto puoi rilasciare il tasto. In 20-30 secondi il telefono si riaccenderà perfettamente funzionante e reattivo al touch.
 
 ### Per iPhone 7 e 7 Plus:
-1. Tieni premuti contemporaneamente il **Tasto Volume Giù** e il **Tasto Laterale**.
+1. Tieni premuti contemporaneamente il Tasto Volume Giù e il Tasto Laterale.
 2. Tienili premuti entrambi per circa 10 secondi finché non vedi apparire il logo Apple sullo schermo.
 
 ### Per iPhone 6s, SE (1ª gen) e precedenti:
-1. Tieni premuti contemporaneamente il **Tasto Home** (quello circolare) e il **Tasto Laterale** (o Superiore).
+1. Tieni premuti contemporaneamente il Tasto Home (quello circolare) e il Tasto Laterale (o Superiore).
 2. Non mollarli finché lo schermo non si spegne e compare il logo della mela.
 
 ---
@@ -58,17 +58,17 @@ A seconda del modello di iPhone che porti in tasca, la sequenza dei tasti cambia
 <strong>Consiglio sulla Memoria:</strong> Non lasciare mai l'archiviazione del tuo iPhone completamente satura. Lascia almeno 5 GB di spazio libero: iOS ha bisogno di memoria di scambio (swap) libera per gestire i processi quotidiani ed evitare freeze improvvisi.
 </div>
 
-Se il problema si ripete frequentemente, ti consiglio di controllare in **Impostazioni > Generali > Spazio iPhone** se c'è qualche applicazione anomala che consuma troppa memoria o richiede aggiornamenti urgenti.
+Se il problema si ripete frequentemente, ti consiglio di controllare in Impostazioni > Generali > Spazio iPhone se c'è qualche applicazione anomala che consuma troppa memoria o richiede aggiornamenti urgenti.
 
 ---
 
 ## Domande Frequenti (FAQ)
 
-**1. Il riavvio forzato cancella le mie foto o i miei messaggi?**
+1. Il riavvio forzato cancella le mie foto o i miei messaggi?
 Assolutamente no. Il riavvio forzato equivale a un reset hardware dell'alimentazione e non intacca in alcun modo i dati personali, le foto, le chat di WhatsApp o le configurazioni salvate sul dispositivo. È sicuro al 100%.
 
-**2. Cosa devo fare se l'iPhone non si accende nemmeno dopo la combinazione dei tasti?**
+2. Cosa devo fare se l'iPhone non si accende nemmeno dopo la combinazione dei tasti?
 Se dopo aver eseguito correttamente la sequenza il telefono non mostra segni di vita, è probabile che la batteria sia completamente scarica o che il sistema operativo sia in un blocco profondo. Collega l'iPhone a un caricatore a muro originale per almeno 15-20 minuti prima di riprovare la combinazione del riavvio forzato.
 
-**3. Il touch screen continua a non rispondere anche dopo il riavvio. Come risolvo?**
+3. Il touch screen continua a non rispondere anche dopo il riavvio. Come risolvo?
 Se il telefono si accende ma alcune parti dello schermo non rispondono al tocco, il problema potrebbe essere legato a una pellicola protettiva di scarsa qualità applicata male o, peggio, a un danno al digitalizzatore dello schermo (magari a seguito di una caduta precedente). Prova a rimuovere la pellicola protettiva e pulire accuratamente il vetro con un panno in microfibra. Se il difetto persiste, sarà necessaria una verifica in un centro assistenza autorizzato.

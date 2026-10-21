@@ -23,9 +23,9 @@ Se você já passou por isso, sabe o desespero. A primeira reação costuma ser 
 
 Antes de colocar a mão na massa, vale entender o que causou o congelamento para evitar novas dores de cabeça no meio do expediente:
 
-1. **Bug no SpringBoard:** O gerenciador de interface gráfica do iOS entra em colapso devido a uma sobrecarga de notificações ou falha na renderização de algum aplicativo pesado.
-2. **Falta de Armazenamento Interno:** Se o seu iPhone estiver com o armazenamento operando no limite absoluto (menos de 1GB livre), o sistema operacional engasga na hora de gravar arquivos temporários (cache) e trava por completo.
-3. **Conflito de Atualização ou Apps em Segundo Plano:** Um aplicativo que travou e continua tentando processar dados em background pode esgotar a memória RAM temporária do aparelho, congelando o touch screen.
+1. Bug no SpringBoard: O gerenciador de interface gráfica do iOS entra em colapso devido a uma sobrecarga de notificações ou falha na renderização de algum aplicativo pesado.
+2. Falta de Armazenamento Interno: Se o seu iPhone estiver com o armazenamento operando no limite absoluto (menos de 1GB livre), o sistema operacional engasga na hora de gravar arquivos temporários (cache) e trava por completo.
+3. Conflito de Atualização ou Apps em Segundo Plano: Um aplicativo que travou e continua tentando processar dados em background pode esgotar a memória RAM temporária do aparelho, congelando o touch screen.
 
 ---
 
@@ -36,17 +36,17 @@ Esqueça a tentativa de desligar o aparelho segurando o botão lateral e arrasta
 O procedimento exato varia ligeiramente dependendo do modelo do seu iPhone:
 
 ### Para iPhone 8, iPhone X, iPhone SE (2ª e 3ª gerações) e toda a linha iPhone 11, 12, 13, 14, 15 e 16:
-1. Pressione e **solte rapidamente o botão de Aumentar Volume**.
-2. Pressione e **solte rapidamente o botão de Diminuir Volume**.
-3. Imediatamente após soltar o botão de diminuir o volume, **mantenha pressionado o botão Lateral (liga/desliga)**.
-4. Continue segurando o botão lateral até que a tela apague e o **logotipo da Apple (a maçã) apareça** na tela. Isso pode levar cerca de 10 a 15 segundos. Quando a maçã aparecer, solte o botão.
+1. Pressione e solte rapidamente o botão de Aumentar Volume.
+2. Pressione e solte rapidamente o botão de Diminuir Volume.
+3. Imediatamente após soltar o botão de diminuir o volume, mantenha pressionado o botão Lateral (liga/desliga).
+4. Continue segurando o botão lateral até que a tela apague e o logotipo da Apple (a maçã) apareça na tela. Isso pode levar cerca de 10 a 15 segundos. Quando a maçã aparecer, solte o botão.
 
 ### Para iPhone 7 e 7 Plus:
-1. Pressione e mantenha pressionados simultaneamente o **botão de Diminuir Volume** e o **botão Lateral**.
+1. Pressione e mantenha pressionados simultaneamente o botão de Diminuir Volume e o botão Lateral.
 2. Continue segurando ambos até o logotipo da Apple surgir na tela.
 
 ### Para iPhone 6s, SE (1ª geração) e modelos mais antigos:
-1. Pressione e mantenha pressionados simultaneamente o **botão de Início (Home)** e o **botão Superior ou Lateral**.
+1. Pressione e mantenha pressionados simultaneamente o botão de Início (Home) e o botão Superior ou Lateral.
 2. Solte os dois botões assim que o logotipo da Apple aparecer.
 
 <div style="border-left: 4px solid #e11d48; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -59,19 +59,19 @@ O procedimento exato varia ligeiramente dependendo do modelo do seu iPhone:
 
 Depois que o aparelho reiniciar e colocar você de volta ao trabalho, siga estas recomendações práticas para blindar o seu celular contra novos congelamentos repentinos:
 
-* **Libere espaço urgentemente:** Vá em *Ajustes > Geral > Armazenamento do iPhone*. Certifique-se de manter sempre pelo menos 5GB a 10GB livres para o iOS respirar e gerenciar a memória virtual.
-* **Atualize seus aplicativos:** Bugs em apps desatualizados (especialmente de bancos e mensageiros corporativos) são os maiores causadores de vazamento de memória RAM.
-* **Reinicie o aparelho semanalmente:** Mesmo que os smartphones modernos sejam feitos para ficar ligados direto, um ciclo de desligamento e ligamento semanal ajuda a limpar caches corrompidos.
+* Libere espaço urgentemente: Vá em *Ajustes > Geral > Armazenamento do iPhone*. Certifique-se de manter sempre pelo menos 5GB a 10GB livres para o iOS respirar e gerenciar a memória virtual.
+* Atualize seus aplicativos: Bugs em apps desatualizados (especialmente de bancos e mensageiros corporativos) são os maiores causadores de vazamento de memória RAM.
+* Reinicie o aparelho semanalmente: Mesmo que os smartphones modernos sejam feitos para ficar ligados direto, um ciclo de desligamento e ligamento semanal ajuda a limpar caches corrompidos.
 
 ---
 
 ## Perguntas Frequentes (FAQ)
 
-**1. A reinicialização forçada apaga minhas fotos ou senhas salvas?**
+1. A reinicialização forçada apaga minhas fotos ou senhas salvas?
 Não. Esse procedimento é totalmente seguro para os seus arquivos pessoais. Ele funciona como se você tirasse a bateria de um computador antigo da tomada e a colocasse de volta: o sistema apenas recarrega do zero sem tocar no seu armazenamento interno.
 
-**2. O que fazer se o logotipo da Apple aparecer, mas o iPhone travar novamente na tela preta?**
+2. O que fazer se o logotipo da Apple aparecer, mas o iPhone travar novamente na tela preta?
 Se o aparelho entrar em um loop infinito de reinicialização, o problema pode ser um erro crítico de sistema operacional. Nesses casos, será necessário conectar o iPhone a um computador (via cabo original), abrir o Finder (no Mac) ou o aplicativo Dispositivos Apple / iTunes (no Windows) e colocá-lo no modo de recuperação (Recovery Mode) para reinstalar o iOS sem apagar os dados.
 
-**3. Meu touch screen continua falhando mesmo após o aparelho ligar. O que pode ser?**
+3. Meu touch screen continua falhando mesmo após o aparelho ligar. O que pode ser?
 Se o touch funcionar em alguns momentos e falhar em outros após o reset, o problema pode ser de hardware (cabo flex do display solto por queda, tela paralela de baixa qualidade ou película de vidro trincada gerando falsos toques). Leve o aparelho a uma assistência técnica especializada para validação do painel tátil.

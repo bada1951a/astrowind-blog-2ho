@@ -20,9 +20,9 @@ Acalme o coração. Como técnico que já viu de tudo nesta bancada paulistana �
 
 Antes de sair trocando cabo ou comprando uma bateria portátil nova, vamos entender a raiz do problema. Na minha experiência diária, 90% dos casos na bancada resumem-se a três vilões principais:
 
-1. **Conector de Carga Emperrado (Sujeira e Compactação):** Esse é o clássico de São Paulo. Bolso de calça jeans, poeira da rua, fiapos de tecido... Tudo isso entra no conector Lightning ou USB-C do seu celular. Quando você espeta o cabo, essa sujeira é empurrada para o fundo, criando uma "rolha". Resultado? Os pinos de dados e de alta corrente (Power Delivery / Quick Charge) não fazem contato direito. O celular entra em modo de segurança e limita a velocidade de carga.
-2. **Incompatibilidade de Protocolos (Amperagem e Tensão):** Nem todo power bank entrega o que o seu smartphone exige. Se você usa um power bank antigo de 5V/1A num iPhone moderno ou num Android topo de linha que puxa 25W ou 45W, o sistema avisa que a carga é lenta porque o carregador portátil simplesmente não tem força suficiente.
-3. **Cabo "Pirata" ou Oxidado:** Sabe aquele cabo baratinho que você comprou na banquinha da esquina por dez pilas? Ele provavelmente não tem os fios de cobre internos adequados para a passagem de alta corrente, ou os pinos do conector estão oxidados por causa da nossa umidade inconstante.
+1. Conector de Carga Emperrado (Sujeira e Compactação): Esse é o clássico de São Paulo. Bolso de calça jeans, poeira da rua, fiapos de tecido... Tudo isso entra no conector Lightning ou USB-C do seu celular. Quando você espeta o cabo, essa sujeira é empurrada para o fundo, criando uma "rolha". Resultado? Os pinos de dados e de alta corrente (Power Delivery / Quick Charge) não fazem contato direito. O celular entra em modo de segurança e limita a velocidade de carga.
+2. Incompatibilidade de Protocolos (Amperagem e Tensão): Nem todo power bank entrega o que o seu smartphone exige. Se você usa um power bank antigo de 5V/1A num iPhone moderno ou num Android topo de linha que puxa 25W ou 45W, o sistema avisa que a carga é lenta porque o carregador portátil simplesmente não tem força suficiente.
+3. Cabo "Pirata" ou Oxidado: Sabe aquele cabo baratinho que você comprou na banquinha da esquina por dez pilas? Ele provavelmente não tem os fios de cobre internos adequados para a passagem de alta corrente, ou os pinos do conector estão oxidados por causa da nossa umidade inconstante.
 
 ---
 
@@ -34,8 +34,8 @@ Quer resolver isso agora? Siga este procedimento que eu uso todos os dias na min
 O grande culpado do "conector emperrado" precisa ser neutralizado primeiro.
 * Desligue o seu celular completamente (segurança em primeiro lugar!).
 * Pegue uma lanterna forte (a do outro celular serve) e olhe bem dentro da entrada de carga (Lightning ou USB-C). Consegue ver aquela massinha preta ou cinza no fundo? É sujeira compactada.
-* **A ferramenta do técnico:** Pegue uma espátula de metal muito fina ou o bom e velho **pino extrator de chip** (aquela chavinha do SIM card). Se não tiver, use uma agulha de costura com extremo cuidado.
-* Raspe **suavemente** as paredes internas e o fundo do conector, puxando a sujeira para fora. Você vai se assustar com a quantidade de pelugem que sai dali.
+* A ferramenta do técnico: Pegue uma espátula de metal muito fina ou o bom e velho pino extrator de chip (aquela chavinha do SIM card). Se não tiver, use uma agulha de costura com extremo cuidado.
+* Raspe suavemente as paredes internas e o fundo do conector, puxando a sujeira para fora. Você vai se assustar com a quantidade de pelugem que sai dali.
 * *Dica de ouro:* Aplique umagotinha de álcool isopropílico em uma escova de dentes antistática (ou velha) e limpe os contatos internos. Espere evaporar por 5 minutos antes de ligar o aparelho.
 
 #### Passo 2: Teste Cruzado de Cabos
@@ -43,7 +43,7 @@ O grande culpado do "conector emperrado" precisa ser neutralizado primeiro.
 * Se o aviso sumir, parabéns: era apenas o seu cabo antigo que morreu ou está com os fios internos partidos por tanto enrolar na mochila.
 
 #### Passo 3: Verificação das Portas e Especificações do Power Bank
-* Olhe na carcaça do seu power bank. Quais são as especificações escritas miudinho atrás dele? Se estiver escrito apenas `5V / 1A` ou `5V / 2.1A` sem menção a **PD (Power Delivery)** ou **QC (Quick Charge 3.0/4.0)**, ele é um modelo básico.
+* Olhe na carcaça do seu power bank. Quais são as especificações escritas miudinho atrás dele? Se estiver escrito apenas `5V / 1A` ou `5V / 2.1A` sem menção a PD (Power Delivery) ou QC (Quick Charge 3.0/4.0), ele é um modelo básico.
 * Se o seu Android ou iPhone é mais recente, eles exigem troca rápida de dados com a fonte para liberar carga rápida. Se o power bank não conversa com o celular, o celular se protege limitando a corrente, gerando o famigerado aviso de carga lenta.
 
 ---
@@ -52,19 +52,19 @@ O grande culpado do "conector emperrado" precisa ser neutralizado primeiro.
 
 Na bancada, eu sempre atendo clientes que estragaram o aparelho tentando resolver o problema sozinhos. Anote estas regras de ouro:
 
-* **Cuidado com o metal:** Jamais use agulhas grossas ou clips de papel grossos para limpar o conector. Se você entortar ou raspar um dos micro-pinos dourados lá dentro, o conector vai pro espaço e só trocando a peça inteira na solda (ou o flex dock completo).
-* **Adeus umidade:** Se o seu Android avisar sobre "umidade detectada na porta USB", **nunca** force o carregamento com power bank. Deixe o aparelho secar naturalmente. Forçar corrente com umidade gera curto-circuito na placa principal (curto na linha VBUS).
-* **Carga em movimento:** Evite usar o celular pesadamente (jogando ou rodando GPS no talo) enquanto ele carrega no power bank. Isso gera superaquecimento duplo: o calor do processador somado ao calor da reação química da bateria, degradando a vida útil da sua célula de lítio rapidinho.
+* Cuidado com o metal: Jamais use agulhas grossas ou clips de papel grossos para limpar o conector. Se você entortar ou raspar um dos micro-pinos dourados lá dentro, o conector vai pro espaço e só trocando a peça inteira na solda (ou o flex dock completo).
+* Adeus umidade: Se o seu Android avisar sobre "umidade detectada na porta USB", nunca force o carregamento com power bank. Deixe o aparelho secar naturalmente. Forçar corrente com umidade gera curto-circuito na placa principal (curto na linha VBUS).
+* Carga em movimento: Evite usar o celular pesadamente (jogando ou rodando GPS no talo) enquanto ele carrega no power bank. Isso gera superaquecimento duplo: o calor do processador somado ao calor da reação química da bateria, degradando a vida útil da sua célula de lítio rapidinho.
 
 ---
 
 ### Perguntas Frequentes (FAQ)
 
-**1. Usar power bank vicia a bateria do meu iPhone ou Android?**
+1. Usar power bank vicia a bateria do meu iPhone ou Android?
 Não! Os smartphones modernos usam baterias de Íon de Lítio ou Polímero de Lítio gerenciadas por um circuito inteligente (PMIC) dentro do aparelho. O power bank apenas fornece a energia; o celular controla o quanto quer receber. O que estrual e vicia a bateria é o superaquecimento excessivo e o uso de cabos/fontes de péssima qualidade que enviam energia instável.
 
-**2. Meu conector estava limpo e o cabo é bom, mas continua aparecem o aviso de carga lenta. O que pode ser?**
+2. Meu conector estava limpo e o cabo é bom, mas continua aparecem o aviso de carga lenta. O que pode ser?
 Se a limpeza e o cabo estão ok, o problema pode estar no circuito de carga do seu celular (chip U2 Tristar/Hydra em iPhones, ou o circuito PMIC de carga em Androids) ou na própria placa controladora do power bank que perdeu a capacidade de entrega rápida. Tente testar outro power bank para isolar a falha.
 
-**3. Posso usar qualquer cabo USB-C no meu power bank?**
+3. Posso usar qualquer cabo USB-C no meu power bank?
 Não recomendo. Para cargas rápidas (acima de 18W/20W), você precisa de um cabo que suporte a tecnologia E-Marker ou que seja certificado para alta amperagem (3A ou mais). Cabos genéricos baratos limitam a corrente automaticamente para 5V/1A por medida de segurança, gerando a notificação de carga lenta.

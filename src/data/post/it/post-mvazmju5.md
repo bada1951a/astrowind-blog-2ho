@@ -28,9 +28,9 @@ Ecco invece cosa devi fare esattamente quando ti trovi con il touchscreen del tu
 
 Sui moderni smartphone Samsung Galaxy (dalla serie S20 in poi, inclusi i pieghevoli e i modelli della serie A), la combinazione di tasti per forzare lo spegnimento è universale e sicura per i dati.
 
-1. **Tieni premuti contemporaneamente** il **Tasto Laterale (Accensione)** e il **Tasto Volume Giù**.
-2. Mantienili premuti **per almeno 10-15 secondi**. Non mollarli troppo presto.
-3. Ignora qualsiasi cosa appaia sullo schermo per i primi secondi. Continua a tenere premuto finché non vedi comparire il **logo Samsung Galaxy** sullo schermo.
+1. Tieni premuti contemporaneamente il Tasto Laterale (Accensione) e il Tasto Volume Giù.
+2. Mantienili premuti per almeno 10-15 secondi. Non mollarli troppo presto.
+3. Ignora qualsiasi cosa appaia sullo schermo per i primi secondi. Continua a tenere premuto finché non vedi comparire il logo Samsung Galaxy sullo schermo.
 4. A quel punto puoi rilasciare i tasti. Il telefono si riavvierà normalmente e, una volta acceso, ti chiederà semplicemente il tuo PIN o la tua impronta digitale. I tuoi dati non avranno subito alcuna perdita.
 
 <div style="border-left: 4px solid #a16207; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -40,17 +40,17 @@ Sui moderni smartphone Samsung Galaxy (dalla serie S20 in poi, inclusi i pieghev
 ### Perché il Touch Screen smette di rispondere all'improvviso?
 
 Per evitare che il problema si presenti di nuovo nel momento meno opportuno, vale la pena capire le cause più comuni:
-- **Crash di un'applicazione pesante:** Un'app in background (spesso legata alla sincronizzazione o a un social network) va in loop di consumo della CPU, bloccando l'interfaccia grafica (UI).
-- **Surriscaldamento:** Se il telefono è rimasto sotto il sole sulla scrivania o sotto stress con app di navigazione e ricarica rapida contemporanea, il sistema limita le prestazioni e può ibernare parti del touchscreen per protezione termica.
-- **Micro-corruzioni della cache di sistema:** Accumulo di file temporanei corrotti dopo un aggiornamento OTA (Over-The-Air) non ottimizzato perfettamente.
+- Crash di un'applicazione pesante: Un'app in background (spesso legata alla sincronizzazione o a un social network) va in loop di consumo della CPU, bloccando l'interfaccia grafica (UI).
+- Surriscaldamento: Se il telefono è rimasto sotto il sole sulla scrivania o sotto stress con app di navigazione e ricarica rapida contemporanea, il sistema limita le prestazioni e può ibernare parti del touchscreen per protezione termica.
+- Micro-corruzioni della cache di sistema: Accumulo di file temporanei corrotti dopo un aggiornamento OTA (Over-The-Air) non ottimizzato perfettamente.
 
 ### Domande Frequenti (FAQ)
 
-**1. Perdo i dati se uso questa combinazione di tasti?**
+1. Perdo i dati se uso questa combinazione di tasti?
 Assolutamente no. Il riavvio forzato (Hard Reset o Force Restart) non cancella alcun dato personale, foto, chat o impostazione. È diverso dal "Ripristino ai dati di fabbrica" (Factory Reset) che invece formatta il dispositivo.
 
-**2. Cosa devo fare se il telefono non si accende nemmeno dopo aver premuto i tasti?**
+2. Cosa devo fare se il telefono non si accende nemmeno dopo aver premuto i tasti?
 Se il telefono non dà alcun segno di vita e lo schermo resta completamente nero, potrebbe trattarsi di una batteria completamente scarica. Collega il dispositivo a un caricabatterie originale a muro per almeno 15-20 minuti prima di tentare nuovamente il riavvio forzato.
 
-**3. Il touchscreen continua a bloccarsi sporadicamente ogni giorno. Come risolvo?**
+3. Il touchscreen continua a bloccarsi sporadicamente ogni giorno. Come risolvo?
 Se il problema si ripete spesso, probabilmente c'è un'applicazione difettosa o il sistema operativo necessita di una pulizia. Vai su *Impostazioni > Assistenza dispositivo e batteria > Ottimizza adesso*, e verifica se ci sono aggiornamenti software pendenti in *Impostazioni > Aggiornamento software*.

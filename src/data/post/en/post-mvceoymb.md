@@ -25,9 +25,9 @@ If you are reading this because your phone or tablet is throwing this exact tant
 
 Before you start poking around your charging port, it helps to understand why your device thinks it is swimming. Modern smartphones are packed with sensitive safety protocols. Here are the three most common culprits behind this frustrating error:
 
-1. **Microscopic Moisture & Humidity:** You might not have dunked your phone, but walking through heavy morning fog in San Francisco, stepping out of an Austin rainstorm, or even heavy hand sweat during a stressful sprint review can introduce enough moisture into the port to trigger the sensor.
-2. **Pocket Lint & Debris Buildup:** This is the #1 silent culprit. Over months in pockets or backpacks, fabric fibers compress inside the port. When micro-humidity hits that compacted lint, it holds onto moisture like a tiny sponge, fooling the moisture detector.
-3. **Corroded or Damaged Pins:** If you have ever plugged in a wet cable or used a cheap, uncertified third-party charger, microscopic arcing can leave carbon residue or mineral crust on the gold-plated connector pins, mimicking the electrical signature of water.
+1. Microscopic Moisture & Humidity: You might not have dunked your phone, but walking through heavy morning fog in San Francisco, stepping out of an Austin rainstorm, or even heavy hand sweat during a stressful sprint review can introduce enough moisture into the port to trigger the sensor.
+2. Pocket Lint & Debris Buildup: This is the #1 silent culprit. Over months in pockets or backpacks, fabric fibers compress inside the port. When micro-humidity hits that compacted lint, it holds onto moisture like a tiny sponge, fooling the moisture detector.
+3. Corroded or Damaged Pins: If you have ever plugged in a wet cable or used a cheap, uncertified third-party charger, microscopic arcing can leave carbon residue or mineral crust on the gold-plated connector pins, mimicking the electrical signature of water.
 
 ---
 
@@ -56,8 +56,8 @@ If you are in a genuine emergency and *must* charge the device right now, and yo
 ### Expert Tips for Long-Term Prevention
 
 Once your emergency has passed, take a few preventative steps to keep this error from crashing your next workday:
-* **Inspect Your Cables:** Look closely at the USB-C or Lightning connector on your charging cable. If the pins look blackened, burnt, or green with oxidation, throw that cable away immediately. It will continue to trigger false errors and damage your phone.
-* **Keep Ports Clean:** Once every few months, gently swab your charging ports with a dry cotton swab or use a specialized anti-static cleaning brush.
+* Inspect Your Cables: Look closely at the USB-C or Lightning connector on your charging cable. If the pins look blackened, burnt, or green with oxidation, throw that cable away immediately. It will continue to trigger false errors and damage your phone.
+* Keep Ports Clean: Once every few months, gently swab your charging ports with a dry cotton swab or use a specialized anti-static cleaning brush.
 
 <div style="border-left: 4px solid #059669; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Pro-Tip for Tech Professionals:</strong> If the warning persists for over 24 hours despite the port being bone-dry and spotless, the internal liquid detection IC (integrated circuit) on your logic board may have suffered permanent salt or mineral corrosion. At that point, it is time to book a diagnostic appointment with an authorized service provider.
@@ -67,11 +67,11 @@ Once your emergency has passed, take a few preventative steps to keep this error
 
 ### Frequently Asked Questions (FAQ)
 
-**Q: Can I use rubbing alcohol to clean out a liquid-detected port?**
+Q: Can I use rubbing alcohol to clean out a liquid-detected port?
 A: Yes, but with strict conditions. High-purity isopropyl alcohol (99% or higher) is safe because it evaporates rapidly and displaces water. Dip a clean micro-brush lightly into the alcohol, gently clean the port, and wait at least 15 to 20 minutes for it to completely evaporate before attempting to charge.
 
-**Q: Why does the warning keep popping up even though my phone has never been near water?**
+Q: Why does the warning keep popping up even though my phone has never been near water?
 A: This is almost always caused by humidity combined with accumulated pocket lint inside the port. The lint holds moisture from the air, creating enough electrical conductivity to trick the safety sensor. A thorough physical cleaning usually solves this permanently.
 
-**Q: Is it safe to charge my phone while the "Liquid Detected" warning is active?**
+Q: Is it safe to charge my phone while the "Liquid Detected" warning is active?
 A: Strongly discouraged. Forcing power into a wet or shorted connector can cause micro-arcing, permanently melting the plastic housing inside the port or frying the phone's charging management chip, leading to an expensive motherboard repair. Use wireless charging as a safe workaround until the port dries out.

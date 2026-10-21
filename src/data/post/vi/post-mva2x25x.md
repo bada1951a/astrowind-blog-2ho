@@ -19,9 +19,9 @@ theme: "Acid Lime Hacker Space"
 
 Trước khi bấm nút cứu hộ, chúng ta cần hiểu nhanh nguyên nhân để tránh tái diễn tình trạng này giữa lúc dầu sôi lửa bỏng:
 
-1. **Xung đột phần mềm (Software Glitch):** Một ứng dụng nào đó (thường là app ngân hàng, mạng xã hội hoặc game nặng) bị treo ngang xương, kéo theo toàn bộ tiến trình SpringBoard của iOS sập theo.
-2. **Tràn bộ nhớ RAM:** Bạn mở quá nhiều tab Safari và ứng dụng nền cùng lúc trong cái nóng oi ả của Sài Gòn, khiến chip xử lý quá tải nhiệt và tự đóng băng để bảo vệ bo mạch.
-3. **Lỗi phân vùng dữ liệu hoặc ổ cứng (Storage/NAND Flash):** Bộ nhớ trong gần như cạn sạch (chỉ còn dưới 1GB trống), khiến hệ thống không thể tạo không gian lưu file tạm (cache) và gây kẹt cứng hệ điều hành.
+1. Xung đột phần mềm (Software Glitch): Một ứng dụng nào đó (thường là app ngân hàng, mạng xã hội hoặc game nặng) bị treo ngang xương, kéo theo toàn bộ tiến trình SpringBoard của iOS sập theo.
+2. Tràn bộ nhớ RAM: Bạn mở quá nhiều tab Safari và ứng dụng nền cùng lúc trong cái nóng oi ả của Sài Gòn, khiến chip xử lý quá tải nhiệt và tự đóng băng để bảo vệ bo mạch.
+3. Lỗi phân vùng dữ liệu hoặc ổ cứng (Storage/NAND Flash): Bộ nhớ trong gần như cạn sạch (chỉ còn dưới 1GB trống), khiến hệ thống không thể tạo không gian lưu file tạm (cache) và gây kẹt cứng hệ điều hành.
 
 ## Hướng dẫn Buộc Khởi động lại (Force Restart) theo từng dòng máy
 
@@ -30,10 +30,10 @@ Quên việc cố gắng bấm giữ nút nguồn vuốt tắt máy đi, vì lú
 ### 1. Dành cho iPhone 8, iPhone X, dòng iPhone 11, 12, 13, 14, 15 và mới hơn
 Đây là nhóm máy phổ biến nhất tại các công sở hiện nay. Hãy thực hiện dứt khoát các bước sau theo thứ tự:
 
-* **Bước 1:** Bấm và thả nhanh nút **Tăng âm lượng** (Volume Up).
-* **Bước 2:** Bấm và thả nhanh nút **Giảm âm lượng** (Volume Down).
-* **Bước 3:** Ngay lập tức bấm và **giữ chặt nút Nguồn (Side Button)** bên cạnh phải. Giữ nguyên tay trong khoảng 10 đến 15 giây.
-* **Bước 4:** Tuyệt đối không buông tay khi thấy màn hình trượt tắt nguồn. Hãy kiên nhẫn giữ đến khi màn hình tối hẳn và **logo Apple màu trắng xuất hiện trở lại** thì mới thả ra.
+* Bước 1: Bấm và thả nhanh nút Tăng âm lượng (Volume Up).
+* Bước 2: Bấm và thả nhanh nút Giảm âm lượng (Volume Down).
+* Bước 3: Ngay lập tức bấm và giữ chặt nút Nguồn (Side Button) bên cạnh phải. Giữ nguyên tay trong khoảng 10 đến 15 giây.
+* Bước 4: Tuyệt đối không buông tay khi thấy màn hình trượt tắt nguồn. Hãy kiên nhẫn giữ đến khi màn hình tối hẳn và logo Apple màu trắng xuất hiện trở lại thì mới thả ra.
 
 
 
@@ -41,11 +41,11 @@ Quên việc cố gắng bấm giữ nút nguồn vuốt tắt máy đi, vì lú
 
 ### 2. Dành cho dòng iPhone 7 và 7 Plus
 Nếu bạn vẫn đang dùng dòng máy này làm máy phụ nghe gọi:
-* Bấm và **giữ đồng thời nút Giảm âm lượng và nút Nguồn** bên cạnh.
+* Bấm và giữ đồng thời nút Giảm âm lượng và nút Nguồn bên cạnh.
 * Giữ liên tục trong khoảng 10 giây cho đến khi logo Apple hiện lên thì thả tay.
 
 ### 3. Dành cho iPhone 6s trở xuống hoặc dòng SE đời đầu
-* Bấm và **giữ đồng thời nút Home (nút tròn phía trước) và nút Nguồn** (có thể ở cạnh bên hoặc đỉnh máy tùy đời).
+* Bấm và giữ đồng thời nút Home (nút tròn phía trước) và nút Nguồn (có thể ở cạnh bên hoặc đỉnh máy tùy đời).
 * Giữ nguyên khoảng 10 giây cho đến khi thấy logo quả táo khuyết xuất hiện.
 
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -56,19 +56,19 @@ Nếu bạn vẫn đang dùng dòng máy này làm máy phụ nghe gọi:
 
 Sau khi máy đã lên nguồn và bạn đã hoàn thành xong việc báo cáo với sếp, hãy lập tức làm ngay các bước dọn dẹp sau để tránh "lên cơn đau tim" lần hai:
 
-* **Giải phóng dung lượng:** Vào **Cài đặt > Cài đặt chung > Dung lượng iPhone**. Hãy đảm bảo máy luôn trống ít nhất 5GB đến 10GB để hệ thống có không gian thở và chạy mượt mà.
-* **Tắt tính năng làm mới ứng dụng nền:** Vào **Cài đặt > Cài đặt chung > Làm mới ứng dụng trong nền** và tắt bớt các app không thực sự cần thiết chạy ngầm.
-* **Cập nhật iOS đều đặn:** Apple thường vá các lỗi rò rỉ bộ nhớ (memory leak) gây đơ máy trong các bản cập nhật nhỏ. Hãy tranh thủ update vào cuối tuần khi có Wi-Fi ổn định.
+* Giải phóng dung lượng: Vào Cài đặt > Cài đặt chung > Dung lượng iPhone. Hãy đảm bảo máy luôn trống ít nhất 5GB đến 10GB để hệ thống có không gian thở và chạy mượt mà.
+* Tắt tính năng làm mới ứng dụng nền: Vào Cài đặt > Cài đặt chung > Làm mới ứng dụng trong nền và tắt bớt các app không thực sự cần thiết chạy ngầm.
+* Cập nhật iOS đều đặn: Apple thường vá các lỗi rò rỉ bộ nhớ (memory leak) gây đơ máy trong các bản cập nhật nhỏ. Hãy tranh thủ update vào cuối tuần khi có Wi-Fi ổn định.
 
 ---
 
 ## Các câu hỏi thường gặp (FAQ)
 
 ### 1. Force Restart có làm mất dữ liệu hay ảnh chụp trên iPhone không?
-**Hoàn toàn không.** Thao tác Buộc khởi động lại chỉ giống như việc ngắt nguồn điện đột ngột và bật lại của máy tính, nó không làm xóa bất kỳ dữ liệu cá nhân, danh bạ, hình ảnh hay ứng dụng nào đang có trên thiết bị của bạn.
+Hoàn toàn không. Thao tác Buộc khởi động lại chỉ giống như việc ngắt nguồn điện đột ngột và bật lại của máy tính, nó không làm xóa bất kỳ dữ liệu cá nhân, danh bạ, hình ảnh hay ứng dụng nào đang có trên thiết bị của bạn.
 
 ### 2. Tôi đã bấm đúng tổ hợp phím nhưng máy vẫn đứng hình ở logo Apple thì phải làm sao?
-Nếu máy bị kẹt ở logo (bootloop), tình trạng có thể nặng hơn mức đơ phần mềm thông thường (lỗi phân vùng hệ thống hoặc hỏng ổ cứng NAND). Lúc này, bạn cần kết nối điện thoại với máy tính có cài phần mềm **iTunes** (hoặc ứng dụng Apple Devices trên Windows / Finder trên macOS), đưa máy về chế độ **Recovery Mode** để tiến hành cập nhật lại hệ điều hành hoặc khôi phục cài đặt gốc.
+Nếu máy bị kẹt ở logo (bootloop), tình trạng có thể nặng hơn mức đơ phần mềm thông thường (lỗi phân vùng hệ thống hoặc hỏng ổ cứng NAND). Lúc này, bạn cần kết nối điện thoại với máy tính có cài phần mềm iTunes (hoặc ứng dụng Apple Devices trên Windows / Finder trên macOS), đưa máy về chế độ Recovery Mode để tiến hành cập nhật lại hệ điều hành hoặc khôi phục cài đặt gốc.
 
 ### 3. Tại sao iPhone hay bị đơ cảm ứng khi đang sạc pin?
 Đây thường là hiện tượng xung đột dòng điện hoặc do bạn đang sử dụng bộ sạc, cáp sạc kém chất lượng (không chính hãng, không đạt chuẩn MFi). Dòng điện không ổn định làm nhiễu lớp cảm ứng số hóa (digitizer) bên dưới màn hình. Hãy thử tháo cáp sạc ra, nếu máy mượt trở lại thì bạn nên vứt ngay bộ sạc rẻ tiền đó đi để bảo vệ bo mạch bên trong.

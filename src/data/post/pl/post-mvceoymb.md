@@ -23,9 +23,9 @@ Ten problem dotyka codziennie setki użytkowników nowoczesnych urządzeń mobil
 
 Zanim przejdziemy do naprawy, warto zrozumieć, co tak naprawdę dzieje się wewnątrz urządzenia. Nowoczesne porty USB-C oraz Lightning są wyposażone w czułe systemy wykrywania zwarć i rezystancji. 
 
-1. **Mikroskopijne drobiny płynu:** Nawet kropla skondensowanej pary wodnej lub resztki napoju mogą zamknąć obwód między pinami przesyłu danych a zasilania.
-2. **Nagromadzenie brudu i kurzu:** Kieszenie spodni czy torby biurkowe to siedliska pyłu, który po połączeniu z wilgocią z powietrza tworzy przewzącą prąd maź.
-3. **Uszkodzony lub nieoryginalny przewód:** Czasami problem nie leży w samym telefonie, lecz w skorodowanej lub brudnej wtyczce kabla, która "przenosi" wilgoć i zanieczyszczenia do gniazda.
+1. Mikroskopijne drobiny płynu: Nawet kropla skondensowanej pary wodnej lub resztki napoju mogą zamknąć obwód między pinami przesyłu danych a zasilania.
+2. Nagromadzenie brudu i kurzu: Kieszenie spodni czy torby biurkowe to siedliska pyłu, który po połączeniu z wilgocią z powietrza tworzy przewzącą prąd maź.
+3. Uszkodzony lub nieoryginalny przewód: Czasami problem nie leży w samym telefonie, lecz w skorodowanej lub brudnej wtyczce kabla, która "przenosi" wilgoć i zanieczyszczenia do gniazda.
 
 ---
 
@@ -53,11 +53,11 @@ Często pomijany krok: przetrzyj końcówkę kabla ładowarkiacza alkoholem izop
 
 ## FAQ – Często zadawane pytania
 
-**1. Czy mogę użyć suszarki do włosów, żeby szybciej wysuszyć port?**
+1. Czy mogę użyć suszarki do włosów, żeby szybciej wysuszyć port?
 Absolutnie nie. Gorący strumień powietrza z suszarki może stopić plastikowe elementy obudowy wewnątrz złącza lub wepchnąć krople wody głębiej do wnętrza urządzenia, powodując korozję na płycie głównej.
 
-**2. Co oznacza, gdy powiadomienie o wilgoci znika i pojawia się ponownie?**
+2. Co oznacza, gdy powiadomienie o wilgoci znika i pojawia się ponownie?
 Oznacza to, że w głębi portu (często pod plastikową bazą pinów) nadal znajduje się uwięziona wilgoć, która pod wpływem nagrzewania się telefonu podczas pracy paruje i ponownie dotyka styków. Urządzenie potrzebuje dłuższego czasu bezczynności w przewiewnym miejscu.
 
-**3. Czy wsadzenie telefonu do miski z ryżem faktycznie pomaga?**
+3. Czy wsadzenie telefonu do miski z ryżem faktycznie pomaga?
 To popularny mit. Ryż nie tylko działa zbyt wolno, ale jego pył oraz skrobia wnikają do wnętrza portu, tworząc po kontakcie z resztkami wilgoci twardą, trudną do usunięcia skorupę. Lepiej pozostawić urządzenie w suchym, przewiewnym pomieszczeniu o temperaturze pokojowej.

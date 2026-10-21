@@ -25,9 +25,9 @@ Als hardware- en reparatiespecialist zie ik dit dagelijks gebeuren. Veel mensen 
 
 Voordat we gaan snijden in instellingen, moeten we begrijpen waarom je processor op volle toeren blijft draaien. Dit zijn de drie boosdoeners die ik in de praktijk het vaakst tegenkom:
 
-1. **Vastgelopen synchronisatie of corrupte cache:** Soms blijft een app (vaak social media of cloud-opslag) hangen in een oneindige lus van data proberen te synchroniseren via 5G of Wi-Fi.
-2. **Aggressieve 'Sleeping Apps' instellingen die zijn gereset:** Na een One UI-update kan het gebeuren dat Samsung's energiebeheer even de weg kwijt is en achtergrondprocessen onbeperkt vrij spel geeft.
-3. **Roterende locatie-aanvragen:** Een onschuldige app blijft stiekem je GPS op de achtergrond misbruiken, wat extreme druk legt op zowel de modem als de processor.
+1. Vastgelopen synchronisatie of corrupte cache: Soms blijft een app (vaak social media of cloud-opslag) hangen in een oneindige lus van data proberen te synchroniseren via 5G of Wi-Fi.
+2. Aggressieve 'Sleeping Apps' instellingen die zijn gereset: Na een One UI-update kan het gebeuren dat Samsung's energiebeheer even de weg kwijt is en achtergrondprocessen onbeperkt vrij spel geeft.
+3. Roterende locatie-aanvragen: Een onschuldige app blijft stiekem je GPS op de achtergrond misbruiken, wat extreme druk legt op zowel de modem als de processor.
 
 ---
 
@@ -36,12 +36,12 @@ Voordat we gaan snijden in instellingen, moeten we begrijpen waarom je processor
 Laten we het toestel weer temmen met een gerichte aanpak. Volg deze stappen nauwkeurig op:
 
 #### Stap 1: Identificeer de stroomvreter via de Batterij-instellingen
-Duik niet meteen blind in fabrieksinstellingen. Ga naar **Instellingen > Batterij** en tik op het batterijgebruik van vandaag. Kijk welke app bovenaan staat met een verdacht hoog percentage. Staat er een app tussen die je al uren niet hebt aangeraakt? Dan hebben we de dader te pakken.
+Duik niet meteen blind in fabrieksinstellingen. Ga naar Instellingen > Batterij en tik op het batterijgebruik van vandaag. Kijk welke app bovenaan staat met een verdacht hoog percentage. Staat er een app tussen die je al uren niet hebt aangeraakt? Dan hebben we de dader te pakken.
 
 #### Stap 2: Forceer een harde stop en cache-reiniging
-Ga naar **Instellingen > Apps**, zoek de boosdoener op en kies achtereenvolgens voor:
-* **Geforceerd stoppen** (Force Stop)
-* **Opslag > Cache wissen** (Clear Cache)
+Ga naar Instellingen > Apps, zoek de boosdoener op en kies achtereenvolgens voor:
+* Geforceerd stoppen (Force Stop)
+* Opslag > Cache wissen (Clear Cache)
 
 <div style="border-left: 4px solid #a855f7; padding: 12px 16px; margin: 20px 0; background-color: rgba(168, 85, 247, 0.08); border-radius: 4px; color: #111827;">
 <strong>Waarschuwing:</strong> Wis nooit zomaar 'Data' (Gegevens wissen) tenzij je zeker weet dat je geen lokale logins of onopgeslagen bestanden kwijtraakt. Met alleen 'Cache wissen' ruim je corrupte tijdelijke rommel op.
@@ -49,19 +49,19 @@ Ga naar **Instellingen > Apps**, zoek de boosdoener op en kies achtereenvolgens 
 
 #### Stap 3: Activeer Samsung's Diepe Sluimerstand
 Om te voorkomen dat de app direct weer op de achtergrond ontwaakt, gaan we hem isoleren:
-1. Ga naar **Instellingen > Apparaatonderhoud > Batterij**.
-2. Tik op **Achtergrondgebruik van apps**.
-3. Zet problematische apps in **Apps in diepe slaap** (Deep Sleeping Apps). Hierdoor mogen ze absoluut geen actie ondernemen tenzij je ze eigenhandig opstart.
+1. Ga naar Instellingen > Apparaatonderhoud > Batterij.
+2. Tik op Achtergrondgebruik van apps.
+3. Zet problematische apps in Apps in diepe slaap (Deep Sleeping Apps). Hierdoor mogen ze absoluut geen actie ondernemen tenzij je ze eigenhandig opstart.
 
 ---
 
 ### Veelgestelde Vragen (FAQ)
 
-**1. Kan oververhitting door achtergrond-apps mijn batterij permanent beschadigen?**
+1. Kan oververhitting door achtergrond-apps mijn batterij permanent beschadigen?
 Ja, langdurige blootstelling aan temperaturen boven de 40°C tast de chemische samenstelling van een Li-ion accu aan. Hierdoor neemt de maximale capaciteit snel af en kan de batterij zelfs opbollen. Snel ingrijpen is dus cruciaal.
 
-**2. Lost een fabrieksreset dit soort problemen altijd op?**
+2. Lost een fabrieksreset dit soort problemen altijd op?
 Meestal wel, omdat je daarmee alle hardnekkige softwareconflicten wist. Maar het is een last resort. Probeer eerst altijd de cache te legen en achtergrondrestricties in te stellen zoals hierboven beschreven.
 
-**3. Waarom helpt het niet om simpelweg mijn scherm uit te zetten?**
+3. Waarom helpt het niet om simpelweg mijn scherm uit te zetten?
 Omdat het probleem zich op de achtergrond afspeelt. Je processor en modem blijven vol doorwerken alsof je actief aan het gamen of videobellen bent, voldiend door wakkerhoud-commando's (wakelocks) van de corrupte app.

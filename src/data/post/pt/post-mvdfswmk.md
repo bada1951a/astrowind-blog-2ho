@@ -21,9 +21,9 @@ Eram três da tarde em ponto no nosso escritório corporativo na região da Aven
 
 Depois de perder preciosos 20 minutos testando cabos diferentes e reiniciando o aparelho sem sucesso, fui direto ao diagnóstico técnico para entender o que estava acontecendo debaixo do capô.
 
-1. **Acúmulo de Resíduos e Sujeira (Falso Positivo Comum):** O pó do bolso misturado com umidade do suor ou da chuva fina de São Paulo vira uma pasta condutiva dentro do conector. O sensor interpreta isso erroneamente como líquido.
-2. **Oxidação nos Pinos (Zinabre):** Se o aparelho já teve contato leve com umidade no passado, os pinos internos podem ter desenvolvido uma leve camada de corrosão que mantém o circuito fechado indevidamente.
-3. **Falha Lógica no iOS:** O componente que gerencia a energia (chip Tristar/Hydra ou o gerenciador USB) pode reter um erro de leitura temporário, fazendo o aviso persistir mesmo com o conector totalmente seco.
+1. Acúmulo de Resíduos e Sujeira (Falso Positivo Comum): O pó do bolso misturado com umidade do suor ou da chuva fina de São Paulo vira uma pasta condutiva dentro do conector. O sensor interpreta isso erroneamente como líquido.
+2. Oxidação nos Pinos (Zinabre): Se o aparelho já teve contato leve com umidade no passado, os pinos internos podem ter desenvolvido uma leve camada de corrosão que mantém o circuito fechado indevidamente.
+3. Falha Lógica no iOS: O componente que gerencia a energia (chip Tristar/Hydra ou o gerenciador USB) pode reter um erro de leitura temporário, fazendo o aviso persistir mesmo com o conector totalmente seco.
 
 ### Passo a Passo: Como Resolver o Problema de Vez
 
@@ -41,28 +41,28 @@ Se houver suspeita de umidade real, aplique algumas gotas de álcool isopropíli
 
 #### Passo 3: Reinicialização Forçada e Bypasses do iOS
 Se a limpeza física foi feita e o aviso persiste, o problema é de software. Faça uma reinicialização forçada:
-- Pressione e solte rapidamente o botão de **Aumentar Volume**.
-- Pressione e solte rapidamente o botão de **Diminuir Volume**.
-- Pressione e mantenha o **Botão Lateral** pressionado até aparecer o logotipo da Apple na tela.
+- Pressione e solte rapidamente o botão de Aumentar Volume.
+- Pressione e solte rapidamente o botão de Diminuir Volume.
+- Pressione e mantenha o Botão Lateral pressionado até aparecer o logotipo da Apple na tela.
 
 Caso precise carregar o aparelho com urgência enquanto o aviso não some, desligue o iPhone completamente, conecte o cabo de energia e só então ligue-o novamente, ou utilize um carregador por indução (Wireless/MagSafe) compatível.
 
 ### Prevenção e Cuidados Essenciais
 
 Para evitar que esse susto aconteça no meio de uma entrega importante de trabalho, adote algumas práticas simples no seu dia a dia:
-- **Capa com tampa protetora:** Se você trabalha na rua ou transita muito sob garoa, use capas que possuem tampas de silicone para vedar a entrada do conector.
-- **Limpeza preventiva semestral:** Use o palito de dente de forma preventiva a cada seis meses para remover o acúmulo de fiapos do bolso da calça.
-- **Cuidado com acessórios originais:** Cabos danificados ou de procedência duvidosa podem enviar picos de energia incorretos e confundir o circuito de proteção do aparelho.
+- Capa com tampa protetora: Se você trabalha na rua ou transita muito sob garoa, use capas que possuem tampas de silicone para vedar a entrada do conector.
+- Limpeza preventiva semestral: Use o palito de dente de forma preventiva a cada seis meses para remover o acúmulo de fiapos do bolso da calça.
+- Cuidado com acessórios originais: Cabos danificados ou de procedência duvidosa podem enviar picos de energia incorretos e confundir o circuito de proteção do aparelho.
 
 ---
 
 ### Perguntas Frequentes (FAQ)
 
-**1. É seguro usar o iPhone se eu ignorar o alerta de líquido clicando em "Emergência"?**
+1. É seguro usar o iPhone se eu ignorar o alerta de líquido clicando em "Emergência"?
 Não é recomendado. A opção de emergência serve estritamente para situações extremas onde você precisa de carga para uma ligação vital. Forçar corrente elétrica em um conector úmido ou sujo pode causar curto-circuito na placa lógica, fundir os pinos ou queimar o chip de gerenciamento de energia.
 
-**2. O álcool comum em gel ou 70% serve para limpar o conector?**
+2. O álcool comum em gel ou 70% serve para limpar o conector?
 De jeito nenhum. O álcool comum e o álcool em gel contêm água na composição e aditivos hidratantes que deixam resíduos pegajosos. Utilize exclusivamente álcool isopropílico acima de 99%, pois ele é formulado especificamente para eletrônicos e evapora sem deixar marcas.
 
-**3. Meu iPhone nunca molhou, por que esse erro aparece do nada?**
+3. Meu iPhone nunca molhou, por que esse erro aparece do nada?
 Em 90% dos casos em grandes centros urbanos, o causador é a combinação de suor (que é salino e condutivo) acumulado no bolso com a poeira diária, criando uma película falsa que engana os sensores de umidade da porta de carga. Uma limpeza mecânica leve costuma resolver imediatamente.

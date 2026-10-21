@@ -21,9 +21,9 @@ The executive sync in our Austin tech hub was slated to start in exactly seven m
 
 Before jumping into the fix, let's look at why this happens from a hardware and software perspective. When your display panel lights up but refuses touch inputs, it is rarely a broken digitizer cable if it happened suddenly. 
 
-* **UI Thread Deadlock:** The One UI system interface thread crashes while hardware-level display rendering continues, leaving a static image that ignores coordinate inputs.
-* **Kernel & Touch IC Desync:** The touch IC (Integrated Circuit) chip on the motherboard loses communication over the I2C bus with the main application processor.
-* **Corrupted Background Cache:** A heavy app or rogue background sync exhausts RAM, causing the system to prioritize core functions and drop touch interrupt handlers entirely.
+* UI Thread Deadlock: The One UI system interface thread crashes while hardware-level display rendering continues, leaving a static image that ignores coordinate inputs.
+* Kernel & Touch IC Desync: The touch IC (Integrated Circuit) chip on the motherboard loses communication over the I2C bus with the main application processor.
+* Corrupted Background Cache: A heavy app or rogue background sync exhausts RAM, causing the system to prioritize core functions and drop touch interrupt handlers entirely.
 
 ## Step-by-Step Resolution: The Safe Hardware Force Restart
 
@@ -35,19 +35,19 @@ Because you cannot tap the software "Power Off" menu when the touch screen is de
 
 ### Action Plan
 
-1. **Locate the Buttons:** Find the **Volume Down** button and the **Side (Power) Button** on the right edge of your Galaxy device.
-2. **Simultaneous Press:** Firmly press and **hold both the Volume Down and Side buttons together**. Do not let go when the screenshot animation flashes or when the screen dims slightly.
-3. **Hold for 10 to 15 Seconds:** Keep holding continuously. Even if the screen flickers, maintain pressure until the device completely goes dark.
-4. **Wait for the Samsung Logo:** The moment the screen turns black, keep holding until you see the white **Samsung Galaxy logo** appear on screen. Once the logo pops up, you can release the buttons.
-5. **Boot Verification:** Allow the phone to boot normally to the lock screen. Your touch screen responsiveness will be fully restored, and all your active apps and unsaved drafts will be right where you left them.
+1. Locate the Buttons: Find the Volume Down button and the Side (Power) Button on the right edge of your Galaxy device.
+2. Simultaneous Press: Firmly press and hold both the Volume Down and Side buttons together. Do not let go when the screenshot animation flashes or when the screen dims slightly.
+3. Hold for 10 to 15 Seconds: Keep holding continuously. Even if the screen flickers, maintain pressure until the device completely goes dark.
+4. Wait for the Samsung Logo: The moment the screen turns black, keep holding until you see the white Samsung Galaxy logo appear on screen. Once the logo pops up, you can release the buttons.
+5. Boot Verification: Allow the phone to boot normally to the lock screen. Your touch screen responsiveness will be fully restored, and all your active apps and unsaved drafts will be right where you left them.
 
 ## Expert Warning: Preventing Recurring Freezes
 
 If your Galaxy touch screen freezes repeatedly during heavy multitasking, your device is signaling software distress. 
 
-* **Check Storage Capacity:** Ensure you have at least 10 percent of your internal storage free. When flash storage is completely maxed out, Android cannot write virtual memory swap files, leading to frequent system lockups.
-* **Update One UI / Security Patches:** Go to Settings > Software update and install the latest firmware. Samsung regularly rolls out fixes for touch IC firmware stability.
-* **Safe Mode Diagnostic:** If the screen freezes only after booting up, a third-party overlay app (like a screen filter or custom launcher) is likely causing the conflict. Boot into Safe Mode by holding the Volume Down button while turning on the phone to isolate the culprit.
+* Check Storage Capacity: Ensure you have at least 10 percent of your internal storage free. When flash storage is completely maxed out, Android cannot write virtual memory swap files, leading to frequent system lockups.
+* Update One UI / Security Patches: Go to Settings > Software update and install the latest firmware. Samsung regularly rolls out fixes for touch IC firmware stability.
+* Safe Mode Diagnostic: If the screen freezes only after booting up, a third-party overlay app (like a screen filter or custom launcher) is likely causing the conflict. Boot into Safe Mode by holding the Volume Down button while turning on the phone to isolate the culprit.
 
 ## Frequently Asked Questions
 

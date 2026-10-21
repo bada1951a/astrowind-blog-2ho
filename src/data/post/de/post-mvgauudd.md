@@ -24,9 +24,9 @@ Als langjähriger Smartphone-Techniker kann ich dich aber erst einmal beruhigen:
 
 Bevor wir anfangen, das Pad hin- und herzuschieben, müssen wir verstehen, warum die LED überhaupt panisch blinkt. Das Blinken ist im Grunde ein Hilferuf des Ladegeräts (oft als "Foreign Object Detection" oder FOD bekannt). Hier sind die drei realistischsten Ursachen:
 
-1. **Der Spulen-Versatz (Misalignment):** Das ist der Klassiker. Die Sende-Spule im Pad und die Empfangs-Spule im Smartphone müssen sich exakt überlappen, um ein stabiles magnetisches Feld aufzubauen. Liegt das Handy auch nur fünf Millimeter daneben, bricht die Induktion sofort ein. Das Ladegerät merkt das, stoppt den Stromfluss und blinkt zur Warnung.
-2. **Dicke Hüllen und Metallteile:** Viele nutzen robuste Schutzhüllen, Ringe (MagSafe-Gegenstücke) oder haben gar Kreditkarten und Metallplättchen für Kfz-Halterungen im Case versteckt. Das blockiert das Magnetfeld komplett und triggert den Fehlerstatus.
-3. **Zu schwaches Netzteil (Power Delivery Problem):** Man schließt das Wireless Pad einfach an irgendeinen alten 5W-iPhone-Stecker an der Steckdose unter dem Schreibtisch an. Unter Last bricht die Spannung ein, das Pad fängt an zu spinnen und blinkt.
+1. Der Spulen-Versatz (Misalignment): Das ist der Klassiker. Die Sende-Spule im Pad und die Empfangs-Spule im Smartphone müssen sich exakt überlappen, um ein stabiles magnetisches Feld aufzubauen. Liegt das Handy auch nur fünf Millimeter daneben, bricht die Induktion sofort ein. Das Ladegerät merkt das, stoppt den Stromfluss und blinkt zur Warnung.
+2. Dicke Hüllen und Metallteile: Viele nutzen robuste Schutzhüllen, Ringe (MagSafe-Gegenstücke) oder haben gar Kreditkarten und Metallplättchen für Kfz-Halterungen im Case versteckt. Das blockiert das Magnetfeld komplett und triggert den Fehlerstatus.
+3. Zu schwaches Netzteil (Power Delivery Problem): Man schließt das Wireless Pad einfach an irgendeinen alten 5W-iPhone-Stecker an der Steckdose unter dem Schreibtisch an. Unter Last bricht die Spannung ein, das Pad fängt an zu spinnen und blinkt.
 
 ---
 
@@ -41,14 +41,14 @@ Nimm das Smartphone aus der Schutzhülle. Egal, wie dünn sie dir erscheint – 
 Jetzt machen wir einen kleinen physikalischen Test:
 * Lege das Ladegerät flach vor dich hin.
 * Schalte das Display deines Smartphones an, damit du sofort siehst, ob das Ladesymbol erscheint.
-* Lege das Handy **nicht** einfach mittig drauf, sondern bewege es langsam von oben nach unten und von links nach rechts über das Pad.
+* Lege das Handy nicht einfach mittig drauf, sondern bewege es langsam von oben nach unten und von links nach rechts über das Pad.
 * Beobachte das Display. An einem ganz bestimmten Punkt springt die Anzeige von "Nicht geladen" auf den Lademodus um. 
 * Merke dir diesen Punkt (oft liegt die Spule exakt im unteren Drittel oder genau in der Mitte des Handys, je nach Modell wie iPhone oder Samsung Galaxy).
 
 #### Schritt 3: Das Netzteil und Kabel überprüfen
 Wenn das Handy selbst auf der exakten Position blinkt, liegt es meist an der Stromzufuhr. 
 * Zieh das USB-Kabel des Wireless Chargers aus dem Netzteil und steck es direkt in einen modernen Schnelladeadapter (mindestens 18W oder Quick Charge 3.0 / Power Delivery).
-* **Wichtig aus dem Büroalltag:** Hänge das Pad niemals an den USB-Anschluss eines PCs oder an eine billige Mehrfachstecker-Leiste mit integriertem USB-Port. Diese liefern oft zu wenig Ampere, was zu dem typischen Blink-Fehler führt.
+* Wichtig aus dem Büroalltag: Hänge das Pad niemals an den USB-Anschluss eines PCs oder an eine billige Mehrfachstecker-Leiste mit integriertem USB-Port. Diese liefern oft zu wenig Ampere, was zu dem typischen Blink-Fehler führt.
 
 #### Schritt 4: Die korrekte Ausrichtung bei Stand-Ladegeräten (Cradles)
 Nutzt du eine vertikale Ladestation statt einer flachen Matte? Hier passiert es extrem oft, dass schwerere Smartphones nach unten rutschen. 
@@ -61,19 +61,19 @@ Nutzt du eine vertikale Ladestation statt einer flachen Matte? Hier passiert es 
 
 Weil ich täglich Geräte auf dem Tisch habe, bei denen die USB-C Buchse komplett verstopft oder abgebrochen ist, hier noch ein paar goldene Regeln für den Alltag:
 
-* **Wärmeentwicklung vermeiden:** Kabelloses Laden erzeugt konstruktionsbedingt mehr Abwärme als das Kabel. Wenn dein Smartphone in einer dicken Silikonhülle steckt und auf dem Pad kocht, schadet das auf Dauer der Akkukapazität. Wenn das Handy beim Laden spürbar heiß wird: Hülle abnehmen!
-* **Fremdkörper-Warnung ernst nehmen:** Wenn das Blinken nicht aufhört, obwohl das Handy nackt und richtig positioniert ist, könnte ein Metallpartikel (z.B. eine Heftzwecke oder Büroklammer, die sich unbemerkt auf dem Schreibtisch-Pad verirrt hat) die Ursache sein. Das Pad heizt sich in diesem Fall stark auf – Vorsicht Verbrennungsgefahr!
-* **Die Notlösung bei defekter Buchse:** Wenn deine USB-C Buchse ohnehin defekt ist und das kabellose Laden partout versagt, drücke das Handy während des Auflegens ganz sanft für zwei Sekunden auf das Pad. Manchmal klemmt ein interner Sensor oder die Spule hat einen Wackelkontakt durch einen Sturz. (Dann hilft langfristig allerdings nur noch der Gang in die Werkstatt zum Spulenwechsel).
+* Wärmeentwicklung vermeiden: Kabelloses Laden erzeugt konstruktionsbedingt mehr Abwärme als das Kabel. Wenn dein Smartphone in einer dicken Silikonhülle steckt und auf dem Pad kocht, schadet das auf Dauer der Akkukapazität. Wenn das Handy beim Laden spürbar heiß wird: Hülle abnehmen!
+* Fremdkörper-Warnung ernst nehmen: Wenn das Blinken nicht aufhört, obwohl das Handy nackt und richtig positioniert ist, könnte ein Metallpartikel (z.B. eine Heftzwecke oder Büroklammer, die sich unbemerkt auf dem Schreibtisch-Pad verirrt hat) die Ursache sein. Das Pad heizt sich in diesem Fall stark auf – Vorsicht Verbrennungsgefahr!
+* Die Notlösung bei defekter Buchse: Wenn deine USB-C Buchse ohnehin defekt ist und das kabellose Laden partout versagt, drücke das Handy während des Auflegens ganz sanft für zwei Sekunden auf das Pad. Manchmal klemmt ein interner Sensor oder die Spule hat einen Wackelkontakt durch einen Sturz. (Dann hilft langfristig allerdings nur noch der Gang in die Werkstatt zum Spulenwechsel).
 
 ---
 
 ### Häufig gestellte Fragen (FAQ)
 
-**1. Warum lädt mein Handy erst, wenn ich es leicht schief auf das Pad lege?**
+1. Warum lädt mein Handy erst, wenn ich es leicht schief auf das Pad lege?
 Das liegt daran, dass die integrierten Empfangs-Spulen im Smartphone je nach Modell (z. B. bei gefalteten Geräten oder speziellen Phablets) versetzt eingebaut sind. Wenn die Sende-Spule im Pad ebenfalls nicht zentriert sitzt, entsteht durch das schräge Auflegen genau der Überlappungsgrad, den die Induktion braucht.
 
-**2. Kann eine MagSafe-Hülle das normale Qi-Laden stören?**
+2. Kann eine MagSafe-Hülle das normale Qi-Laden stören?
 Ja und nein. Magnetische Hüllen, die für MagSafe optimiert sind, zwingen das iPhone zwar in die perfekte Position, können aber bei billigen, nicht-zertifizierten Qi-Ladepads zu Interferenzen führen. Wenn dein Pad blinkt, nimm die MagSafe-Hülle versuchsweise ab.
 
-**3. Mein Ladegerät blinkt abwechselnd rot und blau – ist es kaputt?**
+3. Mein Ladegerät blinkt abwechselnd rot und blau – ist es kaputt?
 Das ist in 90 % der Fälle der universelle Fehlercode für "Over-Voltage" (Überspannung) oder "Foreign Object Detection" (Fremdkörper erkannt). Trenne das Ladegerät für 10 Sekunden komplett vom Strom (Netzteil aus der Steckdose ziehen), damit sich der interne Mikrocontroller zurücksetzt. Meistens funktioniert es danach wieder einwandfrei.

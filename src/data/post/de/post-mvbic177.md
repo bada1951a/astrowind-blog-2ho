@@ -21,9 +21,9 @@ Es ist exakt 13:45 Uhr in unserem Büro im Münchner Werksviertel. In fünfzehn 
 
 Bevor man gleich den Schraubenzieher zückt oder das Gerät panisch einschickt, muss man verstehen, was beim Aufklappen im Inneren des Foldables eigentlich passiert. 
 
-1. **Das Flexkabel-Verschleiß-Dilemma:** Das flexible Ribbon-Kabel, das die Signale vom Mainboard zum Hauptdisplay leitet, wird bei jedem Aufklappen mechanisch beansprucht. Nach tausendfachem Falten kann es zu Mikrorissen oder einem Wackelkontakt kommen.
-2. **Der Hall-Sensor / Magnet-Fehler:** Im Scharnier sitzen winzige Magnetsensoren, die dem Betriebssystem mitteilen, ob das Gerät zugeklappt oder offen ist. Wenn sich dort Metallstaub angesammelt hat, denkt das Foldable fälschlicherweise, es sei noch zugeklappt, und schaltet das Hauptdisplay ab.
-3. **Software-Zustand und UI-Absturz:** Manchmal stürzt schlicht der zuständige Systemprozess ab, der für das nahtlose Umschalten (Continuity) zwischen Cover- und Hauptbildschirm verantwortlich ist.
+1. Das Flexkabel-Verschleiß-Dilemma: Das flexible Ribbon-Kabel, das die Signale vom Mainboard zum Hauptdisplay leitet, wird bei jedem Aufklappen mechanisch beansprucht. Nach tausendfachem Falten kann es zu Mikrorissen oder einem Wackelkontakt kommen.
+2. Der Hall-Sensor / Magnet-Fehler: Im Scharnier sitzen winzige Magnetsensoren, die dem Betriebssystem mitteilen, ob das Gerät zugeklappt oder offen ist. Wenn sich dort Metallstaub angesammelt hat, denkt das Foldable fälschlicherweise, es sei noch zugeklappt, und schaltet das Hauptdisplay ab.
+3. Software-Zustand und UI-Absturz: Manchmal stürzt schlicht der zuständige Systemprozess ab, der für das nahtlose Umschalten (Continuity) zwischen Cover- und Hauptbildschirm verantwortlich ist.
 
 ### Schritt-für-Schritt-Fehlerbehebung: Vom Workaround zur Rettung
 
@@ -43,13 +43,13 @@ Oft blockieren feinste Partikel aus der Hosentasche den Magnetmechanismus im Sch
 Manchmal funkt ein fehlerhaftes App-Update dazwischen, das den Dual-Screen-Modus blockiert.
 - Nutzen Sie das Außendisplay.
 - Halten Sie die Einschalttaste und die Leiser-Taste gedrückt, bis das Ausschalten-Menü erscheint.
-- Tippen und halten Sie auf dem Außendisplay das **Ausschalten**-Symbol, bis die Option **Abgesicherter Modus** erscheint.
+- Tippen und halten Sie auf dem Außendisplay das Ausschalten-Symbol, bis die Option Abgesicherter Modus erscheint.
 - Starten Sie das Gerät darin und klappen Sie es auf. Wenn das Innendisplay jetzt leuchtet, war es eine Drittanbieter-App.
 
 #### Schritt 3: Der erzwungene Hardware-Reset (Force Reboot)
 Wenn das System beim Umschalten eingefroren ist, hilft oft nur ein harten Neustart bei geöffnetem Zustand.
-- Klappen Sie das Smartphone **vollständig auf**.
-- Halten Sie die **Leiser-Taste** und die **Power-Taste** gleichzeitig für mindestens 10 bis 15 Sekunden gedrückt.
+- Klappen Sie das Smartphone vollständig auf.
+- Halten Sie die Leiser-Taste und die Power-Taste gleichzeitig für mindestens 10 bis 15 Sekunden gedrückt.
 - Warten Sie, bis das Samsung-Logo auf dem *Innendisplay* erscheint. Das zwingt den Grafiktreiber und den Scharnier-Sensor zu einem harten Re-Init.
 
 ### Experten-Rat und Vorbeugung
@@ -60,11 +60,11 @@ Wenn das System beim Umschalten eingefroren ist, hilft oft nur ein harten Neusta
 
 ### Häufig gestellte Fragen (FAQ)
 
-**1. Was kann ich tun, wenn das Innendisplay nach all diesen Schritten weiterhin schwarz bleibt?**
+1. Was kann ich tun, wenn das Innendisplay nach all diesen Schritten weiterhin schwarz bleibt?
 Wenn das Display auch im abgesicherten Modus und nach dem Hard Reset schwarz bleibt, aber das Außendisplay normal funktioniert, liegt zu 99 Prozent ein Hardwaredefekt vor (Kabelbruch im Scharnier oder defektes Panel). In diesem Fall hilft nur der Gang zum Service-Partner für einen Austausch des Flexkabels oder der Display-Einheit.
 
-**2. Verliere ich meine Daten, wenn ich das Galaxy Z Fold zur Reparatur gebe?**
+2. Verliere ich meine Daten, wenn ich das Galaxy Z Fold zur Reparatur gebe?
 Ja, in den meisten Werkstätten wird aus Datenschutzgründen ein kompletter Werksreset durchgeführt. Nutzen Sie daher sofort das Außendisplay, um via Smart Switch ein Backup auf einem PC oder in der Cloud zu erstellen, solange das Gerät noch hochfährt.
 
-**3. Deckt die Garantie den Black Screen of Death beim Aufklappen ab?**
+3. Deckt die Garantie den Black Screen of Death beim Aufklappen ab?
 Solange das Scharnier keine schweren Sturzschäden oder Dellen aufweist, die auf grobe Fahrlässigkeit hindeuten, fällt ein spontaner Ausfall des Flexkabels in der Regel unter die gesetzliche Gewährleistung oder die Herstellergarantie. Schildern Sie dem Support den Fehler präzise als "Display-Ausfall durch Scharnier-Sensorik".

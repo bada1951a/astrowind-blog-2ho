@@ -23,9 +23,9 @@ Na podglądzie dokumentu widać wielki, ciemny cień mojej własnej ręki, kartk
 
 Zanim zaczniesz kląć na swój drogi telefon, rzućmy okiem na to, dlaczego aparat w trybie automatycznym tak bardzo sobie z tym nie radzi. 
 
-1. **Cień rzucany przez ciało lub telefon:** Kiedy stoisz nad kartką leżącą na stoliku w pociągu albo w biurze, twój tułów lub sam smartfon zasłaniają główne źródło światła. Aparat widzi plamę zamiast tekstu.
-2. **Odblaski i błyski światła:** Polakierowany papier albo zwykłe biurkowe światło odbijają się prosto w obiektyw, tworząc białe, oślepiające plamy, przez które znikają całe wyrazy.
-3. **Brak wykrywania krawędzi:** Zwykła fota łapie też biurko, kubek z kawą i fragment siedzenia. System mobilnego faksu albo skanera gubi się, przez co zmniejsza rozdzielczość i kompresuje plik do nieczytelnej papki.
+1. Cień rzucany przez ciało lub telefon: Kiedy stoisz nad kartką leżącą na stoliku w pociągu albo w biurze, twój tułów lub sam smartfon zasłaniają główne źródło światła. Aparat widzi plamę zamiast tekstu.
+2. Odblaski i błyski światła: Polakierowany papier albo zwykłe biurkowe światło odbijają się prosto w obiektyw, tworząc białe, oślepiające plamy, przez które znikają całe wyrazy.
+3. Brak wykrywania krawędzi: Zwykła fota łapie też biurko, kubek z kawą i fragment siedzenia. System mobilnego faksu albo skanera gubi się, przez co zmniejsza rozdzielczość i kompresuje plik do nieczytelnej papki.
 
 ### Jak to szybko naprawić? Krok po kroku do idealnego skanu
 
@@ -38,32 +38,32 @@ Zamiast marnować nerwy i robić piętnaste zdjęcie z rzędu, zróbmy to raz a 
 • Krok 3: Szybkie wyczyszczenie cienia przed wysyłką
 </div>
 
-**Krok 1: Wykorzystaj wbudowany skaner w aparacie Samsunga**
-Nie ściągaj żadnych podejrzanych aplikacji z Google Play, które zaraz zasypią Cię reklamami. Otwórz zwykły **Aparat** w telefonie i skieruj go na dokument. Zauważ, że wokół kartki pojawi się żółta ramka z napisem **"Skanuj"**. To sztuczna inteligencja Samsunga, która sama wie, gdzie kończy się papier, a zaczyna stolik.
+Krok 1: Wykorzystaj wbudowany skaner w aparacie Samsunga
+Nie ściągaj żadnych podejrzanych aplikacji z Google Play, które zaraz zasypią Cię reklamami. Otwórz zwykły Aparat w telefonie i skieruj go na dokument. Zauważ, że wokół kartki pojawi się żółta ramka z napisem "Skanuj". To sztuczna inteligencja Samsunga, która sama wie, gdzie kończy się papier, a zaczyna stolik.
 
-**Krok 2: Kliknij "Skanuj" i dopasuj rogi**
+Krok 2: Kliknij "Skanuj" i dopasuj rogi
 Gdy klikniesz żółty przycisk skanowania, telefon sam wyprostuje dokument, nawet jeśli robiłeś zdjęcie pod kątem z fotela w pociągu. Jeśli rogi nie zaznaczyły się idealnie, po prostu przeciągnij palcem małe niebieskie kropki na rogach kartki. 
 
-**Krok 3: Usuń cienie i podbij kontrast**
+Krok 3: Usuń cienie i podbij kontrast
 Po zapisaniu skanu wejdź w edycję obrazu. Zamiast bawić się suwakami jasności, wybierz opcję czarno-białą lub tryb dokumentu wysokiego kontrastu. Automatycznie wytnie to wszystkie szare cienie od rąk czy słabego oświetlenia w wagonie, zostawiając idealnie białe tło i czarny, ostry jak brzytwa tekst. Teraz plik waży ułamek tego co zwykłe zdjęcie, a przechodzi przez każdy system faksowy w sekundę.
 
 ### Jak nie wpaść w ten sam szał następnym razem?
 
 Żeby taka sytuacja nie powtórzyła się przed kolejnym ważnym spotkaniem, trzymaj się trzech prostych zasad:
 
-- **Nigdy nie używaj lampy błyskowej (flasha) do dokumentów:** Lampa robiona z bliska tworzy gigantyczną, białą plamę na środku kartki. Lepiej włączyć latarkę w *innym*telefonie albo skorzystać z rozproszonego światła sufitowego.
-- **Trzymaj telefon równolegle:** Nawet najlepszy algorytm polegnie, jeśli zrobisz zdjęcie pod kątem 45 stopni. Staraj się trzymać obiektyw dokładnie nad środkiem kartki.
-- **Aktualizuj nakładkę systemową:** Funkcje wykrywania dokumentów w Samsungach są stale ulepszane z każdą aktualizacją One UI. Nie odkładaj instalacji nowych łatek bezpieczeństwa.
+- Nigdy nie używaj lampy błyskowej (flasha) do dokumentów: Lampa robiona z bliska tworzy gigantyczną, białą plamę na środku kartki. Lepiej włączyć latarkę w *innym*telefonie albo skorzystać z rozproszonego światła sufitowego.
+- Trzymaj telefon równolegle: Nawet najlepszy algorytm polegnie, jeśli zrobisz zdjęcie pod kątem 45 stopni. Staraj się trzymać obiektyw dokładnie nad środkiem kartki.
+- Aktualizuj nakładkę systemową: Funkcje wykrywania dokumentów w Samsungach są stale ulepszane z każdą aktualizacją One UI. Nie odkładaj instalacji nowych łatek bezpieczeństwa.
 
 ---
 
 ### Szybkie FAQ – Najczęstsze pytania
 
-**1. Czy mobilny faks w telefonie jest bezpieczny dla poufnych umów?**
+1. Czy mobilny faks w telefonie jest bezpieczny dla poufnych umów?
 Tak, o ile korzystasz ze sprawdzonych aplikacji operatorów lub wbudowanych narzędzi biznesowych, które szyfrują przesyłane pliki. Unikaj darmowych stron internetowych do wysyłania faksów, jeśli w treści masz wrażliwe dane firmowe.
 
-**2. Co zrobić, jeśli dokument jest na błyszczącym papierze kredowym i odbija światło?**
+2. Co zrobić, jeśli dokument jest na błyszczącym papierze kredowym i odbija światło?
 Zmień kąt nachylenia telefonu o kilka stopni w bok lub odejdź od bezpośredniego źródła mocnego światła (np. okna w pociągu). Aparat w trybie skanowania poradzi sobie z delikatnym skosem, bo sam wyprostuje perspektywę.
 
-**3. Czy mogę skanować wielostronicowe umowy za jednym razem?**
+3. Czy mogę skanować wielostronicowe umowy za jednym razem?
 Oczywiście. W trybie skanowania w aparacie Samsunga po zrobieniu zdjęcia pierwszej strony zobaczysz ikonę plusa (+) na dole ekranu. Pozwala ona dopisać kolejne strony do jednego pliku PDF, dzięki czemu wysyłasz kontrahentowi jeden spójny dokument, a nie kilkanaście osobnych fotek.

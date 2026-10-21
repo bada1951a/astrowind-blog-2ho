@@ -25,9 +25,9 @@ Kommt dir bekannt vor? Genau diesen Schockmoment im hektischen Büroalltag oder 
 
 Bevor wir die Einstellungen anpassen, müssen wir verstehen, warum das Galaxy-Handy bei Dokumenten manchmal ins Stolpern gerät. Es liegt fast nie an einer kaputten Kamera, sondern an diesen drei klassischen Ursachen:
 
-1. **Der "Eigen-Schatten" im ungünstigen Licht:** Wenn du direkt unter einer Zimmerlampe oder im hellen Deckenlicht des ICE stehst, wirft dein Arm oder das Smartphone selbst einen massiven Schatten auf das Papier. Die automatische Rauschunterdrückung des Galaxy versucht das auszugleichen und verschmiert dabei feine Buchstaben.
-2. **Falscher Fokusabstand und Krümmung:** Wer im Stress zu nah an das Dokument herangeht, erzeugt Weitwinkel-Verzerrungen. Die Ecken werden unscharf, und der Text wirkt wie durch eine Fischaugenglinse fotografiert.
-3. **Automatischer KI-Dokumenten-Modus überfordert:** Die integrierte Samsung-Kamera erkennt zwar meistens automatisch, wenn ein Dokument im Bild ist ("Dokument scannen"-Gelber Rahmen), aber bei schlechten Kontrastverhältnissen (z. B. graues Recyclingpapier auf dunklem Holz) schlägt der Weißabgleich fehl.
+1. Der "Eigen-Schatten" im ungünstigen Licht: Wenn du direkt unter einer Zimmerlampe oder im hellen Deckenlicht des ICE stehst, wirft dein Arm oder das Smartphone selbst einen massiven Schatten auf das Papier. Die automatische Rauschunterdrückung des Galaxy versucht das auszugleichen und verschmiert dabei feine Buchstaben.
+2. Falscher Fokusabstand und Krümmung: Wer im Stress zu nah an das Dokument herangeht, erzeugt Weitwinkel-Verzerrungen. Die Ecken werden unscharf, und der Text wirkt wie durch eine Fischaugenglinse fotografiert.
+3. Automatischer KI-Dokumenten-Modus überfordert: Die integrierte Samsung-Kamera erkennt zwar meistens automatisch, wenn ein Dokument im Bild ist ("Dokument scannen"-Gelber Rahmen), aber bei schlechten Kontrastverhältnissen (z. B. graues Recyclingpapier auf dunklem Holz) schlägt der Weißabgleich fehl.
 
 ---
 
@@ -36,18 +36,18 @@ Bevor wir die Einstellungen anpassen, müssen wir verstehen, warum das Galaxy-Ha
 Genug geärgert – so bringst du dein Galaxy dazu, Dokumente so sauber zu digitalisieren, als kämen sie direkt aus einem Profigerät. Wir nutzen dafür die bordeigenen Samsung-Funktionen, ganz ohne dubiose Drittanbieter-Apps aus dem Play Store.
 
 #### Schritt 1: Kamera-Optimierung aktivieren
-Öffne die Kamera-App auf deinem Galaxy und tippe oben links auf das Zahnrad-Symbol (**Einstellungen**).
-* Gehe zu **Intelligente Optimierung** (oder *Kamera-Assistent*, falls installiert).
-* Stelle sicher, dass **Dokumente und Texte scannen** aktiviert ist. Das hilft der KI, Kanten und Textstrukturen sofort zu priorisieren.
+Öffne die Kamera-App auf deinem Galaxy und tippe oben links auf das Zahnrad-Symbol (Einstellungen).
+* Gehe zu Intelligente Optimierung (oder *Kamera-Assistent*, falls installiert).
+* Stelle sicher, dass Dokumente und Texte scannen aktiviert ist. Das hilft der KI, Kanten und Textstrukturen sofort zu priorisieren.
 
 #### Schritt 2: Den perfekten Aufnahmewinkel wählen
 * Lege das Dokument auf eine möglichst matte, einfarbige Oberfläche (ein weißer Tisch oder ein Notizblock als Unterlage wirken Wunder).
-* Gehe etwa **30 bis 40 Zentimeter** weg und zoome bei Bedarf minimal (1.5x bis 2x) heran, anstatt mit der Linse nah heranzugehen. Dadurch verhinderst du Weitwinkel-Verzerrungen und verringerst deinen eigenen Schatten im Bild.
+* Gehe etwa 30 bis 40 Zentimeter weg und zoome bei Bedarf minimal (1.5x bis 2x) heran, anstatt mit der Linse nah heranzugehen. Dadurch verhinderst du Weitwinkel-Verzerrungen und verringerst deinen eigenen Schatten im Bild.
 
 #### Schritt 3: Der magische "Dokumenten-Modus"-Trick
 Wenn du das Dokument im Sucher hast, erscheint der gelbe Rahmen. Tippe einmal exakt auf den Text in der Mitte, um den Fokuspunkt zu fixieren, und passe die Helligkeit über den kleinen Schieberegler direkt neben dem Fokusring minimal nach unten an, falls das Papier überstrahlt. 
-* Tippe auf **Scannen**.
-* Nutze im Nachbearbeitungs-Bildschirm unbedingt den Filter **"S/W-Optimierung"** oder **"Magischer Farbton"**. Das entfernt graue Schatten im Hintergrund komplett und verwandelt den Hintergrund in ein absolut reines, blendendes Weiß.
+* Tippe auf Scannen.
+* Nutze im Nachbearbeitungs-Bildschirm unbedingt den Filter "S/W-Optimierung" oder "Magischer Farbton". Das entfernt graue Schatten im Hintergrund komplett und verwandelt den Hintergrund in ein absolut reines, blendendes Weiß.
 
 #### Schritt 4: Über die offizielle Fax-App oder den Web-Dienst senden
 Da das Galaxy von Haus aus kein klassisches analoges Faxkabel besitzt, nutzen wir mobile Fax-Dienste (wie *Simple Fax* oder angebundene Web-Portale im Browser). 
@@ -62,11 +62,11 @@ Da das Galaxy von Haus aus kein klassisches analoges Faxkabel besitzt, nutzen wi
 
 ### Häufig gestellte Fragen (FAQ)
 
-**F: Warum speichert mein Galaxy den Scan manchmal automatisch ab, ohne dass ich nachbearbeiten kann?**
+F: Warum speichert mein Galaxy den Scan manchmal automatisch ab, ohne dass ich nachbearbeiten kann?
 A: In den Kamera-Einstellungen gibt es die Option "Dokumente und Texte scannen". Wenn dort die Auto-Speicherung aktiv ist, knipst das Handy sofort los. Du kannst diesen automatischen Modus ausschalten oder nach der Aufnahme einfach unten auf das Vorschaubild tippen, um die Ecken des Dokuments manuell mit den blauen Anfassern zurechtzuziehen.
 
-**F: Das Fax kommt beim Kunden unleserlich an – die Linien sind zu dünn. Was tun?**
-A: Das liegt oft am automatischen Schwarz-Weiß-Filter, der helle Stifte oder feine Bleistiftunterschriften komplett verschluckt. Verwende beim nächsten Mal den Filter **"Schatten entfernen"** anstelle von reinem Schwarz-Weiß. Das erhält Graustufen, lässt aber den Hintergrund strahlend sauber.
+F: Das Fax kommt beim Kunden unleserlich an – die Linien sind zu dünn. Was tun?
+A: Das liegt oft am automatischen Schwarz-Weiß-Filter, der helle Stifte oder feine Bleistiftunterschriften komplett verschluckt. Verwende beim nächsten Mal den Filter "Schatten entfernen" anstelle von reinem Schwarz-Weiß. Das erhält Graustufen, lässt aber den Hintergrund strahlend sauber.
 
-**F: Kann ich mehrere Seiten zu *einem* einzigen PDF-Fax zusammenfassen?**
-A: Absolut! Wenn du in der Samsung Kamera-App bist und das erste Dokument gescannt hast, tippe auf das Plus-Symbol (**Hinzufügen**) unten im Vorschaubild. Du kannst nacheinander fünf, zehn oder zwanzig Seiten fotografieren und sie am Ende als *eine* zusammenhängende PDF-Datei exportieren und versenden.
+F: Kann ich mehrere Seiten zu *einem* einzigen PDF-Fax zusammenfassen?
+A: Absolut! Wenn du in der Samsung Kamera-App bist und das erste Dokument gescannt hast, tippe auf das Plus-Symbol (Hinzufügen) unten im Vorschaubild. Du kannst nacheinander fünf, zehn oder zwanzig Seiten fotografieren und sie am Ende als *eine* zusammenhängende PDF-Datei exportieren und versenden.

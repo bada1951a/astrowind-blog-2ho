@@ -20,9 +20,9 @@ Se você já passou por isso, sabe o ódio que dá. O celular avisa que vai carr
 
 Antes de sair trocando o carregador ou abrindo o aparelho, a gente precisa entender o que está rolando ali dentro. Na prática do dia a dia, 90% dos casos de carregamento sem fio intermitente se resumem a três vilões principais:
 
-1. **Desalinhamento Crítico entre as Bobinas de Indução:** A carga sem fio funciona por campo magnético. A bobina transmissora (no pad ou dock) precisa casar perfeitamente com a bobina receptora (costas do celular). Se o aparelho estiver 1 centímetro pro lado, ou inclinado por causa da capinha, o campo dispersa, o circuito entende que há um objeto estranho (FOD - Foreign Object Detection) e começa a piscar em alerta.
-2. **Capinhas Grossas ou com Metais/Imãs Embutidos:** Aquela capinha personalizada cheia de strass, anel metálico para suporte (tipo PopSocket magnético) ou simplesmente muito grossa age como uma barreira física. O campo eletromagnético não consegue vencer a espessura ou sofre interferência do metal, gerando falha de comunicação e o famoso piscar frenético.
-3. **Fonte de Alimentação Fraca (Wall Charger Inadequado):** Muita gente compra a base de indução bonita, mas liga ela numa entradinha USB velha de computador ou num carregador de parede antigo de 5W. O carregamento sem fio consome *mais* energia que o cabo para fazer a conversão. Se falta amperagem na fonte, o dock desarma na hora que o celular puxa corrente.
+1. Desalinhamento Crítico entre as Bobinas de Indução: A carga sem fio funciona por campo magnético. A bobina transmissora (no pad ou dock) precisa casar perfeitamente com a bobina receptora (costas do celular). Se o aparelho estiver 1 centímetro pro lado, ou inclinado por causa da capinha, o campo dispersa, o circuito entende que há um objeto estranho (FOD - Foreign Object Detection) e começa a piscar em alerta.
+2. Capinhas Grossas ou com Metais/Imãs Embutidos: Aquela capinha personalizada cheia de strass, anel metálico para suporte (tipo PopSocket magnético) ou simplesmente muito grossa age como uma barreira física. O campo eletromagnético não consegue vencer a espessura ou sofre interferência do metal, gerando falha de comunicação e o famoso piscar frenético.
+3. Fonte de Alimentação Fraca (Wall Charger Inadequado): Muita gente compra a base de indução bonita, mas liga ela numa entradinha USB velha de computador ou num carregador de parede antigo de 5W. O carregamento sem fio consome *mais* energia que o cabo para fazer a conversão. Se falta amperagem na fonte, o dock desarma na hora que o celular puxa corrente.
 
 ---
 
@@ -39,7 +39,7 @@ Desconecte o cabo USB que alimenta a base de indução e ligue-o em um carregado
 
 #### Passo 3: Resolvendo o Conector Emperrado (O Bônus do Cliente)
 No caso do nosso executivo aqui em São Paulo, o conector USB-C estava tão entupido de sujeira compactada que o cabo não encaixava até o fim. 
-* Com o celular **desligado**, pegue uma agulha de aço bem fina ou uma espátula microscópica. 
+* Com o celular desligado, pegue uma agulha de aço bem fina ou uma espátula microscópica. 
 * Raspe com extremo cuidado as paredes internas do conector, puxando os bolinhos de poeira para fora. Você vai se impressionar com a quantidade de carpete de bolso que sai dali.
 * Dê um jato de limpa-contatos isopropílico e escove levemente com uma escova antiestática. Pronto, o conector volta a estalar macio quando você pluga o cabo.
 
@@ -49,19 +49,19 @@ No caso do nosso executivo aqui em São Paulo, o conector USB-C estava tão entu
 
 Trabalhar com hardware móvel exige respeito à integridade do componente. Anota essas recomendações de bancada:
 
-* **Cuidado com o aquecimento:** O carregamento por indução gera calor residual naturalmente. Se a base estiver piscando e você insistir em deixar o celular lá, o circuito térmico do aparelho vai fritar a bateria a longo prazo. Bateria estufada começa exatamente por ciclos ruins de calor excessivo na indução.
-* **Nada de metais na traseira:** Nunca deixe moedas, chaves ou cartões com chip/aproximação entre o celular e a base sem fio. Além de estragar o cartão por causa do campo magnético, o sistema de segurança do carregador vai disparar o alerta piscando para evitar curto-circuito.
-* **Higiene do conector:** Ao limpar o conector emperrado, **nunca** use objetos energizados ou metálicos grossos que possam fechar curto nos micro-pinos de dados e carga dentro da porta USB-C/Lightning.
+* Cuidado com o aquecimento: O carregamento por indução gera calor residual naturalmente. Se a base estiver piscando e você insistir em deixar o celular lá, o circuito térmico do aparelho vai fritar a bateria a longo prazo. Bateria estufada começa exatamente por ciclos ruins de calor excessivo na indução.
+* Nada de metais na traseira: Nunca deixe moedas, chaves ou cartões com chip/aproximação entre o celular e a base sem fio. Além de estragar o cartão por causa do campo magnético, o sistema de segurança do carregador vai disparar o alerta piscando para evitar curto-circuito.
+* Higiene do conector: Ao limpar o conector emperrado, nunca use objetos energizados ou metálicos grossos que possam fechar curto nos micro-pinos de dados e carga dentro da porta USB-C/Lightning.
 
 ---
 
 ### Perguntas Frequentes (FAQs)
 
-**1. Por que meu celular carrega por alguns minutos na indução e depois começa a piscar?**
+1. Por que meu celular carrega por alguns minutos na indução e depois começa a piscar?
 Isso geralmente acontece por superaquecimento. O sistema de proteção do telefone detecta que a temperatura da bateria subiu demais devido à eficiência perdida no alinhamento das bobinas e corta a carga, fazendo a luz do carregador piscar para indicar erro.
 
-**2. Posso usar qualquer capinha com o carregador sem fio?**
+2. Posso usar qualquer capinha com o carregador sem fio?
 Não. Capas com mais de 3mm de espessura, capas blindadas anti-impacto com dupla camada ou aquelas que possuem placas de metal para suportes veiculares magnéticos impedem totalmente a indução eletromagnética. Use capas específicas para *Wireless Charging*.
 
-**3. Se o conector USB-C estiver emperrado ou quebrado, isso afeta a carga sem fio?**
+3. Se o conector USB-C estiver emperrado ou quebrado, isso afeta a carga sem fio?
 Diretamente, não, pois o circuito de indução é separado da porta física. Porém, se houver um curto-circuito interno nos pinos do conector danificado (por oxidação ou sujeira condutiva), o PMIC (gerenciador de energia) do celular pode entrar em proteção geral e bloquear *qualquer* tipo de carga, seja por cabo ou por indução.

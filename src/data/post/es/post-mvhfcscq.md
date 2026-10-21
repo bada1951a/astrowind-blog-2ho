@@ -23,9 +23,9 @@ Vamos a limpiar el terreno, alargar la vida util de tu terminal el doble y enten
 
 Para solucionar un problema, primero hay que entender al enemigo. En la gran mayoria de los terminales Samsung que entran por la puerta de nuestro taller con sintomas de fiebre y extenuacion rapida, encontramos tres culpables habituales:
 
-- **Apps en bucle infinito:** Aplicaciones de redes sociales o mensajeria que se quedan atascadas intentando sincronizar datos en segundo plano, manteniendo el procesador (SoC) trabajando al 100% incluso con la pantalla apagada.
-- **Falsa averia de puerto de carga:** Acumulacion de pelusa y polvo compactado en el conector USB-C. Esto genera microcortes que confunden al circuito de carga (IC de carga), haciendo que el movil gestione mal la energia y disipe calor extra.
-- **Servicios de localizacion desbocados:** Aplicaciones de terceros consultando el GPS quinientas veces por hora sin que lo sepas, lo que dispara la temperatura del chasis de forma alarmante.
+- Apps en bucle infinito: Aplicaciones de redes sociales o mensajeria que se quedan atascadas intentando sincronizar datos en segundo plano, manteniendo el procesador (SoC) trabajando al 100% incluso con la pantalla apagada.
+- Falsa averia de puerto de carga: Acumulacion de pelusa y polvo compactado en el conector USB-C. Esto genera microcortes que confunden al circuito de carga (IC de carga), haciendo que el movil gestione mal la energia y disipe calor extra.
+- Servicios de localizacion desbocados: Aplicaciones de terceros consultando el GPS quinientas veces por hora sin que lo sepas, lo que dispara la temperatura del chasis de forma alarmante.
 
 ## Paso a Paso: Como diagnosticar y sanar tu movil
 
@@ -39,7 +39,7 @@ No te fies solo de la percepcion. Ve a Ajustes, luego entra en Bateria y pulsa s
 ![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhfe295-5-b/1000/550.jpg)
 
 ### 2. Suspension profunda de aplicaciones rebeldes
-Cuando identifiques al culpable, selecciona la aplicacion y cambia su configuracion de bateria a **Suspension profunda**. Esto evita radicalmente que se ejecute a escondidas cuando cierras la ventana. Es mano de santo para recuperar autonomia de inmediato.
+Cuando identifiques al culpable, selecciona la aplicacion y cambia su configuracion de bateria a Suspension profunda. Esto evita radicalmente que se ejecute a escondidas cuando cierras la ventana. Es mano de santo para recuperar autonomia de inmediato.
 
 ### 3. Limpieza segura del puerto de carga
 Apaga completamente el terminal. Toma un palillo de madera de los de toda la vida (nunca alfileres de metal ni agujas que puedan hacer un corto en los pines internos) y extrae con extrema delicadeza lospelillos compactados en el fondo del puerto USB-C. Te sorprenderá la cantidad de pelusa que acumula un movil que se lleva en el bolsillo del pantalon.
@@ -50,11 +50,11 @@ Apaga completamente el terminal. Toma un palillo de madera de los de toda la vid
 
 ## Preguntas Frecuentes (FAQ)
 
-**¿Es normal que mi Samsung Galaxy se caliente mientras lo cargo?**
+¿Es normal que mi Samsung Galaxy se caliente mientras lo cargo?
 Es normal notar una tibieza moderada, especialmente si usas carga rapida de 25W o superior y estas usando el movil a la vez. Sin embargo, si quema al tocarlo o salta una advertencia de temperatura en pantalla, debes desconectarlo de inmediato.
 
-**¿De verdad una aplicacion puede hacer que el puerto falle al cargar?**
+¿De verdad una aplicacion puede hacer que el puerto falle al cargar?
 Directamente no rompe el puerto, pero si el movil esta sobrecalentado debido a un proceso en segundo plano descontrolado, el sistema de proteccion termica de Samsung reduce o corta de forma intermitente la corriente de entrada para evitar daños mayores en la bateria.
 
-**¿Cada cuanto tiempo debo limpiar el conector USB-C de mi smartphone?**
+¿Cada cuanto tiempo debo limpiar el conector USB-C de mi smartphone?
 Recomiendo hacer una revision visual y limpieza suave con un palillo de madera cada 3 o 4 meses, especialmente si trabajas en entornos con polvo o sueles llevar el telefono en bolsillos con pelusas.

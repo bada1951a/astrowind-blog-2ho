@@ -26,16 +26,16 @@ Het is woensdagochtend, kwart voor negen. Je staat midden op de Zuidas in Amster
 
 Veel smartphone-gebruikers denken direct dat hun batterij plotseling fysiek kapot is gegaan. Technisch gezien zit het anders. Hier zijn de drie hoofdreden waarom je iPhone zo snel leegloopt:
 
-1. **Achtergrondindexering (Spotlight & Foto's):** Na een update herbouwt iOS de complete database van je toestel. Foto's worden opnieuw gescand op gezichten en objecten, en alle apps worden opnieuw geïndexeerd. Dit vreet CPU-kracht en slurpt energie. Dit proces duurt doorgaans 24 tot 48 uur na installatie.
-2. **App-incompatibiliteit:** Niet elke app-ontwikkelaar is klaar voor de nieuwste iOS-versie. Oude apps blijven soms hangen in een oneindige lus (crash-loop) op de achtergrond, waardoor je processor continu op volle toeren draait.
-3. **Firmware-kalibratie:** Soms moet het batterijbeheersysteem (PMIC) opnieuw wennen aan de nieuwe software-instructies, waardoor het percentage onnauwkeurig wordt weergegeven en de accu sneller lijkt te ontladen.
+1. Achtergrondindexering (Spotlight & Foto's): Na een update herbouwt iOS de complete database van je toestel. Foto's worden opnieuw gescand op gezichten en objecten, en alle apps worden opnieuw geïndexeerd. Dit vreet CPU-kracht en slurpt energie. Dit proces duurt doorgaans 24 tot 48 uur na installatie.
+2. App-incompatibiliteit: Niet elke app-ontwikkelaar is klaar voor de nieuwste iOS-versie. Oude apps blijven soms hangen in een oneindige lus (crash-loop) op de achtergrond, waardoor je processor continu op volle toeren draait.
+3. Firmware-kalibratie: Soms moet het batterijbeheersysteem (PMIC) opnieuw wennen aan de nieuwe software-instructies, waardoor het percentage onnauwkeurig wordt weergegeven en de accu sneller lijkt te ontladen.
 
 ## Veelgemaakte blunders die je moet vermijden
 
 Voordat we naar de praktische oplossingen gaan, wil ik je waarschuwen voor een aantal gevaarlijke acties die ik hier in de werkplaats te vaak zie:
 
-* **Aggressief koelen:** Sommige mensen leggen hun kokhete iPhone in de koelkast of vriezer om 'm af te koelen. Doe dit nooit! Door de plotselinge temperatuursverandering ontstaat er condenswater ín je toestel, wat directe kortsluiting op het moederbord veroorzaakt.
-* **Goedkope snellaadblokjes:** Het gebruik van inferieure, niet-gecertificeerde laders tijdens een periode waarin je iPhone al hard aan het werk is met achtergrondtaken, zorgt voor extreme warmteontwikkeling en beschadigt de accucellen permanent.
+* Aggressief koelen: Sommige mensen leggen hun kokhete iPhone in de koelkast of vriezer om 'm af te koelen. Doe dit nooit! Door de plotselinge temperatuursverandering ontstaat er condenswater ín je toestel, wat directe kortsluiting op het moederbord veroorzaakt.
+* Goedkope snellaadblokjes: Het gebruik van inferieure, niet-gecertificeerde laders tijdens een periode waarin je iPhone al hard aan het werk is met achtergrondtaken, zorgt voor extreme warmteontwikkeling en beschadigt de accucellen permanent.
 
 ---
 
@@ -45,31 +45,31 @@ Volg deze praktische, veilige stappen om je iPhone weer stabiel te krijgen:
 
 ### Stap 1: Geef het toestel tijd om te stabiliseren (en forceer een herstart)
 Als je de update minder dan twee dagen geleden hebt geïnstalleerd, leg de telefoon dan 's nachts aan de oplader met wifi ingeschakeld. Zo kan het indexeren ongestoord klaar zijn. Blijft het probleem aanhouden? Voer dan een harde reset uit (Force Restart) om vastgelopen achtergrondprocessen te killen:
-* Druk kort op **Volume Omhoog**.
-* Druk kort op **Volume Omlaag**.
-* Houd de **Aan/Uit-knop (Zijknop)** ingedrukt tot het Apple-logo verschijnt.
+* Druk kort op Volume Omhoog.
+* Druk kort op Volume Omlaag.
+* Houd de Aan/Uit-knop (Zijknop) ingedrukt tot het Apple-logo verschijnt.
 
 ### Stap 2: Controleer batterijgebruik per app
 Duik in je instellingen om de echte energievreters op te sporen:
-* Ga naar **Instellingen** > **Batterij**.
+* Ga naar Instellingen > Batterij.
 * Scroll naar beneden en bekijk het overzicht per app (tik op 'Toon activiteit' om uren te zien).
 * Zie je een app die nauwelijks gebruikt is, maar wel 40% van de batterij heeft verbruikt? Verwijder deze app direct en installeer eventueel de nieuwste versie vanuit de App Store.
 
 ### Stap 3: Schakel tijdelijke energieslurpers uit
 Om de accu te ontlasten tijdens de kritieke fase, kun je een paar zware functies tijdelijk uitschakelen:
-* **Achtergrond app-vernieuwing:** Ga naar *Algemeen > Achtergrond app-vernieuwing* en zet deze tijdelijk uit.
-* **Locatievoorzieningen:** Zet deze voor niet-essentiële apps op *Tijdens gebruik* of *Nooit*.
-* **Widgets:** Verwijder drukke widgets van je beginscherm die constant data verversen (zoals het weer of nieuwsfeeds).
+* Achtergrond app-vernieuwing: Ga naar *Algemeen > Achtergrond app-vernieuwing* en zet deze tijdelijk uit.
+* Locatievoorzieningen: Zet deze voor niet-essentiële apps op *Tijdens gebruik* of *Nooit*.
+* Widgets: Verwijder drukke widgets van je beginscherm die constant data verversen (zoals het weer of nieuwsfeeds).
 
 ---
 
 ## Veelgestelde vragen (FAQ)
 
-**Q1: Moet ik mijn iPhone direct laten repareren als de batterijconditie onder de 80% zakt na een update?**
+Q1: Moet ik mijn iPhone direct laten repareren als de batterijconditie onder de 80% zakt na een update?
 *Nee, niet direct. Een update kan een vertekend beeld geven van je batterijgezondheid doordat de software opnieuw kalibreert. Wacht minimaal een week na de update en kijk of de conditiepercentage in de instellingen stabiliseert.*
 
-**Q2: Helpt het om mijn iPhone volledig leeg te laten lopen en daarna weer tot 100% op te laden?**
+Q2: Helpt het om mijn iPhone volledig leeg te laten lopen en daarna weer tot 100% op te laden?
 *Bij moderne lithium-ion accu's heeft dit geen zin en is het zelfs schadelijk. Diep ontladen belast de accucellen onnodig. Het is beter om de accu tussen de 20% en 80% te houden voor een maximale levensduur.*
 
-**Q3: Kan een downgrade naar de vorige iOS-versie mijn batterijprobleem oplossen?**
+Q3: Kan een downgrade naar de vorige iOS-versie mijn batterijprobleem oplossen?
 *In theory wel, maar Apple stopt al snel met het ondertekenen (signing) van oudere iOS-versies. Dit betekent dat een officiële downgrade vaak onmogelijk is zonder technische risico's. Beter is het om te wachten op een snelle 'bug-fix' update van Apple.*

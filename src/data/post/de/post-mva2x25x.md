@@ -30,10 +30,10 @@ Vergesst langes Warten, bis der Akku leer ist. Da der normale Ausschalt-Weg vers
 
 #### Schritt-für-Schritt-Anleitung für moderne iPhones (iPhone 8, X, 11, 12, 13, 14, 15 und neuer):
 
-1. Drückt kurz die **Lauter-Taste** (Volume Up) und lasst sie sofort wieder los.
-2. Drückt kurz die **Leiser-Taste** (Volume Down) und lasst sie sofort wieder los.
-3. Haltet nun die **Seitliche Taste** (Power-Button / Standby-Taste) auf der rechten Seite dauerhaft gedrückt.
-4. Ignoriert den eventuell erscheinenden Ausschalt-Schieberegler und haltet die Taste weiter gedrückt, **bis der Bildschirm schwarz wird** und schließlich das **Apple-Logo** wieder erscheint. Das kann bis zu 10 Sekunden dauern.
+1. Drückt kurz die Lauter-Taste (Volume Up) und lasst sie sofort wieder los.
+2. Drückt kurz die Leiser-Taste (Volume Down) und lasst sie sofort wieder los.
+3. Haltet nun die Seitliche Taste (Power-Button / Standby-Taste) auf der rechten Seite dauerhaft gedrückt.
+4. Ignoriert den eventuell erscheinenden Ausschalt-Schieberegler und haltet die Taste weiter gedrückt, bis der Bildschirm schwarz wird und schließlich das Apple-Logo wieder erscheint. Das kann bis zu 10 Sekunden dauern.
 5. Lasst die Taste los, sobald das Logo da ist. Das iPhone bootet neu, und der Touchscreen funktioniert im Regelfall sofort wieder.
 
 <div style="border-left: 4px solid #64748b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -44,17 +44,17 @@ Vergesst langes Warten, bis der Akku leer ist. Da der normale Ausschalt-Weg vers
 
 ### Experten-Tipps für die Zukunft
 
-Ein einmaliger Absturz passiert. Wenn das iPhone jedoch wöchentlich einfriert, solltet ihr tiefer graben. Überprüft unter **Einstellungen > Batterie > Batteriezustand**, ob die maximale Kapazität stark gesunken ist. Ältere Akkus, die unter Last kurzzeitig nicht mehr genug Spannung liefern, zwingen das iPhone oft in einen Not-Stopp. 
+Ein einmaliger Absturz passiert. Wenn das iPhone jedoch wöchentlich einfriert, solltet ihr tiefer graben. Überprüft unter Einstellungen > Batterie > Batteriezustand, ob die maximale Kapazität stark gesunken ist. Ältere Akkus, die unter Last kurzzeitig nicht mehr genug Spannung liefern, zwingen das iPhone oft in einen Not-Stopp. 
 
 Außerdem solltet ihr immer mindestens 10 GB Speicherplatz frei halten. iOS benötigt diesen Puffer für temporäre Swap-Dateien. Ist der Speicher komplett voll, sind Display-Freezes vorprogrammiert.
 
 ### Häufig gestellte Fragen (FAQ)
 
-**1. Verliere ich meine ungespeicherten Daten, wenn ich einen erzwingenden Neustart mache?**
+1. Verliere ich meine ungespeicherten Daten, wenn ich einen erzwingenden Neustart mache?
 Nein. Ein Hard Reset entspricht dem harten Ausschalten eines Computers. Dokumente in Apps wie Notizen oder Office-Anwendungen, die die automatische Speicherfunktion nutzen, bleiben erhalten. Bereits in einer App getippter, aber noch nicht zwischengespeicherter Text kann jedoch verloren gehen.
 
-**2. Was mache ich, wenn das Apple-Logo nach dem Hard Reset hängen bleibt (Bootloop)?**
+2. Was mache ich, wenn das Apple-Logo nach dem Hard Reset hängen bleibt (Bootloop)?
 Wenn das iPhone beim Startlogo stecken bleibt, steckt ein schwerwiegenderer Systemfehler vor. Schließt das Gerät per USB-Kabel an einen Mac oder Windows-PC mit iTunes an und versetzt es in den Wiederherstellungsmodus (Recovery Mode), um iOS über den Finder oder iTunes zu aktualisieren oder wiederherzustellen.
 
-**3. Mein Display reagiert nach dem Neustart an einer bestimmten Stelle immer noch nicht. Was nun?**
+3. Mein Display reagiert nach dem Neustart an einer bestimmten Stelle immer noch nicht. Was nun?
 Wenn nur ein bestimmter Bereich des Touchscreens stumm bleibt, handelt es sich meist um einen Hardware-Schaden (z.B. nach einem Sturz) oder eine defekte Schutzfolie. Entfernt testhalber Panzerglas oder Schutzfolien und prüft, ob Schmutz am Rahmen sitzt.

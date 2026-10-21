@@ -21,9 +21,9 @@ Eran las 17:45 en nuestra oficina en Madrid. Faltaban apenas quince minutos para
 
 Tras calmarme un poco y rescatar el informe usando la nube corporativa de emergencia, me puse mi sombrero de técnico de soporte para analizar qué estaba pasando realmente en el hardware. No siempre se debe a que el teléfono se haya caído a la piscina; los motivos cotidianos suelen ser más sutiles:
 
-1. **Condensación ambiental y sudor:** El contraste térmico entre la calle fría de Madrid y la calefacción de la oficina genera humedad dentro del conector.
-2. **Residuos de pelusa combinados con humedad:** El bolsillo del pantalón es una trampa mortal de polvo. Si entra una gota mínima, la pelusa actúa como una esponja, manteniendo la humedad activa durante horas.
-3. **Falsos positivos del sensor de pines:** A veces, una acumulación de suciedad metálica o corrosión leve engaña al circuito de detección de resistencia eléctrica del puerto.
+1. Condensación ambiental y sudor: El contraste térmico entre la calle fría de Madrid y la calefacción de la oficina genera humedad dentro del conector.
+2. Residuos de pelusa combinados con humedad: El bolsillo del pantalón es una trampa mortal de polvo. Si entra una gota mínima, la pelusa actúa como una esponja, manteniendo la humedad activa durante horas.
+3. Falsos positivos del sensor de pines: A veces, una acumulación de suciedad metálica o corrosión leve engaña al circuito de detección de resistencia eléctrica del puerto.
 
 ## Pasos seguros para solucionar el problema (Sin dañar el puerto)
 
@@ -48,11 +48,11 @@ Si necesitas rescatar datos urgentemente y estás seguro de que el puerto está 
 
 ## Preguntas frecuentes (FAQ)
 
-**¿Es seguro usar el puerto si la alerta desaparece y vuelve a aparecer?**
+¿Es seguro usar el puerto si la alerta desaparece y vuelve a aparecer?
 No del todo. Si el aviso parpadea, significa que aún queda humedad residual en los pines de datos. Forzar la conexión en este estado puede provocar corrosión galvánica (sulfatación), arruinando el puerto permanentemente.
 
-**¿Cuánto tiempo debo esperar antes de volver a cargar el móvil por cable?**
+¿Cuánto tiempo debo esperar antes de volver a cargar el móvil por cable?
 Como regla general de soporte técnico, se recomiendan al menos entre 2 y 5 horas en un ambiente seco y ventilado. Si el entorno es muy húmedo, este tiempo puede extenderse hasta las 24 horas.
 
-**¿Cubre la garantía un fallo en el conector por líquido?**
+¿Cubre la garantía un fallo en el conector por líquido?
 Depende de la marca. Los terminales actuales cuentan con sensores LSI (Liquid Contact Indicator) de color rojo en su interior. Si el soporte técnico detecta corrosión por líquidos, la reparación suele quedar fuera de la garantía estándar, de ahí la importancia de actuar con precaución.

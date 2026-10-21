@@ -32,7 +32,7 @@ Si estás atrapado en una situación crítica, olvídate de los mitos de la abue
 
 #### Paso 1: Forzar el reinicio del sistema de control de energía
 A veces el sensor se queda bloqueado digitalmente. Necesitamos un reinicio forzoso para limpiar la lectura errónea en la controladora PMIC.
-* Mantén presionados simultáneamente el **Botón de Encendido (Lateral)** y el **Bajar Volumen** durante más de 10 segundos.
+* Mantén presionados simultáneamente el Botón de Encendido (Lateral) y el Bajar Volumen durante más de 10 segundos.
 * Espera a que aparezca el logotipo de Samsung y suelta.
 
 #### Paso 2: Limpieza física del puerto sin dañar los pines
@@ -40,10 +40,10 @@ Apaga el dispositivo por completo. Consigue un palillo de madera (nunca metal) y
 
 #### Paso 3: Restablecer los datos del servicio USB (Caché del sistema)
 Si el hardware está seco pero el aviso persiste, el problema es software puro. 
-1. Ve a **Ajustes > Aplicaciones**.
-2. Toca el menú de ordenar y activa **"Mostrar aplicaciones del sistema"**.
-3. Busca **"USBSettings"** o **"Configuración USB"**.
-4. Entra en **Almacenamiento** y presiona **Borrar caché** y **Borrar datos**.
+1. Ve a Ajustes > Aplicaciones.
+2. Toca el menú de ordenar y activa "Mostrar aplicaciones del sistema".
+3. Busca "USBSettings" o "Configuración USB".
+4. Entra en Almacenamiento y presiona Borrar caché y Borrar datos.
 5. Reinicia el móvil inmediatamente después.
 
 <div style="border-left: 4px solid #bd93f9; padding: 12px 16px; margin: 20px 0; background-color: rgba(189, 147, 249, 0.05); border-radius: 4px;">
@@ -55,19 +55,19 @@ Si una app de terceros está interfiriendo con los permisos del puerto, mantén 
 
 ### Advertencias de experto para evitar daños fatales
 
-* **Cero secador de pelo caliente:** El calor excesivo de un secador de cabello de casa deforma los sellos de goma internos y el pegamento de la pantalla plegable del Fold, arruinando la certificación IP de resistencia al agua. Si usas aire, que sea completamente frío.
-* **Cuidado con la carga inalámbrica de emergencia:** Si el puerto sigue bloqueado y necesitas batería urgentemente para salir del paso, usa una base de carga inalámbrica Qi. Salva la patria sin forzar el paso de corriente por pines húmedos que puedan sulfatarse.
-* **No desactives las alertas vía ADB a lo loco:** Hay tutoriales en foros oscuros que te enseñan a desactivar la comprobación de humedad por comandos de consola. No lo hagas; si hay agua real y metes 25W de potencia, vas a freír la placa madre y perderás toda la información del trabajo.
+* Cero secador de pelo caliente: El calor excesivo de un secador de cabello de casa deforma los sellos de goma internos y el pegamento de la pantalla plegable del Fold, arruinando la certificación IP de resistencia al agua. Si usas aire, que sea completamente frío.
+* Cuidado con la carga inalámbrica de emergencia: Si el puerto sigue bloqueado y necesitas batería urgentemente para salir del paso, usa una base de carga inalámbrica Qi. Salva la patria sin forzar el paso de corriente por pines húmedos que puedan sulfatarse.
+* No desactives las alertas vía ADB a lo loco: Hay tutoriales en foros oscuros que te enseñan a desactivar la comprobación de humedad por comandos de consola. No lo hagas; si hay agua real y metes 25W de potencia, vas a freír la placa madre y perderás toda la información del trabajo.
 
 ---
 
 ### Preguntas Frecuentes (FAQ)
 
-**1. ¿Puedo usar el teléfono si la advertencia aparece pero carga de forma intermitente?**
+1. ¿Puedo usar el teléfono si la advertencia aparece pero carga de forma intermitente?
 Es una pésima idea. Si carga de forma intermitente significa que hay un puente de resistencia inestable (probablemente líquido mezclado con suciedad). Esto genera picos de voltaje que pueden dañar el circuito integrado de carga (IC de carga) de la placa principal.
 
-**2. ¿Qué hago si ya limpié y sequé el puerto, pero la notificación no desaparece ni con un hard reset?**
+2. ¿Qué hago si ya limpié y sequé el puerto, pero la notificación no desaparece ni con un hard reset?
 Es muy probable que los pines del conector USB-C se hayan corrosionado internamente o que el flex de carga haya sufrido un daño por humedad residual. Debes acudir a un centro de servicio técnico autorizado para un ultrasonido de placa y reemplazo del módulo de puerto.
 
-**3. ¿La garantía cubre fallas por detección de humedad falsa?**
+3. ¿La garantía cubre fallas por detección de humedad falsa?
 Depende de la inspección visual del técnico. Si los indicadores LDI (Liquid Damage Indicator) ubicados dentro del puerto o en la bandeja SIM cambiaron de color (pasaron de blanco a rosa/rojo), Samsung podría invalidar la garantía por daño accidental por líquidos, aunque el puerto solo haya fallado por condensación ambiental. Por eso es vital una limpieza ultrasónica previa si el teléfono nunca se sumergió en agua.
