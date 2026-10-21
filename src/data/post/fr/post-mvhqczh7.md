@@ -1,7 +1,7 @@
 ---
 title: "Batterie iPhone qui se vide trop vite après une mise à jour iOS : Le guide du réparateur"
 description: "Votre iPhone se décharge à vue d'oeil depuis la dernière mise à jour iOS ? Un réparateur pro vous explique comment régler ce problème en 3 étapes."
-publishDate: 2026-10-21T13:30:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqe12m-4-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["iPhone", "Batterie", "iOS", "Reparation Mobile", "Astuces Tech"]
