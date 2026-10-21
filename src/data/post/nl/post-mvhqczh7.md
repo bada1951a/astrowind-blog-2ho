@@ -1,7 +1,7 @@
 ---
 title: "iPhone batterij snel leeg na iOS update? Zo los je het op!"
 description: "Ervaar je batterijproblemen op de Amsterdam Zuidas na een iOS update? Ontdek direct hoe je jouw iPhone batterij weer optimaliseert als een expert."
-publishDate: 2026-10-21T18:30:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqf1p3-8-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["iPhone Batterij", "iOS Update", "Smartphone Reparatie", "Batterij Besparen"]
