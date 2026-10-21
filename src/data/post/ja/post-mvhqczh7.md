@@ -1,7 +1,7 @@
 ---
 title: "「iOSアップデート後、iPhoneの電池がみるみる減る…」東京のオフィス街で急増するバッテリー激減トラブルの即効対策"
 description: "最新iOSアップデート直後からiPhoneのバッテリーが急激に減る原因と、今日からできる具体的な改善ステップをスマホ修理のプロが徹底解説します。"
-publishDate: 2026-10-21T11:00:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqdi80-2-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["iPhone修理", "バッテリー消耗", "iOSアップデート", "スマホトラブル", "節電設定"]
