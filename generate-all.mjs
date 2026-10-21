@@ -21,9 +21,57 @@ function getPostImages(topic, index) {
   const bodySeed = `mob-${seedBase}-${index}-b`;
 
   return {
-    coverUrl: `https://picsum.photos/seed/${coverSeed}/1200/675.jpg`,
-    bodyUrl: `https://picsum.photos/seed/${bodySeed}/1000/550.jpg`
+    coverUrl: `[https://picsum.photos/seed/$](https://picsum.photos/seed/$){coverSeed}/1200/675.jpg`,
+    bodyUrl: `[https://picsum.photos/seed/$](https://picsum.photos/seed/$){bodySeed}/1000/550.jpg`
   };
+}
+
+// =========================================================================
+// 한국 시간(KST) 기준 안전한 당일 발행 날짜 생성 함수
+// =========================================================================
+function getKstPublishDateIso(index) {
+  const now = new Date();
+  const kstTime = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  const year = kstTime.getUTCFullYear();
+  const month = String(kstTime.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(kstTime.getUTCDate()).padStart(2, '0');
+
+  const minute = String((index * 5) % 60).padStart(2, '0');
+  return `${year}-${month}-${day}T03:${minute}:00.000Z`;
+}
+
+// =========================================================================
+// 본문 마크다운 별표(**) 및 서식 깨짐 원천 정제 함수
+// =========================================================================
+function sanitizeMarkdownFormatting(content) {
+  let cleaned = content;
+
+  // 1) 3개 이상 연달아 붙은 별표(***) 정제 -> **로 통일
+  cleaned = cleaned.replace(/\*{3,}/g, '**');
+
+  // 2) 별표 안쪽에 특수기호나 따옴표가 어긋나게 갇힌 경우 정제
+  cleaned = cleaned.replace(/\*\*\[([^\]]+)\]\*\*/g, '[**$1**]');
+  cleaned = cleaned.replace(/\*\*"([^"]+)"\*\*/g, '"**$1**"');
+  cleaned = cleaned.replace(/\*\*'([^']+)'\*\*/g, '\'**$1**\'');
+
+  // 3) 별표 시작 뒤 또는 끝 바로 앞에 공백이 있어 마크다운이 파싱되지 않는 경우 정제
+  cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\s+\*\*/g, '**$1**');
+  cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\*\*/g, '**$1**');
+  cleaned = cleaned.replace(/\*\*([^\*\n]+?)\s+\*\*/g, '**$1**');
+
+  // 4) 짝이 맞지 않는 고립된 단일 ** 제거 (홀수 개수로 남는 경우 방지)
+  const lines = cleaned.split('\n');
+  const fixedLines = lines.map(line => {
+    if (line.trim().startsWith('```') || line.trim().startsWith('`')) return line;
+    const matches = line.match(/\*\*/g);
+    if (matches && matches.length % 2 !== 0) {
+      const lastIdx = line.lastIndexOf('**');
+      return line.slice(0, lastIdx) + line.slice(lastIdx + 2);
+    }
+    return line;
+  });
+
+  return fixedLines.join('\n');
 }
 
 if (!fs.existsSync(TOPICS_FILE)) {
@@ -100,7 +148,7 @@ async function fetchWithRetry(prompt, maxRetries = 15, delayMs = 20000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       const response = await ai.models.generateContent({
-        model: 'gemini-3.5-flash-lite',
+        model: 'gemini-2.5-flash',
         contents: prompt,
       });
       return response.text;
@@ -118,11 +166,7 @@ async function generateSinglePost(lang, index) {
   console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 포스팅 생성 중... (적용 테마: ${selectedTheme.name})`);
 
   const { coverUrl, bodyUrl } = getPostImages(currentTopic, index);
-
-  const postDate = new Date();
-  const baseMinutes = 8 * 60 + 30 + Math.floor(index * 75);
-  postDate.setHours(Math.floor(baseMinutes / 60), baseMinutes % 60, 0, 0);
-  const pubDateIso = postDate.toISOString();
+  const pubDateIso = getKstPublishDateIso(index);
 
   const prompt = `
 You are a ${lang.persona}.
@@ -148,13 +192,16 @@ Context: "${lang.localeContext}"
 2. Laser-Focused Narrative:
     - The opening emergency story MUST be 100% strictly about the assigned [Topic] (${currentTopic}).
 
-[TECHNICAL TEXT FORMATTING RULE (STRICT NO LATEX & NO TILDE)]
-- ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters or academic math symbols (DO NOT use $, $$, \\times, \\approx, \\degree).
-- Always use plain, human-readable numbers and units:
-    * Write "45°C", "9V 2A", "25W" instead of LaTeX.
-- Clean 2-column key-value lists or bulleted cards instead of overly wide 4-column tables that break on mobile screens.
-- ABSOLUTELY FORBIDDEN: NEVER use the tilde character (~) anywhere in numbers or ranges (e.g., NEVER write "10~20%", "40~50°C", "5~10 min").
-  Always use a hyphen or dash (-) instead (e.g., "10-20%", "40-50°C", "5-10 min") to prevent accidental Markdown strikethrough rendering bugs.
+[STRICT MARKDOWN & FORMATTING RULES - NO RENDERING GLITCHES]
+1. BOLD FORMATTING RULE:
+    - Standard markdown bold is strictly: **Word**
+    - NEVER put brackets or quotes inside asterisks (FORBIDDEN: **[Word]**, **"Word"**). Instead write: [**Word**] or "**Word**".
+    - NEVER leave space inside asterisks (FORBIDDEN: ** Word **).
+2. COMMANDS & CODE BLOCKS:
+    - Always wrap long commands, registry keys, or terminal snippets in standard 3-backtick code blocks (\`\`\`bash or \`\`\`cmd) so they never overflow horizontally on mobile screens.
+3. NO LATEX & NO TILDE:
+    - ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters ($ or $$). Always write plain text units (e.g., "45°C", "9V 2A", "25W").
+    - ABSOLUTELY FORBIDDEN: NEVER use tilde (~) for ranges (e.g., NEVER write "10~20%"). Always use a hyphen (e.g., "10-20%").
 
 [Design Theme & Layout Dynamic Rules (MANDATORY)]
 - Assigned Theme: "${selectedTheme.name}"
@@ -212,9 +259,7 @@ theme: "${selectedTheme.name}"
                .replace(/\\approx/g, '≈');
 
     // [취소선 버그 원천 차단 후처리]
-    // 1) 숫자~숫자 또는 문자~문자 사이의 물결표를 하이픈(-)으로 변환
     text = text.replace(/(\S)\s*~\s*(\S)/g, '$1 - $2');
-    // 2) 잔여 물결표(~) 치환
     text = text.replace(/~/g, '-');
 
     if (lang.code !== 'ko') {
@@ -232,11 +277,14 @@ theme: "${selectedTheme.name}"
       frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'Life & Tech'")
                                .replace(/category:\s*[^\n\r]+/i, "category: 'Life & Tech'");
 
-      // Cloudflare 빌드 실패 방지: publishDate 따옴표 제거
-      frontmatter = frontmatter.replace(/publishDate:\s*["']([^"']+)["']/i, "publishDate: $1");
+      // Cloudflare 빌드 실패 및 날짜 밀림 방지: 정확한 KST 기반 ISO 날짜 강제 주입
+      frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
 
       // 대표 이미지 경로 강제 동기화
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
+
+      // 본문 별표(**) 서식 오류 정제
+      body = sanitizeMarkdownFormatting(body);
 
       // 이미지 alt 텍스트 특수문자 제거 방어 로직 (마크다운 깨짐 방지)
       const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
