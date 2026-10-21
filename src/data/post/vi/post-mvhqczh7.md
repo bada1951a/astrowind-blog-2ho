@@ -1,7 +1,7 @@
 ---
 title: "Sửa lỗi iPhone hao pin nhanh sau khi cập nhật iOS mới tại văn phòng TP.HCM"
 description: "Mẹo thực chiến từ kỹ thuật viên sửa chữa điện thoại tại TP.HCM giúp bạn khắc phục triệt để tình trạng iPhone hao pin nhanh, lỗi sạc nhanh cổng Type-C sau khi lên iOS."
-publishDate: 2026-10-21T22:15:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqftzi-11-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["Sua chua iPhone", "Loi hao pin iOS", "Khu vuc TP.HCM", "Mẹo Cong Nghệ", "Sạc nhanh Type-C"]
