@@ -1,7 +1,7 @@
 ---
 title: "iPhone descarregando rapido apos atualizacao: O que fazer na bancada"
 description: "Aprenda a resolver o consumo excessivo de bateria do iPhone apos o update do iOS com dicas praticas direto da bancada tecnica em Sao Paulo."
-publishDate: 2026-10-21T17:15:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqeslw-7-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["iPhone", "Bateria", "Assistencia Tecnica", "iOS", "Dicas Tech"]
