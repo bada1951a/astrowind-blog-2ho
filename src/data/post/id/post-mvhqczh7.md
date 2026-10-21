@@ -1,7 +1,7 @@
 ---
 title: "Panduan Teknisi: iPhone Boros Setelah Update iOS Terbaru + Masalah Port Longgar"
 description: "Solusi praktis atasi iPhone boros baterai pasca update iOS dan masalah port charger longgar di tengah kesibukan bisnis Jakarta."
-publishDate: 2026-10-21T21:00:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqfkxi-10-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
