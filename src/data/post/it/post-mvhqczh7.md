@@ -1,7 +1,7 @@
 ---
 title: "iPhone che si scarica dopo l'aggiornamento iOS: Come risolvere"
 description: "Guida pratica dal banco di lavoro a Milano: come fermare il drenaggio anomalo della batteria del tuo iPhone dopo l'ultimo aggiornamento."
-publishDate: 2026-10-21T16:00:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqej7m-6-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["Riparazione iPhone", "Batteria iOS", "Guide Tecniche", "Milano Centro"]
