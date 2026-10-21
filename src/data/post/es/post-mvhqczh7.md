@@ -1,7 +1,7 @@
 ---
 title: "Bateria de tu iPhone vuela tras actualizar iOS? Guia practica desde el taller de Madrid"
 description: "Tu iPhone se descarga solo tras actualizar iOS? Descubre por que ocurre, como afecta al puerto de carga y como solucionarlo paso a paso sin gastar de mas."
-publishDate: 2026-10-21T14:45:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqeam4-5-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["Reparacion iPhone", "Bateria", "Actualizacion iOS", "Servicio Tecnico Madrid"]
