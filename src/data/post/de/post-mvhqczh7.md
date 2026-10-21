@@ -1,7 +1,7 @@
 ---
 title: "iPhone Akku nach iOS Update schnell leer? So rettest du deinen Arbeitstag"
 description: "Dein iPhone saugt nach dem letzten iOS Update den Akku rasant leer? Als Techniker zeige ich dir praxisnahe Sofortmaßnahmen aus dem Berliner Büroalltag."
-publishDate: 2026-10-21T12:15:00.000Z
+publishDate: 2026-10-22T03:00:00.000Z
 image: 'https://picsum.photos/seed/mob-mvhqdrv5-3-c/1200/675.jpg'
 category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
