@@ -17,9 +17,9 @@ Il est 13h sur l'esplanade de La Défense. Le soleil tape fort sur les tours de 
 
 Derrière ce comportement frustrant se cache en réalité un système de protection sophistiqué de votre processeur (SoC) et de votre batterie lithium-ion. Voici les trois causes principales de cette mise en sécurité thermique :
 
-1. **Le bridage thermique ou "Thermal Throttling" :** Lorsque le processeur et la puce graphique tournent à plein régime pour maintenir une luminosité maximale sous une chaleur de plomb (ou en plein soleil direct), leur température interne grimpe en flèche, dépassant souvent les 45°C ou 50°C. Pour éviter la fusion des composants ou une dégradation irréversible de la batterie, le système bride drastiquement les performances et force l'écran à baisser son intensité lumineuse.
-2. **La saturation du capteur de luminosité ambiante :** En plein soleil estival, les luxmètres intégrés en façade s'affolent face à l'intensité lumineuse brute. Si le processeur est déjà chaud, le système d'exploitation interprète cette surcharge lumineuse comme un signal d'alerte supplémentaire et bloque l'affichage en mode "basse consommation" pour dissiper la chaleur.
-3. **Une coque de protection inadaptée :** C'est l'ennemi invisible numéro un. Les coques épaisses en silicone bas de gamme ou en plastique rigide agissent comme de véritables fours miniatures. Elles emprisonnent la chaleur générée par les composants internes, empêchant toute dissipation thermique naturelle par le châssis en aluminium ou en verre du téléphone.
+1. Le bridage thermique ou "Thermal Throttling" : Lorsque le processeur et la puce graphique tournent à plein régime pour maintenir une luminosité maximale sous une chaleur de plomb (ou en plein soleil direct), leur température interne grimpe en flèche, dépassant souvent les 45°C ou 50°C. Pour éviter la fusion des composants ou une dégradation irréversible de la batterie, le système bride drastiquement les performances et force l'écran à baisser son intensité lumineuse.
+2. La saturation du capteur de luminosité ambiante : En plein soleil estival, les luxmètres intégrés en façade s'affolent face à l'intensité lumineuse brute. Si le processeur est déjà chaud, le système d'exploitation interprète cette surcharge lumineuse comme un signal d'alerte supplémentaire et bloque l'affichage en mode "basse consommation" pour dissiper la chaleur.
+3. Une coque de protection inadaptée : C'est l'ennemi invisible numéro un. Les coques épaisses en silicone bas de gamme ou en plastique rigide agissent comme de véritables fours miniatures. Elles emprisonnent la chaleur générée par les composants internes, empêchant toute dissipation thermique naturelle par le châssis en aluminium ou en verre du téléphone.
 
 <div style="border-left: 4px solid #a6e22e; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Conseil du technicien :</strong> Ne confondez jamais une baisse de luminosité thermique avec un "ghost touch" ou un problème de tactile fantôme causé par l'humidité d'une salle de bain. Si votre écran s'assombrit seul au soleil, c'est que votre carte mère vous crie qu'elle étouffe. Retirez immédiatement votre coque de protection pour laisser le métal ou le verre respirer.
@@ -49,10 +49,22 @@ Lorsque vous marchez en plein soleil, évitez de laisser votre téléphone dans 
 
 ### Foire Aux Questions (FAQ)
 
-**Q1. Mon téléphone chauffe et s'assombrit même à l'ombre dans mon bureau climatisé, est-ce normal ?****
 
-**A1.****Non, ce n'est pas normal. Si le phénomène se produit en intérieur sans exposition au soleil, cela indique généralement un processus en arrière-plan bloqué (comme une synchronisation cloud corrompue) ou, pire, un début de court-circuit au niveau du circuit de charge ou de la batterie. Un diagnostic en atelier s'impose pour mesurer la consommation réelle de la carte mère.**Q2. Est-ce que l'utilisation d'un film de protection en verre trempé accentue la surchauffe de l'écran ?****
 
-**A2.****Indirectement, oui, surtout si vous utilisez un verre trempé bas de gamme très épais ou mal collé. Il agit comme une couche isolante supplémentaire qui retient la chaleur émise par la dalle tactile et le panneau OLED. Préférez des films de qualité certifiée qui n'altèrent pas la dissipation thermique superficielle.**Q3. Si le problème persiste malgré tout, est-ce que le changement de la batterie résoudra la baisse de luminosité ?****
+Q1. Mon téléphone chauffe et s'assombrit même à l'ombre dans mon bureau climatisé, est-ce normal ?
 
-**A3.**** Si votre batterie est en fin de vie (capacité maximale sous la barre des 80-85% et cycles de charge élevés), elle offre une résistance interne plus importante, ce qui génère beaucoup plus de chaleur lors des pics d'utilisation. Dans ce cas précis, remplacer la batterie par un composant neuf d'origine résout très souvent les problèmes récurrents de surchauffe et de bridage de l'écran.
+
+
+A1.Non, ce n'est pas normal. Si le phénomène se produit en intérieur sans exposition au soleil, cela indique généralement un processus en arrière-plan bloqué (comme une synchronisation cloud corrompue) ou, pire, un début de court-circuit au niveau du circuit de charge ou de la batterie. Un diagnostic en atelier s'impose pour mesurer la consommation réelle de la carte mère.
+
+Q2. Est-ce que l'utilisation d'un film de protection en verre trempé accentue la surchauffe de l'écran ?
+
+
+
+A2.Indirectement, oui, surtout si vous utilisez un verre trempé bas de gamme très épais ou mal collé. Il agit comme une couche isolante supplémentaire qui retient la chaleur émise par la dalle tactile et le panneau OLED. Préférez des films de qualité certifiée qui n'altèrent pas la dissipation thermique superficielle.
+
+Q3. Si le problème persiste malgré tout, est-ce que le changement de la batterie résoudra la baisse de luminosité ?
+
+
+
+A3. Si votre batterie est en fin de vie (capacité maximale sous la barre des 80-85% et cycles de charge élevés), elle offre une résistance interne plus importante, ce qui génère beaucoup plus de chaleur lors des pics d'utilisation. Dans ce cas précis, remplacer la batterie par un composant neuf d'origine résout très souvent les problèmes récurrents de surchauffe et de bridage de l'écran.

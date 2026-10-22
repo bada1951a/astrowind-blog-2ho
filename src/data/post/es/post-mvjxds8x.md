@@ -9,9 +9,9 @@ theme: "Graphite Technical Paper"
 ---
 
 
-Estás en plena Puerta del Sol un mediodía de julio, con el asfalto madrileño irradiando calor. Te acercas para capturar la sonrisa de tus hijos junto al Oso y el Madroño, abres la cámara y de repente salta el aviso en rojo: ["**Almacenamiento Insuficiente**"]. La aplicación de galería se congela por completo, la interfaz empieza a tirones y, para colmo, el brillo de la pantalla baja al mínimo de golpe dejándote a ciegas bajo el sol abrasador. No es solo un fallo de memoria; tu terminal ha entrado en pánico térmico.
+Estás en plena Puerta del Sol un mediodía de julio, con el asfalto madrileño irradiando calor. Te acercas para capturar la sonrisa de tus hijos junto al Oso y el Madroño, abres la cámara y de repente salta el aviso en rojo: ["Almacenamiento Insuficiente"]. La aplicación de galería se congela por completo, la interfaz empieza a tirones y, para colmo, el brillo de la pantalla baja al mínimo de golpe dejándote a ciegas bajo el sol abrasador. No es solo un fallo de memoria; tu terminal ha entrado en pánico térmico.
 
-Como técnico especialista en microelectrónica y reparación de dispositivos móviles en Madrid, este escenario me llega al mostrador casi a diario durante los meses de verano. El sistema operativo, al verse ahogado por una memoria flash saturada y un procesador al límite de temperatura, activa un mecanismo de defensa radical: el [**thermal throttling**] (estrangulamiento térmico) y la limitación forzosa del brillo para evitar que el SoC (procesador principal) y la batería sufran daños permanentes.
+Como técnico especialista en microelectrónica y reparación de dispositivos móviles en Madrid, este escenario me llega al mostrador casi a diario durante los meses de verano. El sistema operativo, al verse ahogado por una memoria flash saturada y un procesador al límite de temperatura, activa un mecanismo de defensa radical: el [thermal throttling] (estrangulamiento térmico) y la limitación forzosa del brillo para evitar que el SoC (procesador principal) y la batería sufran daños permanentes.
 
 ![Phone Screen Dimming Automatically in Bright Sunlight: Overheating Throttling Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvjxf20s-5-b/1000/550.jpg)
 
@@ -25,9 +25,9 @@ Como técnico especialista en microelectrónica y reparación de dispositivos m�
 
 Para solucionar este problema de raíz, primero debemos entender qué está ocurriendo en el interior de tu terminal. No es magia negra, es física pura combinada con software saturado.
 
-1. **Saturación crítica de la memoria NAND Flash:** Cuando el almacenamiento interno supera el 95-98 de ocupación, el controlador de memoria se queda sin espacio para realizar operaciones de E/S (Entrada/Salida) básicas y la gestión de la memoria virtual (swap). Al abrir la galería para procesar fotos pesadas, el sistema se bloquea intentando escribir archivos temporales (caché).
-2. **Efecto lupa y radiación solar directa:** Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
-3. **Pérdida de eficiencia en la disipación pasiva:** Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
+1. Saturación crítica de la memoria NAND Flash: Cuando el almacenamiento interno supera el 95-98 de ocupación, el controlador de memoria se queda sin espacio para realizar operaciones de E/S (Entrada/Salida) básicas y la gestión de la memoria virtual (swap). Al abrir la galería para procesar fotos pesadas, el sistema se bloquea intentando escribir archivos temporales (caché).
+2. Efecto lupa y radiación solar directa: Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
+3. Pérdida de eficiencia en la disipación pasiva: Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
 
 ---
 
@@ -64,10 +64,22 @@ Muchos de estos bucles térmicos ocurren porque hay sincronizaciones pendientes 
 
 ### Preguntas Frecuentes (FAQ)
 
-**Q1. ¿Es normal que mi móvil se caliente y baje el brillo solo por usar Google Maps en el coche?****
 
-**A1.****Sí, es completamente habitual. Google Maps utiliza GPS continuo, renderizado 3D de mapas, conexión de datos y brillo máximo para que veas la pantalla a través del cristal del coche (donde se crea un efecto invernadero). Si además lo llevas cargando en el soporte conectado al mechero, la temperatura se dispara. Te recomiendo colocar el soporte en las rejillas del aire acondicionado para usar el flujo del aire y mitigar el calor.**Q2. ¿Por qué el brillo automático no responde aunque me ponga a la sombra?****
 
-**A2.****Porque el software mantiene un "bloqueo de protección térmica". Hasta que el termistor interno de la placa base no registre una temperatura inferior al límite de seguridad (normalmente por debajo de los 38°C), el sistema operativo bloqueará el potenciómetro de brillo para proteger la matriz de la pantalla de quemaduras permanentes (efecto fantasma o retención de imagen).**Q3. ¿Ayuda en algo quitar la funda protectora cuando juego o hago fotos en la calle?****
+Q1. ¿Es normal que mi móvil se caliente y baje el brillo solo por usar Google Maps en el coche?
 
-**A3.**** Drásticamente. Las fundas modernas, especialmente las de diseño robusto o siliconas gruesas, actúan como aislantes térmicos impidiendo que el calor generado por el chasis se disipe al aire libre. Quitar la funda durante tareas pesadas reduce la temperatura operativa del terminal entre 3°C y 5°C.
+
+
+A1.Sí, es completamente habitual. Google Maps utiliza GPS continuo, renderizado 3D de mapas, conexión de datos y brillo máximo para que veas la pantalla a través del cristal del coche (donde se crea un efecto invernadero). Si además lo llevas cargando en el soporte conectado al mechero, la temperatura se dispara. Te recomiendo colocar el soporte en las rejillas del aire acondicionado para usar el flujo del aire y mitigar el calor.
+
+Q2. ¿Por qué el brillo automático no responde aunque me ponga a la sombra?
+
+
+
+A2.Porque el software mantiene un "bloqueo de protección térmica". Hasta que el termistor interno de la placa base no registre una temperatura inferior al límite de seguridad (normalmente por debajo de los 38°C), el sistema operativo bloqueará el potenciómetro de brillo para proteger la matriz de la pantalla de quemaduras permanentes (efecto fantasma o retención de imagen).
+
+Q3. ¿Ayuda en algo quitar la funda protectora cuando juego o hago fotos en la calle?
+
+
+
+A3. Drásticamente. Las fundas modernas, especialmente las de diseño robusto o siliconas gruesas, actúan como aislantes térmicos impidiendo que el calor generado por el chasis se disipe al aire libre. Quitar la funda durante tareas pesadas reduce la temperatura operativa del terminal entre 3°C y 5°C.
