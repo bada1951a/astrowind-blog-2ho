@@ -12,63 +12,40 @@ const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 const POSTS_BASE_DIR = path.resolve('src/data/post');
 const TOPICS_FILE = path.resolve('topics.txt');
 
-// =========================================================================
-// [2호기 전용] 100% 무에러 영구 고정 Picsum 실사 CDN 매핑
-// =========================================================================
 function getPostImages(topic, index) {
   const seedBase = Date.now().toString(36);
-  const coverSeed = `mob-${seedBase}-${index}-c`;
-  const bodySeed = `mob-${seedBase}-${index}-b`;
-
   return {
-    coverUrl: `https://picsum.photos/seed/${coverSeed}/1200/675.jpg`,
-    bodyUrl: `https://picsum.photos/seed/${bodySeed}/1000/550.jpg`
+    coverUrl: `https://picsum.photos/seed/mob-${seedBase}-${index}-c/1200/675.jpg`,
+    bodyUrl: `https://picsum.photos/seed/mob-${seedBase}-${index}-b/1000/550.jpg`
   };
 }
 
-// =========================================================================
-// 한국 시간(KST) 기준 안전한 당일 발행 날짜 생성 함수
-// =========================================================================
 function getKstPublishDateIso(index) {
   const now = new Date();
   const kstTime = new Date(now.getTime() + 9 * 60 * 60 * 1000);
   const year = kstTime.getUTCFullYear();
   const month = String(kstTime.getUTCMonth() + 1).padStart(2, '0');
   const day = String(kstTime.getUTCDate()).padStart(2, '0');
-
   const minute = String((index * 5) % 60).padStart(2, '0');
   return `${year}-${month}-${day}T03:${minute}:00.000Z`;
 }
 
 // =========================================================================
-// 본문 마크다운 볼드(**) 기호 완전 제거 및 다국어 공백/줄바꿈 완벽 정제 함수 (최종 완성본)
+// [초경량 고속 정제 함수] 백트래킹 최소화 및 단일 처리 최적화
 // =========================================================================
 function sanitizeMarkdownFormatting(content) {
-  let cleaned = content;
+  // 1) 마크다운 볼드(**) 기호 일괄 제거
+  let cleaned = content.replace(/\*\*/g, '');
 
-  // 1) Gukuraho ibimenyetso byose bya bold (**)
-  const lines = cleaned.split('\n');
-  const clearedLines = lines.map(line => {
-    let trimmed = line.trim();
-    if (trimmed === '**') return '';
-    if (trimmed.startsWith('```') || trimmed.startsWith('`')) return line;
-    return line.replace(/\*\*/g, '');
-  });
-  cleaned = clearedLines.join('\n');
+  // 2) 물음표 뒤 띄어쓰기 누락 보정 (?다음에 공백 없이 글자가 올 때)
+  cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9])/g, '? $1');
 
-  // 2) Gushyiramo umwanya nyuma y'ikimenyetso cy'ikibazo (?) niba ijambo ryakurikiyeho ryegeranye
-  cleaned = cleaned.replace(/([?])([A-ZÀ-ÖØ-ßa-zà-öø-ÿ])/g, '$1 $2');
+  // 3) 문장 마침표/물음표 뒤에 번호가 바로 붙는 현상 분리 (예: "끝.2. 시작" -> "끝.\n\n2. 시작")
+  cleaned = cleaned.replace(/([.?!])\s*([0-9]+\.\s+)/g, '$1\n\n$2');
 
-  // 3) Gutandukanya interuro irangiye n'umubare w'ikibazo ukurikira (urugero: "sprzętu.2." -> "sprzętu.\n\n2.")
-  cleaned = cleaned.replace(/([.?!])\s*([0-9]+\.\s+[A-ZÀ-ÖØ-ßa-zà-öø-ÿ])/g, '$1\n\n$2');
-
-  // 4) Gushyiramo imirongo ibiri y'umwanya ku magambo atangira ibisubizo cyangwa ibibazo
-  cleaned = cleaned.replace(/([.?!])\s+(Najskuteczniejszą|Podłączyłem|To klasyczny|Czy narzędzie|W Windows|Co zrobić|Que faire|¿Qué|Miin|Kan|Zagrożenie|Warto|Przypadku|Ważne|Hiện tượng|Sau mỗi|Tại sao)/g, '$1\n\n$2');
-
-  // 5) Gutunganya Q na A hamwe n'ibimenyetso by'izindi ndimi (D:, R:)
-  cleaned = cleaned.replace(/([^\n])\s*(Q[1-9]\.|R[1-9]\.|A[1-9]\.)/g, '$1\n\n$2');
-  cleaned = cleaned.replace(/([.?!])\s*(D:|Q[0-9]*\.|Domande)/gi, '$1\n\n$2');
-  cleaned = cleaned.replace(/([.?!])\s*(R:|Risposta|A[0-9]*\.)/gi, '$1\n\n$2');
+  // 4) FAQ/Q&A 및 다국어 머리말 줄바꿈 강제 확보
+  cleaned = cleaned.replace(/([^\n])\s*(Q[1-9]\.|R[1-9]\.|A[1-9]\.|D[1-9]\.)/g, '$1\n\n$2');
+  cleaned = cleaned.replace(/([.?!])\s*(Q[0-9]*\.|D:|R:|Risposta|Domande)/gi, '$1\n\n$2');
 
   return cleaned;
 }
@@ -89,9 +66,6 @@ if (lines.length === 0) {
 const currentTopic = lines[0];
 console.log(`📌 오늘 처리할 주제 (2호기 Life & Tech): "${currentTopic}"`);
 
-// =========================================================================
-// [도입부 다양화] 2호기 모바일/스마트폰 현실 위기 시나리오 30개 풀
-// =========================================================================
 const MOBILE_CRISIS_SCENARIOS_30 = [
   "중요한 외부 미팅을 위해 거래처로 이동하기 10분 전, 스마트폰 배터리가 3%밖에 남지 않아 초조한 순간",
   "공항 탑승구 앞에서 모바일 탑승권과 여권을 띄워야 하는데 화면 밝기가 급격히 떨어지며 기기가 꺼지려 할 때",
@@ -161,7 +135,7 @@ const THEME_PRESETS = [
 const TARGET_LANGS = [
   { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상 및 직장 오피스' },
   { code: 'en', name: 'English', persona: 'Expert mobile repair technician and smartphone specialist', localeContext: 'Metropolitan US tech workplace & everyday commuting' },
-  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシュー팅の専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
+  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシューティングの専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
   { code: 'de', name: 'German', persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker', localeContext: 'Berlin / München Unternehmens- und Alltagsalltag' },
   { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense et environnement urbain quotidien' },
   { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid y centros corporativos urbanos' },
@@ -176,7 +150,8 @@ const TARGET_LANGS = [
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 const fileSlug = `post-${Date.now().toString(36)}`;
 
-async function fetchWithRetry(prompt, maxRetries = 15, delayMs = 20000) {
+// 지연 시간 최적화 (20초 대기 -> 5초 대기, 최대 5회 시도)
+async function fetchWithRetry(prompt, maxRetries = 5, delayMs = 5000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       const response = await ai.models.generateContent({
@@ -197,7 +172,6 @@ async function generateSinglePost(lang, index) {
   const selectedScenario = MOBILE_CRISIS_SCENARIOS_30[Math.floor(Math.random() * MOBILE_CRISIS_SCENARIOS_30.length)];
 
   console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 포스팅 생성 중... (적용 테마: ${selectedTheme.name})`);
-  console.log(`    🎭 선택된 모바일 위기 시나리오: "${selectedScenario.slice(0, 30)}..."`);
 
   const { coverUrl, bodyUrl } = getPostImages(currentTopic, index);
   const pubDateIso = getKstPublishDateIso(index);
@@ -229,7 +203,7 @@ ${currentTopic}
 
 [MANDATORY OPENING VARIATION RULE - ZERO CLICHE REPETITION]
 - You MUST start the opening story based strictly on the assigned scenario: "${selectedScenario}".
-- ABSOLUTELY FORBIDDEN: Do NOT default to a generic "meeting in 30 minutes" trope. Adapt the specific incident (e.g., commute, sudden water splash, dust accumulation, heat warnings, travel) naturally into the local daily culture of ${lang.name}.
+- ABSOLUTELY FORBIDDEN: Do NOT default to a generic "meeting in 30 minutes" trope. Adapt the specific incident naturally into the local daily culture of ${lang.name}.
 
 [STRICT MARKDOWN & FORMATTING RULES - NO RENDERING GLITCHES]
 1. BOLD FORMATTING RULE:
@@ -261,7 +235,7 @@ ${currentTopic}
 
 [Content & Structure (AdSense E-E-A-T Compliant)]
 1. Opening Story: Intense real-life incident strictly regarding this topic based on the assigned scenario.
- 2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
+2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
 3. Step-by-Step Resolution: Actionable, safe diagnostic and cleaning/inspection steps.
 4. Expert Warning / Safety Tip: Crucial warnings on battery safety, pin deformation, or liquid contact.
 5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask. (CRITICAL: Every Q and A must start on a fresh new line without markdown bolding like Q1. ... and A1.).
@@ -313,10 +287,9 @@ theme: "${selectedTheme.name}"
                                .replace(/category:\s*[^\n\r]+/i, "category: 'life-tech'");
 
       frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
-
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // Gukoresha uburyo buhamye bwo gusukura inyandiko
+      // 고속 정제 함수 적용
       body = sanitizeMarkdownFormatting(body);
 
       const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
@@ -344,7 +317,7 @@ theme: "${selectedTheme.name}"
 
     const filePath = path.join(targetDir, `${fileSlug}.md`);
     fs.writeFileSync(filePath, text, 'utf-8');
-    console.log(`✅ [저장 완료] 2호기: src/data/post/${lang.code}/${fileSlug}.md (life-tech / 테마: ${selectedTheme.name})`);
+    console.log(`✅ [저장 완료] 2호기: src/data/post/${lang.code}/${fileSlug}.md`);
     return true;
   } catch (error) {
     console.error(`❌ [생성 실패] ${lang.name}:`, error.message);
@@ -354,14 +327,15 @@ theme: "${selectedTheme.name}"
 
 async function run() {
   console.log("==================================================");
-  console.log("⚡ 2호기 Life & Tech 12개국 30개 위기 시나리오 Picsum 자동 포스팅 시작");
+  console.log("⚡ 2호기 Life & Tech 12개국 최적화 고속 자동 포스팅 시작");
   console.log("==================================================");
 
   let successCount = 0;
   for (let i = 0; i < TARGET_LANGS.length; i++) {
     const isSuccess = await generateSinglePost(TARGET_LANGS[i], i);
     if (isSuccess) successCount++;
-    if (i < TARGET_LANGS.length - 1) await delay(5000);
+    // 언어 간 딜레이를 2초로 단축하여 전체 속도 개선
+    if (i < TARGET_LANGS.length - 1) await delay(2000);
   }
 
   if (successCount > 0) {
