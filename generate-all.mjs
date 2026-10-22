@@ -41,7 +41,7 @@ function getKstPublishDateIso(index) {
 }
 
 // =========================================================================
-// 본문 마크다운 별표(**) 및 FAQ 붙어 깨짐 현상 원천 정제 함수
+// 본문 마크다운 별표(**) 및 FAQ 붙어 깨짐 현상 원천 정제 함수 (완벽 강화 버전)
 // =========================================================================
 function sanitizeMarkdownFormatting(content) {
   let cleaned = content;
@@ -54,8 +54,10 @@ function sanitizeMarkdownFormatting(content) {
   cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\*\*/g, '**$1**');
   cleaned = cleaned.replace(/\*\*([^\*\n]+?)\s+\*\*/g, '**$1**');
 
-  // ⚡ FAQ 영역에서 **Q1... **A1... 형태로 한 줄에 붙어 깨지는 현상 자동 줄바꿈 교정
-  cleaned = cleaned.replace(/\*\*Q([0-9]+)\.\s*([^\*]+)\*\*A\1\./g, '**Q$1. $2**\n\n**A$1.**');
+  // ⚡ FAQ 영역에서 Q와 A 사이에 공백이나 줄바꿈이 어떻게 꼬여 있든 완벽한 2줄 개행으로 강제 분리
+  cleaned = cleaned.replace(/\*\*Q([0-9]+)\.\s*([\s\S]*?)\*\*A\1\./g, (match, qNum, qText) => {
+    return `**Q${qNum}. ${qText.trim()}**\n\n**A${qNum}.**`;
+  });
 
   const lines = cleaned.split('\n');
   const fixedLines = lines.map(line => {
@@ -136,7 +138,7 @@ const THEME_PRESETS = [
   { id: 10, name: "Deep Ocean Cobalt", primaryColor: "#2563eb", bgColor: "#eff6ff", layout: "표준 스마트폰 서비스 매뉴얼 지침서, 접촉 불량 원인 심층 분석, 권장 정품 규격 안내" },
   { id: 11, name: "Tokyo Neon Violet", primaryColor: "#8b5cf6", bgColor: "#2e1065", layout: "플래그십 디바이스 케어 스타일, 충전 출력 및 저항값 비교, 커스텀 세팅 팁" },
   { id: 12, name: "Graphite Technical Paper", primaryColor: "#475569", bgColor: "#f1f5f9", layout: "기술 백서 스타일, 전류/전압 원인 가설 및 검증 절차, 표준화된 결론" },
-  { id: 13, name: "High-Contrast Charcoal", primaryColor: "#e11d48", bgColor: "#18181b", layout: "고대비 경보 스타일, 데이터 손실 및 쇼트 방지 수칙, 긴급 전원 차단 팁" },
+  { id: 13, name: "High-Contrast Charcoal", primaryColor: "#e11d48", bgColor: "#18181b", layout: "고대비 경보 스타일, 데이터 LOSS 및 쇼트 방지 수칙, 긴급 전원 차단 팁" },
   { id: 14, name: "Warm Coffee Latte", primaryColor: "#78350f", bgColor: "#fefae0", layout: "초보자를 위한 친절한 스마트폰 관리 수필, 쉬운 일상 비유법, 차근차근 따라하기" },
   { id: 15, name: "Steel Silver Metallic", primaryColor: "#64748b", bgColor: "#e2e8f0", layout: "공식 기술지원 서비스 센터 리포트 스타일, 증상 체크리스트, 사전 자가진단표" },
   { id: 16, name: "Sunset Horizon Coral", primaryColor: "#f97316", bgColor: "#fff7ed", layout: "배터리 수명 극대화 꿀팁 스타일, 전후 충전 속도 비교표, 추천 도구 모음 배너" },
