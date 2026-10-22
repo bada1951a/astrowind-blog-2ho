@@ -41,7 +41,7 @@ function getKstPublishDateIso(index) {
 }
 
 // =========================================================================
-// 본문 마크다운 별표(**) 및 서식 깨짐 원천 정제 함수
+// 본문 마크다운 별표(**) 및 FAQ 붙어 깨짐 현상 원천 정제 함수
 // =========================================================================
 function sanitizeMarkdownFormatting(content) {
   let cleaned = content;
@@ -53,6 +53,9 @@ function sanitizeMarkdownFormatting(content) {
   cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\s+\*\*/g, '**$1**');
   cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\*\*/g, '**$1**');
   cleaned = cleaned.replace(/\*\*([^\*\n]+?)\s+\*\*/g, '**$1**');
+
+  // ⚡ FAQ 영역에서 **Q1... **A1... 형태로 한 줄에 붙어 깨지는 현상 자동 줄바꿈 교정
+  cleaned = cleaned.replace(/\*\*Q([0-9]+)\.\s*([^\*]+)\*\*A\1\./g, '**Q$1. $2**\n\n**A$1.**');
 
   const lines = cleaned.split('\n');
   const fixedLines = lines.map(line => {
@@ -88,7 +91,6 @@ console.log(`📌 오늘 처리할 주제 (2호기 Life & Tech): "${currentTopic
 // [도입부 다양화] 2호기 모바일/스마트폰 현실 위기 시나리오 30개 풀
 // =========================================================================
 const MOBILE_CRISIS_SCENARIOS_30 = [
-  // [1~8: 배터리 및 긴급 외출 위기]
   "중요한 외부 미팅을 위해 거래처로 이동하기 10분 전, 스마트폰 배터리가 3%밖에 남지 않아 초조한 순간",
   "공항 탑승구 앞에서 모바일 탑승권과 여권을 띄워야 하는데 화면 밝기가 급격히 떨어지며 기기가 꺼지려 할 때",
   "KTX 열차 안에서 좌석 콘센트에 고속 충전기를 꽂았지만 '충전 중이 아님' 경고창이 깜빡거릴 때",
@@ -97,8 +99,6 @@ const MOBILE_CRISIS_SCENARIOS_30 = [
   "카페에서 급한 업무 전화를 연속으로 받던 중 충전 케이블을 연결해도 배터리 퍼센트가 계속 깎여나가는 순간",
   "외근 중 배터리 공유를 위해 보조배터리를 연결했으나 단자 접촉 불량으로 충전과 끊김이 무한 반복될 때",
   "아침 출근 알람을 듣고 일어났더니 밤새 충전기에 꽂아두었던 폰이 차갑게 꺼져 있던 당혹스러운 상황",
-
-  // [9~16: 침수, 이물질 및 단자 오염]
   "비 오는 날 야외에서 우산을 들고 메신저를 확인하다가 빗방울이 충전 포트에 들어가 '물기 감지' 경고가 뜬 순간",
   "세면대나 싱크대 옆에 올려둔 스마트폰 모서리가 물에 살짝 닿은 뒤 스피커 소리가 먹먹하게 찢어질 때",
   "주머니 속 먼지와 보풀이 충전 단자 깊숙이 엉겨 붙어 충전 케이블이 끝까지 딸깍 물리지 않고 튕겨 나올 때",
@@ -107,8 +107,6 @@ const MOBILE_CRISIS_SCENARIOS_30 = [
   "카페에서 커피나 음료가 테이블 위 스마트폰 하단부로 쏟아져 긴급히 전원을 차단해야 했던 순간",
   "습도가 높은 욕실에 음악을 틀어두고 샤워를 마친 후 화면 터치 좌표가 제멋대로 튀는 고스트 터치 발생 시",
   "식당에서 국물 요리가 스피커 그릴 틈새로 살짝 튀어 알코올 솜과 면봉을 찾아 헤매던 상황",
-
-  // [17~24: 발열, 프리징 및 시스템 급랭]
   "여름철 대낮 야외 주차장 차 안에서 스마트폰이 과열되어 카메라 앱 실행이 강제 차단된 순간",
   "고사양 모바일 게임이나 동영상 편집 렌더링 중 기기 후면이 뜨거워지며 프레임이 심각하게 끊길 때",
   "한겨울 영하의 날씨에 야외에서 사진을 찍으려 하자 배터리가 40%에서 1%로 곤두박질치며 기절한 상황",
@@ -117,8 +115,6 @@ const MOBILE_CRISIS_SCENARIOS_30 = [
   "카카오톡이나 사내 업무 앱을 백그라운드에 10개 이상 띄워둔 상태에서 갑자기 화면 전체가 멈췄을 때",
   "블루투스 무선 이어폰과 스마트워치가 동시에 연결 해제되며 스마트폰 시스템 설정 창이 튕길 때",
   "아이 사진을 찍어주려는데 '저장공간 부족'과 함께 갤러리 앱이 멈춰버려 당장 캐시를 정리해야 하는 순간",
-
-  // [25~30: 수리, 분해 및 케이블 쇼트 사고]
   "인터넷에서 본 자가 수리 팁을 따라 이쑤시개나 바늘로 단자를 쑤셨다가 핀이 손상될 뻔한 아찔한 경험",
   "저가형 다이소 충전 케이블 끝부분 피복이 벗겨지며 탄 냄새가 살짝 나 급히 코드를 뽑았던 기억",
   "스마트폰을 바닥에 떨어뜨린 직후 겉유리는 멀쩡한데 내부 OLED 패널에 초록색 세로줄이 번지기 시작할 때",
@@ -127,7 +123,6 @@ const MOBILE_CRISIS_SCENARIOS_30 = [
   "보호 필름 교체 중 기포가 심하게 생겨 터치 감도가 급격히 둔화되어 화면 터치가 씹히는 답답한 상황"
 ];
 
-// 30가지 고유 시각 스타일 및 레이아웃 프리셋
 const THEME_PRESETS = [
   { id: 1, name: "Cyberpunk Terminal", primaryColor: "#00ffcc", bgColor: "#111827", layout: "CLI/진단기 로그 스타일, 하드웨어 점검 단축 경로 최상단 배치" },
   { id: 2, name: "Modern Minimalist Slate", primaryColor: "#3b82f6", bgColor: "#f8fafc", layout: "미니멀 가이드 스타일, 여백 중심의 깔끔한 단계별 분해/세척 넘버링" },
@@ -269,7 +264,7 @@ ${currentTopic}
 2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
 3. Step-by-Step Resolution: Actionable, safe diagnostic and cleaning/inspection steps.
 4. Expert Warning / Safety Tip: Crucial warnings on battery safety, pin deformation, or liquid contact.
-5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask.
+5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask. (CRITICAL: Every Q and A must start on a fresh new line with proper markdown bolding like **Q1. ...** and **A1.**).
 
 [Length & Richness Rules]
 - Korean (ko): Minimum 2,500 characters of rich, deep, non-repetitive text.
@@ -324,7 +319,7 @@ theme: "${selectedTheme.name}"
       // 대표 이미지 경로 강제 동기화
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // 본문 별표(**) 서식 오류 정제
+      // 본문 별표(**) 및 FAQ 서식 오류 정제
       body = sanitizeMarkdownFormatting(body);
 
       // 이미지 alt 텍스트 특수문자 제거 방어 로직 (마크다운 깨짐 방지)
