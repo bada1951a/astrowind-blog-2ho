@@ -53,7 +53,10 @@ Schakel de automatische helderheid (**Auto-Brightness**) tijdelijk uit wanneer j
 
 ## Veelgestelde vragen (FAQ)
 
-**Q1. Kan mijn scherm permanent beschadigd raken als het vaak dimt in de zon?**
-**A1.**Het scherm zelf kan hier meestal wel tegen, maar de lijmlaag rondom het paneel en met name je batterij lijden onder extreme temperaturen. Herhaaldelijke oververhitting zorgt ervoor dat batterijen snel capaciteit verliezen of zelfs opbollen.**Q2. Waarom gebeurt dit nooit bij mijn oude telefoon, maar wel bij mijn dure nieuwe smartphone?**
-**A2.**Moderne smartphones zijn flinterdun en bevatten enorm krachtige processors. Ze hebben nauwelijks fysieke ruimte om warmte kwijt te raken (geen ventilatoren zoals een laptop). Daardoor grijpt de software veel sneller in door de prestaties te knijpen en het scherm te dimmen.**Q3. Helpt het om mijn telefoon uit te schakelen als hij heet is?**
-**A3.** Ja, absoluut. Als je merkt dat het toestel blijft hangen en heet blijft, is volledig uitschakelen de beste optie. Hierdoor stoppen alle processen direct en kan het moederbord veilig afkoelen tot normale bedrijfstemperaturen.
+**Q1. Kan mijn scherm permanent beschadigd raken als het vaak dimt in de zon?****
+
+**A1.****Het scherm zelf kan hier meestal wel tegen, maar de lijmlaag rondom het paneel en met name je batterij lijden onder extreme temperaturen. Herhaaldelijke oververhitting zorgt ervoor dat batterijen snel capaciteit verliezen of zelfs opbollen.**Q2. Waarom gebeurt dit nooit bij mijn oude telefoon, maar wel bij mijn dure nieuwe smartphone?****
+
+**A2.****Moderne smartphones zijn flinterdun en bevatten enorm krachtige processors. Ze hebben nauwelijks fysieke ruimte om warmte kwijt te raken (geen ventilatoren zoals een laptop). Daardoor grijpt de software veel sneller in door de prestaties te knijpen en het scherm te dimmen.**Q3. Helpt het om mijn telefoon uit te schakelen als hij heet is?****
+
+**A3.**** Ja, absoluut. Als je merkt dat het toestel blijft hangen en heet blijft, is volledig uitschakelen de beste optie. Hierdoor stoppen alle processen direct en kan het moederbord veilig afkoelen tot normale bedrijfstemperaturen.

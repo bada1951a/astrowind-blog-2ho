@@ -71,7 +71,10 @@ Muitos usuários me perguntam se o tipo de tela interfere em como o celular reag
 
 ### Perguntas Frequentes (FAQ)
 
-**Q1. Usar o celular conectado ao carregador no carro sob o sol piora o escurecimento?**
-**A1.**Com certeza. O processo de carregamento da bateria já gera calor natural por si só. Juntar a carga da bateria, o calor do painel do carro e a luz do sol é a receita perfeita para o processador ativar o bloqueio térmico imediato.**Q2. Formatar o celular resolve o problema de travamento na galeria?**
-**A2.**Se o problema for apenas acúmulo de cache e arquivos corrompidos, uma boa limpeza de armazenamento resolve. A formatação só é necessária se o sistema operacional estiver corrompido por falhas em atualizações anteriores.**Q3. O meu celular é novo e continua escurecendo na rua. Isso é defeito de fábrica?**
-**A3.** Na grande maioria das vezes, não. Os smartphones atuais possuem mecanismos rigurosos de proteção contra o calor. Se a temperatura ambiente estiver muito alta (acima de 35°C), mesmo aparelhos topo de linha vão escurecer a tela para evitar danos permanentes à bateria de lítio.
+**Q1. Usar o celular conectado ao carregador no carro sob o sol piora o escurecimento?****
+
+**A1.****Com certeza. O processo de carregamento da bateria já gera calor natural por si só. Juntar a carga da bateria, o calor do painel do carro e a luz do sol é a receita perfeita para o processador ativar o bloqueio térmico imediato.**Q2. Formatar o celular resolve o problema de travamento na galeria?****
+
+**A2.****Se o problema for apenas acúmulo de cache e arquivos corrompidos, uma boa limpeza de armazenamento resolve. A formatação só é necessária se o sistema operacional estiver corrompido por falhas em atualizações anteriores.**Q3. O meu celular é novo e continua escurecendo na rua. Isso é defeito de fábrica?****
+
+**A3.**** Na grande maioria das vezes, não. Os smartphones atuais possuem mecanismos rigurosos de proteção contra o calor. Se a temperatura ambiente estiver muito alta (acima de 35°C), mesmo aparelhos topo de linha vão escurecer a tela para evitar danos permanentes à bateria de lítio.

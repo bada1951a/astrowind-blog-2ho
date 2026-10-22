@@ -64,11 +64,14 @@ Hindari mendinginkan ponsel secara ekstrem menggunakan es batu atau memasukinya 
 
 ### Tanya Jawab Seputar Layar Redup dan Overheat (*FAQ*)
 
-**Q1. Apakah fitur Auto-Brightness yang rusak bisa menyebabkan layar redup sendiri di luar ruangan?**
-**A1.** Tidak selalu. Sensor cahaya (*ambient light sensor*) yang tertutup kotoran atau temper glass tebal memang bisa membuat penyesuaian kecerahan kurang akurat, namun jika terjadi secara tiba-tiba disertai bodi HP yang panas, itu murni karena proteksi termal (*throttling*), bukan kerusakan sensor.
+**Q1. Apakah fitur Auto-Brightness yang rusak bisa menyebabkan layar redup sendiri di luar ruangan?****
 
-**Q2. Kenapa saat baterai di bawah 20 persen, layar HP jauh lebih gampang meredup otomatis di tempat panas?**
-**A2.** Ketika kapasitas baterai menipis dan suhu meningkat, hambatan internal sel baterai melonjak drastis. Sistem manajemen daya secara otomatis memangkas performa layar dan prosesor untuk mencegah HP *shutdown* mendadak akibat voltase drop.
+**A1.**** Tidak selalu. Sensor cahaya (*ambient light sensor*) yang tertutup kotoran atau temper glass tebal memang bisa membuat penyesuaian kecerahan kurang akurat, namun jika terjadi secara tiba-tiba disertai bodi HP yang panas, itu murni karena proteksi termal (*throttling*), bukan kerusakan sensor.
 
-**Q3. Apakah saya harus mengganti LCD jika masalah layar redup ini tidak kunjung hilang?**
-**A3.** Belum tentu. Selama panel layar masih menampilkan gambar dengan jernih di dalam ruangan yang sejuk, kerusakan bukan pada fisik LCD-nya, melainkan pada sistem manajemen panas, baterai yang sudah kembung/drop, atau masalah *software* yang korup akibat gagal *update*. Cek komponen internal terlebih dahulu sebelum memutuskan ganti layar.
+**Q2. Kenapa saat baterai di bawah 20 persen, layar HP jauh lebih gampang meredup otomatis di tempat panas?****
+
+**A2.**** Ketika kapasitas baterai menipis dan suhu meningkat, hambatan internal sel baterai melonjak drastis. Sistem manajemen daya secara otomatis memangkas performa layar dan prosesor untuk mencegah HP *shutdown* mendadak akibat voltase drop.
+
+**Q3. Apakah saya harus mengganti LCD jika masalah layar redup ini tidak kunjung hilang?****
+
+**A3.**** Belum tentu. Selama panel layar masih menampilkan gambar dengan jernih di dalam ruangan yang sejuk, kerusakan bukan pada fisik LCD-nya, melainkan pada sistem manajemen panas, baterai yang sudah kembung/drop, atau masalah *software* yang korup akibat gagal *update*. Cek komponen internal terlebih dahulu sebelum memutuskan ganti layar.

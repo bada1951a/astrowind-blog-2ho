@@ -67,7 +67,10 @@ Negli anni ho visto di tutto nei telefoni portati in riparazione. Ecco cosa **no
 
 ### Domande Frequenti (FAQ)
 
-**Q1. È normale che il mio telefono diventi caldo quando gioco?**
-**A1.**Sì, è assolutamente normale che si intiepidisca o si scaldi leggermente durante sessioni di gioco prolungate. Tuttavia, non deve mai diventare bollente al punto da causare fastidio alle dita, blocchi improvvisi o il calo drastico della luminosità dello schermo. Se succede regolarmente, la gestione termica è sotto stress.**Q2. Rimuovere la cover risolve definitivamente il problema del surriscaldamento?**
-**A2.**Aiuta in modo significativo a dissipare il calore più velocemente, specialmente se usate cover spesse in TPU o silicone. Tuttavia, se il telefono si surriscalda anche a riposo o con compiti leggeri, potrebbe esserci un problema hardware interno, come la pasta termica degradata o un'anomalia nella batteria.**Q3. Posso usare una ventola di raffreddamento esterna per smartphone?**
-**A3.** Assolutamente sì! Esistono in commercio dissipatori a celle di Peltier magnetici o a clip che si applicano sul retro dello smartphone. Sono estremamente efficaci per chi fa gaming competitivo o streaming prolungato, mantenendo basse le temperature e prevenendo il throttling.
+**Q1. È normale che il mio telefono diventi caldo quando gioco?****
+
+**A1.****Sì, è assolutamente normale che si intiepidisca o si scaldi leggermente durante sessioni di gioco prolungate. Tuttavia, non deve mai diventare bollente al punto da causare fastidio alle dita, blocchi improvvisi o il calo drastico della luminosità dello schermo. Se succede regolarmente, la gestione termica è sotto stress.**Q2. Rimuovere la cover risolve definitivamente il problema del surriscaldamento?****
+
+**A2.****Aiuta in modo significativo a dissipare il calore più velocemente, specialmente se usate cover spesse in TPU o silicone. Tuttavia, se il telefono si surriscalda anche a riposo o con compiti leggeri, potrebbe esserci un problema hardware interno, come la pasta termica degradata o un'anomalia nella batteria.**Q3. Posso usare una ventola di raffreddamento esterna per smartphone?****
+
+**A3.**** Assolutamente sì! Esistono in commercio dissipatori a celle di Peltier magnetici o a clip che si applicano sul retro dello smartphone. Sono estremamente efficaci per chi fa gaming competitivo o streaming prolungato, mantenendo basse le temperature e prevenendo il throttling.
