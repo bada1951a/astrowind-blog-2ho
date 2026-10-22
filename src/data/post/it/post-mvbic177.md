@@ -52,10 +52,13 @@ Per escludere che un'applicazione di terze parti installata di recente stia bloc
 ### FAQ - Domande Frequenti
 
 D: Se il display interno rimane nero ma il touchscreen risponde comunque al tatto (sento i suoni e la vibrazione), il problema è il pannello o il cavo flex?
+
 R: È quasi certamente il cavo flex o il connettore video staccato all'interno della cerniera. Il pannello OLED è integro, ma il segnale visivo non riesce a raggiungere i pixel. Richiede l'intervento di un tecnico specializzato per la sostituzione del nastro flex.
 
 D: Posso continuare a usare il Galaxy Z Fold solo dallo schermo esterno finché non lo porto in riparazione?
+
 R: Sì, puoi assolutamente continuare a usarlo come un telefono tradizionale "candybar". Ricordati però di effettuare subito un backup completo dei tuoi dati su cloud (Google Drive o Samsung Cloud) perché, quando il cavo flex cede del tutto, c'è il concreto rischio che il dispositivo smetta di avviarsi o vada in bootloop permanente.
 
 D: Quanto costa indicativamente la sostituzione del cavo flex o della cerniera in Italia?
+
 R: Dipende se il telefono è coperto dalla garanzia legale o da polizze assicurative come Samsung Care+. Fuori garanzia, trattandosi di un'operazione complessa che richiede lo smontaggio completo e il distacco termico dei vetri posteriori e del display, i costi nei centri autorizzati possono variare notevolmente a seconda del modello specifico di Z Fold. Si consiglia sempre di richiedere un preventivo scritto prima di procedere.

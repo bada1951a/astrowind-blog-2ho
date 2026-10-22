@@ -62,13 +62,18 @@ Prima di lasciar andare il cliente con il suo telefono perfettamente funzionante
 
 ---
 
-### 5. Domande Frequenti (FAQ)
+### 5.
+
+Domande Frequenti (FAQ)
 
 D: Perché il mio caricabatterie wireless lampeggia solo con il telefono inserito, ma rimane fisso (o spento) se è vuoto?
+
 R: È il comportamento standard dei circuiti di sicurezza dotati di FOD (*Foreign Object Detection*). Quando il pad è vuoto, è in modalità stand-by. Quando appoggi il telefono, il pad tenta di stabilire una comunicazione dati/energia con la bobina ricevente. Se rileva un disallineamento, un oggetto metallico estraneo o un'impedenza anomala, il sistema di protezione si attiva facendo lampeggiare il LED per segnalare l'errore.
 
 D: Posso usare qualsiasi caricabatterie wireless con il mio smartphone?
+
 R: In linea di massima sì, grazie allo standard universale Qi. Tuttavia, per ottenere le massime prestazioni ed evitare problemi di compatibilità con i sistemi di ricarica rapida proprietari (come quelli di Samsung o Apple), è sempre consigliabile utilizzare accessori originali o certificati (es. marchi con certificazione Qi ufficiale). I pad economici senza marche spesso montano bobine di scarsa qualità che tollerano pochissimo il disallineamento.
 
 D: Il telefono si carica a intermittenza (collega/scollega continuamente): cosa sta succedendo?
+
 R: Questo fenomeno è solitamente causato da un'alimentazione instabile in arrivo alla base di ricarica. L'adattatore a muro sta erogando meno corrente del necessario (magari stai usando una vecchia presa da 5W/1A). Appena il telefono richiede energia per la ricarica rapida, il carico supera la capacità dell'alimentatore, che si spegne per un istante, facendo interrompere la ricarica. Sostituisci l'alimentatore con uno più potente e vedrai che il flusso diventerà continuo.

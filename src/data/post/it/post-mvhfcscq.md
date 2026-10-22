@@ -51,10 +51,13 @@ Se il telefono continua a essere tiepido anche dopo aver chiuso tutto, spegnilo 
 ### Domande Frequenti (FAQ)
 
 D: Devo per forza disinstallare le app che causano questo problema?
+
 R: Non necessariamente. Spesso basta disattivare l'aggiornamento in background per quell'app specifica o svuotarne la cache interna dalle impostazioni di Android. Se il problema persiste anche dopo un aggiornamento dell'app stessa, allora valuta la rimozione definitiva.
 
 D: Le applicazioni "Task Killer" o "Battery Saver" di terze parti servono a qualcosa?
+
 R: Onestamente? Nella maggior parte dei casi fanno più danno che bene. Le versioni moderne di One UI gestiscono la RAM e il risparmio energetico in modo eccellente. Le app esterne che chiudono continuamente i processi costringono il processore a un lavoro extra per riaprirli, peggiorando il surriscaldamento.
 
 D: Come capisco se il problema è software o se la batteria è ormai da sostituire?
+
 R: Se il telefono scalda e consuma molto solo quando usi determinate app o quando è connesso a reti mobili instabili, è un problema software o di segnale. Se invece la batteria scende vertiginosamente anche con il telefono in modalità aereo e spento per metà, allora siamo di fronte a una cella agli ioni di litio degradata che richiede una sostituzione fisica in laboratorio.

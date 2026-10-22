@@ -52,7 +52,9 @@ We willen dat de Donkere Modus automatisch inschakelt op basis van een trigger�
   5. Zet de schakelaar *Vraag vóór uitvoeren* uit, zodat het geruisloos op de achtergrond draait. Tik op *Gereed*.
 
 * Voor Android-gebruikers (Via Routines / Tasker):
-  1. Ga naar *Instellingen > Standen en routines* (Modes and Routines - standaard op o.a. Samsung One UI).
+  1. Ga naar *Instellingen > Standen en routines* (Modes and Routines - standaard op o.
+
+a. Samsung One UI).
   2. Maak een nieuwe routine aan via de + knop.
   3. Kies bij 'Als' (Trigger): Wanneer Persoonlijke hotspot wordt ingeschakeld (of gebruik een locatie- / tijdsgebonden trigger zoals je gemiddelde reistijd ‘s ochtends).
   4. Kies bij 'Dan' (Actie): *Functies aanpassen > Donkere modus* en zet deze op Aan. Sla de routine op.

@@ -80,10 +80,13 @@ Prima di chiudere la cover posteriore e rimettere il telefono in tasca, tieni a 
 ## FAQ Tecniche (Domande Frequenti dal Banco)
 
 Q1: L'automazione della Dark Mode consuma risorse in background?
+
 R: No. L'app Comandi Rapidi di iOS sfrutta i daemon nativi del sistema operativo già presenti nel kernel. L'impatto sul consumo della CPU è letteralmente pari allo 0%, a differenza dei widget meteo o delle app di personalizzazione di terze parti.
 
 Q2: Perché il mio schermo OLED mostra comunque una leggera luminosità nei neri al buio totale?
+
 R: È una caratteristica fisica dei pannelli OLED di tipo economico o non calibrati perfettamente sui livelli di tensione minimi (sub-pixel bleed). Tuttavia, con la Dark Mode attiva, il consumo energetico su quei pixel scende comunque a valori prossimi allo zero assoluto rispetto al bianco.
 
 Q3: Posso collegare l'automazione della Dark Mode direttamente all'attivazione dell'Hotspot Personale?
+
 R: Assolutamente sì. Nella schermata di creazione dell'automazione in Comandi Rapidi, puoi selezionare come trigger "Hotspot Personale attivo". In questo modo, ogni volta che accendi il tethering per il tuo laptop, l'iPhone si metterà automaticamente in modalità di risparmio visivo ed energetico spinto.

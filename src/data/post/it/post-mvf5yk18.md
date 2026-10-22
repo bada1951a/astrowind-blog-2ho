@@ -67,10 +67,13 @@ Nel mio lavoro vedo spesso telefoni buttati via non perché siano vecchi, ma per
 ### Domande Frequenti (FAQ)
 
 D: Continuare a usare un power bank che dà l'avviso di ricarica lenta danneggia la batteria del telefono?
+
 R: No, non direttamente. Paradossalmente, una ricarica lenta (a bassa potenza) genera meno calore e stress chimico sulle celle rispetto a una ricarica ultra-rapida. Il vero problema è che la corrente erogata è così bassa che, se usi il telefono mentre è collegato, rischi di assorbire più energia di quella che entra, scaricandolo comunque o stressando il circuito di ricarica.
 
 D: Come faccio a sapere se il mio power bank supporta la ricarica rapida prima di comprarne uno?
+
 R: Guarda sempre la scheda tecnica e cerca le sigle PD (Power Delivery) o QC (Quick Charge). Sull'etichetta di output dovresti leggere combinazioni di voltaggio e amperaggio superiori ai 18W, ad esempio `9V ⎂ 2.22A` (ottimo per iPhone) o `12V ⎂ 1.5A` (standard per molti Android).
 
 D: Ho pulito il connettore e cambiato cavo, ma l'avviso persiste. Cosa faccio?
+
 R: Se hai escluso cavo e porta di ricarica sporca, il problema potrebbe risiedere nel circuito di ricarica interno del telefono (spesso un integrato denominato Tristar/Hydra su iPhone o il chip PMIC su Android) oppure nella porta USB del power bank stesso che ha i pin interni usurati. Fai un salto in un laboratorio di fiducia per un test con un multimetro USB: sapremo dirti subito chi dei due non eroga il wattaggio promesso.

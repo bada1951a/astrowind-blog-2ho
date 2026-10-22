@@ -52,22 +52,14 @@ Nếu máy đã hồi phục phần nào cảm ứng, hãy vuốt thanh công c�
 
 ## Các câu hỏi thường gặp (FAQ)
 
-
-
 Q1. Điện thoại của tôi cứ ra nắng là tự giảm độ sáng dù tôi đã tắt tính năng Auto-Brightness, tại sao vậy?
-
-
 
 A1.Đó là cơ chế bảo vệ phần cứng bằng phần mềm của nhà sản xuất (như Apple, Samsung, Xiaomi). Dù bạn tắt tự động sáng, hệ thống vẫn có một lớp bảo vệ nền dựa trên nhiệt độ cảm biến nhiệt (Thermal Sensor). Khi nhiệt độ máy vượt ngưỡng giới hạn an toàn, hệ thống sẽ ép giảm độ sáng màn hình xuống mức thấp nhất để bảo vệ tấm nền màn hình không bị ám vàng hoặc cháy điểm ảnh.
 
 Q2. Tình trạng quá nhiệt này có làm hỏng pin hoặc giảm tuổi thọ điện thoại không?
 
-
-
 A2.Có. Nhiệt độ kẻ thù số một của pin Li-ion. Việc điện thoại thường xuyên bị quá nhiệt ngoài trời sẽ làm pin bị phù (phồng), chai nhanh chóng và làm keo dán màn hình bị hở. Nếu máy của bạn thường xuyên bị tình trạng này, bạn nên mang ra tiệm kiểm tra tình trạng keo tản nhiệt bên trong chip hoặc thay pin nếu pin đã cũ.
 
 Q3. Tôi có nên dán các loại kính cường lực chống chói hay kính tản nhiệt để giải quyết triệt để vấn đề này không?
-
-
 
 A3. Kính cường lực chống chói (Matte Glass) có thể giúp giảm bớt cảm giác chói lóa và hấp thụ phần nào ánh sáng trực tiếp, nhưng nó không giải quyết được vấn đề tản nhiệt của vi xử lý bên trong. Cách tốt nhất vẫn là sử dụng hợp lý, tránh để máy tiếp xúc trực tiếp với ánh nắng gắt trong thời gian dài.

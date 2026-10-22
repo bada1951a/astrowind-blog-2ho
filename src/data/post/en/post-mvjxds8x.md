@@ -61,22 +61,14 @@ When your phone acts up in the heat, amateur fixes can permanently destroy your 
 
 ## Frequently Asked Questions (FAQ)
 
-
-
 Q1. Will removing my screen protector help my phone stay cooler in the sun?
-
-
 
 A1.If you use a thick, low-quality tempered glass protector with poor thermal conductivity layers, yes. It can trap heat between the display glass and the protector. Switching to a high-transparency, ultra-thin film can slightly improve heat dissipation.
 
 Q2. Is it safe to use air conditioning vents in my car to cool my overheating phone?
 
-
-
 A2.You can cool it indirectly, but avoid placing a blazing hot phone directly against a freezing cold AC vent. The sudden thermal shock can cause display delamination or moisture condensation inside the camera lenses.
 
 Q3. Why does my phone dim even when it feels only mildly warm?
-
-
 
 A3. Modern smartphones monitor internal silicon chip temperatures, not just external body warmth. If you are using high-brightness outdoor modes while connected to 5G networks, internal chip temperatures skyrocket long before the outer glass feels uncomfortable to touch.
