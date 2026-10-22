@@ -41,36 +41,24 @@ function getKstPublishDateIso(index) {
 }
 
 // =========================================================================
-// 본문 마크다운 별표(**) 및 FAQ 붙어 깨짐 현상 원천 정제 함수 (완벽 강화 버전)
+// 본문 마크다운 볼드(**) 기호 완전 제거 및 FAQ 줄바꿈 정제 함수 (최종 수정본)
 // =========================================================================
 function sanitizeMarkdownFormatting(content) {
   let cleaned = content;
 
-  cleaned = cleaned.replace(/\*{3,}/g, '**');
-  cleaned = cleaned.replace(/\*\*\[([^\]]+)\]\*\*/g, '[**$1**]');
-  cleaned = cleaned.replace(/\*\*"([^"]+)"\*\*/g, '"**$1**"');
-  cleaned = cleaned.replace(/\*\*'([^']+)'\*\*/g, '\'**$1**\'');
-  cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\s+\*\*/g, '**$1**');
-  cleaned = cleaned.replace(/\*\*\s+([^\*\n]+?)\*\*/g, '**$1**');
-  cleaned = cleaned.replace(/\*\*([^\*\n]+?)\s+\*\*/g, '**$1**');
+  // 1) Q와 A 사이에 문장이 붙어 있는 경우 강제 두 줄 개행
+  cleaned = cleaned.replace(/([^\n])\s*(Q[1-9]\.)/g, '$1\n\n$2');
+  cleaned = cleaned.replace(/([^\n])\s*(A[1-9]\.)/g, '$1\n\n$2');
 
-  // ⚡ FAQ 영역에서 Q와 A 사이에 공백이나 줄바꿈이 어떻게 꼬여 있든 완벽한 2줄 개행으로 강제 분리
+  // 2) FAQ 영역에서 Q와 A 블록이 꼬인 경우 완벽한 2줄 개행으로 정제
   cleaned = cleaned.replace(/\*\*Q([0-9]+)\.\s*([\s\S]*?)\*\*A\1\./g, (match, qNum, qText) => {
-    return `**Q${qNum}. ${qText.trim()}**\n\n**A${qNum}.**`;
+    return `Q${qNum}. ${qText.trim()}\n\nA${qNum}.`;
   });
 
-  const lines = cleaned.split('\n');
-  const fixedLines = lines.map(line => {
-    if (line.trim().startsWith('```') || line.trim().startsWith('`')) return line;
-    const matches = line.match(/\*\*/g);
-    if (matches && matches.length % 2 !== 0) {
-      const lastIdx = line.lastIndexOf('**');
-      return line.slice(0, lastIdx) + line.slice(lastIdx + 2);
-    }
-    return line;
-  });
+  // 3) 골칫거리인 모든 마크다운 볼드(**) 기호를 완전히 제거 (대제목/소제목 #은 안전하게 유지됨)
+  cleaned = cleaned.replace(/\*\*/g, '');
 
-  return fixedLines.join('\n');
+  return cleaned;
 }
 
 if (!fs.existsSync(TOPICS_FILE)) {
@@ -233,9 +221,7 @@ ${currentTopic}
 
 [STRICT MARKDOWN & FORMATTING RULES - NO RENDERING GLITCHES]
 1. BOLD FORMATTING RULE:
-    - Standard markdown bold is strictly: **Word**
-    - NEVER put brackets or quotes inside asterisks (FORBIDDEN: **[Word]**, **"Word"**). Instead write: [**Word**] or "**Word**".
-    - NEVER leave space inside asterisks (FORBIDDEN: ** Word **).
+    - Absolutely DO NOT use markdown bold asterisks anywhere in the body text or FAQ. Keep all text in plain standard format.
 2. COMMANDS & CODE BLOCKS:
     - Always wrap long technical terms, test codes (e.g. *#0*#), or shell snippets in standard 3-backtick code blocks (\`\`\`bash or \`\`\`cmd).
 3. NO LATEX & NO TILDE:
@@ -266,7 +252,7 @@ ${currentTopic}
 2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
 3. Step-by-Step Resolution: Actionable, safe diagnostic and cleaning/inspection steps.
 4. Expert Warning / Safety Tip: Crucial warnings on battery safety, pin deformation, or liquid contact.
-5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask. (CRITICAL: Every Q and A must start on a fresh new line with proper markdown bolding like **Q1. ...** and **A1.**).
+5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask. (CRITICAL: Every Q and A must start on a fresh new line without markdown bolding like Q1. ... and A1.).
 
 [Length & Richness Rules]
 - Korean (ko): Minimum 2,500 characters of rich, deep, non-repetitive text.
@@ -311,20 +297,16 @@ theme: "${selectedTheme.name}"
       let body = text.slice(frontmatter.length).trim();
       body = body.replace(/^#\s+[^\n]+\n+/, '');
 
-      // 2호기 영구 고정 단일 카테고리: life-tech (Slug 규격)
       frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'life-tech'")
                                .replace(/category:\s*[^\n\r]+/i, "category: 'life-tech'");
 
-      // Cloudflare 빌드 실패 및 날짜 밀림 방지: 정확한 KST 기반 ISO 날짜 강제 주입
       frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
 
-      // 대표 이미지 경로 강제 동기화
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // 본문 별표(**) 및 FAQ 서식 오류 정제
+      // 본문 별표(**) 제거 및 FAQ 서식 정제 적용
       body = sanitizeMarkdownFormatting(body);
 
-      // 이미지 alt 텍스트 특수문자 제거 방어 로직 (마크다운 깨짐 방지)
       const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
       const middleImageMarkdown = `\n\n![${safeAlt} Mobile Repair Guide](${bodyUrl})\n\n`;
 
