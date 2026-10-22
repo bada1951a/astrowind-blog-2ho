@@ -41,22 +41,34 @@ function getKstPublishDateIso(index) {
 }
 
 // =========================================================================
-// 본문 마크다운 볼드(**) 기호 완전 제거 및 FAQ 줄바꿈 정제 함수 (최종 수정본)
+// 본문 마크다운 볼드(**) 기호 완전 제거 및 다국어 공백/줄바꿈 완벽 정제 함수 (최종 완성본)
 // =========================================================================
 function sanitizeMarkdownFormatting(content) {
   let cleaned = content;
 
-  // 1) Q와 A 사이에 문장이 붙어 있는 경우 강제 두 줄 개행
-  cleaned = cleaned.replace(/([^\n])\s*(Q[1-9]\.)/g, '$1\n\n$2');
-  cleaned = cleaned.replace(/([^\n])\s*(A[1-9]\.)/g, '$1\n\n$2');
-
-  // 2) FAQ 영역에서 Q와 A 블록이 꼬인 경우 완벽한 2줄 개행으로 정제
-  cleaned = cleaned.replace(/\*\*Q([0-9]+)\.\s*([\s\S]*?)\*\*A\1\./g, (match, qNum, qText) => {
-    return `Q${qNum}. ${qText.trim()}\n\nA${qNum}.`;
+  // 1) Gukuraho ibimenyetso byose bya bold (**)
+  const lines = cleaned.split('\n');
+  const clearedLines = lines.map(line => {
+    let trimmed = line.trim();
+    if (trimmed === '**') return '';
+    if (trimmed.startsWith('```') || trimmed.startsWith('`')) return line;
+    return line.replace(/\*\*/g, '');
   });
+  cleaned = clearedLines.join('\n');
 
-  // 3) 골칫거리인 모든 마크다운 볼드(**) 기호를 완전히 제거 (대제목/소제목 #은 안전하게 유지됨)
-  cleaned = cleaned.replace(/\*\*/g, '');
+  // 2) Gushyiramo umwanya nyuma y'ikimenyetso cy'ikibazo (?) niba ijambo ryakurikiyeho ryegeranye
+  cleaned = cleaned.replace(/([?])([A-ZÀ-ÖØ-ßa-zà-öø-ÿ])/g, '$1 $2');
+
+  // 3) Gutandukanya interuro irangiye n'umubare w'ikibazo ukurikira (urugero: "sprzętu.2." -> "sprzętu.\n\n2.")
+  cleaned = cleaned.replace(/([.?!])\s*([0-9]+\.\s+[A-ZÀ-ÖØ-ßa-zà-öø-ÿ])/g, '$1\n\n$2');
+
+  // 4) Gushyiramo imirongo ibiri y'umwanya ku magambo atangira ibisubizo cyangwa ibibazo
+  cleaned = cleaned.replace(/([.?!])\s+(Najskuteczniejszą|Podłączyłem|To klasyczny|Czy narzędzie|W Windows|Co zrobić|Que faire|¿Qué|Miin|Kan|Zagrożenie|Warto|Przypadku|Ważne|Hiện tượng|Sau mỗi|Tại sao)/g, '$1\n\n$2');
+
+  // 5) Gutunganya Q na A hamwe n'ibimenyetso by'izindi ndimi (D:, R:)
+  cleaned = cleaned.replace(/([^\n])\s*(Q[1-9]\.|R[1-9]\.|A[1-9]\.)/g, '$1\n\n$2');
+  cleaned = cleaned.replace(/([.?!])\s*(D:|Q[0-9]*\.|Domande)/gi, '$1\n\n$2');
+  cleaned = cleaned.replace(/([.?!])\s*(R:|Risposta|A[0-9]*\.)/gi, '$1\n\n$2');
 
   return cleaned;
 }
@@ -149,7 +161,7 @@ const THEME_PRESETS = [
 const TARGET_LANGS = [
   { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상 및 직장 오피스' },
   { code: 'en', name: 'English', persona: 'Expert mobile repair technician and smartphone specialist', localeContext: 'Metropolitan US tech workplace & everyday commuting' },
-  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシューティングの専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
+  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシュー팅の専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
   { code: 'de', name: 'German', persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker', localeContext: 'Berlin / München Unternehmens- und Alltagsalltag' },
   { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense et environnement urbain quotidien' },
   { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid y centros corporativos urbanos' },
@@ -185,7 +197,7 @@ async function generateSinglePost(lang, index) {
   const selectedScenario = MOBILE_CRISIS_SCENARIOS_30[Math.floor(Math.random() * MOBILE_CRISIS_SCENARIOS_30.length)];
 
   console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 포스팅 생성 중... (적용 테마: ${selectedTheme.name})`);
-  console.log(`   🎭 선택된 모바일 위기 시나리오: "${selectedScenario.slice(0, 30)}..."`);
+  console.log(`    🎭 선택된 모바일 위기 시나리오: "${selectedScenario.slice(0, 30)}..."`);
 
   const { coverUrl, bodyUrl } = getPostImages(currentTopic, index);
   const pubDateIso = getKstPublishDateIso(index);
@@ -249,7 +261,7 @@ ${currentTopic}
 
 [Content & Structure (AdSense E-E-A-T Compliant)]
 1. Opening Story: Intense real-life incident strictly regarding this topic based on the assigned scenario.
-2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
+ 2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
 3. Step-by-Step Resolution: Actionable, safe diagnostic and cleaning/inspection steps.
 4. Expert Warning / Safety Tip: Crucial warnings on battery safety, pin deformation, or liquid contact.
 5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask. (CRITICAL: Every Q and A must start on a fresh new line without markdown bolding like Q1. ... and A1.).
@@ -304,7 +316,7 @@ theme: "${selectedTheme.name}"
 
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // 본문 별표(**) 제거 및 FAQ 서식 정제 적용
+      // Gukoresha uburyo buhamye bwo gusukura inyandiko
       body = sanitizeMarkdownFormatting(body);
 
       const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
