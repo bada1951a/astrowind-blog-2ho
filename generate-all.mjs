@@ -39,8 +39,8 @@ function sanitizeMarkdownFormatting(content) {
   // 1) Gukuraho ibimenyetso by'umubyimba (**)
   cleaned = cleaned.replace(/\*\*/g, '');
 
-  // 2) Gukosora ibimenyetso by'ikibazo by'Icyesipanyoli (¿, ¡)
-  cleaned = cleaned.replace(/([.?!])\s*([¿¡])/g, '$1\n\n$2');
+  // 2) Gukosora ibimenyetso by'Icyesipanyoli (¿, ¡) hatarebwe ku mibare y'urutonde (1., 2.)
+  cleaned = cleaned.replace(/([^0-9][.?!])\s*([¿¡])/g, '$1\n\n$2');
 
   // 3) Gushyiramo umwanya nyuma y'ikibazo niba kigiye ku magambo
   cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9가-힣])/g, '? $1');
