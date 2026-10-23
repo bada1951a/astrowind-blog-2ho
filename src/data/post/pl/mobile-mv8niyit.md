@@ -16,18 +16,13 @@ Zamiast tracić nerwy na ręczne przestleianie jasności i motywów za każdym r
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-478/1000/550)
 
 <div style="border-left: 4px solid #14b8a6; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Diagnostyka Modułu:</strong> Poniższy protokół bazuje na analizie zachowania szyny danych i częstotliwości odświeżania podświetlenia pod kątem minimalizacji degradacji pikseli organicznych w warunkach zmiennego oświetlenia otoczeni
-
-a.
-</div>
+<strong>Diagnostyka Modułu:</strong> Poniższy protokół bazuje na analizie zachowania szyny danych i częstotliwości odświeżania podświetlenia pod kątem minimalizacji degradacji pikseli organicznych w warunkach zmiennego oświetlenia otoczenia. </div>
 
 ## Dlaczego domyślne ustawienia niszczą Twój ekran i baterię?
 
 Zanim przejdziemy do konfiguracji, spójrzmy prawdzie w oczy – fabryczne mechanizmy Apple rzadko nadają się do dynamicznego życia w trasie. Oto trzy główne powody, przez które Twój telefon cierpi:
 
-1. Wypalanie statyczne pikseli (Burn-in): Jasne tła w aplikacjach biurowych i przeglądarkach przez długie godziny trwale degradują niebieskie subpiksele w matrycach OLED. Wymiana ekranu w nowszych iPhone'ach to koszt dobrego monitor
-
-a.
+1. Wypalanie statyczne pikseli (Burn-in): Jasne tła w aplikacjach biurowych i przeglądarkach przez długie godziny trwale degradują niebieskie subpiksele w matrycach OLED. Wymiana ekranu w nowszych iPhone'ach to koszt dobrego monitora.
 
 2. Brutalny drenaż ogniw
 
@@ -39,11 +34,7 @@ a: Ekran OLED zużywa energię proporcjonalnie do liczby zaświeconych pikseli. 
 
 ## Krok po kroku: Konfiguracja automatyzacji trybu ciemnego i ochrony wzroku
 
-Nie będziemy polegać na zwykłym harmonogramie "od zachodu do wschodu słońca", bo w podróży czas i miejsce ulegają ciągłej zmianie. Użyдим aplikacji Skróty (Shortcuts), aby spiąć to z fizycznym stanem urządzeni
-
-a.
-
-### Krok 1: Sprawdzenie ustawień sieciowych i synchronizacji
+Nie będziemy polegać na zwykłym harmonogramie "od zachodu do wschodu słońca", bo w podróży czas i miejsce ulegają ciągłej zmianie. Użyдим aplikacji Skróty (Shortcuts), aby spiąć to z fizycznym stanem urządzenia. ### Krok 1: Sprawdzenie ustawień sieciowych i synchronizacji
 Zanim dotkniemy automatyzacji, upewnijmy się, że system nie zmaga się z backgroundową synchronizacją, która podgrzewa procesor. Wejdź w Ustawienia > Ogólne > Odświeżanie w tle i wyłącz aplikacje, których nie musisz widzieć na żywo w podróży. Jeśli sieć w pociągu wariuje, zrób szybki restart: Ustawienia > Ogólne > Przenieś lub wyzeruj iPhone'a > Wyzeruj > Zresetuj ustawienia sieciowe.
 
 ### Krok 2: Tworzenie inteligentnej automatyzacji w aplikacji Skróty
@@ -73,11 +64,7 @@ a:</strong> Pamiętaj o dodaniu drugiej, odwrotnej automatyzacji dla zdarzenia "
 
 ## Profesjonalne porady serwisowe (E-E-A-T)
 
-Jako osoba, która przez lata przeszła przez setki napraw płyt głównych i wymian ekranów, muszę uczulić Cię na jedną rzecz. Korzystanie z telefonu podłączonego do powerbanku podczas intensywnego tetheringu w pociągu generuje ogromne ilości ciepł
-
-a. 
-
-* Kontrola temperatury: Połączenie wysokiej jasności ekranu, modemu 5G pracującego na pełnej mocy w ruchu oraz ładowania indukcyjnego lub przewodowego to najszybszy sposób na degradację chemiczną ogniwa litowo-jonowego. Jeśli zauważysz, że plecki iPhone'a parzą w ręce, odłącz ładowanie na 10 minut.
+Jako osoba, która przez lata przeszła przez setki napraw płyt głównych i wymian ekranów, muszę uczulić Cię na jedną rzecz. Korzystanie z telefonu podłączonego do powerbanku podczas intensywnego tetheringu w pociągu generuje ogromne ilości ciepła. * Kontrola temperatury: Połączenie wysokiej jasności ekranu, modemu 5G pracującego na pełnej mocy w ruchu oraz ładowania indukcyjnego lub przewodowego to najszybszy sposób na degradację chemiczną ogniwa litowo-jonowego. Jeśli zauważysz, że plecki iPhone'a parzą w ręce, odłącz ładowanie na 10 minut.
 * Pamięć podręczn
 
 a: Regularnie czyść pamięć podręczną przeglądarek mobilnych. Nadmiar danych w tle połączony z niestabilnym sygnałem komórkowym w pociągu potrafi zajechać procesor szybciej niż granie w gry 3D.

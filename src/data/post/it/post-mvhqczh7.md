@@ -9,9 +9,7 @@ theme: "Sunset Horizon Coral"
 ---
 
 
-Sono le 17:30, mi trovo nel mio laboratorio qui in pieno centro direzionale a Milano, e la scena si ripete identica per la terza volta oggi. Entra un cliente in preda al panico totale: "Ho fatto l'ultimo aggiornamento iOS ieri sera e stamattina il telefono mi si spegne dopo due ore, persino mentre è in tasca e non lo sto usando!". La percentuale della batteria crolla a vista d'occhio, il telefono è tiepido e la giornata lavorativa è ancora lung
-
-a. Il panico da batteria scarica è una realtà quotidiana, specialmente dopo un update importante del sistema operativo. 
+Sono le 17:30, mi trovo nel mio laboratorio qui in pieno centro direzionale a Milano, e la scena si ripete identica per la terza volta oggi. Entra un cliente in preda al panico totale: "Ho fatto l'ultimo aggiornamento iOS ieri sera e stamattina il telefono mi si spegne dopo due ore, persino mentre è in tasca e non lo sto usando!". La percentuale della batteria crolla a vista d'occhio, il telefono è tiepido e la giornata lavorativa è ancora lunga. Il panico da batteria scarica è una realtà quotidiana, specialmente dopo un update importante del sistema operativo. 
 
 In questo articolo ti spiego esattamente cosa sta succedendo dentro il tuo iPhone e quali sono i passaggi reali, testati sul campo dal mio banco di lavoro, per riportare l'autonomia ai livelli normali senza fare danni.
 
@@ -27,9 +25,7 @@ In questo articolo ti spiego esattamente cosa sta succedendo dentro il tuo iPhon
 
 Prima di mettere mano alle impostazioni o correre a comprare un power bank, capiamo cosa sta mandando in tilt l'hardware. Nel mio lavoro diagnostico quotidiano, isolo quasi sempre il problema in tre macro-aree:
 
-1. Re-indicizzazione Spotlight e Foto: iOS sta ricostruendo l'intero database del telefono (foto, contatti, messaggi, note). Questo sforzo computazionale tiene i core del processore al massimo regime, generando calore e consumando energia pur
-
-a.
+1. Re-indicizzazione Spotlight e Foto: iOS sta ricostruendo l'intero database del telefono (foto, contatti, messaggi, note). Questo sforzo computazionale tiene i core del processore al massimo regime, generando calore e consumando energia pura.
 
 2. Bug di sincronizzazione iCloud e app terze: Molte applicazioni non sono ancora perfettamente ottimizzate per le nuove API del nuovo iOS. Continuano a richiedere dati in background, generando un ciclo continuo di risveglio della CPU (wake locks).
 
@@ -69,10 +65,7 @@ Per darti un'idea chiara di cosa aspettarti dal nostro intervento di ottimizzazi
 | Stabilità percentuale batteria | Salti improvvisi (es. dal 40% al 15%) | Lineare e costante |
 
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(249, 115, 22, 0.08); border-radius: 4px; color: #111827;">
-<strong>Attenzione alla ricarica!</strong> Quando l'iPhone si scalda a causa di un bug post-aggiornamento, la protezione termica interna rallenta drasticamente la ricarica rapida per evitare danni alle celle al litio. Non preoccuparti se sembra caricarsi lentamente: è una misura di sicurezza integrat
-
-a.
-</div>
+<strong>Attenzione alla ricarica!</strong> Quando l'iPhone si scalda a causa di un bug post-aggiornamento, la protezione termica interna rallenta drasticamente la ricarica rapida per evitare danni alle celle al litio. Non preoccuparti se sembra caricarsi lentamente: è una misura di sicurezza integrata. </div>
 
 ---
 
@@ -88,6 +81,4 @@ R: Assolutamente falso. La modalità di risparmio energetico limita semplicement
 
 D: Come faccio a capire se il problema è l'aggiornamento o se la batteria è semplicemente guasta?
 
-R: Se la percentuale della batteria scende a blocchi netti (ad esempio passa di colpo dal 30% al 5% e poi si spegne) o se il telefono si spegne improvvisamente pur segnando il 20% di carica residua, siamo di fronte a un degrado chimico della batteria che richiede la sostituzione fisica del componente nel nostro centro assistenz
-
-a.
+R: Se la percentuale della batteria scende a blocchi netti (ad esempio passa di colpo dal 30% al 5% e poi si spegne) o se il telefono si spegne improvvisamente pur segnando il 20% di carica residua, siamo di fronte a un degrado chimico della batteria che richiede la sostituzione fisica del componente nel nostro centro assistenza. 

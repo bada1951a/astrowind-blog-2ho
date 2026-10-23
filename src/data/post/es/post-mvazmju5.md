@@ -11,22 +11,10 @@ theme: "Deep Ocean Cobalt"
 
 Eran las 17:50 en nuestra oficina de Madrid, con la tensión cortándose en el ambiente a diez minutos de enviar el informe trimestral definitivo al cliente. Tenía todas las métricas abiertas en mi Samsung Galaxy, listo para hacer la última revisión y sincronizarlo con el ordenador, cuando de repente... la pantalla táctil se congeló por completo. Mis dedos pasaban de un lado a otro y el sistema ignoraba cada estímulo. Intenté apagarlo deslizando el menú superior, pero el panel táctil era un ladrillo inútil. El sudor frío empezó a correr por mi frente: si sacaba la bandeja SIM o intentaba un reseteo de fábrica a ciegas, perdería los borradores locales que aún no se habían subido a la nube.
 
-Al principio, el pánico me ganó. Empecé a presionar botones al azar, conecté y desconecté el cable USB al portátil pensando que era un fallo de energía, e incluso barajé la desesperada opción de dejar que la batería se agotara sola, lo cual habría tomado horas que no tení
+Al principio, el pánico me ganó. Empecé a presionar botones al azar, conecté y desconecté el cable USB al portátil pensando que era un fallo de energía, e incluso barajé la desesperada opción de dejar que la batería se agotara sola, lo cual habría tomado horas que no tenía. Ninguno de esos intentos sirvió de nada; el dispositivo seguía bloqueado y el tiempo corría implacable en mi contra. ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget141/1000/550)
 
-a. Ninguno de esos intentos sirvió de nada; el dispositivo seguía bloqueado y el tiempo corría implacable en mi contr
-
-a.
-
-![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget141/1000/550)
-
-Por suerte, recordé el procedimiento de emergencia que utilizamos los técnicos de soporte para forzar un reinicio físico a nivel de hardware sin alterar ni un solo byte de los datos del usuario. Es una combinación de botones que corta la energía de la placa base de forma segura, obligando al sistema operativo a reiniciarse limpio. Aquí te explico exactamente cómo lo hice para salvar la entreg
-
-a.
-
-<div style="border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Aviso importante:</strong> Este método de fuerza bruta simula la desconexión de la batería físic
-
-a. No borra fotos, documentos, aplicaciones ni configuraciones. Es completamente seguro para tus archivos.
+Por suerte, recordé el procedimiento de emergencia que utilizamos los técnicos de soporte para forzar un reinicio físico a nivel de hardware sin alterar ni un solo byte de los datos del usuario. Es una combinación de botones que corta la energía de la placa base de forma segura, obligando al sistema operativo a reiniciarse limpio. Aquí te explico exactamente cómo lo hice para salvar la entrega. <div style="border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
+<strong>Aviso importante:</strong> Este método de fuerza bruta simula la desconexión de la batería física. No borra fotos, documentos, aplicaciones ni configuraciones. Es completamente seguro para tus archivos.
 </div>
 
 ## ¿Por qué se congela la pantalla táctil de un Samsung Galaxy?
@@ -63,9 +51,9 @@ Mantén pulsados simultáneamente el Botón de Encendido y el Botón de Bajar Vo
 No sueltes los botones hasta que la pantalla se ponga completamente negra y aparezca el logotipo animado de Samsung Galaxy. En ese preciso instante, puedes soltarlos.
 
 ### Paso 4: Verifica la integridad de tus datos
-Deja que el terminal complete el arranque habitual. Introduce tu PIN o contraseña de desbloqueo (que volverá a aceptar el tacto sin problemas) y comprueba que toda tu información, notas e informes siguen intactos en la memoria intern
+Deja que el terminal complete el arranque habitual. Introduce tu PIN o contraseña de desbloqueo (que volverá a aceptar el tacto sin problemas) y comprueba que toda tu información, notas e informes siguen intactos en la memoria interna.
 
-a. ¡Listo para enviar el archivo!
+¡Listo para enviar el archivo!
 
 ---
 

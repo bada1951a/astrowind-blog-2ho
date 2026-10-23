@@ -24,17 +24,13 @@ Klient już panikuje, że płyta główna do wymiany, a dane przepadną. Spokojn
 
 ### 2. Trzy najczęstsze przyczyny: Dlaczego ładowarka mruga i odmawia współpracy?
 
-Zanim przejdziemy do naprawy, musimy zrozumieć, z kim mamy do czynieni
-
-a. Bezprzewodowe przesyłanie energii to czysta fizyka – elektromagnetyzm. Jeśli cewka nadawcza (w ładowarce) i cewka odbiorcza (w pleckach telefonu) nie miną się chociażby o kilka milimetrów, układ zabezpieczający odcina prąd, żeby nie uszkodzić sprzętu. Oto winowajcy, z którymi stykam się codziennie w warsztacie:
+Zanim przejdziemy do naprawy, musimy zrozumieć, z kim mamy do czynienia. Bezprzewodowe przesyłanie energii to czysta fizyka – elektromagnetyzm. Jeśli cewka nadawcza (w ładowarce) i cewka odbiorcza (w pleckach telefonu) nie miną się chociażby o kilka milimetrów, układ zabezpieczający odcina prąd, żeby nie uszkodzić sprzętu. Oto winowajcy, z którymi stykam się codziennie w warsztacie:
 
 1. Rozjechanie się cewek (Brak osiowości): Najczęstszy grzech użytkowników. Położyłeś telefon lekko ukośnie, za wysoko albo za nisko na padzie ładującym. Magnesy w MagSafe (w przypadku Apple) pomagają, ale zwykłe ładowarki Qi wymagają milimetrowej precyzji. Jeśli środek ciężkości telefonu uciekł, pole magnetyczne słabnie, a ładowarka sygnalizuje błąd (mruganiem).
 
 2. Grube, pancerne lub metalowe etui: Chcesz chronić telefon, więc kupiłeś pancerną obudowę z pancernymi wstawkami, pierścieniem na palec albo – co gorsza – metalową blaszką do uchwytu samochodowego. Metal doskonale ekranuje fale elektromagnetyczne! Ładowarka myśli, że na jej blacie leży klucz albo moneta, więc panicznie mruga i przerywa ładowanie.
 
-3. Zabrudzenia i zakłócenia termiczne (Thermal Throttling): Kurz, drobiny piasku na powierzchni ładowarki albo przegrzewanie się ogniw
-
-a. Jeśli telefon lub sama ładowarka mocno się nagrzeją podczas próby ładowania, wbudowane czujniki temperatury natychmiast odcinają prąd, co objawia się miganiem diody kontrolnej.
+3. Zabrudzenia i zakłócenia termiczne (Thermal Throttling): Kurz, drobiny piasku na powierzchni ładowarki albo przegrzewanie się ogniwa. Jeśli telefon lub sama ładowarka mocno się nagrzeją podczas próby ładowania, wbudowane czujniki temperatury natychmiast odcinają prąd, co objawia się miganiem diody kontrolnej.
 
 ---
 
@@ -43,9 +39,7 @@ a. Jeśli telefon lub sama ładowarka mocno się nagrzeją podczas próby ładow
 W moim serwisie zawsze zaczynamy od najprostszych metod metodą eliminacji. Zróbmy małe domowe warsztaty – przygotuj ściereczkę z mikrofibry i odrobinę alkoholu izopropylowego (IPA), jeśli masz pod ręką.
 
 #### Krok 1: Oczyszczenie pola bitwy
-Zdejmij telefon z ładowarki. Obejrzyj powierzchnię blatu ładującego oraz tył smartfon
-
-a. Brud, tłuszcz z palców czy drobinki kurzu potrafią stworzyć mikro-dystans, który zakłóca indukcję. Przetrzyj obie powierzchnie ściereczką nasączoną alkoholem IP
+Zdejmij telefon z ładowarki. Obejrzyj powierzchnię blatu ładującego oraz tył smartfona. Brud, tłuszcz z palców czy drobinki kurzu potrafią stworzyć mikro-dystans, który zakłóca indukcję. Przetrzyj obie powierzchnie ściereczką nasączoną alkoholem IP
 
 A. Odczekaj minutę, aż wszystko idealnie wyschnie.
 
@@ -62,11 +56,7 @@ Połóż telefon na ładowarce i powoli przesuń go o 2-3 milimetry w górę, w 
 #### Krok 4: Test zasilacza ściennego (Prąd o zmiennej specyfikacji)
 Bardzo często ładowarka mruga nie dlatego, że cewki są źle ułożone, ale dlatego, że dostaje za mało prądu ze zwykłej ładowarki od starego iPhone'a (5W). Upewnij się, że Twój zasilacze w gniazdku to minimum szybka ładowarka PD (Power Delivery) 18W / 20W lub Quick Charge 3.
 
-0. Bez stabilnego źródła prądu indukcja nie zadział
-
-a.
-
----
+0. Bez stabilnego źródła prądu indukcja nie zadziała. ---
 
 ### 4. Porady ekspert
 
@@ -88,9 +78,7 @@ Q1: Telefon ładuje się bezprzewodowo tylko wtedy, gdy leży w jednej, konkretn
 *Odp:* To znak, że cewki wewnątrz telefonu (lub samej ładowarki) poluzowały się na skutek upadku urządzenia, albo pierścień magnetyczny wewnątrz obudowy telefonu się przesunął. Jeśli telefon upadł Ci niedawno, magnesy trzymające cewkę mogły się odkleić. Pomaga wizyta w serwisie i ponowne osadzenie modułu indukcyjnego na taśmie montażowej.
 
 Q2: Dlaczego moja ładowarka indukcyjna mruga na żółto/czerwono w nocy, mimo że wieczorem telefon ładował się normalnie?
-*Odp:* Najprawdopodobniej uruchomiła się funkcja optymalizacji ładowania baterii w systemie operacyjnym (np. ochrona przed przeładowaniem w iOS lub Samsung Care), albo telefon przeszedł w stan głębokiego uśpienia, a ładowarka wykryła pełne naładowanie i zmieniła tryb pracy (choć częściej po prostu gaśnie). Inna opcja to nocne wahania napięcia w sieci elektrycznej w starej kamienicy czy bloku – czuła ładowarka odcina wtedy zasilanie z powodów bezpieczeństw
-
-a.
+*Odp:* Najprawdopodobniej uruchomiła się funkcja optymalizacji ładowania baterii w systemie operacyjnym (np. ochrona przed przeładowaniem w iOS lub Samsung Care), albo telefon przeszedł w stan głębokiego uśpienia, a ładowarka wykryła pełne naładowanie i zmieniła tryb pracy (choć częściej po prostu gaśnie). Inna opcja to nocne wahania napięcia w sieci elektrycznej w starej kamienicy czy bloku – czuła ładowarka odcina wtedy zasilanie z powodów bezpieczeństwa.
 
 Q3: Czy grube etui ze skórą lub silikonem zawsze uniemożliwiają ładowanie indukcyjne?
 *Odp:* Zależy od grubości. Cienkie etui silikonowe (do 2-3 mm) zazwyczaj przepuszczają fale magnetyczne bez problemu, choć czas ładowania wydłuża się o około 20-30%. Grube kabury skórzane, etui z klapką, portfele na karty kredytowe (UWAG

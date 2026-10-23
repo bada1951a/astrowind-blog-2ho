@@ -27,11 +27,7 @@ Para entender qué falló en ese momento de máxima tensión, hay que mirar bajo
 
 2. Conflicto de procesos en segundo plano: Una sincronización fallida con iCloud combinada con la recepción masiva de datos en aplicaciones de mensajería puede congelar el hilo principal del procesador.
 
-3. Bucle en el controlador táctil (Digitizer IC): El componente físico encargado de traducir tus pulsaciones dactilares a coordenadas digitales deja de comunicarse con la placa base debido a una excepción de software no controlad
-
-a.
-
----
+3. Bucle en el controlador táctil (Digitizer IC): El componente físico encargado de traducir tus pulsaciones dactilares a coordenadas digitales deja de comunicarse con la placa base debido a una excepción de software no controlada. ---
 
 ### Pasos exactos para realizar el Reinicio Forzado
 
@@ -43,9 +39,7 @@ Olvida los mitos de meter el teléfono en arroz o esperar milagros. Dependiendo 
 
 2. Pulsa y suelta rápidamente el botón de Bajar volumen.
 
-3. Mantén presionado el botón lateral (encendido) de forma continuad
-
-a. No lo sueltes aunque aparezca el deslizador de apagar. Ignóralo por completo y sigue sujetándolo.
+3. Mantén presionado el botón lateral (encendido) de forma continuada. No lo sueltes aunque aparezca el deslizador de apagar. Ignóralo por completo y sigue sujetándolo.
 
 4. Espera a que la pantalla se apague por completo y aparezca el logotipo de Apple (la manzana mordida). En ese preciso instante, puedes soltar el botón lateral.
 
@@ -71,13 +65,17 @@ a: Un uso intensivo conectado al cargador rápido mientras editas documentos pes
 
 ### Preguntas Frecuentes (FAQ)
 
-1. ¿Perderé mis fotos, mensajes o documentos si hago un reinicio forzado?
+1.
+
+¿Perderé mis fotos, mensajes o documentos si hago un reinicio forzado?
 No, en absoluto. El reinicio forzado es simplemente un apagado y encendido en frío a nivel de hardware. Tus datos están seguros en el almacenamiento interno encriptado; lo único que se reinicia es la memoria volátil (RAM) y el sistema operativo.
 
-2. ¿Qué debo hacer si hago la combinación de botones y el iPhone sigue sin encender?
+2.
+
+¿Qué debo hacer si hago la combinación de botones y el iPhone sigue sin encender?
 Si tras soltar el botón lateral con la manzana en pantalla el dispositivo no pasa del logo o la pantalla se queda negra, es muy probable que la batería esté totalmente agotada o que el sistema requiera una restauración limpia conectándolo a un ordenador mediante cable USB.
 
-3. ¿Por qué mi iPhone se congela con tanta frecuencia últimamente?
-Si el problema se repite de forma constante, suele ser síntoma de una aplicación de terceros corrupta que consume todos los recursos, o bien de una degradación severa de la salud de la baterí
+3.
 
-a. Te sugiero revisar el consumo de batería en los ajustes y desinstalar apps pesadas que ya no utilices.
+¿Por qué mi iPhone se congela con tanta frecuencia últimamente?
+Si el problema se repite de forma constante, suele ser síntoma de una aplicación de terceros corrupta que consume todos los recursos, o bien de una degradación severa de la salud de la batería. Te sugiero revisar el consumo de batería en los ajustes y desinstalar apps pesadas que ya no utilices.

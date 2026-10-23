@@ -23,21 +23,14 @@ Wielu użytkowników obwinia samą baterię, ale fizyka procesora i oprogramowan
 
 1. Indeksacja danych w tle (Spotlight i Zdjęcia): Nowy system musi na nowo przeskanować całą bibliotekę zdjęć, rozpoznać twarze, zindeksować pliki i wiadomości. To procesor wykonuje ogromną pracę, często obciążając wszystkie rdzenie na 100%, co generuje ciepło i pożera energię.
 
-2. Optymalizacja aplikacji innych firm: Aplikacje takie jak banki, mapy czy komunikatory często działają na starych wersjach API, które po aktualizacji systemu wpadają w pętle procesów (tzw. wakelocks), nie pozwalając telefonowi przejść w stan głębokiego uśpieni
+2. Optymalizacja aplikacji innych firm: Aplikacje takie jak banki, mapy czy komunikatory często działają na starych wersjach API, które po aktualizacji systemu wpadają w pętle procesów (tzw. wakelocks), nie pozwalając telefonowi przejść w stan głębokiego uśpienia.
 
-a.
-
-3. Problem z gniazdem ładowania i poborem prądu: Czasami problem wcale nie leży w sofcie, lecz w brudnym gnieździe Lightning lub USB-C. Nagromadzone tam drobiny kurzu w połączeniu z wilgocią powodują mikrozwarci
-
-a. Płyta główna bez przerwy próbuje negocjować stan ładowania, co drastycznie drenażuje ogniwo litowo-jonowe, udając, że to wina nowego iOS.
+3. Problem z gniazdem ładowania i poborem prądu: Czasami problem wcale nie leży w sofcie, lecz w brudnym gnieździe Lightning lub USB-C. Nagromadzone tam drobiny kurzu w połączeniu z wilgocią powodują mikrozwarcia. Płyta główna bez przerwy próbuje negocjować stan ładowania, co drastycznie drenażuje ogniwo litowo-jonowe, udając, że to wina nowego iOS.
 
 <div style="border-left: 4px solid #1e40af; padding: 12px 16px; margin: 20px 0; background-color: rgba(30,64,175,0.05); border-radius: 4px; color: #111827;">
 <strong>Wskazówka warsztatow
 
-a:</strong> Zanim oddasz telefon do drogiej diagnozy, daj systemowi 48 godzin na zakończenie procesów w tle. Jeśli po tym czasie telefon nadal jest gorący i traci ponad 10% baterii na godzinę w stanie czuwania, czas na konkretne działani
-
-a.
-</div>
+a:</strong> Zanim oddasz telefon do drogiej diagnozy, daj systemowi 48 godzin na zakończenie procesów w tle. Jeśli po tym czasie telefon nadal jest gorący i traci ponad 10% baterii na godzinę w stanie czuwania, czas na konkretne działania. </div>
 
 ---
 
@@ -51,10 +44,7 @@ Wejdź w Ustawienia -> Bateria -> Kondycja i ładowanie baterii. Jeślimaksymaln
 
 #### Krok 2: Czyszczenie i inspekcja gniazda ładowania
 W naszych warunkach miejskich (Warszawa, smog, pył z ulic i kieszeni) gniazdo ładowania to zbieracz brudu. 
-* Weź drewnianą wykałaczkę (nigdy metalową igłę!) i bardzo delikatnie, pod kątem, wybierz zbitą watę i kurz z wnętrza portu ładowani
-
-a.
-* Często to nagromadzony brud blokuje styki danych, powodując, że system bez przerwy sprawdza akcesoria, co drenuje baterię.
+* Weź drewnianą wykałaczkę (nigdy metalową igłę!) i bardzo delikatnie, pod kątem, wybierz zbitą watę i kurz z wnętrza portu ładowania. * Często to nagromadzony brud blokuje styki danych, powodując, że system bez przerwy sprawdza akcesoria, co drenuje baterię.
 
 #### Krok 3: Twardy restart (Hard Reset) i czyszczenie pamięci podręcznej
 Po wgraniu nowego iOS cache systemowy bywa uszkodzony. Zrób czysty restart:
@@ -73,14 +63,10 @@ Po wgraniu nowego iOS cache systemowy bywa uszkodzony. Zrób czysty restart:
 ### Często zadawane pytania (FAQ)
 
 1. Czy powinienem zrobić przywracanie ustawień fabrycznych (DFU) po każdej aktualizacji iOS?
-Nie zawsze jest to konieczne, ale jeśli aktualizacja była wgrywana "OTA" (bezprzewodowo) na niemal pełną pamięć telefonu, system potrafi złapać błędy kompilacji. Jeśli po 3 dniach bateria wciąż drastycznie spada, czysta instalacja przez komputer (tryb DFU) i przywrócenie danych z kopii zapasowej iCloud potrafi zdziałać cud
-
-a.
+Nie zawsze jest to konieczne, ale jeśli aktualizacja była wgrywana "OTA" (bezprzewodowo) na niemal pełną pamięć telefonu, system potrafi złapać błędy kompilacji. Jeśli po 3 dniach bateria wciąż drastycznie spada, czysta instalacja przez komputer (tryb DFU) i przywrócenie danych z kopii zapasowej iCloud potrafi zdziałać cuda.
 
 2. Dlaczego mój iPhone nagrzewa się podczas ładowania po aktualizacji?
-To normalne zjawisko przez pierwsze 1-2 dni po update. Telefon optymalizuje procesy ładowania (funkcja zoptymalizowanego ładowania baterii) i jednocześnie mieli w tle pliki systemowe. Jeśli jednak telefon parzy w dłoń przy ładowaniu markową ładowarką 20W po tygodniu od update, może to oznaczać problem z kontrolerem ładowania lub uszkodzenie ogniw
-
-a.
+To normalne zjawisko przez pierwsze 1-2 dni po update. Telefon optymalizuje procesy ładowania (funkcja zoptymalizowanego ładowania baterii) i jednocześnie mieli w tle pliki systemowe. Jeśli jednak telefon parzy w dłoń przy ładowaniu markową ładowarką 20W po tygodniu od update, może to oznaczać problem z kontrolerem ładowania lub uszkodzenie ogniwa.
 
 3. Czy wizyta w serwisie pomoże określić, czy to wina baterii czy oprogramowania?
 Oczywiście. W dobrym serwisie podłączymy telefon pod dedykowane narzędzia diagnostyczne, które odczytują rzeczywisty cykl pracy baterii, logi błędów konsoli systemowej oraz pobór prądu w stanie czuwania (tzw. quiescent current). Często wstępna diagnoza zajmuje u nas kilkanaście minut i pozwala zaoszczędzić nerwów.

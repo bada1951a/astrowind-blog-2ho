@@ -72,9 +72,7 @@ Before taking your device to a service center:
 
 Q: Can I still use my phone normally if the inner screen is dead?
 
-A: Yes! You can use the outer cover screen for calls, messaging, navigation, and even backing up your dat
-
-a. Just keep the phone folded until you can get professional hardware service.
+A: Yes! You can use the outer cover screen for calls, messaging, navigation, and even backing up your data. Just keep the phone folded until you can get professional hardware service.
 
 ###
 

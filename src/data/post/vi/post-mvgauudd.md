@@ -28,9 +28,7 @@ Cái cảm giác đang cần máy gấp để scan tài liệu hay check group Z
 
 Dựa trên kinh nghiệm mổ xẻ hàng trăm ca lỗi sạc không dây từ đế sạc Xiaomi, Samsung cho tới MagSafe của iPhone, mình đúc kết ra 3 nguyên nhân chính sau:
 
-*   Lệch tâm cuộn dây cảm ứng (Misaligned Induction Coils): Đây là thủ phạm chiếm tới 70% các c
-
-a. Sạc không dây hoạt động dựa trên nguyên lý cảm ứng điện từ giữa hai cuộn dây đồng: một nằm trong đế sạc và một nằm ở mặt lưng điện thoại. Nếu tâm của hai cuộn này lệch nhau quá 3-5mm, từ trường không thể cộng hưởng tối ưu, hệ thống bảo vệ sẽ tự ngắt và bật đèn nhấp nháy để cảnh báo quá dòng/quá nhiệt.
+*   Lệch tâm cuộn dây cảm ứng (Misaligned Induction Coils): Đây là thủ phạm chiếm tới 70% các ca. Sạc không dây hoạt động dựa trên nguyên lý cảm ứng điện từ giữa hai cuộn dây đồng: một nằm trong đế sạc và một nằm ở mặt lưng điện thoại. Nếu tâm của hai cuộn này lệch nhau quá 3-5mm, từ trường không thể cộng hưởng tối ưu, hệ thống bảo vệ sẽ tự ngắt và bật đèn nhấp nháy để cảnh báo quá dòng/quá nhiệt.
 *   Vướng dị vật hoặc ốp lưng quá dày/có từ tính: Nhiều anh em dùng ốp chống sốc dày cộp, ốp lưng gắn nam châm tản nhiệt, hoặc kẹt mấy cái card visit, thẻ giữ xe có dán lá nhôm chống trộm phía sau lưng máy. Mấy thứ này cản trở từ trường cực kỳ mạnh.
 *   Nguồn cấp điện đầu vào không đủ dòng (Adapter yếu): Cắm đế sạc nhanh vào mấy cái củ sạc iPhone 5W đời cũ hoặc cắm nhầm vào cổng USB của máy tính bàn văn phòng (chỉ cấp dòng 0.5A - 1A). Khi điện thoại đòi dòng cao mà cấp không đủ, đế sạc sẽ nháy đèn báo lỗi nguồn.
 

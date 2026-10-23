@@ -11,11 +11,7 @@ theme: "Steel Silver Metallic"
 
 Suasana di ruang meeting kantor kawasan Sudirman, Jakarta, mendadak tegang. Waktu menunjukkan pukul 14.50 WIB, tepat sepuluh menit sebelum presentasi klien besar dimulai. Saya buru-buru mengambil HP Samsung Galaxy saya di atas meja untuk membuka file materi presentasi terakhir yang dikirim lewat WhatsApp. Sialnya, layar sama sekali tidak merespons. Disentuh pakai jari mana pun, digeser ke atas-bawah, layarnya benar-benar *freezed* atau membeku. Tombol power ditekan biasa pun tidak mau muncul menu *Power Off*. Jantung rasanya mau copot karena file penting belum sempat di-backup ke cloud kantor. 
 
-Sebagai teknisi IT yang sering ngurusin perangkat kantor, saya tahu persis kita tidak boleh asal *factory reset* atau asal cabut baterai (yang mana baterai tanam juga ribet dicopot). Kalau salah langkah, data laporan bisa melayang sia-si
-
-a.
-
-![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget506/1000/550)
+Sebagai teknisi IT yang sering ngurusin perangkat kantor, saya tahu persis kita tidak boleh asal *factory reset* atau asal cabut baterai (yang mana baterai tanam juga ribet dicopot). Kalau salah langkah, data laporan bisa melayang sia-sia. ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget506/1000/550)
 
 Sebelum kita masuk ke solusi utamanya, mari kita petakan dulu apa yang sebenarnya terjadi di balik layar Samsung Anda yang mendadak "mati gaya" ini.
 
@@ -35,9 +31,7 @@ Sebelum kita masuk ke solusi utamanya, mari kita petakan dulu apa yang sebenarny
 
 ### Cara Paksa Restart (Force Restart) Tanpa Kehilangan Data
 
-Karena layar sentuh Anda tidak bisa dipakai untuk menekan tombol *Power* lalu memilih *Restart* di layar, kita harus menggunakan kombinasi tombol fisik. Tenang saja, cara ini 100% aman dan tidak akan menghapus data, foto, atau chat WhatsApp And
-
-a. Ini sama persis seperti mematikan komputer dengan menahan tombol power saat nge-hang.
+Karena layar sentuh Anda tidak bisa dipakai untuk menekan tombol *Power* lalu memilih *Restart* di layar, kita harus menggunakan kombinasi tombol fisik. Tenang saja, cara ini 100% aman dan tidak akan menghapus data, foto, atau chat WhatsApp Anda. Ini sama persis seperti mematikan komputer dengan menahan tombol power saat nge-hang.
 
 Ikuti langkah-langkah praktis berikut:
 
@@ -45,11 +39,7 @@ Ikuti langkah-langkah praktis berikut:
 * Langkah 2: Cari Tombol Power dan Tombol Volume Bawah (Volume Down) secara bersamaan di sisi bodi HP.
 * Langkah 3: Tekan dan tahan kedua tombol tersebut secara bersamaan dengan kuat selama kurang lebih 7 hingga 10 detik.
 * Langkah 4: Jangan dilepas sampai layar mati total dan logo Samsung Galaxy berwarna putih muncul di layar.
-* Langkah 5: Setelah logo muncul, lepaskan kedua tombol dan tunggu beberapa saat hingga HP masuk ke *Lock Screen* seperti bias
-
-a.
-
-> Tips Profesional: Jika dalam 10 detik belum ada reaksi, coba perpanjang tahanannya hingga 15 detik. Pastikan baterai Anda tidak benar-benar 0% (habis total). Jika habis, sambungkan dulu ke charger selama 5 menit sebelum melakukan kombinasi tombol di atas.
+* Langkah 5: Setelah logo muncul, lepaskan kedua tombol dan tunggu beberapa saat hingga HP masuk ke *Lock Screen* seperti biasa. > Tips Profesional: Jika dalam 10 detik belum ada reaksi, coba perpanjang tahanannya hingga 15 detik. Pastikan baterai Anda tidak benar-benar 0% (habis total). Jika habis, sambungkan dulu ke charger selama 5 menit sebelum melakukan kombinasi tombol di atas.
 
 ---
 
@@ -85,6 +75,4 @@ A: Jika salah satu tombol fisik rusak, situasinya jadi sedikit lebih rumit. Anda
 
 Q: Kenapa layar Samsung saya sering tiba-tiba tidak bisa disentuh?
 
-A: Biasanya ini disebabkan oleh penggunaan charger KW (bukan bawaan asli) yang membuat arus listrik tidak stabil saat HP di-charge sambil dipakai, atau karena penggunaan *tempered glass* tebal berkualitas buruk yang mengganggu sensor sentuh kapasitif. Gunakan selalu aksesoris original demi kesehatan perangkat And
-
-a.
+A: Biasanya ini disebabkan oleh penggunaan charger KW (bukan bawaan asli) yang membuat arus listrik tidak stabil saat HP di-charge sambil dipakai, atau karena penggunaan *tempered glass* tebal berkualitas buruk yang mengganggu sensor sentuh kapasitif. Gunakan selalu aksesoris original demi kesehatan perangkat Anda. 

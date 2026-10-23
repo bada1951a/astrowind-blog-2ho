@@ -9,17 +9,12 @@ theme: "High-Contrast Charcoal"
 ---
 
 
-Jam menunjukkan pukul 16:50 WIB di ruang meeting kantor kawasan SCBD, Jakart
-
-a. Lima belas menit lagi batas akhir pengiriman laporan keuangan triwulan ke klien melalui WhatsApp Business dan email. Tiba-tiba, layar iPhone saya nge-freeze total. Disentuh pakai jari sekuat apa pun tidak ada reaksi, tombol power ditekan biasa juga diam membisu layaknya batu. Panik bukan main rasanya, apalagi file PDF laporan krusial baru saja diunduh dan belum sempat di-backup ke cloud kantor. 
+Jam menunjukkan pukul 16:50 WIB di ruang meeting kantor kawasan SCBD, Jakarta. Lima belas menit lagi batas akhir pengiriman laporan keuangan triwulan ke klien melalui WhatsApp Business dan email. Tiba-tiba, layar iPhone saya nge-freeze total. Disentuh pakai jari sekuat apa pun tidak ada reaksi, tombol power ditekan biasa juga diam membisu layaknya batu. Panik bukan main rasanya, apalagi file PDF laporan krusial baru saja diunduh dan belum sempat di-backup ke cloud kantor. 
 
 Masa bodoh dengan gengsi, saya langsung nyelonong ke meja anak IT sebelah, minta tolong sambil keringat dingin. Ternyata, solusinya tidak seseram yang dibayangkan—tidak perlu buru-buru ke service center resmi atau pasrah nunggu baterainya habis sendiri sampai besok pagi.
 
 <div style="border-left: 4px solid #e11d48; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Catatan Teknisi:</strong> Jangan pernah mencoba membongkar casing atau menekan paksa layar saat iPhone mengalami freeze akibat sistem hang. Tindakan fisik berlebihan justru berisiko merusak panel fleksibel LCD atau komponen internal di bawahny
-
-a.
-</div>
+<strong>Catatan Teknisi:</strong> Jangan pernah mencoba membongkar casing atau menekan paksa layar saat iPhone mengalami freeze akibat sistem hang. Tindakan fisik berlebihan justru berisiko merusak panel fleksibel LCD atau komponen internal di bawahnya. </div>
 
 ## Kenapa Layar iPhone Bisa Tiba-Tiba Freeze dan Tidak Merespons?
 
@@ -35,17 +30,11 @@ Sebelum masuk ke eksekusi penyelamatan, mari kita pahami dulu tiga penyebab utam
 
 ## Langkah-Langkah Eksekusi: Cara Force Restart iPhone Berbagai Tipe
 
-Karena layar sentuh sudah lumpuh total, cara normal mematikan lewat geseran "Slide to power off" jelas tidak bisa dipakai. Kita wajib melakukan Force Restart (Mulsa Paksa) yang memotong suplai arus ke prosesor secara instan tanpa menghapus satu pun data pribadi And
-
-a.
-
-### 1. Untuk Pengguna iPhone 8, X, 11, 12, 13, 14, 15, dan yang Lebih Baru
+Karena layar sentuh sudah lumpuh total, cara normal mematikan lewat geseran "Slide to power off" jelas tidak bisa dipakai. Kita wajib melakukan Force Restart (Mulsa Paksa) yang memotong suplai arus ke prosesor secara instan tanpa menghapus satu pun data pribadi Anda. ### 1. Untuk Pengguna iPhone 8, X, 11, 12, 13, 14, 15, dan yang Lebih Baru
 Metode tombol kombinasi cepat ini adalah penyelamat utama bagi mayoritas pengguna iPhone modern berlayar penuh:
 * Langkah 1: Tekan dan lepaskan dengan cepat tombol Volume Atas (Volume Up).
 * Langkah 2: Tekan dan lepaskan dengan cepat tombol Volume Bawah (Volume Down).
-* Langkah 3: Segera tekan dan tahan tombol Samping (Power/Side Button) agak lam
-
-a. Jangan dilepas saat layar masih gelap.
+* Langkah 3: Segera tekan dan tahan tombol Samping (Power/Side Button) agak lama. Jangan dilepas saat layar masih gelap.
 * Langkah 4: Terus tahan sampai logo Apple (gambar buah apel tergigit) muncul di layar, lalu lepaskan tombol. Proses booting biasanya memakan waktu sekitar 15 hingga 30 detik.
 
 
@@ -79,6 +68,4 @@ A: Biasanya ini indikasi bahwa memori internal Anda sudah hampir penuh (cek di P
 
 Q: Bagaimana jika setelah logo Apple muncul, iPhone malah terjebak di logo saja (Bootloop)?
 
-A: Jika hal ini terjadi, masalahnya lebih dalam dari sekadar hang bias
-
-a. Anda perlu menyambungkan iPhone ke komputer Mac atau PC Windows yang memiliki aplikasi iTunes/Finder, lalu masuk ke mode pemulihan (*Recovery Mode*) untuk melakukan pembaruan atau pemulihan sistem.
+A: Jika hal ini terjadi, masalahnya lebih dalam dari sekadar hang biasa. Anda perlu menyambungkan iPhone ke komputer Mac atau PC Windows yang memiliki aplikasi iTunes/Finder, lalu masuk ke mode pemulihan (*Recovery Mode*) untuk melakukan pembaruan atau pemulihan sistem.

@@ -11,9 +11,7 @@ theme: "Industrial Blueprint"
 
 Ore 07:30, treno KTX diretto a Milano Centrale (o Roma Termini, fate voi). Devo assolutamente aprire il Mac, far partire l'hotspot dal mio iPhone 15 Pro e chiudere un preventivo urgente prima di arrivare in stazione. Controllo la percentuale della batteri
 
-a: 14%. Un brivido freddo lungo la schiena, lo stesso che sento quando un cliente mi porta un telefono "morto" dopo un tentativo di fai-da-te male riuscito. La luminosità dello schermo è sparata al massimo perché fuori dai finestrini il sole picchia forte, i sub-pixel OLED stanno letteralmente bruciando energia a intervalli regolari, e l'AP (Application Processor) sta urlando invocando pietà termic
-
-a. Bastano tre minuti di tethering con il display bianco accecante per veder crollare l'autonomia al 9% e far andare il telefono in thermal throttling. Maledizione, serviva un'automazione per la Dark Mode già attiva da un pezzo.
+a: 14%. Un brivido freddo lungo la schiena, lo stesso che sento quando un cliente mi porta un telefono "morto" dopo un tentativo di fai-da-te male riuscito. La luminosità dello schermo è sparata al massimo perché fuori dai finestrini il sole picchia forte, i sub-pixel OLED stanno letteralmente bruciando energia a intervalli regolari, e l'AP (Application Processor) sta urlando invocando pietà termica. Bastano tre minuti di tethering con il display bianco accecante per veder crollare l'autonomia al 9% e far andare il telefono in thermal throttling. Maledizione, serviva un'automazione per la Dark Mode già attiva da un pezzo.
 
 <div style="border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>NOTA TECNICA DEL BANCONE:</strong> Quando l'iPhone lavora sotto stress di rete (Hotspot 5G) con il display al 100% di luminosità in modalità Light, la temperatura della scheda madre sale vertiginosamente. Il circuito di gestione energetica (PMIC) taglia la corrente per evitare danni permanenti alle celle agli ioni di litio, causando lag e consumi anomali.
@@ -29,9 +27,7 @@ Prima di mettere le mani nel codice o nei comandi rapidi, smontiamo il problema 
 
 2. Carico Termico sull'AP (Application Processor): Un display impostato su sfondi chiari in ambienti ad alta luminosità costringe il sensore di luce ambientale a spingere la retroilluminazione logica del pannello al limite, generando calore che si propaga direttamente verso la CPU e il modem 5G durante il tethering.
 
-3. Mancanza di Automazione Contestuale: Lasciare che sia l'utente a ricordarsi di attivare la Dark Mode o a regolarla manualmente è un errore di sistem
-
-a. L'hardware moderno richiede routine basate su trigger intelligenti (orario, posizione o stato della batteria).
+3. Mancanza di Automazione Contestuale: Lasciare che sia l'utente a ricordarsi di attivare la Dark Mode o a regolarla manualmente è un errore di sistema. L'hardware moderno richiede routine basate su trigger intelligenti (orario, posizione o stato della batteria).
 
 ---
 
@@ -51,11 +47,7 @@ Per capire l'impatto reale sulla componentistica interna, vediamo questa tabella
 
 ## Procedura di Riparazione: Configurare l'Automazione della Dark Mode
 
-Basta imprecare sui treni o rischiare di rimanere offline. Apriamo le Impostazioni del nostro iPhone e costruiamo una routine a prova di bomba utilizzando l'app Comandi Rapidi (Shortcuts) integrata in iOS. Nessuna app di terze parti pesante, solo ottimizzazione nativ
-
-a.
-
-### Step 1: Verifica dei parametri di base
+Basta imprecare sui treni o rischiare di rimanere offline. Apriamo le Impostazioni del nostro iPhone e costruiamo una routine a prova di bomba utilizzando l'app Comandi Rapidi (Shortcuts) integrata in iOS. Nessuna app di terze parti pesante, solo ottimizzazione nativa. ### Step 1: Verifica dei parametri di base
 Andiamo su Impostazioni > Batteria e verificamene lo stato di salute. Se la batteria è già degradata (<80%), l'uso della Dark Mode non è un optional, è una necessità vitale per evitare shutdown improvvisi durante l'hotspot.
 
 ### Step 2: Configurazione dell'Automazione Temporale o di Trigger
@@ -65,9 +57,7 @@ Andiamo su Impostazioni > Batteria e verificamene lo stato di salute. Se la batt
 
 3. Tocca il pulsante + in alto a destra per creare una nuova automazione personale.
 
-4. Scorri e seleziona Ora del giorno (oppure Arrivo / Quando mi connetto
-
-a... se vuoi collegarla direttamente all'hotspot o al Wi-Fi del treno/ufficio).
+4. Scorri e seleziona Ora del giorno (oppure Arrivo / Quando mi connettoa. .. se vuoi collegarla direttamente all'hotspot o al Wi-Fi del treno/ufficio).
 
 5. Imposta l'orario desiderato (es. Tramonto, o le 08:00 del mattino) e seleziona Esegui subito (disattiva "Chiedi prima di eseguire" per renderla totalmente autonoma).
 

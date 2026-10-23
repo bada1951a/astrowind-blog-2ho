@@ -15,9 +15,7 @@ theme: "Nordic Clean Ice"
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/mobile231/1000/550)
 
-Hol
-
-a. Si has llegado hasta aquí, probablemente estés a pocos minutos de perder los papeles —literal y figuradamente— porque tu Samsung Galaxy decide no enfocar bien justo cuando más lo necesitas. Como especialista en soporte móvil cotidiano, hoy te voy a dar la solución exacta, sin rodeos técnicos imposibles, para que salves ese documento en menos de un minuto.
+Hola. Si has llegado hasta aquí, probablemente estés a pocos minutos de perder los papeles —literal y figuradamente— porque tu Samsung Galaxy decide no enfocar bien justo cuando más lo necesitas. Como especialista en soporte móvil cotidiano, hoy te voy a dar la solución exacta, sin rodeos técnicos imposibles, para que salves ese documento en menos de un minuto.
 
 ---
 
@@ -27,9 +25,7 @@ Antes de pasar a la acción, vamos a entender por qué sale ese churro de imagen
 
 1. La luz cenital traicioner
 
-a: En los trenes, oficinas o cafeterías, la luz suele venir directamente desde arrib
-
-a. Al poner tu mano encima para sujetar el papel, creas una sombra chinesca perfecta sobre el texto.
+a: En los trenes, oficinas o cafeterías, la luz suele venir directamente desde arriba. Al poner tu mano encima para sujetar el papel, creas una sombra chinesca perfecta sobre el texto.
 
 2. El enfoque automático rebelde: La cámara de tu Galaxy intenta enfocar el fondo de la mesa o la textura del mantel en lugar de las letras negras del contrato.
 
@@ -39,29 +35,17 @@ a. Al poner tu mano encima para sujetar el papel, creas una sombra chinesca perf
 
 ### El paso a paso definitivo: Escaneo limpio y nítido en 3 pasos
 
-Olvídate de aplicaciones de terceros llenas de publicidad invasiva que te piden datos. Vamos a usar las herramientas nativas de tu Samsung Galaxy y un par de trucos de iluminación de andar por cas
-
-a.
-
-<div style="border-left: 4px solid #0284c7; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
+Olvídate de aplicaciones de terceros llenas de publicidad invasiva que te piden datos. Vamos a usar las herramientas nativas de tu Samsung Galaxy y un par de trucos de iluminación de andar por casa. <div style="border-left: 4px solid #0284c7; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>El truco del almendruco (Soft Checklist):</strong>
 <ul>
-  <li><strong>Paso 1 (Luz):</strong> Nunca enfoques desde arriba verticalmente si hay una lámpara encim
-
-a. Inclina ligeramente el papel o busca una luz lateral difus
-
-a.</li>
+  <li><strong>Paso 1 (Luz):</strong> Nunca enfoques desde arriba verticalmente si hay una lámpara encima. Inclina ligeramente el papel o busca una luz lateral difusa. </li>
   <li><strong>Paso 2 (Cámara nativa):</strong> Abre la aplicación de Cámara de tu Galaxy. Acércate al documento hasta que aparezca un botón amarillo brillante que pone <strong>"Escanear texto"</strong> o detecte los bordes automáticamente.</li>
   <li><strong>Paso 3 (La magia del procesador):</strong> Pulsa sobre el visor amarillo. Verás cómo la inteligencia artificial del teléfono recorta el fondo de la mesa, elimina el reflejo y convierte la foto en un PDF en blanco y negro super nítido.</li>
 </ul>
 </div>
 
 #### ¿Y si necesito enviarlo por fax virtual?
-Si el cliente es de la vieja escuela y te pide un número de fax, no busques una oficina de correos. Entra en tu navegador de confianza, utiliza un servicio de fax online seguro desde el móvil, adjunta ese PDF que acabas de limpiar en dos segundos y mándalo directamente introduciendo el número de destino. Te ahorrarás buscar una papelería abierta a última hor
-
-a.
-
----
+Si el cliente es de la vieja escuela y te pide un número de fax, no busques una oficina de correos. Entra en tu navegador de confianza, utiliza un servicio de fax online seguro desde el móvil, adjunta ese PDF que acabas de limpiar en dos segundos y mándalo directamente introduciendo el número de destino. Te ahorrarás buscar una papelería abierta a última hora. ---
 
 ### Consejos de experto para no volver a sudar frío
 
@@ -77,11 +61,17 @@ a: Si estás escaneando un documento digital que tienes en otro dispositivo, baj
 
 ### Preguntas Frecuentes (FAQ)
 
-1. ¿Por qué el escáner automático de la cámara de mi Galaxy no detecta los bordes del papel?
+1.
+
+¿Por qué el escáner automático de la cámara de mi Galaxy no detecta los bordes del papel?
 Normalmente ocurre porque el fondo (la mesa) es del mismo color que el documento (papel blanco sobre mesa blanca). Pon el contrato encima de una superficie oscura, como una alfombrilla de escritorio o la funda de la tablet, y verás cómo la IA lo detecta al instante.
 
-2. ¿Cómo puedo reducir el peso del PDF escaneado sin perder calidad en el texto?
+2.
+
+¿Cómo puedo reducir el peso del PDF escaneado sin perder calidad en el texto?
 Si usas la galería o la app de notas nativa de Samsung para guardar el archivo como PDF, el sistema ya comprime la imagen de forma inteligente. Si aun así pesa demasiado, guárdalo primero como imagen en formato JPG de alta eficiencia (HEIF) y luego conviértelo a PDF utilizando las opciones nativas de compartir.
 
-3. ¿Es seguro utilizar el escáner de la cámara de Samsung para documentos con datos bancarios o confidenciales?
+3.
+
+¿Es seguro utilizar el escáner de la cámara de Samsung para documentos con datos bancarios o confidenciales?
 Sí, totalmente. Todo el procesado de detección de documentos y optimización de texto se realiza de manera local en el procesador de tu Galaxy gracias a Samsung Knox, sin subir tus datos personales a servidores externos desconocidos.

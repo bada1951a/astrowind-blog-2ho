@@ -9,21 +9,13 @@ theme: "Pure Titanium Clean"
 ---
 
 
-Zegarek na pulpicie pokazywał dokładnie 13:45. Za piętnaście minut w naszym warszawskim biurze miała zacząć się kluczowa wideokonferencja z zarządem w sprawie nowego oprogramowania dla logistyki. Wziąłem do ręki mojego wiernego Galaxy Z Folda, żeby na szybko rzucić okiem na notatki w głównym, rozszerzonym ekranie... i nagle – czarna rozpacz. Zewnętrzny wyświetlacz działał bez zarzutu, ale gdy tylko rozłożyłem telefon, wewnątrz zapadła całkowita ciemność. Ekran ani drgnął, zero podświetlenia, absolutna martwic
+Zegarek na pulpicie pokazywał dokładnie 13:45. Za piętnaście minut w naszym warszawskim biurze miała zacząć się kluczowa wideokonferencja z zarządem w sprawie nowego oprogramowania dla logistyki. Wziąłem do ręki mojego wiernego Galaxy Z Folda, żeby na szybko rzucić okiem na notatki w głównym, rozszerzonym ekranie... i nagle – czarna rozpacz. Zewnętrzny wyświetlacz działał bez zarzutu, ale gdy tylko rozłożyłem telefon, wewnątrz zapadła całkowita ciemność. Ekran ani drgnął, zero podświetlenia, absolutna martwica. Serce podeszło mi do gardła, a w głowie kołatała się tylko jedna myśl: "Przecież tam mam całą prezentację i otwarte karty z danymi projektu!".
 
-a. Serce podeszło mi do gardła, a w głowie kołatała się tylko jedna myśl: "Przecież tam mam całą prezentację i otwarte karty z danymi projektu!".
-
-Przez pierwsze dwie minuty wpadłem w klasyczną panikę. Zacząłem dziko wciskać przycisk zasilania, składać i rozkładać telefon z nadzieją, że "samo się naprawi", potrząsałem nim, a nawet dmuchałem w szczelinę zawiasu jak w stary cartridge od Pegasus
-
-a. Oczywiście, jedyne co osiągnąłem, to podwyższone tętno i zarysowana obudowa od nerwowego dotykania paznokciem. Próbowałem też restartować system przez zewnętrzny ekran, myśląc, że to zwieszka softu. Nic z tego. Za każdym razem, gdy urządzenie mijało punkt krytyczny rozwarcia – bup! – wnętrze gasło.
+Przez pierwsze dwie minuty wpadłem w klasyczną panikę. Zacząłem dziko wciskać przycisk zasilania, składać i rozkładać telefon z nadzieją, że "samo się naprawi", potrząsałem nim, a nawet dmuchałem w szczelinę zawiasu jak w stary cartridge od Pegasusa. Oczywiście, jedyne co osiągnąłem, to podwyższone tętno i zarysowana obudowa od nerwowego dotykania paznokciem. Próbowałem też restartować system przez zewnętrzny ekran, myśląc, że to zwieszka softu. Nic z tego. Za każdym razem, gdy urządzenie mijało punkt krytyczny rozwarcia – bup! – wnętrze gasło.
 
 ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget907/1000/550)
 
-Dopiero kiedy głęboko odetchnąłem i podszedłem do sprawy jak rutiniarz, który w swoim życiu widział już spalone płyty główne i zjedzone przez kawę klawiatury, zrozumiałem, w czym rzecz. Zanim pobiegniesz do serwisu i zostawisz tam fortunę za wymianę całego modułu ekranu elastycznego, spójrzmy na to chłodnym okiem informatyk
-
-a. 
-
-<div style="border-left: 4px solid #334155; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
+Dopiero kiedy głęboko odetchnąłem i podszedłem do sprawy jak rutiniarz, który w swoim życiu widział już spalone płyty główne i zjedzone przez kawę klawiatury, zrozumiałem, w czym rzecz. Zanim pobiegniesz do serwisu i zostawisz tam fortunę za wymianę całego modułu ekranu elastycznego, spójrzmy na to chłodnym okiem informatyka. <div style="border-left: 4px solid #334155; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Wskazówka ekspertow
 
 a:</strong> Zanim rozkręcisz lub oddasz telefon do drogiego serwisu, upewnij się, że wykonałeś kopię zapasową danych przez Smart Switch na komputerze. Często przy problemach z taśmą elastyczną, port USB-C i zewnętrzny ekran wciąż pozwalają na zgranie kluczowych plików!
@@ -55,20 +47,12 @@ Często problem nie leży w samym ekranie, a w brudzie, który blokuje mechanizm
 Nie musisz zgadywać, czy hardware żyje. System Android ma wbudowane narzędzia diagnostyczne.
 - Na zewnętrznym ekranie wejdź w aplikację Telefon.
 - Wpisz kod serwisowy: `*#0*#` (po wpisaniu ostatniego krzyżyka automatycznie otworzy się ukryte menu diagnostyczne).
-- Poszukaj pola Receiver lub Sensor, a przede wszystkim przetestuj opcję Mega Version oraz testy wyświetlacz
-
-a. Jeśli telefon pozwala na test subpikseli, sprawdź, czy reakcja dotyku rejestruje się na głównym ekranie, nawet jeśli jest czarny.
+- Poszukaj pola Receiver lub Sensor, a przede wszystkim przetestuj opcję Mega Version oraz testy wyświetlacza. Jeśli telefon pozwala na test subpikseli, sprawdź, czy reakcja dotyku rejestruje się na głównym ekranie, nawet jeśli jest czarny.
 
 #### Krok 3: Twardy reset i wyczyszczenie pamięci podręcznej (Wipe Cache Partition)
-Czasami winny jest zepsuty cache systemowy po ostatniej łatce bezpieczeństw
-
-a.
-- Wyłącz telefon. Podłącz go do komputera kablem USB (to ważne, bo bez tego nowsze wersje One UI nie pozwolą wejść w trybRecovery).
+Czasami winny jest zepsuty cache systemowy po ostatniej łatce bezpieczeństwa. - Wyłącz telefon. Podłącz go do komputera kablem USB (to ważne, bo bez tego nowsze wersje One UI nie pozwolą wejść w trybRecovery).
 - Przytrzymaj jednocześnie przyciski Zwiększ głośność oraz Zasilanie, aż na zewnętrznym ekranie pojawi się logo Samsung.
-- Kiedy wejdziesz w menu Recovery, użyj przycisków głośności, aby przejść do opcji Wipe cache partition, a następnie zatwierdź przyciskiem zasilani
-
-a.
-- Na koniec wybierz Reboot system now.
+- Kiedy wejdziesz w menu Recovery, użyj przycisków głośności, aby przejść do opcji Wipe cache partition, a następnie zatwierdź przyciskiem zasilania. - Na koniec wybierz Reboot system now.
 
 ---
 

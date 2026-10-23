@@ -9,9 +9,7 @@ theme: "Steel Silver Metallic"
 ---
 
 
-Jam menunjukkan pukul 16.45 sore di kantor kawasan SCBD, Jakart
-
-a. Sepuluh menit lagi tenggat waktu pengiriman laporan keuangan bulanan ke klien penting, tiba-tiba harddisk eksternal dan kabel data Type-C saya ngadat. Layar ponsel langsung memunculkan peringatan merah menyal
+Jam menunjukkan pukul 16.45 sore di kantor kawasan SCBD, Jakarta. Sepuluh menit lagi tenggat waktu pengiriman laporan keuangan bulanan ke klien penting, tiba-tiba harddisk eksternal dan kabel data Type-C saya ngadat. Layar ponsel langsung memunculkan peringatan merah menyal
 
 a: "Liquid Detected in USB-C Connector". Padahal, seharian ini perangkat aman di atas meja kerja, paling cuma ketumpahan sedikit es kopi susu. Jantung rasanya mau copot karena data laporan krusial ada di dalam SSD yang harus segera disinkronkan. Kalau salah ambil tindakan, port bakal rusak permanen atau malah korsleting.
 
@@ -37,11 +35,7 @@ a:
 
 ### Langkah-Langkah Pemulihan Cepat (Aman & Efektif)
 
-Mari kita selesaikan masalah ini secara sistematis tanpa merusak garansi atau komponen fisik perangkat And
-
-a.
-
-#### Langkah 1: Putuskan Hubungan dan Jaga Posisi Ponsel
+Mari kita selesaikan masalah ini secara sistematis tanpa merusak garansi atau komponen fisik perangkat Anda. #### Langkah 1: Putuskan Hubungan dan Jaga Posisi Ponsel
 Cabut segera kabel atau flashdisk eksternal yang terhubung. Posisikan perangkat Anda dengan port menghadap ke bawah (mengarah ke lantai). Ini memanfaatkan gravitasi agar sisa cairan mengalir keluar dan tidak menggenang di dasar pin konektor.
 
 #### Langkah 2: Pembersihan Kering Tanpa Bahan Kimia
@@ -65,9 +59,7 @@ Taruh ponsel di atas meja dengan sirkulasi udara yang baik (di dekat jendela ter
 Sebaiknya hindari. Tepung beras dan debu halus dari beras justru bisa masuk ke dalam port dan mengeras saat terkena sisa cairan, yang malah akan menyumbat pin konektor secara permanen.
 
 2. Peringatan cairan terus muncul padahal port sudah kering, bagaimana solusinya?
-Terkadang residu mineral atau korosi tipis tertinggal di pin konektor. Coba lakukan restart paksa (*force restart*) perangkat Anda untuk menyegarkan sistem sensorny
-
-a. Jika masih membandel, bersihkan pin menggunakan sedikit alkohol isopropil (alkohol medis 96 persen) pada ujung sikat gigi super halus dalam keadaan *mati total*.
+Terkadang residu mineral atau korosi tipis tertinggal di pin konektor. Coba lakukan restart paksa (*force restart*) perangkat Anda untuk menyegarkan sistem sensornya. Jika masih membandel, bersihkan pin menggunakan sedikit alkohol isopropil (alkohol medis 96 persen) pada ujung sikat gigi super halus dalam keadaan *mati total*.
 
 3. Apakah saya tetap bisa mengisi daya saat mode darurat aktif?
 Beberapa sistem operasi menyediakan opsi "Emergency Override" untuk mengabaikan peringatan cairan. Sangat tidak disarankan kecuali dalam keadaan hidup-mati, karena risiko korsleting pada motherboard atau adaptor charger Anda sangat tinggi.

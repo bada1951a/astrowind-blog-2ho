@@ -56,20 +56,12 @@ Po ponownym uruchomieniu systemu, w rzadkich przypadkach awaryjnych (gdy musisz 
 
 ## Profilaktyka i dobre nawyki
 
-Aby uniknąć podobnej sytuacji tuż przed wyjściem na spotkanie biznesowe, warto przestrzegać kilku prostych zasad. Po pierwsze, unikaj korzystania ze smartfona w zaparowanej łazience lub podczas ulewnego deszczu bez zabezpieczeni
-
-a. Po drugie, raz w miesiącu przedrzuć port ładowania czystą, suchą szczoteczką o miękkim włosiu. Jeśli Twój iPhone regularnie zgłasza fałszywe alarmy o płynie, mimo że telefon nigdy nie widział wody, oznacza to uszkodzenie fizyczne taśmy ze złączem dokowania i wizyta w profesjonalnym serwisie warszawskim będzie nieuniknion
-
-a.
-
----
+Aby uniknąć podobnej sytuacji tuż przed wyjściem na spotkanie biznesowe, warto przestrzegać kilku prostych zasad. Po pierwsze, unikaj korzystania ze smartfona w zaparowanej łazience lub podczas ulewnego deszczu bez zabezpieczenia. Po drugie, raz w miesiącu przedrzuć port ładowania czystą, suchą szczoteczką o miękkim włosiu. Jeśli Twój iPhone regularnie zgłasza fałszywe alarmy o płynie, mimo że telefon nigdy nie widział wody, oznacza to uszkodzenie fizyczne taśmy ze złączem dokowania i wizyta w profesjonalnym serwisie warszawskim będzie nieunikniona. ---
 
 ## Często Zadawane Pytania (FAQ)
 
 1. Czy mogę bezpiecznie ładować telefon indukcyjnie, gdy pali się komunikat o płynie?
-Tak. Ładowanie bezprzewodowe (MagSafe lub standardowe Qi) nie korzysta z fizycznych styków w porcie dokowani
-
-a. Jeśli bateria jest krytycznie niska, a Ty musisz uruchomić urządzenie, połóż je na ładowarce indukcyjnej – zignoruje ona ostrzeżenie systemowe dotyczące wilgoci w porcie przewodowym.
+Tak. Ładowanie bezprzewodowe (MagSafe lub standardowe Qi) nie korzysta z fizycznych styków w porcie dokowania. Jeśli bateria jest krytycznie niska, a Ty musisz uruchomić urządzenie, połóż je na ładowarce indukcyjnej – zignoruje ona ostrzeżenie systemowe dotyczące wilgoci w porcie przewodowym.
 
 2. Co zrobić, jeśli ładowanie przez kabel działa, ale telefon nie chce łączyć się z komputerem?
 To klasyczny objaw zawilgocenia lub uszkodzenia konkretnych pinów odpowiadających za przesył danych (linie TX/RX), podczas gdy piny zasilające (VBUS) wciąż przewodzą prąd. Wyczyszczenie portu izopropanolem i upewnienie się, że styki są idealnie suche, powinno rozwiązać problem z komunikacją z PC lub Maciem.

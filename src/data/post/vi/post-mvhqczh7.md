@@ -37,11 +37,7 @@ Thay vì hoảng loạn mang máy đi tiệm, anh em hãy thực hiện lần l�
 
 ### Bước 1: Vệ sinh cổng sạc Type-C đúng cách
 Bụi vải trong túi quần, mồ hôi tay và độ ẩm đặc trưng của thời tiết Sài Gòn rất dễ bám vào các chân tiếp xúc mạ vàng bên trong cổng Type-C, cản trở giao tiếp dữ liệu và dòng điện sạc nhanh.
-* Cách làm: Lấy một chiếc tăm tre vót thật dẹt và mỏng (tuyệt đối không dùng kim loại hay tăm bông có sợi bông dễ bóc tách), nhẹ nhàng khều sạch lớp bụi xơ ép chặt ở đáy cổng sạc. Sau đó dùng cồn Isopropyl (IPA) 90 độ chấm vào bàn chải đánh răng lông mềm, vẩy thật ráo rồi chà nhẹ để tẩy sạch cặn bẩn oxy hó
-
-a.
-
-### Bước 2: Tắt các tính năng làm mới nền và tối ưu hóa sạc
+* Cách làm: Lấy một chiếc tăm tre vót thật dẹt và mỏng (tuyệt đối không dùng kim loại hay tăm bông có sợi bông dễ bóc tách), nhẹ nhàng khều sạch lớp bụi xơ ép chặt ở đáy cổng sạc. Sau đó dùng cồn Isopropyl (IPA) 90 độ chấm vào bàn chải đánh răng lông mềm, vẩy thật ráo rồi chà nhẹ để tẩy sạch cặn bẩn oxy hóa. ### Bước 2: Tắt các tính năng làm mới nền và tối ưu hóa sạc
 * Vào Cài đặt (Settings) > Cài đặt chung (General) > Làm mới ứng dụng trong nền (Background App Refresh) và chuyển về trạng thái Tắt hoặc chỉ chọn những app thực sự cần thiết.
 * Kiểm tra mục Pin (Battery) xem app nào đang "hút máu" nhiều nhất trong 24 giờ qua để tiến hành gỡ bỏ hoặc cài đặt lại phiên bản mới nhất từ App Store.
 

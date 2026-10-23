@@ -39,9 +39,7 @@ Sortez vos outils, on passe à l'action. Voici la méthode infaillible que j'app
 
 3. Inspectez l'intérieur du port USB-C ou Lightning à la lumière du téléphone. Vous allez sûrement apercevoir un compactage grisâtre au fond.
 
-4. Grattez très délicatement pour décoller la bourre de poussière et extrayez-l
-
-a. Vous seriez surpris de ce qu'on y trouve !
+4. Grattez très délicatement pour décoller la bourre de poussière et extrayez-la. Vous seriez surpris de ce qu'on y trouve !
 
 5. Donnez un coup de spray à air sec (maintenez la bombe bien droite pour ne pas projeter de gaz liquéfié).
 

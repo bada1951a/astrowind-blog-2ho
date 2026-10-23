@@ -9,15 +9,9 @@ theme: "Solarized Amber Warm"
 ---
 
 
-Sumpah, ini momen paling *jantungan* selama gue wara-wiri dinas luar kot
+Sumpah, ini momen paling *jantungan* selama gue wara-wiri dinas luar kota. Waktu itu gue lagi di gate bandara Soetta, tinggal 15 menit lagi mau *boarding* pesawat ke Surabaya. Urusan kerjaan? Wah, kacau. Bos besar nge-spam chat WhatsApp nanyain file proposal final yang masih nyangkut di laptop tapi harus direvisi lewat HP, sementara persentase baterai Galaxy Z Fold kesayangan gue tinggal *nyisa* 4 persen! Dengan tangan bergetar, gue buru-buru colok kabel *fast charging* power bank ke port USB-C. Tapi alih-alih logo petir hijau muncul, layar HP malah nembak pop-up merah menyal
 
-a. Waktu itu gue lagi di gate bandara Soetta, tinggal 15 menit lagi mau *boarding* pesawat ke Surabay
-
-a. Urusan kerjaan? Wah, kacau. Bos besar nge-spam chat WhatsApp nanyain file proposal final yang masih nyangkut di laptop tapi harus direvisi lewat HP, sementara persentase baterai Galaxy Z Fold kesayangan gue tinggal *nyisa* 4 persen! Dengan tangan bergetar, gue buru-buru colok kabel *fast charging* power bank ke port USB-C. Tapi alih-alih logo petir hijau muncul, layar HP malah nembak pop-up merah menyal
-
-a: "Perhatian: Pengisian daya dijed
-
-a. Terdeteksi adanya kelembapan di port USB." *Anjrit!* Padahal HP nggak pernah kecebur, paling cuma kena cipratan gerimis tipis waktu jalan dari taksi ke terminal. Kepala gue langsung pening, keringat dingin mengucur deras, membayangkan meeting darurat tanpa HP di tempat klien nanti.
+a: "Perhatian: Pengisian daya dijeda. Terdeteksi adanya kelembapan di port USB." *Anjrit!* Padahal HP nggak pernah kecebur, paling cuma kena cipratan gerimis tipis waktu jalan dari taksi ke terminal. Kepala gue langsung pening, keringat dingin mengucur deras, membayangkan meeting darurat tanpa HP di tempat klien nanti.
 
 <div style="border-left: 4px solid #d97706; padding: 12px 16px; margin: 20px 0; background-color: rgba(217, 119, 6, 0.05); border-radius: 4px;">
 <strong>Catatan Bengkel Ponsel:</strong> Peringatan "Moisture Detected" atau "Water Drop Icon" adalah fitur pengaman *hardware* bawaan Android modern (khususnya lini Samsung Galaxy flagship seperti Z Fold/Flip dan S Series) untuk mencegah korsleting mikro pada pin konektor tipe-C saat mendeteksi hambatan arus listrik akibat cairan.

@@ -27,9 +27,7 @@ Para resolver o problema, precisamos entender o que o sensor do seu smartphone e
 
 1. Condensação térmic
 
-a: A mudança brusca entre o ar-condicionado gelado do escritório e o calor abafado da rua (ou o aquecimento do próprio aparelho rodando planilhas pesadas) cria microgotas de umidade dentro da port
-
-a.
+a: A mudança brusca entre o ar-condicionado gelado do escritório e o calor abafado da rua (ou o aquecimento do próprio aparelho rodando planilhas pesadas) cria microgotas de umidade dentro da porta.
 
 2. Resíduos de poeira e fiapos: O bolso da calça ou a mochila acumulam fuligem e fiapos de tecido. Quando combinados com umidade mínima do ar de São Paulo, esses resíduos criam uma pasta condutiva que engana o sensor.
 
@@ -44,9 +42,7 @@ Se você precisa do celular funcionando agora para não perder o prazo do trabal
 a:
 
 ### 1. Desconecte e Limpe os Resíduos Secos
-Desconecte qualquer cabo imediatamente. Pegue uma lanterna (pode ser a de outro celular ou a luz do notebook) e examine a porta de carg
-
-a. Se notar fiapos de tecido acumulados no fundo, use um palito de dente de plástico (extremamente macio) com movimentos laterais levíssimos para puxar a sujeira para fora, NUNCA empurrando para o fundo.
+Desconecte qualquer cabo imediatamente. Pegue uma lanterna (pode ser a de outro celular ou a luz do notebook) e examine a porta de carga. Se notar fiapos de tecido acumulados no fundo, use um palito de dente de plástico (extremamente macio) com movimentos laterais levíssimos para puxar a sujeira para fora, NUNCA empurrando para o fundo.
 
 
 
@@ -79,18 +75,10 @@ a: Mantenha garrafas de água com tampa rosca bem longe do raio de ação dos se
 ## Perguntas Frequentes (FAQ)
 
 1. Posso usar álcool isopropílico para limpar a porta se o erro persistir?
-Sim, mas com cautela extrem
-
-a. Use apenas álcool isopropílico 99.9% em quantidade mínima aplicada na ponta de uma escova de dentes extremamente macia, e espere secar completamente por 15 minutos antes de tentar ligar o aparelho à tomad
-
-a.
+Sim, mas com cautela extrema. Use apenas álcool isopropílico 99.9% em quantidade mínima aplicada na ponta de uma escova de dentes extremamente macia, e espere secar completamente por 15 minutos antes de tentar ligar o aparelho à tomada.
 
 2. O aviso sumiu, mas o celular ainda não quer carregar. O que fazer?
-Isso indica que a umidade pode ter causado corrosão leve nos pinos de dados. Tente reiniciar o smartphone forçadamente. Se persistir, teste outro cabo original; o problema pode ser o chip MFi/USB-PD do próprio acessório que queimou por seguranç
-
-a.
+Isso indica que a umidade pode ter causado corrosão leve nos pinos de dados. Tente reiniciar o smartphone forçadamente. Se persistir, teste outro cabo original; o problema pode ser o chip MFi/USB-PD do próprio acessório que queimou por segurança.
 
 3. Continuar carregando com o aviso ignorado pode estragar a placa?
-Com certez
-
-a. Ignorar o aviso forçando a carga com líquido ou umidade presente pode fechar um curto-circuito na placa-mãe, fundindo os microchips de gerenciamento de energia (como o chip Tristar/Hydra em alguns modelos), resultando em um conserto que custa caro.
+Com certeza. Ignorar o aviso forçando a carga com líquido ou umidade presente pode fechar um curto-circuito na placa-mãe, fundindo os microchips de gerenciamento de energia (como o chip Tristar/Hydra em alguns modelos), resultando em um conserto que custa caro.

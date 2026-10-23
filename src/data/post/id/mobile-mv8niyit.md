@@ -11,9 +11,7 @@ theme: "Pastel Lavender Tech"
 
 Sialan, kerjaan kantor numpuk tapi harus *hotspot* dari iPhone pas lagi di kereta cepat karena Wi-Fi gerbong lemot kayak siput. Pas buka laptop, layar iPhone malah silau banget nyorot muka di kabin yang agak remang-remang. Mau nurunin brightness manual, nanti malah kelupaan balikin pas siang-siang, bikin boros baterai plus ninggalin risiko *burn-in* di panel OLED kesayangan. 
 
-Sebagai teknisi yang tiap hari pegang komplainan HP rusak, jujur aja, layar OLED iPhone itu manj
-
-a. Kalo sering digeber tingkat kecerahan maksimal di ruangan gelap, pikselnya bakal cepet 'teler' alias ninggalin bayangan permanen (*burn-in*). Belum lagi urusan mata minus yang makin nambah gara-gara silau cahaya biru.
+Sebagai teknisi yang tiap hari pegang komplainan HP rusak, jujur aja, layar OLED iPhone itu manja. Kalo sering digeber tingkat kecerahan maksimal di ruangan gelap, pikselnya bakal cepet 'teler' alias ninggalin bayangan permanen (*burn-in*). Belum lagi urusan mata minus yang makin nambah gara-gara silau cahaya biru.
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-551/1000/550)
 
@@ -36,15 +34,11 @@ Nah, biar nggak ribet colok-colok setting tiap kali pindah skenario kerja *on-th
 
 Sebelum masuk ke eksekusi teknis, mari kita pahami dulu akar masalah yang sering diremehin anak kantoran:
 
-1. Panel OLED dan Burn-in Stres Termal: Panel OLED menyalakan piksel secara mandiri. Kontras ekstrem antara latar putih menyilaukan dengan kegelapan kereta dalam waktu lama bikin degradasi piksel nggak merat
-
-a.
+1. Panel OLED dan Burn-in Stres Termal: Panel OLED menyalakan piksel secara mandiri. Kontras ekstrem antara latar putih menyilaukan dengan kegelapan kereta dalam waktu lama bikin degradasi piksel nggak merata.
 
 2. Blue Light Toxicity di Ruangan Minim Cahay
 
-a: Di dalam kereta atau ruangan gelap, pupil mata otomatis membuka lebar. Cahaya putih terang dari layar tanpa *Dark Mode* iburat nyorot senter langsung ke retin
-
-a.
+a: Di dalam kereta atau ruangan gelap, pupil mata otomatis membuka lebar. Cahaya putih terang dari layar tanpa *Dark Mode* iburat nyorot senter langsung ke retina.
 
 3. Manajemen Kontrol Manual yang Kerepotan: Kebanyakan orang males bolak-balik buka *Control Center* buat ganti mode tampilan, akhirnya dibiarin mode terang terus walau udah malam.
 
@@ -87,9 +81,7 @@ Pastikan opsi <em>"Tampilkan Saat Berjalan" (Notify When Run)</em> dimatikan sup
 
 Biar investasi HP puluhan juta lo nggak sia-sia gara-gara masalah sepele, perhatikan beberapa hal krusial ini:
 
-* Jangan Pakai Mode Auto-Brightness Ekstrem di Tempat Gelap: Sensor *ambient light* kadang salah baca kalau tertutup bayangan tangan atau posisi duduk di keret
-
-a. Atur batas manual kenyamanan mata lo.
+* Jangan Pakai Mode Auto-Brightness Ekstrem di Tempat Gelap: Sensor *ambient light* kadang salah baca kalau tertutup bayangan tangan atau posisi duduk di kereta. Atur batas manual kenyamanan mata lo.
 * Bersihkan Cache dan Background App: Terlalu banyak aplikasi kantor yang jalan di background saat *hotspot* bisa bikin suhu mesin naik. Panas berlebih + layar OLED tingkat kecerahan tinggi adalah resep utama perusakan umur panel (*dead pixels*).
 * Reset Pengaturan Jaringan Berkal
 

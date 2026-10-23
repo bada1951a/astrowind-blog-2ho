@@ -9,19 +9,10 @@ theme: "Deep Ocean Cobalt"
 ---
 
 
-São Paulo, ramal da CPTM lotado às 8h da manhã, o notebook aberto no colo com a bateria morrendo, e eu precisando urgentemente puxar um relatório gigantesco direto do servidor da firm
-
-a. Abro o *Hotspot Pessoal* (Acesso Pessoal) no meu iPhone 15 Pro, o Mac insiste em empacar no handshake de IP, e o celular vira uma chapa de quentinha de tão quente. Para piorar, aquela tela OLED brilhando a 100% de brilho no modo claro parecendo um farol de milha na cara dos passageiros, sugando a minha bateria de 100% para 40% em vinte minutos e fritando os pixels estáticos da barra de status. Quem nunca passou por esse cão chupando manga que atire a primeira pedr
-
-a.
-
-<div style="border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
+São Paulo, ramal da CPTM lotado às 8h da manhã, o notebook aberto no colo com a bateria morrendo, e eu precisando urgentemente puxar um relatório gigantesco direto do servidor da firma. Abro o *Hotspot Pessoal* (Acesso Pessoal) no meu iPhone 15 Pro, o Mac insiste em empacar no handshake de IP, e o celular vira uma chapa de quentinha de tão quente. Para piorar, aquela tela OLED brilhando a 100% de brilho no modo claro parecendo um farol de milha na cara dos passageiros, sugando a minha bateria de 100% para 40% em vinte minutos e fritando os pixels estáticos da barra de status. Quem nunca passou por esse cão chupando manga que atire a primeira pedra. <div style="border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>DIRETRIZ DE SEGURANÇA MDM & OPERAÇÃO CORPORATIV
 
-A:</strong> O uso prolongado de telas OLED em brilho máximo com interfaces estáticas (como barras de ferramentas de redes e apps abertos em segundo plano) acelera a degradação química dos compostos orgânicos emissores de luz azul. A implementação de perfis de automação de tema escuro não é apenas uma preferência estética, mas um protocolo mandatório de preservação de hardware e ergonomia visual para força de trabalho remot
-
-a.
-</div>
+A:</strong> O uso prolongado de telas OLED em brilho máximo com interfaces estáticas (como barras de ferramentas de redes e apps abertos em segundo plano) acelera a degradação química dos compostos orgânicos emissores de luz azul. A implementação de perfis de automação de tema escuro não é apenas uma preferência estética, mas um protocolo mandatório de preservação de hardware e ergonomia visual para força de trabalho remota. </div>
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-332/1000/550)
 
@@ -29,15 +20,9 @@ a.
 
 Antes de abrir o capô e resolver a gambiarra, vamos trocar uma ideia técnica sobre o que acontece debaixo do capô do iOS quando a gente tenta resolver um pepino corporativo em trânsito:
 
-1. Estresse Térmico e Roteamento de Dados (Tethering): Quando o modem 5G do iPhone trabalha no limite para segurar o pacote de dados do notebook em movimento (com o trem trocando de torre de celular a cada 30 segundos), o processador (SoC) aquece violentamente. Se a tela estiver no Modo Claro com brilho máximo, a matriz OLED consome corrente elétrica dobrada, gerando um efeito térmico cumulativo que derrete a autonomi
+1. Estresse Térmico e Roteamento de Dados (Tethering): Quando o modem 5G do iPhone trabalha no limite para segurar o pacote de dados do notebook em movimento (com o trem trocando de torre de celular a cada 30 segundos), o processador (SoC) aquece violentamente. Se a tela estiver no Modo Claro com brilho máximo, a matriz OLED consome corrente elétrica dobrada, gerando um efeito térmico cumulativo que derrete a autonomia.
 
-a.
-
-2. Degradação de Fósforo Orgânico (Burn-in): Telas OLED usam subpíxeis que emitem luz própri
-
-a. O branco exige corrente máxima contínua nos subpíxeis vermelhos, verdes e azuis. Manter fundos brancos estáticos durante o trabalho remoto acelera o desgaste desigual desses diodos, gerando as famosas "fantasias" ou marcas de navegação cravadas na tel
-
-a.
+2. Degradação de Fósforo Orgânico (Burn-in): Telas OLED usam subpíxeis que emitem luz própria. O branco exige corrente máxima contínua nos subpíxeis vermelhos, verdes e azuis. Manter fundos brancos estáticos durante o trabalho remoto acelera o desgaste desigual desses diodos, gerando as famosas "fantasias" ou marcas de navegação cravadas na tela.
 
 3. Fadiga Visual por Contraste Dinâmico: Em ambientes de trânsito (trens, ônibus, escritórios escuros), a diferença de luz entre a interface clara do sistema e o ambiente causa constrição pupilar constante, detonando a vista e causando aquela dor de cabeça clássica de fim de expediente.
 
@@ -45,19 +30,11 @@ a.
 
 ## O Calvário das Tentativas Inúteis
 
-Claro que eu não acertei de primeir
-
-a. No meu desespero matinal, passei por todas as clássicas armadas de quem acha que entende de tecnologi
+Claro que eu não acertei de primeira. No meu desespero matinal, passei por todas as clássicas armadas de quem acha que entende de tecnologi
 
 a:
 
-* Tentativa 1: Ficar mudando manualmente o tema na Central de Controle toda vez que entrava e saia de túneis. Resultado: esquece ligado, o celular fica cinza no sol do meio-dia e você não enxerga absolutamente nada na ru
-
-a.
-* Tentativa 2: Usar o ajuste automático nativo baseado no pôr do sol do iOS. O problema é que o algoritmo padrão não sabe que eu estou enfiado em um vagão fechado às 9h da manhã lidando com pânico corporativo sob luz artificial fri
-
-a.
-* Tentativa 3: Desativar o *True Tone* e abaixar o slider de brilho manualmente até o talo, o que deixava a tela tão escura que eu mal conseguia ler o terminal SSH rodando no Mac.
+* Tentativa 1: Ficar mudando manualmente o tema na Central de Controle toda vez que entrava e saia de túneis. Resultado: esquece ligado, o celular fica cinza no sol do meio-dia e você não enxerga absolutamente nada na rua. * Tentativa 2: Usar o ajuste automático nativo baseado no pôr do sol do iOS. O problema é que o algoritmo padrão não sabe que eu estou enfiado em um vagão fechado às 9h da manhã lidando com pânico corporativo sob luz artificial fria. * Tentativa 3: Desativar o *True Tone* e abaixar o slider de brilho manualmente até o talo, o que deixava a tela tão escura que eu mal conseguia ler o terminal SSH rodando no Mac.
 
 Só depois de perder 40 minutos de paciência percebi que o iOS tem uma ferramenta matadora escondid
 
@@ -82,9 +59,7 @@ a: Definir Aparência para Escuro] ➔ [Otimização de Bateria & Proteção OLE
 
 2. Toque na aba inferior Automação (o ícone de relógio com o símbolo de play).
 
-3. Toque no botão "+" (Adicionar) no canto superior direito para criar uma nova automação de rotin
-
-a.
+3. Toque no botão "+" (Adicionar) no canto superior direito para criar uma nova automação de rotina.
 
 4. Role a lista para baixo e selecione um gatilho inteligente. Para quem vive na correria de trânsito, recomendo fortemente "Chegada" (baseado em geolocalização do escritório/casa) ou "Hora do Dia" (ex: fixar das 18h às 08h do dia seguinte). Vamos usar Hora do Dia para este exemplo. Defina para as `07:00` e escolha "Executar Imediatamente" (sem pedir confirmação para não travar sua rotina).
 
@@ -96,15 +71,9 @@ a.
 
 a: `Definir Aparência como Escuro`.
 
-8. (Opcional Avançado): Adicione uma segunda ação na mesma automação buscando Definir Brilho e ajustando para `35%`, salvando seus olhos e sua bateria de uma só tacad
+8. (Opcional Avançado): Adicione uma segunda ação na mesma automação buscando Definir Brilho e ajustando para `35%`, salvando seus olhos e sua bateria de uma só tacada.
 
-a.
-
-9. Toque em OK no canto superior direito. Pronto! Sua rotina está blindad
-
-a.
-
----
+9. Toque em OK no canto superior direito. Pronto! Sua rotina está blindada. ---
 
 ## Recomendações Técnicas de Manutenção Preventiva
 
@@ -112,9 +81,7 @@ Para garantir que seu iPhone continue rodando liso e longe da assistência técn
 
 a:
 
-* Limpeza de Cache Oculto: O iOS gerencia bem a memória, mas travamentos em tethering costumam corromper arquivos temporários do sistem
-
-a. Se o celular esquentar sem motivo aparente, vá em Ajustes > Geral > Armazenamento do iPhone e faça uma limpeza dos apps que você não usa há meses.
+* Limpeza de Cache Oculto: O iOS gerencia bem a memória, mas travamentos em tethering costumam corromper arquivos temporários do sistema. Se o celular esquentar sem motivo aparente, vá em Ajustes > Geral > Armazenamento do iPhone e faça uma limpeza dos apps que você não usa há meses.
 * Redefinição de Ajustes de Rede: Se o seu Hotspot continuar caindo no trem, não precisa formatar o celular. Vá em Ajustes > Geral > Transferir ou Redefinir o iPhone > Redefinir > Redefinir Ajustes de Rede. Isso limpa bugs crônicos de handshake Wi-Fi/Bluetooth sem apagar suas fotos ou dados pessoais.
 * Controle de Carga em Trânsito: Evite usar o celular plugado em powerbanks vagabundas enquanto roda hotspot pesado no 5G. A sobrecarga térmica combinada (processador + modem + carga de bateria) degrada a vida útil da bateria química muito mais rápido do que o normal.
 
@@ -123,22 +90,10 @@ a. Se o celular esquentar sem motivo aparente, vá em Ajustes > Geral > Armazena
 ## Perguntas Frequentes (FAQ Técnico)
 
 1. Essa automação gasta mais bateria rodando em segundo plano?  
-Zero. O sistema de automações do iOS (`daemóns` nativos) consome menos energia do que um microssegundo de processamento de tela ligad
-
-a. O ganho que você tem ao usar o Modo Escuro em painéis OLED compensa cem vezes qualquer microprocessamento de rotin
-
-a.
+Zero. O sistema de automações do iOS (`daemóns` nativos) consome menos energia do que um microssegundo de processamento de tela ligada. O ganho que você tem ao usar o Modo Escuro em painéis OLED compensa cem vezes qualquer microprocessamento de rotina.
 
 2. Posso criar uma automação baseada exclusivamente na conexão do Wi-Fi do escritório?  
-Sim! Na aba de Automação Pessoal, selecione a opção Wi-Fi. Escolha o SSID da rede da sua empres
-
-a. Defina para executar a ação de ativar o Modo Escuro (e até abrir seu app de VPN corporativo) assim que o celular conectar na rede da firm
-
-a.
+Sim! Na aba de Automação Pessoal, selecione a opção Wi-Fi. Escolha o SSID da rede da sua empresa. Defina para executar a ação de ativar o Modo Escuro (e até abrir seu app de VPN corporativo) assim que o celular conectar na rede da firma.
 
 3. O Modo Escuro realmente evita o burn-in em telas OLED modernas?  
-Com certez
-
-a. Embora os painéis OLED atuais (usados do iPhone 13 em diante) tenham tecnologias avançadas de deslocamento de pixels (*pixel-shifting*) e subpíxeis mais resistentes, os diodos que exibem o preto absoluto ficam completamente desligados (consumindo 0% de energia e gerando zero desgaste químico). Menos luz emitida = vida útil estendida da tel
-
-a.
+Com certeza. Embora os painéis OLED atuais (usados do iPhone 13 em diante) tenham tecnologias avançadas de deslocamento de pixels (*pixel-shifting*) e subpíxeis mais resistentes, os diodos que exibem o preto absoluto ficam completamente desligados (consumindo 0% de energia e gerando zero desgaste químico). Menos luz emitida = vida útil estendida da tela. 

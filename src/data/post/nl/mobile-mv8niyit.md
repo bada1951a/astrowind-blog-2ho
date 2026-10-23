@@ -80,9 +80,7 @@ Duik nooit zomaar in de <strong>Ontwikkelaarsopties</strong> (Developer Options)
 ### Veelgestelde Vragen (FAQ)
 
 1. Kost deze automatische donkere modus-routine extra accudapaciteit op de achtergrond?
-Nee, absoluut niet. Het draait op native triggers van het besturingssysteem zelf. Sterker nog: omdat je OLED-scherm geen energie verbruikt om zwarte pixels aan te sturen, bespaar je juist aanzienlijk op je batterij terwijl je laptop via de hotspot hangt te lurken aan je dat
-
-a.
+Nee, absoluut niet. Het draait op native triggers van het besturingssysteem zelf. Sterker nog: omdat je OLED-scherm geen energie verbruikt om zwarte pixels aan te sturen, bespaar je juist aanzienlijk op je batterij terwijl je laptop via de hotspot hangt te lurken aan je data.
 
 2. Wat als ik per ongeluk in de Ontwikkelaarsopties zit te rommelen en mijn UI crasht?
 Geen paniek. Ga op Android naar *Instellingen > Ontwikkelaarsopties* en schakel de optie direct uit, of herstart je toestel in Veilige Modus. Op iOS heb je dit probleem sowieso niet omdat Apple dit soort diepe systeemwijzigingen afschermt via de beveiligde API's.

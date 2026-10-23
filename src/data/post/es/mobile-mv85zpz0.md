@@ -9,11 +9,7 @@ theme: "Dracula Purple Dev"
 ---
 
 
-Eran las 7:15 PM, sudando frío en la fila de embarque de la Terminal 2, con el portapapeles digital ardiendo en el chat corporativo y el Galaxy Z Fold marcando un trágico 4% de baterí
-
-a. Necesitaba enviar la cotización final al director antes de que cerraran las puertas del avión. Con la mano temblando, conecté el cable USB-C al power bank y... el desastre: *«Se ha detectado humedad en el puerto de carga»*. El icono de la gota de agua parpadeando en la pantalla principal como una advertencia de expulsión nuclear. Cero carga, cero llamadas, cero vida corporativ
-
-a. Si te ha pasado esto justo en el peor momento, quédate, porque estuve investigando con técnicos de servicio y probé de todo para no perder el equipo.
+Eran las 7:15 PM, sudando frío en la fila de embarque de la Terminal 2, con el portapapeles digital ardiendo en el chat corporativo y el Galaxy Z Fold marcando un trágico 4% de batería. Necesitaba enviar la cotización final al director antes de que cerraran las puertas del avión. Con la mano temblando, conecté el cable USB-C al power bank y... el desastre: *«Se ha detectado humedad en el puerto de carga»*. El icono de la gota de agua parpadeando en la pantalla principal como una advertencia de expulsión nuclear. Cero carga, cero llamadas, cero vida corporativa. Si te ha pasado esto justo en el peor momento, quédate, porque estuve investigando con técnicos de servicio y probé de todo para no perder el equipo.
 
 ### ¿Por qué saltó esta maldita alerta de humedad de la nada?
 
@@ -41,11 +37,7 @@ Si estás atrapado en una situación crítica, olvídate de los mitos de la abue
 #### Paso 1: Forzar el reinicio del sistema de control de energía
 A veces el sensor se queda bloqueado digitalmente. Necesitamos un reinicio forzoso para limpiar la lectura errónea en la controladora PMIC.
 * Mantén presionados simultáneamente el Botón de Encendido (Lateral) y el Bajar Volumen durante más de 10 segundos.
-* Espera a que aparezca el logotipo de Samsung y suelt
-
-a.
-
-#### Paso 2: Limpieza física del puerto sin dañar los pines
+* Espera a que aparezca el logotipo de Samsung y suelta. #### Paso 2: Limpieza física del puerto sin dañar los pines
 Apaga el dispositivo por completo. Consigue un palillo de madera (nunca metal) y revisa con unalupa o la linterna de otro teléfono el interior del conector USB-C. Saca con muchísimo cuidado cualquier pelusa compactada al fondo. Luego, utiliza aire comprimido a una distancia prudente (o sopla con fuerza controlada) para expulsar partículas sueltas.
 
 #### Paso 3: Restablecer los datos del servicio USB (Caché del sistema)
@@ -70,29 +62,27 @@ Si una app de terceros está interfiriendo con los permisos del puerto, mantén 
 
 ### Advertencias de experto para evitar daños fatales
 
-* Cero secador de pelo caliente: El calor excesivo de un secador de cabello de casa deforma los sellos de goma internos y el pegamento de la pantalla plegable del Fold, arruinando la certificación IP de resistencia al agu
-
-a. Si usas aire, que sea completamente frío.
+* Cero secador de pelo caliente: El calor excesivo de un secador de cabello de casa deforma los sellos de goma internos y el pegamento de la pantalla plegable del Fold, arruinando la certificación IP de resistencia al agua. Si usas aire, que sea completamente frío.
 * Cuidado con la carga inalámbrica de emergenci
 
 a: Si el puerto sigue bloqueado y necesitas batería urgentemente para salir del paso, usa una base de carga inalámbrica Qi. Salva la patria sin forzar el paso de corriente por pines húmedos que puedan sulfatarse.
-* No desactives las alertas vía ADB a lo loco: Hay tutoriales en foros oscuros que te enseñan a desactivar la comprobación de humedad por comandos de consol
-
-a. No lo hagas; si hay agua real y metes 25W de potencia, vas a freír la placa madre y perderás toda la información del trabajo.
+* No desactives las alertas vía ADB a lo loco: Hay tutoriales en foros oscuros que te enseñan a desactivar la comprobación de humedad por comandos de consola. No lo hagas; si hay agua real y metes 25W de potencia, vas a freír la placa madre y perderás toda la información del trabajo.
 
 ---
 
 ### Preguntas Frecuentes (FAQ)
 
-1. ¿Puedo usar el teléfono si la advertencia aparece pero carga de forma intermitente?
-Es una pésima ide
+1.
 
-a. Si carga de forma intermitente significa que hay un puente de resistencia inestable (probablemente líquido mezclado con suciedad). Esto genera picos de voltaje que pueden dañar el circuito integrado de carga (IC de carga) de la placa principal.
+¿Puedo usar el teléfono si la advertencia aparece pero carga de forma intermitente?
+Es una pésima idea. Si carga de forma intermitente significa que hay un puente de resistencia inestable (probablemente líquido mezclado con suciedad). Esto genera picos de voltaje que pueden dañar el circuito integrado de carga (IC de carga) de la placa principal.
 
-2. ¿Qué hago si ya limpié y sequé el puerto, pero la notificación no desaparece ni con un hard reset?
+2.
+
+¿Qué hago si ya limpié y sequé el puerto, pero la notificación no desaparece ni con un hard reset?
 Es muy probable que los pines del conector USB-C se hayan corrosionado internamente o que el flex de carga haya sufrido un daño por humedad residual. Debes acudir a un centro de servicio técnico autorizado para un ultrasonido de placa y reemplazo del módulo de puerto.
 
-3. ¿La garantía cubre fallas por detección de humedad falsa?
-Depende de la inspección visual del técnico. Si los indicadores LDI (Liquid Damage Indicator) ubicados dentro del puerto o en la bandeja SIM cambiaron de color (pasaron de blanco a rosa/rojo), Samsung podría invalidar la garantía por daño accidental por líquidos, aunque el puerto solo haya fallado por condensación ambiental. Por eso es vital una limpieza ultrasónica previa si el teléfono nunca se sumergió en agu
+3.
 
-a.
+¿La garantía cubre fallas por detección de humedad falsa?
+Depende de la inspección visual del técnico. Si los indicadores LDI (Liquid Damage Indicator) ubicados dentro del puerto o en la bandeja SIM cambiaron de color (pasaron de blanco a rosa/rojo), Samsung podría invalidar la garantía por daño accidental por líquidos, aunque el puerto solo haya fallado por condensación ambiental. Por eso es vital una limpieza ultrasónica previa si el teléfono nunca se sumergió en agua. 

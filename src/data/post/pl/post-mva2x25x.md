@@ -9,9 +9,7 @@ theme: "Electric Cyan Speed"
 ---
 
 
-Godzina 13:45. Siedzę przy biurku w naszym warszawskim biurze, a za kwadrans zaczynam kluczową prezentację projektu przed zarządem. Slajdy są gotowe, wszystko dopięte na ostatni guzik, sięgam po iPhone'a, żeby rzucić okiem na notatki... i ścian
-
-a. Ekran jest całkowicie czarny albo – co gorsza – zamrożony na środku animacji otwierania aplikacji. Przesuwam palcem w górę, wciskam boczny przycisk, próbuję Siri – absolutny brak reakcji. Czarny ekran, zero życia, a puls skacze do dwustu. Znasz to uczucie? W takich momentach człowiek traci cenne minuty na bezradne stukanie w szkło.
+Godzina 13:45. Siedzę przy biurku w naszym warszawskim biurze, a za kwadrans zaczynam kluczową prezentację projektu przed zarządem. Slajdy są gotowe, wszystko dopięte na ostatni guzik, sięgam po iPhone'a, żeby rzucić okiem na notatki... i ściana. Ekran jest całkowicie czarny albo – co gorsza – zamrożony na środku animacji otwierania aplikacji. Przesuwam palcem w górę, wciskam boczny przycisk, próbuję Siri – absolutny brak reakcji. Czarny ekran, zero życia, a puls skacze do dwustu. Znasz to uczucie? W takich momentach człowiek traci cenne minuty na bezradne stukanie w szkło.
 
 Zanim zaczniesz panikować i szukać najbliższego serwisu Apple na Mokotowie czy w Śródmieściu, zatrzymaj się. W 95% przypadków taki problem to chwilowa zawieszka procesora systemu iOS lub błąd bufora pamięci RAM, którą rozwiążesz w kilkadziesiąt sekund za pomocą jednej prostej procedury. 
 
@@ -69,13 +67,7 @@ Jeśli logo Apple się pojawiło, telefon wstał, ale dotyk nadal ani drgnie, pr
 ## Często Zadawane Pytania (FAQ)
 
 ### 1. Czy wymuszony restart (Hard Reset) kasuje moje zdjęcia, wiadomości lub aplikacje?
-Nie. Wymuszony restart to technologiczny odpowiednik wyjęcia wtyczki z gniazdka w komputerze stacjonarnym. Procesor zostaje zresetowany, ale pamięć trwała (dane użytkownika) pozostaje w 100% nienaruszon
-
-a.
-
-
-
-![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget760/1000/550)
+Nie. Wymuszony restart to technologiczny odpowiednik wyjęcia wtyczki z gniazdka w komputerze stacjonarnym. Procesor zostaje zresetowany, ale pamięć trwała (dane użytkownika) pozostaje w 100% nienaruszona. ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget760/1000/550)
 
 ### 2. Co jeśli mój iPhone wisi na logo Apple i nie chce się włączyć do końca?
 To tzw. "bootloop". W takiej sytuacji konieczne będzie podłączenie iPhone'a do komputera (Mac lub PC z zainstalowanym programem iTunes/Apple Devices), wprowadzenie telefonu w tryb awaryjny (Recovery Mode) i wybranie opcji "Uaktualnij" (Update), która nadpisze pliki systemowe bez utraty Twoich danych.

@@ -8,9 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
 ---
 
 
-Halo Boss! Ketemu lagi di meja servis say
-
-a. Baru saja tadi jam istirahat siang, ada pekerja kantoran area SCBD Jakarta yang datang ke konter dengan muka panik. HP iPhone-nya bunyi *beep* pelan, terus muncul pop-up peringatan *Slow Charging* atau pengisian daya lambat pas lagi colok power bank di dalam KRL. 
+Halo Boss! Ketemu lagi di meja servis saya. Baru saja tadi jam istirahat siang, ada pekerja kantoran area SCBD Jakarta yang datang ke konter dengan muka panik. HP iPhone-nya bunyi *beep* pelan, terus muncul pop-up peringatan *Slow Charging* atau pengisian daya lambat pas lagi colok power bank di dalam KRL. 
 
 Panik? Pasti. Soalnya posisi baterai tinggal 4% dan dia harus meeting online lima menit lagi. Masalah kayak gini tuh klasik banget, tapi sering bikin orang salah beli aksesoris baru padahal masalahnya sepele. 
 
@@ -25,11 +23,7 @@ Nah, sebagai teknisi yang tiap hari nanganin pasien begini, saya mau bongkar tun
 Berdasarkan pengalaman saya bongkar ratusan unit smartphone dengan keluhan serupa, penyebab utamanya biasanya bukan di baterai HP yang ngedrop, melainkan tiga hal ini:
 
 1. Port Charger HP Longgar dan Penuh Debu Saku (Lint)
-   Ini juara pertamany
-
-a. Di Jakarta yang udaranya lumayan berdebu, saku celana atau tas kita itu sarangnya serat kain halus. Serat ini masuk ke dalam lubang Type-C atau Lightning, ketusuk-tusuk colokan tiap hari, akhirnya numpuk di dasar port. Akibatnya? Pin konektor data dan arus listrik nggak nempel sempurn
-
-a. Arus yang tadinya harusnya 18W atau 20W, drop drastis jadi 5W aja, makanya HP langsung ngeluarin *warning slow charging*.
+   Ini juara pertamanya. Di Jakarta yang udaranya lumayan berdebu, saku celana atau tas kita itu sarangnya serat kain halus. Serat ini masuk ke dalam lubang Type-C atau Lightning, ketusuk-tusuk colokan tiap hari, akhirnya numpuk di dasar port. Akibatnya? Pin konektor data dan arus listrik nggak nempel sempurna. Arus yang tadinya harusnya 18W atau 20W, drop drastis jadi 5W aja, makanya HP langsung ngeluarin *warning slow charging*.
 
 2. Kabel USB "Nyeleneh" (Putus Nyambung di Dalam atau Bukan Kabel Data)
    Banyak yang pakai kabel murah beli di pinggir jalan demi alasan darurat. Padahal, kabel KW atau kabel *cheap charging-only* tidak punya chip pengatur arus (*E-Marker* atau IC pendukung *Fast Charging*). Selain itu, tembaga di dalam kabelnya udah pada putus rambut karena sering digulung sembarangan atau ditekuk-tekuk di dalam tas.
@@ -86,11 +80,7 @@ A: Jawabannya ada di kestabilan arus dan kualitas port. *Wall charger* colokan r
 
 Q: Apakah port charger HP yang sudah longgar bisa diperbaiki tanpa harus ganti satu modul papan bawah?
 
-A: Tergantung jenis HP-nya, Boss. Kalau cuma karena kotor atau per pengait di dalam port-nya melar sedikit, teknisi biasanya bisa menyetelnya kembali pakai pinset presisi atau membersihkanny
-
-a. Tapi kalau pin tembaganya sudah aus, terkikis, atau patah karena sering ditarik paksa, jalan satu-satunya memang harus ganti port (soldering ulang) atau ganti satu set *sub-board* (papan bawah), yang biayanya relatif terjangkau kok di konter servis terpercay
-
-a.
+A: Tergantung jenis HP-nya, Boss. Kalau cuma karena kotor atau per pengait di dalam port-nya melar sedikit, teknisi biasanya bisa menyetelnya kembali pakai pinset presisi atau membersihkannya. Tapi kalau pin tembaganya sudah aus, terkikis, atau patah karena sering ditarik paksa, jalan satu-satunya memang harus ganti port (soldering ulang) atau ganti satu set *sub-board* (papan bawah), yang biayanya relatif terjangkau kok di konter servis terpercaya.
 
 Q: Berbahayakah tetap membiarkan HP dicas dengan status slow charging dalam jangka panjang?
 
@@ -100,6 +90,4 @@ a: baterai jadi gampang kembung (*swollen battery*), umur kesehatan baterai (*ba
 
 ---
 
-Punya masalah gadget lain yang bikin pusing? Jangan ragu mampir ke konter atau tulis di kolom komentar y
-
-a. Salam solder panas dari teknisi Jakarta!
+Punya masalah gadget lain yang bikin pusing? Jangan ragu mampir ke konter atau tulis di kolom komentar ya. Salam solder panas dari teknisi Jakarta!

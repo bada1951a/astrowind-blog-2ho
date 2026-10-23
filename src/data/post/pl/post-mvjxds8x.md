@@ -9,9 +9,7 @@ theme: "Acid Lime Hacker Space"
 ---
 
 
-Stoisz w pełnym słońcu na środku ruchliwego ronda w Warszawie, próbujesz szybko uchwycić uśmiech dziecka na zdjęciu, a tu nagle na ekranie wyskakuje krytyczny komunikat: "Brak pamięci", po czym aplikacja galerii całkowicie zamarza, a ekran ciemnieje do tego stopnia, że nie widzisz absolutnie nic. Znasz to uczucie bezradności? W tym momencie telefon przypomina rozgrzany do czerwoności piecyk, a słońce wcale nie pomaga w schłodzeniu procesor
-
-a. Jako serwisant z wieloletnim stażem widzę ten scenariusz niemal codziennie. Urządzenie dostaje szału, gdy kumuluje się wysoka temperatura otoczenia, pełne obciążenie procesora i dławienie termiczne, czyli tak zwany *thermal throttling*. 
+Stoisz w pełnym słońcu na środku ruchliwego ronda w Warszawie, próbujesz szybko uchwycić uśmiech dziecka na zdjęciu, a tu nagle na ekranie wyskakuje krytyczny komunikat: "Brak pamięci", po czym aplikacja galerii całkowicie zamarza, a ekran ciemnieje do tego stopnia, że nie widzisz absolutnie nic. Znasz to uczucie bezradności? W tym momencie telefon przypomina rozgrzany do czerwoności piecyk, a słońce wcale nie pomaga w schłodzeniu procesora. Jako serwisant z wieloletnim stażem widzę ten scenariusz niemal codziennie. Urządzenie dostaje szału, gdy kumuluje się wysoka temperatura otoczenia, pełne obciążenie procesora i dławienie termiczne, czyli tak zwany *thermal throttling*. 
 
 W tym praktycznym poradniku pokażę Ci krok po kroku, jak opanować ten chaos, bezpiecznie uporządkować przestrzeń dyskową bez utraty cennych wspomnień i zapobiec nagłemu gasnącemu ekranowi w najbardziej nieoczekiwanym momencie.
 
@@ -27,9 +25,7 @@ Oto 3 główne przyczyny, dla których sprzęt wpada w ten kryzysowy stan:
 
 1. Dławienie termiczne (Thermal Throttling): Gdy temperatura procesora (SoC) przekracza bezpieczną granicę około 45°C do 50°C, system automatycznie ogranicza wydajność podzespołów oraz drastycznie obniża jasność ekranu, aby ratować baterię przed spuchnięciem lub uszkodzeniem.
 
-2. Krytyczny brak wolnej przestrzeni dyskowej: Pamięć typu UFS/NVMe w smartfonach potrzebuje przynajmniej 10-15% wolnego miejsca jako tzw. *swap memory* (pamięć wirtualną) na pliki tymczasowe. Gdy jej brakuje, system zaczyna panicznie zapisywać i kasować dane w pętli, co generuje potężne ilości ciepł
-
-a.
+2. Krytyczny brak wolnej przestrzeni dyskowej: Pamięć typu UFS/NVMe w smartfonach potrzebuje przynajmniej 10-15% wolnego miejsca jako tzw. *swap memory* (pamięć wirtualną) na pliki tymczasowe. Gdy jej brakuje, system zaczyna panicznie zapisywać i kasować dane w pętli, co generuje potężne ilości ciepła.
 
 3. Zasobożerne procesy w tle i cache: Setki miniatur w galerii oraz zsynchronizowane w tle aplikacje społecznościowe nieustannie mielą dane w pamięci podręcznej, co w połączeniu z gorącym letnim dniem tworzy istny koktajl Moitella dla stabilności systemu.
 
@@ -60,9 +56,7 @@ Jeśli system wciąż krzyczy o brak pamięci, przejrzyj folder Ostatnio usunię
 
 Q1. Czy ciągłe przyciemnianie się ekranu na słońcu oznacza, że matryca jest uszkodzona?
 
-A1.Zazwyczaj nie. To mechanizm ochronny oprogramowania przed przegrzaniem procesora i samej matrycy OLED/AMOLED, a nie fizyczna usterka ekranu. Dopiero gdy ekran pozostaje ciemny w chłodnym pomieszczeniu, można podejrzewać uszkodzenie czujnika światła lub podświetleni
-
-a.
+A1.Zazwyczaj nie. To mechanizm ochronny oprogramowania przed przegrzaniem procesora i samej matrycy OLED/AMOLED, a nie fizyczna usterka ekranu. Dopiero gdy ekran pozostaje ciemny w chłodnym pomieszczeniu, można podejrzewać uszkodzenie czujnika światła lub podświetlenia.
 
 Q2. Czy używanie telefonu podczas ładowania w samochodzie w upalny dzień może uszkodzić baterię?
 

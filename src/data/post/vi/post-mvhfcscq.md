@@ -41,22 +41,14 @@ Dung mot cay tam tre vuot nhon hoac mot soi chi nho de nhe nhang khua sach bui v
 * *Luu y tuyet doi:* Khong dung kim loai sac nhu kim khau ao hay dau kim ghim de choc vao cong, vi rat de lam gay chan tiep xuc ma vang ben trong, dan den mat han tinh nang sac nhanh.
 
 ### Buoc 3: Kiem tra muc tieu thu pin va go bo app rac
-Vao phan *Cai dat -> Cham soc pin va thiet bi -> Pin -> Muc su dung*. Tai day, hay kiem tra xem ung dung nao dang hut pin nhieu nhat trong 24 gio qu
-
-a. Neu thay app nao la hoac co thoi gian chay ngam bat thuong, hay chon "Buoc dung" (Force Stop) va tien hanh go cai dat (Uninstall) ngay lap tuc.
+Vao phan *Cai dat -> Cham soc pin va thiet bi -> Pin -> Muc su dung*. Tai day, hay kiem tra xem ung dung nao dang hut pin nhieu nhat trong 24 gio qua. Neu thay app nao la hoac co thoi gian chay ngam bat thuong, hay chon "Buoc dung" (Force Stop) va tien hanh go cai dat (Uninstall) ngay lap tuc.
 
 ---
 
 ## Cac cau hoi thuong gap (FAQ)
 
 ### 1. Tai sao dien thoai cua toi khong dung gi ma van tu tut 30% pin trong 1 tieng?
-Hien tuong nay 90% do cac ung dung chay ngam hoac tinh nang dinh vi (GPS) bi mot app nao do kich hoat lien tuc. Ban nen bat Che do tiet kiem pin (Power Saving Mode) va kiem tra lai quyen truy cap vi tri cua cac ung dung ben thu b
-
-a.
-
-
-
-![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhffjup-11-b/1000/550.jpg)
+Hien tuong nay 90% do cac ung dung chay ngam hoac tinh nang dinh vi (GPS) bi mot app nao do kich hoat lien tuc. Ban nen bat Che do tiet kiem pin (Power Saving Mode) va kiem tra lai quyen truy cap vi tri cua cac ung dung ben thu ba. ![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhffjup-11-b/1000/550.jpg)
 
 ### 2. Cong Type C cua toi luc nhan sac nhanh, luc chi nhan sac cham la do dau?
 Thuong nguyen nhan la do chan tiep xuc ben trong dau cam Type C bi oxy hoa do mo hoi tay hoac bui ban bam lau ngay. Ban co the dung mot it con 90 do va tam bong nho de ve sinh nhe nhang phia trong long cong sac (nho tat nguon may truoc khi ve sinh).
