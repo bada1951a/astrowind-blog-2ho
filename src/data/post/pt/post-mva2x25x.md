@@ -9,14 +9,20 @@ theme: "High-Contrast Charcoal"
 ---
 
 
-Eram exatas 15h30 em ponto no nosso escritório corporativo na região da Avenida Paulista, em São Paulo. O expediente estava no ápice da correria: planilhas abertas, dezenas de mensagens no Slack da firma e um erro crítico de leitura de dados que precisava ser validado com a diretoria em questão de minutos. Peguei o iPhone correndo da mesa para puxar o token de autenticação e... nada. A tela simplesmente congelou. Toquei no visor, apertei o botão lateral, tentei deslizar para cima, mas o aparelho virou um peso de papel elegante. O cursor girava emLOOP eterno ou a tela ficava totalmente preta, ignorando qualquer comando enquanto o relógio corria contra mim.
+Eram exatas 15h30 em ponto no nosso escritório corporativo na região da Avenida Paulista, em São Paulo. O expediente estava no ápice da correri
+
+a: planilhas abertas, dezenas de mensagens no Slack da firma e um erro crítico de leitura de dados que precisava ser validado com a diretoria em questão de minutos. Peguei o iPhone correndo da mesa para puxar o token de autenticação e... nad
+
+a. A tela simplesmente congelou. Toquei no visor, apertei o botão lateral, tentei deslizar para cima, mas o aparelho virou um peso de papel elegante. O cursor girava emLOOP eterno ou a tela ficava totalmente preta, ignorando qualquer comando enquanto o relógio corria contra mim.
 
 Se você já passou por isso, sabe o desespero. A primeira reação costuma ser o pânico de achar que o celular queimou ou que todos os arquivos e fotos recentes foram perdidos no limbo. 
 
 ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget614/1000/550)
 
 <div style="border-left: 4px solid #e11d48; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Alerta de Emergência:</strong> Não entre em pânico e evite pressionar todos os botões aleatoriamente achando que vai destravar. O travamento total de tela geralmente é uma pane temporária no SpringBoard (a interface gráfica do iOS) ou um conflito pesado de aplicativo em segundo plano, e não um defeito físico permanente.
+<strong>Alerta de Emergênci
+
+a:</strong> Não entre em pânico e evite pressionar todos os botões aleatoriamente achando que vai destravar. O travamento total de tela geralmente é uma pane temporária no SpringBoard (a interface gráfica do iOS) ou um conflito pesado de aplicativo em segundo plano, e não um defeito físico permanente.
 </div>
 
 ## Por que o iPhone trava de repente?
@@ -44,12 +50,16 @@ O procedimento exato varia ligeiramente dependendo do modelo do seu iPhone:
 
 3. Imediatamente após soltar o botão de diminuir o volume, mantenha pressionado o botão Lateral (liga/desliga).
 
-4. Continue segurando o botão lateral até que a tela apague e o logotipo da Apple (a maçã) apareça na tela. Isso pode levar cerca de 10 a 15 segundos. Quando a maçã aparecer, solte o botão.
+4. Continue segurando o botão lateral até que a tela apague e o logotipo da Apple (a maçã) apareça na tel
+
+a. Isso pode levar cerca de 10 a 15 segundos. Quando a maçã aparecer, solte o botão.
 
 ### Para iPhone 7 e 7 Plus:
 1. Pressione e mantenha pressionados simultaneamente o botão de Diminuir Volume e o botão Lateral.
 
-2. Continue segurando ambos até o logotipo da Apple surgir na tela.
+2. Continue segurando ambos até o logotipo da Apple surgir na tel
+
+a.
 
 ### Para iPhone 6s, SE (1ª geração) e modelos mais antigos:
 1. Pressione e mantenha pressionados simultaneamente o botão de Início (Home) e o botão Superior ou Lateral.
@@ -75,7 +85,9 @@ Depois que o aparelho reiniciar e colocar você de volta ao trabalho, siga estas
 ## Perguntas Frequentes (FAQ)
 
 1. A reinicialização forçada apaga minhas fotos ou senhas salvas?
-Não. Esse procedimento é totalmente seguro para os seus arquivos pessoais. Ele funciona como se você tirasse a bateria de um computador antigo da tomada e a colocasse de volta: o sistema apenas recarrega do zero sem tocar no seu armazenamento interno.
+Não. Esse procedimento é totalmente seguro para os seus arquivos pessoais. Ele funciona como se você tirasse a bateria de um computador antigo da tomada e a colocasse de volt
+
+a: o sistema apenas recarrega do zero sem tocar no seu armazenamento interno.
 
 2. O que fazer se o logotipo da Apple aparecer, mas o iPhone travar novamente na tela preta?
 Se o aparelho entrar em um loop infinito de reinicialização, o problema pode ser um erro crítico de sistema operacional. Nesses casos, será necessário conectar o iPhone a um computador (via cabo original), abrir o Finder (no Mac) ou o aplicativo Dispositivos Apple / iTunes (no Windows) e colocá-lo no modo de recuperação (Recovery Mode) para reinstalar o iOS sem apagar os dados.

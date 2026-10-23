@@ -9,10 +9,14 @@ theme: "Solarized Amber Warm"
 ---
 
 
-Eram três da tarde em ponto no nosso escritório corporativo na região da Avenida Paulista, em São Paulo, e o clima estava tenso. Eu estava no meio de um fechamento de relatório trimestral urgente para a diretoria, precisando puxar dados cruciais direto do meu iPhone para o computador via cabo, quando o pior aconteceu: pluguei o cabo Lightning e o celular cismou em exibir aquele aviso irritante de "Líquido detectado no conector Lightning". O problema? Meu celular não via água há semanas. Sem bateria decente para carregar por indução a tempo e com o erro travando a transferência de dados, a reunião com a chefia estava ameaçada por um falso positivo de umidade que simplesmente não sumia da tela.
+Eram três da tarde em ponto no nosso escritório corporativo na região da Avenida Paulista, em São Paulo, e o clima estava tenso. Eu estava no meio de um fechamento de relatório trimestral urgente para a diretoria, precisando puxar dados cruciais direto do meu iPhone para o computador via cabo, quando o pior aconteceu: pluguei o cabo Lightning e o celular cismou em exibir aquele aviso irritante de "Líquido detectado no conector Lightning". O problema? Meu celular não via água há semanas. Sem bateria decente para carregar por indução a tempo e com o erro travando a transferência de dados, a reunião com a chefia estava ameaçada por um falso positivo de umidade que simplesmente não sumia da tel
+
+a.
 
 <div style="border-left: 4px solid #d97706; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Nota do Especialista:</strong> O sensor do iPhone é extremamente sensível. Qualquer resquício de sujeira, zinabre ou umidade invisível a olho nu na porta de carga faz o sistema de segurança do iOS travar a porta para evitar curto-circuito.
+<strong>Nota do Especialist
+
+a:</strong> O sensor do iPhone é extremamente sensível. Qualquer resquício de sujeira, zinabre ou umidade invisível a olho nu na porta de carga faz o sistema de segurança do iOS travar a porta para evitar curto-circuito.
 </div>
 
 ![Hardware & Tech Solution Guide](https://picsum.photos/seed/gadget511/1000/550)
@@ -29,31 +33,47 @@ Depois de perder preciosos 20 minutos testando cabos diferentes e reiniciando o 
 
 ### Passo a Passo: Como Resolver o Problema de Vez
 
-Esqueça o velho mito de enfiar o iPhone no pote de arroz. O arroz não absorve a umidade interna com rapidez, deixa amido e farelos que pioram a sujeira do conector, e ainda pode corroer os componentes. Vamos à solução prática de bancada.
+Esqueça o velho mito de enfiar o iPhone no pote de arroz. O arroz não absorve a umidade interna com rapidez, deixa amido e farelos que pioram a sujeira do conector, e ainda pode corroer os componentes. Vamos à solução prática de bancad
+
+a.
 
 <div style="border-left: 4px solid #d97706; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Atenção:</strong> Nunca utilize secadores de cabelo em ar quente, sopradores térmicos ou cotonetes com pontas de algodão desfiadas. O calor derrete a borracha de vedação interna e o algodão pode ficar preso nos pinos.
 </div>
 
 #### Passo 1: Limpeza Física Segura do Conector
-Com o iPhone desligado, pegue um palito de dente de madeira (nunca agulhas de metal ou clipes de papel, que causam curto imediato nos contatos dourados). Incline levemente e raspe com extremo cuidado o fundo e as laterais do conector Lightning ou USB-C para soltar aquela compactação de pó e sujeira. Você vai se assustar com a quantidade de detritos que sai dali.
+Com o iPhone desligado, pegue um palito de dente de madeira (nunca agulhas de metal ou clipes de papel, que causam curto imediato nos contatos dourados). Incline levemente e raspe com extremo cuidado o fundo e as laterais do conector Lightning ou USB-C para soltar aquela compactação de pó e sujeir
+
+a. Você vai se assustar com a quantidade de detritos que sai dali.
 
 #### Passo 2: Secagem com Ar Frio e Isopropílico
-Se houver suspeita de umidade real, aplique algumas gotas de álcool isopropílico 99% (que evapora instantaneamente e não deixa resíduos) dentro da entrada. Em seguida, utilize um jato de ar comprimido em lata (mantendo a lata na vertical para não respingar líquido propelente) ou use um ventilador comum na velocidade baixa para forçar a evaporação e expulsar qualquer resquício.
+Se houver suspeita de umidade real, aplique algumas gotas de álcool isopropílico 99% (que evapora instantaneamente e não deixa resíduos) dentro da entrad
+
+a. Em seguida, utilize um jato de ar comprimido em lata (mantendo a lata na vertical para não respingar líquido propelente) ou use um ventilador comum na velocidade baixa para forçar a evaporação e expulsar qualquer resquício.
 
 #### Passo 3: Reinicialização Forçada e Bypasses do iOS
-Se a limpeza física foi feita e o aviso persiste, o problema é de software. Faça uma reinicialização forçada:
+Se a limpeza física foi feita e o aviso persiste, o problema é de software. Faça uma reinicialização forçad
+
+a:
 - Pressione e solte rapidamente o botão de Aumentar Volume.
 - Pressione e solte rapidamente o botão de Diminuir Volume.
-- Pressione e mantenha o Botão Lateral pressionado até aparecer o logotipo da Apple na tela.
+- Pressione e mantenha o Botão Lateral pressionado até aparecer o logotipo da Apple na tel
+
+a.
 
 Caso precise carregar o aparelho com urgência enquanto o aviso não some, desligue o iPhone completamente, conecte o cabo de energia e só então ligue-o novamente, ou utilize um carregador por indução (Wireless/MagSafe) compatível.
 
 ### Prevenção e Cuidados Essenciais
 
-Para evitar que esse susto aconteça no meio de uma entrega importante de trabalho, adote algumas práticas simples no seu dia a dia:
-- Capa com tampa protetora: Se você trabalha na rua ou transita muito sob garoa, use capas que possuem tampas de silicone para vedar a entrada do conector.
-- Limpeza preventiva semestral: Use o palito de dente de forma preventiva a cada seis meses para remover o acúmulo de fiapos do bolso da calça.
+Para evitar que esse susto aconteça no meio de uma entrega importante de trabalho, adote algumas práticas simples no seu dia a di
+
+a:
+- Capa com tampa protetor
+
+a: Se você trabalha na rua ou transita muito sob garoa, use capas que possuem tampas de silicone para vedar a entrada do conector.
+- Limpeza preventiva semestral: Use o palito de dente de forma preventiva a cada seis meses para remover o acúmulo de fiapos do bolso da calç
+
+a.
 - Cuidado com acessórios originais: Cabos danificados ou de procedência duvidosa podem enviar picos de energia incorretos e confundir o circuito de proteção do aparelho.
 
 ---
@@ -61,10 +81,14 @@ Para evitar que esse susto aconteça no meio de uma entrega importante de trabal
 ### Perguntas Frequentes (FAQ)
 
 1. É seguro usar o iPhone se eu ignorar o alerta de líquido clicando em "Emergência"?
-Não é recomendado. A opção de emergência serve estritamente para situações extremas onde você precisa de carga para uma ligação vital. Forçar corrente elétrica em um conector úmido ou sujo pode causar curto-circuito na placa lógica, fundir os pinos ou queimar o chip de gerenciamento de energia.
+Não é recomendado. A opção de emergência serve estritamente para situações extremas onde você precisa de carga para uma ligação vital. Forçar corrente elétrica em um conector úmido ou sujo pode causar curto-circuito na placa lógica, fundir os pinos ou queimar o chip de gerenciamento de energi
+
+a.
 
 2. O álcool comum em gel ou 70% serve para limpar o conector?
 De jeito nenhum. O álcool comum e o álcool em gel contêm água na composição e aditivos hidratantes que deixam resíduos pegajosos. Utilize exclusivamente álcool isopropílico acima de 99%, pois ele é formulado especificamente para eletrônicos e evapora sem deixar marcas.
 
 3. Meu iPhone nunca molhou, por que esse erro aparece do nada?
-Em 90% dos casos em grandes centros urbanos, o causador é a combinação de suor (que é salino e condutivo) acumulado no bolso com a poeira diária, criando uma película falsa que engana os sensores de umidade da porta de carga. Uma limpeza mecânica leve costuma resolver imediatamente.
+Em 90% dos casos em grandes centros urbanos, o causador é a combinação de suor (que é salino e condutivo) acumulado no bolso com a poeira diária, criando uma película falsa que engana os sensores de umidade da porta de carg
+
+a. Uma limpeza mecânica leve costuma resolver imediatamente.

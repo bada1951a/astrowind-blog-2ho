@@ -39,7 +39,9 @@ Sortez vos outils, on passe à l'action. Voici la méthode infaillible que j'app
 
 3. Inspectez l'intérieur du port USB-C ou Lightning à la lumière du téléphone. Vous allez sûrement apercevoir un compactage grisâtre au fond.
 
-4. Grattez très délicatement pour décoller la bourre de poussière et extrayez-la. Vous seriez surpris de ce qu'on y trouve !
+4. Grattez très délicatement pour décoller la bourre de poussière et extrayez-l
+
+a. Vous seriez surpris de ce qu'on y trouve !
 
 5. Donnez un coup de spray à air sec (maintenez la bombe bien droite pour ne pas projeter de gaz liquéfié).
 
@@ -67,7 +69,9 @@ En tant que technicien, je vois trop d'appareils arriver avec des connecteurs fo
 
 ---
 
-### FAQ : Vos questions fréquentes à l'atelier
+### FA
+
+Q : Vos questions fréquentes à l'atelier
 
 Q1 : Ma power bank affiche "Fast Charge", mais mon téléphone me met quand même une alerte de charge lente. Pourquoi ?
 *R.: C'est souvent un problème de compatibilité de protocoles. Par exemple, certaines batteries utilisent le système Quick Charge de Qualcomm (très répandu sur Android), mais votre iPhone utilise le Power Delivery d'Apple. Les deux ne se parlent pas correctement, et la power bank se replie sur un profil de secours sécurisé en 5V lent.*

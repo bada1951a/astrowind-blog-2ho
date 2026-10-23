@@ -98,10 +98,13 @@ As a technician who routinely fixes fried motherboards, I want to leave you with
 ### Practical FAQs
 
 Q: Why does my phone charge fine with a cable, but causes the wireless charger to blink?
+
 A: Wired charging uses a direct physical pin-to-pin connection, bypassing the need for magnetic induction. If wired charging works but wireless fails, it typically points to coil misalignment, a thick/metallic phone case, a weak power adapter feeding the wireless pad, or a failure within the wireless receiver coil inside the phone itself.
 
 Q: Can a cracked glass back on my phone stop wireless charging?
-A: Yes, absolutely. Wireless charging relies on a continuous magnetic field passing through the back glass of your phone. If the glass on the back is heavily shattered or fractured right over the coil area, the air gaps and structural breaks can disrupt the magnetic flux, causing the charger to error out and blink. 
+
+A: Yes, absolutely. Wireless charging relies on a continuous magnetic field passing through the back glass of your phone. If the glass on the back is heavily shattered or fractured right over the coil area, the air gaps and structural breaks can disrupt the magnetic flux, causing the charger to error out and blink.
 
 Q: Why does my phone start charging, but then starts blinking and stops after 10 minutes?
+
 A: This is almost always a thermal protection mechanism. When you start charging, the battery draws maximum current and heats up. If your phone or the room is warm, the internal temperature sensor will cross a safety threshold within 10 to 15 minutes, cutting off the power to prevent thermal runaway. Move the phone to a cooler surface, take off the heavy case, and let it cool down before trying again.

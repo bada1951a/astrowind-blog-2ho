@@ -22,8 +22,12 @@ Thuc te, day la tinh trang ma rat nhieu anh em su dung dong may Galaxy gap phai.
 Sau khi kiem tra chiec may cua chi khach tai ban ky thuat TPHCM, nguyen nhan nhanh chong lo dien khong chi nam o mot loi don thuan ma la su ket hop cua phan mem va phan cung:
 
 * Tien trinh ngam bi treo (Zombie App): Mot so ung dung mang xa hoi hoac app dat xe bi loi dong bo du lieu, chay ngam khong ngung nghi khien chip xu ly (CPU) luon hoat động o cong suat cao 100%, dan den nong ran toan bo mat lung va sut pin than toc.
-* Loi mach giao tiep USB Power Delivery (PD): Khi cong Type C bi bam bui ban hoac am moc, mach dieu khien sac nhanh bi nhieu tin hieu, danh lua bo nguon rang may dang qua nhiet, dan den tinh trang ngat sac nhanh hoac chi nhan sac cham 5W 1A.
-* Xung dot he thong sau ban cap nhat One UI: Nhieu tien ich (widgets) hoac dich vu vi tri chay ngam bi loi vong lap (loop) sau khi may tu dong cap nhat phan mem qua OTA.
+* Loi mach giao tiep USB Power Delivery (PD): Khi cong Type C bi bam bui ban hoac am moc, mach dieu khien sac nhanh bi nhieu tin hieu, danh lua bo nguon rang may dang qua nhiet, dan den tinh trang ngat sac nhanh hoac chi nhan sac cham 5W 1
+
+A.
+* Xung dot he thong sau ban cap nhat One UI: Nhieu tien ich (widgets) hoac dich vu vi tri chay ngam bi loi vong lap (loop) sau khi may tu dong cap nhat phan mem qua OT
+
+A.
 
 ## Cac buoc xu ly tai cho an toan va hieu qua nhat
 
@@ -37,14 +41,18 @@ Dung mot cay tam tre vuot nhon hoac mot soi chi nho de nhe nhang khua sach bui v
 * *Luu y tuyet doi:* Khong dung kim loai sac nhu kim khau ao hay dau kim ghim de choc vao cong, vi rat de lam gay chan tiep xuc ma vang ben trong, dan den mat han tinh nang sac nhanh.
 
 ### Buoc 3: Kiem tra muc tieu thu pin va go bo app rac
-Vao phan *Cai dat -> Cham soc pin va thiet bi -> Pin -> Muc su dung*. Tai day, hay kiem tra xem ung dung nao dang hut pin nhieu nhat trong 24 gio qua. Neu thay app nao la hoac co thoi gian chay ngam bat thuong, hay chon "Buoc dung" (Force Stop) va tien hanh go cai dat (Uninstall) ngay lap tuc.
+Vao phan *Cai dat -> Cham soc pin va thiet bi -> Pin -> Muc su dung*. Tai day, hay kiem tra xem ung dung nao dang hut pin nhieu nhat trong 24 gio qu
+
+a. Neu thay app nao la hoac co thoi gian chay ngam bat thuong, hay chon "Buoc dung" (Force Stop) va tien hanh go cai dat (Uninstall) ngay lap tuc.
 
 ---
 
 ## Cac cau hoi thuong gap (FAQ)
 
 ### 1. Tai sao dien thoai cua toi khong dung gi ma van tu tut 30% pin trong 1 tieng?
-Hien tuong nay 90% do cac ung dung chay ngam hoac tinh nang dinh vi (GPS) bi mot app nao do kich hoat lien tuc. Ban nen bat Che do tiet kiem pin (Power Saving Mode) va kiem tra lai quyen truy cap vi tri cua cac ung dung ben thu ba.
+Hien tuong nay 90% do cac ung dung chay ngam hoac tinh nang dinh vi (GPS) bi mot app nao do kich hoat lien tuc. Ban nen bat Che do tiet kiem pin (Power Saving Mode) va kiem tra lai quyen truy cap vi tri cua cac ung dung ben thu b
+
+a.
 
 
 

@@ -12,7 +12,9 @@ theme: "High-Contrast Charcoal"
 Đang là giờ cao điểm chiều tối, dòng người kẹt cứng tại trạm metro ở trung tâm Sài Gòn. Bạn vội vã bước tới cổng soát vé để quẹt thẻ xe buýt hoặc vé metro tích hợp trên điện thoại. Đúng lúc dòng người phía sau đang dồn ứ và sốt ruột thở dài, bạn bật màn hình lên thì hỡi ôi, màn hình tối thui như mực, cố nhìn vào dưới cái nắng oi ả còn sót lại buổi chiều thì hoàn toàn tối mù. Bạn nhấn liên tục vào nút nguồn hay chạm vào màn hình nhưng máy đứng trân trân, cảm ứng hoàn toàn liệt sĩ. Cửa soát vé không mở, mồ hôi vã ra như tắm giữa chốn đông người. Chuyện gì đang xảy ra vậy?
 
 <div style="border-left: 4px solid #e11d48; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Cảnh báo từ thợ sửa chữa:</strong> Tình trạng màn hình tự đột ngột giảm sáng tối đa và đơ cảm ứng không phải do hỏng phần cứng vĩnh viễn, mà là cơ chế tự vệ khẩn cấp của điện thoại khi linh kiện bên trong quá nóng (Thermal Throttling).
+<strong>Cảnh báo từ thợ sửa chữ
+
+a:</strong> Tình trạng màn hình tự đột ngột giảm sáng tối đa và đơ cảm ứng không phải do hỏng phần cứng vĩnh viễn, mà là cơ chế tự vệ khẩn cấp của điện thoại khi linh kiện bên trong quá nóng (Thermal Throttling).
 </div>
 
 ![Phone Screen Dimming Automatically in Bright Sunlight: Overheating Throttling Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvjxgmyg-11-b/1000/550.jpg)
@@ -21,7 +23,9 @@ theme: "High-Contrast Charcoal"
 
 Trong quá trình làm việc tại cửa hàng sửa chữa, tôi đã gặp hàng trăm trường hợp khách hàng mang máy đến với tình trạng tương tự. Dưới đây là 3 thủ phạm chính gây ra cơn ác mộng này:
 
-1. Hiệu ứng nhà kính từ ánh nắng trực tiếp kết hợp độ sáng tối đa: Khi bạn đứng ngoài trời nắng gắt, cảm biến ánh sáng đẩy độ sáng màn hình lên mức cực đại (Peak Brightness). Đồng thời, tấm nền OLED/LCD cùng vi xử lý (CPU) phải hoạt động hết công suất để duy trì hiển thị, sinh ra lượng nhiệt cực lớn không thể thoát ra ngoài kịp.
+1. Hiệu ứng nhà kính từ ánh nắng trực tiếp kết hợp độ sáng tối đ
+
+a: Khi bạn đứng ngoài trời nắng gắt, cảm biến ánh sáng đẩy độ sáng màn hình lên mức cực đại (Peak Brightness). Đồng thời, tấm nền OLED/LCD cùng vi xử lý (CPU) phải hoạt động hết công suất để duy trì hiển thị, sinh ra lượng nhiệt cực lớn không thể thoát ra ngoài kịp.
 
 2. Ốp lưng dày cản trở quá trình tản nhiệt: Chiếc ốp lưng chống sốc dày cộp bằng nhựa dẻo hoặc silicon thời trang mà bạn đang dùng vô tình đóng vai trò như một chiếc lò nướng mini, giữ chặt hơi nóng bên trong thân máy thay vì tản ra ngoài không khí.
 

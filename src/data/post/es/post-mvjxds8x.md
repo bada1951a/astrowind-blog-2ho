@@ -27,9 +27,13 @@ Para solucionar este problema de raíz, primero debemos entender qué está ocur
 
 1. Saturación crítica de la memoria NAND Flash: Cuando el almacenamiento interno supera el 95-98 de ocupación, el controlador de memoria se queda sin espacio para realizar operaciones de E/S (Entrada/Salida) básicas y la gestión de la memoria virtual (swap). Al abrir la galería para procesar fotos pesadas, el sistema se bloquea intentando escribir archivos temporales (caché).
 
-2. Efecto lupa y radiación solar directa: Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
+2. Efecto lupa y radiación solar direct
 
-3. Pérdida de eficiencia en la disipación pasiva: Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
+a: Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
+
+3. Pérdida de eficiencia en la disipación pasiv
+
+a: Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
 
 ---
 
@@ -44,9 +48,13 @@ Lo primero que debes hacer ante un bloqueo por sobrecalentamiento no es meter el
 
 #### Paso 2: Limpieza de emergencia de caché y archivos basura
 Una vez que el terminal encienda y temple su temperatura, toca liberar oxígeno al sistema de almacenamiento:
-* Entra en los ajustes de almacenamiento de tu sistema.
+* Entra en los ajustes de almacenamiento de tu sistem
+
+a.
 * Borra la caché de las aplicaciones pesadas que más utilizas (Galería, Redes Sociales, Navegadores).
-* Evita usar aplicaciones de terceros de "limpieza milagrosa" que hay en las tiendas de apps; la mayoría solo consumen recursos en segundo plano. Hazlo desde el menú nativo del sistema.
+* Evita usar aplicaciones de terceros de "limpieza milagrosa" que hay en las tiendas de apps; la mayoría solo consumen recursos en segundo plano. Hazlo desde el menú nativo del sistem
+
+a.
 * Desinstala de forma temporal aquella aplicación pesada que no uses a diario. Necesitamos recuperar al menos un 15% de espacio libre para que el sistema de archivos respire.
 
 #### Paso 3: Verificación de procesos en segundo plano
@@ -68,7 +76,9 @@ Muchos de estos bucles térmicos ocurren porque hay sincronizaciones pendientes 
 
 Q1. ¿Es normal que mi móvil se caliente y baje el brillo solo por usar Google Maps en el coche?
 
-A1.Sí, es completamente habitual. Google Maps utiliza GPS continuo, renderizado 3D de mapas, conexión de datos y brillo máximo para que veas la pantalla a través del cristal del coche (donde se crea un efecto invernadero). Si además lo llevas cargando en el soporte conectado al mechero, la temperatura se dispara. Te recomiendo colocar el soporte en las rejillas del aire acondicionado para usar el flujo del aire y mitigar el calor.
+A1.Sí, es completamente habitual. Google Maps utiliza GPS continuo, renderizado 3D de mapas, conexión de datos y brillo máximo para que veas la pantalla a través del cristal del coche (donde se crea un efecto invernadero). Si además lo llevas cargando en el soporte conectado al mechero, la temperatura se dispar
+
+a. Te recomiendo colocar el soporte en las rejillas del aire acondicionado para usar el flujo del aire y mitigar el calor.
 
 Q2. ¿Por qué el brillo automático no responde aunque me ponga a la sombra?
 

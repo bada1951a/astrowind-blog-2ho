@@ -9,7 +9,9 @@ theme: "Electric Cyan Speed"
 ---
 
 
-Godzina 13:45. Siedzę przy biurku w naszym warszawskim biurze, a za kwadrans zaczynam kluczową prezentację projektu przed zarządem. Slajdy są gotowe, wszystko dopięte na ostatni guzik, sięgam po iPhone'a, żeby rzucić okiem na notatki... i ściana. Ekran jest całkowicie czarny albo – co gorsza – zamrożony na środku animacji otwierania aplikacji. Przesuwam palcem w górę, wciskam boczny przycisk, próbuję Siri – absolutny brak reakcji. Czarny ekran, zero życia, a puls skacze do dwustu. Znasz to uczucie? W takich momentach człowiek traci cenne minuty na bezradne stukanie w szkło.
+Godzina 13:45. Siedzę przy biurku w naszym warszawskim biurze, a za kwadrans zaczynam kluczową prezentację projektu przed zarządem. Slajdy są gotowe, wszystko dopięte na ostatni guzik, sięgam po iPhone'a, żeby rzucić okiem na notatki... i ścian
+
+a. Ekran jest całkowicie czarny albo – co gorsza – zamrożony na środku animacji otwierania aplikacji. Przesuwam palcem w górę, wciskam boczny przycisk, próbuję Siri – absolutny brak reakcji. Czarny ekran, zero życia, a puls skacze do dwustu. Znasz to uczucie? W takich momentach człowiek traci cenne minuty na bezradne stukanie w szkło.
 
 Zanim zaczniesz panikować i szukać najbliższego serwisu Apple na Mokotowie czy w Śródmieściu, zatrzymaj się. W 95% przypadków taki problem to chwilowa zawieszka procesora systemu iOS lub błąd bufora pamięci RAM, którą rozwiążesz w kilkadziesiąt sekund za pomocą jednej prostej procedury. 
 
@@ -23,13 +25,17 @@ Zanim przejdziemy do naprawy, spójrzmy prawdzie w oczy – oto trzy główne po
 
 1. Konflikt aplikacji w tle: Jakaś aplikacja (często czytnik PDF, arkusz kalkulacyjny albo komunikator) weszła w pętlę procesora i całkowicie zablokowała wątek interfejsu graficznego (SpringBoard).
 
-2. Przepełniona pamięć podręczna: Zbyt mało wolnego miejsca w pamięci masowej w połączeniu z intensywnym multitaskingiem dusi system.
+2. Przepełniona pamięć podręczn
+
+a: Zbyt mało wolnego miejsca w pamięci masowej w połączeniu z intensywnym multitaskingiem dusi system.
 
 3. Chwilowy błąd sterownika dotyku: Rzadziej, ale zdarza się, że digitizer (warstwa dotykowa ekranu) gubi synchronizację z płytą główną i potrzebuje twardego resetu kontrolera zasilania (PMIC).
 
 ---
 
-## Błyskawiczna procedura: Jak wykonać wymuszony restart (Hard Reset)
+## Błyskawiczna procedur
+
+a: Jak wykonać wymuszony restart (Hard Reset)
 
 Zapomnij o tradycyjnym wyłączaniu telefonu suwakiem – dotyk nie działa, więc go nie przesuniesz. Musimy wydać fizyczne polecenie kombinacją przycisków. Procedura różni się w zależności od modelu, który trzymasz w ręce.
 
@@ -44,7 +50,9 @@ Zapomnij o tradycyjnym wyłączaniu telefonu suwakiem – dotyk nie działa, wi�
 4. Krok 4: Czekaj cierpliwie (czasami trzeba przytrzymać go przez 10-15 sekund), aż ekran zgaśnie, a na czarnym tle pojawi się logo Apple (nadgryzione jabłko). Dopiero wtedy możesz puścić przycisk.
 
 <div style="border-left: 4px solid #06b6d4; padding: 12px 16px; margin: 20px 0; background-color: rgba(6,182,212,0.05); border-radius: 4px; color: #111827;">
-<strong>Wskazówka praktyczna:</strong> Cała sekwencja (Głośniej -> Ciszej -> Trzymaj Power) musi być wykonana dość sprawnie, jeden ruch po drugim, niczym kod do sejfu. Jeśli nie zadziała za pierwszym razem, odczekaj 5 sekund i spróbuj ponownie.
+<strong>Wskazówka praktyczn
+
+a:</strong> Cała sekwencja (Głośniej -> Ciszej -> Trzymaj Power) musi być wykonana dość sprawnie, jeden ruch po drugim, niczym kod do sejfu. Jeśli nie zadziała za pierwszym razem, odczekaj 5 sekund i spróbuj ponownie.
 </div>
 
 ---
@@ -61,7 +69,9 @@ Jeśli logo Apple się pojawiło, telefon wstał, ale dotyk nadal ani drgnie, pr
 ## Często Zadawane Pytania (FAQ)
 
 ### 1. Czy wymuszony restart (Hard Reset) kasuje moje zdjęcia, wiadomości lub aplikacje?
-Nie. Wymuszony restart to technologiczny odpowiednik wyjęcia wtyczki z gniazdka w komputerze stacjonarnym. Procesor zostaje zresetowany, ale pamięć trwała (dane użytkownika) pozostaje w 100% nienaruszona.
+Nie. Wymuszony restart to technologiczny odpowiednik wyjęcia wtyczki z gniazdka w komputerze stacjonarnym. Procesor zostaje zresetowany, ale pamięć trwała (dane użytkownika) pozostaje w 100% nienaruszon
+
+a.
 
 
 

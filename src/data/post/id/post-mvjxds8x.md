@@ -20,7 +20,9 @@ Panik bukan kepalang rasanya waktu berdiri di JPO kawasan Sudirman pas jam istir
 
 ![Phone Screen Dimming Automatically in Bright Sunlight: Overheating Throttling Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvjxgcz2-10-b/1000/550.jpg)
 
-Buat Anda yang sering beraktivitas di luar ruangan dengan mobilitas tinggi di Jakarta, fenomena layar HP meredup sendiri di bawah terik matahari bukanlah hal sepele. Ini adalah mekanisme pertahanan darurat dari sistem perangkat Anda. Sebagai teknisi yang setiap hari membongkar bangkai berbagai *gadget* matot (mati total), mari kita bedah kenapa hal ini bisa terjadi dan bagaimana cara menyelamatkan ponsel Anda sebelum benar-benar jadi batu bata alias *wall-mounted brick*.
+Buat Anda yang sering beraktivitas di luar ruangan dengan mobilitas tinggi di Jakarta, fenomena layar HP meredup sendiri di bawah terik matahari bukanlah hal sepele. Ini adalah mekanisme pertahanan darurat dari sistem perangkat And
+
+a. Sebagai teknisi yang setiap hari membongkar bangkai berbagai *gadget* matot (mati total), mari kita bedah kenapa hal ini bisa terjadi dan bagaimana cara menyelamatkan ponsel Anda sebelum benar-benar jadi batu bata alias *wall-mounted brick*.
 
 ---
 
@@ -54,14 +56,18 @@ Jangan biarkan ponsel Anda tumbang di tengah jalan. Ikuti protokol penyelamatan 
    Langkah pertama dan paling krusial: *Jangan* memasukkan HP ke dalam tas tertutup yang lembap atau kulkas! Cukup singkirkan *casing* silikon atau pelindung tebal yang mengunci panas. Biarkan sirkulasi udara alami mendinginkan bodi ponsel secara perlahan di tempat yang teduh.
 
 2. Matikan Paksa Jika Menunjukkan Gejala Bootloop
-   Jika ponsel sudah mulai kedap-kedip atau *restart* sendiri saat proses unduhan sistem macet, lakukan *force shutdown* (biasanya menekan tombol Power + Volume Bawah selama 10-15 detik). Jangan paksakan menyalakannya kembali saat bodi masih terasa panas membara. Biarkan suhu turun ke angka aman (suhu ruangan).
+   Jika ponsel sudah mulai kedap-kedip atau *restart* sendiri saat proses unduhan sistem macet, lakukan *force shutdown* (biasanya menekan tombol Power + Volume Bawah selama 10-15 detik). Jangan paksakan menyalakannya kembali saat bodi masih terasa panas membar
+
+a. Biarkan suhu turun ke angka aman (suhu ruangan).
 
 3. Kalibrasi Ulang dan Bersihkan Cache Sistem
    Setelah ponsel berhasil menyala normal di tempat sejuk, segera hentikan aplikasi berat yang berjalan di latar belakang. Hapus *cache* sistem melalui menu pemeliharaan perangkat. Jika masalah layar redup ini terus berulang meski di dalam ruangan ber-AC, bawa ke teknisi terpercaya untuk mengganti pasta termal internal yang sudah kering.
 
 <div style="border-left: 4px solid #ff3366; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>WARNING // PERINGATAN KERAS TEKNISI</strong><br>
-Hindari mendinginkan ponsel secara ekstrem menggunakan es batu atau memasukinya ke dalam lemari es/freezer! Perbedaan suhu drastis akan menciptakan kondensasi (embun air) di dalam komponen mesin, yang justru memicu korsleting permanen dan membuat HP mati total selamanya.
+Hindari mendinginkan ponsel secara ekstrem menggunakan es batu atau memasukinya ke dalam lemari es/freezer! Perbedaan suhu drastis akan menciptakan kondensasi (embun air) di dalam komponen mesin, yang justru memicu korsleting permanen dan membuat HP mati total selamany
+
+a.
 </div>
 
 ---

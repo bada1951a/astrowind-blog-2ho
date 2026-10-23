@@ -10,7 +10,9 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Wireless Charging"]
 
 ### Der Albtraum am Schreibtisch: Wenn das Qi-Pad nur hektisch blinkt
 
-Es ist mal wieder typisch Montag im Büro, egal ob hier in Berlin oder drüben in München. Du wirfst dein Smartphone morgens im Halbschlaf auf die Qi-Ladestation, freust dich auf eine stressfreie Ladung ganz ohne Kabelsalat – und was passiert? Das verflixte Ding fängt an, rot oder blau im Sekundentakt zu blinken. Kein Ladesymbol, keine Prozentanzeige, gar nichts. Der Akku kriecht auf dem Zahnfleisch, und du stehst ohne Saft da. 
+Es ist mal wieder typisch Montag im Büro, egal ob hier in Berlin oder drüben in München. Du wirfst dein Smartphone morgens im Halbschlaf auf die Qi-Ladestation, freust dich auf eine stressfreie Ladung ganz ohne Kabelsalat – und was passiert? Das verflixte Ding fängt an, rot oder blau im Sekundentakt zu blinken. Kein Ladesymbol, keine Prozentanzeige, gar nichts. Der Akku kriecht auf dem Zahnfleisch, und du stehst ohne Saft d
+
+a. 
 
 ![Wireless Charger Blinking and Not Charging Phone: How to Align Induction Coils Guide](https://picsum.photos/seed/mob-mvgavswh-3-b/1000/550.jpg)
 

@@ -68,11 +68,22 @@ Before taking your device to a service center:
 
 ## Frequently Asked Questions (FAQ)
 
-### Q: Can I still use my phone normally if the inner screen is dead?
-A: Yes! You can use the outer cover screen for calls, messaging, navigation, and even backing up your data. Just keep the phone folded until you can get professional hardware service.
+###
 
-### Q: Why does the inner screen work sometimes when the phone is half-folded, but goes black when fully opened?
+Q: Can I still use my phone normally if the inner screen is dead?
+
+A: Yes! You can use the outer cover screen for calls, messaging, navigation, and even backing up your dat
+
+a. Just keep the phone folded until you can get professional hardware service.
+
+###
+
+Q: Why does the inner screen work sometimes when the phone is half-folded, but goes black when fully opened?
+
 A: This is the textbook symptom of a damaged or partially severed internal flex cable. When the phone is half-folded, the cable is under less tension, allowing continuity. When fully opened, the cable stretches, breaking the connection.
 
-### Q: Will removing my screen protector fix the black screen issue?
+###
+
+Q: Will removing my screen protector fix the black screen issue?
+
 A: Only if the issue is related to the proximity or touch sensor getting blocked by an improperly installed third-party protector near the top bezel. However, if the screen is completely dark upon unfolding, a screen protector replacement will not fix an underlying display or flex cable failure.

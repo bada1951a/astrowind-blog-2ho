@@ -37,7 +37,9 @@ Avant de passer à l'action, comprenons brièvement ce qui s'est passé dans la 
 
 ### Le guide étape par étape : Forcer le redémarrage en 10 secondes
 
-Oubliez l'attente que la batterie se vide complètement (ce qui peut prendre des heures). Voici la manipulation exacte à effectuer, qu'il s'agisse d'un Galaxy S, d'un Note ou d'un modèle de la gamme A :
+Oubliez l'attente que la batterie se vide complètement (ce qui peut prendre des heures). Voici la manipulation exacte à effectuer, qu'il s'agisse d'un Galaxy S, d'un Note ou d'un modèle de la gamme
+
+A :
 
 * Étape 1 : Repérez simultanément le bouton de réduction du volume (sur la tranche gauche) et le bouton latéral d'alimentation / marche-arrêt (sur la tranche droite).
 * Étape 2 : Maintenez ces deux boutons enfoncés en même temps de manière ferme et continue.

@@ -68,10 +68,13 @@ A clean reboot flushes out stuck temporary system files and halts runaway update
 ### Frequently Asked Questions (FAQ)
 
 Q: How long does normal post-iOS update battery drain last?
+
 A: Typically, heavy background indexing resolves itself within 24 to 48 hours after installing a major update. If your battery life hasn't stabilized after 3 full days, a fresh backup and DFU restore via a computer may be required.
 
 Q: Should I replace my battery if health is at 82% right after an update?
+
 A: Not necessarily because of the update alone. An update simply exposes existing battery degradation because the phone is working harder. If your Maximum Capacity is below 80% or you experience sudden shutdowns, it is time for a fresh battery swap.
 
 Q: Why does my phone get warm when I charge it after an update?
+
 A: This is normal if the phone is simultaneously charging and performing background software indexing. However, if it becomes painfully hot or smells chemical, disconnect the charger immediately and bring it to a local repair technician for professional inspection.

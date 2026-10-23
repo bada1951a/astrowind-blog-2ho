@@ -9,25 +9,37 @@ theme: "Midnight Navy Royal"
 ---
 
 
-Pociąg PKP Intercity z Poznania do Warszawy leci jak szalony, za oknem mkną mazowieckie pola, a ja w siódmym potach próbuję ogarnąć podpisane pismo od zarządu dla kluczowego kontrahenta. Do spotkania w biurowcu w warszawskim Mordorze zostało dokładnie 10 minut. Wyciągam telefon, żeby szybko zrobić fote i wrzucić przez mobilny faks w Samsungu, wciskam "Wyślij", a tu nagле... katastrofa. 
+Pociąg PKP Intercity z Poznania do Warszawy leci jak szalony, za oknem mkną mazowieckie pola, a ja w siódmym potach próbuję ogarnąć podpisane pismo od zarządu dla kluczowego kontrahent
+
+a. Do spotkania w biurowcu w warszawskim Mordorze zostało dokładnie 10 minut. Wyciągam telefon, żeby szybko zrobić fote i wrzucić przez mobilny faks w Samsungu, wciskam "Wyślij", a tu nagле... katastrof
+
+a. 
 
 Na podglądzie dokumentu widać wielki, ciemny cień mojej własnej ręki, kartka świeci się jak lusterko odbijające jarzeniówkę z wagonu, a tekst jest zamazany tak, że przypomina raczej kod QR niż oficjalne oświadczenie. Klient ma to dostać na maila za pięć minut, a stacja Warszawa Zachodnia zbliża się wielkimi krokami. Serce podchodzi mi do gardła, bateria w telefonie pokazuje kryzysowe 12 procent, a ja czuję, że ten kontrakt zaraz wyparuje przez głupi cień i kiepskie oświetlenie w pociągu.
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/mobile523/1000/550)
 
 <div style="border-left: 4px solid #1d4ed8; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Log awarii systemu - godzina 08:42:</strong> Błąd odczytu optycznego. Przyczyna: nierównomierne światło w przedziale PKP, cień ciała nad kartką, brak automatycznego wygładzania w standardowej aplikacji aparatu. Status: KRYTYCZNY.
+<strong>Log awarii systemu - godzina 08:42:</strong> Błąd odczytu optycznego. Przyczyn
+
+a: nierównomierne światło w przedziale PKP, cień ciała nad kartką, brak automatycznego wygładzania w standardowej aplikacji aparatu. Status: KRYTYCZNY.
 </div>
 
 ### Dlaczego zwykłe zdjęcie dokumentu zawsze wychodzi beznadziejnie?
 
 Zanim zaczniesz kląć na swój drogi telefon, rzućmy okiem na to, dlaczego aparat w trybie automatycznym tak bardzo sobie z tym nie radzi.
 
-1. Cień rzucany przez ciało lub telefon: Kiedy stoisz nad kartką leżącą na stoliku w pociągu albo w biurze, twój tułów lub sam smartfon zasłaniają główne źródło światła. Aparat widzi plamę zamiast tekstu.
+1. Cień rzucany przez ciało lub telefon: Kiedy stoisz nad kartką leżącą na stoliku w pociągu albo w biurze, twój tułów lub sam smartfon zasłaniają główne źródło światł
 
-2. Odblaski i błyski światła: Polakierowany papier albo zwykłe biurkowe światło odbijają się prosto w obiektyw, tworząc białe, oślepiające plamy, przez które znikają całe wyrazy.
+a. Aparat widzi plamę zamiast tekstu.
 
-3. Brak wykrywania krawędzi: Zwykła fota łapie też biurko, kubek z kawą i fragment siedzenia. System mobilnego faksu albo skanera gubi się, przez co zmniejsza rozdzielczość i kompresuje plik do nieczytelnej papki.
+2. Odblaski i błyski światł
+
+a: Polakierowany papier albo zwykłe biurkowe światło odbijają się prosto w obiektyw, tworząc białe, oślepiające plamy, przez które znikają całe wyrazy.
+
+3. Brak wykrywania krawędzi: Zwykła fota łapie też biurko, kubek z kawą i fragment siedzeni
+
+a. System mobilnego faksu albo skanera gubi się, przez co zmniejsza rozdzielczość i kompresuje plik do nieczytelnej papki.
 
 ### Jak to szybko naprawić? Krok po kroku do idealnego skanu
 
@@ -55,7 +67,9 @@ Po zapisaniu skanu wejdź w edycję obrazu. Zamiast bawić się suwakami jasnoś
 
 - Nigdy nie używaj lampy błyskowej (flasha) do dokumentów: Lampa robiona z bliska tworzy gigantyczną, białą plamę na środku kartki. Lepiej włączyć latarkę w *innym*telefonie albo skorzystać z rozproszonego światła sufitowego.
 - Trzymaj telefon równolegle: Nawet najlepszy algorytm polegnie, jeśli zrobisz zdjęcie pod kątem 45 stopni. Staraj się trzymać obiektyw dokładnie nad środkiem kartki.
-- Aktualizuj nakładkę systemową: Funkcje wykrywania dokumentów w Samsungach są stale ulepszane z każdą aktualizacją One UI. Nie odkładaj instalacji nowych łatek bezpieczeństwa.
+- Aktualizuj nakładkę systemową: Funkcje wykrywania dokumentów w Samsungach są stale ulepszane z każdą aktualizacją One UI. Nie odkładaj instalacji nowych łatek bezpieczeństw
+
+a.
 
 ---
 

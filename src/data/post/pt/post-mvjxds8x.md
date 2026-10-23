@@ -9,9 +9,17 @@ theme: "Rosewood Hardware Guide"
 ---
 
 
-Eram por volta das duas da tarde, daquelas tardes abafadas de verão na Avenida Paulista, quando tentei abrir a câmera para registrar um momento divertido com meu filho. Aproximei o celular rapidamente, mas antes mesmo de focar a imagem, o pior aconteceu: um alerta vermelho de ["Armazenamento Cheio"] saltou na tela, seguido de um travamento total do aplicativo de galeria. Para piorar, debaixo daquele sol escaldante, a tela do aparelho simplesmente apagou a maior parte do brilho, ficando escura a ponto de eu não conseguir enxergar absolutamente nada. Se você já passou por isso no meio da correria do transporte público ou caminhando na rua, sabe o nível do desespero. 
+Eram por volta das duas da tarde, daquelas tardes abafadas de verão na Avenida Paulista, quando tentei abrir a câmera para registrar um momento divertido com meu filho. Aproximei o celular rapidamente, mas antes mesmo de focar a imagem, o pior aconteceu: um alerta vermelho de ["Armazenamento Cheio"] saltou na tela, seguido de um travamento total do aplicativo de galeri
 
-Trabalho na bancada de uma assistência técnica há anos e vejo essa cena se repetir todos os dias. Os clientes chegam na loja achando que o celular queimou de vez, quando na verdade o sistema está apenas se defendendo do calor extremo e da falta de memória. Vou te mostrar exatamente o que acontece por dentro do aparelho e como resolver isso de forma prática, sem gastar nada.
+a. Para piorar, debaixo daquele sol escaldante, a tela do aparelho simplesmente apagou a maior parte do brilho, ficando escura a ponto de eu não conseguir enxergar absolutamente nad
+
+a. Se você já passou por isso no meio da correria do transporte público ou caminhando na rua, sabe o nível do desespero. 
+
+Trabalho na bancada de uma assistência técnica há anos e vejo essa cena se repetir todos os dias. Os clientes chegam na loja achando que o celular queimou de vez, quando na verdade o sistema está apenas se defendendo do calor extremo e da falta de memóri
+
+a. Vou te mostrar exatamente o que acontece por dentro do aparelho e como resolver isso de forma prática, sem gastar nad
+
+a.
 
 ![Phone Screen Dimming Automatically in Bright Sunlight: Overheating Throttling Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvjxflbg-7-b/1000/550.jpg)
 
@@ -25,7 +33,9 @@ Trabalho na bancada de uma assistência técnica há anos e vejo essa cena se re
 
 Para entender o problema, precisamos olhar além do vidro. Os smartphones modernos são potentes, mas sofrem muito com a combinação de calor externo e esforço do processador. Quando a memória está lotada e você exige o máximo da câmera sob a luz solar direta, três fatores entram em colapso:
 
-1. Throttling Térmico (Proteção contra superaquecimento): Os sensores internos medem a temperatura da placa. Se passar do limite seguro (geralmente acima de 40°C a 45°C), o processador reduz drasticamente a velocidade e o brilho da tela despenca para forçar o resfriamento.
+1. Throttling Térmico (Proteção contra superaquecimento): Os sensores internos medem a temperatura da plac
+
+a. Se passar do limite seguro (geralmente acima de 40°C a 45°C), o processador reduz drasticamente a velocidade e o brilho da tela despenca para forçar o resfriamento.
 
 2. Gargalo de Armazenamento (Cache Saturado): O aplicativo da galeria precisa de espaço livre temporário (cache) para processar fotos e vídeos. Com a memória interna beirando os 100% de ocupação, o sistema trava de vez, congelando a interface.
 
@@ -35,10 +45,14 @@ Para entender o problema, precisamos olhar além do vidro. Os smartphones modern
 
 ### Passo a Passo: Como resolver o superaquecimento e limpar o sistema
 
-Se você está na rua e precisa fazer o celular voltar a funcionar agora mesmo, siga este procedimento de emergência que usamos na bancada:
+Se você está na rua e precisa fazer o celular voltar a funcionar agora mesmo, siga este procedimento de emergência que usamos na bancad
+
+a:
 
 ```bash
-# Sequência rápida de resfriamento e alívio de memória:
+# Sequência rápida de resfriamento e alívio de memóri
+
+a:
 1. Afaste-se da luz solar direta (vá para a sombra de um prédio ou marquise).
 
 2. Remova a capa protetora (a capinha age como um forno, retendo o calor).
@@ -52,7 +66,9 @@ Depois que o aparelho estiver na sombra e um pouco mais fresco, siga estas etapa
 
 * Passo 1:Abra as configurações do aparelho e vá direto na aba deArmazenamento.
 * Passo 2: Utilize a ferramenta nativa de limpeza para apagar arquivos temporários e cache acumulado dos aplicativos de mensagens.
-* Passo 3: Transfira seus vídeos e fotos mais pesados para o armazenamento em nuvem ou para um computador assim que chegar em casa. Evite manter a memória interna acima de 90%.
+* Passo 3: Transfira seus vídeos e fotos mais pesados para o armazenamento em nuvem ou para um computador assim que chegar em cas
+
+a. Evite manter a memória interna acima de 90%.
 * Passo 4: Reinicie o smartphone para zerar os processos travados na memória RAM.
 
 ---
@@ -78,12 +94,16 @@ Muitos usuários me perguntam se o tipo de tela interfere em como o celular reag
 
 Q1. Usar o celular conectado ao carregador no carro sob o sol piora o escurecimento?
 
-A1.Com certeza. O processo de carregamento da bateria já gera calor natural por si só. Juntar a carga da bateria, o calor do painel do carro e a luz do sol é a receita perfeita para o processador ativar o bloqueio térmico imediato.
+A1.Com certez
+
+a. O processo de carregamento da bateria já gera calor natural por si só. Juntar a carga da bateria, o calor do painel do carro e a luz do sol é a receita perfeita para o processador ativar o bloqueio térmico imediato.
 
 Q2. Formatar o celular resolve o problema de travamento na galeria?
 
 A2.Se o problema for apenas acúmulo de cache e arquivos corrompidos, uma boa limpeza de armazenamento resolve. A formatação só é necessária se o sistema operacional estiver corrompido por falhas em atualizações anteriores.
 
-Q3. O meu celular é novo e continua escurecendo na rua. Isso é defeito de fábrica?
+Q3. O meu celular é novo e continua escurecendo na ru
+
+a. Isso é defeito de fábrica?
 
 A3. Na grande maioria das vezes, não. Os smartphones atuais possuem mecanismos rigurosos de proteção contra o calor. Se a temperatura ambiente estiver muito alta (acima de 35°C), mesmo aparelhos topo de linha vão escurecer a tela para evitar danos permanentes à bateria de lítio.

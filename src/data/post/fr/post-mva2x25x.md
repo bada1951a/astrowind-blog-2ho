@@ -61,4 +61,6 @@ Absolument pas. Cette manipulation équivaut simplement à retirer et remettre l
 Si l'appareil reste bloqué sur la pomme pendant plus de 10 minutes après le redémarrage forcé, il faudra connecter votre iPhone à un ordinateur (Mac ou PC Windows via iTunes/Appareils Apple), relancer la même combinaison de touches pour passer en mode de récupération (Recovery Mode), et procéder à une mise à jour ou une restauration du système.
 
 3. Le tactile ne fonctionne toujours pas après le redémarrage, que se passe-t-il ?
-Si l'affichage est revenu mais que vos doigts ne commandent toujours rien, le problème est probablement d'ordre matériel (nappe du tactile débranchée suite à une chute, ou écran de mauvaise qualité suite à un remplacement non officiel). Un passage en atelier de réparation s'imposera.
+Si l'affichage est revenu mais que vos doigts ne commandent toujours rien, le problème est probablement d'ordre matériel (nappe du tactile débranchée suite à une chute, ou écran de mauvaise qualité suite à un remplacement non officiel). Un passage en atelier de réparation s'imposer
+
+a.

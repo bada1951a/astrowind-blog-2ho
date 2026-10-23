@@ -66,10 +66,13 @@ Working on modern smartphones requires a respect for high-density lithium-ion ba
 ### Practical Frequently Asked Questions (FAQs)
 
 Q1: Will cleaning my charging port void my phone's warranty?
+
 A: No, performing routine maintenance like removing lint buildup with a non-conductive wooden tool does not void your warranty. However, using metal paperclips that scratch the port or bending the central tongue *will* be flagged as physical damage during a warranty inspection. Be gentle!
 
 Q2: Why does my phone slow down charging specifically when it hits 80%?
+
 A: That is actually a built-in safety feature, not a bug or a hardware failure. Both iOS and Android utilize "Optimized Battery Charging" or trickle-charging algorithms. Once your lithium-ion battery reaches roughly 80% capacity, the phone intentionally drops the charging speed down to a crawl to reduce heat stress and drastically extend the overall lifespan of the chemical cells.
 
 Q3: Can a software update suddenly cause my power bank to trigger slow charging warnings?
+
 A: Yes, absolutely. Major iOS and Android updates often introduce stricter safety protocols regarding power delivery handshakes. If an update detects that your power bank or cable does not fully comply with strict voltage regulation standards, the updated operating system will throw a slow charging warning to protect your logic board from fluctuating power supplies.

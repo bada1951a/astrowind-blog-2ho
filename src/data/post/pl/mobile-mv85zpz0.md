@@ -32,7 +32,9 @@ Wracając do mojej paniki na lotnisku – zacząłem analizować, co mogło pój
 Skoro już wiemy, co boli nasz sprzęt, przejdźmy do konkretów. Poniższa procedura to esencja tego, co robię w warsztacie, gdy klient wpada z paniką w oczach. 
 
 ### Krok 1: Wymuś bezpieczny restart i odciążenie systemu
-Zanim zaczniesz panikować, że spalisz telefon, odśwież stan systemu Android. Czasami czujnik "wisi" w pętli błędu po nieudanym podpięciu kabla.
+Zanim zaczniesz panikować, że spalisz telefon, odśwież stan systemu Android. Czasami czujnik "wisi" w pętli błędu po nieudanym podpięciu kabl
+
+a.
 
 <div style="background: #1e1f29; color: #f8f8f2; padding: 16px; border-radius: 6px; border: 1px solid #bd93f9; margin: 20px 0;">
   <p style="margin: 0 0 8px 0; color: #bd93f9; font-weight: bold;">⚡ Awaryjny Skrót: Wymuszenie Resetu (Hard Reset)</p>
@@ -42,7 +44,9 @@ Zanim zaczniesz panikować, że spalisz telefon, odśwież stan systemu Android.
 ### Krok 2: Czyszczenie i bezpieczne suszenie (Bez paniki!)
 Jeśli restart nie pomógł, musimy fizycznie pomóc fizyce. Zapomnij o ryżu – to mit, który tylko zapycha port skrobią i pyłem.
 
-1. Grawitacja: Skieruj port ładowania telefonu w dół i delikatnie stuknij w obudowę dłonią, aby wytrząsnąć ewentualne krople wody.
+1. Grawitacj
+
+a: Skieruj port ładowania telefonu w dół i delikatnie stuknij w obudowę dłonią, aby wytrząsnąć ewentualne krople wody.
 
 2. Ciepłe powietrze z dystansu: Użyj suszarki do włosów, ale wyłącznie na zimnym nawiewie (Cold Shot), trzymając ją w odległości minimum 30 cm przez 2-3 minuty.
 
@@ -59,13 +63,17 @@ Jeśli restart nie pomógł, musimy fizycznie pomóc fizyce. Zapomnij o ryżu �
 ### Krok 3: Reset ustawień sieciowych i oprogramowania
 Jeśli błąd nadal uporczywie powraca pomimo suchego portu, problem może tkwić w uszkodzonym cache sterownika PMIC (Power Management IC). 
 
-Wejdź w Ustawienia > Zarządzanie ogólne > Resetowanie, a następnie wybierz Resetuj ustawienia sieciowe oraz Resetuj ustawienia. Nie stracisz przy tym swoich danych osobitych, ale wyczyścisz błędne stany bufora podzespołów odpowiedzialnych za zasilanie i transmisję danych.
+Wejdź w Ustawienia > Zarządzanie ogólne > Resetowanie, a następnie wybierz Resetuj ustawienia sieciowe oraz Resetuj ustawieni
+
+a. Nie stracisz przy tym swoich danych osobitych, ale wyczyścisz błędne stany bufora podzespołów odpowiedzialnych za zasilanie i transmisję danych.
 
 ---
 
 ## Porady serwisowe i profilaktyka na przyszłość
 
-Jako praktyk wolę zapobiegać, niż wymieniać porty USB-C za kilkaset złotych. Zwracaj uwagę na to, czym ładujesz telefon w podróży. Tanie, chińskie kable z bazaru często mają słabe uszczelnienia i tolerancje prądowe, co wyzwala fałszywe alarmy o wilgoci w nowoczesnych zabezpieczeniach Samsunga czy iPhone'a. 
+Jako praktyk wolę zapobiegać, niż wymieniać porty USB-C za kilkaset złotych. Zwracaj uwagę na to, czym ładujesz telefon w podróży. Tanie, chińskie kable z bazaru często mają słabe uszczelnienia i tolerancje prądowe, co wyzwala fałszywe alarmy o wilgoci w nowoczesnych zabezpieczeniach Samsunga czy iPhone'
+
+a. 
 
 Zainwestuj w porządne zatyczki silikonowe do portu USB-C, jeśli pracujesz w trudnych warunkach (budowa, magazyn, częste podróże samolotami z dużymi wahami temperatur). Kosztują grosze, a ratują tyłek w najmniej oczekiwanych momentach.
 
@@ -81,7 +89,9 @@ Tak! Ładowanie bezprzewodowe (indukcyjne) omija fizyczny port USB-C i ukłąd k
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-811/1000/550)
 
 ### 2. Co zrobić, gdy komunikat nie znika mimo upływu 24 godzin i pełnego wysuszenia?
-Jeśli port jest w 100% suchy, a błąd nadal wyskakuje, doszło prawdopodobnie do mikrozwarcia na pinach identyfikacyjnych (CC1/CC2) albo korozji elektrolitycznej. Wtedy konieczna jest wizyta w serwisie i czyszczenie portu w myjce ultradźwiękowej lub jego wymiana.
+Jeśli port jest w 100% suchy, a błąd nadal wyskakuje, doszło prawdopodobnie do mikrozwarcia na pinach identyfikacyjnych (CC1/CC2) albo korozji elektrolitycznej. Wtedy konieczna jest wizyta w serwisie i czyszczenie portu w myjce ultradźwiękowej lub jego wymian
+
+a.
 
 ### 3. Czy włączenie Opcji programisty pomoże wyłączyć czujnik wilgoci?
 W starszych wersjach Androida niektórzy próbowali kombinacji w Opcjach programisty, jednak obecnie producenci (szczególnie Samsung i Apple) zabezpieczyli tę procedurę na poziomie jądra systemu. Sztuczki z wyłączaniem debugowania USB rzadko pomagają na twardy komunikat sprzętowy o wilgoci.

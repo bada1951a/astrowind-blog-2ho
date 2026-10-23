@@ -70,10 +70,13 @@ If you are 100% certain the port is completely dry and clean, but iOS is still t
 ## Frequently Asked Questions (FAQ)
 
 Q: Can I charge my phone using a cable if the liquid alert is active?
+
 A: iOS disables fast data transfer and high-current charging when liquid is detected to prevent galvanic corrosion. If you force an override and plug in a cable while wet, you risk frying the Tristar/Hydra USB IC charging chip on the logic board, which leads to a very expensive motherboard repair.
 
 Q: How long does it normally take for an iPhone port to self-dry?
+
 A: Under normal room conditions with good airflow, clean tap or bottled water evaporates from the port within 1 to 2 hours. Saltwater, coffee, or sugary drinks take significantly longer and require the Isopropyl Alcohol cleaning step outlined above.
 
 Q: What if the notification pops up even though the phone has never touched water?
+
 A: This is a classic symptom of lint buildup or pocket debris that has absorbed ambient humidity. The compressed dirt acts like a sponge inside the port. Cleaning the port out with a wooden toothpick dipped in high-percentage alcohol solves this 90 percent of the time.

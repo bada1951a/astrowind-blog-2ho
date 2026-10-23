@@ -65,10 +65,13 @@ Afhankelijk van welk iPhone-model je gebruikt, verschilt de knoppencombinatie li
 ### Veelgestelde Vragen (FAQ)
 
 Q: Wat moet ik doen als het Apple-logo blijft hangen na de geforceerde herstart?
+
 A: Als je iPhone vast blijft zitten op het Apple-logo (een zogenaamde bootloop), is er mogelijk een dieper softwareprobleem. Sluit je iPhone met een datakabel aan op een computer (Mac of Windows PC met iTunes/Apple Devices app), open het programma en zet de iPhone in de Herstelmodus (Recovery Mode) om iOS opnieuw te installeren zonder je data te verliezen.
 
 Q: Kan een kapotte screenprotector ook zorgen voor een unresponsive scherm?
+
 A: Zeker weten. Als er luchtbellen, barsten of vuil onder een dikke glazen screenprotector zitten, kan de aanraakgevoeligheid verstoord worden. Verwijder de screenprotector als het probleem vaker optreedt om te controleren of het aan het glas zelf ligt.
 
 Q: Hoe voorkom ik dat mijn iPhone in de toekomst weer vastloopt?
+
 A: Zorg ervoor dat je altijd minimaal 5 GB aan vrije opslagruimte overhoudt op je toestel, zodat het systeem ademruimte heeft voor tijdelijke bestanden. Update daarnaast je iOS-versie regelmatig via *Instellingen > Algemeen > Software-update* om bekende bugs op te lossen.

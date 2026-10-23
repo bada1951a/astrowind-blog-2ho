@@ -35,7 +35,9 @@ May mắn là tôi đã tự cứu mình thành công chỉ trong vòng 15 phút
 Hãy tắt nguồn chiếc iPhone ngay lập tức để tránh nguy cơ chập cháy bo mạch. Cầm điện thoại, hướng cổng sạc xuống dưới và vỗ nhẹ vào lòng bàn tay để các giọt nước đọng bên trong văng bớt ra ngoài. 
 
 ### Bước 2: Thổi khô thông minh bằng gió mát
-Tuyệt đối không dùng máy sấy tóc ở chế độ nhiệt cao vì nhiệt lượng lớn sẽ làm hỏng lớp keo chống nước màn hình và làm biến dạng vỏ nhựa. Hãy dùng máy sấy tóc ở chế độ gió mát (hoặc dùng bình xịt khí nén chuyên dụng văn phòng giữ khoảng cách an toàn) thổi nhẹ vào khe cổng sạc trong khoảng 3 đến 5 phút.
+Tuyệt đối không dùng máy sấy tóc ở chế độ nhiệt cao vì nhiệt lượng lớn sẽ làm hỏng lớp keo chống nước màn hình và làm biến dạng vỏ nhự
+
+a. Hãy dùng máy sấy tóc ở chế độ gió mát (hoặc dùng bình xịt khí nén chuyên dụng văn phòng giữ khoảng cách an toàn) thổi nhẹ vào khe cổng sạc trong khoảng 3 đến 5 phút.
 
 ### Bước 3: Xử lý điểm tiếp xúc và cáp sạc
 Lấy một chiếc tăm bông gọt thật nhọn phần đầu bông cho vừa khít với khe cổng sạc, thấm một vài giọt cồn isopropyl (cồn 90 độ y tế) rồi nhẹ nhàng lau sạch các chân đồng bên trong để tẩy sạch cặn cà phê hoặc khoáng chất bám dính. Đồng thời, hãy kiểm tra kỹ đầu cáp sạc của bạn, nếu thấy có vết cháy xém hoặc ố vàng, hãy đổi ngay sang sợi cáp khác.

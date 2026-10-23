@@ -11,7 +11,9 @@ theme: "Teal Matrix Digital"
 
 Đang ngồi trên chuyến tàu cao tốc tối om, deadline bài báo cáo sếp giục cháy máy mà con laptop vừa đứt mạng di động. Loay hoay tính bật Hotspot từ con iPhone ra để "cứu mạng", mở máy lên một phát thì ối giời ơi, cái màn hình OLED sáng trắng chói lòa rọi thẳng vào mẹt, vừa đau mắt vừa ăn đứt luôn một mớ dung lượng pin quý giá giữa chốn không có chỗ sạc. Đã thế màn hình ám vàng, dùng lâu ngày lại sợ dính lỗi burn-in (lưu ảnh) ám vàng màn hình thì cái ví tiền khóc thét.
 
-Cái cảnh vừa cuống cuồng tìm cách cấu hình mạng, vừa phải chỉnh tay đủ thứ từ độ sáng đến chế độ tối (Dark Mode) trong cái ánh đèn mập mờ của toa tàu thực sự là một cực hình. Từ cái cay đắng hôm đó, tôi quyết tâm phải "vọc" cho bằng được cách thiết lập tự động hóa (Automation) trên iOS để con iPhone tự động chuyển Dark Mode và tối ưu hiệu năng mạng, không bao giờ phải bực mình thủ công nữa.
+Cái cảnh vừa cuống cuồng tìm cách cấu hình mạng, vừa phải chỉnh tay đủ thứ từ độ sáng đến chế độ tối (Dark Mode) trong cái ánh đèn mập mờ của toa tàu thực sự là một cực hình. Từ cái cay đắng hôm đó, tôi quyết tâm phải "vọc" cho bằng được cách thiết lập tự động hóa (Automation) trên iOS để con iPhone tự động chuyển Dark Mode và tối ưu hiệu năng mạng, không bao giờ phải bực mình thủ công nữ
+
+a.
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-624/1000/550)
 
@@ -73,7 +75,9 @@ Nếu hôm nào gặp tình trạng bật Hotspot mà laptop cứ báo "No Inter
 *Tuyệt đối có.* Màn hình OLED hoạt động bằng cách tắt hoàn toàn các điểm ảnh màu đen. Khi dùng Dark Mode (nền đen thuần), các pixel gần như không tiêu thụ điện năng và không bị sinh nhiệt, qua đó làm chậm tối đa quá trình suy giảm hóa học của vật liệu hữu cơ, ngăn chặn hiệu quả hiện tượng burn-in (lưu ảnh).
 
 2. Tại sao tôi đã cài đặt tự động hóa Phím tắt (Shortcuts) nhưng đến giờ hẹn máy vẫn không đổi sang Dark Mode?
-Lỗi này thường do bạn chưa tắt mục "Hỏi trước khi chạy" (Ask Before Running) lúc thiết lập tự động hóa. Hãy vào lại phần cấu hình Automations trong ứng dụng Phím tắt, bỏ chọn dòng xác nhận đó để hệ thống chạy ngầm mượt mà.
+Lỗi này thường do bạn chưa tắt mục "Hỏi trước khi chạy" (Ask Before Running) lúc thiết lập tự động hó
+
+a. Hãy vào lại phần cấu hình Automations trong ứng dụng Phím tắt, bỏ chọn dòng xác nhận đó để hệ thống chạy ngầm mượt mà.
 
 3. Đặt lại cài đặt mạng có làm mất dữ liệu hình ảnh, danh bạ hay ứng dụng trên iPhone không?
 *Hoàn toàn không.* Thao tác này chỉ reset lại các thông số liên quan đến trạm phát sóng di động, router Wi-Fi và thiết bị Bluetooth đã kết nối. Toàn bộ dữ liệu cá nhân, ảnh ọt, ghi chú và ứng dụng của bạn vẫn nằm nguyên vẹn 100%.

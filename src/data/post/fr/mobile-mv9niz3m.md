@@ -66,7 +66,9 @@ Q1 : Comment enlever définitivement les reflets lumineux sur du papier glacé ?
 R : Décalez-vous légèrement par rapport à la source de lumière (plafonnier ou fenêtre) et prenez la photo en biais, puis laissez la fonction de redressement automatique de l'appareil photo Samsung redresser le tout. Évitez absolument d'utiliser le flash qui crée un point lumineux aveuglant.
 
 Q2 : Puis-je signer mon document directement sur mon Galaxy avant de l'envoyer ?
-R : Absolument ! Ouvrez votre document scanné dans *Samsung Notes*, touchez l'icône du stylet en haut, choisissez votre couleur (bleu ou noir pour faire authentique) et signez directement avec votre doigt ou le S Pen si vous avez un modèle compatible comme un Galaxy S Ultra. C'est propre, net et juridiquement efficace.
+R : Absolument ! Ouvrez votre document scanné dans *Samsung Notes*, touchez l'icône du stylet en haut, choisissez votre couleur (bleu ou noir pour faire authentique) et signez directement avec votre doigt ou le S Pen si vous avez un modèle compatible comme un Galaxy S Ultr
+
+a. C'est propre, net et juridiquement efficace.
 
 Q3 : Pourquoi mon document scanné est-il enregistré en image (JPG) au lieu d'un PDF ?
 R : Par défaut, l'appareil photo capture des images. Pour obtenir un fichier PDF directement exploitable pour un fax ou un envoi professionnel officiel, passez par l'application Samsung Notes : créez une nouvelle note, appuyez sur le bouton "+" (Ajouter), sélectionnez "Scanner un document", et enregistrez directement le tout au format PDF.

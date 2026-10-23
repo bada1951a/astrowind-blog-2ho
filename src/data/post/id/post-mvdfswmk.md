@@ -9,7 +9,9 @@ theme: "Electric Cyan Speed"
 ---
 
 
-Suasana di ruang meeting kantor SCBD, Jakarta, mendadak tegang luar biasa. Pukul 16.50, lima menit sebelum batas waktu pengiriman laporan keuangan triwulanan ke direksi, iPhone saya tiba-tiba menolak di-charge. Layar menyala dengan peringatan menyebalkan: "Liquid Detected in Lightning Connector". Padahal, pagi tadi HP ini aman-aman saja di atas meja, tidak pernah nyemplung ke kolam atau terkena tumpahan kopi susu kekinian. Yang lebih bikin jantungan, baterai tinggal 3 persen dan file presentasi penting ada di dalam cloud yang butuh sinkronisasi kabel. Mau pakai trik kuno masukin ke dalam beras? Jelas tidak mungkin waktu dan tempatnya tidak mendukung di tengah kantor korporat elit begini!
+Suasana di ruang meeting kantor SCBD, Jakarta, mendadak tegang luar bias
+
+a. Pukul 16.50, lima menit sebelum batas waktu pengiriman laporan keuangan triwulanan ke direksi, iPhone saya tiba-tiba menolak di-charge. Layar menyala dengan peringatan menyebalkan: "Liquid Detected in Lightning Connector". Padahal, pagi tadi HP ini aman-aman saja di atas meja, tidak pernah nyemplung ke kolam atau terkena tumpahan kopi susu kekinian. Yang lebih bikin jantungan, baterai tinggal 3 persen dan file presentasi penting ada di dalam cloud yang butuh sinkronisasi kabel. Mau pakai trik kuno masukin ke dalam beras? Jelas tidak mungkin waktu dan tempatnya tidak mendukung di tengah kantor korporat elit begini!
 
 Sebagai teknisi yang sering menangani kasus periferal dan hardware harian, saya tahu persis bahwa mitos memasukkan iPhone ke dalam beras adalah salah satu cara tercepat merusak komponen internal karena debu halus dan pati beras justru bisa menyumbat port. Mari kita bedah kenapa error ini bisa muncul dan bagaimana cara mengatasinya dengan cepat, aman, dan tanpa beras.
 
@@ -23,7 +25,9 @@ Sebagai teknisi yang sering menangani kasus periferal dan hardware harian, saya 
 
 Sebelum langsung panik memvonis hardware Anda rusak, mari kita kenali akar masalah mengapa peringatan ini sering bandel tidak mau hilang:
 
-1. Kelembapan Udara dan Kondensasi AC Kantor: Perubahan suhu ekstrim dari luar ruangan Jakarta yang panas ke dalam ruangan ber-AC dingin sering memicu embun mikro menempel di pin port pengisian daya.
+1. Kelembapan Udara dan Kondensasi AC Kantor: Perubahan suhu ekstrim dari luar ruangan Jakarta yang panas ke dalam ruangan ber-AC dingin sering memicu embun mikro menempel di pin port pengisian day
+
+a.
 
 2. Kotoran dan Serat Saku (Lint): Debu halus, sisa remah makanan, atau serat kain yang menumpuk di dalam port bisa menyerap kelembapan kecil, lalu dibaca oleh sistem iOS sebagai cairan aktif.
 
@@ -33,10 +37,14 @@ Sebelum langsung panik memvonis hardware Anda rusak, mari kita kenali akar masal
 
 ## Panduan Cepat 1 Menit: Solusi Tanpa Beras
 
-Jangan buru-buru pergi ke pusat servis. Ikuti langkah taktis berikut untuk membersihkan dan menormalkan kembali port iPhone Anda di meja kerja:
+Jangan buru-buru pergi ke pusat servis. Ikuti langkah taktis berikut untuk membersihkan dan menormalkan kembali port iPhone Anda di meja kerj
+
+a:
 
 ### Langkah 1: Keringkan dengan Angin Alami (Bukan Panas!)
-Cabut kabel segera. Posisikan iPhone secara vertikal dengan bagian port pengisian daya menghadap ke bawah. Ketuk-ketuk perlahan punggung ponsel dengan telapak tangan untuk membantu sisa cairan atau embun keluar gravitasi. Arahkan aliran angin sejuk dari kipas angin meja atau *hair dryer* dengan settingan angin dingin (cold mode) dari jarak aman sekitar 30 cm selama 2-3 menit.
+Cabut kabel seger
+
+a. Posisikan iPhone secara vertikal dengan bagian port pengisian daya menghadap ke bawah. Ketuk-ketuk perlahan punggung ponsel dengan telapak tangan untuk membantu sisa cairan atau embun keluar gravitasi. Arahkan aliran angin sejuk dari kipas angin meja atau *hair dryer* dengan settingan angin dingin (cold mode) dari jarak aman sekitar 30 cm selama 2-3 menit.
 
 ### Langkah 2: Bersihkan Sisa Serat Menggunakan Tusuk Gigi Kayu
 Jika tidak ada cairan tapi peringatan tetap muncul, besar kemungkinan ada kotoran lembap di dalam port. 
@@ -48,7 +56,9 @@ Jika tidak ada cairan tapi peringatan tetap muncul, besar kemungkinan ada kotora
 </div>
 
 ### Langkah 3: Bypass Darurat Menggunakan Wireless Charging (Opsional)
-Jika Anda benar-benar dikejar deadline dan butuh daya instan, abaikan kabel sementara waktu. Gunakan *wireless charger* (MagSafe atau Qi wireless pad). Pengisian daya nirkabel umumnya tetap berfungsi meskipun sensor port kabel mendeteksi kelembapan, asalkan ponsel tidak basah kuyup di bagian belakangnya.
+Jika Anda benar-benar dikejar deadline dan butuh daya instan, abaikan kabel sementara waktu. Gunakan *wireless charger* (MagSafe atau Qi wireless pad). Pengisian daya nirkabel umumnya tetap berfungsi meskipun sensor port kabel mendeteksi kelembapan, asalkan ponsel tidak basah kuyup di bagian belakangny
+
+a.
 
 ---
 
@@ -61,4 +71,6 @@ Di iOS versi tertentu, tersedia opsi "Emergency Override". Namun, saya sangat ti
 Selain mitos lama yang tidak efektif, butiran beras mentah sangat mudah pecah menjadi tepung pati halus. Jika tepung ini masuk ke dalam port yang lembap, ia akan mengeras seperti semen mini dan justru mengunci kotoran di dalam pin konektor.
 
 3. Bagaimana jika peringatan cairan tidak hilang setelah berhari-hari padahal sudah dibersihkan?
-Jika hal ini terjadi, kemungkinan besar telah terjadi korosi atau oksidasi mikro pada jalur pin di dalam port akibat paparan cairan sebelumnya. Solusi satu-satunya adalah membawa unit ke teknisi terpercaya untuk melakukan penggantian modul *flex cable lightning port* secara fisik.
+Jika hal ini terjadi, kemungkinan besar telah terjadi korosi atau oksidasi mikro pada jalur pin di dalam port akibat paparan cairan sebelumny
+
+a. Solusi satu-satunya adalah membawa unit ke teknisi terpercaya untuk melakukan penggantian modul *flex cable lightning port* secara fisik.

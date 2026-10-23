@@ -11,7 +11,9 @@ theme: "Pastel Lavender Tech"
 
 Sialan, kerjaan kantor numpuk tapi harus *hotspot* dari iPhone pas lagi di kereta cepat karena Wi-Fi gerbong lemot kayak siput. Pas buka laptop, layar iPhone malah silau banget nyorot muka di kabin yang agak remang-remang. Mau nurunin brightness manual, nanti malah kelupaan balikin pas siang-siang, bikin boros baterai plus ninggalin risiko *burn-in* di panel OLED kesayangan. 
 
-Sebagai teknisi yang tiap hari pegang komplainan HP rusak, jujur aja, layar OLED iPhone itu manja. Kalo sering digeber tingkat kecerahan maksimal di ruangan gelap, pikselnya bakal cepet 'teler' alias ninggalin bayangan permanen (*burn-in*). Belum lagi urusan mata minus yang makin nambah gara-gara silau cahaya biru.
+Sebagai teknisi yang tiap hari pegang komplainan HP rusak, jujur aja, layar OLED iPhone itu manj
+
+a. Kalo sering digeber tingkat kecerahan maksimal di ruangan gelap, pikselnya bakal cepet 'teler' alias ninggalin bayangan permanen (*burn-in*). Belum lagi urusan mata minus yang makin nambah gara-gara silau cahaya biru.
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-551/1000/550)
 
@@ -34,9 +36,15 @@ Nah, biar nggak ribet colok-colok setting tiap kali pindah skenario kerja *on-th
 
 Sebelum masuk ke eksekusi teknis, mari kita pahami dulu akar masalah yang sering diremehin anak kantoran:
 
-1. Panel OLED dan Burn-in Stres Termal: Panel OLED menyalakan piksel secara mandiri. Kontras ekstrem antara latar putih menyilaukan dengan kegelapan kereta dalam waktu lama bikin degradasi piksel nggak merata.
+1. Panel OLED dan Burn-in Stres Termal: Panel OLED menyalakan piksel secara mandiri. Kontras ekstrem antara latar putih menyilaukan dengan kegelapan kereta dalam waktu lama bikin degradasi piksel nggak merat
 
-2. Blue Light Toxicity di Ruangan Minim Cahaya: Di dalam kereta atau ruangan gelap, pupil mata otomatis membuka lebar. Cahaya putih terang dari layar tanpa *Dark Mode* iburat nyorot senter langsung ke retina.
+a.
+
+2. Blue Light Toxicity di Ruangan Minim Cahay
+
+a: Di dalam kereta atau ruangan gelap, pupil mata otomatis membuka lebar. Cahaya putih terang dari layar tanpa *Dark Mode* iburat nyorot senter langsung ke retin
+
+a.
 
 3. Manajemen Kontrol Manual yang Kerepotan: Kebanyakan orang males bolak-balik buka *Control Center* buat ganti mode tampilan, akhirnya dibiarin mode terang terus walau udah malam.
 
@@ -51,16 +59,22 @@ Masuk ke menu utama iPhone lo, cari aplikasi berikon kurva warna-warni bernama P
 
 #### Step 2: Buat Personal Automation Baru
 Tap tombol "+" di pojok kanan atas. Pilih Buat Otomatisasi Pribadi (Create Personal Automation). Di sini kita punya banyak *trigger*. Untuk kasus kerja mobile di kereta, kita bisa pakai dua opsi:
-* Opsi A: Berdasarkan Waktu Hari (Time of Day) misal jam 17:00 sore.
+* Opsi
+
+A: Berdasarkan Waktu Hari (Time of Day) misal jam 17:00 sore.
 * Opsi B: Berdasarkan Wi-Fi (Misalnya saat terhubung ke SSID Wi-Fi kantor atau kereta).
 
-Kita ambil contoh Waktu Hari saat senja tiba:
+Kita ambil contoh Waktu Hari saat senja tib
+
+a:
 * Pilih Waktu Hari > Atur waktu ke `18:00` > Pilih Ulangi: Setiap Hari > Pilih Jalankan Segera (Run Immediately) agar nggak butuh konfirmasi klik manual. Tap Lanjut.
 
 #### Step 3: Masukkan Aksi (Action) Set Tampilan
 Di halaman kosong skrip, ketik di kolom pencarian: "Set Tampilan" (Set Appearance).
 * Ubah parameter dari *Light* ke Dark.
-* Lo juga bisa tambahkan aksi tambahan biar makin pro, misalnya: "Atur Keremangan" (Set Brightness) turunkan ke `35%` pas malam hari biar mata langsung adem.
+* Lo juga bisa tambahkan aksi tambahan biar makin pro, misalny
+
+a: "Atur Keremangan" (Set Brightness) turunkan ke `35%` pas malam hari biar mata langsung adem.
 
 <div style="border-left: 4px solid #7c3aed; padding: 12px 16px; margin: 20px 0; background-color: rgba(124, 58, 237, 0.05); border-radius: 4px; color: #111827;">
 <strong>Catatan Teknisi:</strong><br>
@@ -73,9 +87,13 @@ Pastikan opsi <em>"Tampilkan Saat Berjalan" (Notify When Run)</em> dimatikan sup
 
 Biar investasi HP puluhan juta lo nggak sia-sia gara-gara masalah sepele, perhatikan beberapa hal krusial ini:
 
-* Jangan Pakai Mode Auto-Brightness Ekstrem di Tempat Gelap: Sensor *ambient light* kadang salah baca kalau tertutup bayangan tangan atau posisi duduk di kereta. Atur batas manual kenyamanan mata lo.
+* Jangan Pakai Mode Auto-Brightness Ekstrem di Tempat Gelap: Sensor *ambient light* kadang salah baca kalau tertutup bayangan tangan atau posisi duduk di keret
+
+a. Atur batas manual kenyamanan mata lo.
 * Bersihkan Cache dan Background App: Terlalu banyak aplikasi kantor yang jalan di background saat *hotspot* bisa bikin suhu mesin naik. Panas berlebih + layar OLED tingkat kecerahan tinggi adalah resep utama perusakan umur panel (*dead pixels*).
-* Reset Pengaturan Jaringan Berkala: Kalau abis dari kereta dan koneksi Wi-Fi/Bluetooth mendadak ngadat pas balik ke kantor, cukup masuk ke Pengaturan > Umum > Transfer atau Atur Ulang iPhone > Atur Ulang > Atur Ulang Pengaturan Jaringan.
+* Reset Pengaturan Jaringan Berkal
+
+a: Kalau abis dari kereta dan koneksi Wi-Fi/Bluetooth mendadak ngadat pas balik ke kantor, cukup masuk ke Pengaturan > Umum > Transfer atau Atur Ulang iPhone > Atur Ulang > Atur Ulang Pengaturan Jaringan.
 
 ---
 
