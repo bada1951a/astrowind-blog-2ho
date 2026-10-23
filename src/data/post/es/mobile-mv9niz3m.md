@@ -61,17 +61,11 @@ a: Si estás escaneando un documento digital que tienes en otro dispositivo, baj
 
 ### Preguntas Frecuentes (FAQ)
 
-1.
-
-¿Por qué el escáner automático de la cámara de mi Galaxy no detecta los bordes del papel?
+1. ¿Por qué el escáner automático de la cámara de mi Galaxy no detecta los bordes del papel?
 Normalmente ocurre porque el fondo (la mesa) es del mismo color que el documento (papel blanco sobre mesa blanca). Pon el contrato encima de una superficie oscura, como una alfombrilla de escritorio o la funda de la tablet, y verás cómo la IA lo detecta al instante.
 
-2.
-
-¿Cómo puedo reducir el peso del PDF escaneado sin perder calidad en el texto?
+2. ¿Cómo puedo reducir el peso del PDF escaneado sin perder calidad en el texto?
 Si usas la galería o la app de notas nativa de Samsung para guardar el archivo como PDF, el sistema ya comprime la imagen de forma inteligente. Si aun así pesa demasiado, guárdalo primero como imagen en formato JPG de alta eficiencia (HEIF) y luego conviértelo a PDF utilizando las opciones nativas de compartir.
 
-3.
-
-¿Es seguro utilizar el escáner de la cámara de Samsung para documentos con datos bancarios o confidenciales?
+3. ¿Es seguro utilizar el escáner de la cámara de Samsung para documentos con datos bancarios o confidenciales?
 Sí, totalmente. Todo el procesado de detección de documentos y optimización de texto se realiza de manera local en el procesador de tu Galaxy gracias a Samsung Knox, sin subir tus datos personales a servidores externos desconocidos.

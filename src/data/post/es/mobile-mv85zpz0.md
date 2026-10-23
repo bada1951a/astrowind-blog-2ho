@@ -72,17 +72,11 @@ a: Si el puerto sigue bloqueado y necesitas batería urgentemente para salir del
 
 ### Preguntas Frecuentes (FAQ)
 
-1.
-
-¿Puedo usar el teléfono si la advertencia aparece pero carga de forma intermitente?
+1. ¿Puedo usar el teléfono si la advertencia aparece pero carga de forma intermitente?
 Es una pésima idea. Si carga de forma intermitente significa que hay un puente de resistencia inestable (probablemente líquido mezclado con suciedad). Esto genera picos de voltaje que pueden dañar el circuito integrado de carga (IC de carga) de la placa principal.
 
-2.
-
-¿Qué hago si ya limpié y sequé el puerto, pero la notificación no desaparece ni con un hard reset?
+2. ¿Qué hago si ya limpié y sequé el puerto, pero la notificación no desaparece ni con un hard reset?
 Es muy probable que los pines del conector USB-C se hayan corrosionado internamente o que el flex de carga haya sufrido un daño por humedad residual. Debes acudir a un centro de servicio técnico autorizado para un ultrasonido de placa y reemplazo del módulo de puerto.
 
-3.
-
-¿La garantía cubre fallas por detección de humedad falsa?
+3. ¿La garantía cubre fallas por detección de humedad falsa?
 Depende de la inspección visual del técnico. Si los indicadores LDI (Liquid Damage Indicator) ubicados dentro del puerto o en la bandeja SIM cambiaron de color (pasaron de blanco a rosa/rojo), Samsung podría invalidar la garantía por daño accidental por líquidos, aunque el puerto solo haya fallado por condensación ambiental. Por eso es vital una limpieza ultrasónica previa si el teléfono nunca se sumergió en agua. 

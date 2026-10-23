@@ -99,18 +99,12 @@ Cuando compartes datos móviles por largos periodos en trenes de alta velocidad,
 
 ### Preguntas Frecuentes (FAQ)
 
-1.
-
-¿Esta automatización afecta el consumo de batería del iPhone?
+1. ¿Esta automatización afecta el consumo de batería del iPhone?
 Al contrario. Forzar el modo oscuro en pantallas OLED apaga físicamente los píxeles negros, y limitar el brillo al 35% mediante la automatización reduce drásticamente el consumo energético del panel, dándote hasta 40 minutos extra de autonomía en trayectos largos.
 
-2.
-
-¿Puedo hacer que regrese al modo claro automáticamente al apagar el hotspot?
+2. ¿Puedo hacer que regrese al modo claro automáticamente al apagar el hotspot?
 
 ¡Claro! Solo debes crear una automatización espejo. En lugar de seleccionar "Se activa", selecciona "Se desactiva" en el disparador de Punto de Acceso, y programa las acciones inversas: Apariencia Clara y Brillo Automático activado.
 
-3.
-
-¿Por qué mi pantalla sigue parpadeando a veces aunque tenga el modo oscuro activo?
+3. ¿Por qué mi pantalla sigue parpadeando a veces aunque tenga el modo oscuro activo?
 Eso suele deberse a la función Brillo Automático combinada con luces LED fluorescentes de los vagones antiguos. Para solucionarlo definitivamente, ve a *Ajustes > Accesibilidad > Tamaño de pantalla y texto* y desactiva "Reducir punto blanco" si lo tenías encendido, o limpia el sensor de luz ambiental ubicado en la isla dinámica / notch superior.

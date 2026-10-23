@@ -86,16 +86,12 @@ Como técnico que ve terminales abiertos todos los días, déjame darte unos con
 
 ## Preguntas Frecuentes (FAQ) del Taller
 
-1.
-
-¿Por qué mi iPhone carga rápido con el cargador de pared pero lento con la power bank?
+1. ¿Por qué mi iPhone carga rápido con el cargador de pared pero lento con la power bank?
 Por lo general, se debe a que tu cargador de pared es un adaptador de alta potencia (20W, 30W o más) compatible con USB Power Delivery, mientras que tu power bank puede ser un modelo antiguo que solo entrega 5V/1A o 5V/2A por puerto USB-
 
 A. Asegúrate de conectar tu iPhone al puerto USB-C con salida PD de la batería externa usando un cable USB-C a Lightning certificado MFi.
 
-2.
-
-¿Es malo para la salud de la batería del móvil usar una power bank de carga rápida?
+2. ¿Es malo para la salud de la batería del móvil usar una power bank de carga rápida?
 Para nada. Los smartphones modernos tienen sistemas de gestión de energía inteligentes (BMS) muy avanzados. El teléfono solo absorbe la potencia máxima que necesita y puede gestionar la temperatura de forma segura. Lo que realmente degrada la batería es el calor excesivo o dejar el móvil descargarse al 0% de manera habitual, no el tipo de cargador rápido certificado que utilices.
 
 3. Ya limpié el puerto y cambié de cable, pero sigue saliendo el aviso de carga lenta.

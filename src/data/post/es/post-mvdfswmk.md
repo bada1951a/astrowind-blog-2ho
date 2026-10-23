@@ -74,17 +74,11 @@ a: Si necesitas recuperar batería urgentemente para enviar un informe y el puer
 
 ## Preguntas Frecuentes (FAQ)
 
-1.
-
-¿Es seguro cargar el iPhone si sale la alerta pero el teléfono dice que está seco por fuera?
+1. ¿Es seguro cargar el iPhone si sale la alerta pero el teléfono dice que está seco por fuera?
 No. La humedad se acumula en el interior milimétrico del conector Lightning/USB-C, donde los pines están bajo tensión eléctrica constante. Conectar un cable con humedad interior puede fundir los microcircuitos de gestión de energía en cuestión de segundos.
 
-2.
-
-¿Puedo usar spray limpiador de contactos genérico en lugar de alcohol isopropílico?
+2. ¿Puedo usar spray limpiador de contactos genérico en lugar de alcohol isopropílico?
 Solo si el spray especifica claramente que es de evaporación total y no deja residuos oleosos. Muchos lubricantes de contactos para coches o cerraduras dejan una película grasa que aislará los pines e impedirá que el iPhone vuelva a cargar o sincronizar con el ordenador.
 
-3.
-
-¿Cuánto tiempo debo esperar como máximo antes de llevarlo a reparar?
+3. ¿Cuánto tiempo debo esperar como máximo antes de llevarlo a reparar?
 Si han pasado más de 12 horas, has limpiado los residuos con alcohol isopropílico, el puerto luce completamente limpio bajo la lupa y el aviso de líquido sigue apareciendo de forma indefinida, es muy probable que el sensor físico o el flex de carga se hayan dañado por corrosión interna. En ese punto, toca visitar el servicio técnico para un reemplazo de pieza. 
