@@ -22,7 +22,9 @@ Il est exactement 8h52. Je suis assis à mon bureau dans une tour de La Défense
 Avant de crier au secours, essayons de comprendre pourquoi la photo d'un document donne souvent un résultat catastrophique. Ce n'est pas un problème de magie noire, mais de physique pure :
 
 1. Le piège de l'éclairage zénithal : En vous penchant au-dessus de votre feuille pour la photographier, vous créez naturellement une ombre portée avec votre propre corps ou votre téléphone. C'est le grand classique sous les éclairages de bureau ou dans les rames du métro parisien quand on essaie de dépanner un dossier en urgence.
+
 2. Le reflet aveuglant du flash : En voulant éclairer la pièce, le flash se reflète directement sur le papier brillant ou glacé, créant une grosse tache blanche illisible au milieu des paragraphes.
+
 3. La distorsion d'angle : Tenir son téléphone de travers déforme le document. Ce qui est rectangulaire se retrouve trapézoïdal, et les bords finissent par être flous parce que la mise au point n'a pas su choisir la bonne distance.
 
 ## La méthode express : Scanner sans ombre et envoyer le fax en un clin d'œil
@@ -44,7 +46,9 @@ Ouvrez l'application Appareil photo de votre Galaxy et pointez-la vers votre doc
 Une fois votre document bien enregistré au format PDF dans votre application Samsung Notes ou dans votre galerie :
 
 1. Ouvrez le document PDF propre que vous venez de créer.
+
 2. Si vous devez l'envoyer par fax (oui, certaines grandes entreprises ou administrations y sont encore attachées !), oubliez les vieilles machines encombrantes. Utilisez une application de fax mobile sécurisée et reconnue disponible sur le Galaxy Store ou le Google Play Store (comme *Simple Fax* ou des services en ligne sécurisés accessibles depuis votre navigateur mobile).
+
 3. Importez votre PDF fraîchement scanné, entrez le numéro de fax du destinataire, et appuyez sur envoyer. Le tour est joué !
 
 ## Mes conseils de pro pour éviter les sueurs froides

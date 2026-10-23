@@ -26,7 +26,9 @@ Como técnico especialista en microelectrónica y reparación de dispositivos m�
 Para solucionar este problema de raíz, primero debemos entender qué está ocurriendo en el interior de tu terminal. No es magia negra, es física pura combinada con software saturado.
 
 1. Saturación crítica de la memoria NAND Flash: Cuando el almacenamiento interno supera el 95-98 de ocupación, el controlador de memoria se queda sin espacio para realizar operaciones de E/S (Entrada/Salida) básicas y la gestión de la memoria virtual (swap). Al abrir la galería para procesar fotos pesadas, el sistema se bloquea intentando escribir archivos temporales (caché).
+
 2. Efecto lupa y radiación solar directa: Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
+
 3. Pérdida de eficiencia en la disipación pasiva: Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
 
 ---

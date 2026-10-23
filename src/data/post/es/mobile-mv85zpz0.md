@@ -39,11 +39,16 @@ A veces el sensor se queda bloqueado digitalmente. Necesitamos un reinicio forzo
 Apaga el dispositivo por completo. Consigue un palillo de madera (nunca metal) y revisa con unalupa o la linterna de otro teléfono el interior del conector USB-C. Saca con muchísimo cuidado cualquier pelusa compactada al fondo. Luego, utiliza aire comprimido a una distancia prudente (o sopla con fuerza controlada) para expulsar partículas sueltas.
 
 #### Paso 3: Restablecer los datos del servicio USB (Caché del sistema)
-Si el hardware está seco pero el aviso persiste, el problema es software puro. 
+Si el hardware está seco pero el aviso persiste, el problema es software puro.
+
 1. Ve a Ajustes > Aplicaciones.
+
 2. Toca el menú de ordenar y activa "Mostrar aplicaciones del sistema".
+
 3. Busca "USBSettings" o "Configuración USB".
+
 4. Entra en Almacenamiento y presiona Borrar caché y Borrar datos.
+
 5. Reinicia el móvil inmediatamente después.
 
 <div style="border-left: 4px solid #bd93f9; padding: 12px 16px; margin: 20px 0; background-color: rgba(189, 147, 249, 0.05); border-radius: 4px;">

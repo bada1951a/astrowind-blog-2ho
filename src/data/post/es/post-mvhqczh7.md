@@ -22,7 +22,9 @@ Si tu iPhone se comporta como si tuviera un agujero negro dentro despues de actu
 Cuando Apple lanza un nuevo paquete de software, el telefono no solo cambia de aspecto visual. Por dentro se desencadena una tormenta invisible que pone a prueba tanto al procesador como al sistema energetico.
 
 1. Reindexacion masiva en segundo plano: Al actualizar, Spotlight, Fotos y la base de datos de archivos vuelven a indexar todo tu contenido. Esto mantiene los nucleos del procesador trabajando al maximo durante horas, generando calor y consumiendo amperios a velocidad de vertigo.
+
 2. Conflictos con perifericos y puerto de carga: Curiosamente, una mala conexion o suciedad acumulada en el puerto Lightning o USB-C puede hacer que el sistema gestor de energia (PMIC) entre en bucle intentando negociar voltajes con un cargador que detecta como "inestable" debido a residuos, forzando al procesador a consumir mas recursos para gestionar la entrada de corriente.
+
 3. Calibracion de bateria desajustada: El nuevo firmware a menudo lee de forma diferente las celdas de desgaste de la bateria. Lo que antes parecia un 80% de salud real, el nuevo sistema lo interpreta con curvas de descarga mas agresivas, haciendo que el porcentaje baje de golpe.
 
 <div style="border-left: 4px solid #d97706; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

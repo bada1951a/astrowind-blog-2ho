@@ -26,7 +26,9 @@ Sebagai teknisi yang tiap hari nongkrong di konter, gue sering banget nemuin kas
 Sebelum lu ngomel-ngomel sama Samsung, lu harus paham dulu cara kerja sistem keamanan port charging ini. Ada 3 penyebab utama kenapa peringatan kelembapan ini muncul padahal HP lu rasa-rasanya kering:
 
 1. Kondensasi Suhu Ekstrem (Thermal Shock): Lu baru keluar dari ruangan AC bandara yang dingin banget, terus tiba-tiba masuk ke area selasar *boarding* yang panas dan lembap. Perubahan suhu drastis ini bikin uap air mikro (kondensasi) menempel langsung di dalam pin tembaga port USB-C.
+
 2. Residu Debu Saku + Lembap: Kantong celana kerja kita itu sarangnya debu halus dan serat kain. Kalau tercampur keringat tipis, campuran ini berubah jadi lumpur mikroskopis yang dibaca sensor sebagai "air" karena menghantarkan arus listrik kecil.
+
 3. Glitch Sistem UI (System Cache Bug): Kadang masalahnya bukan di air, tapi *Android System Framework* ngadat membaca data sensor *board*. Ini sering kejadian sehabis update *patch* keamanan bulanan.
 
 ---
@@ -50,8 +52,11 @@ Kalau lu terjebak di situasi darurat kayak gue di bandara tadi, ikuti protokol l
 
 #### Tahap 1: Pembersihan Fisik Aman (Dry-Out Method)
 1. Matikan total (Power Off) Galaxy Z Fold lu buat mencegah arus pendek.
+
 2. Ambil selembar tisu kering, pilin kecil lancip seukuran lidi (jangan gunakan cotton bud karena kapasnya bisa tertinggal di dalam).
+
 3. Masukkan pelan-pelan ke dalam port USB-C, putar perlahan untuk menyerap sisa embun atau kotoran. Jangan didorong terlalu dalam.
+
 4. Kalau ada, arahkan angin dingin dari pengering rambut (*hair dryer* setelan *cool/cold*) ke arah port selama 3 menit.
 
 #### Tahap 2: Reset Sinyal Sensor via Pengaturan (Jika itu *False Alarm*)

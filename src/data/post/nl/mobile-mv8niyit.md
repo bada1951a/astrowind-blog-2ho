@@ -25,7 +25,9 @@ Zit je dan, vol in de ochtendspits tussen Utrecht Centraal en Amsterdam Sloterdi
 Als je onderweg snel schakelt tussen netwerken, crasht je visuele ergonomie vaak op drie fronten:
 
 1. Standaard Systeemhelderheid & Witbalans: Zodra je netwerkinstellingen wijzigen of zware data, zoals een laptopkoppeling, via tethering verstuurt, trekt de processor extra stroom. De automatische helderheid (Auto-Brightness) reageert hierop door het scherm onnodig fel te zetten in een toch al verlichte treinwagon.
+
 2. Statische UI-elementen en OLED Burn-in: Moderne OLED-schermen hebben organische pixels die degraderen bij langdurige weergave van statische, felle witte elementen (zoals de menubalken van je instellingen of hotspot-schermen). Als je regelmatig in de trein zit te pielen met instellingen, brandt dat langzaam in.
+
 3. Het ontbreken van contextuele automatisering: Je denkt er simpelweg niet aan om handmatig de Donkere Modus (Dark Mode) in te schakelen wanneer je haast hebt. Je telefoon blijft in de dagstand staan, wat niet alleen je netvlies sloopt in donkere treinen of 鈥榮 avonds laat, maar ook je accu leegtrekt.
 
 ---
@@ -46,18 +48,25 @@ We willen dat de Donkere Modus automatisch inschakelt op basis van een trigger鈥
 
 * Voor iPhone-gebruikers (Via de Opdrachten / Shortcuts app):
   1. Open de Opdrachten-app en tik op het tabblad *Automatisering* onderin.
-  2. Tik op de + (rechtsboven) om een nieuwe persoonlijke automatisering aan te maken.
-  3. Scroll naar beneden en kies de trigger: Persoonlijke hotspot (kies 'Wordt ingeschakeld').
-  4. Tik op *Voeg taak toe* en zoek naar Donkere modus instellingen (Zet Donkere modus aan).
-  5. Zet de schakelaar *Vraag v贸贸r uitvoeren* uit, zodat het geruisloos op de achtergrond draait. Tik op *Gereed*.
+
+2. Tik op de + (rechtsboven) om een nieuwe persoonlijke automatisering aan te maken.
+
+3. Scroll naar beneden en kies de trigger: Persoonlijke hotspot (kies 'Wordt ingeschakeld').
+
+4. Tik op *Voeg taak toe* en zoek naar Donkere modus instellingen (Zet Donkere modus aan).
+
+5. Zet de schakelaar *Vraag v贸贸r uitvoeren* uit, zodat het geruisloos op de achtergrond draait. Tik op *Gereed*.
 
 * Voor Android-gebruikers (Via Routines / Tasker):
   1. Ga naar *Instellingen > Standen en routines* (Modes and Routines - standaard op o.
 
 a. Samsung One UI).
-  2. Maak een nieuwe routine aan via de + knop.
-  3. Kies bij 'Als' (Trigger): Wanneer Persoonlijke hotspot wordt ingeschakeld (of gebruik een locatie- / tijdsgebonden trigger zoals je gemiddelde reistijd 鈥榮 ochtends).
-  4. Kies bij 'Dan' (Actie): *Functies aanpassen > Donkere modus* en zet deze op Aan. Sla de routine op.
+
+2. Maak een nieuwe routine aan via de + knop.
+
+3. Kies bij 'Als' (Trigger): Wanneer Persoonlijke hotspot wordt ingeschakeld (of gebruik een locatie- / tijdsgebonden trigger zoals je gemiddelde reistijd 鈥榮 ochtends).
+
+4. Kies bij 'Dan' (Actie): *Functies aanpassen > Donkere modus* en zet deze op Aan. Sla de routine op.
 
 <div style="border-left: 4px solid #64748b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>PRO-TIPS VOOR DE MOBIELE TECH-SPECIALIST</strong><br>

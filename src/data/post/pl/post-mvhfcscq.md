@@ -24,7 +24,9 @@ W takich chwilach łatwo o błędy, które zamiast pomóc, kończą się zniszcz
 Zanim przejdziemy do naprawy, musisz zrozumieć, z czym walczymy. Oto trzy najczęstsze powody, dla których telefon gotuje się w kieszeni, a ładowarka ledwo dycha:
 
 1. Aplikacje-wampiry w tle: Po aktualizacji systemowej One UI niektóre aplikacje (zwłaszcza komunikatory, programy bankowe czy lokalizacyjne) tracą kontrolę nad uprawnieniami i zapętlają się w próbach synchronizacji. Procesor nie przechodzi w stan głębokiego uśpienia (deep sleep), co winduje temperaturę obudowy do 45-50°C.
+
 2. Kondensacja brudu w gnieździe USB-C: W miejskiej dżungli, nosząc telefon w kieszeni jeansów, gniazdo ładowania błyskawicznie zbiera kłaczki, kurz i mikro-drobinki. Gdy podłączasz kabel, kurz zostaje zepchnięty na sam dół, tworząc zbitą masę. Powoduje to mikrozwarcia, które nie tylko utrudniają ładowanie, ale potrafią oszukiwać elektronikę zarządzającą energią, wywołując dodatkowe nagrzewanie okolic portu.
+
 3. Uszkodzone protokoły szybkiego ładowania: Używanie tanich, chińskich zamienników ładowarek powoduje, że układ scalony odpowiedzialny za zasilanie (tzw. układ PMIC) wariuje, podając nieprawidłowe napięcie, co bezpośrednio katuje baterię.
 
 ---

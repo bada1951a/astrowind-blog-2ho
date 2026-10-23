@@ -22,7 +22,9 @@ Eram três da tarde em ponto no nosso escritório corporativo na região da Aven
 Depois de perder preciosos 20 minutos testando cabos diferentes e reiniciando o aparelho sem sucesso, fui direto ao diagnóstico técnico para entender o que estava acontecendo debaixo do capô.
 
 1. Acúmulo de Resíduos e Sujeira (Falso Positivo Comum): O pó do bolso misturado com umidade do suor ou da chuva fina de São Paulo vira uma pasta condutiva dentro do conector. O sensor interpreta isso erroneamente como líquido.
+
 2. Oxidação nos Pinos (Zinabre): Se o aparelho já teve contato leve com umidade no passado, os pinos internos podem ter desenvolvido uma leve camada de corrosão que mantém o circuito fechado indevidamente.
+
 3. Falha Lógica no iOS: O componente que gerencia a energia (chip Tristar/Hydra ou o gerenciador USB) pode reter um erro de leitura temporário, fazendo o aviso persistir mesmo com o conector totalmente seco.
 
 ### Passo a Passo: Como Resolver o Problema de Vez

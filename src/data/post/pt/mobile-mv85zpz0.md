@@ -22,7 +22,9 @@ Faltavam exatamente 15 minutos para fechar o portão de embarque do voo para Sã
 Trabalho na bancada há anos e vejo isso todo santo dia. O sensor do Android não é bobo, mas ele é extremamente sensível. No caso dos smartphones da linha Galaxy, especialmente os dobráveis, existem três culpados principais para esse falso positivo:
 
 1. Condensação térmica (O choque de temperatura): Sair de um ambiente muito quente para um aeroporto ou escritório congelado no ar-condicionado cria gotículas microscópicas de água diretamente nos pinos dourados do conector USB-C. O sensor detecta resistência elétrica alterada e bloqueia a carga por segurança.
+
 2. Sujeira acumulada e zinabre: O bolso da calça é um ecossistema próprio. Poeira, fiapos de tecido e umidade corporal criam uma pasta condutora dentro da entrada Type-C. Quando você pluga o cabo, essa sujeira úmida fecha um curto leve, ativando o alarme anti-corrosão do sistema.
+
 3. Bug temporário no Framework do Android: Às vezes, o sistema operacional simplesmente "trava" o estado lógico do sensor de umidade após um carregamento rápido mal-sucedido. O hardware está seco, mas o software continua achando que o celular caiu na piscina.
 
 ---
@@ -38,9 +40,13 @@ Esqueça agulhas. Pegue um palito de dente de madeira comum e faça a ponta fica
 Se a sujeira não era o problema e o celular continua recusando carga mesmo seco, o sensor lógico travou. Vamos limpar o cachê do sistema responsável por isso:
 
 1. Vá em Configurações > Aplicativos.
+
 2. Toque no ícone de filtro ao lado de "Seus aplicativos" e ative "Mostrar aplicativos do sistema".
+
 3. Na barra de pesquisa, digite "USBSettings" ou "Processamento USB" (o nome exato pode variar dependendo da versão da One UI).
+
 4. Entre no aplicativo, vá em Armazenamento e toque em Limpar dados e Limpar cache.
+
 5. Reinicie o aparelho (Force a reinicialização segurando Power + Volume Menus por 10 segundos).
 
 <div style="border-left: 4px solid #78350f; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px;">
@@ -51,7 +57,9 @@ Se a sujeira não era o problema e o celular continua recusando carga mesmo seco
 Se o problema persistir e você suspeitar de conflito de software gerado por algum aplicativo de gerenciamento de bateria de terceiros:
 
 1. Acesse Configurações > Gerenciamento geral > Redefinir.
+
 2. Selecione Redefinir configurações de rede (isso não apaga suas fotos ou dados, apenas limpa conexões Wi-Fi, Bluetooth e dados móveis corrompidos que possam estar gerando loops de processamento).
+
 3. Reinicie o smartphone novamente.
 
 ---

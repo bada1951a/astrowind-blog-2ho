@@ -22,7 +22,9 @@ Với kinh nghiệm cầm mỏ hàn, khò nhiệt và bóc tách hàng ngàn chi
 Sau khi phân tích hàng trăm thiết bị mang đến cửa hàng trong tình trạng tương tự, chúng tôi đúc kết lại 3 thủ phạm chính gây ra hiện tượng này:
 
 1. Tiến trình ngầm index dữ liệu (Spotlight Indexing): Sau khi lên iOS mới, hệ thống phải quét lại toàn bộ ảnh, danh bạ, tin nhắn và tệp tin để xây dựng cơ sở dữ liệu tìm kiếm mới. Quá trình này ngốn CPU cực nhiều và vắt kiệt năng lượng pin trong 2-3 ngày đầu.
+
 2. Xung đột thuật toán sạc nhanh và quản lý nhiệt: Các dòng iPhone đời mới sử dụng chuẩn sạc nhanh qua cổng Type-C rất nhạy cảm với nhiệt độ. Khi nhiệt độ môi trường tại TP.HCM vốn đã oi bức cộng thêm việc iOS mới thúc ép hiệu năng, IC sạc sẽ tự động bóp dòng điện để bảo vệ mainboard, gây ra hiện tượng lúc nhận sạc nhanh, lúc lại sạc chậm hoặc ngắt quãng.
+
 3. Ứng dụng bên thứ ba chưa tương thích: Nhiều app quen thuộc như Facebook, TikTok, ngân hàng chưa được tối ưu kịp thời cho phiên bản iOS mới, dẫn đến tình trạng chạy ngầm gây rò rỉ bộ nhớ (memory leak) và tiêu thụ pin vô ích.
 
 ---

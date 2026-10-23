@@ -24,7 +24,9 @@ If you have ever experienced that heart-dropping moment where your foldable phon
 Before we dive into the fix, let's look at what is actually happening underneath that sleek glass and hinge assembly. When a Galaxy Z Fold goes black specifically upon unfolding, it is rarely a random software glitch. It usually boils down to three main culprits:
 
 1. The Main Flex Cable Fatigue: The internal ribbon cable bridging the two halves of the phone bends thousands of times. Over time, microscopic fatigue can disrupt the display data line, cutting power and video signal to the inner panel the moment the hinge stretches it out.
+
 2. Hall Sensor / Magnet Interference: Foldables rely on tiny magnetic sensors to tell the operating system whether the phone is folded or open. If debris gets trapped near the hinge or a strong external magnet throws off the sensor, the OS gets confused and keeps the inner display turned off.
+
 3. Display Panel Controller Crash: Sometimes the software handshake between the GPU and the inner display driver fails during the state change (folded to unfolded), causing a temporary panel freeze that requires a hard reset of the display subsystem.
 
 ## Step-by-Step Resolution

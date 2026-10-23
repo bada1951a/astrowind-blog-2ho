@@ -27,7 +27,9 @@ Akkustand 12 Prozent, das Tunnel-WLAN im ICE (oder KTX, wer reist nicht im Geist
 Wer im Pendler-Stress unterwegs ist, kennt das Phänomen. Man versucht krampfhaft, das Smartphone als mobilen Hotspot zu nutzen oder wichtige Mails abzurufen. Dabei greifen drei unsichtbare Killer ineinander, die nicht nur die Nerven, sondern auch die Hardware ruinieren:
 
 1. Die OLED-Leistungsfalle: Bei maximaler Helligkeit und weißem Hintergrund brennen sich statische UI-Elemente (wie die Statusleiste oder App-Icons) schleichend in die organischen Leuchtdioden ein – echtes OLED-Burn-in.
+
 2. Der Tunnel-WLAN-Loop: Das Smartphone sucht permanent krampfhaft nach offenen Hotspots, während das mobile Netz (5G/LTE) zwischen den Funkmasten hin- und herspringt. Das zieht am Akku wie ein offenes Scheunentor.
+
 3. Die visuelle Reizüberflutung: Wer im abgedunkelten Zugabteil auf weiße, grelle Webseiten starrt, provoziert asthenope Beschwerden (müde, brennende Augen), die die Konzentration komplett killen.
 
 Ich habe monatelang im Feldversuch erlebt, wie unzählige User stundenlang in den Einstellungen > Anzeige & Helligkeit manuell herumfummeln, anstatt das System für sich arbeiten zu lassen. Das muss aufhören.
@@ -56,9 +58,13 @@ Geht auf eurem iPhone in die Einstellungen > Anzeige & Helligkeit und stellt sic
 
 ### Schritt 2: Den Kurzbefehle-Turbo zünden (Automation einrichten)
 1. Öffnet die native Kurzbefehle-App (Shortcuts) auf eurem iOS-Gerät.
+
 2. Navigiert unten auf den Reiter Automation und tippt auf das + (oben rechts).
+
 3. Scrollt nach unten und wählt eine Trigger-Bedingung aus – beispielsweise Tageszeit (z. B. 18:00 Uhr für den Feierabend-Zug) oder verbindet es direkt mit dem Bluetooth-Kopfhörer (als Indikator dafür, dass ihr jetzt Musik hört oder arbeitet).
+
 4. Wählt als Aktion Dunkelmodus aktivieren.
+
 5. Wichtig: Deaktiviert den Haken bei *Vor Ausführen bestätigen*. Nur so läuft die Routine im Hintergrund absolut reibungslos ab, ohne euch mit nervigen Pop-ups zu unterbrechen.
 
 ### Schritt 3: Netzwerk-Stabilität erzwingen

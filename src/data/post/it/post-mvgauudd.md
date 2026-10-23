@@ -27,7 +27,9 @@ Prima di smontare mezza scrivania o correre a comprare un caricabatterie nuovo, 
 Ecco i tre colpevoli principali che incontro quotidianamente nel mio laboratorio milanese:
 
 1. Disallineamento delle bobine a induzione (Il problema principale): La ricarica wireless si basa sull'accoppiamento elettromagnetico tra due bobine di rame: una dentro la base di ricarica e una all'interno dello smartphone. Se il telefono è spostato anche solo di un centimetro o posizionato leggermente storto, il flusso magnetico non si chiude correttamente. Il caricabatterie se ne accorge, va in protezione e inizia a lampeggiare.
+
 2. Cover troppo spesse, metalliche o con accessori magnetici: Molti usano cover rinforzate anti-urto, custodie a portafoglio con tasche per carte di credito o supporti magnetici per auto (tipo MagSafe o piastrine metalliche). Il metallo blocca totalmente il campo magnetico e fa impazzire il sensore FOD (*Foreign Object Detection*), mentre una plastica o un silicone troppo spessi riducono drasticamente l'efficienza, facendo surriscaldare il circuito.
+
 3. Alimentazione insufficiente o cavo USB difettoso: Spesso si collega la base di ricarica wireless a una porta USB del PC, a una presa a muro obsoleta o si usa un cavo di scarsa qualità. La ricarica wireless richiede un input di corrente stabile (solitamente standard QC 3.0 o Power Delivery). Se l'alimentatore non eroga abbastanza watt, il pad non riesce a mantenere stabile il campo elettromagnetico e va in errore.
 
 ---

@@ -21,7 +21,9 @@ Acalme o coração. Como técnico que já viu de tudo nesta bancada paulistana �
 Antes de sair trocando cabo ou comprando uma bateria portátil nova, vamos entender a raiz do problema. Na minha experiência diária, 90% dos casos na bancada resumem-se a três vilões principais:
 
 1. Conector de Carga Emperrado (Sujeira e Compactação): Esse é o clássico de São Paulo. Bolso de calça jeans, poeira da rua, fiapos de tecido... Tudo isso entra no conector Lightning ou USB-C do seu celular. Quando você espeta o cabo, essa sujeira é empurrada para o fundo, criando uma "rolha". Resultado? Os pinos de dados e de alta corrente (Power Delivery / Quick Charge) não fazem contato direito. O celular entra em modo de segurança e limita a velocidade de carga.
+
 2. Incompatibilidade de Protocolos (Amperagem e Tensão): Nem todo power bank entrega o que o seu smartphone exige. Se você usa um power bank antigo de 5V/1A num iPhone moderno ou num Android topo de linha que puxa 25W ou 45W, o sistema avisa que a carga é lenta porque o carregador portátil simplesmente não tem força suficiente.
+
 3. Cabo "Pirata" ou Oxidado: Sabe aquele cabo baratinho que você comprou na banquinha da esquina por dez pilas? Ele provavelmente não tem os fios de cobre internos adequados para a passagem de alta corrente, ou os pinos do conector estão oxidados por causa da nossa umidade inconstante.
 
 ---

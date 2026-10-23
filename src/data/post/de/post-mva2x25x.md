@@ -31,9 +31,13 @@ Vergesst langes Warten, bis der Akku leer ist. Da der normale Ausschalt-Weg vers
 #### Schritt-für-Schritt-Anleitung für moderne iPhones (iPhone 8, X, 11, 12, 13, 14, 15 und neuer):
 
 1. Drückt kurz die Lauter-Taste (Volume Up) und lasst sie sofort wieder los.
+
 2. Drückt kurz die Leiser-Taste (Volume Down) und lasst sie sofort wieder los.
+
 3. Haltet nun die Seitliche Taste (Power-Button / Standby-Taste) auf der rechten Seite dauerhaft gedrückt.
+
 4. Ignoriert den eventuell erscheinenden Ausschalt-Schieberegler und haltet die Taste weiter gedrückt, bis der Bildschirm schwarz wird und schließlich das Apple-Logo wieder erscheint. Das kann bis zu 10 Sekunden dauern.
+
 5. Lasst die Taste los, sobald das Logo da ist. Das iPhone bootet neu, und der Touchscreen funktioniert im Regelfall sofort wieder.
 
 <div style="border-left: 4px solid #64748b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

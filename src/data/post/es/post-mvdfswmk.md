@@ -24,7 +24,9 @@ Afortunadamente, tras años bregando con soporte técnico de hardware en entorno
 Para solucionar un problema de hardware de forma efectiva, primero hay que entender por qué los sensores se quedan bloqueados. Aquí están las tres causas más comunes por las que el iPhone sigue insistiendo en que está mojado:
 
 1. Residuos minerales y corrosión: El agua de la calle o del grifo no es purificada; contiene minerales (cal, sales). Cuando el agua se evapora, esos minerales se quedan cristalizados sobre los pines dorados del puerto de carga, cerrando falsos contactos que el software sigue interpretando como humedad.
+
 2. Obstrucción por pelusas y humedad combinadas: Si ya tenías polvo o pelusa de bolsillo acumulada en el puerto (algo hipercomún), la entrada de unas pocas gotas de humedad convierte esa pelusa en una pasta lodosa que retiene el agua durante horas, impidiendo que el sensor se seque de forma natural.
+
 3. Daño temporal en el flex de carga: Si el terminal sufrió un golpe reciente o humedad ácida, el circuito integrado que lee la resistencia del puerto puede haberse quedado "atascado" digitalmente.
 
 ---

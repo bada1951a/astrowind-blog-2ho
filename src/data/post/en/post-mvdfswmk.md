@@ -21,10 +21,12 @@ If you are staring at this exact notification and your presentation, flight chec
 
 ## Why Your iPhone Is Stuck on the Liquid Alert
 
-Before jumping into the fix, it helps to understand why Apple's hardware safety mechanism gets tripped so easily and why it sometimes gets stuck. 
+Before jumping into the fix, it helps to understand why Apple's hardware safety mechanism gets tripped so easily and why it sometimes gets stuck.
 
 1. Micro-Corrosion & Residue: If your drink had sugar, minerals, or dairy, a simple drop left behind a conductive film inside the Lightning or USB-C port once the water evaporated. This tricks the moisture sensor pins into thinking water is still present.
+
 2. Ambient Humidity and Condensation: Moving from a cold air-conditioned office out into the warm Silicon Valley heat can instantly form internal condensation inside the port chamber.
+
 3. Software State Cache: Occasionally, iOS simply caches the alert flag. Even after the physical port is Bone-dry, the Springboard UI process fails to re-poll the hardware state and keeps screaming about liquid.
 
 ---

@@ -24,7 +24,9 @@ Veel smartphone-gebruikers denken dat hun scherm kapot is wanneer de helderheid 
 Hier zijn de drie meest voorkomende boosdoeners achter dit irritante fenomeen:
 
 1. Interne warmtestuwing door direct zonlicht: Moderne smartphones hebben heldere OLED-schermen die piekhelderheden bereiken in de zon. Dit vraagt extreme kracht van het paneel. Voeg daar direct zonlicht en warme buitenlucht aan toe, en de processor (SoC) bereikt al snel kritische temperaturen boven de 45°C.
+
 2. Vol geheugen en achtergrondprocessen: Die melding van een volle opslagruimte is een directe trigger. Als je opslag bijna vol is, moet het systeem keihard zwoegen om tijdelijke bestanden (cache) te schrijven. Dit vreet rekenkracht, wat extra warmte genereert net op het moment dat de zon op je behuizing brandt.
+
 3. Maximale piekbelasting van de camera: Foto's en video's verwerken in HDR-kwaliteit vraagt het uiterste van je grafische chip. Als je toestel al warm is, zorgt het openen van de camera-app voor de druppel die de emmer doet overlopen, waardoor het systeem direct ingrijpt.
 
 ---

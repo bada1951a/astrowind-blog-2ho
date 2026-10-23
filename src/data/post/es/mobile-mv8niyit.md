@@ -22,7 +22,9 @@ Si eres de los que vive pegado al ecosistema móvil gestionando correos de últi
 Antes de meternos a configurar la automatización definitiva, hay que entender por qué el teléfono sufre tanto en entornos de movilidad corporativa:
 
 1. Ajuste de brillo desbocado por sensores de luz ambiental: Los sensores del iPhone intentan compensar la luz artificial dura de los vagones o aviones subiendo el brillo al máximo, friendo la matriz de píxeles OLED y tus retinas al mismo tiempo.
+
 2. Uso prolongado de Hotspot con apps blancas: Al compartir internet, el procesador se calienta. Si combinas alta temperatura con interfaces de fondo blanco (como Jira, Notion o Gmail en modo claro), aceleras la degradación de los subpíxeles orgánicos azules.
+
 3. Falta de contexto geográfico y horario: El modo oscuro automático de iOS basado solo en "Puesta a sol" (Sunset to Sunrise) falla miserably cuando viajas por diferentes zonas horarias o pasas de un túnel oscuro a una estación iluminada.
 
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(249,115,22,0.05); border-radius: 4px; color: #111827;">
@@ -48,20 +50,29 @@ Como especialista en soporte móvil, me cansé de parchar esto manualmente. Vamo
 
 #### Paso 1: Configuración base de Pantalla y Brillo
 1. Entra a Ajustes > Pantalla y Brillo.
+
 2. Selecciona Oscuro como base general.
+
 3. Entra en Tamaño de texto y Negrita y asegúrate de no forzar escalas absurdas que fuercen renderizados extraños.
 
 #### Paso 2: Creación del Atajo de Emergencia para Hotspot / Trabajo
 1. Abre la aplicación Atajos en tu iPhone y ve a la pestaña Automatización.
+
 2. Pulsa el botón "+" arriba a la derecha para crear una nueva automatización personal.
+
 3. Desplázate hacia abajo y selecciona "Punto de acceso personal" (Personal Hotspot) o "Aplicación" (si prefieres ligarlo a abrir Slack/Teams).
+
 4. Marca la opción "Se activa" y pulsa Siguiente.
 
 #### Paso 3: Inyección de Acciones de Protección Visual
 1. Toca en "Agregar acción".
+
 2. En la barra de búsqueda escribe "Definir apariencia" (Set Appearance) y selecciónala. Asegúrate de que esté configurada en Oscuro.
+
 3. Añade una segunda acción buscando "Definir brillo" (Set Brightness). Configúrala a un seguro 35% (ideal para evitar el choque lumínico en el KTX o avión).
+
 4. Desactiva la opción "Preguntar al ejecutar" (Ask Before Running) para que la transición sea totalmente fluida y silenciosa.
+
 5. Pulsa OK para guardar.
 
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(249,115,22,0.05); border-radius: 4px; color: #111827;">

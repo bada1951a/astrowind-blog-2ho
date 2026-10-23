@@ -19,10 +19,12 @@ Het was exact twintig minuten voor de cruciale product-sync in ons Amsterdamse t
 
 ### Waarom blijft die waarschuwing hangen? (De Kernoorzaak)
 
-Voordat we ingrijpen, moeten we begrijpen waarom iOS zo hardnekkig reageert. De pinnen in de oplaadpoort van je iPhone zijn uitgerust met gevoelige vochtsensoren en detecteren minuscule elektrische weerstandsverschillen. 
+Voordat we ingrijpen, moeten we begrijpen waarom iOS zo hardnekkig reageert. De pinnen in de oplaadpoort van je iPhone zijn uitgerust met gevoelige vochtsensoren en detecteren minuscule elektrische weerstandsverschillen.
 
 1. Condensatie door weersomstandigheden: Van een klamme fietsrit door de Amsterdamse regen direct een warm kantoor binnenstappen is een klassieke boosdoener. Warme lucht condenseert op de koude metalen pinnen van je poort.
+
 2. Opgehoopt pluis en oxidatie: Zakpluis mengt zich met micro-druppeltjes zweet of vocht. Dit vormt een geleidend laagje dat door de sensor onterecht wordt aangezien voor 'vloeistof'.
+
 3. Softwarematige glitch na een iOS-update: Soms blijft de hardware-interrupt hangen in de cache van het besturingssysteem, waardoor de melding opduikt ondanks dat de poort allang kurkdroog is.
 
 ### Stapsgewijze Oplossing: Zo krijg je die poort weer schoon en droog

@@ -26,7 +26,9 @@ Trabalho na bancada de uma assistência técnica há anos e vejo essa cena se re
 Para entender o problema, precisamos olhar além do vidro. Os smartphones modernos são potentes, mas sofrem muito com a combinação de calor externo e esforço do processador. Quando a memória está lotada e você exige o máximo da câmera sob a luz solar direta, três fatores entram em colapso:
 
 1. Throttling Térmico (Proteção contra superaquecimento): Os sensores internos medem a temperatura da placa. Se passar do limite seguro (geralmente acima de 40°C a 45°C), o processador reduz drasticamente a velocidade e o brilho da tela despenca para forçar o resfriamento.
+
 2. Gargalo de Armazenamento (Cache Saturado): O aplicativo da galeria precisa de espaço livre temporário (cache) para processar fotos e vídeos. Com a memória interna beirando os 100% de ocupação, o sistema trava de vez, congelando a interface.
+
 3. Brilho Automático no talo: Sob a luz do sol, o sensor de luminosidade força os LEDs do painel (seja AMOLED ou LCD) a operarem na potência máxima, gerando ainda mais calor interno e acelerando o processo de escurecimento forçado.
 
 ---
@@ -38,8 +40,11 @@ Se você está na rua e precisa fazer o celular voltar a funcionar agora mesmo, 
 ```bash
 # Sequência rápida de resfriamento e alívio de memória:
 1. Afaste-se da luz solar direta (vá para a sombra de um prédio ou marquise).
+
 2. Remova a capa protetora (a capinha age como um forno, retendo o calor).
+
 3. Feche todos os aplicativos abertos em segundo plano.
+
 4. Desative temporariamente o Bluetooth, GPS e dados móveis por 2 minutos.
 ```
 

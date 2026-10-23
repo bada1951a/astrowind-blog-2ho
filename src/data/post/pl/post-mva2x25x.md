@@ -22,7 +22,9 @@ Zanim zaczniesz panikować i szukać najbliższego serwisu Apple na Mokotowie cz
 Zanim przejdziemy do naprawy, spójrzmy prawdzie w oczy – oto trzy główne powody, dla których Twój telefon nagle zamienił się w przycisk do papieru:
 
 1. Konflikt aplikacji w tle: Jakaś aplikacja (często czytnik PDF, arkusz kalkulacyjny albo komunikator) weszła w pętlę procesora i całkowicie zablokowała wątek interfejsu graficznego (SpringBoard).
+
 2. Przepełniona pamięć podręczna: Zbyt mało wolnego miejsca w pamięci masowej w połączeniu z intensywnym multitaskingiem dusi system.
+
 3. Chwilowy błąd sterownika dotyku: Rzadziej, ale zdarza się, że digitizer (warstwa dotykowa ekranu) gubi synchronizację z płytą główną i potrzebuje twardego resetu kontrolera zasilania (PMIC).
 
 ---
@@ -34,8 +36,11 @@ Zapomnij o tradycyjnym wyłączaniu telefonu suwakiem – dotyk nie działa, wi�
 ### Dla iPhone'a 8, X, 11, 12, 13, 14, 15 i nowszych (Face ID lub nowoczesny Touch ID):
 
 1. Krok 1: Wciśnij i natychmiast puść przycisk Zwiększ głośność (Volume Up).
+
 2. Krok 2: Wciśnij i natychmiast puść przycisk Zmniejsz głośność (Volume Down).
+
 3. Krok 3: Wciśnij i trzymaj wciśnięty boczny przycisk zasilania (Side Button). Nie puszczaj go, gdy pojawi się suwak wyłączania – trzymaj go dalej!
+
 4. Krok 4: Czekaj cierpliwie (czasami trzeba przytrzymać go przez 10-15 sekund), aż ekran zgaśnie, a na czarnym tle pojawi się logo Apple (nadgryzione jabłko). Dopiero wtedy możesz puścić przycisk.
 
 <div style="border-left: 4px solid #06b6d4; padding: 12px 16px; margin: 20px 0; background-color: rgba(6,182,212,0.05); border-radius: 4px; color: #111827;">

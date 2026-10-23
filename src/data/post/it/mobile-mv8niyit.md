@@ -22,7 +22,9 @@ Ore 07:30, treno KTX diretto a Milano Centrale (o Roma Termini, fate voi). Devo 
 Prima di mettere le mani nel codice o nei comandi rapidi, smontiamo il problema come farei con un device sul mio banco da lavoro. Ecco i tre fattori critici che stavano prosciugando la mia batteria su quel treno:
 
 1. Efficienza Energetica dei Pannelli OLED (Emissione Luminosa): Nei display OLED, ogni singolo sub-pixel si illumina autonomamente. Il bianco puro richiede il massimo voltaggio su tutti i sub-pixel (RGB). La Dark Mode spegne fisicamente i pixel neri, riducendo drasticamente il consumo energetico del modulo display.
+
 2. Carico Termico sull'AP (Application Processor): Un display impostato su sfondi chiari in ambienti ad alta luminosità costringe il sensore di luce ambientale a spingere la retroilluminazione logica del pannello al limite, generando calore che si propaga direttamente verso la CPU e il modem 5G durante il tethering.
+
 3. Mancanza di Automazione Contestuale: Lasciare che sia l'utente a ricordarsi di attivare la Dark Mode o a regolarla manualmente è un errore di sistema. L'hardware moderno richiede routine basate su trigger intelligenti (orario, posizione o stato della batteria).
 
 ---
@@ -48,12 +50,19 @@ Andiamo su Impostazioni > Batteria e verificamene lo stato di salute. Se la batt
 
 ### Step 2: Configurazione dell'Automazione Temporale o di Trigger
 1. Apri l'app Comandi Rapidi (Shortcuts) sul tuo iPhone.
+
 2. Tocca il tab Automazione in basso al centro.
+
 3. Tocca il pulsante + in alto a destra per creare una nuova automazione personale.
+
 4. Scorri e seleziona Ora del giorno (oppure Arrivo / Quando mi connetto a... se vuoi collegarla direttamente all'hotspot o al Wi-Fi del treno/ufficio).
+
 5. Imposta l'orario desiderato (es. Tramonto, o le 08:00 del mattino) e seleziona Esegui subito (disattiva "Chiedi prima di eseguire" per renderla totalmente autonoma).
+
 6. Tocca Avanti, quindi cerca l'azione Imposta aspetto (Set Appearance).
+
 7. Imposta lo stato su Scuro (Dark).
+
 8. Crea un'automazione speculare per il ritorno alla modalità Chiara al mattino (es. ore 08:00 o all'alba).
 
 <div style="border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

@@ -20,7 +20,9 @@ theme: "Acid Lime Hacker Space"
 Trước khi bấm nút cứu hộ, chúng ta cần hiểu nhanh nguyên nhân để tránh tái diễn tình trạng này giữa lúc dầu sôi lửa bỏng:
 
 1. Xung đột phần mềm (Software Glitch): Một ứng dụng nào đó (thường là app ngân hàng, mạng xã hội hoặc game nặng) bị treo ngang xương, kéo theo toàn bộ tiến trình SpringBoard của iOS sập theo.
+
 2. Tràn bộ nhớ RAM: Bạn mở quá nhiều tab Safari và ứng dụng nền cùng lúc trong cái nóng oi ả của Sài Gòn, khiến chip xử lý quá tải nhiệt và tự đóng băng để bảo vệ bo mạch.
+
 3. Lỗi phân vùng dữ liệu hoặc ổ cứng (Storage/NAND Flash): Bộ nhớ trong gần như cạn sạch (chỉ còn dưới 1GB trống), khiến hệ thống không thể tạo không gian lưu file tạm (cache) và gây kẹt cứng hệ điều hành.
 
 ## Hướng dẫn Buộc Khởi động lại (Force Restart) theo từng dòng máy

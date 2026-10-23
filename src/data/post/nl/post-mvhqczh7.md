@@ -27,7 +27,9 @@ Het is woensdagochtend, kwart voor negen. Je staat midden op de Zuidas in Amster
 Veel smartphone-gebruikers denken direct dat hun batterij plotseling fysiek kapot is gegaan. Technisch gezien zit het anders. Hier zijn de drie hoofdreden waarom je iPhone zo snel leegloopt:
 
 1. Achtergrondindexering (Spotlight & Foto's): Na een update herbouwt iOS de complete database van je toestel. Foto's worden opnieuw gescand op gezichten en objecten, en alle apps worden opnieuw geïndexeerd. Dit vreet CPU-kracht en slurpt energie. Dit proces duurt doorgaans 24 tot 48 uur na installatie.
+
 2. App-incompatibiliteit: Niet elke app-ontwikkelaar is klaar voor de nieuwste iOS-versie. Oude apps blijven soms hangen in een oneindige lus (crash-loop) op de achtergrond, waardoor je processor continu op volle toeren draait.
+
 3. Firmware-kalibratie: Soms moet het batterijbeheersysteem (PMIC) opnieuw wennen aan de nieuwe software-instructies, waardoor het percentage onnauwkeurig wordt weergegeven en de accu sneller lijkt te ontladen.
 
 ## Veelgemaakte blunders die je moet vermijden

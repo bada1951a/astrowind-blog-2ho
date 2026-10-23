@@ -22,7 +22,9 @@ Het is kwart voor vijf op een regenachtige dinsdagmiddag in ons tech-kantoor aan
 Na de nodige stress en een snelle duik in de diagnostische logboeken van het besturingssysteem, werd de werkelijke oorzaak snel duidelijk. Dit zijn de drie meest voorkomende boosdoeners achter deze hardnekkige hardware-fout:
 
 1. Microscopische condens of vocht: Zelfs een kleine overgang van de koude buitenlucht naar het warme kantoor kan condensatie veroorzaken in de smalle pinnen van de laadpoort.
+
 2. Koperoxidatie en vuil: Broodkruimels, stof uit je broekzak en opgedroogd zweet vormen samen een geleidend papje zodra het ook maar een beetje vochtig wordt, wat de vochtsensor direct triggert.
+
 3. Defecte of niet-originele accessoires: Een beschadigde kabel met een zwakke isolatie kan een valse kortsluiting simuleren in de controller-chip van de poort.
 
 ## Stapsgewijze oplossingen om de blokkering op te heffen

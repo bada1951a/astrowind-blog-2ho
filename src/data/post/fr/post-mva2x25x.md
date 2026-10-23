@@ -34,8 +34,11 @@ Voici la manipulation exacte selon votre modèle d'iPhone :
 
 ### Pour les iPhone 8, X, 11, 12, 13, 14, 15 et versions récentes :
 1. Appuyez brièvement sur le bouton Volume Haut puis relâchez-le immédiatement.
+
 2. Appuyez brièvement sur le bouton Volume Bas puis relâchez-le immédiatement.
+
 3. Maintenez immédiatement enfoncé le bouton latéral (à droite). Ne le lâchez surtout pas lorsque le curseur d'extinction apparaît.
+
 4. Continuez de maintenir le bouton enfoncé jusqu'à ce que l'écran devienne noir et que le logo Apple (la pomme) apparaisse enfin. Vous pouvez alors relâcher.
 
 <div style="border-left: 4px solid #1d4ed8; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

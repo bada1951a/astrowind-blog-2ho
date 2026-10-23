@@ -36,10 +36,15 @@ Dimenticate i miti del riso (che lascia polvere amido dentro i microfoni) o del 
 
 ### Passo 1: Reset forzato del sottosistema USB (Software Check)
 Se siete sicuri al 100% che il telefono non abbia toccato acqua, il problema è quasi certamente software o un blocco della cache di sistema.
+
 1. Andate su Impostazioni > Applicazioni.
+
 2. Toccate l'icona di filtro a destra e attivate Mostra applicazioni di sistema.
+
 3. Cercate USBSettings o USBintentReceiver.
+
 4. Entrate in Memoria archiviazione e fate prima *Svuota cache* e poi *Cancella dati*.
+
 5. Riavviate lo smartphone tenendo premuti contemporaneamente *Tasto Accensione + Volume Giù* per 10 secondi.
 
 ### Passo 2: Pulizia meccanica sicura (Hardware Check)

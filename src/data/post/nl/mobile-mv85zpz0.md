@@ -24,7 +24,9 @@ Als iemand die al jaren op de werkvloer met dit soort mobiele pannes werkt, weet
 Voordat we gaan fixen, even de harde feiten op tafel. Waarom tilt je Fold zo zwaar aan een druppel vocht?
 
 1. Condensatie door thermische shock: Je komt vanuit de gure Nederlandse regen of NS-trein een oververhitte terminal binnen. Warme lucht condenseert direct op het koudste metaal: de gouden pinnen in je USB-C connector.
+
 2. Micro-corrosie en vuilophoping: Broekzakpluis absorbeert vocht als een spons. Als dat pluis eenmaal in de diepe groeven van een Fold-poort zit (die door het scharnierontwerp toch al kwetsbaar is), houdt het vocht vast lang nadat je poort 'droog' lijkt.
+
 3. Firmware-kalibratiefout (One UI bug): Soms is er fysiek geen drup water te bekennen, maar is de USB-PD (Power Delivery) controller van slag geraakt door een statische piek tijdens het inpluggen.
 
 ---
@@ -37,9 +39,13 @@ Geen tijd te verliezen. Volg dit protocol stap voor stap om de software-blokkade
 Als je honderd procent zeker weet dat de poort droog is (bijvoorbeeld omdat je net binnen zat), kun je de USB-cache geforceerd resetten via Android:
 
 1. Ga naar Instellingen (Paramètres / Settings).
+
 2. Tik op Apps en tap op het filtericoontje om *Systeem-apps weergeven* aan te zetten.
+
 3. Zoek naar USB Settings (of USB-instellingen).
+
 4. Tik op Opslag (Storage) en kies Gegevens wissen (Clear Data) en Cache legen.
+
 5. Herstart je toestel (Soft reset: Houd Volume Omlaag + Aan/Uit-knop 10 seconden ingedrukt).
 
 <div style="border-left: 4px solid #475569; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px;">
@@ -57,8 +63,11 @@ Heeft de telefoon écht vocht gezien? Vergeet die rijstzak (serieus, doe dat nie
 Mocht je echt vastzitten en absoluut stroom nodig hebben om je boardingpass te tonen, kun je diep in het systeem duiken. Let op: gebruik dit alleen in absolute noodsituaties.
 
 1. Ga naar Instellingen > Over de telefoon > Software-informatie.
+
 2. Tik 7 keer snel achter elkaar op Build-nummer tot de melding verschijnt dat de *Ontwikkelaarsopties* zijn ingeschakeld.
+
 3. Ga terug naar het hoofdmenu van je Instellingen en open beneden de nieuwe optie Ontwikkelaarsopties.
+
 4. Zoek naar USB-foutopsporing (USB Debugging) en zet deze aan (soms dwingt dit de datalijnen los te komen van de vochtcheck, al blijft het een gok).
 
 ---

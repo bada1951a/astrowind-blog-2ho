@@ -22,7 +22,9 @@ Trưa nay tại văn phòng ở quận 1, TP.HCM, không khí đang vô cùng c�
 Trước khi hoảng loạn tìm cách sửa chữa, chúng ta cần hiểu rõ tại sao điện thoại lại "cứng đầu" từ chối kết nối cáp:
 
 1. Hơi ẩm hoặc nước đọng thực tế: Bạn vừa đi ngoài trời mưa Sài Gòn đột ngột ghé vào quán cà phê điều hòa lạnh ngắt, hoặc lỡ tay làm đổ chút nước suối lên cạnh dưới điện thoại. Các chân tiếp xúc bên trong cổng Lightning hoặc USB-C bị chập mạch nhẹ, hệ thống cảm biến sẽ kích hoạt chế độ bảo vệ.
+
 2. Cặn bẩn và bụi túi quần tích tụ lâu ngày: Đây là nguyên nhân cực kỳ phổ biến ở môi trường đô thị nhiệt đới. Bụi vải trong túi quần kết hợp với mồ hôi tay tạo thành một lớp bùn nhão màu đen bám chặt ở đáy cổng sạc. Khi cắm cáp, lớp cặn này giữ ẩm lâu hơn và bị hệ thống nhầm lẫn là chất lỏng.
+
 3. Lỗi cảm biến hoặc phần mềm sau khi cập nhật: Đôi khi, sau khi lên đời hệ điều hành mới, thuật toán quét độ ẩm của máy quá nhạy cảm, cứ thấy chân cáp hơi ẩm nhẹ do không khí nồm ẩm là lập tức khóa cổng sạc dù thực tế cổng hoàn toàn khô ráo.
 
 ### Các bước khắc phục khẩn cấp tại chỗ làm

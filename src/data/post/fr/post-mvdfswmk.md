@@ -24,7 +24,9 @@ Dans ce genre de situation d'urgence, la première fausse bonne idée qui vient 
 Pour comprendre comment résoudre le problème, il faut analyser ce qui déclenche le capteur de l'iPhone :
 
 1. Oxydation ou micro-gouttes invisibles : Même si l'extérieur semble sec, une infime quantité d'eau s'est logée au fond des broches du connecteur USB-C ou Lightning. Les broches sous tension créent une résistance anormale détectée par le système.
+
 2. Débris et poussières conductrices : Avec le temps, nos poches accumulent des peluches. Si ces peluches captent un tout petit peu d'humidité, elles retiennent l'eau et ferment le circuit de détection, bloquant la charge.
+
 3. Bug logiciel temporaire du springboard : Parfois, le capteur se bloque après une exposition à un taux d'humidité ambiant élevé (comme une salle de bain embuée ou un trajet sous une averse parisienne), et l'algorithme iOS reste bloqué en boucle même après séchage complet.
 
 ### Méthode de dépannage étape par étape

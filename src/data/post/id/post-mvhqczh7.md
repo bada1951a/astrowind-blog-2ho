@@ -27,8 +27,10 @@ Sebelum membongkar atau melakukan tindakan penyelamatan, kita harus tahu dulu ap
 
 1. Indeks Re-indexing Sistem (Background Process): 
    Setelah Anda menginstal update iOS terbaru, sistem operasi tidak cuma sekadar memperbarui tampilan. Di balik layar, iPhone sedang melakukan *re-indexing* seluruh file, foto, database Spotlight, dan optimasi database aplikasi. Proses ini memakan daya CPU yang besar, membuat suhu ponsel agak hangat, dan menguras baterai secara drastis selama 1-3 hari pertama.
+
 2. Akumulasi Debu dan Serat Kain (Pocket Lint): 
    Aktivitas mobilitas tinggi di area perkotaan membuat iPhone sering keluar-masuk kantong celana atau tas kerja. Serat kain halus, debu jalanan, dan kotoran saku akan masuk ke dalam rongga port charger. Seiring waktu, kotoran ini memadat di dasar port, sehingga pin konektor kabel tidak bisa masuk secara maksimal dan membuat posisi kabel menjadi longgar atau gampang copot.
+
 3. Degradasi Kesehatan Baterai (Battery Health Drop): 
    Lonjakan konsumsi arus listrik saat proses *software update* sering kali menjadi "pukulan telak" bagi baterai yang kapasitas maksimalnya (Maximum Capacity) sudah berada di bawah 80%. Baterai yang sudah lelah secara kimiawi tidak mampu menahan tarikan arus yang tidak stabil dari sistem yang sedang bekerja keras.
 

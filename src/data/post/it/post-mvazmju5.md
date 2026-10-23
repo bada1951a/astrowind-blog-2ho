@@ -29,8 +29,11 @@ Ecco invece cosa devi fare esattamente quando ti trovi con il touchscreen del tu
 Sui moderni smartphone Samsung Galaxy (dalla serie S20 in poi, inclusi i pieghevoli e i modelli della serie A), la combinazione di tasti per forzare lo spegnimento è universale e sicura per i dati.
 
 1. Tieni premuti contemporaneamente il Tasto Laterale (Accensione) e il Tasto Volume Giù.
+
 2. Mantienili premuti per almeno 10-15 secondi. Non mollarli troppo presto.
+
 3. Ignora qualsiasi cosa appaia sullo schermo per i primi secondi. Continua a tenere premuto finché non vedi comparire il logo Samsung Galaxy sullo schermo.
+
 4. A quel punto puoi rilasciare i tasti. Il telefono si riavvierà normalmente e, una volta acceso, ti chiederà semplicemente il tuo PIN o la tua impronta digitale. I tuoi dati non avranno subito alcuna perdita.
 
 <div style="border-left: 4px solid #a16207; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

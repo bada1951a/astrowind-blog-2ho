@@ -21,10 +21,12 @@ Ten problem dotyka codziennie setki użytkowników nowoczesnych urządzeń mobil
 
 ## Dlaczego system stale ostrzega o wilgoci? (Główne przyczyny)
 
-Zanim przejdziemy do naprawy, warto zrozumieć, co tak naprawdę dzieje się wewnątrz urządzenia. Nowoczesne porty USB-C oraz Lightning są wyposażone w czułe systemy wykrywania zwarć i rezystancji. 
+Zanim przejdziemy do naprawy, warto zrozumieć, co tak naprawdę dzieje się wewnątrz urządzenia. Nowoczesne porty USB-C oraz Lightning są wyposażone w czułe systemy wykrywania zwarć i rezystancji.
 
 1. Mikroskopijne drobiny płynu: Nawet kropla skondensowanej pary wodnej lub resztki napoju mogą zamknąć obwód między pinami przesyłu danych a zasilania.
+
 2. Nagromadzenie brudu i kurzu: Kieszenie spodni czy torby biurkowe to siedliska pyłu, który po połączeniu z wilgocią z powietrza tworzy przewzącą prąd maź.
+
 3. Uszkodzony lub nieoryginalny przewód: Czasami problem nie leży w samym telefonie, lecz w skorodowanej lub brudnej wtyczce kabla, która "przenosi" wilgoć i zanieczyszczenia do gniazda.
 
 ---

@@ -24,7 +24,9 @@ If you have ever stared at your phone screen on a bumpy Amtrak Acela or a shaky 
 Before we fix it, let’s look at why standard snapshots ruin documents. When you are rushing to capture a paper in dim lighting or under harsh overhead office fixtures, three main issues pop up:
 
 1. The Hand and Phone Shadow Trap: Holding your phone directly over the paper blocks the primary light source, casting a giant shadow right where the crucial text or signature sits.
+
 2. Auto-Focus Distortion and Lens Flare: Standard camera mode tries to capture the entire background (your desk, the table, your coffee cup) instead of flattening out just the paper, resulting in distorted text and fuzzy edges.
+
 3. Aggressive Image Compression: When mobile fax apps automatically compress photos to speed up transmission, low-contrast grey backgrounds and faint grey ink merge into an unreadable smudge.
 
 ---

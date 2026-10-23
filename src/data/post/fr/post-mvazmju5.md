@@ -28,7 +28,9 @@ Heureusement, il existe une combinaison de touches magique qui force le processe
 Avant de passer à l'action, comprenons brièvement ce qui s'est passé dans la machine pour éviter que cela ne se reproduise :
 
 1. La saturation de la mémoire vive (RAM) : Une application gourmande en arrière-plan (souvent un outil de visioconférence ou un navigateur avec 50 onglets ouverts) a provoqué une fuite de mémoire, plantant le gestionnaire de fenêtres (SurfaceFlinger sous Android).
+
 2. Un bug du noyau (Kernel Panic) : Le processeur s'est emballé suite à un conflit matériel passager, bloquant l'affichage et l'écoute de la couche tactile de l'écran.
+
 3. Une surchauffe localisée : Si le téléphone était dans votre poche ou exposé à la chaleur près d'une fenêtre, le système de sécurité a pu brider les composants pour éviter l'endommagement de la batterie, gelant l'interface.
 
 ---

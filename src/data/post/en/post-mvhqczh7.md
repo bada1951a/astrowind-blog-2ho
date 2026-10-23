@@ -26,7 +26,9 @@ If you just updated your iPhone and watched your battery percentage plummet from
 Before grabbing tools, you need to understand what is happening inside your device. Post-update battery drain usually stems from three primary culprits:
 
 1. Background Database Re-indexing: When iOS updates, Spotlight re-indexes every single file, photo, and message on your device. This heavy CPU workload keeps your processor chips running at high frequencies, generating heat and draining power rapidly for 24-48 hours.
+
 2. Stuck Background App Refresh: Older app caches conflict with new iOS APIs, causing apps like social media, navigation, or email clients to get stuck in infinite background refresh loops.
+
 3. Hardware Complications Masked as Software Drain: Sometimes, a dirty or clogged Lightning/USB-C port prevents proper fast charging. Your phone struggles to draw current, leading to incomplete charging cycles that trick you into thinking the battery is failing.
 
 ---

@@ -26,7 +26,9 @@ If you are reading this because your phone or tablet is throwing this exact tant
 Before you start poking around your charging port, it helps to understand why your device thinks it is swimming. Modern smartphones are packed with sensitive safety protocols. Here are the three most common culprits behind this frustrating error:
 
 1. Microscopic Moisture & Humidity: You might not have dunked your phone, but walking through heavy morning fog in San Francisco, stepping out of an Austin rainstorm, or even heavy hand sweat during a stressful sprint review can introduce enough moisture into the port to trigger the sensor.
+
 2. Pocket Lint & Debris Buildup: This is the #1 silent culprit. Over months in pockets or backpacks, fabric fibers compress inside the port. When micro-humidity hits that compacted lint, it holds onto moisture like a tiny sponge, fooling the moisture detector.
+
 3. Corroded or Damaged Pins: If you have ever plugged in a wet cable or used a cheap, uncertified third-party charger, microscopic arcing can leave carbon residue or mineral crust on the gold-plated connector pins, mimicking the electrical signature of water.
 
 ---

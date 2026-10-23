@@ -26,7 +26,9 @@ Nel mio laboratorio nel centro direzionale vedo quasi ogni giorno dispositivi ri
 Prima di metterci all'opera con i nostri strumenti da banco, dobbiamo capire esattamente cosa sta succedendo sotto la scocca del nostro amato smartphone.
 
 1. Dissipazione termica insufficiente: I telefoni moderni sono sottilissimi. Non c'è spazio per ventole. Il calore generato dalla CPU e dalla GPU deve viaggiare attraverso heatpipe in rame o camere di vapore per disperdersi sulla backcover. Se la pasta termica interna si è seccata o il contatto con il dissipatore è compromesso, il calore ristagna.
+
 2. Carico di lavoro prolungato sotto la luce diretta: Giocare o esportare video mentre lo schermo è al massimo della luminosità sotto il sole estivo di Milano crea una tempesta termica perfetta. L'energia solare assorbita dal display si somma a quella generata dai componenti interni, superando la soglia critica dei 45°C - 50°C.
+
 3. Cover protettive troppo spesse o isolanti: Molti usano cover in silicone pesante o "rugged" ultra-protettive che purtroppo agiscono come vere e proprie coperte termiche, impedendo al calore di fuoriuscire dalla scocca posteriore.
 
 ---
@@ -49,8 +51,11 @@ Seguite questa procedura passo-passo per diagnosticare e risolvere il problema:
 ```
 
 1. Rimuovete immediatamente la custodia: La prima cosa da fare appena sentite il telefono scaldarsi in modo anomalo è liberarlo dalla cover. Lasciatelo respirare su una superficie non isolante (come un tavolo in legno o marmo, evitate divani o tessuti).
+
 2. Spegnimento di raffreddamento: Se il lag è insopportabile e la scocca scotta, spegnete il dispositivo per 5-10 minuti. Non mettetelo mai in frigorifero o nel congelatore: lo shock termico causerà la formazione di condensa micidiale per i circuiti interni!
+
 3. Verifica dei processi in background: Riaprite il telefono e controllate quali app consumano più batteria o mantengono la CPU attiva. Chiudete tutto ciò che non serve prima di lanciare un gioco o un'app di editing.
+
 4. Regolazione manuale della luminosità: Evitate di usare la luminosità automatica al 100% sotto il sole se state stressando il processore. Riducetela all'80% o cercate una zona d'ombra.
 
 ---

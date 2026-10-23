@@ -20,7 +20,9 @@ Eram exatamente 14h30 em um dia caótico na minha bancada em São Paulo, no meio
 Na minha rotina de reparo, vejo três motivos principais para essa pane logo após uma atualização do sistema:
 
 1. Reindexação do Spotlight e Backup em Nuvem: O sistema recria toda a base de dados interna. O processador trabalha a 100%, puxando muita corrente da bateria.
+
 2. Apps travados em segundo plano: Aplicativos antigos que ainda não foram otimizados para a nova versão do iOS ficam gerando ciclos de loop e acordando o processador sem parar.
+
 3. Sujeira acumulada e fuga de corrente: Sabe aquele conector de carga emperrado? Bolor, poeira de bolso e umidade criam micro-pontes condutoras que drenam energia e impedem o carregamento correto, confundindo o gerenciador de energia do aparelho.
 
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

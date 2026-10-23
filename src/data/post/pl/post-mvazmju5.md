@@ -20,7 +20,9 @@ Przez pierwsze dwie minuty bezradnie stukałem w szkło, próbowałem wyłączy�
 Zanim przejdziemy do naprawy, warto zrozumieć, co właściwie się stało. Zazwyczaj nie jest to trwała awaria matrycy, lecz błąd oprogramowania. Oto trzy najczęstsze przyczyny tego stanu rzeczy:
 
 1. Zawieszenie się procesu interfejsu (System UI): Aplikacja odpowiedzialna za obsługę graficzną i dotykową przestała odpowiadać w tle, najczęściej przez chwilowy brak pamięci RAM.
+
 2. Konflikt aplikacji w tle: Jakaś aplikacja (często narzędzie do wideokonferencji lub edycji dokumentów) weszła w pętlę i zablokowała cały wątek systemowy.
+
 3. Przegrzanie urządzenia: Intensywna praca procesora przy słabej wentylacji w obudowie potrafi tymczasowo zawiesić kontroler dotyku.
 
 <div style="border-left: 4px solid #059669; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

@@ -24,8 +24,10 @@ Sebelum main bongkar atau ganti alat, kita harus tahu dulu kenapa si charger ini
 
 1. Misalignment (Posisi Koil Gak Klop): 
    Ini yang paling juara. Koil pengirim di *pad* charger sama koil penerima di punggung HP harus ketemu titik tengahnya (magnectic coupling). Kalau meleset sedikit saja—misalnya geser 5 milimeter karena getaran atau tersenggol tangan—medan elektromagnetiknya gak bakal 'nyambung', otomatis charger langsung ngasih sinyal error (kedip-kedip).
+
 2. Case HP Terlalu Tebal atau Mengandung Logam:
    Banyak yang pakai *hardcase* tebal, pelindung dompet (wallet case), atau casing yang ada plat besi/magsafe abal-abal di belakangnya. Logam atau ketebalan berlebih ini ngeblokir induksi magnetik. Alhasil, arus listrik gagal ditransfer dan charger langsung mode proteksi (kedip peringatan).
+
 3. Daya Output Adaptor (Wall Charger) Tidak Stabil:
    Wireless charger itu butuh suplai daya minimal (biasanya QC 3.0 atau PD). Kalau ente colok ke kepala charger abal-abal yang cuma ngasih 5W/1A, arusnya bakal drop pas HP mulai narik daya, bikin wireless charger-nya restart terus yang keliatan sebagai kedipan lampu.
 

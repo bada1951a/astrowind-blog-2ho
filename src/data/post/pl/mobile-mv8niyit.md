@@ -24,7 +24,9 @@ Zamiast tracić nerwy na ręczne przestleianie jasności i motywów za każdym r
 Zanim przejdziemy do konfiguracji, spójrzmy prawdzie w oczy – fabryczne mechanizmy Apple rzadko nadają się do dynamicznego życia w trasie. Oto trzy główne powody, przez które Twój telefon cierpi:
 
 1. Wypalanie statyczne pikseli (Burn-in): Jasne tła w aplikacjach biurowych i przeglądarkach przez długie godziny trwale degradują niebieskie subpiksele w matrycach OLED. Wymiana ekranu w nowszych iPhone'ach to koszt dobrego monitora.
+
 2. Brutalny drenaż ogniwa: Ekran OLED zużywa energię proporcjonalnie do liczby zaświeconych pikseli. Białe tło na maksymalnej jasności to najszybsza droga do rozładowania baterii w środku ważnego callu.
+
 3. Niedokładność automatycznej jasności: Czujnik światła otoczenia (ALS) w pociągach czy tunelach często wariuje, przełączając się między skrajnymi trybami, co męczy wzrok i powoduje mikrozacięcia systemu.
 
 ---
@@ -38,9 +40,13 @@ Zanim dotkniemy automatyzacji, upewnijmy się, że system nie zmaga się z backg
 
 ### Krok 2: Tworzenie inteligentnej automatyzacji w aplikacji Skróty
 1. Otwórz aplikację Skróty na swoim iPhonie i przejdź do zakładki Automatyzacja na dole ekranu.
+
 2. Stuknij w ikone `+` w prawym górnym rogu, aby dodać nową automatyzację osobistą.
+
 3. Przewiń listę wyzwalaczy i wybierz Otwórz aplikację (np. wybierz aplikacje biurkowe, z których korzystasz w podróży, jak *Slack*, *Microsoft Teams* czy *Notion*).
+
 4. Zaznacz opcję Jest otwieraną oraz upewnij się, że zaznaczone jest Uruchom natychmiast (bez pytań o potwierdzenie).
+
 5. Stuknij Dalej, a następnie utwórz pustą automatyzację.
 
 ### Krok 3: Dodanie akcji sterujących wyświetlaczem

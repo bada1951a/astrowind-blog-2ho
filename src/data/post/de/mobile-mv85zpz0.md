@@ -23,7 +23,9 @@ Moderne Smartphones wie das Galaxy Z Fold reagieren extrem empfindlich auf minim
 Hinter dieser vermeintlichen Fehlfunktion stecken meist drei handfeste physikalische und softwareseitige Ursachen:
 
 1. Das Kondensations-Phänomen (Temperatursturz): Du kommst aus dem regnerischen Außenbereich in den warmen Abflugbereich. Sofort bildet sich winzige Kondensfeuchtigkeit in den tiefen Schlitzen des USB-C-Ports – selbst wenn das Fold in der Innentasche war.
+
 2. Hängender USB-Cache (Android System UI): Manchmal triggert ein veralteter Cache des USB-Managers (`com.samsung.android.usb` oder `USBSettings`) die Warnmeldung dauerhaft, obwohl der Port längst trocken ist. Die Software hat sich schlicht aufgehängt.
+
 3. Mikroskopische Taschen-Fusseln: Textilfasern aus der Anzug- oder Jeanshose haben sich im Port angesammelt. Zieht Feuchtigkeit ein, entsteht eine leitfähige Pampe, die den Feuchtigkeitssensor permanent triggert.
 
 ---

@@ -24,7 +24,9 @@ Lúc đó, một vài đồng nghiệp bu quanh đưa ra đủ thứ lời khuy�
 Sau khi dùng bộ dụng cụ tháo lắp chuyên dụng và đèn pin siêu sáng kiểm tra nhanh, tôi đã tìm ra thủ phạm thực sự đằng sau lỗi này:
 
 1. Cáp bẹ (Flex Cable) bị gập gãy hoặc lỏng chân kết nối: Bản lề của dòng Z Fold đóng mở liên tục hàng ngàn lần tạo ra lực uốn cơ học rất lớn lên dải cáp tín hiệu nối giữa hai nửa màn hình. Theo thời gian, điểm uốn này bị mỏi, khiến các đường mạch đồng bên trong bị đứt ngầm hoặc lỏng giắc cắm trên bo mạch chủ.
+
 2. Cảm biến góc mở (Hall Sensor / Angle Sensor) bị lệch hoặc bám bụi: Máy tính bảng hoặc điện thoại gập đều sử dụng cảm biến từ tính để nhận diện trạng thái máy đang gập hay mở. Khi cảm biến này kẹt hoặc bị nhiễu, nó sẽ không truyền được tín hiệu chuyển đổi hiển thị từ màn hình phụ sang màn hình chính.
+
 3. Xung đột phần mềm hệ thống liên quan đến tính năng App Continuity: Đôi khi, các bản cập nhật hệ điều hành gây lỗi tiến trình chuyển đổi giao diện (Continuity Service), khiến màn hình chính không nhận được lệnh kích hoạt đèn nền (Backlight) khi mở rộng màn hình.
 
 ### Các bước khắc phục thực chiến tại chỗ

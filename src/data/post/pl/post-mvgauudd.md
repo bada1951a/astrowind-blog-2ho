@@ -23,7 +23,9 @@ Klient już panikuje, że płyta główna do wymiany, a dane przepadną. Spokojn
 Zanim przejdziemy do naprawy, musimy zrozumieć, z kim mamy do czynienia. Bezprzewodowe przesyłanie energii to czysta fizyka – elektromagnetyzm. Jeśli cewka nadawcza (w ładowarce) i cewka odbiorcza (w pleckach telefonu) nie miną się chociażby o kilka milimetrów, układ zabezpieczający odcina prąd, żeby nie uszkodzić sprzętu. Oto winowajcy, z którymi stykam się codziennie w warsztacie:
 
 1. Rozjechanie się cewek (Brak osiowości): Najczęstszy grzech użytkowników. Położyłeś telefon lekko ukośnie, za wysoko albo za nisko na padzie ładującym. Magnesy w MagSafe (w przypadku Apple) pomagają, ale zwykłe ładowarki Qi wymagają milimetrowej precyzji. Jeśli środek ciężkości telefonu uciekł, pole magnetyczne słabnie, a ładowarka sygnalizuje błąd (mruganiem).
+
 2. Grube, pancerne lub metalowe etui: Chcesz chronić telefon, więc kupiłeś pancerną obudowę z pancernymi wstawkami, pierścieniem na palec albo – co gorsza – metalową blaszką do uchwytu samochodowego. Metal doskonale ekranuje fale elektromagnetyczne! Ładowarka myśli, że na jej blacie leży klucz albo moneta, więc panicznie mruga i przerywa ładowanie.
+
 3. Zabrudzenia i zakłócenia termiczne (Thermal Throttling): Kurz, drobiny piasku na powierzchni ładowarki albo przegrzewanie się ogniwa. Jeśli telefon lub sama ładowarka mocno się nagrzeją podczas próby ładowania, wbudowane czujniki temperatury natychmiast odcinają prąd, co objawia się miganiem diody kontrolnej.
 
 ---
@@ -46,7 +48,9 @@ Gdzie tak naprawdę znajduje się cewka w Twoim telefonie?
 Połóż telefon na ładowarce i powoli przesuń go o 2-3 milimetry w górę, w dół i na boki, aż złapie stabilny kontakt. Jeśli używasz ładowarki pionowej (stojącej), upewnij się, że podstawa stojaka pasuje do rozmiaru Twojego smartfona – za duzi giganci (jak np. Galaxy S Ultra) potrafią wystawać ponad linię cewki nadawczej.
 
 #### Krok 4: Test zasilacza ściennego (Prąd o zmiennej specyfikacji)
-Bardzo często ładowarka mruga nie dlatego, że cewki są źle ułożone, ale dlatego, że dostaje za mało prądu ze zwykłej ładowarki od starego iPhone'a (5W). Upewnij się, że Twój zasilacze w gniazdku to minimum szybka ładowarka PD (Power Delivery) 18W / 20W lub Quick Charge 3.0. Bez stabilnego źródła prądu indukcja nie zadziała.
+Bardzo często ładowarka mruga nie dlatego, że cewki są źle ułożone, ale dlatego, że dostaje za mało prądu ze zwykłej ładowarki od starego iPhone'a (5W). Upewnij się, że Twój zasilacze w gniazdku to minimum szybka ładowarka PD (Power Delivery) 18W / 20W lub Quick Charge 3.
+
+0. Bez stabilnego źródła prądu indukcja nie zadziała.
 
 ---
 

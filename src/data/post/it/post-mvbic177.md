@@ -22,7 +22,9 @@ Nei primi minuti ho perso solo tempo prezioso provando a riavviare il dispositiv
 Ecco l'analisi tecnica delle tre cause principali che scatenano questo fastidioso difetto sui dispositivi pieghevoli:
 
 1. Usura e stress meccanico del cavo flex principale: Il nastro di cavi che collega le due metà del display attraverso la cerniera subisce migliaia di piegature. Con il tempo, o a causa di una micro-torsione della scocca, i minuscoli conduttori interni possono fessurarsi, interrompendo il segnale video verso il pannello grande.
+
 2. Accumulo di polvere e detriti nella cerniera: Particelle di sporco o lanugine penetrate nel meccanismo a spazzole possono impedire la corretta distensione dei componenti interni, impedendo al sensore di apertura di registrare il cambio di stato e attivare lo schermo principale.
+
 3. Disallineamento del sensore di Hall (Magnetico): Il telefono riconosce se è aperto o chiuso grazie a piccoli magneti e sensori dedicati. Se uno di questi si sposta anche di un millimetro a seguito di una piccola caduta, il software penserà che il telefono sia sempre chiuso, lasciando spento il display interno.
 
 <div style="border-left: 4px solid #ef4444; padding: 12px 16px; margin: 20px 0; background-color: rgba(239, 68, 68, 0.05); border-radius: 4px; color: #111827;">

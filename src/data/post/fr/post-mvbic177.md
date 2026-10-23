@@ -26,7 +26,9 @@ En tant que spécialiste support, je savais pourtant que le problème était phy
 Avant de manipuler quoi que ce soit, il faut comprendre ce qui se passe sous le capot de votre bijou technologique :
 
 1. La fatigue de la nappe flexible (Flex Cable) : C'est la cause numéro un. Cette minuscule bande de circuits imprimés souples relie les deux moitiés du téléphone à travers la charnière. À force d'ouvrir et de fermer l'appareil, les micro-pistes en cuivre finissent par se fissurer, coupant le signal vidéo vers l'écran principal dès qu'une tension s'exerce lors de l'ouverture.
+
 2. Le capteur d'angle (Hall Sensor) défectueux : Le téléphone utilise des capteurs magnétiques pour savoir si l'appareil est fermé, entrouvert (mode Flex) ou grand ouvert. Si l'un de ces capteurs est désaligné ou encrassé par des poussières métalliques, il envoie une information erronée au processeur, qui coupe l'affichage principal par sécurité.
+
 3. L'accumulation de débris dans la charnière : Des micro-particules de poussière ou de saleté (très courantes au fond d'une poche) peuvent bloquer le mécanisme d'ouverture, empêchant la bonne extension des câbles internes et provoquant un faux contact électrique instantané.
 
 ## Guide de résolution étape par étape

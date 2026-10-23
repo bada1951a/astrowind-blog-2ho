@@ -24,7 +24,9 @@ Se ti è mai capitato di trovarti in una situazione simile, sai benissimo quanto
 Prima di mettere le mani in pasta, capiamo perché la scansione fallisce miseramente quando siamo di fretta:
 
 1. L'ombra portata: Quando scatti dall'alto con la luce dell'ufficio o del treno alle tue spalle, il tuo corpo o lo stesso smartphone coprono la sorgente luminosa, proiettando una sagoma scura sul foglio.
+
 2. La risoluzione compressa: Molte app di messaggistica o invio rapido comprimono automaticamente le immagini per velocizzare l'invio, trasformando i caratteri tipografici in pixel illeggibili.
+
 3. Il micromosso: Scattare con una mano sola mentre il treno dondola o mentre sei in piedi sulla metro crea inevitabilmente una foto mossa che l'algoritmo di messa a fuoco non riesce a correggere.
 
 ---
@@ -38,9 +40,13 @@ Per fortuna, Samsung ha integrato un sistema di scansione intelligente direttame
 Non serve scaricare nulla. La One UI di Samsung riconosce automaticamente i documenti e li raddrizza, ma dobbiamo attivare l'opzione giusta.
 
 1. Apri l'app Fotocamera sul tuo Galaxy.
+
 2. Inquadra il documento poggiato sul tavolino. Noterai che comparirà un bordo giallo attorno al foglio con la scritta "Scansiona".
+
 3. Tocca lo schermo esattamente sul testo principale per bloccare l'esposizione ed evitare che la luce cambi all'improvviso.
+
 4. Premi il pulsante di scatto. Il telefono ritaglierà automaticamente lo sfondo (il tavolo del treno sparirà) e correggerà la prospettiva, rendendo il foglio piatto come se fosse uscito da una stampante.
+
 5. Clicca su Salva e poi apri l'immagine dalla galleria: premi sui tre puntini o sull'icona di condivisione per esportarla direttamente come PDF pulito e nitido.
 
 ### Metodo 2: Eliminare le ombre con Samsung Notes
@@ -48,8 +54,11 @@ Non serve scaricare nulla. La One UI di Samsung riconosce automaticamente i docu
 Se la luce ambientale è troppo scarsa o laterale (tipico dei treni o degli uffici con faretti puntati male), la sola fotocamera non basta. Qui entra in gioco Samsung Notes.
 
 1. Apri Samsung Notes e crea una nuova nota vuota.
+
 2. Tocca l'icona del "+" (più) in basso e seleziona Scansiona.
+
 3. Inquadra il documento. Il sistema applicherà un filtro in bianco e nero potenziato che elimina automaticamente le ombre grigie e aumenta il contrasto tra lo sfondo bianco e il testo nero.
+
 4. Se l'ombra persiste, usa lo strumento di regolazione manuale che compare subito dopo lo scatto per impostare la modalità "Testo in bianco e nero" al massimo livello.
 
 ---

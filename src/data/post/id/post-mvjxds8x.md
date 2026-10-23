@@ -30,8 +30,10 @@ Sebelum Anda buru-buru memvonis LCD atau baterai HP Anda rusak total, mari paham
 
 1. Proteksi Termal Otomatis (*Thermal Throttling*)
    Panel layar modern (terutama AMOLED atau OLED) menghasilkan panas yang sangat tinggi saat dipaksa bekerja di bawah sinar matahari langsung demi melampaui cahaya ambient luar. Sensor suhu internal akan memerintahkan GPU dan *backlight* menurunkan daya secara drastis agar suhu SoC (*System on Chip*) tidak melebihi batas kritis (biasanya di atas 45°C - 50°C) yang bisa melelehkan komponen internal atau merusak sel baterai Li-ion.
+
 2. Lonjakan Kinerja Saat Update di Tengah Suhu Ekstrem
    Bayangkan skenario horor tadi: Anda sedang mengunduh atau memproses pembaruan sistem secara latar belakang (*background update*) di bawah terik matahari. CPU bekerja di kapasitas 100%, menghasilkan panas eksponensial. Kombinasi panas matahari luar dan panas internal prosesor membuat baterai terkuras secara tidak normal karena hambatan internal sel meningkat tajam. Akibatnya, tegangan drop seketika dan memicu kegagalan sistem *booting* (*boot loop*).
+
 3. Degradasi Pasta Termal (*Thermal Paste*) Bawaan Pabrik
    Pada ponsel yang sudah berumur di atas satu tahun, lapisan penghantar panas antara prosesor dan pelat pendingin (*vapor chamber*) biasanya sudah mengering. Panas tidak bisa dibuang secara merata ke bodi belakang, sehingga layar langsung meredup dalam waktu kurang dari 5 menit begitu terkena paparan sinar matahari.
 
@@ -50,8 +52,10 @@ Jangan biarkan ponsel Anda tumbang di tengah jalan. Ikuti protokol penyelamatan 
 
 1. Segera Pindahkan ke Area Teduh & Lepas Case Pelindung
    Langkah pertama dan paling krusial: *Jangan* memasukkan HP ke dalam tas tertutup yang lembap atau kulkas! Cukup singkirkan *casing* silikon atau pelindung tebal yang mengunci panas. Biarkan sirkulasi udara alami mendinginkan bodi ponsel secara perlahan di tempat yang teduh.
+
 2. Matikan Paksa Jika Menunjukkan Gejala Bootloop
    Jika ponsel sudah mulai kedap-kedip atau *restart* sendiri saat proses unduhan sistem macet, lakukan *force shutdown* (biasanya menekan tombol Power + Volume Bawah selama 10-15 detik). Jangan paksakan menyalakannya kembali saat bodi masih terasa panas membara. Biarkan suhu turun ke angka aman (suhu ruangan).
+
 3. Kalibrasi Ulang dan Bersihkan Cache Sistem
    Setelah ponsel berhasil menyala normal di tempat sejuk, segera hentikan aplikasi berat yang berjalan di latar belakang. Hapus *cache* sistem melalui menu pemeliharaan perangkat. Jika masalah layar redup ini terus berulang meski di dalam ruangan ber-AC, bawa ke teknisi terpercaya untuk mengganti pasta termal internal yang sudah kering.
 

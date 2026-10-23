@@ -36,9 +36,13 @@ Because you cannot tap the software "Power Off" menu when the touch screen is de
 ### Action Plan
 
 1. Locate the Buttons: Find the Volume Down button and the Side (Power) Button on the right edge of your Galaxy device.
+
 2. Simultaneous Press: Firmly press and hold both the Volume Down and Side buttons together. Do not let go when the screenshot animation flashes or when the screen dims slightly.
+
 3. Hold for 10 to 15 Seconds: Keep holding continuously. Even if the screen flickers, maintain pressure until the device completely goes dark.
+
 4. Wait for the Samsung Logo: The moment the screen turns black, keep holding until you see the white Samsung Galaxy logo appear on screen. Once the logo pops up, you can release the buttons.
+
 5. Boot Verification: Allow the phone to boot normally to the lock screen. Your touch screen responsiveness will be fully restored, and all your active apps and unsaved drafts will be right where you left them.
 
 ## Expert Warning: Preventing Recurring Freezes

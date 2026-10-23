@@ -36,7 +36,9 @@ Contrairement à ce que beaucoup pensent, Apple ne cherche pas systématiquement
 Avant de paniquer, évitez les pièges que l'on voit trop souvent dans notre atelier parisien :
 
 1. Mettre le téléphone au congélateur : C'est la pire idée possible. Le choc thermique crée de la condensation à l'intérieur du boîtier, ce qui grille la carte mère ou oxyde irrémédiablement les connecteurs de batterie.
+
 2. Utiliser des épingles en métal pour nettoyer le port Lightning : En voulant gratter les poussières, vous risquez de court-circuiter les micro-broches de charge, provoquant une panne totale de charge rapide, voire un court-circuit de la puce de gestion d'alimentation (connue sous le nom de Tristar ou Hydra).
+
 3. Multiplier les redressements forcés en boucle : Forcer l'arrêt de l'iPhone toutes les cinq minutes ne fait qu'interrompre l'indexation en cours et oblige le processeur à tout recommencer à zéro au démarrage suivant.
 
 ---

@@ -26,7 +26,9 @@ Por suerte, recordé el procedimiento de emergencia que utilizamos los técnicos
 Antes de pasar a la acción, vale la pena entender qué demonios pasó en el teléfono para que el digitalizador dejara de responder de la noche a la mañana:
 
 1. Colapso temporal del controlador gráfico (SurfaceFlinger): A veces, un pico de uso de memoria RAM provocado por una aplicación en segundo plano hace que el proceso encargado de renderizar los toques en pantalla colapse y deje de aceptar entradas.
+
 2. Fallo de lectura en el circuito táctil (IC): Una pequeña descarga estática o un error de firmware de bajo nivel puede bloquear temporalmente el chip digitalizador, manteniendo la pantalla encendida pero sorda al tacto.
+
 3. Sobrecarga térmica y de almacenamiento: Estaba exprimiendo el procesador con hojas de cálculo pesadas y múltiples apps abiertas con el espacio de almacenamiento casi al límite, lo que generó un bloqueo general del sistema (freeze).
 
 ---

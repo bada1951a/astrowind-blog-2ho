@@ -24,7 +24,9 @@ Si vous bossez dans l'IT ou que vous bougez constamment en déplacement pro, vou
 Dans 90 % des cas en entreprise, ce n'est même pas parce que vous avez fait tomber votre pliant dans la cuvette des toilettes. Le problème est bien plus insidieux :
 
 1. L'effet de condensation thermique : Passer d'un bureau climatisé à 19°C à une rame de RER surchauffée ou à l'air sec d'une cabine d'avion crée instantanément de la condensation microscopique à l'intérieur du port USB-C des smartphones haut de gamme (surtout les pliants aux charnières complexes).
+
 2. L'accumulation de poussière "crasseuse" : Les peluches de poches de costume ou de jean s'accumulent au fond du connecteur. Mélangées à un peu de sueur ou d'humidité ambiante, elles forment un pont conductive que le système prend, à tort, pour de l'eau.
+
 3. Bug du cache USB (Android System Framework) : Parfois, le service gérant l'intégrité du port (souvent `USBSettings` ou `com.samsung.android.usb`) plante suite à une mise à jour One UI foireuse et boucle sur l'alerte d'humidité alors que le port est sec comme un coup de trique.
 
 ## Procédure d'urgence : Le protocole de désaturation et contournement

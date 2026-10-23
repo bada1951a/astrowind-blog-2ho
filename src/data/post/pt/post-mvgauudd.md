@@ -21,7 +21,9 @@ Se você já passou por isso, sabe o ódio que dá. O celular avisa que vai carr
 Antes de sair trocando o carregador ou abrindo o aparelho, a gente precisa entender o que está rolando ali dentro. Na prática do dia a dia, 90% dos casos de carregamento sem fio intermitente se resumem a três vilões principais:
 
 1. Desalinhamento Crítico entre as Bobinas de Indução: A carga sem fio funciona por campo magnético. A bobina transmissora (no pad ou dock) precisa casar perfeitamente com a bobina receptora (costas do celular). Se o aparelho estiver 1 centímetro pro lado, ou inclinado por causa da capinha, o campo dispersa, o circuito entende que há um objeto estranho (FOD - Foreign Object Detection) e começa a piscar em alerta.
+
 2. Capinhas Grossas ou com Metais/Imãs Embutidos: Aquela capinha personalizada cheia de strass, anel metálico para suporte (tipo PopSocket magnético) ou simplesmente muito grossa age como uma barreira física. O campo eletromagnético não consegue vencer a espessura ou sofre interferência do metal, gerando falha de comunicação e o famoso piscar frenético.
+
 3. Fonte de Alimentação Fraca (Wall Charger Inadequado): Muita gente compra a base de indução bonita, mas liga ela numa entradinha USB velha de computador ou num carregador de parede antigo de 5W. O carregamento sem fio consome *mais* energia que o cabo para fazer a conversão. Se falta amperagem na fonte, o dock desarma na hora que o celular puxa corrente.
 
 ---

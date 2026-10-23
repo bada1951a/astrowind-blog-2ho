@@ -22,7 +22,9 @@ Ore 14:45, quarto piano di un palazzo in zona Porta Nuova a Milano. Il mio smart
 Prima di metterci a trafficare con il telefono, capiamo cosa sta succedendo dentro quella minuscola fessura metallica. I sensori di umidità e i pin di alimentazione sono estremamente sensibili. Ecco i tre colpevoli più comuni:
 
 1. Umidità residua o condensa: Non serve aver immerso il telefono in acqua. Uno sbalzo termico tra la metropolitana fredda e l'ufficio riscaldato crea condensa invisibile direttamente dentro la porta di ricarica.
+
 2. Accumulo di lanugine e detriti: Tasche dei cappotti e zaini sono miniere di polvere. Quando la lanugine si mescola a micro-gocce d'acqua o al sudore, crea una poltiglia conduttiva che inganna il sensore facendogli credere che ci sia una perdita di liquido.
+
 3. Falsi positivi da cavi danneggiati o ossidati: A volte il problema non è il telefono, ma il connettore del cavo che presenta residui di sporco o ossidazione sui pin esterni.
 
 ## Guida passo-passo alla risoluzione d'emergenza

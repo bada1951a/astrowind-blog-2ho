@@ -21,10 +21,12 @@ Na podglądzie dokumentu widać wielki, ciemny cień mojej własnej ręki, kartk
 
 ### Dlaczego zwykłe zdjęcie dokumentu zawsze wychodzi beznadziejnie?
 
-Zanim zaczniesz kląć na swój drogi telefon, rzućmy okiem na to, dlaczego aparat w trybie automatycznym tak bardzo sobie z tym nie radzi. 
+Zanim zaczniesz kląć na swój drogi telefon, rzućmy okiem na to, dlaczego aparat w trybie automatycznym tak bardzo sobie z tym nie radzi.
 
 1. Cień rzucany przez ciało lub telefon: Kiedy stoisz nad kartką leżącą na stoliku w pociągu albo w biurze, twój tułów lub sam smartfon zasłaniają główne źródło światła. Aparat widzi plamę zamiast tekstu.
+
 2. Odblaski i błyski światła: Polakierowany papier albo zwykłe biurkowe światło odbijają się prosto w obiektyw, tworząc białe, oślepiające plamy, przez które znikają całe wyrazy.
+
 3. Brak wykrywania krawędzi: Zwykła fota łapie też biurko, kubek z kawą i fragment siedzenia. System mobilnego faksu albo skanera gubi się, przez co zmniejsza rozdzielczość i kompresuje plik do nieczytelnej papki.
 
 ### Jak to szybko naprawić? Krok po kroku do idealnego skanu

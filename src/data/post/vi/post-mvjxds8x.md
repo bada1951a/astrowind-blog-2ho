@@ -22,7 +22,9 @@ theme: "High-Contrast Charcoal"
 Trong quá trình làm việc tại cửa hàng sửa chữa, tôi đã gặp hàng trăm trường hợp khách hàng mang máy đến với tình trạng tương tự. Dưới đây là 3 thủ phạm chính gây ra cơn ác mộng này:
 
 1. Hiệu ứng nhà kính từ ánh nắng trực tiếp kết hợp độ sáng tối đa: Khi bạn đứng ngoài trời nắng gắt, cảm biến ánh sáng đẩy độ sáng màn hình lên mức cực đại (Peak Brightness). Đồng thời, tấm nền OLED/LCD cùng vi xử lý (CPU) phải hoạt động hết công suất để duy trì hiển thị, sinh ra lượng nhiệt cực lớn không thể thoát ra ngoài kịp.
+
 2. Ốp lưng dày cản trở quá trình tản nhiệt: Chiếc ốp lưng chống sốc dày cộp bằng nhựa dẻo hoặc silicon thời trang mà bạn đang dùng vô tình đóng vai trò như một chiếc lò nướng mini, giữ chặt hơi nóng bên trong thân máy thay vì tản ra ngoài không khí.
+
 3. Sử dụng dữ liệu 4G/5G liên tục dưới nhiệt độ cao: Vừa bật dữ liệu di động để tìm đường, vừa chạy các ứng dụng nặng trong lúc di chuyển ngoài trời là nguyên nhân trực tiếp đẩy nhiệt độ linh kiện vượt ngưỡng an toàn (thường là trên 45 độ C), buộc hệ thống phải tự giảm xung nhịp và độ sáng màn hình để hạ nhiệt.
 
 ## Các sai lầm chết người mà người dùng hay mắc phải

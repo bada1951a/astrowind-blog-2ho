@@ -23,7 +23,9 @@ Moderne iPhones und Android-Smartphones mit USB-C oder Lightning-Buchsen sind mi
 
 Drei typische Ursachen fuehren im buerodynamischen Alltag zu diesem Fehler:
 1. Der Kondensations-Effekt: Das Smartphone lag im klimatisierten Konferenzraum und kam direkt aus der kalten Herbstluft nach draussen oder umgekehrt.
+
 2. Umwelt- und Taschenstaub: Mikroskopisch kleine Fusseln aus der Hosentasche haben sich mit etwas Luftfeuchtigkeit oder Schweiss zu einer leitenden Paste verbunden.
+
 3. Kleine Missgeschicke: Ein winziger Spritzer vom Mineralwasser oder dem Espresso auf dem Schreibtisch hat den Weg in die Buchse gefunden.
 
 ### Schritt-fuer-Schritt-Loesung fuer den Notfall

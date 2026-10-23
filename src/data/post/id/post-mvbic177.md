@@ -22,7 +22,9 @@ Bagi Anda yang mengalami drama serupa di tengah deadline kantor, jangan buru-bur
 Sebelum langsung membongkar atau panik, kita harus tahu dulu akar masalah dari fenomena layar lipat yang mendadak gelap gelita ini. Berdasarkan pengalaman membongkar berbagai lini *foldable phone*, biasanya ada tiga tersangka utama:
 
 1. Kabel Fleksibel (Flex Cable) Mulai Aus atau Terjepit: Di dalam engsel Z Fold terdapat kabel pita tipis yang menghubungkan motherboard di bodi bagian kiri dan layar di bagian kanan. Setiap kali Anda membuka dan menutup ponsel, kabel ini mengalami tekukan jutaan siklus. Seiring waktu, jalur datanya bisa retak mikro.
+
 2. Sensor Engsel Tertutup Debu/Partikel Halus: Kota besar seperti Jakarta penuh dengan debu halus jalanan dan sisa serabut kain dari kantong celana. Debu ini sering menyusup ke area sensor sudut engsel (hall sensor), membuat sistem bingung membaca apakah posisi HP sedang terbuka atau tertutup, sehingga mematikan daya layar utama demi keamanan arus pendek.
+
 3. Glitch Software pada Mode Continuity Layar: Terkadang, transisi instan dari cover screen ke layar utama mengalami *hang* di level sistem operasi, membuat GPU gagal mengirim sinyal visual saat engsel direntangkan.
 
 ---

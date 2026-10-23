@@ -28,7 +28,9 @@ Tay cầm chiếc điện thoại Galaxy mồ hôi nhễ nhại, tôi vội vã 
 Trước khi sửa lỗi, chúng ta cần hiểu nhanh tại sao chiếc Galaxy thông minh của bạn lại cho ra những bức hình kém chất lượng như vậy trong môi trường thực tế:
 
 1. Ánh sáng ngược từ phía trên: Khi bạn đứng trong văn phòng hoặc trên xe dưới ánh đèn trần, bóng của chính bạn và thân máy sẽ che khuất vùng giấy cần quét.
+
 2. Thuật toán tự động nhận diện sai mục đích: Chế độ chụp ảnh thông thường tối ưu hóa cho phong cảnh hoặc con người, làm tăng độ bão hòa màu sắc thay vì tăng độ tương phản đen trắng cho chữ viết.
+
 3. Góc chụp bị nghiêng (Parallax Error): Cầm máy không vuông góc với mặt phẳng khiến phần trên chữ to, phần dưới chữ nhỏ, gây khó đọc cho người nhận fax.
 
 ---

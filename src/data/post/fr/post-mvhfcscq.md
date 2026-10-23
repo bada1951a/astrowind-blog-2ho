@@ -24,7 +24,9 @@ Ce type de urgence, je le vois presque tous les jours. Un téléphone qui se tra
 Avant de manipuler les paramètres ou d'envisager un remplacement de composants, il faut comprendre l'origine du problème. Voici les 3 causes principales que nous diagnostiquons dans notre centre de réparation :
 
 1. Boucle d'application en arrière-plan (Background Loop) : Une application (souvent un réseau social, un outil de messagerie ou un service cloud bloqué lors d'une synchronisation) tente désespérément de se connecter à un serveur mais échoue, créant un processus infini qui sature le processeur (SoC).
+
 2. Corruption du cache système après une mise à jour : Les fichiers temporaires obsolètes s'entrechoquent avec la nouvelle version de One UI, empêchant le processeur de basculer en mode veille profonde (Deep Sleep).
+
 3. Connecteur de charge oxydé ou débris conducteurs : Des micro-poussières accumulées dans le port USB-C provoquent des micro-courts-circuits. Le circuit de gestion d'énergie (PMIC) s'affole, chauffe, et désactive la charge rapide pour éviter l'incendie.
 
 ---

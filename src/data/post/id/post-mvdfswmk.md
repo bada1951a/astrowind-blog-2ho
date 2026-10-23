@@ -24,7 +24,9 @@ Sebagai teknisi yang sering menangani kasus periferal dan hardware harian, saya 
 Sebelum langsung panik memvonis hardware Anda rusak, mari kita kenali akar masalah mengapa peringatan ini sering bandel tidak mau hilang:
 
 1. Kelembapan Udara dan Kondensasi AC Kantor: Perubahan suhu ekstrim dari luar ruangan Jakarta yang panas ke dalam ruangan ber-AC dingin sering memicu embun mikro menempel di pin port pengisian daya.
+
 2. Kotoran dan Serat Saku (Lint): Debu halus, sisa remah makanan, atau serat kain yang menumpuk di dalam port bisa menyerap kelembapan kecil, lalu dibaca oleh sistem iOS sebagai cairan aktif.
+
 3. Kabel atau Kepala Charger Oksidasi: Aksesoris pihak ketiga yang kualitasnya kurang baik atau sudah berkarat di bagian pin-nya dapat mengirimkan sinyal keliru saat dihubungkan ke iPhone.
 
 ---

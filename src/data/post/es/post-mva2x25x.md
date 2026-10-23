@@ -24,7 +24,9 @@ Después de perder valiosos minutos intentando apagarlo de la forma habitual man
 Para entender qué falló en ese momento de máxima tensión, hay que mirar bajo el capó del sistema iOS. Generalmente, un bloqueo total responde a tres causas técnicas muy concretas:
 
 1. Saturación crítica de la memoria caché y almacenamiento: Si te quedan menos de 2 GB libres (como me pasaba a mí con el dichoso informe), iOS empieza a sufrir para escribir archivos temporales de registro, provocando un fallo de asignación de memoria en el gestor gráfico.
+
 2. Conflicto de procesos en segundo plano: Una sincronización fallida con iCloud combinada con la recepción masiva de datos en aplicaciones de mensajería puede congelar el hilo principal del procesador.
+
 3. Bucle en el controlador táctil (Digitizer IC): El componente físico encargado de traducir tus pulsaciones dactilares a coordenadas digitales deja de comunicarse con la placa base debido a una excepción de software no controlada.
 
 ---
@@ -36,8 +38,11 @@ Olvida los mitos de meter el teléfono en arroz o esperar milagros. Dependiendo 
 #### Para iPhone 8, iPhone X, iPhone SE (2ª y 3ª gen) y modelos más recientes (iPhone 11, 12, 13, 14, 15, 16):
 
 1. Pulsa y suelta rápidamente el botón de Subir volumen. (Hazlo con decisión, no lo dejes presionado).
+
 2. Pulsa y suelta rápidamente el botón de Bajar volumen.
+
 3. Mantén presionado el botón lateral (encendido) de forma continuada. No lo sueltes aunque aparezca el deslizador de apagar. Ignóralo por completo y sigue sujetándolo.
+
 4. Espera a que la pantalla se apague por completo y aparezca el logotipo de Apple (la manzana mordida). En ese preciso instante, puedes soltar el botón lateral.
 
 <div style="border-left: 4px solid #bd93f9; padding: 12px 16px; margin: 20px 0; background-color: rgba(189,147,249,0.08); border-radius: 4px; color: #111827;">

@@ -22,7 +22,9 @@ Jam menunjukkan pukul 16.45 sore di kantor kawasan SCBD, Jakarta. Sepuluh menit 
 Sebelum kita masuk ke cara penyelesaiannya, mari pahami dulu akar masalah yang sering bikin panik pengguna:
 
 1. Kelembapan Udara Jakarta & Kondensasi: Ruangan kantor ber-AC dingin yang kadang ditinggal lembap saat malam hari sering memicu embun mikro di dalam pin konektor logam USB-C atau Lightning.
+
 2. Residu Minuman Manis: Sisa cipratan kopi atau teh manis meninggalkan lapisan tipis gula yang bersifat konduktif listrik saat basah, memicu sensor keamanan internal mendeteksi korsleting mini.
+
 3. Kotoran dan Debu Kantong: Debu halus yang menumpuk di dalam port bercampur dengan keringat tangan bisa menahan air lebih lama, membuat sensor mengira ada genangan cairan cair.
 
 ---

@@ -25,7 +25,9 @@ Als langjähriger Smartphone-Techniker kann ich dich aber erst einmal beruhigen:
 Bevor wir anfangen, das Pad hin- und herzuschieben, müssen wir verstehen, warum die LED überhaupt panisch blinkt. Das Blinken ist im Grunde ein Hilferuf des Ladegeräts (oft als "Foreign Object Detection" oder FOD bekannt). Hier sind die drei realistischsten Ursachen:
 
 1. Der Spulen-Versatz (Misalignment): Das ist der Klassiker. Die Sende-Spule im Pad und die Empfangs-Spule im Smartphone müssen sich exakt überlappen, um ein stabiles magnetisches Feld aufzubauen. Liegt das Handy auch nur fünf Millimeter daneben, bricht die Induktion sofort ein. Das Ladegerät merkt das, stoppt den Stromfluss und blinkt zur Warnung.
+
 2. Dicke Hüllen und Metallteile: Viele nutzen robuste Schutzhüllen, Ringe (MagSafe-Gegenstücke) oder haben gar Kreditkarten und Metallplättchen für Kfz-Halterungen im Case versteckt. Das blockiert das Magnetfeld komplett und triggert den Fehlerstatus.
+
 3. Zu schwaches Netzteil (Power Delivery Problem): Man schließt das Wireless Pad einfach an irgendeinen alten 5W-iPhone-Stecker an der Steckdose unter dem Schreibtisch an. Unter Last bricht die Spannung ein, das Pad fängt an zu spinnen und blinkt.
 
 ---

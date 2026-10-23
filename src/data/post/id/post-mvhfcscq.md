@@ -28,7 +28,9 @@ Mari kita bedah secara tuntas bagaimana cara mendiagnosis dan menyelamatkan Sams
 Sebelum melakukan tindakan penyelamatan, Anda wajib tahu tiga alasan utama mengapa ponsel Anda mendadak berubah menjadi "seterika mini":
 
 1. Aplikasi Latar Belakang yang Tersangkut (Background Loop): Beberapa aplikasi gagal masuk ke mode tidur (*deep sleep*). Aplikasi ini terus menerus melakukan sinkronisasi data atau melacak lokasi GPS secara sembunyi-sembunyi, menguras tenaga prosesor (CPU) secara konstan di balik layar.
+
 2. Port Charger Longgar dan Kotor: Di lingkungan perkotaan yang berdebu, serat saku celana dan debu sering menumpuk di dalam port USB Type-C. Ketika port longgar atau kotor, aliran listrik dari charger menjadi terputus-sambung. Hambatan listrik ini menghasilkan panas berlebih pada IC power dan area sekitar baterai.
+
 3. Bug Sistem Pasca Pembaruan: Terkadang, pembaruan perangkat lunak (*software update*) menyisakan cache yang korup, membuat sistem operasi bekerja ekstra berat untuk memproses tugas-tugas sederhana.
 
 ---

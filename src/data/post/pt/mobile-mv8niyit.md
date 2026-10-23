@@ -22,7 +22,9 @@ São Paulo, ramal da CPTM lotado às 8h da manhã, o notebook aberto no colo com
 Antes de abrir o capô e resolver a gambiarra, vamos trocar uma ideia técnica sobre o que acontece debaixo do capô do iOS quando a gente tenta resolver um pepino corporativo em trânsito:
 
 1. Estresse Térmico e Roteamento de Dados (Tethering): Quando o modem 5G do iPhone trabalha no limite para segurar o pacote de dados do notebook em movimento (com o trem trocando de torre de celular a cada 30 segundos), o processador (SoC) aquece violentamente. Se a tela estiver no Modo Claro com brilho máximo, a matriz OLED consome corrente elétrica dobrada, gerando um efeito térmico cumulativo que derrete a autonomia.
+
 2. Degradação de Fósforo Orgânico (Burn-in): Telas OLED usam subpíxeis que emitem luz própria. O branco exige corrente máxima contínua nos subpíxeis vermelhos, verdes e azuis. Manter fundos brancos estáticos durante o trabalho remoto acelera o desgaste desigual desses diodos, gerando as famosas "fantasias" ou marcas de navegação cravadas na tela.
+
 3. Fadiga Visual por Contraste Dinâmico: Em ambientes de trânsito (trens, ônibus, escritórios escuros), a diferença de luz entre a interface clara do sistema e o ambiente causa constrição pupilar constante, detonando a vista e causando aquela dor de cabeça clássica de fim de expediente.
 
 ---
@@ -51,13 +53,21 @@ Vamos configurar o seu iPhone para que ele assuma o controle inteligente do tema
 ### Guia de Configuração no iOS:
 
 1. Abra o aplicativo Atalhos (Shortcuts) nativo do seu iPhone. Se você por acaso tiver desinstalado, baixe novamente direto da App Store.
+
 2. Toque na aba inferior Automação (o ícone de relógio com o símbolo de play).
+
 3. Toque no botão "+" (Adicionar) no canto superior direito para criar uma nova automação de rotina.
+
 4. Role a lista para baixo e selecione um gatilho inteligente. Para quem vive na correria de trânsito, recomendo fortemente "Chegada" (baseado em geolocalização do escritório/casa) ou "Hora do Dia" (ex: fixar das 18h às 08h do dia seguinte). Vamos usar Hora do Dia para este exemplo. Defina para as `07:00` e escolha "Executar Imediatamente" (sem pedir confirmação para não travar sua rotina).
+
 5. Toque em Avançar e depois em Novo Atalho em Bruto (ou selecione a busca de ações).
+
 6. Na barra de pesquisa de ações, digite e selecione: Definir Aparência (Set Appearance).
-7. Certifique-se de que o comando exiba: `Definir Aparência como Escuro`. 
+
+7. Certifique-se de que o comando exiba: `Definir Aparência como Escuro`.
+
 8. (Opcional Avançado): Adicione uma segunda ação na mesma automação buscando Definir Brilho e ajustando para `35%`, salvando seus olhos e sua bateria de uma só tacada.
+
 9. Toque em OK no canto superior direito. Pronto! Sua rotina está blindada.
 
 ---

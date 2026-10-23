@@ -26,7 +26,9 @@ Dopiero kiedy głęboko odetchnąłem i podszedłem do sprawy jak rutiniarz, kt�
 Zanim przejdziemy do konkretnych kroków naprawczych, musisz wiedzieć, z czym tak naprawdę walczymy. W konstrukcjach składanych najczęściej mamy do czynienia z trzema winowajcami:
 
 1. Uszkodzenie mechaniczne taśmy flex (Flex Cable): Taśma przesyłająca obraz i sygnał dotykowy zgina się tysiące razy. W końcu miedź wewnątrz może ulec mikropęknięciu.
+
 2. Zablokowany lub zabrudzony czujnik Halla (Angle Sensor): Telefon wykakuje z trybu tabletu na telefon na podstawie miniaturowych magnesów i czujników położenia w zawiasie. Jeśli dostanie się tam pył z kieszeni, czujnik głupieje i myśli, że urządzenie jest zamknięte.
+
 3. Zawieszenie sterownika ekranu po aktualizacji: Czasami podsystem graficzny Androida gubi synchronizację między dwoma wyświetlaczami po nagłym uśpieniu.
 
 ---

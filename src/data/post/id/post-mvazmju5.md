@@ -24,7 +24,9 @@ Sebelum kita masuk ke solusi utamanya, mari kita petakan dulu apa yang sebenarny
 ### 3 Penyebab Utama Layar Sentuh Samsung Galaxy Tiba-Tiba Macet
 
 1. Aplikasi Latar Belakang (Background App) Crash Parah: Ada aplikasi berat yang memakan habis kapasitas RAM secara mendadak, membuat antarmuka (One UI) macet total dan mengabaikan sentuhan jari.
+
 2. Cache Sistem Menumpuk: File sampah yang menumpuk di memori sistem membuat prosesor keteteran mengolah perintah sentuh.
+
 3. Sensor Touch Digitizer Mengalami Hang: Komponen hardware pengenal sentuhan di balik kaca layar mengalami "masuk angin" sesaat akibat suhu HP yang agak panas.
 
 ---
@@ -50,7 +52,9 @@ Ikuti langkah-langkah praktis berikut:
 Setelah HP Anda menyala normal kembali dan data Anda selamat, lakukan langkah pencegahan ringan ini agar kejadian horor tadi tidak terulang pas jam kerja:
 
 1. Rutin Bersihkan RAM: Masuk ke Pengaturan > Perawatan Perangkat (Device Care) > Memori, lalu ketuk *Bersihkan* untuk meringankan beban kerja sistem.
+
 2. Sisakan Ruang Kosong Storage: Jangan biarkan penyimpanan internal penuh melompong hingga sisa 0 GB. Sisakan minimal 10% hingga 15% ruang kosong agar sistem One UI bisa bernapas dan membuat file *swap/cache* dengan lancar.
+
 3. Update Software Berkala: Seringkali Samsung merilis *patch* keamanan yang memperbaiki bug pada responsivitas layar sentuh. Cek berkala di Pengaturan > Pembaruan Perangkat Lunak.
 
 <div style="border-left: 4px solid #64748b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

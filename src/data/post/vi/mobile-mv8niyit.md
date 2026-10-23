@@ -26,7 +26,9 @@ Cái cảnh vừa cuống cuồng tìm cách cấu hình mạng, vừa phải ch
 Nhiều anh em cứ nghĩ chỉnh Dark Mode hay bật tắt kết nối là chuyện nhỏ, nhưng khi rơi vào tình huống khẩn cấp mới thấy hệ thống tự động hóa của mình đang có vấn đề:
 
 1. Thói quen phụ thuộc cảm biến ánh sáng (Auto-Brightness) mặc định: Cảm biến trên iOS đôi khi "lag" khi chuyển đổi đột ngột giữa các vùng tối như trong toa tàu hoặc phòng kín, khiến màn hình giữ nguyên độ sáng cao, gây chói mắt và tiêu hao pin vô ích.
+
 2. Xung đột cấu hình mạng di động và Điểm truy cập cá nhân (Personal Hotspot): Khi bật Hotspot trong điều kiện sóng yếu, iOS liên tục quét băng tần Wi-Fi và phát tín hiệu RF (Radio Frequency), làm bộ xử lý (AP) nóng lên, kéo theo màn hình bị giảm độ sáng tự động hoặc giật lag do quá nhiệt (thermal throttling).
+
 3. Thiếu kịch bản tự động hóa (Automation) theo ngữ cảnh: Đa số người dùng lười vào *Cài đặt* thủ công mỗi lần lên tàu xe hay về đêm, dẫn đến việc dùng sai cấu hình hiển thị trong điều kiện bất lợi cho mắt lẫn phần cứng.
 
 ---

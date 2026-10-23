@@ -22,7 +22,9 @@ Eran las 17:45 en nuestra oficina en Madrid. Faltaban apenas quince minutos para
 Tras calmarme un poco y rescatar el informe usando la nube corporativa de emergencia, me puse mi sombrero de técnico de soporte para analizar qué estaba pasando realmente en el hardware. No siempre se debe a que el teléfono se haya caído a la piscina; los motivos cotidianos suelen ser más sutiles:
 
 1. Condensación ambiental y sudor: El contraste térmico entre la calle fría de Madrid y la calefacción de la oficina genera humedad dentro del conector.
+
 2. Residuos de pelusa combinados con humedad: El bolsillo del pantalón es una trampa mortal de polvo. Si entra una gota mínima, la pelusa actúa como una esponja, manteniendo la humedad activa durante horas.
+
 3. Falsos positivos del sensor de pines: A veces, una acumulación de suciedad metálica o corrosión leve engaña al circuito de detección de resistencia eléctrica del puerto.
 
 ## Pasos seguros para solucionar el problema (Sin dañar el puerto)

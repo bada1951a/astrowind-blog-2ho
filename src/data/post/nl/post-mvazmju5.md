@@ -20,7 +20,9 @@ Het is woensdagochtend in ons drukke tech-kantoor aan de Herengracht in Amsterda
 Voordat we direct ingaan op de oplossing, is het handig om te begrijpen wat er onder de motorkap gebeurt. Dit soort plotselinge storingen worden meestal veroorzaakt door een van de volgende drie scenario's:
 
 1. Vastgelopen UI (User Interface): Een achtergrondproces of een intensieve app (zoals een videocall-applicatie of een zware spreadsheet) vraagt plotseling al het geheugen, waardoor de touch-driver crasht.
+
 2. Kortstondige hardware-lock: Statische elektriciteit, vocht of een milde oververhitting kan ervoor zorgen dat de digitizer (de touchscreenlaag) tijdelijk geen signalen meer doorstuurt naar het moederbord.
+
 3. Corrupte cache na een update: Soms blijft een achtergrondupdate hangen in het werkgeheugen, wat resulteert in een zogenaamde 'soft brick' waarbij het scherm wel aan lijkt te gaan, maar volledig bevroren blijft.
 
 ## Stapsgewijze Oplossing: De Harde Reset (Force Restart)

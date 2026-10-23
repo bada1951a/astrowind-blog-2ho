@@ -26,7 +26,9 @@ De verlossende oplossing bleek gelukkig heel simpel: een geforceerde herstart (f
 Voordat we naar de oplossing gaan, is het handig om te begrijpen wat er technisch gebeurt. Een vastgelopen scherm wordt meestal veroorzaakt door drie veelvoorkomende boosdoeners:
 
 1. Softwarematige geheugenloop (Infinite Loop): Een app of het iOS-besturingssysteem zelf komt in een oneindige berekening terecht, waardoor de CPU overbelast raakt en de touch-controller geen input meer kan verwerken.
+
 2. Buffer Overflow door opslag: Als je iPhone-geheugen tot de laatste megabyte vol zit, kan de tijdelijke cache geen handelingen meer opslaan, met een totale freeze tot gevolg.
+
 3. Tijdelijke hardware-glitch: Soms raakt de digitizer (de laag onder het glas die je aanrakingen registreert) even gedesoriënteerd door statische elektriciteit of een extreme temperatuurswisseling.
 
 ---
@@ -37,16 +39,21 @@ Afhankelijk van welk iPhone-model je gebruikt, verschilt de knoppencombinatie li
 
 #### Voor iPhone 8, X, 11, 12, 13, 14, 15, 16 en newer:
 1. Druk kort op de Volume omhoog-knop en laat deze direct weer los.
+
 2. Druk kort op de Volume omlaag-knop en laat deze direct weer los.
+
 3. Houd direct daarna de Zij-knop (aan/uit-knop) aan de rechterkant ingedrukt.
+
 4. Blijf deze knop ingedrukt houden, negeer eventuele schuifknoppen die in beeld verschijnen, en wacht volhouden tot het scherm zwart wordt en het Apple-logo verschijnt. Laat de knop dan pas los.
 
 #### Voor iPhone 7 en 7 Plus:
 1. Houd de Volume omlaag-knop en de Aan/uit-knop tegelijkertijd ingedrukt.
+
 2. Houd beide knoppen minimaal 10 seconden vast totdat het Apple-logo op het scherm verschijnt.
 
 #### Voor iPhone 6s en ouder:
 1. Houd de Home-knop en de Aan/uit-knop tegelijkertijd ingedrukt.
+
 2. Wacht tot het Apple-logo zichtbaar wordt en laat de knoppen los.
 
 <div style="border-left: 4px solid #b45309; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

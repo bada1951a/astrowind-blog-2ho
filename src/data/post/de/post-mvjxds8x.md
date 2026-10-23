@@ -24,7 +24,9 @@ Das ist der Albtraum vieler Pendler und Outdoor-Arbeiter im sommerlichen Münche
 Um das Problem zu beheben, müssen wir verstehen, was im Inneren des Geräts passiert. Hier sind die drei Hauptverdächtigen:
 
 1. Thermische Notabschaltung (Thermal Throttling): Moderne OLED-Panels verbrauchen bei maximaler Helligkeit im direkten Sonnenlicht enorm viel Strom. Steigt die Innentemperatur über 42 bis 45 Grad Celsius, drosselt die CPU und die Display-Helligkeit sinkt automatisch auf das absolute Minimum, um ein Schmelzen des Klebers oder Beschädigen der Akkuzellen zu verhindern.
+
 2. Mikrorisse im Flexkabel oder OLED-Substrat nach Stürzen: Wie in meinem Szenario am Alex geschehen, kann ein Sturz die feinen Leiterbahnen unter dem intakten Schutzglas beschädigen. Wenn sich das Material bei direkter Sonneneinstrahlung ausdehnt, bricht der Kontakt kurzzeitig ab, was zu grünen Streifen und plötzlichem Blackout oder extremer Abdunkelung führt.
+
 3. Defekter Lichtsensor (Ambient Light Sensor): Verschmutzungen durch Sonnencreme, Staub oder Schweiß direkt über der Ohrmuschel täuschen dem Sensor vor, dass man sich im Dunkeln befindet, weshalb die Software die Helligkeit gnadenlos herunterregelt.
 
 ## Schritt-für-Schritt-Anleitung: So retten Sie die Sicht auf Ihr Display

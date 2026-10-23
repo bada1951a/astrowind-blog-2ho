@@ -24,7 +24,9 @@ Hola. Si has llegado hasta aquí, probablemente estés a pocos minutos de perder
 Antes de pasar a la acción, vamos a entender por qué sale ese churro de imagen. No es que tu móvil esté roto, es que se confunde con tres cosas muy básicas:
 
 1. La luz cenital traicionera: En los trenes, oficinas o cafeterías, la luz suele venir directamente desde arriba. Al poner tu mano encima para sujetar el papel, creas una sombra chinesca perfecta sobre el texto.
+
 2. El enfoque automático rebelde: La cámara de tu Galaxy intenta enfocar el fondo de la mesa o la textura del mantel en lugar de las letras negras del contrato.
+
 3. El tamaño monstruoso del archivo: Las cámaras actuales tienen tantos megapíxeles que una foto escaneada normal puede pesar fácilmente 8 o 10 megas. Intenta enviar eso con una cobertura regular en pleno trayecto... imposible.
 
 ---

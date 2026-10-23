@@ -22,7 +22,9 @@ Depois de respirar fundo, conversar com a equipe de infraestrutura e testar proc
 Para resolver o problema, precisamos entender o que o sensor do seu smartphone está lendo. O circuito interno monitora a impedância elétrica nos pinos do conector. Quando há alteração, o sistema bloqueia a energia para evitar curto-circuito. As três causas mais comuns no dia a dia de escritório são:
 
 1. Condensação térmica: A mudança brusca entre o ar-condicionado gelado do escritório e o calor abafado da rua (ou o aquecimento do próprio aparelho rodando planilhas pesadas) cria microgotas de umidade dentro da porta.
+
 2. Resíduos de poeira e fiapos: O bolso da calça ou a mochila acumulam fuligem e fiapos de tecido. Quando combinados com umidade mínima do ar de São Paulo, esses resíduos criam uma pasta condutiva que engana o sensor.
+
 3. Oxidação invisível: Conectar cabos de baixa qualidade ou sujos pode transferir resíduos oleosos para os contatos internos, disparando o alarme falso de umidade.
 
 ---

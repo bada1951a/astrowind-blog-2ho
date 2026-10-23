@@ -26,7 +26,9 @@ Cổng sạc pin báo lỗi độ ẩm, máy sập nguồn ngay trước phút l
 Dưới góc nhìn của một kỹ thuật viên di động thực chiến, lỗi cảnh báo độ ẩm (moisture detected) trên các dòng máy Android cao cấp như Samsung Galaxy (đặc biệt là dòng Fold/Flip) không phải lúc nào cũng do máy bị ngâm nước. Có 3 thủ phạm chính gây ra trò đùa ác ý này:
 
 1. Hơi ẩm vi mô do chênh lệch nhiệt độ môi trường: Đi từ phòng điều hòa lạnh ra ngoài trời oi bức (hoặc trong các chuyến bay sáng sớm), không khí ngưng tụ lại thành một lớp sương nước siêu mỏng ngay bên trong chân tiếp xúc Type-C. Cảm biến của Samsung cực kỳ nhạy, chỉ cần một hơi ẩm nhỏ bằng hạt sương mai cũng đủ kích hoạt tính năng an toàn ngắt sạc.
+
 2. Cặn bẩn, xơ vải tích tụ lâu ngày: Bạn có hay đút điện thoại vào túi quần jean không? Những sợi vải li ti kết hợp với mồ hôi tay tạo thành một lớp màng dẫn điện nhẹ bên trong cổng sạc. Khi cắm cáp vào, dòng điện vi lượng chạy qua khiến vi điều khiển tưởng nhầm là nước.
+
 3. Lỗi kẹt cache hệ thống USB (USB Settings Cache): Thỉnh thoảng, Android bị "ngáo" thuật toán sau khi cập nhật phần mềm hoặc ngắt kết nối đột ngột với phụ kiện sạc nhanh, khiến tiến trình quản lý cổng USB bị treo ở trạng thái cảnh báo giả.
 
 ---

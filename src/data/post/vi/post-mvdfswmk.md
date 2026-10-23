@@ -22,7 +22,9 @@ Mồ hôi vã ra như tắm khi ngồi trong văn phòng tại Quận 1, TP.HCM,
 Sau khi trấn tĩnh lại và dùng các công cụ kỹ thuật sẵn có tại văn phòng, tôi bắt đầu mổ xẻ nguyên nhân tại sao lỗi này cứ bám dai dẳng:
 
 1. Đoản mạch nhẹ ở chân tiếp xúc: Cổng sạc iPhone có các chân mạch siêu nhỏ. Khi nước (đặc biệt là nước ngọt, cà phê có đường) lọt vào, các khoáng chất còn sót lại sau khi nước bốc hơi sẽ tạo ra một lớp màng dẫn điện mỏng, khiến cảm biến của iOS tưởng lầm là nước vẫn còn đầy.
+
 2. Cáp sạc cũng bị ẩm: Không chỉ riêng điện thoại, chân cắm của sợi cáp Lightning hoặc Type-C đang dùng cũng có thể dính ẩm. Khi bạn cắm cáp vào, điện thoại lập tức ngắt dòng điện để bảo vệ bo mạch chính (mainboard), dẫn đến việc cảnh báo không bao giờ biến mất.
+
 3. Lỗi phần mềm kẹt trạng thái (iOS Bug): Đôi khi nước đã khô hoàn toàn nhưng thuật toán kiểm tra của hệ điều hành bị kẹt ở trạng thái an toàn. Việc này thường xảy ra ở các bản iOS cũ chưa được tối ưu hóa độ nhạy cảm biến.
 
 ## Các bước xử lý thực chiến tại chỗ không cần mang ra tiệm

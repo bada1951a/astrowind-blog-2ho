@@ -22,7 +22,9 @@ theme: "Midnight Navy Royal"
 Trước khi thực hiện "cứu hộ", anh em cần hiểu tại sao chiếc điện thoại cưng lại trở thành "cục gạch" vô tri:
 
 1. Xung đột ứng dụng nền (System UI Freeze): Giao diện hệ thống bị treo do một ứng dụng bên thứ ba (thường là Zalo, Telegram hoặc các app ngân hàng) chiếm trọn quyền chiếm dụng luồng cảm ứng.
+
 2. Tràn RAM / Quá nhiệt tạm thời: Chạy đa nhiệm quá nhiều tab, vừa xem file Excel nặng vừa họp trực tuyến khiến vi xử lý quá tải, tạm thời ngắt phản hồi từ lớp số hóa cảm ứng (Digitizer).
+
 3. Lỗi phân vùng ổ cứng UFS ngầm: Hệ thống tập tin bị nghẽn (I/O bottleneck) khiến máy không thể ghi nhận thao tác chạm để chuyển thành tín hiệu điều khiển.
 
 ### Các bước khởi động lại cứng (Force Restart) không mất dữ liệu

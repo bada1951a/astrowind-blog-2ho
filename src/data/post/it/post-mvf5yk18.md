@@ -25,7 +25,9 @@ Mettiti comodo, ti spiego io come analizziamo e risolviamo questo problema diret
 Prima di iniziare a smontare o buttare via accessori, facciamo chiarezza su cosa sta succedendo realmente tra il tuo smartphone e la batteria portatile. Nel 90% dei casi che vedo qui in laboratorio, il colpevole si nasconde in uno di questi tre fattori:
 
 1. Incompatibilità di protocollo (Power Delivery vs Quick Charge): I telefoni moderni (iPhone con USB-PD, Samsung con AFC o PPS, Xiaomi con HyperCharge) dialogano costantemente con il caricabatterie. Se usi un power bank economico che eroga solo la classica e vecchia 5V/1A, il telefono si "protegge" e limita l'assorbimento, facendoti apparire il fatidico avviso.
+
 2. La trappola del cavo non certificato o danneggiato: È il classico classico. Compri un power bank da trenta euro e poi usi quel cavetto da un euro preso al mercato o ereditato da un vecchio cellulare del 2015. I cavi economici non hanno i pin dati interni corretti o la sezione di rame adeguata per reggere flussi di corrente elevati (es. 20W o 45W).
+
 3. Accumulo di sporco nel connettore Lightning o USB-C: Questo è il mio preferito. Tasche dei jeans, lanugine, polvere della metro di Milano. Si forma un vero e proprio "tappo" compatto sul fondo del connettore del telefono. I pin di alimentazione fanno contatto a fatica, mentre quelli della comunicazione dati saltano del tutto. Risultato? Il telefono non riconosce la ricarica rapida e va in modalità di emergenza lenta.
 
 ---

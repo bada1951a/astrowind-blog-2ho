@@ -24,7 +24,9 @@ Se você já passou por esse perrengue digital, relaxa. Respira fundo que eu vou
 Antes de colocar a mão na massa, vamos entender o que rola por trás dos panos quando a gente tenta tirar foto de documento na pressa:
 
 1. A maldita sombra corporal: Quando você abaixa o celular para fotografar o papel na mesa, o seu próprio corpo (ou a luz do escritório/carro) bloqueia a iluminação principal, criando uma sombra escura que confunde o leitor de documentos.
+
 2. Resolução travada no padrão de foto comum: A câmera do celular abre por padrão no modo "Foto", o que captura muita informação inútil ao redor e comprime a imagem na hora de converter, estourando os pixels das letrinhas miúdas.
+
 3. Falta de corte automático (Cropping): Mandar a foto com a mesa de fundo, o copo de café ao lado ou a ponta do dedo dedura amadorismo e faz o sistema de fax rejeitar o arquivo por fora de esquadro.
 
 <div style="border-left: 4px solid #a6e22e; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -52,8 +54,11 @@ Assim que você bate a foto com o detector de documentos ativado, clique no bot�
 #### Passo 4: Como enviar o Fax Mobile direto sem enrolação
 Com o PDF limpinho e gerado no seu armazenamento:
 1. Abra o documento na galeria ou no app Meus Arquivos.
+
 2. Toque no ícone de Compartilhar (aqueles três pontinhos conectados).
-3. Se o seu serviço de fax corporativo exigir um app específico (como eFax ou serviços integrados da operadora), selecione-o na lista. 
+
+3. Se o seu serviço de fax corporativo exigir um app específico (como eFax ou serviços integrados da operadora), selecione-o na lista.
+
 4. Caso precise enviar por e-mail para a secretária disparar o fax do escritório, o arquivo já estará leve (geralmente com menos de 1 MB) e com legibilidade perfeita, garantindo que o seu contrato seja aprovado de primeira.
 
 ---

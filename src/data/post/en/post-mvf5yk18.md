@@ -22,7 +22,7 @@ Before we grab any tools, let us break down why your phone is throwing this tant
 
 Here are the three most common culprits:
 
-1. Pocket Lint and Debris Compressed Inside the Charging Port: This is enemy number one. Every time you slide your phone into your pocket, your USB-C or Lightning port acts like a microscopic snowplow, packing lint tightly against the spring-loaded connector pins at the bottom of the port. When you plug in your power bank cable, that lint acts as an insulator, blocking physical contact with the data pins responsible for fast-charging protocols like Quick Charge or USB-PD. 
+1. Pocket Lint and Debris Compressed Inside the Charging Port: This is enemy number one. Every time you slide your phone into your pocket, your USB-C or Lightning port acts like a microscopic snowplow, packing lint tightly against the spring-loaded connector pins at the bottom of the port. When you plug in your power bank cable, that lint acts as an insulator, blocking physical contact with the data pins responsible for fast-charging protocols like Quick Charge or USB-PD.
 
 2. Mismatched Power Bank Output Protocols and Damaged Cables: Not all USB ports are created equal. Many older or generic power banks only push standard 5V/2A outputs, lacking the modern 9V, 12V, or PPS (Programmable Power Supply) profiles that your phone demands. Furthermore, internal wire oxidation or frayed shielding inside your charging cable can sever the data transmission wires while still allowing barely enough power through to keep the phone alive.
 

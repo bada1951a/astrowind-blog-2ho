@@ -24,7 +24,9 @@ Durante los primeros diez minutos, caí en el pánico clásico del usuario deses
 Para solucionar este molesto contratiempo sin perder los nervios (ni los datos del informe), primero hay que entender qué pasa en las entrañas de este prodigio de la ingeniería móvil:
 
 1. Fatiga y corte parcial del cable flex principal: El cable plano que conecta la placa base con la pantalla flexible interior sufre miles de dobleces. Con el tiempo, las pistas de datos internas pueden microfisurarse, haciendo contacto cuando el teléfono está cerrado (en ángulo de 0 grados) pero interrumpiendo la señal de video justo al superar los 100 grados de apertura.
+
 2. Acumulación de suciedad y bloqueo en los sensores de ángulo (Hall Sensors): El dispositivo utiliza pequeños sensores magnéticos en la bisagra para saber exactamente en qué posición está (cerrado, en modo Flex, o completamente abierto). Si hay partículas metálicas o polvo acumulado, el sensor se confunde y apaga la pantalla principal por seguridad.
+
 3. Falso contacto en los conectores FPC internos: Las vibraciones diarias y microcaídas pueden aflojar ligeramente los pequeños conectores de presión en la placa secundaria, provocando caídas de voltaje en el panel OLED plegable.
 
 ---
@@ -37,14 +39,18 @@ Dado que no podemos desmontar el teléfono en mitad de la oficina con un destorn
 Antes de tocar nada físico, asegura tu información. Conecta tu Z Fold a un monitor externo o portátil mediante un cable USB-C o usa Samsung DeX de forma inalámbrica.
 
 1. Ve a Configuración > Funciones avanzadas > Samsung DeX.
+
 2. Conéctate a tu PC o pantalla externa para volcar todos tus archivos urgentes y salvar la sesión de trabajo.
+
 3. Una vez a salvo, ve a Configuración > Sistema > Opciones de recuperación y anota si el sistema reconoce los cambios de estado de la pantalla.
 
 #### Paso 2: Limpieza profunda de la bisagra (Solución para sensores atascados)
 Muchas veces el problema no es el cable roto, sino suciedad que bloquea el mecanismo de la bisagra y engaña a los sensores magnéticos.
 
 1. Apaga completamente el dispositivo.
+
 2. Utiliza una lata de aire comprimido (con cánula fina) y aplica ráfagas cortas y controladas a lo largo de los rieles y ranuras de la bisagra mientras abres y cierras el teléfono lentamente entre 0 y 180 grados.
+
 3. Si hay residuos pegajosos, usa un bastoncillo de algodón ligeramente humedecido con alcohol isopropílico (nunca agua) para limpiar con extrema delicadeza los bordes de la bisagra.
 
 #### Paso 3: Calibración de pantalla y prueba de sensores en Modo Diagnóstico
@@ -52,6 +58,7 @@ Vamos a comprobar si el hardware de los sensores sigue respondiendo:
 
 1. Abre la aplicación de Teléfono y marca el código de diagnóstico: `*#0*#`
 2. En el menú que aparece en pantalla (que debería mostrarse en la pantalla exterior), busca la opción Sensor.
+
 3. Revisa el estado del Hall IC y los acelerómetros. Al abrir y cerrar el dispositivo, los valores numéricos deben cambiar en tiempo real. Si el valor se queda congelado al superar cierto ángulo de apertura, el sensor físico está dañado o desconectado.
 
 <div style="border-left: 4px solid #be123c; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

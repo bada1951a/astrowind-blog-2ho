@@ -24,7 +24,9 @@ Aqui está o passo a passo direto e prático que usei para destravar o aparelho 
 Antes de aplicar a solução, vale entender o que causou o problema para não entrar em pânico:
 
 1. Sobrecarga de Processamento (ANR): O sistema Android (Application Not Responding) travou ao gerenciar múltiplos aplicativos corporativos em segundo plano, congelando junto o driver responsável pelo toque.
+
 2. Conflito de Atualização: Algum patch de segurança ou aplicativo em segundo plano fechou de forma incorreta, gerando um loop que bloqueou a interface gráfica.
+
 3. Estática ou Falha Temporária de Hardware: Um pico momentâneo de energia estática na película ou no painel digitalizador que impede a leitura dos impulsos elétricos dos seus dedos.
 
 ---

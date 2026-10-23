@@ -52,25 +52,35 @@ Let's fix this before your meeting starts. Follow these steps sequentially.
 ```
 
 #### Step 1: Strip It Down (Remove the Case and Check for Debris)
-1. Pick up your phone and take off its protective case immediately. 
+1. Pick up your phone and take off its protective case immediately.
+
 2. Inspect the back of the phone and the surface of the charging pad. Dust, crumbs, or a stray paperclip can easily trigger the Foreign Object Detection sensor.
+
 3. Wipe both surfaces down with a clean, dry microfiber cloth. If there's sticky residue or grime, use a slightly damp cloth with a tiny drop of isopropyl alcohol, and let it dry completely before trying again.
 
 #### Step 2: Master the "Sweet Spot" Alignment
-1. Place the naked phone back onto the center of the wireless pad. 
+1. Place the naked phone back onto the center of the wireless pad.
+
 2. For flat pads: Do not just guess the center. For most phones, the internal coil sits dead center vertically, but slightly offset horizontally depending on the model. Slowly slide the phone up and down, watching the screen. The exact moment the charging animation pops up on your display, stop. That is your device's magnetic sweet spot.
+
 3. For stand chargers: If you are using an upright charging stand with dual coils, ensure your phone is resting squarely in the center cradle. If you use your phone in landscape mode to watch videos while charging, a single-coil stand will fail—you must ensure it's a multi-coil stand or switch to portrait orientation.
 
 #### Step 3: Upgrade Your Power Source
 1. Look at where your wireless charging pad's USB cable is plugged in. Is it plugged into a laptop USB port? If yes, unplug it right now. Laptop ports rarely supply enough amperage for fast wireless charging pads.
-2. Plug the charging pad's USB cable directly into a dedicated wall adapter—ideally an 18W, 20W, or higher Quick Charge / Power Delivery brick. 
+
+2. Plug the charging pad's USB cable directly into a dedicated wall adapter—ideally an 18W, 20W, or higher Quick Charge / Power Delivery brick.
+
 3. Check the cable itself. A frayed or low-quality micro-USB or USB-C cable will cause voltage drops, causing the charger to reset and blink repeatedly. Swap it out for a certified fast-charging cable if you have a spare in your desk drawer.
 
 #### Step 4: Perform a Soft Hardware Reset
-Sometimes the charging pad's internal microcontroller gets stuck in an error loop. 
+Sometimes the charging pad's internal microcontroller gets stuck in an error loop.
+
 1. Unplug the wireless charging pad from the wall outlet entirely.
+
 2. Leave it unplugged for a full 30 seconds to drain any residual capacitance.
+
 3. While it's unplugged, restart your phone. A temporary glitch in your phone's power management IC (PMIC) software can sometimes block it from recognizing wireless input.
+
 4. Plug the charger back into the wall, place your phone on the aligned sweet spot, and verify the charging indicator stays solid.
 
 ---

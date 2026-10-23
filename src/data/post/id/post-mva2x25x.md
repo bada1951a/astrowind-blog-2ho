@@ -22,7 +22,9 @@ Masa bodoh dengan gengsi, saya langsung nyelonong ke meja anak IT sebelah, minta
 Sebelum masuk ke eksekusi penyelamatan, mari kita pahami dulu tiga penyebab utama kenapa ponsel pintar kesayangan kita ini bisa mendadak mogok kerja di tengah jam sibuk:
 
 1. Bug Aplikasi Latar Belakang (App Crash): Ada aplikasi kantor (seperti Excel mobile, Slack, atau WhatsApp) yang mengalami infinite loop atau memakan memori RAM secara berlebihan hingga sistem operasi iOS mengalami *kernel panic* dan membeku.
+
 2. Kapasitas Penyimpanan Hampir Penuh (Full Storage): Memori internal yang tersisa di bawah 1GB membuat sistem kewalahan melakukan *swap memory* sementara, berujung pada hang mendadak saat membuka file besar.
+
 3. Glitch Sistem Operasi: Kegagalan transisi animasi atau konflik minor antar proses sistem saat perangkat terlalu panas (*overheating*) karena dipakai multitasking non-stop di ruangan ber-AC dingin yang kadang suhunya fluktuatif.
 
 ---

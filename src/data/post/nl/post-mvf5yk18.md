@@ -55,8 +55,11 @@ Pak een goede bureaulamp en een vergrootglas (of de zaklampfunctie van een ander
 
 #### Stap 3: De kabel- en poort-eliminatietest
 Tijd om te testen of het aan je hardware ligt.
+
 1. Probeer een andere kabel waarvan je *zeker* weet dat ie snel kan laden (bijv. de officiële kabel die bij je wandoplader zat).
+
 2. Sluit de kabel aan op een *andere* poort van je powerbank (als die er is).
+
 3. Check of de melding verdwijnt. Blijft de melding komen, zelfs met een gecertificeerde kabel in een PD-poort? Dan kan de laadchip (zoals de Tristar/Hydra chip bij oudere iPhones of de PMIC bij Android) lichte slijtage vertonen door eerdere piekspanningen. 
 
 ---

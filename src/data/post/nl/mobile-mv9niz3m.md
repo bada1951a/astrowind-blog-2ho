@@ -24,7 +24,9 @@ Gelukkig hoef je geen dure scanner app te downloaden of te prutsen met belichtin
 Voordat we naar de oplossing gaan, is het handig om te weten waarom je foto's er meestal uitzien om te huilen:
 
 1. Lichtinval en slagschaduw: Als je van bovenaf fotografeert (zeker onder tl-balken of in de trein), blokkeer je zelf het licht met je telefoon of handen.
+
 2. Geen automatische randherkenning: De standaard camera blijft 'denken' dat je een artistieke foto maakt in plaats van een plat vlak, waardoor de hoeken vertekenen (het visgraateffect).
+
 3. Verkeerde kleurbalans en contrast: Zwart-witcontracten krijgen een gele gloed door warm binnenlicht, waardoor ze er rommelig en onprofessioneel uitzien voor de tegenpartij.
 
 ---

@@ -26,7 +26,9 @@ If you have ever stared at a completely unresponsive iPhone screen while your wo
 Before jumping into the fix, it helps to understand why your device suddenly turned into a glowing paperweight. In most modern tech environments, sudden unresponsiveness usually boils down to three main culprits:
 
 1. SpringBoard UI Process Hang: The graphical interface layer of iOS crashes while attempting to render a complex notification or animation, leaving the digitizer (touch layer) completely detached from the operating system.
+
 2. Memory Exhaustion (RAM Deadlock): A rogue background app or Safari tab consumes 100 percent of available RAM, causing the kernel to stall input processing to prevent a total panic shutdown.
+
 3. App-Specific Infinite Loop: A poorly optimized app freezes, capturing your touch inputs and refusing to hand control back to the system core.
 
 ## The Fix: Step-by-Step Force Restart Guide
@@ -37,9 +39,13 @@ Follow this precise button sequence depending on your hardware model.
 
 ### For iPhone 8, iPhone SE (2nd/3rd gen), and iPhone X through iPhone 15/16 Series:
 1. Volume Up: Quickly press and release the Volume Up button. (Do not hold it down).
+
 2. Volume Down: Quickly press and release the Volume Down button. (Do not hold it down).
-3. Side Button: Immediately press and hold the Side Button (power button on the right edge). 
+
+3. Side Button: Immediately press and hold the Side Button (power button on the right edge).
+
 4. Hold Through the Screen: Keep holding that Side Button firmly. Ignore any slide-to-power-off prompts if they miraculously appear. Do not let go until the screen goes completely black and the Apple logo appears. This usually takes about 5 to 10 seconds.
+
 5. Release: Once the Apple logo shows up, let go of the Side Button and let the phone boot normally.
 
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

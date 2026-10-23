@@ -26,7 +26,9 @@ Buat kalian pekerja kantoran yang sering kepepet di KRL Commuter Line Jabodetabe
 Sebelum masuk ke solusinya, kita kenali dulu musuh utama dokumen digital:
 
 1. Pencahayaan dari Atas yang Salah (Bayangan Tubuh/Tangan): Saat kita motret dokumen di atas meja kantor atau kafe, posisi tubuh kita seringkali menghalangi lampu ruangan, sehingga bayangan kepala atau tangan jatuh pas di atas kertas.
+
 2. Kamera Standar vs Fitur Khusus Dokumen: Memakai mode foto biasa (*Photo Mode*) membuat fokus kamera sering meleset, menangkap latar belakang meja, dan resolusinya tidak dioptimalkan untuk teks hitam-putih.
+
 3. Kompresi File Berlebihan: Mengirim file gambar mentah (JPG/PNG) berukuran terlalu besar sering kali otomatis dikompres oleh aplikasi faks pihak ketiga, bikin pinggiran huruf pecah (*blurry*) saat dicetak di printer klien.
 
 ---

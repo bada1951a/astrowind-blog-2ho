@@ -35,7 +35,9 @@ Nah, biar nggak ribet colok-colok setting tiap kali pindah skenario kerja *on-th
 Sebelum masuk ke eksekusi teknis, mari kita pahami dulu akar masalah yang sering diremehin anak kantoran:
 
 1. Panel OLED dan Burn-in Stres Termal: Panel OLED menyalakan piksel secara mandiri. Kontras ekstrem antara latar putih menyilaukan dengan kegelapan kereta dalam waktu lama bikin degradasi piksel nggak merata.
+
 2. Blue Light Toxicity di Ruangan Minim Cahaya: Di dalam kereta atau ruangan gelap, pupil mata otomatis membuka lebar. Cahaya putih terang dari layar tanpa *Dark Mode* iburat nyorot senter langsung ke retina.
+
 3. Manajemen Kontrol Manual yang Kerepotan: Kebanyakan orang males bolak-balik buka *Control Center* buat ganti mode tampilan, akhirnya dibiarin mode terang terus walau udah malam.
 
 ---

@@ -26,7 +26,9 @@ La verità è che quando iOS si pianta a livello di interfaccia grafica o il ker
 Prima di procedere, capiamo cosa è successo per evitare che accada di nuovo durante un momento critico:
 
 1. Crash della SpringBoard: L'interfaccia grafica principale di iOS (chiamata appunto SpringBoard) è andata in crash a causa di un'app pesante o di un conflitto di memoria RAM.
+
 2. Loop di sincronizzazione in background: Un'applicazione ha richiesto troppe risorse di sistema mentre il telefono stava elaborando dati, saturando il processore.
+
 3. Anomalia hardware temporanea: Il chip del touch screen ha perso la comunicazione I2C con la scheda madre, un blocco risolvibile unicamente togliendo e rimettendo l'alimentazione hardware tramite i tasti fisici.
 
 ---
@@ -37,17 +39,23 @@ A seconda del modello di iPhone che porti in tasca, la sequenza dei tasti cambia
 
 ### Per iPhone 8, X, 11, 12, 13, 14, 15, 16 e successivi (Face ID o tasti laterali moderni):
 1. Premi e rilascia velocemente il Tasto Volume Su.
+
 2. Premi e rilascia velocemente il Tasto Volume Giù.
+
 3. Tieni premuto immediatamente il Tasto Laterale (quello di destra) e non mollarlo.
+
 4. Continua a tenerlo premuto anche se compare la scritta di spegnimento (ignorala). Attendi finché lo schermo diventa nero e compare il logo Apple (la mela).
+
 5. A quel punto puoi rilasciare il tasto. In 20-30 secondi il telefono si riaccenderà perfettamente funzionante e reattivo al touch.
 
 ### Per iPhone 7 e 7 Plus:
 1. Tieni premuti contemporaneamente il Tasto Volume Giù e il Tasto Laterale.
+
 2. Tienili premuti entrambi per circa 10 secondi finché non vedi apparire il logo Apple sullo schermo.
 
 ### Per iPhone 6s, SE (1ª gen) e precedenti:
 1. Tieni premuti contemporaneamente il Tasto Home (quello circolare) e il Tasto Laterale (o Superiore).
+
 2. Non mollarli finché lo schermo non si spegne e compare il logo della mela.
 
 ---

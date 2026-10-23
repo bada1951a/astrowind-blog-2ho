@@ -24,7 +24,9 @@ Minha primeira reação foi o pânico clássico de quem depende do celular para 
 Depois de resolver a emergência no sufoco usando a tela externa conectada ao monitor via modo DeX, fui a fundo entender o que causou essa pane. Aqui estão os três principais culpados por esse defeito nos modelos dobráveis:
 
 1. Fadiga e Rompimento Parcial do Cabo Flex: O cabo que conecta a placa principal à tela interna sofre milhares de dobras. Com o tempo, microfissuras interrompem o sinal de vídeo justamente quando o aparelho é totalmente esticado.
+
 2. Falha no Sensor Hall (Sensor de Abertura): O sistema precisa saber exatamente o ângulo em que o aparelho está para ativar a tela interna. Se o sensor magnético acumular poeira metálica ou descalibrar, ele não avisa o sistema que o aparelho abriu.
+
 3. Acúmulo de Detritos na Dobradiça: Sujeira do bolso ou resíduos de uso diário podem bloquear o fechamento perfeito, impedindo que os contatos internos fechem o circuito elétrico da tela principal.
 
 ## Passo a Passo Prático para Tentar Recuperar a Tela
@@ -42,7 +44,9 @@ Abra o celular lentamente e pare em diferentes ângulos (90 graus, 120 graus).
 ### Passo 3: Forçar a Inicialização do Hardware
 Se você suspeitar de um travamento temporário do gerenciador de vídeo do Android:
 1. Pressione e segure o Botão de Liga/Desliga + Botão de Diminuir Volume por mais de 10 segundos.
+
 2. Assim que o logotipo da Samsung aparecer na tela externa, solte os botões.
+
 3. Conecte o aparelho a um computador via cabo USB e acesse o menu Configurações > Sistema > Opções de redefinição para garantir que não há conflitos de drivers de vídeo pendentes.
 
 <div style="border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

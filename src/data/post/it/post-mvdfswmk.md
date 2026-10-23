@@ -22,7 +22,9 @@ Erano le 14:45 e mancava esattamente un quarto d'ora a una call cruciale con i p
 Prima di agire, capiamo cosa sta succedendo all'interno del dispositivo. L'iPhone non è bagnato dentro (almeno si spera), ma il sensore rileva un'anomalia elettrica. Ecco perché l'avviso persiste:
 
 1. Micro-gocce intrappolate: Anche se l'esterno sembra asciutto, la tensione superficiale dell'acqua trattiene minuscole gocce proprio all'interno della porta di ricarica, dove i pin sono ravvicinati.
+
 2. Residui di sporco e umidità: Se nel connettore c'era già accumulo di lanugine o polvere tascabile, l'acqua si è legata a questo sporco creando un composto conduttivo che fa scattare la protezione anti-corto circuito di iOS.
+
 3. Cavo o accessori umidi: A volte non è l'iPhone a essere bagnato, ma i pin del connettore USB-C o Lightning del vostro cavo o dell'alimentatore che avete appena usato.
 
 ---

@@ -22,7 +22,9 @@ Es ist exakt 13:45 Uhr. Unser wichtigster Quartalstermin mit einem Enterprise-Ku
 Nachdem ich den Termin damals mit Ach und Krach (und einem geliehenen Firmen-MagSafe-Lader) überstanden hatte, musste ich dem Hardware-Fehler auf den Grund gehen. Apples Feuchtigkeitssensor im USB-C- oder Lightning-Port ist extrem empfindlich. Das liegt an drei Hauptgründen:
 
 1. Mikroskopische Restfeuchtigkeit: Es reicht schon hohe Luftfeuchtigkeit im herbstlichen München oder starkes Schwitzen in der Hosentasche, um die Kontakte zu triggern.
+
 2. Korrosion und Schmutz: Fusseln aus der Tasche haben sich mit etwas Kondenswasser verbunden. Der Sensor misst einen veränderten Widerstand und schlägt sofort Alarm, um einen Kurzschluss zu verhindern.
+
 3. Software-Hänger: Manchmal blockiert sich der iOS-Systemprozess nach einem Ladeversuch und vergisst schlicht, den Status zurückzusetzen, obwohl der Port längst trocken ist.
 
 ## Schritt-für-Schritt-Anleitung: So befreien Sie Ihr iPhone vom Software-Lock

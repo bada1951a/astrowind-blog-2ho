@@ -41,10 +41,14 @@ Sebelum buru-buru datang ke tempat servis atau beli power bank baru, coba lakuka
 *   Alat yang disiapkan: Jarum pentul atau pinset ujung runcing tipis, cairan *Isopropyl Alcohol* (IPA) secukupnya, dan sikat gigi bekas yang halus.
 *   Cara eksekusi: 
     1. Matikan total HP kamu (Power Off) untuk menghindari korsleting.
-    2. Senter lubang port USB-C atau Lightning HP kamu. Kelihatan kan gumpalan hitam atau abu-abu di dasarnya? Itu kotoran padat!
-    3. Ambil jarum pentul dengan sangat hati-hati. Keruk perlahan kotoran tersebut ke arah luar. Jangan terlalu menekan ke bagian tengah tempat pin tembaga berada karena bisa patah.
-    4. Setelah gumpalan rontok, celupkan sikat gigi ke sedikit cairan IPA (jangan basah banget, cukup lembap), lalu sikat bagian dalam port. 
-    5. Diamkan selama 5 menit sampai kering, lalu coba colok ulang power bank kamu.
+
+2. Senter lubang port USB-C atau Lightning HP kamu. Kelihatan kan gumpalan hitam atau abu-abu di dasarnya? Itu kotoran padat!
+
+3. Ambil jarum pentul dengan sangat hati-hati. Keruk perlahan kotoran tersebut ke arah luar. Jangan terlalu menekan ke bagian tengah tempat pin tembaga berada karena bisa patah.
+
+4. Setelah gumpalan rontok, celupkan sikat gigi ke sedikit cairan IPA (jangan basah banget, cukup lembap), lalu sikat bagian dalam port.
+
+5. Diamkan selama 5 menit sampai kering, lalu coba colok ulang power bank kamu.
 
 #### Langkah 2: Tes Eliminasi Kabel & Port Power Bank
 *   Jangan langsung menyimpulkan HP yang rusak. Coba pinjam kabel teman atau pakai kabel bawaan asli (original).

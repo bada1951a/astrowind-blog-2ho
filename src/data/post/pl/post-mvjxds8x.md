@@ -24,7 +24,9 @@ Kiedy smartfon ląduje w ostrym świetle słonecznym, panel wyświetlacza automa
 Oto 3 główne przyczyny, dla których sprzęt wpada w ten kryzysowy stan:
 
 1. Dławienie termiczne (Thermal Throttling): Gdy temperatura procesora (SoC) przekracza bezpieczną granicę około 45°C do 50°C, system automatycznie ogranicza wydajność podzespołów oraz drastycznie obniża jasność ekranu, aby ratować baterię przed spuchnięciem lub uszkodzeniem.
+
 2. Krytyczny brak wolnej przestrzeni dyskowej: Pamięć typu UFS/NVMe w smartfonach potrzebuje przynajmniej 10-15% wolnego miejsca jako tzw. *swap memory* (pamięć wirtualną) na pliki tymczasowe. Gdy jej brakuje, system zaczyna panicznie zapisywać i kasować dane w pętli, co generuje potężne ilości ciepła.
+
 3. Zasobożerne procesy w tle i cache: Setki miniatur w galerii oraz zsynchronizowane w tle aplikacje społecznościowe nieustannie mielą dane w pamięci podręcznej, co w połączeniu z gorącym letnim dniem tworzy istny koktajl Moitella dla stabilności systemu.
 
 ---

@@ -24,8 +24,10 @@ Bevor wir wild anfangen, irgendwelche Teile zu tauschen, werfen wir einen Blick 
 
 1. Der Klassiker: Falsche Protokolle oder billige Noname-Kabel
    Viele nutzen einfach das erstbeste Kabel, das noch in der Schublade lag. Wenn dieses Kabel aber keine Datenleitungen für das Fast-Charging-Protokoll (wie USB-PD oder Qualcomm Quick Charge) besitzt oder intern beschädigt ist, drosselt das Smartphone die Stromzufuhr automatisch auf ein sicheres Minimum (oft 5W bzw. 5V/1A). Dann dauert das Laden eben ewig.
+
 2. Die USB-C Ladebuchsen-Defekt-Falle (Verschmutzung & Kontaktabrieb)
    Hier in Berlin und München wandern die Smartphones den ganzen Tag in enge Hosentaschen, Rucksäcke oder Jacken. Dabei sammelt sich unten in der USB-C- oder Lightning-Buchse eine hartnäckige Mischung aus Flusen, Staub und Mikrofasern. Diese verdichteten Fusseln verhindern, dass die Pins des Steckers komplett einrasten und den vollen Kontakt für die High-Speed-Stromkreise herstellen.
+
 3. Leistungsdiskrepanz und Port-Überlastung an der Powerbank
    Moderne Powerbanks haben oft mehrere Anschlüsse. Werden mehrere Geräte gleichzeitig angeschlossen oder nutzt man den alten USB-A-Ausgang statt des modernen USB-C-PD-Ports, bricht die Leistung ein. Die Powerbank kann schlichtweg nicht die benötigen Ampere liefern.
 

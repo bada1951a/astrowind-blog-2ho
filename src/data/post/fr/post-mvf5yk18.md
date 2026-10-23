@@ -34,18 +34,25 @@ Sortez vos outils, on passe à l'action. Voici la méthode infaillible que j'app
 
 #### Étape 1 : Le grand nettoyage chirurgical du port de charge
 1. Éteignez complètement votre smartphone (règle d'or en réparation pour éviter tout court-circuit).
+
 2. Munissez-vous d'une brucelle antistatique très fine (ou à défaut, un cure-dents en bois taillé fin, jamais de métal comme une aiguille qui rayerait les contacts dorés).
+
 3. Inspectez l'intérieur du port USB-C ou Lightning à la lumière du téléphone. Vous allez sûrement apercevoir un compactage grisâtre au fond.
+
 4. Grattez très délicatement pour décoller la bourre de poussière et extrayez-la. Vous seriez surpris de ce qu'on y trouve !
+
 5. Donnez un coup de spray à air sec (maintenez la bombe bien droite pour ne pas projeter de gaz liquéfié).
 
 #### Étape 2 : Le test croisé des câbles et des ports
 1. Ne branchez pas tout de suite votre power bank. Testez votre câble actuel directement sur un chargeur mural rapide certifié.
+
 2. Si la charge rapide s'active au mur, le problème vient de la puissance de sortie (output) de votre batterie externe.
+
 3. Si la charge reste lente au mur, changez de câble. Assurez-vous d'acheter un câble certifié (mention "MFi" pour Apple, ou câble USB-C marqué "Supports 60W / 100W with E-Marker" pour Android).
 
 #### Étape 3 : Vérification et réinitialisation de la Power Bank
 1. Regardez les petits caractères écrits au dos de votre batterie externe. Cherchez la ligne "Output". Si vous lisez uniquement *5V / 1A* ou *5V / 2.1A*, votre power bank est tout simplement trop ancienne ou trop faible pour alimenter les smartphones modernes. Il vous faut un modèle affichant au moins 18W, 20W ou 25W avec la mention Power Delivery (PD).
+
 2. Si c'est un modèle récent censé être rapide, déchargez-la complètement à 0 %, puis rechargez-la à 100 % sur secteur pour recalibrer son circuit de gestion d'énergie interne (BMS).
 
 ---

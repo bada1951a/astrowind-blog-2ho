@@ -18,7 +18,9 @@ Il est 13h sur l'esplanade de La Défense. Le soleil tape fort sur les tours de 
 Derrière ce comportement frustrant se cache en réalité un système de protection sophistiqué de votre processeur (SoC) et de votre batterie lithium-ion. Voici les trois causes principales de cette mise en sécurité thermique :
 
 1. Le bridage thermique ou "Thermal Throttling" : Lorsque le processeur et la puce graphique tournent à plein régime pour maintenir une luminosité maximale sous une chaleur de plomb (ou en plein soleil direct), leur température interne grimpe en flèche, dépassant souvent les 45°C ou 50°C. Pour éviter la fusion des composants ou une dégradation irréversible de la batterie, le système bride drastiquement les performances et force l'écran à baisser son intensité lumineuse.
+
 2. La saturation du capteur de luminosité ambiante : En plein soleil estival, les luxmètres intégrés en façade s'affolent face à l'intensité lumineuse brute. Si le processeur est déjà chaud, le système d'exploitation interprète cette surcharge lumineuse comme un signal d'alerte supplémentaire et bloque l'affichage en mode "basse consommation" pour dissiper la chaleur.
+
 3. Une coque de protection inadaptée : C'est l'ennemi invisible numéro un. Les coques épaisses en silicone bas de gamme ou en plastique rigide agissent comme de véritables fours miniatures. Elles emprisonnent la chaleur générée par les composants internes, empêchant toute dissipation thermique naturelle par le châssis en aluminium ou en verre du téléphone.
 
 <div style="border-left: 4px solid #a6e22e; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">

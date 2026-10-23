@@ -24,7 +24,9 @@ If you have ever stepped outside on a bright day only to watch your phone screen
 When your phone hits high temperatures under direct sunlight, three main physical factors trigger this frustrating auto-dimming behavior:
 
 1. Thermal Throttling and CPU Heat Saturation: Direct sunlight acts like a magnifying glass, rapidly absorbing infrared radiation. When your system-on-chip (SoC) crosses roughly 40°C to 45°C, the internal thermal sensors force a performance and brightness throttle to shed heat.
+
 2. Ambient Light Sensor Saturation: The tiny photodiode sensor near your earpiece gets overloaded by blinding UV and visible light rays, misinterpreting the extreme environment and forcing the display driver into an erratic brightness loop.
+
 3. Internal Moisture and Debris Trapping: Just like my close call with the restaurant broth, microscopic liquid residues, oils, or dust packed inside the earpiece grille act as an insulation blanket, trapping internal heat and accelerating thermal runaway.
 
 ## Step-by-Step Resolution: Restoring Your Outdoor Brightness

@@ -26,7 +26,9 @@ Kommt dir bekannt vor? Genau diesen Schockmoment im hektischen Büroalltag oder 
 Bevor wir die Einstellungen anpassen, müssen wir verstehen, warum das Galaxy-Handy bei Dokumenten manchmal ins Stolpern gerät. Es liegt fast nie an einer kaputten Kamera, sondern an diesen drei klassischen Ursachen:
 
 1. Der "Eigen-Schatten" im ungünstigen Licht: Wenn du direkt unter einer Zimmerlampe oder im hellen Deckenlicht des ICE stehst, wirft dein Arm oder das Smartphone selbst einen massiven Schatten auf das Papier. Die automatische Rauschunterdrückung des Galaxy versucht das auszugleichen und verschmiert dabei feine Buchstaben.
+
 2. Falscher Fokusabstand und Krümmung: Wer im Stress zu nah an das Dokument herangeht, erzeugt Weitwinkel-Verzerrungen. Die Ecken werden unscharf, und der Text wirkt wie durch eine Fischaugenglinse fotografiert.
+
 3. Automatischer KI-Dokumenten-Modus überfordert: Die integrierte Samsung-Kamera erkennt zwar meistens automatisch, wenn ein Dokument im Bild ist ("Dokument scannen"-Gelber Rahmen), aber bei schlechten Kontrastverhältnissen (z. B. graues Recyclingpapier auf dunklem Holz) schlägt der Weißabgleich fehl.
 
 ---

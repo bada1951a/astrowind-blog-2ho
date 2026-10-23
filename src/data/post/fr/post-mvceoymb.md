@@ -24,7 +24,9 @@ Q4. Je saisis mon téléphone pour brancher le câble de recharge rapide posé s
 Ce genre d'incident survient rarement par hasard. En milieu professionnel parisien, entre les tasses de café posées à la hâte sur les bureaux partagés, les trajets sous une bruine fine en trottinette ou les variations brutales d'humidité entre le métro bondé et l'open space climatisé, les capteurs de nos smartphones sont mis à rude épreuve.
 
 1. Micro-gouttes d'humidité persistantes : Même après avoir essuyé votre appareil, une fine pellicule d'eau s'infiltre par capillarité dans les intersticiels du connecteur USB-C ou Lightning.
+
 2. Oxydation et résidus de saleté : La poussière accumulée au fond de la poche de votre pantalon se mélange à la transpiration ou à un liquide, créant un pont conducteur qui trompe le circuit de détection de court-circuit.
+
 3. Défaut temporaire du contrôleur de charge (IC) : Un bug logiciel passager au niveau de la gestion de l'énergie peut parfois simuler une présence de liquide alors que le port est parfaitement sec.
 
 ## Guide de dépannage étape par étape

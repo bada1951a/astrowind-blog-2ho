@@ -22,7 +22,9 @@ W tym przewodniku pokażę Ci krok po kroku, co dzieje się w trzewikach Twojego
 Wielu użytkowników obwinia samą baterię, ale fizyka procesora i oprogramowania mówi co innego. Oto trzy główne powody, dla których Twój iPhone wariuje po update:
 
 1. Indeksacja danych w tle (Spotlight i Zdjęcia): Nowy system musi na nowo przeskanować całą bibliotekę zdjęć, rozpoznać twarze, zindeksować pliki i wiadomości. To procesor wykonuje ogromną pracę, często obciążając wszystkie rdzenie na 100%, co generuje ciepło i pożera energię.
+
 2. Optymalizacja aplikacji innych firm: Aplikacje takie jak banki, mapy czy komunikatory często działają na starych wersjach API, które po aktualizacji systemu wpadają w pętle procesów (tzw. wakelocks), nie pozwalając telefonowi przejść w stan głębokiego uśpienia.
+
 3. Problem z gniazdem ładowania i poborem prądu: Czasami problem wcale nie leży w sofcie, lecz w brudnym gnieździe Lightning lub USB-C. Nagromadzone tam drobiny kurzu w połączeniu z wilgocią powodują mikrozwarcia. Płyta główna bez przerwy próbuje negocjować stan ładowania, co drastycznie drenażuje ogniwo litowo-jonowe, udając, że to wina nowego iOS.
 
 <div style="border-left: 4px solid #1e40af; padding: 12px 16px; margin: 20px 0; background-color: rgba(30,64,175,0.05); border-radius: 4px; color: #111827;">

@@ -20,7 +20,9 @@ Bateria świeci na czerwono, do wejścia na pokład samolotu zostało dokładnie
 Wracając do mojej paniki na lotnisku – zacząłem analizować, co mogło pójść nie tak. Jako serwisant smartfonów znam te zgłoszenia na pamięć, ale co innego teoria, a co innego autentyczny pot na czole przed bramką boardingową. Oto trzy główne powody, przez które czujnik wilgoci w porcie USB-C wariuje w najmniej odpowiednim momencie:
 
 1. Mikrokondensacja temperatury: Przejście z mocno klimatyzowanego biura w upalne powietrze na zewnątrz lotniska to klasyczny szok termiczny. Wilgoć z powietrza natychmiast skrapla się na najzimniejszych elementach metalowych, czyli pinach wewnątrz złącza USB-C.
+
 2. Resztki chemii lub płynów czyszczących: Jeśli wcześniej przecierałeś telefon alkoholem izopropylowym (IPA) albo chusteczką dezynfekującą, a płyn wniknął do środka i nie odparował w 100%, czujnik wykryje anomalię rezystancji.
+
 3. Zabrudzenia i pył w porcie: Kieszeniowy brud zmieszany z odrobiną potu lub wilgoci tworzy prądną miksturę. Oprogramowanie Samsunga myśli wtedy, że doszło do zwarcia i blokuje szybkie ładowanie, by chronić płytę główną przed uszkodzeniem.
 
 ---
@@ -41,7 +43,9 @@ Zanim zaczniesz panikować, że spalisz telefon, odśwież stan systemu Android.
 Jeśli restart nie pomógł, musimy fizycznie pomóc fizyce. Zapomnij o ryżu – to mit, który tylko zapycha port skrobią i pyłem.
 
 1. Grawitacja: Skieruj port ładowania telefonu w dół i delikatnie stuknij w obudowę dłonią, aby wytrząsnąć ewentualne krople wody.
+
 2. Ciepłe powietrze z dystansu: Użyj suszarki do włosów, ale wyłącznie na zimnym nawiewie (Cold Shot), trzymając ją w odległości minimum 30 cm przez 2-3 minuty.
+
 3. Diagnostyka pamięci podręcznej: Wejdź w ścieżkę Ustawienia > Aplikacje, znajdź usługę odpowiedzialną za systemowe ładowanie (często ukrytą pod nazwą *USB Settings* lub *USBSecure*), przejdź do sekcji pamięci i wybierz opcję Wyczyść pamięć podręczną (Clear Cache).
 
 ```

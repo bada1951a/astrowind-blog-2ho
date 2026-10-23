@@ -24,7 +24,9 @@ Genau in solchen Momenten neigt man zu Panikreaktionen. Man drückt wild auf all
 Bevor wir das Problem lösen, sollten wir kurz verstehen, was da gerade unter der Haube passiert ist. Wenn der Touchscreen komplett den Dienst versagt, liegt das meist an einem dieser drei üblichen Verdächtigen:
 
 1. Software-Hänger im UI-Layer (Systemabsturz): Die Benutzeroberfläche (One UI) ist in einer Endlosschleife hängengeblieben, während der Kernel im Hintergrund noch läuft. Das Display zeigt ein eingefrorenes Bild, nimmt aber keine Touch-Befehle mehr entgegen.
+
 2. App-Inkompatibilität: Eine frisch aktualisierte Hintergrund-App hat den Arbeitsspeicher überlastet oder blockiert die Hardware-Schnittstelle des Digitizers (der Touch-Schicht).
+
 3. Temporärer Hardware-Glitch: Statische Aufladung oder ein kurzer Spannungsimpuls am Controller-Chip des Bildschirms lassen den Touch-Sensor abstürzen.
 
 ### Die Lösung: Der erzwungene Neustart (Force Restart)

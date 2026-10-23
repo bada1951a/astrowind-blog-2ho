@@ -26,7 +26,9 @@ Als hardware- en reparatiespecialist zie ik dit dagelijks gebeuren. Veel mensen 
 Voordat we gaan snijden in instellingen, moeten we begrijpen waarom je processor op volle toeren blijft draaien. Dit zijn de drie boosdoeners die ik in de praktijk het vaakst tegenkom:
 
 1. Vastgelopen synchronisatie of corrupte cache: Soms blijft een app (vaak social media of cloud-opslag) hangen in een oneindige lus van data proberen te synchroniseren via 5G of Wi-Fi.
+
 2. Aggressieve 'Sleeping Apps' instellingen die zijn gereset: Na een One UI-update kan het gebeuren dat Samsung's energiebeheer even de weg kwijt is en achtergrondprocessen onbeperkt vrij spel geeft.
+
 3. Roterende locatie-aanvragen: Een onschuldige app blijft stiekem je GPS op de achtergrond misbruiken, wat extreme druk legt op zowel de modem als de processor.
 
 ---
@@ -50,7 +52,9 @@ Ga naar Instellingen > Apps, zoek de boosdoener op en kies achtereenvolgens voor
 #### Stap 3: Activeer Samsung's Diepe Sluimerstand
 Om te voorkomen dat de app direct weer op de achtergrond ontwaakt, gaan we hem isoleren:
 1. Ga naar Instellingen > Apparaatonderhoud > Batterij.
+
 2. Tik op Achtergrondgebruik van apps.
+
 3. Zet problematische apps in Apps in diepe slaap (Deep Sleeping Apps). Hierdoor mogen ze absoluut geen actie ondernemen tenzij je ze eigenhandig opstart.
 
 ---

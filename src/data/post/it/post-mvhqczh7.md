@@ -26,7 +26,9 @@ In questo articolo ti spiego esattamente cosa sta succedendo dentro il tuo iPhon
 Prima di mettere mano alle impostazioni o correre a comprare un power bank, capiamo cosa sta mandando in tilt l'hardware. Nel mio lavoro diagnostico quotidiano, isolo quasi sempre il problema in tre macro-aree:
 
 1. Re-indicizzazione Spotlight e Foto: iOS sta ricostruendo l'intero database del telefono (foto, contatti, messaggi, note). Questo sforzo computazionale tiene i core del processore al massimo regime, generando calore e consumando energia pura.
+
 2. Bug di sincronizzazione iCloud e app terze: Molte applicazioni non sono ancora perfettamente ottimizzate per le nuove API del nuovo iOS. Continuano a richiedere dati in background, generando un ciclo continuo di risveglio della CPU (wake locks).
+
 3. Usura chimica latente amplificata: Se la batteria aveva già una capacità massima inferiore al 85%, il carico di lavoro extra imposto dall'aggiornamento la spinge oltre il suo limite di tolleranza, evidenziando cali improvvisi di percentuale.
 
 ---

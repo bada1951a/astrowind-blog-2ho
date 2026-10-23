@@ -18,7 +18,9 @@ Godzina 13:45 w warszawskim biurze na Rondzie Daszyńskiego. Za piętnaście min
 Czujnik wilgoci w nowszych modelach iPhone'ów bywa nadwrażliwy, a samo odczytywanie stanu złącza opiera się na mikroskopijnych zmianach oporu elektrycznego. Kiedy komunikat uporczywie wisi na ekranie, mimo że telefon z pozoru jest suchy, winne są zazwyczaj trzy czynniki:
 
 1. Mikroskopijne zabrudzenia w porcie ładowania: Kurz zbity w kieszeni miesza się z wilgocią z powietrza, tworząc elektrolit, który oszukuje sensory.
+
 2. Uszkodzony lub nieoryginalny przewód: Czasami woda wcale nie dostała się do telefonu – zniszczona wtyczka kabla powoduje zwarcie na pinach danych, co system iOS interpretuje jako obecność płynu.
+
 3. Resztki utlenionej cieczy: Jeśli telefon miał wcześniej kontakt z wodą, na stykach mogła pojawić się korozja elektrochemiczna, która stale zamyka obwód alarmowy.
 
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -36,9 +38,12 @@ Odłącz natychmiast kabel od telefonu. Nie używaj suszarki do włosów – gor
 Wyłącz całkowicie iPhone'a. Weź wykałaczkę z drewna (unikaj ostrych igieł metalowych, które zrobią zwarcie) i delikatnie, pod światło, sprawdź wnętrze portu Lightning lub USB-C. Bardzo często znajdziesz tam zbitą "kulkę" z kurzu. Oczyść wnętrze bardzo ostrożnie, ruchami na boki, nie naciskając na dolną ściankę ze stykami.
 
 ### Krok 3: Twardy reset i obejście systemowe
-Jeśli fizycznie port jest czysty, a komunikat nadal blokuje ładowanie, mamy do czynienia z zawieszeniem się modułu zarządzania energią w iOS. 
+Jeśli fizycznie port jest czysty, a komunikat nadal blokuje ładowanie, mamy do czynienia z zawieszeniem się modułu zarządzania energią w iOS.
+
 1. Wciśnij i szybko puść przycisk zwiększania głośności.
+
 2. Wciśnij i szybko puść przycisk zmniejszania głośności.
+
 3. Przytrzymaj przycisk boczny (power), aż ekran zgaśnie i pojawi się logo Apple.
 
 Po ponownym uruchomieniu systemu, w rzadkich przypadkach awaryjnych (gdy musisz naładować telefon za wszelką cenę), system pozwala na awaryjne pominięcie ostrzeżenia – po podłączeniu kabla i pojawieniu się komunikatu kliknij opcję "Mimo to zrób to" (Emergency Override), choć pamiętaj, że robisz to na własną odpowiedzialność, ryzykując uszkodzenie akcesoriów. Najlepiej w takiej sytuacji sprawdzić ładowanie indukcyjne (MagSafe / Qi), które całkowicie omija mokry port przewodowy.

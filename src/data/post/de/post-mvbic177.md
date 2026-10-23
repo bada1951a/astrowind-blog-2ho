@@ -19,10 +19,12 @@ Es ist exakt 13:45 Uhr in unserem Büro im Münchner Werksviertel. In fünfzehn 
 
 ### Warum der Bildschirm schwarz bleibt: Die 3 Hauptverdächtigen
 
-Bevor man gleich den Schraubenzieher zückt oder das Gerät panisch einschickt, muss man verstehen, was beim Aufklappen im Inneren des Foldables eigentlich passiert. 
+Bevor man gleich den Schraubenzieher zückt oder das Gerät panisch einschickt, muss man verstehen, was beim Aufklappen im Inneren des Foldables eigentlich passiert.
 
 1. Das Flexkabel-Verschleiß-Dilemma: Das flexible Ribbon-Kabel, das die Signale vom Mainboard zum Hauptdisplay leitet, wird bei jedem Aufklappen mechanisch beansprucht. Nach tausendfachem Falten kann es zu Mikrorissen oder einem Wackelkontakt kommen.
+
 2. Der Hall-Sensor / Magnet-Fehler: Im Scharnier sitzen winzige Magnetsensoren, die dem Betriebssystem mitteilen, ob das Gerät zugeklappt oder offen ist. Wenn sich dort Metallstaub angesammelt hat, denkt das Foldable fälschlicherweise, es sei noch zugeklappt, und schaltet das Hauptdisplay ab.
+
 3. Software-Zustand und UI-Absturz: Manchmal stürzt schlicht der zuständige Systemprozess ab, der für das nahtlose Umschalten (Continuity) zwischen Cover- und Hauptbildschirm verantwortlich ist.
 
 ### Schritt-für-Schritt-Fehlerbehebung: Vom Workaround zur Rettung

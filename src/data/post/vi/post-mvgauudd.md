@@ -39,10 +39,13 @@ Dựa trên kinh nghiệm mổ xẻ hàng trăm ca lỗi sạc không dây từ 
 Không cần tua vít hay khò hàn gì cả, anh em cứ áp dụng đúng các bước sau đây cho mình:
 
 1.  Vệ sinh bề mặt tiếp xúc: Lấy một chiếc khăn giấy khô (hoặc khăn lau kính) lau sạch mặt đế sạc và mặt lưng kính của điện thoại. Bụi bẩn bám lâu ngày ở văn phòng máy lạnh có thể tạo ra khoảng hở vi mô làm suy giảm từ tính.
+
 2.  Tháo ốp lưng dày: Hãy thử nhét máy trần (không ốp) lên sạc. Nếu đang dùng ốp lưng quá dày hoặc có đính đá, kim loại, vòng tản nhiệt bằng sắt, hãy tháo ra ngay lập tức.
+
 3.  Căn chuẩn tâm cuộn dây (Alignment): 
     *   *Với điện thoại Android (Samsung, Xiaomi...):* Cuộn dây sạc thường nằm ở chính giữa thân máy (gần sát logo hãng). Hãy đặt tâm đế sạc trùng khớp với tâm lưng máy.
     *   *Với iPhone (hỗ trợ MagSafe):* Anh em xoay nhẹ điện thoại cho đến khi nghe tiếng "tách" nhẹ do lực hút nam châm tự định vị (nếu dùng ốp chuẩn MagSafe) hoặc căn chỉnh logo quả táo nằm chính giữa đế sạc tròn.
+
 4.  Kiểm tra lại củ sạc cấp nguồn (Adapter): Rút cáp của đế sạc ra và cắm vào củ sạc nhanh tối thiểu từ 18W trở lên (khuyên dùng củ PD 20W/25W chuẩn). Tuyệt đối tránh cắm qua cổng USB Hub rẻ tiền hay cổng PC ở công ty.
 
 ---
