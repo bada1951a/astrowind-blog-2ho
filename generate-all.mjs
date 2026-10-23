@@ -31,21 +31,29 @@ function getKstPublishDateIso(index) {
 }
 
 // =========================================================================
-// [초경량 고속 정제 함수] 백트래킹 최소화 및 단일 처리 최적화
+// [Uburyo bugezweho bwo gukosora imyandikire]
 // =========================================================================
 function sanitizeMarkdownFormatting(content) {
-  // 1) 마크다운 볼드(**) 기호 일괄 제거
-  let cleaned = content.replace(/\*\*/g, '');
+  let cleaned = content;
 
-  // 2) 물음표 뒤 띄어쓰기 누락 보정 (?다음에 공백 없이 글자가 올 때)
-  cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9])/g, '? $1');
+  // 1) Gukuraho ibimenyetso by'umubyimba (**)
+  cleaned = cleaned.replace(/\*\*/g, '');
 
-  // 3) 문장 마침표/물음표 뒤에 번호가 바로 붙는 현상 분리 (예: "끝.2. 시작" -> "끝.\n\n2. 시작")
-  cleaned = cleaned.replace(/([.?!])\s*([0-9]+\.\s+)/g, '$1\n\n$2');
+  // 2) Gukosora ibimenyetso by'ikibazo by'Icyesipanyoli (¿, ¡)
+  cleaned = cleaned.replace(/([.?!])\s*([¿¡])/g, '$1\n\n$2');
 
-  // 4) FAQ/Q&A 및 다국어 머리말 줄바꿈 강제 확보
-  cleaned = cleaned.replace(/([^\n])\s*(Q[1-9]\.|R[1-9]\.|A[1-9]\.|D[1-9]\.)/g, '$1\n\n$2');
-  cleaned = cleaned.replace(/([.?!])\s*(Q[0-9]*\.|D:|R:|Risposta|Domande)/gi, '$1\n\n$2');
+  // 3) Gushyiramo umwanya nyuma y'ikibazo niba kigiye ku magambo
+  cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9가-힣])/g, '? $1');
+
+  // 4) Gukata imirongo ibiri gusa ku nyuguti nkuru Q/A (ntikore ku nyuguti nto a.)
+  cleaned = cleaned.replace(/\?\s*([QA][0-9]*\s*[:.])/g, '?\n\n$1');
+
+  // 5) Gukata imirongo ibiri nyuma y'utudomo n'ibikomeza urutonde
+  cleaned = cleaned.replace(/([.!])\s*([QA][0-9]*\s*[:.]|[0-9]+\.\s+)/g, '$1\n\n$2');
+
+  // 6) Gutandukanya imitwe y'ibibazo n'ibisubizo mu ndimi zitandukanye
+  cleaned = cleaned.replace(/([^\n])\s+([QA][0-9]*\s*[:.])/g, '$1\n\n$2');
+  cleaned = cleaned.replace(/([.!])\s*(D:|R:|Risposta|Domande)/gi, '$1\n\n$2');
 
   return cleaned;
 }
@@ -135,7 +143,7 @@ const THEME_PRESETS = [
 const TARGET_LANGS = [
   { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상 및 직장 오피스' },
   { code: 'en', name: 'English', persona: 'Expert mobile repair technician and smartphone specialist', localeContext: 'Metropolitan US tech workplace & everyday commuting' },
-  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシューティングの専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
+  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシュー팅의 専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
   { code: 'de', name: 'German', persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker', localeContext: 'Berlin / München Unternehmens- und Alltagsalltag' },
   { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense et environnement urbain quotidien' },
   { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid y centros corporativos urbanos' },
@@ -150,7 +158,6 @@ const TARGET_LANGS = [
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 const fileSlug = `post-${Date.now().toString(36)}`;
 
-// 지연 시간 최적화 (20초 대기 -> 5초 대기, 최대 5회 시도)
 async function fetchWithRetry(prompt, maxRetries = 5, delayMs = 5000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
@@ -289,7 +296,7 @@ theme: "${selectedTheme.name}"
       frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // 고속 정제 함수 적용
+      // Gukoresha uburyo buvuguruye bwizewe
       body = sanitizeMarkdownFormatting(body);
 
       const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
@@ -334,7 +341,6 @@ async function run() {
   for (let i = 0; i < TARGET_LANGS.length; i++) {
     const isSuccess = await generateSinglePost(TARGET_LANGS[i], i);
     if (isSuccess) successCount++;
-    // 언어 간 딜레이를 2초로 단축하여 전체 속도 개선
     if (i < TARGET_LANGS.length - 1) await delay(2000);
   }
 
