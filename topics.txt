@@ -1,4 +1,3 @@
-iPhone OLED Burn-In Prevention: How to Set Up Automated Dark Mode Routine
 Samsung Galaxy Boot Loop Stuck on Samsung Logo: Clearing Cache Partition in Recovery
 How to Fix iPhone Stuck on Apple Logo Boot Loop Without Data Loss
 Samsung Galaxy Split Screen Multi-Window App Freezing: Memory and Cache Tweak
