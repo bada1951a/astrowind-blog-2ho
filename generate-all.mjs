@@ -31,28 +31,28 @@ function getKstPublishDateIso(index) {
 }
 
 // =========================================================================
-// [Uburyo bugezweho bwo gukosora imyandikire]
+// [최종 안정형 마크다운 정제 함수] 볼드 보존 + Q&A 개행 완벽 방어
 // =========================================================================
 function sanitizeMarkdownFormatting(content) {
   let cleaned = content;
 
-  // 1) Gukuraho ibimenyetso by'umubyimba (**)
-  cleaned = cleaned.replace(/\*\*/g, '');
+  // 1) 소제목 헤딩(#) 바로 뒤에 붙은 불필요한 볼드 기호 정제 (### **제목** -> ### 제목)
+  cleaned = cleaned.replace(/^(#{1,6}\s*)\*\*(.*?)\*\*/gm, '$1$2');
 
-  // 2) Gukosora ibimenyetso by'Icyesipanyoli (¿, ¡) hatarebwe ku mibare y'urutonde (1., 2.)
-  cleaned = cleaned.replace(/([^0-9][.?!])\s*([¿¡])/g, '$1\n\n$2');
+  // 2) Q&A 볼드 뭉침 방어: **Q1:**, **Q.**, **A1:**, **A.** 등의 머리말 앞을 무조건 2줄 개행으로 분리
+  cleaned = cleaned.replace(/([^\n])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
 
-  // 3) Gushyiramo umwanya nyuma y'ikibazo niba kigiye ku magambo
+  // 3) 마크다운 볼드가 없는 일반 Q/A 머리말도 앞줄과 강제 2줄 개행 분리
+  cleaned = cleaned.replace(/([^\n])\s+([QA][0-9]*\s*[:.])/g, '$1\n\n$2');
+
+  // 4) 문장 끝 부호(.!?) 뒤에 곧바로 Q/A나 번호 목록(1., 2.)이 붙어 나오는 현상 분리
+  cleaned = cleaned.replace(/([.!?])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?|[0-9]+\.\s+)/gi, '$1\n\n$2');
+
+  // 5) 물음표 뒤 띄어쓰기 누락 보정 (?단어 -> ? 단어)
   cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9가-힣])/g, '? $1');
 
-  // 4) Gukata imirongo ibiri gusa ku nyuguti nkuru Q/A (ntikore ku nyuguti nto a.)
-  cleaned = cleaned.replace(/\?\s*([QA][0-9]*\s*[:.])/g, '?\n\n$1');
-
-  // 5) Gukata imirongo ibiri nyuma y'utudomo n'ibikomeza urutonde
-  cleaned = cleaned.replace(/([.!])\s*([QA][0-9]*\s*[:.]|[0-9]+\.\s+)/g, '$1\n\n$2');
-
-  // 6) Gutandukanya imitwe y'ibibazo n'ibisubizo mu ndimi zitandukanye
-  cleaned = cleaned.replace(/([^\n])\s+([QA][0-9]*\s*[:.])/g, '$1\n\n$2');
+  // 6) 스페인어/다국어 특수 기호 분리
+  cleaned = cleaned.replace(/([^0-9][.?!])\s*([¿¡])/g, '$1\n\n$2');
   cleaned = cleaned.replace(/([.!])\s*(D:|R:|Risposta|Domande)/gi, '$1\n\n$2');
 
   return cleaned;
@@ -152,7 +152,7 @@ const TARGET_LANGS = [
   { code: 'nl', name: 'Dutch', persona: 'Smartphone reparatiespecialist en mobiele hardware-expert', localeContext: 'Amsterdam Zuidas en forenzenverkeer' },
   { code: 'pl', name: 'Polish', persona: 'Serwisant urządzeń mobilnych i smartfonów', localeContext: 'Warszawa centrum i codzienne wyzwania biurowe' },
   { code: 'id', name: 'Indonesian', persona: 'Teknisi profesional perbaikan smartphone dan gadget', localeContext: 'Kawasan Sudirman Jakarta dan mobilitas harian' },
-  { code: 'vi', name: 'Vietnamese', persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm', localeContext: 'Văn phòng trung tâm TP.HCM và nhịp sống đô thị' }
+  { code: 'vi', name: 'Vietnamese', persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm', localeContext: 'Văn phòng trung tâm TP.HCM 및 nhịp sống đô thị' }
 ];
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
@@ -213,11 +213,20 @@ ${currentTopic}
 - ABSOLUTELY FORBIDDEN: Do NOT default to a generic "meeting in 30 minutes" trope. Adapt the specific incident naturally into the local daily culture of ${lang.name}.
 
 [STRICT MARKDOWN & FORMATTING RULES - NO RENDERING GLITCHES]
-1. BOLD FORMATTING RULE:
-    - Absolutely DO NOT use markdown bold asterisks anywhere in the body text or FAQ. Keep all text in plain standard format.
-2. COMMANDS & CODE BLOCKS:
+1. HEADINGS & STRUCTURE (MANDATORY):
+    - You MUST use clear markdown headings (## for major sections, ### for subsections) for every section:
+      * ## 1. [Opening Story/Problem]
+      * ## 2. [Root Cause Breakdown]
+      * ## 3. [Step-by-Step Resolution]
+      * ## 4. [Expert Advice]
+      * ## 5. Frequently Asked Questions
+    - NEVER put markdown asterisks inside headings. Keep clean headings like "## 2. Root Cause Breakdown".
+2. BOLD FORMATTING RULE:
+    - Use markdown bold (**) naturally and moderately ONLY for key action words, UI menu buttons, tools, or core technical terms.
+    - NEVER bold an entire sentence or overuse bold on every phrase.
+3. COMMANDS & CODE BLOCKS:
     - Always wrap long technical terms, test codes (e.g. *#0*#), or shell snippets in standard 3-backtick code blocks (\`\`\`bash or \`\`\`cmd).
-3. NO LATEX & NO TILDE:
+4. NO LATEX & NO TILDE:
     - ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters ($ or $$). Always write plain text units (e.g., "45°C", "9V 2A", "25W").
     - ABSOLUTELY FORBIDDEN: NEVER use tilde (~) for ranges (e.g., NEVER write "10~20%"). Always use a hyphen (e.g., "10-20%").
 
@@ -245,7 +254,8 @@ ${currentTopic}
 2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
 3. Step-by-Step Resolution: Actionable, safe diagnostic and cleaning/inspection steps.
 4. Expert Warning / Safety Tip: Crucial warnings on battery safety, pin deformation, or liquid contact.
-5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask. (CRITICAL: Every Q and A must start on a fresh new line without markdown bolding like Q1. ... and A1.).
+5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask.
+   * CRITICAL: Every single Question (Q) and Answer (A) MUST start on its own separate new line, separated by an empty blank line. Never run Q and A together.
 
 [Length & Richness Rules]
 - Korean (ko): Minimum 2,500 characters of rich, deep, non-repetitive text.
@@ -296,7 +306,7 @@ theme: "${selectedTheme.name}"
       frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // Gukoresha uburyo buvuguruye bwizewe
+      // 2호기 안전 정제 함수 적용 (볼드 복원 및 Q&A 개행 분리 방어)
       body = sanitizeMarkdownFormatting(body);
 
       const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
