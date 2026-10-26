@@ -8,6 +8,7 @@ tags: ["iPhone", "Batterie", "iOS", "Reparation Mobile", "Astuces Tech"]
 theme: "Crimson Emergency Field"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est 13h15 en plein cœur de Paris La Défense. Je suis penché sur mon comptoir d'atelier, au milieu des tournevis de précision et des tapis magnétiques, quand un cadre stressé déboule en trombe. Son iPhone 11 vient de passer de 40% à 2% en l'espace de dix minutes, pile au moment de valider un virement urgent pour un dossier client, le tout combiné à une panne de charge rapide récalcitrante. "Je n'ai rien fait, j'ai juste fait la mise à jour iOS proposée ce matin !", me lance-t-il, le front perlé de sueur. C'est la bête noire classique que nous voyons débarquer par dizaines dans notre boutique dès qu'Apple pousse une nouvelle version d'iOS.
 

@@ -8,6 +8,7 @@ tags: ["GalaxyZFold", "SmartphoneRepair", "HardwareFix", "TechTroubleshooting"]
 theme: "Deep Ocean Cobalt"
 ---
 
+## 1. 스마트폰 먹통 돌발 위기 상황
 
 서울 테헤란로의 한 IT 기업 회의실, 클라이언트와의 핵심 프로젝트 최종 프리젠테이션을 불과 15분 앞둔 상황이었습니다. 방대한 자료를 큰 화면으로 빠르게 띄워 최종 검토를 하려고 갤럭시 Z 폴드를 시원하게 펼치는 순간, 메인 디스플레이가 거짓말처럼 완전히 까맣게 죽어버렸습니다. 
 

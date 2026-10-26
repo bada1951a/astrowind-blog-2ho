@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Riparazione Smartphone", "Display Luminosità", "Consi
 theme: "Nordic Clean Ice"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Ero seduto ai tavolini fuori di un caffè in zona Centrale a Milano, con il sole che batteva dritto sul tavolino, nel bel mezzo di una serie di chiamate di lavoro urgentissime con i fornitori. Proprio mentre cercavo disperatamente di confermare un preventivo urgente, lo schermo del mio Samsung Galaxy ha deciso di spegnersi quasi del tutto, diventando improvvisamente buio a causa del surriscaldamento sotto la luce diretta del sole. Per completare il disastro, ho collegato il power bank con il cavetto ma, invece di ricaricare, la percentuale della batteria continuava a scendere inesorabilmente a vista d'occhio, mentre il telefono bolliva tra le mie mani.
 

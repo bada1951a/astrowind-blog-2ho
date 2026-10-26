@@ -8,6 +8,7 @@ tags: ["iPhone", "Troubleshooting", "Apple", "Tech Tips"]
 theme: "Sunset Horizon Coral"
 ---
 
+## 1. Critical Smartphone Emergency Situation
 
 Ten minutes before a high-stakes executive sync in our Austin tech hub, my iPhone 14 Pro completely locked up. The display was frozen on a Slack notification, swiping did nothing, and pressing the side button was like talking to a brick wall. To make matters worse, my slide deck link was sitting right there in an open note, and thirty regional directors were already filing into the Zoom room. 
 
@@ -73,7 +74,7 @@ Once your phone boots back up, do not just rush back into your workday. Take the
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## 5. Frequently Asked Questions (FAQ)
 
 Q: What if the Apple logo appears, but the screen is still unresponsive to touch after booting up?
 

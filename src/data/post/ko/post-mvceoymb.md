@@ -8,6 +8,7 @@ tags: ["아이폰액체감지", "충전오류", "Lightning오류", "USB-C수리"
 theme: "Cobalt Enterprise Lab"
 ---
 
+## 1. 스마트폰 먹통 돌발 위기 상황
 
 판교의 한 IT 기업 컨퍼런스룸, 임원진 대상 실시간 시연을 불과 15분 앞둔 절체절명의 순간이었습니다. 태블릿과 연동해 최종 대시보드를 점검하려 케이블을 꽂는 순간, 아이폰 화면에 번개처럼 내리꽂힌 그 문구. "Lightning 또는 USB-C 커넥터에서 액체가 감지되었습니다." 
 
@@ -27,8 +28,6 @@ theme: "Cobalt Enterprise Lab"
 </div>
 
 ---
-
-
 
 ![Hardware & Tech Solution Guide](https://picsum.photos/seed/gadget756/1000/550)
 

@@ -8,6 +8,7 @@ tags: ["iPhone", "Troubleshooting", "Apple", "Hardware", "Supporto IT"]
 theme: "Electric Cyan Speed"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Sono le 14:45 e mi trovo nel nostro ufficio in pieno centro a Milano, nel bel mezzo di una corsa contro il tempo per preparare le slide e i documenti condivisi prima del meeting con i partner svizzeri fissato per le 15:00. Prendo in mano l'iPhone per confermare l'ultimo allegato su Mail, ma il display è completamente immobile. Non risponde ai tocchi, l'orario è congelato e il tasto laterale sembra non comunicare più con il sistema. Panico totale: l'intera scaletta della riunione e i codici di accesso a due fattori sono lì dentro.
 

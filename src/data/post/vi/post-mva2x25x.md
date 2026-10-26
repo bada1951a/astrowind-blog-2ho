@@ -8,6 +8,7 @@ tags: ["iPhone", "SửaLỗi", "MẹoCôngNghệ", "ThủThuật"]
 theme: "Acid Lime Hacker Space"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Đúng 10 giờ sáng, phòng họp tầng 12 của văn phòng ở Quận 1, TP.HCM đang căng như dây đàn. Sếp lớn chuẩn bị vào check nhanh số liệu kinh doanh trên con iPhone của tôi, thế quái nào mà màn hình tự dưng đơ cứng ngắc, chạm vuốt kiểu gì cũng không phản hồi. Cắm sạc không lên, bấm nút nguồn thì màn hình tối thui rồi đứng hình ở logo quả táo. Mồ hôi hột túa ra vì bao nhiêu file dữ liệu quan trọng chưa kịp đồng bộ lên đám mây. Đừng để tình trạng "cục gạch" tạm thời này làm bạn mất điểm trước sếp. Hãy xử lý ngay bằng các thao tác chuẩn kỹ thuật dưới đây.
 

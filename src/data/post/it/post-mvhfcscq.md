@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Batteria", "Riparazione Smartphone", "Android Guide", 
 theme: "Warm Coffee Latte"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Sono le due del pomeriggio qui nel mio laboratorio in pieno centro direzionale a Milano. Fuori c'è il caos dei treni e delle riunioni lampo, e dentro ho sulla scrivania un Samsung Galaxy che scotta letteralmente tra le mani. Il cliente è entrato con il telefono bollente, la batteria passata dal 90% al 15% in meno di mezz'ora senza nemmeno usarlo, e una faccia disperata perché tra dieci minuti ha una videochiamata cruciale con un cliente svizzero. Non è un problema di ricarica o di cavo rotto stavolt
 

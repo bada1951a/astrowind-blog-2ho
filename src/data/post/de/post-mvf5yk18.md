@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Powerbank", "USB-C"]
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Guten Tag zusammen! Als Werkstattleiter hier in unseren Büros in Berlin und München bekomme ich fast täglich frustrierte Kunden an die Theke, die mir ihr Smartphone hinlegen und stöhnen: *"Mensch, ich bin unterwegs, hänge an der Powerbank, und mein Handy braucht gefühlt Stunden für ein paar Prozent!"* 
 

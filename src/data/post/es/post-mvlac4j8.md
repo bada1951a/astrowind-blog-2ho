@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Pantalla", "Reparacion Movil", "Trucos Android"]
 theme: "Dracula Purple Dev"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran las tres de la tarde en la Terminal 4 del Aeropuerto de Madrid-Barajas. La cola para embarcar avanzaba rápido y la tensión en el ambiente se cortaba con un cuchillo. Me tocaba el turno, saqué mi Samsung Galaxy del bolsillo y, justo en el momento de mostrar la tarjeta de embarque digital y el pasaporte electrónico en la pantalla, el panel se volvió completamente negro. Bueno, no negro del todo, sino con un brillo tan penoso y oscuro que los lectores infrarrojos del mostrador no captaban el código QR. La luz del sol madrileño pegaba de pleno a través de los enormes ventanales de cristal, el procesador del teléfono empezó a quemar por el esfuerzo térmico, y el sistema decidió apagar la retroiluminación para no fundirse. Casi me quedo tirado en la puerta de embarque por culpa del control de brillo automático.
 

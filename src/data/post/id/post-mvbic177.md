@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Hardware Repair", "Troubleshooting", "Tips HP"]
 theme: "Modern Minimalist Slate"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Jam 3 sore di kantor kawasan SCBD Jakarta, AC dingin tapi keringat dingin saya justru bercucuran. Kurang dari 30 menit lagi presentasi quarterly report dengan klien besar harus dimulai, dan semua draf materi krusial tersimpan rapi di Samsung Galaxy Z Fold andalan saya. Sialnya, saat saya membuka lipatannya untuk menampilkan data di layar utama yang besar, layar tersebut mendadak *black screen of death* alias hitam total, mati melompong! Sementara layar depan (cover screen) masih menyala normal tapi terlalu kecil untuk multitasking lembar kerja Excel yang rumit. Jantung rasanya mau copot karena file cadangan belum sempat terkirim ke email kantor.
 
@@ -81,4 +82,4 @@ A: Sangat aman untuk fungsi dasar telepon dan chat. Namun, jika kabel fleksibel 
 
 Q: Kenapa masalah ini sering kambuh saat cuaca dingin atau setelah kena AC kantor?
 
-A: Perubahan suhu drastis bisa memicu kondensasi air mikroskopis di dalam rongga engsel atau membuat jalur sambungan solder pada *flex cable* yang sudah retak mikro menjadi terputus sementara akibat pemuaian material yang tidak merata. 
+A: Perubahan suhu drastis bisa memicu kondensasi air mikroskopis di dalam rongga engsel atau membuat jalur sambungan solder pada *flex cable* yang sudah retak mikro menjadi terputus sementara akibat pemuaian material yang tidak merata.

@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Troubleshooting", "Smartphone", "Android", "Handy Tipp
 theme: "Mint Fresh Engineering"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Es ist exakt 13:45 Uhr. Um 14:00 Uhr steht der wichtigste Quartalstermin mit unserem Hauptkunden hier im Münchner Tech-Distrikt an, und plötzlich passiert der Albtraum: Ich will noch schnell die finalen Folien auf meinem Samsung Galaxy aufrufen, aber der Touchscreen ist komplett tot. Kein Wischen geht mehr, das Display reagiert auf absolut gar nichts, und der Bildschirm zeigt stur die Präsentations-App. Der übliche Weg über das Ausschalt-Menü auf dem Bildschirm scheitert natürlich, weil ich den "Ausschalten"-Button nicht antippen kann. Der Puls rast, die Zeit läuft, und der Gedanke an einen erzwungenen Werksreset oder verlorene Daten lässt den Schweiß ausbrechen.
 

@@ -8,6 +8,7 @@ tags: ["Galaxy Fold", "Hardware Troubleshooting", "Android", "Batterij"]
 theme: "Graphite Technical Paper"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Staat ik daar op Schiphol bij de gate, nog even snel die laatste Slack-updates en urgent werk-appje weg te tikken voordat de vlucht naar Lissabon Boarding ingaat. Batterij bungelt zielig op 5%. Ik duw die USB-C kabel van mijn powerbank in mijn Galaxy Z Fold, en *boem*—alsof de grond onder me wegzakt: een knalrode pop-up op het scherm. *'Vocht gedetecteerd in de oplaadpoort. Koppel de oplader los om schade te voorkomen.'* Zweet breekt me direct uit. Geen powerbank, geen Fold, geen werkmail, geen boardingpass in de KLM-app. Pure blinde paniek.
 

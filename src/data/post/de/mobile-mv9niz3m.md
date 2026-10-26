@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Dokumentenscan", "Mobiler Fax", "Troubleshooting", "B�
 theme: "Retro Monokai"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Es ist mal wieder typisch. Ich sitze im ICE von Frankfurt nach München, der Bordbistro-Kaffee ist natürlich lauwarm, und in genau zehn Minuten muss der unterschriebene Rahmenvertrag per Fax an den neuen Großkunden in Berlin raus. Mein Laptop muckt im lahmen WLAN rum, also muss das Ganze übers Samsung Galaxy laufen. Schnell die Dokumentenscanner-App aufgemacht, abfotografiert, auf Senden gedrückt – und der erste Blick auf die Vorschau lässt mich fast den Kaffee verschütten. 
 

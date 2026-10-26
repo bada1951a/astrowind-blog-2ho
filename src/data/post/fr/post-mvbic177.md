@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Smartphone", "Dépannage", "Matériel"]
 theme: "Dracula Purple Dev"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est 14h50, le stress monte dans notre bureau près de la place de la Bourse à Paris. Dans dix minutes, je dois présenter notre roadmap trimestrielle sur mon Galaxy Z Fold. Je saisis le téléphone sur mon bureau, je le déplie d'un geste machinal pour afficher les slides... et c'est le noir complet. L'écran principal reste désespérément éteint, sombre, mort. Pourtant, le petit écran externe fonctionne parfaitement, et je sens les vibrations des notifications Slack qui s'accumulent. La panique commence à s'installer.
 

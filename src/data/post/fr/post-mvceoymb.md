@@ -8,6 +8,7 @@ tags: ["Depannage", "Hardware", "iPhone", "USB-C", "Paris"]
 theme: "Cobalt Enterprise Lab"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est 13h45, le stress monte au 8ème étage de notre bureau à Paris. Dans à peine quinze minutes, nous avons une réunion stratégique cruciale avec les investisseurs pour valider le budget
 

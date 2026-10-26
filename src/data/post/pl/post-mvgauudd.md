@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Serwis GSM"]
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 ### 1. Awaria w środku dni
 
@@ -72,7 +73,7 @@ a: *"Panie serwisancie, czy ładowanie bezprzewodowe jest bezpieczne dla baterii
 
 ---
 
-### 5. FAQ – Często zadawane pytania z serwisu GSM
+## 5. Najczęściej zadawane pytania (FAQ) – Często zadawane pytania z serwisu GSM
 
 Q1: Telefon ładuje się bezprzewodowo tylko wtedy, gdy leży w jednej, konkretnej pozycji, a najmniejsze trącenie powoduje mruganie. Co robić?
 *Odp:* To znak, że cewki wewnątrz telefonu (lub samej ładowarki) poluzowały się na skutek upadku urządzenia, albo pierścień magnetyczny wewnątrz obudowy telefonu się przesunął. Jeśli telefon upadł Ci niedawno, magnesy trzymające cewkę mogły się odkleić. Pomaga wizyta w serwisie i ponowne osadzenie modułu indukcyjnego na taśmie montażowej.

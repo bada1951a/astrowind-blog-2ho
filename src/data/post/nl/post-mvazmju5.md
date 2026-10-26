@@ -8,6 +8,7 @@ tags: ["Samsung", "Troubleshooting", "Android", "Hardware"]
 theme: "Sandstone Desert Minimal"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Het is woensdagochtend in ons drukke tech-kantoor aan de Herengracht in Amsterdam. Nog geen vijftien minuten voor een cruciale kwartaalreview met de aandeelhouders, trilt mijn Samsung Galaxy op tafel. Ik pak hem vast om nog snel even die laatste grafiek te controleren, maar het scherm blijft compleet zwart of reageert totaal niet meer op mijn aanrakkingen. Geen enkele swipe, geen enkele tap werkt. De telefoon staat vol met de laatste versies van onze pitchdecks en live API-tokens, en paniek slaat toe. Je kunt het toestel niet normaal uitschakelen via het menu omdat het scherm zwart blijft of bevroren is, en de neiging om de moed op te geven ligt op de loer.
 
@@ -60,8 +61,6 @@ Het geforceerd herstarten van je telefoon is volkomen veilig voor je data, maar 
 
 ### 1. Verlies ik mijn foto's en berichten als ik een geforceerde herstart uitvoer?
 Nee, absoluut niet. Een geforceerde herstart is te vergelijken met het uittrekken van de stekker van een vastgelopen computer en hem weer aanzetten. Al je persoonlijke gegevens, foto's, berichten en app-data blijven intact.
-
-
 
 ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget360/1000/550)
 

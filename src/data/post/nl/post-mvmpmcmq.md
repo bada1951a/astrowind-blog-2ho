@@ -8,16 +8,13 @@ tags: ["iPhone", "OLED Burn-In", "Dark Mode", "Battery Life", "Tech Tips"]
 theme: "Dracula Purple Dev"
 ---
 
-
-## 1. [Opening Story/Problem]
+## 1. Kritieke smartphone-noodsituatie
 
 Het is typisch zo'n drukke ochtend in Amsterdam. Je haast je vanaf station Zuid naar een afspraak aan de Zuidas, terwijl de regen met bakken uit de hemel komt. Met een paraplu in je ene hand en je iPhone in de andere, probeer je snel een dringend bericht van een collega te lezen op het heldere OLED-scherm. Opeens glibbert de telefoon bijna uit je klamme hand. Je vangt hem op, maar net op dat moment blaast een windvlaag een aantal dikke regendruppels rechtstreeks de USB-C of Lightning poort in. Binnen een paar seconden licht je scherm op met die beruchte waarschuwing: **Vloeistof gedetecteerd in de Lightning-connector** (of USB-C poort). Je hart slaat een slag over. Je moet nog bereikbaar blijven, maar je accu is bijna leeg en je bent bang voor permanente schade aan je hardware. En terwijl je daar staat te koukleumen, realiseer je je dat je scherm de hele ochtend al loeihelder heeft gestaan op maximale intensiteit – een directe aanslag op de levensbaarheid van je dure OLED-paneel.
 
-
-
 ![iPhone OLED Burn-In Prevention: How to Set Up Automated Dark Mode Routine Mobile Repair Guide](https://picsum.photos/seed/mob-mvmpnzbs-8-b/1000/550.jpg)
 
-## 2. Root Cause Breakdown
+## 2. Grondige oorzaakanalyse van laad- en hardwareproblemen
 
 Als reparatiespecialist zie ik dagelijks telefoons langskomen met problemen die te herleiden zijn tot twee hoofdcursussen: vochtschade door haastige acties en degradatie van het beeldscherm door intensief, ongeoptimaliseerd gebruik. Laten we eens kijken naar de technische achtergrond hiervan.
 
@@ -31,7 +28,7 @@ Hier zijn de drie meest voorkomende oorzaken waarom je display en oplaadpoort ge
 - **Vocht in de connectoren:** Het negeren van de vochtwaarschuwing en tóch proberen te laden veroorzaakt kortsluiting en corrosie op de micro-pinnen van je laadpoort, wat leidt tot duur moederbord- of flexkabelreparaties.
 - **Het ontbreken van automatisering:** Gebruikers vergeten simpelweg om handmatig te schakelen naar de Donkere Modus (Dark Mode), waardoor het scherm onnodig veel witte achtergronden blijft tonen.
 
-## 3. Step-by-Step Resolution
+## 3. Stapsgewijze praktische noodoplossing
 
 Gelukkig kun je dit eenvoudig oplossen en voorkomen door een slimme automatisering in te stellen via de **Opdrachten** (Shortcuts) app op je iPhone. Hiermee dwing je het systeem om automatisch over te schakelen zodra dat nodig is, zonder dat je er zelf aan hoeft te denken.
 
@@ -57,7 +54,7 @@ We gaan ervoor zorgen dat zodra je batterij onder een bepaalde grens komt, of op
 <strong>Tip voor onderweg:</strong> Krijg je die vervelende melding over vocht in de poort na je regenbui? Laad je iPhone dan tijdelijk op via een draadloze MagSafe-lader. Probeer nooit om de poort te drogen met wattenstaafjes of scherpe metalen voorwerpen; dit verbuigt de contactprijzen onherstelbaar!
 </div>
 
-## 4. Expert Advice
+## 4. Belangrijke waarschuwingen van reparatiespecialisten
 
 Als reparateur zie ik wekelijks telefoons binnenkomen met schade die makkelijk voorkomen had kunnen worden. Onthoud deze vuistregels:
 
@@ -65,7 +62,7 @@ Als reparateur zie ik wekelijks telefoons binnenkomen met schade die makkelijk v
 - **Beperk statische UI elementen:** Wissel regelmatig van achtergrond en gebruik widgets met een donkere achtergrond. 
 - **De kracht van automatisering:** Door slimme routines te gebruiken minimaliseer je de piekbelasting op je OLED-scherm op momenten dat je toch druk bent met andere zaken, zoals reizen of werken.
 
-## 5. Frequently Asked Questions
+## 5. Veelgestelde Vragen (FAQ)
 
 Q: Kan OLED-inbranding volledig worden teruggedraaid met een software-update?
 

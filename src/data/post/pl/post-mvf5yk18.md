@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Serwis Telefonów", "Powerbank", "Ładowanie", "Naprawa Smartphone"]
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 ### 1. Alarm w drodze: Gdy powerbank zamiast ratować, tylko denerwuje
 
@@ -65,7 +66,7 @@ a:
 
 ---
 
-### 5. FAQ – Najczęściej zadawane pytania z mojego warsztatu
+## 5. Najczęściej zadawane pytania (FAQ) – Najczęściej zadawane pytania z mojego warsztatu
 
 Q: Dlaczego iPhone częściej niż Android pokazuje ostrzeżenie o wolnym ładowaniu z powerbanka?
 

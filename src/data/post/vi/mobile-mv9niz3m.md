@@ -8,6 +8,7 @@ tags: ["Galaxy", "Quét tài liệu", "Mẹo điện thoại", "Xử lý sự c�
 theme: "Industrial Blueprint"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Cơn mưa chiều tầm tã đổ xuống ngã tư Nguyễn Văn Linh, tiếng còi xe inh ỏi và dòng xe máy kẹt cứng nối đuôi nhau nhích từng chút một. Chỉ còn vỏn vẹn 10 phút nữa là đến cuộc họp cực kỳ quan trọng với đối tác lớn, vậy mà bên kia vừa nhắn tới: *"Anh ơi, gửi gấp bản hợp đồng qua fax hoặc scan sắc nét cho em ngay nhé, sếp đang chờ duyệt."* 
 

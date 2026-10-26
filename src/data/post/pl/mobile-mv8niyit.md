@@ -8,6 +8,7 @@ tags: ["iOS", "Skróty", "OLED", "Porady serwisowe"]
 theme: "Teal Matrix Digital"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Godzina 18:30, pendolino do Warszawy leci z prędkością 200 km/h, a ja próbuję postawić na lapku hotspot z mojego iPhone'a, bo korporacyjne Wi-Fi w pociągu znów padło. Otwieram telefon na pełnej jasności ekranu, żeby przeklikać ustawienia tetheringu – w tym momencie matryca OLED w moim 15 Pro rozświetla się z taką mocą, że aż pieką mnie oczy, a wskaźnik baterii nurkuje o 4% w dwie minuty. Kto chociaż raz próbował pracować w ciemnym wagonie z telefonem świecącym jak latarka morska, ten wie, o jakim koszmarze mówię. 
 

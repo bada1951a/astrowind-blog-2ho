@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Nordic Clean Ice"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Sabe aquela cena clássica na Avenida Paulista às duas horas da tarde? O sol de rachar, você tenta checar o mapa no seu Samsung Galaxy para achar o endereço de uma reunião urgente, e de repente a tela apaga quase por completo, parecendo um breu total só porque o aparelho decidiu que estava quente demais ou que o sensor de luz leu errado. É exatamente nessa hora que a paciência vai para o espaço e o pânico de ficar perdido no meio da correria de São Paulo aperta o peito de qualquer um.
 

@@ -8,6 +8,7 @@ tags: ["iPhone", "Serwis", "Naprawa", "Poradnik"]
 theme: "Acid Lime Hacker Space"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Godzina 13:45 w warszawskim biurze na Rondzie Daszyńskiego. Za piętnaście minut zaczynam kluczową prezentację projektu przed zarządem, wszystkie materiały mam dopięte na ostatni guzik, a podłączony do kabla służbowy iPhone nagle odmawia współpracy i wypluwa na ekran przerażający komunikat: "Wykryto płyn w złączu Lightning/USB-C". Telefon nie chce się ładować, bateria pokazuje 4%, a ja stoję na środku sali konferencyjnej z pustymi rękami, bo przecież nie pójdę do kuchni po słoik z ryżem, żeby tarzać w nim flagowy smartfon. Znasz to uczucie paniki, gdy sprzęt wybiera najgorszy z możliwych momentów na strajk?
 

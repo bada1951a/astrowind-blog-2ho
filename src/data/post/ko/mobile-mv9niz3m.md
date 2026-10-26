@@ -8,6 +8,7 @@ tags: ["Galaxy", "MobileFax", "DocumentScan", "OfficeTips"]
 theme: "Nordic Clean Ice"
 ---
 
+## 1. 스마트폰 먹통 돌발 위기 상황
 
 <div style="border-left: 4px solid #0284c7; padding: 14px 18px; margin: 20px 0; background-color: rgba(2, 132, 199, 0.05); border-radius: 4px; color: #111827; font-style: italic;">
 "아, 진짜 망했다... 신도림역 지나가는 중인데 10분 뒤에 미팅이야. 서류 스캔해서 모바일 팩스로 빨리 보내야 하는데, 형광등 그림자 때문에 숫자가 다 뭉개져서 보이질 않네?"

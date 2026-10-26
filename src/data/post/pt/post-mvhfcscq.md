@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Solarized Amber Warm"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Eram exatamente 14h30 em plena Avenida Paulista, num ambiente corporativo super agitado, quando meu Samsung Galaxy começou a esquentar tanto na palma da minha mano que parecia uma chapa de lanche. A bateria despencou de 60% para 5% em questao de minutos, bem na hora em que eu precisava escanear um documento urgente. Para piorar a ciumeira, quando fui plugar o cabo, o conector de carga estava emperrado com poeira e fiapos de bolso, recusando-se a aceitar energia enquanto o celular fervia a mais de 45°C. Se voce ja passou por isso, sabe o panico que da. Trabalho na bancada de uma assistencia tecnica ha anos e vejo esse cenario quase todo dia. Os donos de Galaxy entram na loja desesperados achando que a bateria pifou de vez ou que a placa-mae queimou. Mas na maioria das vezes, o buraco e mais abaixo: um conflito brutal entre o sistema operacional e aplicativos travados em segundo plano, somado a sujeira acumulada na porta USB-C que confunde o circuito de gerenciamento de energia. <div style="border-left: 4px solid #d97706; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Dica do Tecnico:</strong> Nunca coloque o celular na geladeira ou na frente do ar-condicionado gelado para tentar baixar a temperatura rapido. O choque termico gera condensacao de agua dentro da placa, matando componentes sensiveis instantaneamente!
@@ -31,8 +32,6 @@ Vamos colocar a mao na massa com seguranca. Siga estes passos na ordem correta p
 
 ### 1. Limpeza segura do conector de carga emperrado
 Se o conector estiver entupido, desligue o aparelho imediatamente. Pegue uma escova de dentes com cerdas macias e limpe suavemente. Se houver compactacao de sujeira profunda, utilize um palito de dente de madeira (nunca agulhas de aco ou clips metalicos, pois eles fecham curto nos contatos dourados internos). Remova os fiapos com cuidado.
-
-
 
 ![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhfej7w-7-b/1000/550.jpg)
 

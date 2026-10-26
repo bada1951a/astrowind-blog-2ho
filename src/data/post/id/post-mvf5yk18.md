@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Halo Boss! Ketemu lagi di meja servis saya. Baru saja tadi jam istirahat siang, ada pekerja kantoran area SCBD Jakarta yang datang ke konter dengan muka panik. HP iPhone-nya bunyi *beep* pelan, terus muncul pop-up peringatan *Slow Charging* atau pengisian daya lambat pas lagi colok power bank di dalam KRL. 
 

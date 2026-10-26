@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Wireless Charging"]
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 ### Der Albtraum am Schreibtisch: Wenn das Qi-Pad nur hektisch blinkt
 

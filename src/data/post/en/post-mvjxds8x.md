@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Dark Velvet Obsidian"
 ---
 
+## 1. Critical Smartphone Emergency Situation
 
 There I was, sitting at a bustling downtown lunch spot during a mid-day break, enjoying a steaming bowl of hot broth soup, when a rogue splash of savory broth suddenly spat directly into the top speaker grille and display gap of my smartphone. Panic instantly set in. As I frantically started searching through my bag for an alcohol swab and cotton swabs to wipe down the steaming liquid before it seeped deeper into the bezel, the phone buzzed with a sharp thermal warning. Moments later, stepping outside into the glaring afternoon sun to check my messages, the screen instantly plunged into near-total darkness. The display brightness dropped so low I couldn't read a single word, completely blinded by the ambient glare. 
 
@@ -19,7 +20,7 @@ If you have ever stepped outside on a bright day only to watch your phone screen
 [Expert Terminal Tip]: Modern OLED and AMOLED panels push immense current to reach peak outdoor brightness of 1500 to 2000 nits. When combined with internal processor heat, the device triggers an aggressive safety clamp to prevent permanent screen burn-in and battery swelling.
 </div>
 
-## Root Cause Breakdown: Why Your Screen Dims in the Sun
+## 2. Root Cause Breakdown of Port and Hardware Failures
 
 When your phone hits high temperatures under direct sunlight, three main physical factors trigger this frustrating auto-dimming behavior:
 
@@ -29,7 +30,7 @@ When your phone hits high temperatures under direct sunlight, three main physica
 
 3. Internal Moisture and Debris Trapping: Just like my close call with the restaurant broth, microscopic liquid residues, oils, or dust packed inside the earpiece grille act as an insulation blanket, trapping internal heat and accelerating thermal runaway.
 
-## Step-by-Step Resolution: Restoring Your Outdoor Brightness
+## 3. Step-by-Step Practical Emergency Resolution
 
 Don't let thermal throttling ruin your commute or outdoor productivity. Follow this professional diagnostic and recovery timeline to get your screen working properly under bright conditions.
 
@@ -61,7 +62,7 @@ When your phone acts up in the heat, amateur fixes can permanently destroy your 
 - Avoid using compressed air cans directly against the speaker grilles or charging ports at close range. The extreme blast pressure can rupture internal acoustic mesh filters or drive moisture deeper into the microphone assemblies.
 - Do not peel off tempered glass screen protectors while the phone is blazing hot, as thermal expansion can crack the underlying glass panel.
 
-## Frequently Asked Questions (FAQ)
+## 5. Frequently Asked Questions (FAQ)
 
 Q1. Will removing my screen protector help my phone stay cooler in the sun?
 

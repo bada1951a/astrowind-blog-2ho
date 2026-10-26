@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Bronze Artisan Workshop"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Erano circa le tre di pomeriggio in una calda giornata di luglio qui a Milano, seduto ai tavolini di un bar vicino alla Stazione Centrale, mentre cercavo di completare il montaggio di un video 4K urgente per un cliente. All'improvviso, il mio smartphone ha iniziato a bruciare tra le mani. Nel giro di pochi secondi, l'anteprima video è diventata un slideshow a scatti, i tocchi sullo schermo rispondevano con secondi di ritardo e, ciliegina sulla torta, la luminosità del display è crollata al minimo sindacale impedendomi di leggere qualsiasi cosa sotto il sole. Una situazione frustrante che molti di voi conoscono bene: state giocando a un titolo pesante come Genshin Impact o renderizzando un video e il telefono si trasforma letteralmente in un ferro da stiro, bloccandosi e perdendo colpi. 
 

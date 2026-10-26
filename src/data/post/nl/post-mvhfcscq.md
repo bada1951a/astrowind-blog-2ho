@@ -8,6 +8,7 @@ tags: ["Samsung", "Batterij", "Oververhitting", "Reparatie Tips"]
 theme: "Dark Velvet Obsidian"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Het is midden op de dag op de Amsterdam Zuidas. Ik sta net achter de balie van onze werkplaats wanneer een advocaat in paniek aanloopt met zijn Samsung Galaxy S23 Ultra. Het toestel is gloeiend heet - ik meet even snel een zorgwekkende 44°C op de achterkant - en de batterijpercentage dondert in een paar minuten naar beneden waar je bij staat. Nog tien procent over, belangrijke videocalls op de agenda en de lader helpt amper omdat de telefoon door de hitte het laden uitveiligheid knijpt. Geen kapotte laadpoort of defecte accu dit keer, maar een klassiek en angstaanjagend Software- en Achtergrondproces-drama. Als hardware- en reparatiespecialist zie ik dit dagelijks gebeuren. Veel mensen denken direct dat hun dure smartphone versleten is, maar negen van de tien keer vreet een op hol geslagen achtergrond-app alle processor-resources op. Laten we direct kijken hoe je dit oplost voordat je accu permanent beschadigd raakt.
 

@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Manutenção Celular"]
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Fala, pessoal! Aqui na bancada o ritmo não para. São Paulo não perdo
 

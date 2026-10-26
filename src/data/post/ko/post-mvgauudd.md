@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
 ---
 
+## 1. 스마트폰 먹통 돌발 위기 상황
 
 안녕하세요! 서울과 수도권에서 스마트폰 사설 수리 매장을 운영하며, 하루에도 수십 대씩 충전 불량 기기를 마주하는 현장 엔지니어입니다.
 

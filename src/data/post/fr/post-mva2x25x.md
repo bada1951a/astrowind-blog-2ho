@@ -8,6 +8,7 @@ tags: ["iPhone", "Depannage", "Apple", "Tutoriel"]
 theme: "Midnight Navy Royal"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est exactement 14h50, et le comité de direction s'installe dans la grande salle de réunion de notre bureau à Paris. Je m'apprête à projeter le tableau de bord financier depuis mon iPhone, et là... c'est le drame. L'écran est complètement figé sur une diapositive, le tactile ne répond plus du tout, et le bouton latéral refuse d'éteindre l'appareil. La sueur froide commence à perler. Une panique monumentale s'installe alors qu'un périphérique bloqué paralyse toute la présentation stratégique prévue dans exactement dix minutes.
 
@@ -61,4 +62,4 @@ Absolument pas. Cette manipulation équivaut simplement à retirer et remettre l
 Si l'appareil reste bloqué sur la pomme pendant plus de 10 minutes après le redémarrage forcé, il faudra connecter votre iPhone à un ordinateur (Mac ou PC Windows via iTunes/Appareils Apple), relancer la même combinaison de touches pour passer en mode de récupération (Recovery Mode), et procéder à une mise à jour ou une restauration du système.
 
 3. Le tactile ne fonctionne toujours pas après le redémarrage, que se passe-t-il ?
-Si l'affichage est revenu mais que vos doigts ne commandent toujours rien, le problème est probablement d'ordre matériel (nappe du tactile débranchée suite à une chute, ou écran de mauvaise qualité suite à un remplacement non officiel). Un passage en atelier de réparation s'imposera. 
+Si l'affichage est revenu mais que vos doigts ne commandent toujours rien, le problème est probablement d'ordre matériel (nappe du tactile débranchée suite à une chute, ou écran de mauvaise qualité suite à un remplacement non officiel). Un passage en atelier de réparation s'imposera.

@@ -8,8 +8,7 @@ tags: ["Serwis iPhone", "Ekran OLED", "Tryb Ciemny", "Porady Techniczne"]
 theme: "Rosewood Hardware Guide"
 ---
 
-
-## 1. [Opening Story/Problem]
+## 1. Awaryjna sytuacja ze smartfonem
 
 Wrzucasz ulubioną playlistę, kładziesz iPhone'a na półce w łazience i biorąc gorący prysznic, relaksujesz się przy muzyce. Szybki powrót do rzeczywistości następuje sekundy po wyjściu z kabiny: ekran jest dosłownie mokry od gęstej pary wodnej, a kiedy próbujesz ściszyć utwór, ikony na wyświetlaczu zaczynają żyć własnym życiem – aplikacje otwierają się same, a kursor myszkuje po ekranie jak opętany. To klasyczny przypadek **ghost touch** wywołany kondensacją wilgoci wewnątrz digitizera. Co gorsza, jeśli w takim stanie Twój telefon utknie na statycznym, jasnym ekranie odtwarzacza muzyki przez dłuższy czas, w połączeniu z ciepłem i wilgocią drastycznie przyspieszasz proces stałego **wypalenia pikeli OLED**. Jako serwisant z Warszawy widzę to w każdy poniedziałek po weekendzie. Czas dowiedzieć się, jak przed tym uciec, automatyzując **Tryb Ciemny** i chroniąc hardware.
 
@@ -17,11 +16,9 @@ Wrzucasz ulubioną playlistę, kładziesz iPhone'a na półce w łazience i bior
 <strong>Wskazówka serwisu:</strong> Para wodna w łazience to cichy zabójca elektroniki. Ekran OLED nie wybacza trzymania statycznych, jasnych elementów interfejsu w wysokiej temperaturze i wilgotności.
 </div>
 
-
-
 ![iPhone OLED Burn-In Prevention: How to Set Up Automated Dark Mode Routine Mobile Repair Guide](https://picsum.photos/seed/mob-mvmpo789-9-b/1000/550.jpg)
 
-## 2. Root Cause Breakdown
+## 2. Szczegółowa analiza przyczyn problemów z ładowaniem i sprzętem
 
 Zanim przejdziemy do konfiguracji automatyzacji, spójrzmy prawdzie w oczy – dlaczego tak się dzieje? Oto trzy główne przyczyny problemów z ekranem w takich warunkach:
 
@@ -29,7 +26,7 @@ Zanim przejdziemy do konfiguracji automatyzacji, spójrzmy prawdzie w oczy – d
 - **Degradacja organicznych diod OLED:** Pikele w matrycach OLED emitują światło samodzielnie. Statyczne jasne elementy wyświetlane godzinami (np. paski odtwarzacza) wypalają subpiksele, tworząc trwałe "duchy" na matrycy.
 - **Brak natychmiastowej reakcji systemowej:** Użytkownicy często próbują wycierać telefon mokrymi rękoma, wciskając przypadkowo przyciski i potęgując błędy kontrolera dotyku.
 
-## 3. Step-by-Step Resolution
+## 3. Praktyczne rozwiązanie problemu krok po kroku
 
 Aby uniknąć uszkodzenia powłoki OLED oraz zminimalizować ryzyko awarii dotyku, musimy połączyć profilaktykę programową z odpowiednimi nawykami. Oto jak skonfigurować automatyczny Tryb Ciemny i zadbać o telefon po wilgotnym incydencie:
 
@@ -56,7 +53,7 @@ Aby uniknąć uszkodzenia powłoki OLED oraz zminimalizować ryzyko awarii dotyk
 4. Jeśli linia się przerywa lub skacze w innym miejscu, digitizer wciąż ma wilgoć.
 ```
 
-## 4. Expert Advice
+## 4. Wskazówki i ostrzeżenia profesjonalnego serwisanta
 
 W mojej praktyce serwisowej spotykam wielu klientów, którzy po wyjściu z zaparowanej łazienki próbują ratować telefon, wkładając go do miski z surowym ryżem. **To błąd techniczny!** Pył ryżowy wchodzi w interakcje z resztkami wilgoci, tworząc lepką miazgę, która dosłownie blokuje port Lightning lub USB-C. Jeśli Twój iPhone po kontakcie z parą wodną wariuje przez dłużej niż godzinę, najlepiej wyłączyć go całkowicie i oddać do serwisu w celu oczyszczenia płyty głównej z osadów mineralnych oraz zabezpieczenia taśm wyświetlacza.
 
@@ -64,7 +61,7 @@ W mojej praktyce serwisowej spotykam wielu klientów, którzy po wyjściu z zapa
 <strong>Ważna zasada bezpieczeństwa:</strong> Wodoszczelność iPhone'a (norma IP68) słabieje z wiekiem pod wpływem upadków, wysokich temperatur i naturalnego zużycia uszczelek. Łazienkowa para to najkrótsza droga do zalania wnętrza.
 </div>
 
-## 5. Frequently Asked Questions
+## 5. Najczęściej zadawane pytania (FAQ)
 
 Q: Czy włączenie Trybu Ciemnego całkowicie eliminuje ryzyko wypalenia ekranu OLED?
 

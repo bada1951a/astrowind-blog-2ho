@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Acid Lime Hacker Space"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Stoisz w pełnym słońcu na środku ruchliwego ronda w Warszawie, próbujesz szybko uchwycić uśmiech dziecka na zdjęciu, a tu nagle na ekranie wyskakuje krytyczny komunikat: "Brak pamięci", po czym aplikacja galerii całkowicie zamarza, a ekran ciemnieje do tego stopnia, że nie widzisz absolutnie nic. Znasz to uczucie bezradności? W tym momencie telefon przypomina rozgrzany do czerwoności piecyk, a słońce wcale nie pomaga w schłodzeniu procesora. Jako serwisant z wieloletnim stażem widzę ten scenariusz niemal codziennie. Urządzenie dostaje szału, gdy kumuluje się wysoka temperatura otoczenia, pełne obciążenie procesora i dławienie termiczne, czyli tak zwany *thermal throttling*. 
 

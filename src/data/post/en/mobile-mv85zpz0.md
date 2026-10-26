@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Moisture Detected", "Android Troubleshooting", "Emergen
 theme: "Dracula Purple Dev"
 ---
 
+## 1. Critical Smartphone Emergency Situation
 
 SFO 게이트 앞에서 마지막 슬랙(Slack) 긴급 파이프라인 이슈를 검토하려는데, 내 갤럭시 Z 폴드의 배터리 잔량은 간당간당한 5%. 보조배터리에서 케이블을 꺼내 USB-C 포트에 꽂는 순간, 화면이 파르르 떨리더니 살벌한 경고창이 떴다. "충전기/USB 포트에 습기가 감지되었습니다." 폰은 뜨거워지고, 탑승 안내 방송은 울려 퍼지고, 찬땀이 등줄기를 타고 흘렀다. 물에 빠뜨린 적도 없는데 이게 무슨 날벼락인지. 실리콘밸리 모바일 필드 엔지니어로서 진땀 흘리며 알아낸, 출국 직전 대참사를 막아낸 리얼 복구 가이드를 풀어본다.
 
@@ -69,7 +70,7 @@ If the device freezes completely during the moisture error loop, hold the <stron
 
 ---
 
-### Frequently Asked Questions (FAQ)
+## 5. Frequently Asked Questions (FAQ)
 
 Q1. 헤어드라이어 냉풍으로 말려도 안 되는데, 쌀 스타킹에 넣어두면 안 되나요?
 

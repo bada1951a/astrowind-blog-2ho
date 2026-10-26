@@ -8,6 +8,7 @@ tags: ["Smartphone", "Troubleshooting", "iOS", "Automation", "TipsTeknisi"]
 theme: "Pastel Lavender Tech"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Sialan, kerjaan kantor numpuk tapi harus *hotspot* dari iPhone pas lagi di kereta cepat karena Wi-Fi gerbong lemot kayak siput. Pas buka laptop, layar iPhone malah silau banget nyorot muka di kabin yang agak remang-remang. Mau nurunin brightness manual, nanti malah kelupaan balikin pas siang-siang, bikin boros baterai plus ninggalin risiko *burn-in* di panel OLED kesayangan. 
 
@@ -89,7 +90,7 @@ a: Kalau abis dari kereta dan koneksi Wi-Fi/Bluetooth mendadak ngadat pas balik 
 
 ---
 
-### Frequently Asked Questions (FAQ)
+## 5. Pertanyaan yang Sering Diajukan (FAQ)
 
 1. Apakah automation Dark Mode ini bakal terus aktif walau handphone di-restart?  
 Ya, sistem *Automation* di iOS bersifat permanen dan berjalan di background sistem operasi kecuali lo matikan atau hapus secara manual dari menu Pintasan.

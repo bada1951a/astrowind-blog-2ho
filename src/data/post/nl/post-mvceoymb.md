@@ -8,6 +8,7 @@ tags: ["Tech", "Hardware", "Troubleshooting", "Guide"]
 theme: "Steel Silver Metallic"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Het is kwart voor vijf op een regenachtige dinsdagmiddag in ons tech-kantoor aan de Amsterdamse Herengracht. Binnen twintig minuten moet die cruciale presentatie met alle Q3-cijfers naar de directie, en mijn iPhone weigert dienst met een vette waarschuwing op het scherm: *"Vocht gedetecteerd in Lightning-connector"*. Geen druppel water gezien, behalve misschien een paar spetters van de neerslag tijdens mijn fietstocht over de Keizersgracht vanochtend, en toch blokkeert de telefoon elke vorm van opladen en gegevensoverdracht. Paniek in de tent, want de batterij staat op eenzame hoogte van slechts vier procent.
 

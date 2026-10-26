@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Wireless Charging"]
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 ### 1. De ochtendpaniek op de Zuidas: Geen prik en een knipperend lampje
 
@@ -57,7 +58,7 @@ Moderne telefoons hebben de draadloze spoel vaak precies in het midden zitten, n
 
 ---
 
-### 4. Expert safety tips: Bescherm je accu en laadpinnen
+## 4. Belangrijke waarschuwingen van reparatiespecialisten safety tips: Bescherm je accu en laadpinnen
 
 Als hardware-reparateur zie ik wekelijks rampstories van mensen die beknibbelen op laadapparatuur. Onthoud deze vuistregels voor een lang leven van je mobiele hardware:
 

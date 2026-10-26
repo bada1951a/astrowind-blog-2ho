@@ -8,6 +8,7 @@ tags: ["Serwis Smartphone", "Android", "Galaxy Z Fold", "Porady Techniczne"]
 theme: "Dracula Purple Dev"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Bateria świeci na czerwono, do wejścia na pokład samolotu zostało dokładnie 8 minut, a na ekranie mojego wypasionego Galaxy Z Fold wyskakuje ten jeden, znienawidzony komunikat: „Wykryto wilgoć w porcie USB”. Krew mi odpłynęła z twarzy, bo w mailu czekał nierozliczony, kluczowy projekt dla klienta z Warszawy, a bez ładowania ani rusz. Zero kontaktu, zero plików. Stałem tam na środku terminala, w duchu przeklinając wszystko, co ruchome, i zastanawiając się, skąd do cholery wzięła się wilgoć w klimatyzowanym biurze, z którego przed chwilą wyjechałem.
 
@@ -77,8 +78,6 @@ Zainwestuj w porządne zatyczki silikonowe do portu USB-C, jeśli pracujesz w tr
 
 ### 1. Czy mogę bezpiecznie ładować telefon bezprzewodowo, gdy jest błąd wilgoci w porcie USB?
 Tak! Ładowanie bezprzewodowe (indukcyjne) omija fizyczny port USB-C i ukłąd kontroli przepływu prądu w tym złączu. Jeśli masz pod ręką powerbank indukcyjny lub ładowarkę Qi, to najszybszy sposób na ratunek baterii w podróży.
-
-
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-811/1000/550)
 

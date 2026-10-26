@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Wireless Charger"]
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Halo bosku, selamat datang lagi di meja servis saya. Ngomongin soal gadget, daerah tempat kerja saya di kawasan bisnis Jakarta ini ritmenya bener-bener cepet. Tiap hari meja saya gak pernah sepi dari HP kantoran yang masuk. Nah, kasus yang paling sering bikin stres para pekerja kantoran belakangan ini bukan cuma layar retak atau port USB-C longgar karena keseringan dicolok-cabut pas buru-buru, tapi juga masalah sepele yang bikin pusing: wireless charger kedip-kedip melulu tapi HP gak mau ngecas!
 

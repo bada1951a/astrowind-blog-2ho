@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Hardware Troubleshooting", "Flexkabel", "Smartphone Rep
 theme: "Rosewood Hardware Guide"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Es ist exakt 13:45 Uhr in unserem Büro im Münchner Werksviertel. In fünfzehn Minuten startet das entscheidende Q3-Alignment mit den neuen Investoren, und ich will auf die Schnelle noch die letzten Kennzahlen auf dem großen Innendisplay meines Galaxy Z Fold nachschlagen. Ich klappe das Smartphone auf – und blicke in einen absolut finsteren Abgrund. Kein Flackern, kein Samsung-Logo, kompletter Black Screen of Death. Das Außendisplay tut zwar noch so, als sei nichts, aber mein Herz macht trotzdem kurz einen Aussetzer. Wer schon mal mit einem halben Mini-Tablet in der Hand dastand, auf dem die halbe Präsentation liegt, weiß, wie sich kalter Angstschweiß anfühlt.
 

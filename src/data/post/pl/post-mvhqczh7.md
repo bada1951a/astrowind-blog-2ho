@@ -8,6 +8,7 @@ tags: ["Serwis iPhone", "Bateria", "iOS Update", "Naprawa telefonów", "Warszawa
 theme: "Cobalt Enterprise Lab"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Godzina 14:30, środek dnia, a w moim serwisie w samym centrum Warszawy pojawia się klient z bliską płaczu miną. "Panie serwisant, rano zaktualizowałem iPhone'a do najnowszego iOS i dojechałem z Mokotowa do Śródmieścia, a bateria ma już tylko 12 procent! Telefon parzy mnie w kieszeni, a przed mną jeszcze cały dzień na miarę spotkań biznesowych". Znam ten scenariusz na pamięć. Po każdej dużej aktualizacji Apple telefony zachowują się tak, jakby przeszły maraton bez rozgrzewki. Zamiast od razu biegać po nową baterię albo klnąć na Apple, podejdźmy do tematu chłodno, czysto i technicznie. 
 

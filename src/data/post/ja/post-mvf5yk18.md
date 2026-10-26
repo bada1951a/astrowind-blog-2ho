@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide"]
 ---
 
+## 1. スマホが突然動かなくなった緊急トラブル
 
 ### 外出直前の「充電が遅い」エラー、その焦りを何とかします
 

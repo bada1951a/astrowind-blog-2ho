@@ -8,6 +8,7 @@ tags: ["iOS", "Automatisierung", "OLED", "Troubleshooting", "Produktivität"]
 theme: "Pastel Lavender Tech"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Akkustand 12 Prozent, das Tunnel-WLAN im ICE (oder KTX, wer reist nicht im Geiste mit?) wirft mich mal wieder im Sekundentakt raus, und während ich versuche, das Firmen-VPN auf dem Laptop zu triggern, blendet mich mein iPhone im vollsten Weiß-Modus so dermaßen aggressiv an, dass die Netzhaut kapituliert. Genau in diesem Moment fällt mir auf: Wenn ich jetzt nicht sofort das OLED-Display schone und den Akku rette, stirbt mein Arbeitsgerät vor der Ankunft.
 
@@ -33,8 +34,6 @@ Wer im Pendler-Stress unterwegs ist, kennt das Phänomen. Man versucht krampfhaf
 3. Die visuelle Reizüberflutung: Wer im abgedunkelten Zugabteil auf weiße, grelle Webseiten starrt, provoziert asthenope Beschwerden (müde, brennende Augen), die die Konzentration komplett killen.
 
 Ich habe monatelang im Feldversuch erlebt, wie unzählige User stundenlang in den Einstellungen > Anzeige & Helligkeit manuell herumfummeln, anstatt das System für sich arbeiten zu lassen. Das muss aufhören.
-
-
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-40/1000/550)
 

@@ -8,6 +8,7 @@ tags: ["Samsung", "Troubleshooting", "Android", "DienThoai"]
 theme: "Midnight Navy Royal"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 14 giờ 45 phút chiều thứ Sáu tại văn phòng ở quận 1, TP.HCM. Không khí đang cực kỳ căng thẳng vì chỉ còn đúng 15 phút nữa là buổi họp đánh giá tiến độ quý với sếp tổng. Tôi đang cầm chiếc Samsung Galaxy trên tay để trích xuất nhanh số liệu kinh doanh vừa gửi qua Zalo thì đùng một cái, màn hình đơ cứng như đá. Vuốt không ăn, bấm phím nguồn không phản hồi, chạm kiểu gì cũng nằm im bất động. Mồ hôi hột túa ra vì toàn bộ báo cáo doanh thu chưa kịp đồng bộ lên Google Drive, nằm trọn trong bộ nhớ máy. Nghĩ đến cảnh phải đem ra tiệm chạy lại phần mềm mất sạch dữ liệu rồi ăn biên bản họp thì đúng là đứng ngồi không yên.
 

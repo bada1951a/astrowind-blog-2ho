@@ -8,6 +8,7 @@ tags: ["Sua chua iPhone", "Loi hao pin iOS", "Khu vuc TP.HCM", "Mẹo Cong Ngh�
 theme: "Deep Indigo System"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Mới sáng sớm ngồi vào bàn làm việc tại văn phòng ở quận 1, TP.HCM, chiếc iPhone vừa ngắt sạc đầy 100% chưa đầy tiếng đồng hồ, lướt check vài mail công việc và trả lời dăm ba tin nhắn Zalo mà máy đã tuột dốc không phanh xuống còn 42%. Sờ nhẹ mặt lưng thì thấy ấm lên bất thường, cắm sạc nhanh qua cổng Type-C thì dòng điện cứ trồi sụt, báo nhận sạc rồi lại ngắt liên tục. Khách hàng đang giục hợp đồng, sếp thì gọi liên hoàn chất vấn, mà cục pin thì cứ trôi tuột như nước đổ môn - đây chắc chắn là cơn ác mộng mà nhiều anh em văn phòng tại Sài Gòn từng gặp phải ngay sau khi bấm nút cập nhật phiên bản iOS mới.
 
@@ -63,8 +64,6 @@ Bụi vải trong túi quần, mồ hôi tay và độ ẩm đặc trưng của 
 
 ### 1. iPhone của tôi sau khi lên iOS mới bị nóng máy và hao pin, có nên hạ cấp (downgrade) iOS không?
 Trả lời: Theo kinh nghiệm của tôi, Apple thường khóa sign (ngừng cho phép hạ cấp) các phiên bản iOS cũ chỉ sau 1 đến 2 tuần kể từ khi bản mới ra mắt. Do đó, việc hạ cấp là rất khó khăn và rủi ro. Thay vào đó, bạn hãy kiên nhẫn đợi bản vá lỗi tiếp theo (thường là các bản .1 hoặc .2) và thực hiện tối ưu hóa các tiến trình ngầm như đã hướng dẫn ở trên.
-
-
 
 ![How to Fix iPhone Battery Draining Fast After Latest iOS Update Mobile Repair Guide](https://picsum.photos/seed/mob-mvhqftzi-11-b/1000/550.jpg)
 

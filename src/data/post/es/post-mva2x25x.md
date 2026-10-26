@@ -8,6 +8,7 @@ tags: ["iPhone", "Troubleshooting", "Apple", "Hardware", "Madrid"]
 theme: "Dracula Purple Dev"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran las 17:45 en nuestra oficina de Madrid. Faltaban exactamente quince minutos para enviar el informe trimestral definitivo al socio director, y mi iPhone decidió convertirse en un pisapapeles de cristal muy caro. La pantalla táctil quedó completamente congelada justo cuando intentaba aprobar el código de autenticación de dos pasos (2FA) que llegaba por SMS. Desesperado, comencé a deslizar el dedo como si no hubiera un mañana, pulsé el botón lateral repetidas veces y lo único que conseguí fue que el dispositivo ignorara por completo cualquier estímulo físico. El corazón me iba a mil por hora; el portшни de almacenamiento ya estaba al límite y el sistema operativo colapsó en el peor momento posible.
 

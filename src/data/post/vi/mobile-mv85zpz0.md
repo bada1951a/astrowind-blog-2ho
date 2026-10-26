@@ -8,6 +8,7 @@ tags: ["Galaxy Fold", "Sửa điện thoại", "Mẹo Android", "Xử lý sự c
 theme: "High-Contrast Charcoal"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Cổng sạc pin báo lỗi độ ẩm, máy sập nguồn ngay trước phút lên máy bay công tác quan trọng - Ác mộng có thật của dân văn phòng.
 

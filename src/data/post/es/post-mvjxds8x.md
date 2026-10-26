@@ -8,6 +8,7 @@ tags: ["Reparacion Movil", "Sobrecalentamiento", "Mantenimiento", "Trucos Androi
 theme: "Graphite Technical Paper"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Estás en plena Puerta del Sol un mediodía de julio, con el asfalto madrileño irradiando calor. Te acercas para capturar la sonrisa de tus hijos junto al Oso y el Madroño, abres la cámara y de repente salta el aviso en rojo: ["Almacenamiento Insuficiente"]. La aplicación de galería se congela por completo, la interfaz empieza a tirones y, para colmo, el brillo de la pantalla baja al mínimo de golpe dejándote a ciegas bajo el sol abrasador. No es solo un fallo de memoria; tu terminal ha entrado en pánico térmico.
 

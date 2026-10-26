@@ -8,6 +8,7 @@ tags: ["Riparazione iPhone", "Batteria iOS", "Guide Tecniche", "Milano Centro"]
 theme: "Sunset Horizon Coral"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Sono le 17:30, mi trovo nel mio laboratorio qui in pieno centro direzionale a Milano, e la scena si ripete identica per la terza volta oggi. Entra un cliente in preda al panico totale: "Ho fatto l'ultimo aggiornamento iOS ieri sera e stamattina il telefono mi si spegne dopo due ore, persino mentre è in tasca e non lo sto usando!". La percentuale della batteria crolla a vista d'occhio, il telefono è tiepido e la giornata lavorativa è ancora lunga. Il panico da batteria scarica è una realtà quotidiana, specialmente dopo un update importante del sistema operativo. 
 
@@ -81,4 +82,4 @@ R: Assolutamente falso. La modalità di risparmio energetico limita semplicement
 
 D: Come faccio a capire se il problema è l'aggiornamento o se la batteria è semplicemente guasta?
 
-R: Se la percentuale della batteria scende a blocchi netti (ad esempio passa di colpo dal 30% al 5% e poi si spegne) o se il telefono si spegne improvvisamente pur segnando il 20% di carica residua, siamo di fronte a un degrado chimico della batteria che richiede la sostituzione fisica del componente nel nostro centro assistenza. 
+R: Se la percentuale della batteria scende a blocchi netti (ad esempio passa di colpo dal 30% al 5% e poi si spegne) o se il telefono si spegne improvvisamente pur segnando il 20% di carica residua, siamo di fronte a un degrado chimico della batteria che richiede la sostituzione fisica del componente nel nostro centro assistenza.

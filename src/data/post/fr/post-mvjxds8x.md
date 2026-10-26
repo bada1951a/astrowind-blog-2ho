@@ -8,6 +8,7 @@ tags: ["Reparation Smartphone", "Surchauffe", "Guide Technique", "Astuces Tech"]
 theme: "Retro Monokai"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est 13h sur l'esplanade de La Défense. Le soleil tape fort sur les tours de verre, et vous sortez machinalement votre smartphone pour consulter un itinéraire urgent entre deux rendez-vous. Catastrophe : l'écran est subitement devenu presque noir, illisible, alors que la luminosité était réglée au maximum. Pire encore, le téléphone brûle entre vos doigts et refuse d'ouvrir votre application GPS. Pas de panique, ce n'est pas un bug magique ni une panne définitive de votre dalle OLED, mais bien un mécanisme de survie thermique. En tant que réparateur, je vois ce scénario des dizaines de fois par semaine dès que les beaux jours arrivent en Île-de-France.
 

@@ -8,6 +8,7 @@ tags: ["Smartphone", "Troubleshooting", "Android", "Galaxy Fold"]
 theme: "Matte Black stealth"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Mancavano letteralmente otto minuti alla chiusura dell'imbarco per Francoforte, avevo il gate dall'altra parte dell'aeroporto di Fiumicino, e la chat di lavoro stava esplodendo per un contratto milionario da firmare entro sera. Prendo il mio Galaxy Z Fold, attacco il cavo rapido alla power bank e... *bum*. Quell'avviso maledetto sullo schermo: *"Rilevata umidità nella porta USB"*. Batteria al 4%. Sudore freddo istantaneo, tachicardia a mille e la sensazione che la mia carriera stesse per finire tra i controlli di sicurezza. Nel mio laboratorio ne vedo di tutti i colori ogni giorno, ma trovarsi dall'altra parte della barricata, con il telefono principale muto e inerme mentre la batteria crolla, fa un altro effetto. Se anche voi vi siete trovati con il cuore in gola per un falso allarme o per un vero contatto con i liquidi proprio nel momento meno opportuno, mettetevi comodi. Vi spiego cosa succede davvero dentro quella porta Type-C e come risolverlo senza fare danni irreparabili.
 

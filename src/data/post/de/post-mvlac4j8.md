@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Display Helligkeit", "Smartphone Tipps", "Reparatur Gu
 theme: "Deep Ocean Cobalt"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Ich saß gerade in einem überfüllten Café im Prenzlauer Berg, als mein Smartphone im direkten Sonnenlicht vom Tisch aus plötzlich komplett abdunkelte, genau in dem Moment, als ich mitten in einer Serie von dringenden geschäftlichen Abstimmungsgesprächen steckte. Obwohl das Ladekabel fest eingesteckt war, sank die Akkuanzeige stetig weiter ab, während ich angestrengt versuchte, den Bildschirm im grellen Tageslicht zu erkennen. Die Helligkeit sprang unaufhörlich hin und her, weil das Gerät versuchte, sich vor Überhitzung zu schützen. Als erfahrener Techniker weiß ich genau, wie frustrierend dieses Phänomen im modernen Arbeitsalltag ist, wenn man draußen auf dem Sprung ist und das Display unlesbar wird.
 

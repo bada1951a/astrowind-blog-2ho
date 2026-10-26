@@ -8,6 +8,7 @@ tags: ["iPhone", "Troubleshooting", "Apple", "Hardware", "München"]
 theme: "Steel Silver Metallic"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Es ist exakt 13:45 Uhr. Um 14:00 Uhr steht der wichtigste Quartalstermin mit einem neuen Großkunden in unserem Büro hier in Schwabing an. Ich stehe im Konferenzraum, will noch schnell die finalen Projektdaten auf dem iPhone aufrufen – und plötzliche Totenstille. Der Bildschirm meines iPhones ist komplett eingefroren. Weder Wischgesten noch der Home-Indikator oder der Power-Button zeigen irgendeine Reaktion. Der Touchscreen bleibt absolut tot, während im Hintergrund wahrscheinlich gerade eine wichtige Slack-Nachricht eintrudelt. Der Puls schießt sofort nach oben. Kein Neustart über das normale Menü möglich, weil man den "Ausschalten"-Slider nicht bedienen kann. Panik bricht aus.
 

@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Smartfon", "Poradnik", "Praca"]
 theme: "Midnight Navy Royal"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Pociąg PKP Intercity z Poznania do Warszawy leci jak szalony, za oknem mkną mazowieckie pola, a ja w siódmym potach próbuję ogarnąć podpisane pismo od zarządu dla kluczowego kontrahenta. Do spotkania w biurowcu w warszawskim Mordorze zostało dokładnie 10 minut. Wyciągam telefon, żeby szybko zrobić fote i wrzucić przez mobilny faks w Samsungu, wciskam "Wyślij", a tu nagле... katastrofa. Na podglądzie dokumentu widać wielki, ciemny cień mojej własnej ręki, kartka świeci się jak lusterko odbijające jarzeniówkę z wagonu, a tekst jest zamazany tak, że przypomina raczej kod QR niż oficjalne oświadczenie. Klient ma to dostać na maila za pięć minut, a stacja Warszawa Zachodnia zbliża się wielkimi krokami. Serce podchodzi mi do gardła, bateria w telefonie pokazuje kryzysowe 12 procent, a ja czuję, że ten kontrakt zaraz wyparuje przez głupi cień i kiepskie oświetlenie w pociągu.
 

@@ -8,6 +8,7 @@ tags: ["iOS", "Modo Escuro", "Automação", "Dicas de Técnico", "OLED"]
 theme: "Deep Ocean Cobalt"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 São Paulo, ramal da CPTM lotado às 8h da manhã, o notebook aberto no colo com a bateria morrendo, e eu precisando urgentemente puxar um relatório gigantesco direto do servidor da firma. Abro o *Hotspot Pessoal* (Acesso Pessoal) no meu iPhone 15 Pro, o Mac insiste em empacar no handshake de IP, e o celular vira uma chapa de quentinha de tão quente. Para piorar, aquela tela OLED brilhando a 100% de brilho no modo claro parecendo um farol de milha na cara dos passageiros, sugando a minha bateria de 100% para 40% em vinte minutos e fritando os pixels estáticos da barra de status. Quem nunca passou por esse cão chupando manga que atire a primeira pedra. <div style="border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>DIRETRIZ DE SEGURANÇA MDM & OPERAÇÃO CORPORATIV
@@ -96,4 +97,4 @@ Zero. O sistema de automações do iOS (`daemóns` nativos) consome menos energi
 Sim! Na aba de Automação Pessoal, selecione a opção Wi-Fi. Escolha o SSID da rede da sua empresa. Defina para executar a ação de ativar o Modo Escuro (e até abrir seu app de VPN corporativo) assim que o celular conectar na rede da firma.
 
 3. O Modo Escuro realmente evita o burn-in em telas OLED modernas?  
-Com certeza. Embora os painéis OLED atuais (usados do iPhone 13 em diante) tenham tecnologias avançadas de deslocamento de pixels (*pixel-shifting*) e subpíxeis mais resistentes, os diodos que exibem o preto absoluto ficam completamente desligados (consumindo 0% de energia e gerando zero desgaste químico). Menos luz emitida = vida útil estendida da tela. 
+Com certeza. Embora os painéis OLED atuais (usados do iPhone 13 em diante) tenham tecnologias avançadas de deslocamento de pixels (*pixel-shifting*) e subpíxeis mais resistentes, os diodos que exibem o preto absoluto ficam completamente desligados (consumindo 0% de energia e gerando zero desgaste químico). Menos luz emitida = vida útil estendida da tela.

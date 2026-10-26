@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Samsung Galaxy", "Tips Gadget", "Layar Redup"]
 theme: "Mint Fresh Engineering"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Suasana di salah satu kafe kawasan Sudirman sedang sibuk-sibuknya, jam istirahat siang di tengah teriknya matahari Jakarta yang menyengat. Saya sedang duduk sambil menerima rentetan panggilan telepon darurat dari klien kantor untuk membahas revisi proyek besar. Di saat tensi sedang tinggi-tingginya dan layar Samsung Galaxy saya butuh keterbacaan maksimal di bawah sorotan cahaya luar ruangan yang menembus kaca kafe, tiba-tiba layar HP meredup sendiri secara drastis hingga hampir tidak terlihat. Bukan hanya itu, saat saya colokkan kabel power bank, persentase baterai malah terus merosot turun karena panas berlebih membuat sistem menurunkan kecerahan layar demi meredam suhu mesin. Panik luar biasa rasanya ketika klien terus bicara sementara teks di layar menjadi gelap gulita dan buram.
 
@@ -46,8 +47,7 @@ Anda juga bisa melakukan pengecekan fungsi sensor melalui menu rahasia diagnosis
 ```
 
 Pilih menu Sensor, lalu arahkan tangan mendekati bagian atas layar untuk memastikan nilai pembacaan cahaya (*Light Sensor*) berubah merespons perubahan kondisi sekitar. Jika nilai berubah saat didekatkan dan dijauhkan, berarti sensor hardware Anda aman 100 persen dan masalahnya murni pada software atau suhu.
-
-Frequently Asked Questions (FAQ)
+## 5. Pertanyaan yang Sering Diajukan (FAQ)
 
 Q1. Apakah mematikan Kecerahan Adaptif bisa merusak layar AMOLED Samsung saya dalam jangka panjang?
 

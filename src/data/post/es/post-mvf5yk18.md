@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Carga Lenta", "Power Bank"]
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 ¡Hola, compis del mundillo y clientes frustrados! Te lo digo yo desde el banco de trabajo aquí en la oficina de Madrid: no hay nada que exasperes más a alguien que va con el tiempo pegado al culo por la Gran Vía que conectar la batería externa, mirar la pantalla del móvil a los cinco minutos y ver el maldito aviso de "Carga lenta" o ver que el porcentaje en vez de subir, baja. Te pones en situación: sales pitando de una reunión, el iPhone o el Android te marca un 12% de batería, sacas la power bank que te costó una pasta, la enchufas con ilusión... y zas. El teléfono parece que se ríe de ti.
 

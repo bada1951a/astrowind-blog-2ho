@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Support IT", "Android", "Depannage"]
 theme: "Teal Matrix Digital"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 L'embarquement venait d'ouvrir pour le vol CDG-Francfort, mon boss m'inonde de messages sur Teams pour valider le deck du client, et mon Galaxy Z Fold affiche crânement 4 % de batterie. Le drame classique du tech support mobile qui gère la flotte de l'boîte mais oublie son propre matos. Je me jette sur une borne de recharge à l'arrache, je plug le câble USB-C... et là, le choc thermique et psychologique : "Détection d'humidité dans le port USB". Vibration longue, popup rouge vif, impossible de charger d'un iota. À deux minutes du "Last Call", avec un smartphone pliable grand ouvert qui draine sa batterie à vue d'œil et un compte-rendu stratégique en plan. Sueur froide garantie, l'impression d'avoir un presse-papier à 2000 balles entre les mains.
 

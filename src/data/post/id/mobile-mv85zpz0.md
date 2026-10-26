@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy Fold", "Troubleshooting", "Tips Servis", "Android"]
 theme: "Solarized Amber Warm"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Sumpah, ini momen paling *jantungan* selama gue wara-wiri dinas luar kota. Waktu itu gue lagi di gate bandara Soetta, tinggal 15 menit lagi mau *boarding* pesawat ke Surabaya. Urusan kerjaan? Wah, kacau. Bos besar nge-spam chat WhatsApp nanyain file proposal final yang masih nyangkut di laptop tapi harus direvisi lewat HP, sementara persentase baterai Galaxy Z Fold kesayangan gue tinggal *nyisa* 4 persen! Dengan tangan bergetar, gue buru-buru colok kabel *fast charging* power bank ke port USB-C. Tapi alih-alih logo petir hijau muncul, layar HP malah nembak pop-up merah menyal
 

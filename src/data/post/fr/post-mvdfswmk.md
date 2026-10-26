@@ -8,6 +8,7 @@ tags: ["iPhone", "Depannage", "Hardware", "Astuces Tech"]
 theme: "Nordic Clean Ice"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est 13h45, le ciel de Paris est gris, et la pression monte au bureau. Dans quinze minutes, je dois présenter notre stratégie trimestrielle en salle de réunion. Problème critique : mon iPhone refuse désespérément de se charger, affichant cette satanée alerte : "Du liquide a été détecté dans le connecteur Lightning / USB-C". La batterie est à 4 pour cent. Pas une goutte d'eau n'a touché le téléphone pourtant, juste un café un peu trop près du bureau ou peut-être la condensation du trajet matinal sous la pluie parisienne. Panique à bord, mes notes de présentation sont entièrement dématérialisées dessus.
 

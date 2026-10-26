@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Dicas Android", "Assistência Técnica", "Carregamento"
 theme: "Warm Coffee Latte"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Faltavam exatamente 15 minutos para fechar o portão de embarque do voo para São Paulo. Eu estava no saguão do aeroporto, suando frio, segurando meu Galaxy Z Fold com apenas 4% de bateria. O grupo do trabalho bombando no WhatsApp com cobranças sobre a apresentação comercial que eu faria assim que pousasse, e eu precisava urgentemente espetar o cabo do power bank. Foi só plugar o USB-C que a tela acendeu com aquele aviso macabro: "Detectada umidade na porta de carregamento". Meu coração parou. Eu não tinha entrado na piscina, não tinha tomado chuva, o celular só estava no meu bolso no ar-condicionado. E agora?
 

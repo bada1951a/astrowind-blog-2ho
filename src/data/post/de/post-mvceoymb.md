@@ -8,6 +8,7 @@ tags: ["iPhone", "USB-C", "Hardware", "Troubleshooting", "Muenchen"]
 theme: "Bronze Artisan Workshop"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Es war exakt 14:15 Uhr an einem Dienstagnachmittag in unserem Buero im Muenchner Werksviertel. In vierzig Minuten sollte der entscheidende Q3-Review-Call mit einem wichtigen Grosskunden ueber die Buehne gehen. Ich hatte mein iPhone 15 Pro Max am Schreibtisch liegen, den Kaffee in unmittelbarer Naehe, als ein winziger Tropfen Kondenswasser oder ein Hauch Restfeuchtigkeit das besiegelte, wovor sich jeder ITler im Aussendienst fuerchtet: Plötzlich ploppte die Warnmeldung auf dem Display auf. *„Flüssigkeit im USB-C-Anschluss erkannt“*. Kein Laden mehr moeglich, und der Akku stand bei kritischen 12 Prozent. Der Adrenalinspiegel schoss sofort durch die Decke, denn ohne funktionierendes Geraet und gespiegelten Bildschirm war der Termin gelaufen.
 

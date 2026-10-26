@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Powerbank", "Amsterdam"]
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 ### Die typische Zuidas-paniek: accu leeg, powerbank traag
 

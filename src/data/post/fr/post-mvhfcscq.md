@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Reparation Smartphone", "Batterie", "Surchauffe", "Tut
 theme: "High-Contrast Charcoal"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est 13h00 en plein cœur de Paris La Défense. Je suis penché sur mon établi, un café tiède à côté de mes tournevis de precision, quand un cadre stressé déboule dans l'atelier. Son Samsung Galaxy S23 est bouillant au point qu'il a du mal à le garder en main. Le pourcentage de batterie fond à vue d'œil, passant de 40% à 15% en moins de dix minutes sans même qu'il ne touche à l'écran, le tout accompagné d'une panne totale de charge rapide. En pleine journée de réunions avec des clients importants, c'est le scénario catastrophe absolu. 
 

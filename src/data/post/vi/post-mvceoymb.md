@@ -8,6 +8,7 @@ tags: ["Sửa chữa điện thoại", "Lỗi cổng sạc", "Mẹo công nghệ
 theme: "Forest Emerald Bio"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Trưa nay tại văn phòng ở quận 1, TP.HCM, không khí đang vô cùng căng thẳng. Sếp tổng vừa nhắn trên nhóm chat yêu cầu tôi phải trích xuất ngay lập tức toàn bộ dữ liệu dự án trên chiếc điện thoại chính để chuẩn bị cho buổi họp chiều. Xui xẻo làm sao, vừa cắm sợi cáp USB-C vào để kết nối với máy tính, màn hình điện thoại lập tức hiện lên cảnh báo đỏ rực: "Liquid has been detected in USB-C connector". Cắm sạc không vào, máy tính thì không nhận diện được thiết bị, trong khi thời gian đếm ngược chỉ còn chưa đầy 30 phút. Đổ mồ hôi hột, tôi biết nếu không xử lý nhanh gọn và chính xác, đống dữ liệu kia sẽ kẹt cứng trong máy và hậu quả khó mà lường trước.
 

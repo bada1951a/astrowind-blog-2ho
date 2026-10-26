@@ -8,6 +8,7 @@ tags: ["iPhone", "LiquidDetection", "HardwareTroubleshooting", "TechTip"]
 theme: "Cobalt Enterprise Lab"
 ---
 
+## 1. 스마트폰 먹통 돌발 위기 상황
 
 서울 판교의 한 IT 기업, 중요한 파트너사 미팅을 불과 30분 앞두고 회의실로 향하던 길이었습니다. 손에 들고 있던 아이폰으로 급하게 슬랙(Slack) 메시지를 확인하려는데, 커피를 테이크아웃하다 흘린 잔여물이 포트 쪽에 살짝 튀었는지 갑자기 화면에 "Lightning 커넥터에서 액체가 감지되었습니다"라는 경고창이 떴습니다. 
 

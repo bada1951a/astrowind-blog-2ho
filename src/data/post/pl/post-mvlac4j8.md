@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Serwis Telefonów", "Poradnik Tech", "Ekran AMOLED"]
 theme: "Forest Emerald Bio"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Stoję właśnie na przystanku tramwajowym w samym centrum Warszawy, próbując na szybko sprawdzić adres klienta w mailu, a mój Samsung Galaxy nagle robi się tak ciemny, że widzę w nim tylko własną twarz jak w lusterku. Znasz to uczucie frustracji, kiedy słońce świeci w oczy, a telefon postanawia, że wcale nie potrzebujesz niczego widzieć? Klient czeka, tramwaj się spóźnia, a ekran uparcie gasnie, mimo że suwak jasności ustawiony jest na absolutne maksimum. To klasyczny scenariusz, z którym codziennie przychodzą do mojego serwisuście klienci narzekający na dziwne zachowanie swoich flagowców. 
 

@@ -8,6 +8,7 @@ tags: ["iPhone", "Bateria", "Assistencia Tecnica", "iOS", "Dicas Tech"]
 theme: "Sunset Horizon Coral"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Eram exatamente 14h30 em um dia caótico na minha bancada em São Paulo, no meio de um ambiente corporativo agitado, quando um cliente entrou desesperado. O iPhone dele simplesmente derreteu 30% de carga em menos de 20 minutos de reunião, o aparelho estava esquentando na mão, e para piorar, o conector de carga estava emperrado com tanto fiapo de bolso que o cabo nem encaixava direito. O chefe dele ligando, a bateria caindo para 5%, e o desespero instalado. Se você atualizou o iOS recentemente e parece que a sua bateria virou manteiga derretida, relaxa. Respira fundo que eu vou te mostrar exatamente o que está acontecendo e como resolver isso sem cair em furadas.
 
@@ -86,12 +87,10 @@ a:
 ### 1. É normal o iPhone esquentar e descarregar rápido nos primeiros dias após atualizar o iOS?
 Sim, é completamente normal. O sistema operacional realiza indexações profundas de arquivos e fotos em segundo plano nas primeiras 24 a 48 horas após o update. O processador trabalha no talo, gerando calor e gastando mais bateria. Se persistir por mais de 3 dias, há um problema a ser investigado.
 
-
-
 ![How to Fix iPhone Battery Draining Fast After Latest iOS Update Mobile Repair Guide](https://picsum.photos/seed/mob-mvhqeslw-7-b/1000/550.jpg)
 
 ### 2. Posso usar álcool comum de farmácia para limpar o conector de carga?
 De jeito nenhum! O álcool comum (70%) contém cerca de 30% de água na sua composição, o que pode causar oxidação imediata nos micro-contatos do conector do seu iPhone. Utilize sempre álcool isopropílico acima de 99%, que evapora instantaneamente sem deixar umidade.
 
 ### 3. Meu conector está limpo, a bateria foi trocada recentemente, mas continua descarregando. O que pode ser?
-Se a bateria é nova e o sistema está otimizado, o problema pode estar na placa lógica, especificamente em fugas de corrente causadas por componentes em curto no circuito integrado de gerenciamento de energia (PMIC). Nesse cenário, o ideal é levar a um técnico especializado para uma análise com fonte de bancada. 
+Se a bateria é nova e o sistema está otimizado, o problema pode estar na placa lógica, especificamente em fugas de corrente causadas por componentes em curto no circuito integrado de gerenciamento de energia (PMIC). Nesse cenário, o ideal é levar a um técnico especializado para uma análise com fonte de bancada.

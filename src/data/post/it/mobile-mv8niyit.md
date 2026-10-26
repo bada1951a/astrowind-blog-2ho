@@ -8,6 +8,7 @@ tags: ["iPhone", "Dark Mode", "OLED", "Batteria", "Automazione"]
 theme: "Industrial Blueprint"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Ore 07:30, treno KTX diretto a Milano Centrale (o Roma Termini, fate voi). Devo assolutamente aprire il Mac, far partire l'hotspot dal mio iPhone 15 Pro e chiudere un preventivo urgente prima di arrivare in stazione. Controllo la percentuale della batteri
 

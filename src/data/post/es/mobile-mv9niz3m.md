@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Trucos Android", "Escáner móvil", "Productividad", "
 theme: "Nordic Clean Ice"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 > "Venga, que llegamos tarde a Atocha y el cliente de Barcelona me acaba de escribir pidiendo el contrato firmado y sellado por correo urgente. Saco el móvil, abro la aplicación para escanear el documento sobre la mesita rencoqueante del Cercanías... y desastre total: la sombra de mi propia mano tapa la mitad del papel, la luz del fluorescente hace un reflejo blanco gigante y, para colmo, cuando le doy a enviar por WhatsApp, el archivo pesa tanto que se queda dando vueltas en la pantalla con el 4G fallando en medio del túnel."
 

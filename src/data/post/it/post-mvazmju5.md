@@ -8,6 +8,7 @@ tags: ["Samsung", "Smartphone", "Troubleshooting", "Android"]
 theme: "Sandstone Desert Minimal"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Erano le 14:45 e mi trovavo nel nostro ufficio in zona Porta Nuova a Milano, a un quarto d'ora dall'inizio di una conference call fondamentale con i clienti di Roma. Ovviamente, proprio in quel momento, il mio Samsung Galaxy ha deciso di congelarsi completamente: schermo nero, nessuna risposta al tocco, e l'ansia che saliva perché stavamo per iniziare la condivisione dello schermo per la presentazione. Ho iniziato a toccare freneticamente il vetro, a premere il tasto laterale a caso, ma niente. Il display era del tutto insensibile e la tentazione di far cadere la batteria o fare un reset di fabbrica mi è balenata in mente per un secondo, prima che la razionalità da IT specialist riprendesse il sopravvento.
 

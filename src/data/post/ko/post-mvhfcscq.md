@@ -8,6 +8,7 @@ tags: ["Galaxy Repair", "Battery Drain", "Overheating", "Tech Tips"]
 theme: "Pastel Lavender Tech"
 ---
 
+## 1. 스마트폰 먹통 돌발 위기 상황
 
 어제 아침 출근길, 강남역에서 환승을 하려고 스마트폰을 꺼냈는데 깜짝 놀랐습니다. 분명 집을 나설 때 95퍼센트였던 배터리가 지하철 한 정거장 사이에 30퍼센트로 뚝 떨어져 있더군요. 손에 쥔 갤럭시 뒷면은 계란을 구워도 될 만큼 뜨거웠고, 급하게 보조배터리를 연결했는데 고속 충전은커녕 "온도가 너무 높아 충전을 일시 중지합니다"라는 경고 창만 떴습니다. 중요한 클라이언트 미팅 직전이라 식은땀이 줄줄 흐르던 그 아찔한 순간, 매장에 출근하자마자 곧바로 원인 분석에 들어갔습니다.
 
@@ -57,8 +58,6 @@ Q3. 배터리 설정에서 '배터리 보호' 기능을 켜면 발열이 줄어�
 A: 배터리 보호 기능은 수명 연장(최대 충전량 제한)을 위한 것이며 직접적인 발열 해결책은 아닙니다. 다만 발열로 인한 배터리 열화 속도를 늦춰주는 보조적인 안전장치 역할은 톡톡히 해냅니다.
 
 ---
-
-
 
 ![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhfcscr-0-b/1000/550.jpg)
 

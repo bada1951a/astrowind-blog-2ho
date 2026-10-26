@@ -8,6 +8,7 @@ tags: ["iPhone", "Suporte Técnico", "Dicas", "Hardware"]
 theme: "High-Contrast Charcoal"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Eram exatas 15h30 em ponto no nosso escritório corporativo na região da Avenida Paulista, em São Paulo. O expediente estava no ápice da correri
 

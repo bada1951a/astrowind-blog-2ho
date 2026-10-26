@@ -8,6 +8,7 @@ tags: ["Tech", "Hardware", "Troubleshooting", "Guide"]
 theme: "Industrial Blueprint"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Ore 14:45, quarto piano di un palazzo in zona Porta Nuova a Milano. Il mio smartphone è al 4% di batteria e tra esattamente quindici minuti devo collegarlo al proiettore della sala riunioni per presentare il report trimestrale al board europeo. Infilo il cavo USB-C nella presa e sullo schermo compare quel messaggio che fa gelare il sangue: *"Liquido rilevato nel connettore Lightning/USB-C"*. Il panico sale. Fuori piove a dirotto, lo zaino è rimasto sotto una raffica di vento mentre camminavo dalla metro, e adesso il telefono rifiuta categoricamente di caricarsi. Nessun asciugamano a portata di mano, solo il fiatone e la riunione che incombe.
 

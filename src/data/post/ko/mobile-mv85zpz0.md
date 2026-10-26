@@ -8,6 +8,7 @@ tags: ["GalaxyFold", "WaterDropError", "AndroidTroubleshooting", "MobileRepair",
 theme: "Dark Velvet Obsidian"
 ---
 
+## 1. 스마트폰 먹통 돌발 위기 상황
 
 인천공항 탑승구 앞, 출국 직전 긴급 기획안 수정 건으로 임원 카톡이 폭발하던 그 아비규환 속이었다. 배터리는 간당간당 5%. 헐레벌떡 보조배터리를 꺼내 C타입 케이블을 폴드 힌지 쪽에 쑤셔 넣는 순간, 화면 한가운데 박힌 붉은색 경고 창.
 

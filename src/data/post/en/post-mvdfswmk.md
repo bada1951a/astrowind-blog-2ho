@@ -8,6 +8,7 @@ tags: ["iPhone", "Hardware", "TechSupport", "Troubleshooting"]
 theme: "Electric Cyan Speed"
 ---
 
+## 1. Critical Smartphone Emergency Situation
 
 Ten minutes before walking into the executive conference room in our Silicon Valley office for a crucial quarterly sync, my iPhone flashed the dreaded alert: "Liquid Detected in Lightning Connector." The panic was immediate. My entire slide deck, client contact notes, and authenticator codes were locked behind Face ID on that device, and the warning refused to go away even though my phone had barely been near a drop of water—just a bit of heavy condensation from my iced oat milk latte earlier that morning. 
 
@@ -56,7 +57,7 @@ If you are 100% certain the port is completely dry and clean, but iOS is still t
 
 ---
 
-## Expert Warnings & Best Practices
+## 4. Professional Repair Technician Precautions & Tips
 
 <div style="border-left: 4px solid #06b6d4; padding: 12px 16px; margin: 20px 0; background-color: rgba(6,182,212,0.08); border-radius: 4px; color: #111827;">
 <strong>⚠️ Safety First:</strong> Never poke metal needles, paperclips, or sewing pins into your iPhone port. You will scratch the gold contact pins or short out the logic board battery line instantly.
@@ -67,7 +68,7 @@ If you are 100% certain the port is completely dry and clean, but iOS is still t
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## 5. Frequently Asked Questions (FAQ)
 
 Q: Can I charge my phone using a cable if the liquid alert is active?
 

@@ -8,7 +8,6 @@ tags: ["Samsung Repair", "Android Fix", "Boot Loop", "Tech Tips"]
 theme: "Acid Lime Hacker Space"
 ---
 
-
 ## 1. Tình huống khởI đầu và sự cố treo logo
 
 Hôm đó, tôi đang ngồi trên chuyến tàu tuyến metro số 1 tại Sài Gòn, điện thoại Samsung Galaxy của một bạn trẻ ngồi cạnh bỗng phát ra âm thanh báo lỗi liên tục. Cắm cục sạc dự phòng vào máy để cấp cứu pin chuẩn bị cho buổi họp gấp, chiếc điện thoại thay vì nhận sạc nhanh lại hiện cảnh báo chớp nháy liên tục, sau đó sập nguồn và kẹt cứng ở màn hình logo Samsung. Khởi động lại mấy lần máy vẫn cứ lặp đi lặp lại tình trạng này, khiến chủ nhân mặt cắt không còn giọt máu vì sợ mất hết dữ liệu công việc quan trọng.
@@ -16,8 +15,6 @@ Hôm đó, tôi đang ngồi trên chuyến tàu tuyến metro số 1 tại Sài
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(132, 204, 22, 0.08); border-radius: 4px; color: #111827;">
 <strong>Lời khuyên từ thợ:</strong> Hiện tượng Samsung Galaxy bị kẹt ở logo khởi động (boot loop) sau khi gặp sự cố nguồn điện hoặc sau khi cập nhật phần mềm thường do xung đột dữ liệu tạm thời trong hệ thống, chứ chưa hẳn đã hỏng ổ cứng hay mainboard như nhiều người vẫn lo sợ.
 </div>
-
-
 
 ![Samsung Galaxy Boot Loop Stuck on Samsung Logo: Clearing Cache Partition in Recovery Mobile Repair Guide](https://picsum.photos/seed/mob-mvoupqtk-11-b/1000/550.jpg)
 

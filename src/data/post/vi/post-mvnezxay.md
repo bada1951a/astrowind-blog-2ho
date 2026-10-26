@@ -8,8 +8,7 @@ tags: ["Mobile Repair", "Samsung", "Boot Loop", "Tech Tips"]
 theme: "Rosewood Hardware Guide"
 ---
 
-
-## 1. [Opening Story/Problem]
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Buổi chiều tại một quán cà phê bận rộn ở Quận 1, TP.HCM, tôi đang ngồi nhấp ngụm cà phê thì một vị khách hớt hải chạy vào tiệm sửa điện thoại nhỏ của tôi. Chị tay cầm chiếc Samsung Galaxy đời mới, mặt tái mét vì máy cứ nhấp nháy mãi ở logo khởi động mà không chịu vào màn hình chính. Chị kể vừa đưa máy lên định chụp lại khoảnh khắc đáng yêu của con trai thì màn hình hiện thông báo **"bộ nhớ đầy"** (low storage), ngay sau đó ứng dụng thư viện ảnh đơ cứng rồi máy sập nguồn và kẹt luôn ở màn hình khởi động Samsung. Đây là cơn ác mộng kinh điển của nhiều người dùng smartphone khi bộ nhớ đệm (cache) bị quá tải đột ngột trong lúc hệ thống đang ghi dữ liệu.
 
@@ -17,11 +16,9 @@ Buổi chiều tại một quán cà phê bận rộn ở Quận 1, TP.HCM, tôi
 <strong>Cảnh báo khẩn cấp từ thợ sửa chữa:</strong> Khi điện thoại bị treo logo do đầy bộ nhớ, tuyệt đối không cố gắng bấm liên tục các phím nguồn hoặc mang đi cài lại phần mềm ngay lập tức. Điều này có thể khiến dữ liệu cá nhân chưa đồng bộ bị mất vĩnh viễn.
 </div>
 
-
-
 ![Samsung Galaxy Boot Loop Stuck on Samsung Logo: Clearing Cache Partition in Recovery Mobile Repair Guide](https://picsum.photos/seed/mob-mvnf1ypa-11-b/1000/550.jpg)
 
-## 2. [Root Cause Breakdown]
+## 2. Phân tích nguyên nhân gốc rễ lỗi sạc và phần cứng
 
 Dựa trên kinh nghiệm xử lý hàng trăm ca tương tự tại bàn làm việc của mình, tình trạng Samsung Galaxy bị kẹt ở logo khởi động (boot loop) sau một thông báo đầy bộ nhớ xuất phát từ ba nguyên nhân chính sau:
 
@@ -29,7 +26,7 @@ Dựa trên kinh nghiệm xử lý hàng trăm ca tương tự tại bàn làm v
 - **Lỗi vòng lặp khởi động do tệp rác hệ thống:** Ứng dụng Thư viện (Gallery) cố gắng lưu tệp cache ảnh nhưng bị gián đoạn giữa chừng, tạo ra các tệp tin hỏng nằm kẹt trong phân vùng hệ thống, khiến máy không thể vượt qua bước khởi động kiểm tra tính toàn vẹn dữ liệu.
 - **Xung đột phân vùng dữ liệu người dùng (Userdata):** Việc cố gắng ghi dữ liệu khi ổ cứng gần đầy hoàn toàn có thể làm hỏng bảng phân vùng logic, buộc hệ thống phải tự động treo máy để bảo vệ phần cứng khỏi việc ghi đè gây chết ổ cứng flash (eMMC/UFS).
 
-## 3. [Step-by-Step Resolution]
+## 3. Các bước xử lý khẩn cấp thực tế từng bước
 
 May mắn là trường hợp của chị khách hàng không cần phải chạy lại phần mềm hay mất dữ liệu. Chúng ta hoàn toàn có thể giải quyết triệt để tình trạng này bằng cách truy cập vào chế độ **Recovery Mode** để xóa phân vùng cache mà không chạm vào dữ liệu cá nhân.
 
@@ -53,7 +50,7 @@ Cache wipe complete.
 Rebooting system...
 ```
 
-## 4. [Expert Advice]
+## 4. Lưu ý và lời khuyên quan trọng từ thợ sửa chữa
 
 Là một người thợ sửa chữa lâu năm, tôi luôn khuyên khách hàng của mình tuân thủ các quy tắc phòng ngừa để tránh lặp lại tình trạng này:
 
@@ -61,7 +58,7 @@ Là một người thợ sửa chữa lâu năm, tôi luôn khuyên khách hàng
 - **Dọn dẹp cache định kỳ:** Vào phần **Cài đặt > Chăm sóc thiết bị > Lưu trữ** để xóa rác hệ thống mỗi tháng một lần, đặc biệt là sau khi chụp ảnh hoặc quay video dung lượng cao.
 - **Đồng bộ đám mây:** Nên sử dụng Google Photos hoặc OneDrive để tự động sao lưu ảnh, giúp giải phóng ngay lập tức không gian bộ nhớ máy khi cần thiết.
 
-## 5. Frequently Asked Questions
+## 5. Các câu hỏi thường gặp (FAQ)
 
 Q: Xóa phân vùng cache partition trong Recovery Mode có làm mất ảnh và danh bạ của tôi không?
 

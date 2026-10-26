@@ -8,6 +8,7 @@ tags: ["Reparacion iPhone", "Bateria", "Actualizacion iOS", "Servicio Tecnico Ma
 theme: "Solarized Amber Warm"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran las 4:30 de la tarde en nuestra oficina de Madrid cuando sono la alarma silenciosa de mi propio terminal. Miré la pantalla y el icono de la bateria marcaba un alarmante 4%. Justo en el momento en que tenia sobre la mesa tres presupuestos urgentes que enviar y una videollamada con un cliente clave de Chamberí. Lo peor de todo? Habia sacado el iPhone del cargador al 100% apenas dos horas antes, justo despues de instalar la ultima actualizacion de iOS que el sistema llevaba dias exigiendome. Al conectar el cable Lightning, el terminal ni se inmuto al principio; despues, empezo a parpadear el icono de carga mientras el porcentaje caia en picado. No era la primera vez que lo veia en el banco de trabajo, pero sufrirlo en carne propia con problemas combinados en el puerto de carga y la bateria drenandose a ritmo de cronometro fue el recordatorio perfecto de por que tantos clientes entran desesperados cada semana por la puerta. Si tu iPhone se comporta como si tuviera un agujero negro dentro despues de actualizar el software, respira hondo. Aqui en el taller te voy a contar exactamente que esta pasando bajo el capó y como puedes solucionarlo antes de correr al servicio oficial a gastar un dinero innecesario.
 

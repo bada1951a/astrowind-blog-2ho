@@ -8,6 +8,7 @@ tags: ["iPhone", "Hardware", "Troubleshooting", "Apple", "Reparatur"]
 theme: "Rosewood Hardware Guide"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Es ist exakt 13:45 Uhr. Unser wichtigster Quartalstermin mit einem Enterprise-Kunden aus Schwabing steht um 14:00 Uhr im Konferenzraum an. Ich stehe am Stehtisch, will mein iPhone an das Ladekabel stecken, um noch schnell die letzten Folien zu synchronisieren, da leuchtet sie auf: Diese verfluchte Warnmeldung auf dem Display – "Flüssigkeit im Lightning-Anschluss erkannt". Das Herz rutscht in die Hose. Das Gerät war nicht mal in der Nähe von Wasser, höchstens der morgendliche Espresso stand zu nah auf dem Schreibtisch. Der Stecker bleibt stumm, das iPhone weigert sich standhaft zu laden, und der Akku steht bei kritischen 12 Prozent.
 

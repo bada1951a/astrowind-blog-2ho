@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Soporte Técnico", "Android", "Trucos de Hardware"]
 theme: "Deep Ocean Cobalt"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran las 17:50 en nuestra oficina de Madrid, con la tensión cortándose en el ambiente a diez minutos de enviar el informe trimestral definitivo al cliente. Tenía todas las métricas abiertas en mi Samsung Galaxy, listo para hacer la última revisión y sincronizarlo con el ordenador, cuando de repente... la pantalla táctil se congeló por completo. Mis dedos pasaban de un lado a otro y el sistema ignoraba cada estímulo. Intenté apagarlo deslizando el menú superior, pero el panel táctil era un ladrillo inútil. El sudor frío empezó a correr por mi frente: si sacaba la bandeja SIM o intentaba un reseteo de fábrica a ciegas, perdería los borradores locales que aún no se habían subido a la nube.
 

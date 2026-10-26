@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Power Bank", "Carregamento Lento"]
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Fala, meu povo! Salve, salve da bancada. Aqui quem fala é o Ricardo, dono da TechReparos, cravado bem no coração comercial de São Paulo. Se você caiu neste artigo, aposto que o cenário é o seguinte: você está no meio da Avenida Paulista, correria danada, fechando aquela planilha pelo celular, e a bateria começa a gritar socorro. Você puxa o power bank da bolsa, pluga o cabo correndo e... *bam!* Notificação na tel
 
@@ -68,4 +69,4 @@ Não! Os smartphones modernos usam baterias de Íon de Lítio ou Polímero de L�
 Se a limpeza e o cabo estão ok, o problema pode estar no circuito de carga do seu celular (chip U2 Tristar/Hydra em iPhones, ou o circuito PMIC de carga em Androids) ou na própria placa controladora do power bank que perdeu a capacidade de entrega rápida. Tente testar outro power bank para isolar a falha.
 
 3. Posso usar qualquer cabo USB-C no meu power bank?
-Não recomendo. Para cargas rápidas (acima de 18W/20W), você precisa de um cabo que suporte a tecnologia E-Marker ou que seja certificado para alta amperagem (3A ou mais). Cabos genéricos baratos limitam a corrente automaticamente para 5V/1A por medida de segurança, gerando a notificação de carga lenta. 
+Não recomendo. Para cargas rápidas (acima de 18W/20W), você precisa de um cabo que suporte a tecnologia E-Marker ou que seja certificado para alta amperagem (3A ou mais). Cabos genéricos baratos limitam a corrente automaticamente para 5V/1A por medida de segurança, gerando a notificação de carga lenta.

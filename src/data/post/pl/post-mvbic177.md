@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Smartfony", "Naprawa", "Poradnik serwisowy"]
 theme: "Pure Titanium Clean"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Zegarek na pulpicie pokazywał dokładnie 13:45. Za piętnaście minut w naszym warszawskim biurze miała zacząć się kluczowa wideokonferencja z zarządem w sprawie nowego oprogramowania dla logistyki. Wziąłem do ręki mojego wiernego Galaxy Z Folda, żeby na szybko rzucić okiem na notatki w głównym, rozszerzonym ekranie... i nagle – czarna rozpacz. Zewnętrzny wyświetlacz działał bez zarzutu, ale gdy tylko rozłożyłem telefon, wewnątrz zapadła całkowita ciemność. Ekran ani drgnął, zero podświetlenia, absolutna martwica. Serce podeszło mi do gardła, a w głowie kołatała się tylko jedna myśl: "Przecież tam mam całą prezentację i otwarte karty z danymi projektu!".
 

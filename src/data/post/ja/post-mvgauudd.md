@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "ワイヤレス充電", "トラブルシューティング"]
 ---
 
+## 1. スマホが突然動かなくなった緊急トラブル
 
 おいおい、マジかよ……。
 

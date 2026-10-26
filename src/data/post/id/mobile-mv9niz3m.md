@@ -8,6 +8,7 @@ tags: ["Samsung", "Tips HP", "Dokumen", "Troubleshooting"]
 theme: "Sandstone Desert Minimal"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Jujur, keringat dingin saya langsung bercucuran pas terjebak macet di daerah Sudirman, tepat 10 menit sebelum *meeting online* krusial dengan klien besar. Klien mendadak minta kiriman dokumen kontrak yang sudah ditandatangani lewat layanan faks digital. Dengan panik, saya buru-buru buka HP Samsung, jepret kertas kontrak di dalam taksi yang remang-remang, lalu kirim. Hasilnya? Tulisan pecah, buram, penuh bayangan tangan saya sendiri, dan terbaca seperti sandi rumput! Mau nangis rasanya di tengah kemacetan Jakarta yang bikin stres.
 

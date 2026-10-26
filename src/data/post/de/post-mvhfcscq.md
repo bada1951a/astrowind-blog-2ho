@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Rosewood Hardware Guide"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Es ist kurz vor zwei Uhr nachmittags in unserem Büro in Berlin, das Telefon klingelt ununterbrochen, und mein Samsung Galaxy Note liegt auf dem Schreibtisch – heiß wie eine Herdplatte und mit nur noch 4% Akkuleistung. Gerade wollte ich den wichtigen Kunden in München anrufen, als der Bildschirm schwarz wird. Kein Lebenszeichen mehr. Das Schlimmste dabei: Das Smartphone lag die letzte Stunde unbenutzt auf dem Tisch, aber die Rückseite brennt förmlich und der Akku ist buchstäblich verdampft. Schuld ist hier oft kein defekter Akku, sondern ein heimtückischer Software-Loop, bei dem eine blockierte Hintergrund-App Amok läuft und den Prozessor auf Dauerlast hält. Wenn dann noch eine leicht verschmutzte USB-C Ladebuchse dazukommt, die dem Gerät permanent falsche Ladestatus-Signale übermittelt, gerät das Energiemanagement völlig aus dem Gleichgewicht.
 
@@ -68,8 +69,6 @@ Vermeide unbedingt folgende Fehler, die ich in der Werkstatt oft sehe:
 
 ### 1. Mein Samsung Galaxy wird trotz App-Fix immer noch heiß. Was nun?
 Wenn das Gerät auch im Flugmodus und nach einem Werksreset ohne installierte Apps extrem heiß wird, liegt ein Hardware-Defekt vor. Meistens handelt es sich um einen internen Kurzschluss auf der Hauptplatine oder einen defekten Power-Management-IC. In diesem Fall hilft nur der Gang zum zertifizierten Techniker.
-
-
 
 ![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhfdko2-3-b/1000/550.jpg)
 

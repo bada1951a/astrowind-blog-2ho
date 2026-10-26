@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Troubleshooting", "Tips HP", "Teknisi Komputer"]
 theme: "Steel Silver Metallic"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Suasana di ruang meeting kantor kawasan Sudirman, Jakarta, mendadak tegang. Waktu menunjukkan pukul 14.50 WIB, tepat sepuluh menit sebelum presentasi klien besar dimulai. Saya buru-buru mengambil HP Samsung Galaxy saya di atas meja untuk membuka file materi presentasi terakhir yang dikirim lewat WhatsApp. Sialnya, layar sama sekali tidak merespons. Disentuh pakai jari mana pun, digeser ke atas-bawah, layarnya benar-benar *freezed* atau membeku. Tombol power ditekan biasa pun tidak mau muncul menu *Power Off*. Jantung rasanya mau copot karena file penting belum sempat di-backup ke cloud kantor. 
 
@@ -75,4 +76,4 @@ A: Jika salah satu tombol fisik rusak, situasinya jadi sedikit lebih rumit. Anda
 
 Q: Kenapa layar Samsung saya sering tiba-tiba tidak bisa disentuh?
 
-A: Biasanya ini disebabkan oleh penggunaan charger KW (bukan bawaan asli) yang membuat arus listrik tidak stabil saat HP di-charge sambil dipakai, atau karena penggunaan *tempered glass* tebal berkualitas buruk yang mengganggu sensor sentuh kapasitif. Gunakan selalu aksesoris original demi kesehatan perangkat Anda. 
+A: Biasanya ini disebabkan oleh penggunaan charger KW (bukan bawaan asli) yang membuat arus listrik tidak stabil saat HP di-charge sambil dipakai, atau karena penggunaan *tempered glass* tebal berkualitas buruk yang mengganggu sensor sentuh kapasitif. Gunakan selalu aksesoris original demi kesehatan perangkat Anda.

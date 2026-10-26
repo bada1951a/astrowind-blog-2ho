@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Chargeur sans fil"]
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 ### 1. Urgence sur le bureau à La Défense : Le voyant rouge qui vous rend fou
 

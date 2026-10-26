@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Hardware", "Reparación", "Pantalla Negra", "Soporte T�
 theme: "Rosewood Hardware Guide"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran exactamente las 17:45 en nuestra oficina de Madrid. El director general esperaba el informe financiero definitivo antes de las 18:00 para la reunión con los inversores de Barcelona. Abrí mi flamante Galaxy Z Fold sobre la mesa de reuniones para repasar las últimas celdas de la hoja de cálculo... y la pantalla principal se quedó completamente en negro. Un vacío absoluto, un ladrillo de cristal. El teléfono seguía vibrando y sonando con notificaciones de Slack, pero al desplegarlo, el panel interior se negaba a encenderse, obligándome a usar la diminuta pantalla exterior para buscar desesperadamente los datos a trompicones.
 

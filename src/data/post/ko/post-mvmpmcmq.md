@@ -8,8 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Industrial Blueprint"
 ---
 
-
-## 1. [Opening Story/Problem]
+## 1. 스마트폰 먹통 돌발 위기 상황
 
 여의도 출근길 지하철 안, 손에 땀을 쥐게 하는 상황이 벌어졌습니다. 카카오톡 단체 대화방과 사내 메신저, 결재 승인 앱까지 백그라운드에 10개 넘는 업무용 앱을 잔뜩 띄워둔 채 실시간 보고를 처리하던 중이었습니다. 갑자기 아이폰 화면 전체가 하얗게 먹통이 되더니 터치도, 전원 버튼도 먹지 않는 렉 현상이 발생했습니다. 급한 마음에 화면을 연달아 두드리며 강제 재부팅을 시도했지만, 이미 디스플레이 상단에는 어렴풋이 카카오톡 상단 바와 메신저 아이콘 잔상이 남아 있는 것이 눈에 들어왔습니다. 
 
@@ -17,11 +16,9 @@ theme: "Industrial Blueprint"
 
 ---
 
-
-
 ![iPhone OLED Burn-In Prevention: How to Set Up Automated Dark Mode Routine Mobile Repair Guide](https://picsum.photos/seed/mob-mvmpmcmr-0-b/1000/550.jpg)
 
-## 2. [Root Cause Breakdown]
+## 2. 충전 오류 및 하드웨어 결함의 핵심 원인 분석
 
 스마트폰 디스플레이와 시스템이 한꺼번에 멈추고 번인이 발생하는 원인은 생각보다 복잡하지 않습니다. 현장에서 디스플레이 패널을 현미경으로 들여다보면 원인은 명확해집니다.
 
@@ -42,7 +39,7 @@ theme: "Industrial Blueprint"
 
 ---
 
-## 3. [Step-by-Step Resolution]
+## 3. 1분 만에 끝내는 단계별 실전 응급 조치법
 
 화면이 완전히 멈추고 번인 위기가 닥쳤을 때, 당황하지 말고 순서대로 따라 해보세요. 센터에 가지 않고도 문제를 해결할 수 있는 실전 3단계 가이드입니다.
 
@@ -72,7 +69,7 @@ OLED 번인은 고휘도 상태에서 오래 노출될 때 가장 치명적입�
 
 ---
 
-## 4. [Expert Advice]
+## 4. 현직 수리 기사가 전하는 주의사항 및 팁
 
 <div style="border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>[수리기사의 실무 경고] "앱 강제 종료에 대한 오해와 진실"</strong><br>
@@ -81,7 +78,7 @@ OLED 번인은 고휘도 상태에서 오래 노출될 때 가장 치명적입�
 
 ---
 
-## 5. Frequently Asked Questions
+## 5. 자주 묻는 질문 (FAQ)
 
 Q. 다크모드를 쓰면 카카오톡 채팅방 글자가 잘 안 보이는데 해결 방법이 있나요?
 

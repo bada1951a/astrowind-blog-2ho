@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "High-Contrast Charcoal"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Jam 2 siang di tengah kawasan bisnis Sudirman, Jakarta. Ponsel tiba-tiba bergetar menunjukkan sisa baterai tinggal 12 persen, padahal baru dua jam lalu dicabut dari charger. Yang lebih bikin panik, saat kabel dicolokkan ke port Lightning atau Type-C, indikator pengisian daya sama sekali tidak menyala kecuali posisi kabel digoyang-goyang atau ditekan miring. Klien penting menunggu konfirmasi dokumen via WhatsApp, baterai merosot drastis akibat proses latar belakang pasca update iOS, dan port charger terasa longgar karena debu kantong celana menumpuk. Situasi darurat seperti ini sering banget mampir ke meja servis saya. Sebagai teknisi yang tiap hari menghadapi pasien gawai sekarat, saya paham betul betapa frustrasinya menghadapi kombinasi maut: baterai boros setelah update sistem dan hardware port yang mulai loyo. Mari kita bedah tuntas akar masalahnya secara logis, aman, dan langsung praktik tanpa istilah teknik yang bikin pusing.
 

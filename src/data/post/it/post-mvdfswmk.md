@@ -8,6 +8,7 @@ tags: ["iPhone", "Hardware", "Troubleshooting", "Assistenza IT"]
 theme: "Acid Lime Hacker Space"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Erano le 14:45 e mancava esattamente un quarto d'ora a una call cruciale con i partner di Milano per la revisione del budget trimestrale. Il mio iPhone, appoggiato sulla scrivania dell'open space, segnava il 4% di batteria. Con un gesto automatico, ho preso il cavo Lightning dallo zaino e l'ho collegato. Niente. Anzi, peggio: sullo schermo è comparso quell'avviso maledetto in rosso e giallo: "Liquido rilevato nel connettore Lightning". Il panico totale. Niente ricarica, zero percento in arrivo, e il telefono che serve assolutamente per ricevere i codici OTP aziendali e gestire l'hotspot se la fibra balla. Ho pensato subito al bicchiere d'acqua rovesciato distrattamente sul tavolo mezz'ora prima. Nel bel mezzo della corsa contro il tempo per ripristinare il flusso di lavoro prima del meeting, dovevo trovare una soluzione immediata, sicura ed efficace, senza ovviamente correre a comprare del riso al supermercato sotto l'ufficio.
 

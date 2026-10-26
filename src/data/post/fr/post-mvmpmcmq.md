@@ -8,7 +8,6 @@ tags: ["iPhone", "OLED", "Mode Sombre", "Reparation", "Paris La Defense"]
 theme: "Deep Indigo System"
 ---
 
-
 ## 1. Le jour ou mon cafe a failli couter cher a mon ecran OLED
 
 Il pleuvait ce matinee-la sur le parvis de La Defense. Installe dans un cafe anime en bas d'une tour de bureaux, j'avais pose mon iPhone un peu trop pres de ma tasse allongee. Un geste maladroit d'un voisin de table, et plouf : un tsunami de cafe au lait chaud s'est deverse directement sur la table, envahissant le bas de mon smartphone. Dans la panique totale, alors que le liquide commencait a s'infiltrer par le port Lightning, j'ai du arreter net l'appareil en urgence pour eviter un court-circuit de la carte mere. 
@@ -19,11 +18,9 @@ Cet incident m'a rapp combien nos precieux ecrans OLED sont fragiles, non seulem
 <strong>Conseil du technicien :</strong> Un ecran OLED affiche le noir en eteignant completement les pixels. Moins vos pixels restent allumes au maximum de leur luminosite sur des interfaces claires, plus vous repoussez le risque de brulure d'ecran.
 </div>
 
-
-
 ![iPhone OLED Burn-In Prevention: How to Set Up Automated Dark Mode Routine Mobile Repair Guide](https://picsum.photos/seed/mob-mvmpn74b-4-b/1000/550.jpg)
 
-## 2. Root Cause Breakdown : Pourquoi votre ecran OLED marque-t-il ?
+## 2. Analyse approfondie des pannes matérielles et de charge : Pourquoi votre ecran OLED marque-t-il ?
 
 Pour comprendre comment contrer le vieillissement premature de votre dalle, il faut analyser les facteurs declenchants que je constate tous les jours sur les comptoirs de reparation :
 
@@ -33,7 +30,7 @@ Pour comprendre comment contrer le vieillissement premature de votre dalle, il f
 
 3. **La gestion thermique couplee a la charge :** Utiliser son telephone sous forte luminosite pendant qu'il chauffe (par exemple, coince dans un support voiture en plein soleil) degrade rapidement le rendement lumineux des diodes.
 
-## 3. Step-by-Step Resolution : Automatiser le Mode Sombre sur iOS
+## 3. Guide pratique de dépannage étape par étape : Automatiser le Mode Sombre sur iOS
 
 Passons a la pratique. L'objectif est de configurer votre iPhone pour qu'il bascule intelligemment en Mode Sombre sans que vous ayez a y penser, protegeant ainsi votre dalle au quotidien.
 
@@ -59,7 +56,7 @@ Passons a la pratique. L'objectif est de configurer votre iPhone pour qu'il basc
 <strong>Astuce avancee :</strong> Vous pouvez repeter cette manipulation pour creer une seconde automatisation matinale qui basculera l'affichage en mode Clair si vous le preferez le jour, bien que rester en mode Sombre permanent reste la meilleure option anti-burn-in.
 </div>
 
-## 4. Expert Advice : Bonnes pratiques d'atelier
+## 4. Conseils et précautions d'un réparateur professionnel : Bonnes pratiques d'atelier
 
 En tant que reparateur, voici mes regles d'or pour maximiser la duree de vie de votre materiel :
 
@@ -67,7 +64,7 @@ En tant que reparateur, voici mes regles d'or pour maximiser la duree de vie de 
 * **Reduisez le delai de verouillage automatique :** Reglez l'extinction de l'ecran a 30 secondes ou 1 minute maximum dans les **Reglages > Luminosite et affichage**.
 * **Attention aux liquides :** Si, comme lors de ma mesaventure au cafe, du liquide touche le bas de votre telephone, eteignez-le *immediatement*. Ne le branchez surtout pas sur le secteur pour eviter l'oxydation des broches du connecteur.
 
-## 5. Frequently Asked Questions
+## 5. Foire Aux Questions (FAQ)
 
 Q : Est-ce que le Mode Sombre economise vraiment la batterie sur tous les iPhone ?
 

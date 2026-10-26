@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Réparation Smartphone", "Batterie Externe", "Charge Lente", "iPhone", "Android"]
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Salut à tous ! Ici Marc, technicien en chef dans mon atelier de réparation mobile en plein cœur de Paris La Défense. Entre les tours de bureaux et les correspondances du RER, je peux vous dire que j'en vois passer, des smartphones en détresse. 
 

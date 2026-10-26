@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Ricarica Lenta", "Power Bank"]
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Sono le due del pomeriggio, mi trovo nel mio laboratorio qui nel Centro Direzionale di Milano. Fuori c'è il solito trambusto, dentro il negozio ho tre clienti in attesa e la porta che continua a suonare. 
 

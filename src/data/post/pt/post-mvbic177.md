@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Manutenção de Celular", "Tela Preta", "Hardware", "Su
 theme: "Deep Ocean Cobalt"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Eram exatamente 14h55 no escritório corporativo na Berrini, em São Paulo, e o clima já estava tenso por causa daquele erro de leitura de dados no relatório trimestral que precisava ser apresentado para a diretoria. Puxei meu Galaxy Z Fold para abrir a planilha estendida na tela grande e, no exato segundo em que desdobrei o aparelho, a tela principal virou um breu total. O visor externo funcionava perfeitamente, mas a tela interna parecia morta — nenhum sinal de vida, nem toque, nem luz de fundo. Com a diretoria esperando na sala de reuniões e o cronômetro rodando, o suor frio desceu na hora. Minha primeira reação foi o pânico clássico de quem depende do celular para tudo. Reiniciei o aparelho segurando os botões laterais, limpei a dobradiça com um pincel improvisado e até tentei redefinir as configurações de fábrica pelo menu de recuperação. Obviamente, nada disso resolveu, porque o problema não era software corrompido: era um clássico problema de hardware no cabo flex interno e no sensor de abertura da dobradiça. ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget761/1000/550)
 

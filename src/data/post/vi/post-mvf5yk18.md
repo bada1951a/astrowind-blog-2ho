@@ -7,6 +7,7 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Sạc Dự Phòng", "Sửa Điện Thoại"]
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 ### 1. Ác mộng sạc pin giữa lòng Sài Gòn: Cắm sạc dự phòng mà điện thoại cứ "rùa bò"
 

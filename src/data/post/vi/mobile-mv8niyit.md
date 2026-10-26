@@ -8,6 +8,7 @@ tags: ["Smartphone", "Troubleshooting", "iOS", "Android"]
 theme: "Teal Matrix Digital"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Đang ngồi trên chuyến tàu cao tốc tối om, deadline bài báo cáo sếp giục cháy máy mà con laptop vừa đứt mạng di động. Loay hoay tính bật Hotspot từ con iPhone ra để "cứu mạng", mở máy lên một phát thì ối giời ơi, cái màn hình OLED sáng trắng chói lòa rọi thẳng vào mẹt, vừa đau mắt vừa ăn đứt luôn một mớ dung lượng pin quý giá giữa chốn không có chỗ sạc. Đã thế màn hình ám vàng, dùng lâu ngày lại sợ dính lỗi burn-in (lưu ảnh) ám vàng màn hình thì cái ví tiền khóc thét.
 

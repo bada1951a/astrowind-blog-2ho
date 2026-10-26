@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Bronze Artisan Workshop"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Het is hartje winter op de Amsterdamse Zuidas. Je loopt in de koude wind richting een belangrijke afspraak bij Station Zuid, terwijl je Google Maps probeert te volgen op je Samsung Galaxy. Plotseling dimt je scherm volledig naar het zwart-witachtige donker. Je tikt wanhopig op het scherm, maar er verandert niets. Net daarvoor, toen je in de trein zat, hing je telefoon aan een powerbank om snel wat stroom bij te tanken. Door een gammel kabeltje bleef de lader echter eindeloos aan- en uitspringen: opladen, piepje, stoppen, piepje, opladen. Niet alleen schoot je batterijpercentage daar weinig mee op, maar nu weigert je scherm ook nog eens fel op te lichten in het daglicht. Wat is hier in vredesnaam aan de hand?
 

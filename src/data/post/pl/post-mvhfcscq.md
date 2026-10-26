@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Serwis Telefonów", "Bateria", "Android", "Poradnik Se
 theme: "Midnight Navy Royal"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Klienci wpadają do mojego punktu w samym sercu Warszawy z prawdziwą paniką w oczach, trzymając w dłoniach telefony, które parzą jak rozgrzany kamień. Ostatnio podchodzi do lady młody chłopak, wyciąga Samsunga Galaxy i mówi niemal z płaczem: "Panie serwisancie, bateria spada o 1 procent na minutę, telefon leży w kieszeni, nic z niego nie robię, a obudowa jest tak gorąca, że boję się, że wybuchnie! Do tego rano podłączam ładowarkę i niby coś tam wskazuje, ale gniazdo ładowania przerywa przy każdym ruchu". Znam ten widok aż nazbyt dobrze. To klasyczny, nocny koszmar użytkowników smartfonów: kumulacja dławiącego procesor drenażu zasobów przez aplikacje w tle oraz walka z fizycznie uszkodzonym lub zasyfionym gniazdem USB-C.
 

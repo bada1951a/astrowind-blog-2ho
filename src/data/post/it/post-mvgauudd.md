@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Riparazione Cellulari"]
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 ### 1. Scenario d'emergenza nel Centro Direzionale: Il led rosso che fa impazzire
 

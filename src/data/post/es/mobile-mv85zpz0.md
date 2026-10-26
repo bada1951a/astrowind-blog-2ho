@@ -8,6 +8,7 @@ tags: ["Android", "Galaxy Fold", "Troubleshooting", "Soporte Móvil"]
 theme: "Dracula Purple Dev"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran las 7:15 PM, sudando frío en la fila de embarque de la Terminal 2, con el portapapeles digital ardiendo en el chat corporativo y el Galaxy Z Fold marcando un trágico 4% de batería. Necesitaba enviar la cotización final al director antes de que cerraran las puertas del avión. Con la mano temblando, conecté el cable USB-C al power bank y... el desastre: *«Se ha detectado humedad en el puerto de carga»*. El icono de la gota de agua parpadeando en la pantalla principal como una advertencia de expulsión nuclear. Cero carga, cero llamadas, cero vida corporativa. Si te ha pasado esto justo en el peor momento, quédate, porque estuve investigando con técnicos de servicio y probé de todo para no perder el equipo.
 
@@ -79,4 +80,4 @@ Es una pésima idea. Si carga de forma intermitente significa que hay un puente 
 Es muy probable que los pines del conector USB-C se hayan corrosionado internamente o que el flex de carga haya sufrido un daño por humedad residual. Debes acudir a un centro de servicio técnico autorizado para un ultrasonido de placa y reemplazo del módulo de puerto.
 
 3. ¿La garantía cubre fallas por detección de humedad falsa?
-Depende de la inspección visual del técnico. Si los indicadores LDI (Liquid Damage Indicator) ubicados dentro del puerto o en la bandeja SIM cambiaron de color (pasaron de blanco a rosa/rojo), Samsung podría invalidar la garantía por daño accidental por líquidos, aunque el puerto solo haya fallado por condensación ambiental. Por eso es vital una limpieza ultrasónica previa si el teléfono nunca se sumergió en agua. 
+Depende de la inspección visual del técnico. Si los indicadores LDI (Liquid Damage Indicator) ubicados dentro del puerto o en la bandeja SIM cambiaron de color (pasaron de blanco a rosa/rojo), Samsung podría invalidar la garantía por daño accidental por líquidos, aunque el puerto solo haya fallado por condensación ambiental. Por eso es vital una limpieza ultrasónica previa si el teléfono nunca se sumergió en agua.

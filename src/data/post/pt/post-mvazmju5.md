@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Suporte Técnico", "Dicas de Smartphone", "Android"]
 theme: "Nordic Clean Ice"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Eram 15h40 em ponto em um escritório corporativo na Avenida Paulista, em São Paulo. O ritmo estava frenético: planilhas de fechamento de mês abertas, o Teams apitando sem parar e, para piorar, o cliente principal cobrando um retorno urgente via WhatsApp. Foi nesse exato momento de pico que peguei meu Samsung Galaxy na mesa, passei o dedo para desbloquear a tela e... absolutamente nada aconteceu. O touch screen tinha simplesmente congelado. Toquei de novo, apertei o botão lateral, tentei deslizar de lado, e a interface continuava estática, ignorando cada comando meu bem no meio daquele erro de leitura de dados e correria generalizada. <div style="border-left: 4px solid #0284c7; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>O Pânico do Expediente:</strong> A primeira reação de quem trabalha sob pressão é o desespero de achar que perdeu o relatório que não salvou ou que vai precisar formatar o aparelho e perder tudo. Calma. O seu celular não morreu, ele apenas sofreu um travamento crítico de software que congelou a camada digitalizadora da tela. </div>
@@ -57,12 +58,10 @@ Durante o desespero, algumas pessoas tentam o comando de recuperação (Botão A
 ### 1. Forçar a reinicialização apaga minhas fotos ou mensagens do WhatsApp?
 Não. Esse procedimento equivale a desligar o computador direto no botão físico quando ele trava. Ele apenas interrompe o fornecimento de energia momentâneo para reiniciar o sistema operacional, preservando todo o armazenamento interno e dados do usuário.
 
-
-
 ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget287/1000/550)
 
 ### 2. E se o celular não reiniciar mesmo segurando os botões?
 Se o aparelho não responder à combinação de teclas, é muito provável que a bateria esteja totalmente descarregada e o indicador visual na tela estivesse travado antes de desligar. Conecte o aparelho a um carregador de tomada original por pelo menos 15 minutos e tente novamente.
 
 ### 3. O touch continuou falhando depois que o celular ligou. O que pode ser?
-Se o problema persistir após o reboot, remova a película protetora temporariamente. Películas de má qualidade ou com bolhas de ar e acúmulo de poeira nas bordas podem interferir na sensibilidade do sensor tátil. Se o erro continuar sem a película, pode ser uma falha física no display que exigirá avaliação técnica. 
+Se o problema persistir após o reboot, remova a película protetora temporariamente. Películas de má qualidade ou com bolhas de ar e acúmulo de poeira nas bordas podem interferir na sensibilidade do sensor tátil. Se o erro continuar sem a película, pode ser uma falha física no display que exigirá avaliação técnica.

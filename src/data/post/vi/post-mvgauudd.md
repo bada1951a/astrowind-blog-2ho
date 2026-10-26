@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Sạc Không Dây"]
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Chào anh em làm việc tại các văn phòng ở TP.HCM! Ngồi bàn giấy máy lạnh rười rượi mà đến sếp gọi hay có thông báo gấp lại cúi xuống nhìn cái điện thoại: đèn LED trên đế sạc không dây cứ nhấp nháy đỏ hoặc xanh liên hồi, pin thì vẫn giậm chân tại chỗ ở mức 15%. Cay đắng thật chứ! Mấy nay anh em ở văn phòng quận 1, quận 3 cứ mang qua chỗ mình kêu trời vì lỗi này. Tưởng đâu cái đế sạcỏm hay điện thoại "đột tử", hóa ra phần lớn là do chúng ta đặt lệch cái cuộn dây cảm ứng bên trong thôi. 
 

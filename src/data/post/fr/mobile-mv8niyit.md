@@ -8,6 +8,7 @@ tags: ["Smartphone", "Troubleshooting", "iOS", "Android"]
 theme: "Mint Fresh Engineering"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Bordel, j'aurais dû m'en douter. Il est 18h20, je suis cramé au fond d'une rame TGV Paris-Lyon, le Wi-Fi SNCF est évidemment mort, et je dois absolument balancer un correctif urgent à la compta via mon partage de connexion. Je sors mon iPhone pro, je bascule le hotspot 5G, je pose mon MacBook sur la tablette, et là... c'est le drame. Mon écran clignote comme un putain de stroboscope entre le mode clair aveuglant et un fond blanc craché à 100% de luminosité. Mes yeux saignent, la batterie de l'iPhone fond à vue d'œil (12% perdus en dix minutes de tethering), et le châssis commence à chauffer au point de faire fondre la coque en silicone. En tant que tech support mobile, avoir l'air d'un amateur avec un téléphone mal configuré dans un train bondé, c'est la honte absolue. Il me fallait une putain de solution radicale, et vite.
 

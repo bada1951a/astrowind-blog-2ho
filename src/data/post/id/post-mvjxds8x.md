@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Cyberpunk Terminal"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 <div style="border-left: 4px solid #00ffcc; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>SYSTEM LOG // TERMINAL v4.2</strong><br>

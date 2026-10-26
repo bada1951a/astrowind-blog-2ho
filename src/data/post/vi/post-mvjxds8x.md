@@ -8,6 +8,7 @@ tags: ["Sửa chữa điện thoại", "Mẹo công nghệ", "Quá nhiệt", "Ki
 theme: "High-Contrast Charcoal"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Đang là giờ cao điểm chiều tối, dòng người kẹt cứng tại trạm metro ở trung tâm Sài Gòn. Bạn vội vã bước tới cổng soát vé để quẹt thẻ xe buýt hoặc vé metro tích hợp trên điện thoại. Đúng lúc dòng người phía sau đang dồn ứ và sốt ruột thở dài, bạn bật màn hình lên thì hỡi ôi, màn hình tối thui như mực, cố nhìn vào dưới cái nắng oi ả còn sót lại buổi chiều thì hoàn toàn tối mù. Bạn nhấn liên tục vào nút nguồn hay chạm vào màn hình nhưng máy đứng trân trân, cảm ứng hoàn toàn liệt sĩ. Cửa soát vé không mở, mồ hôi vã ra như tắm giữa chốn đông người. Chuyện gì đang xảy ra vậy?
 

@@ -8,6 +8,7 @@ tags: ["iPhone", "Manutenção", "Hardware", "Dicas Úteis"]
 theme: "Solarized Amber Warm"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Eram três da tarde em ponto no nosso escritório corporativo na região da Avenida Paulista, em São Paulo, e o clima estava tenso. Eu estava no meio de um fechamento de relatório trimestral urgente para a diretoria, precisando puxar dados cruciais direto do meu iPhone para o computador via cabo, quando o pior aconteceu: pluguei o cabo Lightning e o celular cismou em exibir aquele aviso irritante de "Líquido detectado no conector Lightning". O problema? Meu celular não via água há semanas. Sem bateria decente para carregar por indução a tempo e com o erro travando a transferência de dados, a reunião com a chefia estava ameaçada por um falso positivo de umidade que simplesmente não sumia da tela. <div style="border-left: 4px solid #d97706; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Nota do Especialist

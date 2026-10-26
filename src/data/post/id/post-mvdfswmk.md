@@ -8,6 +8,7 @@ tags: ["iPhone", "Hardware", "Troubleshooting", "Tips Gadget"]
 theme: "Electric Cyan Speed"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Suasana di ruang meeting kantor SCBD, Jakarta, mendadak tegang luar biasa. Pukul 16.50, lima menit sebelum batas waktu pengiriman laporan keuangan triwulanan ke direksi, iPhone saya tiba-tiba menolak di-charge. Layar menyala dengan peringatan menyebalkan: "Liquid Detected in Lightning Connector". Padahal, pagi tadi HP ini aman-aman saja di atas meja, tidak pernah nyemplung ke kolam atau terkena tumpahan kopi susu kekinian. Yang lebih bikin jantungan, baterai tinggal 3 persen dan file presentasi penting ada di dalam cloud yang butuh sinkronisasi kabel. Mau pakai trik kuno masukin ke dalam beras? Jelas tidak mungkin waktu dan tempatnya tidak mendukung di tengah kantor korporat elit begini!
 

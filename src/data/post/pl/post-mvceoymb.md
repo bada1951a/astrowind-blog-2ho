@@ -8,6 +8,7 @@ tags: ["Serwis", "Smartfon", "USB-C", "Poradnik", "Rozwiązywanie Problemów"]
 theme: "Modern Minimalist Slate"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Godzina 14:15. Za czterdzieści minut w naszej sali konferencyjnej na warszawskiej Woli ma ruszyć kluczowe spotkanie z zarządem, a mój telefon uparcie odmawia ładowania, wyświetlając na ekranie mrożący krew w żyłach komunikat: "Wykryto płyn w złączu Lightning" (lub analogiczny błąd wilgoci w porcie USB-C). Kawa wylana na biurko dwie godziny wcześniej wydawała się całkowicie bezpieczna dla sprzętu, ale cząsteczki wilgoci znalazły drogę dokładnie tam, gdzie nie powinny. Zamiast panikować i szukać serwisu na drugim końcu miasta, postanowiłem podejść do sprawy metodycznie – jako technik z wieloletnim stażem.
 

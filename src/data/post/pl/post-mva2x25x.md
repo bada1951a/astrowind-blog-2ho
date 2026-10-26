@@ -8,6 +8,7 @@ tags: ["iPhone", "SerwisApple", "PoradникTech", "WarszawaBiuro"]
 theme: "Electric Cyan Speed"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Godzina 13:45. Siedzę przy biurku w naszym warszawskim biurze, a za kwadrans zaczynam kluczową prezentację projektu przed zarządem. Slajdy są gotowe, wszystko dopięte na ostatni guzik, sięgam po iPhone'a, żeby rzucić okiem na notatki... i ściana. Ekran jest całkowicie czarny albo – co gorsza – zamrożony na środku animacji otwierania aplikacji. Przesuwam palcem w górę, wciskam boczny przycisk, próbuję Siri – absolutny brak reakcji. Czarny ekran, zero życia, a puls skacze do dwustu. Znasz to uczucie? W takich momentach człowiek traci cenne minuty na bezradne stukanie w szkło.
 

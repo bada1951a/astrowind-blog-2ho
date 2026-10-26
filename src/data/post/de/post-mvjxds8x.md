@@ -8,6 +8,7 @@ tags: ["Smartphone Reparatur", "Display Hitzeschutz", "OLED Panel", "Technik Tip
 theme: "Cobalt Enterprise Lab"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Ich stand neulich am U-Bahnhof Alexanderplatz in Berlin, die Mittagssonne brannte gnadenlos auf den Bahnsteig, und ich wollte schnell mit dem Ticket-Barcode durch das Schrankensystem. In dem Moment, als ich mein Smartphone aus der Tasche zog, passierte das Desaster: Das Gerät rutschte mir aus der Hand und knallte ungebremst auf den harten Betonboden. Auf den ersten Blick schien die äußerste Glasfront wie durch ein Wunder komplett unbeschädigt zu sein – kein einziger Riss im Glas. Doch als ich das Display aktivierte, traf mich der Schlag: Mitten durch das interne OLED-Panel fraß sich plötzlich eine leuchtend grüne vertikale Linie, die innerhalb von Sekundenbruchteilen flackerte und breiter wurde, während das Display gleichzeitig so dunkel wurde, dass man bei Tageslicht absolut nichts mehr erkennen konnte.
 

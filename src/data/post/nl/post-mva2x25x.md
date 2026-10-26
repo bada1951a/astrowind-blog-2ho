@@ -8,6 +8,7 @@ tags: ["iPhone", "TechSupport", "Hardware", "Troubleshooting", "Apple"]
 theme: "Bronze Artisan Workshop"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Het is precies vijf voor drie in onze drukbezochte tech-hub aan de Amsterdamse grachten. Over vijf minuten begint een cruciale online sync met onze belangrijkste investezer, en ik moet nog snel even de laatste specificaties van de nieuwe randapparatuur controleren op mijn iPhone. Ik tik op het scherm om de app te openen, maar er gebeurt werkelijk niets. Geen beweging. Ik veeg omhoog om naar het beginscherm te gaan, maar het scherm blijft ijskoud hangen op een bevroren spreadsheet. Mijn hartslag schiet omhoog. Geen enkele aanraking of knop lijkt te werken; het touchscreen is volledig unresponsive en de deadline loert om de hoek.
 

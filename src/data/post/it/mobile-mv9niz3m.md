@@ -8,6 +8,7 @@ tags: ["Samsung", "Galaxy", "Smartphone", "Guide", "Lavoro"]
 theme: "Industrial Blueprint"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Sono le 8:45 di mattina. Il Frecciarossa Milano-Roma sta sfrecciamdo all'altezza di Bologna e il mio smartphone sta letteralmente bruciando tra le mie mani. Tra dieci minuti esatti ho un appuntamento decisivo con un nuovo cliente, e mi è appena arrivata la richiesta via email: *"Ci serve urgentemente firmato il contratto quadro, mandacelo via fax o scansionato in PDF pulito, altrimenti saltiamo la firma di stamattina"*. Panico totale. Fuori dal finestrino il paesaggio corre veloce, dentro il vagone la luce dei neon rimbalza malamente sul tavolino di metallo creando un'ombra gigante del mio stesso telefono sul documento. Tiro fuori il mio Galaxy, scatto la foto di fretta, la converto in un PDF al volo e la spedisco. Risultato? Un disastro totale. Il testo è sgranato, metà pagina è in ombra scura e i timbri aziendali sembrano macchie d'inchiostro illeggibili. Il cliente mi scrive subito: *"Scusa, ma questo file è illeggibile, non possiamo accettarlo"*. Con il cuore in gola e la batteria al 18%, mi rendo conto che improvvisare in mezzo al rumore del treno non serve a null
 
@@ -98,4 +99,4 @@ Se usi Samsung Notes per la scansione, puoi scegliere di salvare il file in form
 Significa che la luce della stanza o del treno è troppo debole e il sensore alza gli ISO creando rumore digitale. Per risolvere, accendi la torcia di un secondo smartphone (se viaggi con un collega) oppure sposta il documento vicino alla fonte di luce naturale del finestrino prima di scattare.
 
 3. Posso firmare direttamente il documento sullo schermo del Galaxy prima di inviarlo?
-Certamente. Una volta scansionato il documento in Samsung Notes o aperto il PDF con Samsung Notes / Write on PDF, puoi selezionare la penna (o usare direttamente il dito se non hai un modello con S Pen) e apporre la tua firma in formato digitale con un tratto pulito, salvando il file pronto per l'invio definitivo senza dover stampare nulla. 
+Certamente. Una volta scansionato il documento in Samsung Notes o aperto il PDF con Samsung Notes / Write on PDF, puoi selezionare la penna (o usare direttamente il dito se non hai un modello con S Pen) e apporre la tua firma in formato digitale con un tratto pulito, salvando il file pronto per l'invio definitivo senza dover stampare nulla.

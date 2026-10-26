@@ -8,6 +8,7 @@ tags: ["Tech", "Hardware", "Troubleshooting", "Guide"]
 theme: "Steel Silver Metallic"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Jam menunjukkan pukul 16.45 sore di kantor kawasan SCBD, Jakarta. Sepuluh menit lagi tenggat waktu pengiriman laporan keuangan bulanan ke klien penting, tiba-tiba harddisk eksternal dan kabel data Type-C saya ngadat. Layar ponsel langsung memunculkan peringatan merah menyal
 

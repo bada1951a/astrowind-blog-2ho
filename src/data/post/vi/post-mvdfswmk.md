@@ -8,6 +8,7 @@ tags: ["iPhone", "SuaChuaDienThoai", "KinhNghiemThucTien", "MeoHayCongNghe"]
 theme: "High-Contrast Charcoal"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Mồ hôi vã ra như tắm khi ngồi trong văn phòng tại Quận 1, TP.HCM, tiếng đồng hồ điểm sát giờ sếp lớn chuẩn bị vào họp để kiểm tra các file báo cáo quan trọng và dữ liệu khách hàng lưu trực tiếp trên chiếc iPhone chính của tôi. Đen đủi làm sao, chỉ vì ly cà phê sữa đá bị đổ oan gia lên bàn làm việc, nước tràn vào chiếc iPhone khiến màn hình đột ngột hiện lên cái thông báo chết tiệt: "Đã phát hiện chất lỏng trong đầu nối Lightning". Cắm sạc vào thì máy báo lỗi, không tài nào nạp được pin, trong khi dung lượng máy chỉ còn vỏn vẹn 4 phần trăm. Đồng nghiệp xung quanh nhao nháo, còn tôi thì mặt cắt không còn giọt máu vì sợ mất dữ liệu đồng bộ trước giờ G.
 

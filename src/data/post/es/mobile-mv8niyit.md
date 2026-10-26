@@ -8,6 +8,7 @@ tags: ["iOS", "Automatización", "Productividad", "Trucos iPhone"]
 theme: "Sunset Horizon Coral"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran las 7:30 PM en punto. Acababa de subir al KTX rumbo a Busan con la laptop abierta sobre las rodillas, intentando engancharme al infame Wi-Fi del tren para mandar un reporte urgente antes de la junta matutina. Pantalla de la laptop parpadeando, señal inestable, batería al 40% y, para colmo, saqué el iPhone para usarlo como punto de acceso (hotspot). En ese preciso instante, el brillo automático de la pantalla saltó al 100% por la pésima iluminación cenital del vagón. Sentí que los globos oculares se me derretían y, por si fuera poco, vi el fantasma del logo de Slack grabado tenuemente en el panel OLED de mi iPhone 15 Pro. Casi me da un infarto corporativo ahí mismo.
 

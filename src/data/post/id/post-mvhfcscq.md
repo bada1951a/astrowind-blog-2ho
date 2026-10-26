@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Nordic Clean Ice"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Pukul dua siang di tengah kawasan bisnis Jakarta yang padat, HP Samsung Galaxy milik seorang klien mendadak panas membara di dalam genggamannya, sementara persentase baterai terjun bebas dari 60% ke 15% dalam waktu kurang dari satu jam tanpa disentuh. Sialnya lagi, di saat genting tersebut, port charger di mejanya terasa longgar sehingga kabel goyang sedikit saja pengisian langsung terputus. Klien saya panik bukan kepalang karena puluhan klien penting sedang menunggu konfirmasi via WhatsApp. 
 

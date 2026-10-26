@@ -8,6 +8,7 @@ tags: ["Samsung", "Galaxy Z Fold", "Smartphone", "Hardware", "Riparazione"]
 theme: "Crimson Emergency Field"
 ---
 
+## 1. Emergenza improvvisa con lo smartphone
 
 Ore 14:45 in un ufficio nel cuore di Milano. Mancano esattamente quindici minuti a una call cruciale con i partner di Via Tortona per definire il budget trimestrale. Prendo in mano il mio Galaxy Z Fold appoggiato sulla scrivania, lo apro di scatto per controllare le ultime slide su Google Drive e... il panico totale. Lo schermo principale interno rimane completamente nero, un abisso di pixel spenti, mentre il piccolo display esterno continua a funzionare imperterrito come se nulla fosse. Il cuore accelera, i minuti scorrono e l'ansia sale vertiginosamente: come faccio a mostrare i grafici ai manager se il mio smartphone si rifiuta di aprirsi digitalmente?
 

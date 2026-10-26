@@ -8,6 +8,7 @@ tags: ["iPhone Batterij", "iOS Update", "Smartphone Reparatie", "Batterij Bespar
 theme: "Cyberpunk Terminal"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 <div style="background-color: #0b0f19; border: 1px solid #00ffcc; padding: 16px; border-radius: 6px; font-family: monospace; margin-bottom: 24px;">
     <p style="color: #00ffcc; margin: 0 0 8px 0; font-weight: bold;">[SYSTEM DIAGNOSTIC LOG: AMSTERDAM ZUIDAS_]</p>

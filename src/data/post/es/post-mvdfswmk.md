@@ -8,6 +8,7 @@ tags: ["iPhone", "Hardware", "Soporte Técnico", "Reparación"]
 theme: "Sunset Horizon Coral"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran las 17:45 en nuestra oficina en Madrid. Faltaban exactamente quince minutos para enviar el informe financiero y de rendimiento mensual al director regional, cuando fui a conectar mi iPhone al cable Lightning para pasarle unas gráficas de última hora. En la pantalla, un aviso gélido: "Líquido detectado en el conector Lightning". Intenté ignorarlo, desconecté y volví a conectar. Nada. El teléfono vibró, la alerta persistió y el puerto de carga se bloqueó por completo por motivos de seguridad.
 
@@ -81,4 +82,4 @@ No. La humedad se acumula en el interior milimétrico del conector Lightning/USB
 Solo si el spray especifica claramente que es de evaporación total y no deja residuos oleosos. Muchos lubricantes de contactos para coches o cerraduras dejan una película grasa que aislará los pines e impedirá que el iPhone vuelva a cargar o sincronizar con el ordenador.
 
 3. ¿Cuánto tiempo debo esperar como máximo antes de llevarlo a reparar?
-Si han pasado más de 12 horas, has limpiado los residuos con alcohol isopropílico, el puerto luce completamente limpio bajo la lupa y el aviso de líquido sigue apareciendo de forma indefinida, es muy probable que el sensor físico o el flex de carga se hayan dañado por corrosión interna. En ese punto, toca visitar el servicio técnico para un reemplazo de pieza. 
+Si han pasado más de 12 horas, has limpiado los residuos con alcohol isopropílico, el puerto luce completamente limpio bajo la lupa y el aviso de líquido sigue apareciendo de forma indefinida, es muy probable que el sensor físico o el flex de carga se hayan dañado por corrosión interna. En ese punto, toca visitar el servicio técnico para un reemplazo de pieza.

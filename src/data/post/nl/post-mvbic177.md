@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Hardware", "Smartphone", "Reparatie"]
 theme: "Sandstone Desert Minimal"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Het is kwart voor drie in ons kantoor aan de Amsterdamse Zuidas. Over vijftien minuten start de cruciale Q3-strategiecall met onze grootste internationale partners. Mijn telefoon trilt onophoudelijk in mijn hand; via Slack stromen de laatste bijlagen binnen. Ik klap mijn Galaxy Z Fold open om snel nog even de presentatie op het grote binnenscherm te controleren, en dan gebeurt het: een volkomen dood, zwart scherm. Het buitenste scherm werkt nog prima, maar zodra ik het toestel openklap, valt alles direct op zwart alsof de stekker eruit getrokken is. Paniek. Geen tijd om naar een servicecenter te rennen, want de directie wacht.
 

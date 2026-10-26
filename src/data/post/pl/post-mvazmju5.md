@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Smartfon", "Awaria", "Poradnik"]
 theme: "Mint Fresh Engineering"
 ---
 
+## 1. Awaryjna sytuacja ze smartfonem
 
 Wyobraź sobie ten moment: siedzimy w przeszklonej sali konferencyjnej na warszawskim Mokotowie, za dwadzieścia minut zaczynam wyczekiwaną prezentację kluczowego projektu dla zarządu, a w ręku trzymam mojego Samsunga Galaxy, na którym mam wszystkie notatki i pliki PDF. Nagle – jak za dotknięciem czarodziejskiej różdżki – ekran dotykowy całkowicie zamarza. Żadnej reakcji na dotyk, suwak głośności nie odpowiada, a do rozpoczęcia spotkania zostało coraz mniej czasu. W takich chwilach człowiek dostaje gęsiej skórki, bo pierwsze, co przychodzi do głowy, to panika, że straci się wszystkie niezsynchronizowane dane.
 

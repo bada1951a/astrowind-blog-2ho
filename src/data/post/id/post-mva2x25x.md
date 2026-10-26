@@ -8,6 +8,7 @@ tags: ["iPhone", "Troubleshooting", "Tips", "Hardware"]
 theme: "High-Contrast Charcoal"
 ---
 
+## 1. Situasi Darurat Kritis pada Smartphone
 
 Jam menunjukkan pukul 16:50 WIB di ruang meeting kantor kawasan SCBD, Jakarta. Lima belas menit lagi batas akhir pengiriman laporan keuangan triwulan ke klien melalui WhatsApp Business dan email. Tiba-tiba, layar iPhone saya nge-freeze total. Disentuh pakai jari sekuat apa pun tidak ada reaksi, tombol power ditekan biasa juga diam membisu layaknya batu. Panik bukan main rasanya, apalagi file PDF laporan krusial baru saja diunduh dan belum sempat di-backup ke cloud kantor. 
 
@@ -36,8 +37,6 @@ Metode tombol kombinasi cepat ini adalah penyelamat utama bagi mayoritas penggun
 * Langkah 2: Tekan dan lepaskan dengan cepat tombol Volume Bawah (Volume Down).
 * Langkah 3: Segera tekan dan tahan tombol Samping (Power/Side Button) agak lama. Jangan dilepas saat layar masih gelap.
 * Langkah 4: Terus tahan sampai logo Apple (gambar buah apel tergigit) muncul di layar, lalu lepaskan tombol. Proses booting biasanya memakan waktu sekitar 15 hingga 30 detik.
-
-
 
 ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget833/1000/550)
 

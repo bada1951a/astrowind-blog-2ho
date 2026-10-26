@@ -8,6 +8,7 @@ tags: ["Galaxy", "Smartphone", "Astuces", "Productivité", "Bureau"]
 theme: "Warm Coffee Latte"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est exactement 8h52. Je suis assis à mon bureau dans une tour de La Défense, le cœur qui bat la chamade. Dans huit minutes pile, j'ai un point de validation décisif par visioconférence avec un nouveau partenaire financier. Le problème ? On vient de m'envoyer un message sur le pouce : "Il nous faut d'urgence l'avenant signé et tamponné par fax ou scan haute définition, tout de suite." Le document est là, froissé sur mon coin de table. J'attrape mon Galaxy à la volée, j'ouvre l'appareil photo, je prends un cliché à la va-vite sous les néons du bureau... et c'est le drame. Une ombre immense de mon propre bras barre le milieu de la feuille, le texte brille à cause du flash, et les contours sont flous comme un paysage de brume un matin d'automne sur les quais de Seine. Impossible d'envoyer une telle horreur à un directeur général !
 

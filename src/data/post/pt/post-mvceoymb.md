@@ -8,6 +8,7 @@ tags: ["Tech", "Hardware", "Troubleshooting", "Guide", "USB-C"]
 theme: "Crimson Emergency Field"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Eram exatamente 14h30 em ponto na nossa sede corporativa na Vila Olímpia, em São Paulo. O ritmo estava frenético: reuniões online pipocando no Teams, prazos apertados para fechar o relatório trimestral e a bateria do meu celular despencando para 9%. Conectei o cabo USB-C do power bank às pressas, mas o que apareceu na tela foi um alerta vermelho sangue: "Líquido detectado no conector USB-C". O sistema bloqueou totalmente a carga e a transferência de dados. O pior? Eu não tinha derrubado uma gota de água perto do aparelho. O desespero bateu na hor
 
@@ -43,8 +44,6 @@ a:
 
 ### 1. Desconecte e Limpe os Resíduos Secos
 Desconecte qualquer cabo imediatamente. Pegue uma lanterna (pode ser a de outro celular ou a luz do notebook) e examine a porta de carga. Se notar fiapos de tecido acumulados no fundo, use um palito de dente de plástico (extremamente macio) com movimentos laterais levíssimos para puxar a sujeira para fora, NUNCA empurrando para o fundo.
-
-
 
 ![Hardware & Tech Solution Guide](https://picsum.photos/seed/gadget267/1000/550)
 

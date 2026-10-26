@@ -8,6 +8,7 @@ tags: ["Hardware", "iPhone", "USB-C", "Soporte Técnico", "Madrid"]
 theme: "Modern Minimalist Slate"
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 Eran las 17:45 en nuestra oficina en Madrid. Faltaban apenas quince minutos para enviar el informe trimestral y la presentación ejecutiva clave al cliente, y mi móvil se negaba a cargar. Al intentar conectar el cable, la pantalla se iluminó con una advertencia implacable: "Líquido detectado en el conector Lightning/USB-C". El porcentaje de batería marcaba un escalofriante 4%. Había comprado un café en la cafetería de abajo bajo una lluvia torrencial madrileña, y unas cuantas gotas habían salpicado el dispositivo. El pánico se apoderó de mí: ¿cómo iba a sincronizar los archivos de última hora si el puerto estaba supuestamente bloqueado por seguridad?
 

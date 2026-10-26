@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Rosewood Hardware Guide"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Eram por volta das duas da tarde, daquelas tardes abafadas de verão na Avenida Paulista, quando tentei abrir a câmera para registrar um momento divertido com meu filho. Aproximei o celular rapidamente, mas antes mesmo de focar a imagem, o pior aconteceu: um alerta vermelho de ["Armazenamento Cheio"] saltou na tela, seguido de um travamento total do aplicativo de galeria. Para piorar, debaixo daquele sol escaldante, a tela do aparelho simplesmente apagou a maior parte do brilho, ficando escura a ponto de eu não conseguir enxergar absolutamente nada. Se você já passou por isso no meio da correria do transporte público ou caminhando na rua, sabe o nível do desespero. 
 

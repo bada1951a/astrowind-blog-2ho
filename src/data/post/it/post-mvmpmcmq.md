@@ -8,8 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Industrial Blueprint"
 ---
 
-
-## 1. [Opening Story/Problem]
+## 1. Emergenza improvvisa con lo smartphone
 
 Erano le sette del mattino nel pieno del caos mattutino del Centro Direzionale di Milano. Con la sveglia che suonava insistente sul mio iPhone, mi sono precipitato a prenderlo dal comodino, dove era rimasto collegato al cavo di ricarica per tutta la notte. Ma c'era qualcosa che non andava: lo schermo era completamente nero, freddo, immobile. Niente animazione di carica, nessun risveglio al tocco. Il panico ha iniziato a salire pensando alle riunioni cruciali della giornata e alle notifiche perse. Dopo averlo scollegato, forzato il riavvio e visto finalmente riapparire la mela morsicata, ho tirato un sospiro di sollievo, ma la schermata iniziale mi ha accolto con un'ombra spettrale: le icone della barra di stato e i widget della schermata di blocco erano letteralmente stampati in trasparenza sul pannello OLED. 
 
@@ -19,11 +18,9 @@ Quella notte passata in carica con la luminosità fissa al massimo su un'immagin
 <strong>Nota del Tecnico:</strong> Lasciare l'iPhone in carica tutta la notte con sfondi chiari e luminosità attiva accelera l'usura dei diodi organici. Configurare un'automazione per la Modalità Scura non è solo questione di estetica o comfort visivo, ma una vera e propria misura di protezione hardware per preservare la longevità del display OLED.
 </div>
 
-
-
 ![iPhone OLED Burn-In Prevention: How to Set Up Automated Dark Mode Routine Mobile Repair Guide](https://picsum.photos/seed/mob-mvmpnkpg-6-b/1000/550.jpg)
 
-## 2. Root Cause Breakdown
+## 2. Analisi approfondita dei guasti hardware e di ricarica
 
 Per capire perché il tuo schermo OLED si usura in modo anomalo durante la notte o l'uso prolungato, dobbiamo analizzare come funzionano questi pannelli a livello microscopico. A differenza dei vecchi LCD, ogni singolo pixel di un OLED è una fonte di luce autonoma che si accende e si spegne singolarmente. 
 
@@ -42,7 +39,7 @@ Ecco i tre fattori principali che causano la degradazione precoce e il famigerat
 • <strong>Schermo OLED (iPhone moderni):</strong> Pixel auto-emissivi; rischio burn-in medio-alto se esposti a immagini statiche prolungate; consumo zero sui pixel neri assoluti.
 </div>
 
-## 3. Step-by-Step Resolution
+## 3. Guida pratica di risoluzione passo dopo passo
 
 La difesa migliore contro il burn-in è automatizzare il comportamento del telefono in modo che riduca lo stress sui pixel senza che tu debba ricordartene ogni sera. Configureremo insieme un'automazione tramite l'app **Comandi (Shortcuts)** per attivare la **Modalità Scura** e ridurre la luminosità nelle ore notturne.
 
@@ -68,7 +65,7 @@ Segui questa procedura passo dopo passo:
 Risultato: Salvaguardia dei sub-pixel OLED e riduzione del calore residuo notturno.
 ```
 
-## 4. Expert Advice
+## 4. Avvertenze e suggerimenti del tecnico riparatore
 
 Nel mio laboratorio di riparazione ne vedo di tutti i colori: clienti che spengono il telefono buttandolo nel cassetto pensando si sia rotto, o che cercano di pulire fantomatiche macchie sullo schermo che in realtà sono pixel bruciati dall'uso intensivo del navigatore satellitare con luminosità al massimo sotto il sole cocente. 
 
@@ -77,7 +74,7 @@ Ecco i miei consigli d'oro da banco:
 - **Sfrutta la funzione "Luminosità Automatica":** Vai su **Impostazioni > Accessibilità > Dimensione testo e schermo** e assicurati che la voce **Luminosità automatica** sia sempre attiva. Evita di tenere il cursore manuale fisso al 100% al chiuso.
 - **Attenzione alla ricarica notturna:** Se possibile, usa una base di ricarica wireless lenta o attiva la **Ricarica ottimizzata della batteria** in **Impostazioni > Batteria > Stato e carica della batteria**, così da ridurre il surriscaldamento prolungato che cuoce letteralmente i componenti elettronici circostanti il display.
 
-## 5. Frequently Asked Questions
+## 5. Domande Frequenti (FAQ)
 
 Q: Il burn-in dello schermo OLED può essere riparato via software o con un'applicazione?
 

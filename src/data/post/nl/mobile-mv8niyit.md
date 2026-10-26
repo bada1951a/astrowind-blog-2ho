@@ -8,6 +8,7 @@ tags: ["Smartphone", "Troubleshooting", "iOS", "Android", "Automatsering"]
 theme: "Steel Silver Metallic"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Zit je dan, vol in de ochtendspits tussen Utrecht Centraal en Amsterdam Sloterdijk. Je laptop open op je schoot, de wifi van de NS hapert zoals altijd, dus je moet *nu* je mobiele hotspot aanzetten voor die cruciale kwartaalreview. Terwijl je op je iPhone of Galaxy drukt om snel te tetheren, word je blindgeslagen door een agressief felwitte achtergrond op max helderheid. Je collega's tegenover je kijken meewarig naar dat blauwige licht dat je hele gezicht verlicht, je OLED-paneel staat te loeien en je batterijpercentage keldert waar je bij staat. Geen
 

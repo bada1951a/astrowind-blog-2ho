@@ -8,6 +8,7 @@ tags: ["Samsung", "Smartphone", "Depannage", "Astuces"]
 theme: "Warm Coffee Latte"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 Il est 14h50, le grand point stratégique trimestriel commence dans dix minutes dans notre bureau à Paris, et c'est précisément le moment que choisit mon Samsung Galaxy pour me lâcher. L'écran est complètement figé sur un graphique Excel, insensible au moindre glissement de doigt, et le bouton d'accueil ne fait plus rien. Impossible d'éteindre l'appareil via le menu classique puisque l'interface tactile est morte. La sueur froide commence à perler : toutes mes notes de réunion, les derniers slides de présentation et les contacts clients sont dedans, verrouillés derrière cette vitre de verre muette.
 

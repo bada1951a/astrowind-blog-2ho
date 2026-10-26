@@ -8,6 +8,7 @@ tags: ["iPhone", "Hardware", "TechSupport", "Amsterdam"]
 theme: "Nordic Clean Ice"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Het was exact twintig minuten voor de cruciale product-sync in ons Amsterdamse tech-kantoor aan de Herengracht toen mijn iPhone resoluut weigerde om op te laden. Op het scherm brandde die gevreesde, koppige melding: "Vloeistof gedetecteerd in Lightning-connector". De deadline naderde, mijn accu bungelde op 4 procent, en de externe harde schijf en het dock weigerden dienst door een acuut verbindingsprobleem met de randapparatuur. Geen druppel water had de telefoon gezien—althans, niet bewust—maar daar stond ik dan, met een hopeloos geblokkeerde hardware-poort en een doodlopende Slack-thread met collega's die wachtten op de laatste API-keys.
 

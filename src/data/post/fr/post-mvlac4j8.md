@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Samsung Galaxy", "Ecran", "Astuces Tech"]
 theme: "Bronze Artisan Workshop"
 ---
 
+## 1. Situation d'urgence critique sur smartphone
 
 <div style="border-left: 4px solid #b45309; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Situation d'urgence au dejeuner :</strong> Assis a la terrasse d'un petit restaurant anime pres de La Defense sous un soleil de plomb, je commande une soupe bien chaude. Au moment de savourer le plat, une éclaboussure de bouillon s'envole malencontreusement et vient se loger directement dans la grille du haut de mon Samsung Galaxy. Pris de panique entre le risque pour le haut-parleur et la protection thermique de l'ecran qui s'affole sous le soleil parisien, je me mets desesperement a chercher une lingette alcoolisee et un coton-tige au fond de mes poches pour sauver l'appareil.

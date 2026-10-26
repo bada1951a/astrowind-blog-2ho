@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Documento", "Escaneamento", "Produtividade", "Android"
 theme: "Retro Monokai"
 ---
 
+## 1. Situação de emergência com o smartphone
 
 Fala, meu povo! Beleza? Sabe aquele momento em que o sangue gela? Estava eu no trânsito infernal da Marginal Pinheiros, tentando chegar na marra para uma reunião com um cliente importante na Avenida Paulista. Faltavam exatamente dez minutos para o bicho pegar, o ar-condicionado do Uber parecia não dar conta do calor de São Paulo, e o bendito cliente me manda no WhatsApp: *"Preciso do contrato assinado e enviado por fax ou PDF nítido AGORA, senão o financeiro trava o nosso pagamento."* 
 

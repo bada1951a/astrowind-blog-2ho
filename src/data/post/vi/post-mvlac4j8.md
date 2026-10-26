@@ -8,6 +8,7 @@ tags: ["Sua chua dien thoại", "Samsung Galaxy", "Kinh nghiem ky thuat", "Meo h
 theme: "Mint Fresh Engineering"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Mới hôm qua, có một vị khách chạy ào vào cửa hàng sửa chữa của tôi ở quận 1 với gương mặt đầy lo lắng. Cầm chiếc Samsung Galaxy trên tay, anh vừa thở dốc vừa kể rằng vừa đi chụp ảnh ở bãi biển Bà Rịa - Vũng Tàu về. Đứng dưới cái nắng gay gắt Sài Gòn lúc trưa, màn hình điện thoại cứ tối sầm lại không tài nào nhìn rõ bản đồ Google Maps để tìm đường, đã thế khi cắm sạc vào buổi tối còn nghe tiếng lạo xạo và cảm giác chân cắm bị vướng, cộm rất khó chịu. Nhìn tình trạng này, tôi hiểu ngay anh đang đối mặt với combo ác mộng của dòng máy flagship: lỗi cảm biến ánh sáng tự động bóp độ sáng màn hình ngoài trời kết hợp với việc cát mịn lọt sâu vào khoang cổng sạc Type-C.
 

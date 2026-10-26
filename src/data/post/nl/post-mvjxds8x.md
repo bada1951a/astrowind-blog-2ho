@@ -8,6 +8,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
 theme: "Sandstone Desert Minimal"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Sta je daar, halverwege de Zuidas op een zonnige middag, snel even de glimlach van je kind vast te leggen voor de galerij. Tik je op de camera-app, verschijnt er opeens een angstaanjagende melding op je scherm: "Opslagruimte bijna vol". Binnen een paar seconden bevriest de galerij volledig, wordt het scherm opeens aardedonker alsof de helderheid op nul staat, en voelt de achterkant van je telefoon gloeiend heet aan. Paniek! Je kunt geen foto meer maken, het scherm is nauwelijks leesbaar in het felle daglicht, en je toestel lijkt wel een kacheltje. Als lokale mobiele reparateur zie ik dit scenario elke zomer weer voorbijkomen. Geen stress, ik leg je precies uit wat hier gebeurt en hoe je dit direct oplost.
 

@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Document Scanner", "Zuidas", "Productiviteit", "Androi
 theme: "Electric Cyan Speed"
 ---
 
+## 1. Kritieke smartphone-noodsituatie
 
 Het is kwart voor negen uur. Ik zit in de drukke NS Intercity onderweg van Utrecht Centraal naar Amsterdam Zuid. Binnen tien minuten heb ik een fysiek ondertekend contract nodig bij een belangrijk notariskantoor op de Zuidas, anders kan de hele deal de prullenbak in. Snel trek ik het papier uit m'n tas, leg het op het tafeltje van de trein en open de Camera-app van mijn Galaxy. Ik maak een foto, maar door het felle TL-licht in de coupé hangt er een enorme schaduw van mijn eigen handen over het papier. De tekst is nauwelijks leesbaar, laat staan dat ik dit kan doorsturen als professionele scan. Zwetende handpalmen, hartslag op tweehonderd. Herkenbaar? 
 
@@ -54,8 +55,6 @@ Wist je dat Samsung een verborgen, ijzersterke document-scanner heeft die diep i
 * Open de Camera-app > tik rechtsboven op het Tandwieltje (Instellingen).
 * Ga naar Scannen van documenten en tekst (Document and text scan).
 * Zorg dat deze optie op Aan staat. Hier kun je ook instellen dat de telefoon automatisch vraagt om storende elementen (zoals je vingers aan de rand van het papier) weg te poetsen.
-
-
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/mobile450/1000/550)
 

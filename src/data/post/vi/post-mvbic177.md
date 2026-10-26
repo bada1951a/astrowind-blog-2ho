@@ -8,6 +8,7 @@ tags: ["Galaxy Z Fold", "Sửa chữa điện thoại", "Lỗi màn hình đen",
 theme: "Matte Black stealth"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 14 giờ chiều tại văn phòng ở quận 1, TP.HCM, không khí đang vô cùng căng thẳng. Sếp lớn chuẩn bị vào phòng họp để duyệt lại toàn bộ số liệu tài chính quý và danh sách khách hàng VIP được lưu trong chiếc Galaxy Z Fold của tôi. Tôi vội vàng cầm điện thoại lên, mở máy ra để tra cứu nhanh bảng báo cáo thì hỡi ôi, màn hình chính bỗng tối thui như mực, chỉ có màn hình phụ bên ngoài vẫn sáng bình thường. Tim tôi rớt xuống tận rốn, mồ hôi hột túa ra như tắm giữa phòng máy lạnh. Khởi động lại máy mấy lần vẫn thế, cứ gập vào thì thấy màn hình ngoài, mà hễ mở rộng màn hình ra là tịt ngòi hoàn toàn. Áp lực ngàn cân đè nặng vì chỉ còn chưa đầy 15 phút nữa là sếp kiểm tra dữ liệu trực tiếp trên máy!
 

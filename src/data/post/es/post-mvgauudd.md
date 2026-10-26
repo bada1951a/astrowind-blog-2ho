@@ -7,6 +7,7 @@ category: 'Life & Tech'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Carga Inalámbrica"]
 ---
 
+## 1. Emergencia crítica con el teléfono móvil
 
 ¡Qué pasa, compis de la tecnología! Bienvenidos un día más al banco de trabajo. Si estás leyendo esto es porque probablemente acabas de llegar a la ofi aquí en Madrid, con las prisas de la mañana, has dejado el móvil encima de la base de carga inalámbrica y...
 

@@ -8,6 +8,7 @@ tags: ["Sua chua Samsung", "Loi pin dien thoai", "Meo cong nghe", "Khac phuc loi
 theme: "Crimson Emergency Field"
 ---
 
+## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
 
 Sang nay tai chi nhanh van phong TP.HCM, vua bu vao cua hang thi mot chi khach da ho hoang lao den dat chiec Samsung Galaxy len ban ky thuat. May nong ruc nhu vua nuong khoai, dung tu 100% xuong con co 15% chi trong chua day 2 tieng nam im trong tui xach, cam sac nhanh thi cu ngat ket noi lien tuc hoac bao nhiet do qua cao. Giua luc hang loat cuoc goi hop hanh doi mat, chiec dien thoai tro thanh mot cuc gach bong gay het suc uc che.
 

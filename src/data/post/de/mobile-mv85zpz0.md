@@ -8,6 +8,7 @@ tags: ["Samsung Galaxy", "Troubleshooting", "Android", "Hardware Care"]
 theme: "Mint Fresh Engineering"
 ---
 
+## 1. Kritischer Smartphone-Notfall im Alltag
 
 Acht Minuten bis zum Boarding, der Flug geht nach Frankfurt, und auf meinem Galaxy Z Fold blinkt bei exakt 4 Prozent Akku die rote Warnmeldung: „Feuchtigkeit im Ladeanschluss erkannt“. Kein Witz, mir lief in diesem Moment der kalte Schweiß den Rücken runter. Offene Slack-Nachrichten vom Chef, die finale PDF-Präsentation für den Kundentermin morgen Früh – alles auf dem Fold, und der Akku verabschiedet sich gerade mit Karacho. Panisch greife ich ins Handgepäck, ziehe das USB-C-Kabel raus, puste wie ein Wahnsinniger in die Ladebuchse und stecke es direkt wieder rein. Natürlich der klassische Fehler: Jetzt rührt sich gar nichts mehr, und das One UI-System blockiert den Port komplett.
 
@@ -76,8 +77,6 @@ Als Praxis-Experte sehe ich täglich in der Werkstatt zerstörte Geräte, die ei
 
 ### 1. Das Fold ist absolut trocken, aber die Warnmeldung taucht nach jedem Neustart wieder auf. Was tun?
 Das liegt meist an winzigen, leitfähigen Schmutzpartikeln (z. B. Oxidationsrückstände oder Hosentaschen-Fusseln) im USB-C-Port, die den Stromkreis minimal überbrücken. Reinige den Port vorsichtig mit einer trockenen, sauberen Interdentalbürste (Zahnzwischenraum-Bürste in kleinster Größe) oder lass ihn im Shop mit Isopropanol (99,9%) reinigen.
-
-
 
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-373/1000/550)
 
