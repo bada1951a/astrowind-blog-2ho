@@ -133,49 +133,70 @@ const I18N_SECTIONS = {
 };
 
 // =========================================================================
-// [최종 안정형 마크다운 정제 함수] 볼드 복구 + 영문 템플릿 강제 박멸
+// [Imyandikire itunganyije neza] Gukuraho imyanya y'ubusa + Gukumira gusubiramo imitwe
 // =========================================================================
 function sanitizeMarkdownFormatting(content, langCode) {
   let cleaned = content;
   const i18n = I18N_SECTIONS[langCode] || I18N_SECTIONS.ko;
 
-  // 1) AI가 출력한 영문 대괄호 템플릿 및 기본 헤더를 12개국 현지 언어로 100% 강제 치환
-  cleaned = cleaned.replace(/^#{1,3}\s*1\.?\s*(\[Opening Story.*?\]|Opening Story.*?)/gmi, `## ${i18n.s1}`);
-  cleaned = cleaned.replace(/^#{1,3}\s*2\.?\s*(\[Root Cause.*?\]|Root Cause.*?)/gmi, `## ${i18n.s2}`);
-  cleaned = cleaned.replace(/^#{1,3}\s*3\.?\s*(\[Step-by-Step.*?\]|Step-by-Step.*?)/gmi, `## ${i18n.s3}`);
-  cleaned = cleaned.replace(/^#{1,3}\s*4\.?\s*(\[Expert.*?\]|Expert.*?)/gmi, `## ${i18n.s4}`);
+  // 1) Gukuraho imirongo y'ubusa hejuru
+  cleaned = cleaned.replace(/^\n+/, '');
+
+  // 2) Gukuraho ibimenyetso bya LaTeX n'amadolari ($)
+  cleaned = cleaned.replace(/\$(?:Strg|Ctrl|Win|Shift|Alt|Esc)\s*[^$\n]*\$/gi, (match) => {
+    return `\`${match.replace(/\$/g, '').trim()}\``;
+  });
+  cleaned = cleaned.replace(/\$([^$\n]+)\$/g, '`$1`');
+
+  // 3) Guhindura imitwe n'ibimenyetso mu rurimi rwemewe
+  cleaned = cleaned.replace(/^#{1,3}\s*1\.?\s*(\[Opening Story.*?\]|Opening Story.*?|\[Ouverture.*?\])/gmi, `## ${i18n.s1}`);
+  cleaned = cleaned.replace(/^#{1,3}\s*2\.?\s*(\[Root Cause.*?\]|Root Cause Breakdown.*?|Root Cause.*?)/gmi, `## ${i18n.s2}`);
+  cleaned = cleaned.replace(/^#{1,3}\s*3\.?\s*(\[Step-by-Step.*?\]|Step-by-Step Resolution.*?|Step-by-Step.*?)/gmi, `## ${i18n.s3}`);
+  cleaned = cleaned.replace(/^#{1,3}\s*4\.?\s*(\[Expert.*?\]|Expert Advice.*?|Expert.*?)/gmi, `## ${i18n.s4}`);
   cleaned = cleaned.replace(/^#{1,3}\s*5\.?\s*(\[Frequently Asked Questions.*?\]|Frequently Asked Questions.*?|FAQ)/gmi, `## ${i18n.s5}`);
 
-  // 헤딩(#) 없이 텍스트 번호로 박힌 영문 템플릿도 헤딩 포함 현지어로 강제 변환
   cleaned = cleaned.replace(/^1\.\s*\[Opening Story.*?\]/gmi, `## ${i18n.s1}`);
   cleaned = cleaned.replace(/^2\.\s*\[Root Cause.*?\]/gmi, `## ${i18n.s2}`);
   cleaned = cleaned.replace(/^3\.\s*\[Step-by-Step.*?\]/gmi, `## ${i18n.s3}`);
   cleaned = cleaned.replace(/^4\.\s*\[Expert.*?\]/gmi, `## ${i18n.s4}`);
   cleaned = cleaned.replace(/^5\.\s*(Frequently Asked Questions|\[Frequently Asked Questions\])/gmi, `## ${i18n.s5}`);
 
-  // 잔여 영문 태그 찌꺼기 완벽 제거
+  // Kuzamura imitwe niba AI itarashyizemo '#'
+  cleaned = cleaned.replace(/^(충전\s+(오류|불량|안\s*됨|문제).*?)/gm, `## ${i18n.s2}\n\n$1`);
+  cleaned = cleaned.replace(/^(단계별\s+(응급|해결|조치).*?)/gm, `## ${i18n.s3}\n\n$1`);
+  cleaned = cleaned.replace(/^(현직\s+수리\s*기사.*?)/gm, `## ${i18n.s4}\n\n$1`);
+  cleaned = cleaned.replace(/^#{0,3}\s*(\d\.\s*)?(자주 묻는 질문|Häufig gestellte Fragen|Frequently Asked Questions|よくある(ご)?質問|Questions Fréquemment Posées|Foire [Aa]ux Questions|Preguntas [Ff]recuentes).*?$/gmi, `## ${i18n.s5}`);
+
   cleaned = cleaned.replace(/\[(Opening Story\/Problem|Root Cause Breakdown|Step-by-Step Resolution|Expert Advice)\]/gi, '');
 
-  // 2) 소제목 헤딩(#)에 묻은 불필요한 볼드 기호 정제
+  // 4) Gushyiraho umutwe wa 1 no gukuraho umurongo usubiyemo munsi yawo
+  if (!cleaned.startsWith('## 1.')) {
+    cleaned = `## ${i18n.s1}\n\n` + cleaned;
+  }
+  cleaned = cleaned.replace(/^(## 1\.[^\n]+)\n+(\s*1\.\s+[^\n]+)\n+/m, '$1\n\n');
+
+  // 5) Gukosora bold irenze ku mitwe
   cleaned = cleaned.replace(/^(#{1,6}\s*)\*\*(.*?)\*\*/gm, '$1$2');
 
-  // 3) 볼드(**) 기호 깨짐 교정: 단어와 ** 사이에 붙은 공백 및 인접 문자 표준화
+  // 6) Gukosora amagambo acitsemo ibice
+  cleaned = cleaned.replace(/derech\s*\n\s*a:/gi, 'derecha:')
+                   .replace(/con la energi\s*\n\s*a:/gi, 'con la energía:')
+                   .replace(/preventiv\s*\n\s*a:/gi, 'preventiva:');
+
+  // 7) Gukosora intera z'amagambo afatanye
   cleaned = cleaned.replace(/\*\*\s+([^\*]+?)\s+\*\*/g, '**$1**');
   cleaned = cleaned.replace(/([가-힣a-zA-Z0-9])\*\*([가-힣a-zA-Z0-9])/g, '$1 **$2');
 
-  // 4) Q&A 줄바꿈 및 볼드 보호: Q와 A는 무조건 빈 줄 2개로 분리
+  // 8) Gukosora ibibazo n'ibisubizo (FAQ)
   cleaned = cleaned.replace(/([^\n])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
   cleaned = cleaned.replace(/([^\n])\s+([QA][0-9]*\s*[:.])/g, '$1\n\n$2');
   cleaned = cleaned.replace(/([.!?])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
 
-  // 5) 물음표 뒤 띄어쓰기 누락 보정
+  // 9) Gukosora ibimenyetso by'interuro n'imirongo irenze
   cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9가-힣])/g, '? $1');
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
 
-  // 6) 다국어 특수기호 분리
-  cleaned = cleaned.replace(/([^0-9][.?!])\s*([¿¡])/g, '$1\n\n$2');
-  cleaned = cleaned.replace(/([.!])\s*(D:|R:|Risposta|Domande)/gi, '$1\n\n$2');
-
-  return cleaned;
+  return cleaned.trim();
 }
 
 if (!fs.existsSync(TOPICS_FILE)) {
@@ -279,7 +300,7 @@ const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 const fileSlug = `post-${Date.now().toString(36)}`;
 
 // =========================================================================
-// [영구 고정] gemini-3.5-flash-lite + maxOutputTokens 8192로 중간 절단 원천 차단
+// [Ikoreshwa rihoraho] gemini-3.5-flash-lite + maxOutputTokens 8192
 // =========================================================================
 async function fetchWithRetry(prompt, maxRetries = 5, delayMs = 5000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
@@ -364,8 +385,10 @@ You MUST strictly follow these 5 sections using clean H2 markdown headings (## )
 [STRICT MARKDOWN & FORMATTING RULES]
 1. HEADINGS: Keep clean markdown headings (e.g. "## ${i18n.s2}"). NEVER put bold asterisks (**) inside headings.
 2. BOLD FORMATTING: Use bold (**) ONLY for key button clicks or essential UI/tool terms. Always put a space before and after the bold markup if surrounded by words.
-3. COMMANDS: Wrap test codes (e.g. *#0*#) or terminal steps in 3-backtick code blocks.
-4. NO LATEX & NO TILDE: NEVER use LaTeX ($ or $$). NEVER use tilde (~) for ranges; use hyphen (-).
+3. COMMANDS: Wrap test codes (e.g. \`*#0*#\`) or terminal steps in 3-backtick code blocks.
+4. ABSOLUTE FORBIDDEN CHARACTERS:
+   - NEVER use dollar signs ($). NEVER write keys, variables, or codes wrapped in $. Use standard markdown inline backticks instead.
+   - NEVER use tilde (~) for ranges; use hyphen (-).
 ${lang.code !== 'ko' ? `- Absolutely NEVER include any Korean characters (가-힣) anywhere in non-Korean posts.` : ''}
 
 [Design Theme & Layout Dynamic Rules]
@@ -395,8 +418,7 @@ theme: "${selectedTheme.name}"
     if (text.startsWith('```markdown')) text = text.replace(/^```markdown\n/, '').replace(/\n```$/, '');
     if (text.startsWith('```')) text = text.replace(/^```\n/, '').replace(/\n```$/, '');
 
-    text = text.replace(/\$([^$]+)\$/g, '$1')
-               .replace(/\\times/g, 'x')
+    text = text.replace(/\\times/g, 'x')
                .replace(/\\circ/g, '°')
                .replace(/\\approx/g, '≈');
 
@@ -410,8 +432,8 @@ theme: "${selectedTheme.name}"
 
     const fmMatch = text.match(/^---[\s\S]*?---\n*/);
     if (fmMatch) {
-      let frontmatter = fmMatch[0];
-      let body = text.slice(frontmatter.length).trim();
+      let frontmatter = fmMatch[0].trim();
+      let body = text.slice(fmMatch[0].length).trim();
       body = body.replace(/^#\s+[^\n]+\n+/, '');
 
       frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, "category: 'life-tech'")
@@ -420,10 +442,10 @@ theme: "${selectedTheme.name}"
       frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // 🛡️ [이중 방어] 12개국 고유 언어로 강제 치환 및 볼드 서식 완벽 정제
+      // 🛡️ Gutunganya no gukosora imyandikire y'indimi 12
       body = sanitizeMarkdownFormatting(body, lang.code);
 
-      // 🛡️ [글자 수 물리적 강제 루프: 2,200자 미만 시 즉시 재작성]
+      // 🛡️ Gusubiramo niba inyandiko y'Igiswahili/Ikinyakoreya itagejeje ku bipimo
       let retryCount = 0;
       while (lang.code === 'ko' && body.length < 2200 && retryCount < 2) {
         console.warn(`⚠️ [2호기 분량 부족] 현재 ${body.length}자 -> 목표 2,500자 충족을 위해 재작성 시도 (${retryCount + 1}/2)...`);
@@ -462,7 +484,8 @@ theme: "${selectedTheme.name}"
         }
       }
 
-      text = `${frontmatter}\n${body}\n`;
+      // Kumenya neza ko hagati ya frontmatter na body hari imirongo ibiri gusa
+      text = `${frontmatter}\n\n${body}\n`;
     }
 
     const targetDir = path.join(POSTS_BASE_DIR, lang.code);
