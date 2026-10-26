@@ -31,27 +31,147 @@ function getKstPublishDateIso(index) {
 }
 
 // =========================================================================
-// [최종 안정형 마크다운 정제 함수] 볼드 보존 + Q&A 개행 완벽 방어
+// [2호기 전용] 12개국 100% 현지어 섹션 제목 및 치환 딕셔너리
 // =========================================================================
-function sanitizeMarkdownFormatting(content) {
-  let cleaned = content;
+const I18N_SECTIONS = {
+  ko: {
+    s1: "1. 스마트폰 먹통 돌발 위기 상황",
+    s2: "2. 충전 오류 및 하드웨어 결함의 핵심 원인 분석",
+    s3: "3. 1분 만에 끝내는 단계별 실전 응급 조치법",
+    s4: "4. 현직 수리 기사가 전하는 주의사항 및 팁",
+    s5: "5. 자주 묻는 질문 (FAQ)",
+    tags: ["스마트폰수리", "모바일팁", "트러블슈팅", "배터리케어"]
+  },
+  en: {
+    s1: "1. Critical Smartphone Emergency Situation",
+    s2: "2. Root Cause Breakdown of Port and Hardware Failures",
+    s3: "3. Step-by-Step Practical Emergency Resolution",
+    s4: "4. Professional Repair Technician Precautions & Tips",
+    s5: "5. Frequently Asked Questions (FAQ)",
+    tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
+  },
+  ja: {
+    s1: "1. スマホが突然動かなくなった緊急トラブル",
+    s2: "2. 充電不良とハードウェア障害の根本原因",
+    s3: "3. 1分で完了する実践的な応急処置手順",
+    s4: "4. 現役修理技術者が教える注意点とコツ",
+    s5: "5. よくある質問 (FAQ)",
+    tags: ["スマホ修理", "ハードウェア", "トラブルシューティング", "バッテリーケア"]
+  },
+  de: {
+    s1: "1. Kritischer Smartphone-Notfall im Alltag",
+    s2: "2. Detaillierte Ursachenanalyse von Lade- und Hardwarefehlern",
+    s3: "3. Schritt-für-Schritt-Anleitung zur Notfallbehebung",
+    s4: "4. Praxistipps und Warnungen vom Reparatur-Experten",
+    s5: "5. Häufig gestellte Fragen (FAQ)",
+    tags: ["Smartphone-Reparatur", "Hardware", "Fehlerbehebung", "Akku-Pflege"]
+  },
+  fr: {
+    s1: "1. Situation d'urgence critique sur smartphone",
+    s2: "2. Analyse approfondie des pannes matérielles et de charge",
+    s3: "3. Guide pratique de dépannage étape par étape",
+    s4: "4. Conseils et précautions d'un réparateur professionnel",
+    s5: "5. Foire Aux Questions (FAQ)",
+    tags: ["Réparation Smartphone", "Matériel", "Dépannage", "Entretien Batterie"]
+  },
+  es: {
+    s1: "1. Emergencia crítica con el teléfono móvil",
+    s2: "2. Análisis de causas raíz de fallos de carga y hardware",
+    s3: "3. Solución práctica de emergencia paso a paso",
+    s4: "4. Consejos y advertencias de un técnico reparador",
+    s5: "5. Preguntas Frecuentes (FAQ)",
+    tags: ["Reparación Móvil", "Hardware", "Solución de Problemas", "Cuidado Batería"]
+  },
+  it: {
+    s1: "1. Emergenza improvvisa con lo smartphone",
+    s2: "2. Analisi approfondita dei guasti hardware e di ricarica",
+    s3: "3. Guida pratica di risoluzione passo dopo passo",
+    s4: "4. Avvertenze e suggerimenti del tecnico riparatore",
+    s5: "5. Domande Frequenti (FAQ)",
+    tags: ["Riparazione Smartphone", "Hardware", "Risoluzione Problemi", "Cura Batteria"]
+  },
+  pt: {
+    s1: "1. Situação de emergência com o smartphone",
+    s2: "2. Análise da causa raiz de falhas de carregamento e hardware",
+    s3: "3. Guia prático de primeiros socorros passo a passo",
+    s4: "4. Alertas e recomendações de técnicos especialistas",
+    s5: "5. Perguntas Frecuentes (FAQ)",
+    tags: ["Reparo Celular", "Hardware", "Solução de Problemas", "Cuidado Bateria"]
+  },
+  nl: {
+    s1: "1. Kritieke smartphone-noodsituatie",
+    s2: "2. Grondige oorzaakanalyse van laad- en hardwareproblemen",
+    s3: "3. Stapsgewijze praktische noodoplossing",
+    s4: "4. Belangrijke waarschuwingen van reparatiespecialisten",
+    s5: "5. Veelgestelde Vragen (FAQ)",
+    tags: ["Smartphone Reparatie", "Hardware", "Probleemoplossing", "Accuzorg"]
+  },
+  pl: {
+    s1: "1. Awaryjna sytuacja ze smartfonem",
+    s2: "2. Szczegółowa analiza przyczyn problemów z ładowaniem i sprzętem",
+    s3: "3. Praktyczne rozwiązanie problemu krok po kroku",
+    s4: "4. Wskazówki i ostrzeżenia profesjonalnego serwisanta",
+    s5: "5. Najczęściej zadawane pytania (FAQ)",
+    tags: ["Naprawa Smartfona", "Sprzęt", "Rozwiązywanie Problemów", "Kondycja Baterii"]
+  },
+  id: {
+    s1: "1. Situasi Darurat Kritis pada Smartphone",
+    s2: "2. Analisis Mendalam Kerusakan Port dan Hardware",
+    s3: "3. Panduan Praktis Langkah demi Langkah Perbaikan Darurat",
+    s4: "4. Tips & Peringatan Penting Teknisi Reparasi",
+    s5: "5. Pertanyaan yang Sering Diajukan (FAQ)",
+    tags: ["Reparasi HP", "Perangkat Keras", "Troubleshooting", "Perawatan Baterai"]
+  },
+  vi: {
+    s1: "1. Tình huống sự cố điện thoại thông minh khẩn cấp",
+    s2: "2. Phân tích nguyên nhân gốc rễ lỗi sạc và phần cứng",
+    s3: "3. Các bước xử lý khẩn cấp thực tế từng bước",
+    s4: "4. Lưu ý và lời khuyên quan trọng từ thợ sửa chữa",
+    s5: "5. Các câu hỏi thường gặp (FAQ)",
+    tags: ["Sửa Điện Thoại", "Phần Cứng", "Khắc Phục Sự Cố", "Bảo Vệ Pin"]
+  }
+};
 
-  // 1) 소제목 헤딩(#) 바로 뒤에 붙은 불필요한 볼드 기호 정제 (### **제목** -> ### 제목)
+// =========================================================================
+// [최종 안정형 마크다운 정제 함수] 볼드 복구 + 영문 템플릿 강제 박멸
+// =========================================================================
+function sanitizeMarkdownFormatting(content, langCode) {
+  let cleaned = content;
+  const i18n = I18N_SECTIONS[langCode] || I18N_SECTIONS.ko;
+
+  // 1) AI가 출력한 영문 대괄호 템플릿 및 기본 헤더를 12개국 현지 언어로 100% 강제 치환
+  cleaned = cleaned.replace(/^#{1,3}\s*1\.?\s*(\[Opening Story.*?\]|Opening Story.*?)/gmi, `## ${i18n.s1}`);
+  cleaned = cleaned.replace(/^#{1,3}\s*2\.?\s*(\[Root Cause.*?\]|Root Cause.*?)/gmi, `## ${i18n.s2}`);
+  cleaned = cleaned.replace(/^#{1,3}\s*3\.?\s*(\[Step-by-Step.*?\]|Step-by-Step.*?)/gmi, `## ${i18n.s3}`);
+  cleaned = cleaned.replace(/^#{1,3}\s*4\.?\s*(\[Expert.*?\]|Expert.*?)/gmi, `## ${i18n.s4}`);
+  cleaned = cleaned.replace(/^#{1,3}\s*5\.?\s*(\[Frequently Asked Questions.*?\]|Frequently Asked Questions.*?|FAQ)/gmi, `## ${i18n.s5}`);
+
+  // 헤딩(#) 없이 텍스트 번호로 박힌 영문 템플릿도 헤딩 포함 현지어로 강제 변환
+  cleaned = cleaned.replace(/^1\.\s*\[Opening Story.*?\]/gmi, `## ${i18n.s1}`);
+  cleaned = cleaned.replace(/^2\.\s*\[Root Cause.*?\]/gmi, `## ${i18n.s2}`);
+  cleaned = cleaned.replace(/^3\.\s*\[Step-by-Step.*?\]/gmi, `## ${i18n.s3}`);
+  cleaned = cleaned.replace(/^4\.\s*\[Expert.*?\]/gmi, `## ${i18n.s4}`);
+  cleaned = cleaned.replace(/^5\.\s*(Frequently Asked Questions|\[Frequently Asked Questions\])/gmi, `## ${i18n.s5}`);
+
+  // 잔여 영문 태그 찌꺼기 완벽 제거
+  cleaned = cleaned.replace(/\[(Opening Story\/Problem|Root Cause Breakdown|Step-by-Step Resolution|Expert Advice)\]/gi, '');
+
+  // 2) 소제목 헤딩(#)에 묻은 불필요한 볼드 기호 정제 (### **제목** -> ### 제목)
   cleaned = cleaned.replace(/^(#{1,6}\s*)\*\*(.*?)\*\*/gm, '$1$2');
 
-  // 2) Q&A 볼드 뭉침 방어: **Q1:**, **Q.**, **A1:**, **A.** 등의 머리말 앞을 무조건 2줄 개행으로 분리
+  // 3) 볼드(**) 기호 깨짐 교정: 단어와 ** 사이에 붙은 공백 및 인접 문자 표준화
+  cleaned = cleaned.replace(/\*\*\s+([^\*]+?)\s+\*\*/g, '**$1**');
+  cleaned = cleaned.replace(/([가-힣a-zA-Z0-9])\*\*([가-힣a-zA-Z0-9])/g, '$1 **$2');
+
+  // 4) Q&A 줄바꿈 및 볼드 보호: Q와 A는 무조건 빈 줄 2개로 분리
   cleaned = cleaned.replace(/([^\n])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
-
-  // 3) 마크다운 볼드가 없는 일반 Q/A 머리말도 앞줄과 강제 2줄 개행 분리
   cleaned = cleaned.replace(/([^\n])\s+([QA][0-9]*\s*[:.])/g, '$1\n\n$2');
+  cleaned = cleaned.replace(/([.!?])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
 
-  // 4) 문장 끝 부호(.!?) 뒤에 곧바로 Q/A나 번호 목록(1., 2.)이 붙어 나오는 현상 분리
-  cleaned = cleaned.replace(/([.!?])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?|[0-9]+\.\s+)/gi, '$1\n\n$2');
-
-  // 5) 물음표 뒤 띄어쓰기 누락 보정 (?단어 -> ? 단어)
+  // 5) 물음표 뒤 띄어쓰기 누락 보정
   cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9가-힣])/g, '? $1');
 
-  // 6) 스페인어/다국어 특수 기호 분리
+  // 6) 다국어 특수기호 분리
   cleaned = cleaned.replace(/([^0-9][.?!])\s*([¿¡])/g, '$1\n\n$2');
   cleaned = cleaned.replace(/([.!])\s*(D:|R:|Risposta|Domande)/gi, '$1\n\n$2');
 
@@ -143,7 +263,7 @@ const THEME_PRESETS = [
 const TARGET_LANGS = [
   { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상 및 직장 오피스' },
   { code: 'en', name: 'English', persona: 'Expert mobile repair technician and smartphone specialist', localeContext: 'Metropolitan US tech workplace & everyday commuting' },
-  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシュー팅의 専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
+  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシューティングの専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
   { code: 'de', name: 'German', persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker', localeContext: 'Berlin / München Unternehmens- und Alltagsalltag' },
   { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense et environnement urbain quotidien' },
   { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid y centros corporativos urbanos' },
@@ -152,18 +272,25 @@ const TARGET_LANGS = [
   { code: 'nl', name: 'Dutch', persona: 'Smartphone reparatiespecialist en mobiele hardware-expert', localeContext: 'Amsterdam Zuidas en forenzenverkeer' },
   { code: 'pl', name: 'Polish', persona: 'Serwisant urządzeń mobilnych i smartfonów', localeContext: 'Warszawa centrum i codzienne wyzwania biurowe' },
   { code: 'id', name: 'Indonesian', persona: 'Teknisi profesional perbaikan smartphone dan gadget', localeContext: 'Kawasan Sudirman Jakarta dan mobilitas harian' },
-  { code: 'vi', name: 'Vietnamese', persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm', localeContext: 'Văn phòng trung tâm TP.HCM 및 nhịp sống đô thị' }
+  { code: 'vi', name: 'Vietnamese', persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm', localeContext: 'Văn phòng trung tâm TP.HCM và nhịp sống đô thị' }
 ];
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 const fileSlug = `post-${Date.now().toString(36)}`;
 
+// =========================================================================
+// [출력 상한 잠금] maxOutputTokens: 8192로 모델의 중간 생략/축약 원천 차단
+// =========================================================================
 async function fetchWithRetry(prompt, maxRetries = 5, delayMs = 5000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       const response = await ai.models.generateContent({
-        model: 'gemini-3.5-flash-lite',
+        model: 'gemini-2.5-flash',
         contents: prompt,
+        config: {
+          maxOutputTokens: 8192,
+          temperature: 0.7,
+        }
       });
       return response.text;
     } catch (error) {
@@ -177,6 +304,7 @@ async function fetchWithRetry(prompt, maxRetries = 5, delayMs = 5000) {
 async function generateSinglePost(lang, index) {
   const selectedTheme = THEME_PRESETS[Math.floor(Math.random() * THEME_PRESETS.length)];
   const selectedScenario = MOBILE_CRISIS_SCENARIOS_30[Math.floor(Math.random() * MOBILE_CRISIS_SCENARIOS_30.length)];
+  const i18n = I18N_SECTIONS[lang.code] || I18N_SECTIONS.ko;
 
   console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 포스팅 생성 중... (적용 테마: ${selectedTheme.name})`);
 
@@ -185,8 +313,8 @@ async function generateSinglePost(lang, index) {
 
   const prompt = `
 You are a ${lang.persona}.
-Write a highly practical, conversational, 1st-person mobile hardware troubleshooting guide natively in ${lang.name}.
-CRITICAL: DO NOT translate literally from Korean. Write completely from scratch as an authentic native technician.
+Write a definitive, exhaustive, highly professional mobile smartphone hardware guide natively in ${lang.name}.
+CRITICAL REQUIREMENT: Write 100% natively in ${lang.name}. NEVER mix English template headings or bracketed words unless writing the English post.
 
 [Topic]
 ${currentTopic}
@@ -195,71 +323,57 @@ ${currentTopic}
 - Target City/Culture: ${lang.localeContext}
 - Assigned Emergency Scenario: "${selectedScenario}"
 
-[CRITICAL OUTPUT LANGUAGE INTEGRITY - ZERO HANGUL IN GLOBAL POSTS]
-- If target language is NOT Korean (ko):
-  * Absolutely NEVER include any Korean Hangul characters (가-힣) anywhere in the title, description, tags, or body.
-  * Every single character in the title and description MUST strictly be in native ${lang.name}.
+[MANDATORY TOTAL LENGTH ENFORCEMENT - ZERO CONDENSATION]
+- For Korean (ko): Total body MUST be AT LEAST 2,500 characters (공백 제외 최소 2,000자 이상). Summarizing or brief outputs are strictly prohibited.
+- For other languages: Total body MUST be AT LEAST 1,400 - 1,800 words of rich technical substance.
 
-[WRITING STYLE: PLAIN & PRACTICAL FOR EVERYDAY PROFESSIONALS]
-1. Plain & Easy Explanations:
-    - Avoid overly abstract electrical engineering formulas.
-    - Write in warm, friendly, everyday language that any phone owner can safely follow.
-    - Give concrete cleaning, inspection, and diagnosis steps.
-2. Laser-Focused Narrative:
-    - The opening emergency story MUST be 100% strictly about the assigned [Topic] (${currentTopic}) and reflect the given [Assigned Emergency Scenario].
+[EXHAUSTIVE 5-SECTION STRUCTURE REQUIREMENTS]
+You MUST strictly follow these 5 sections using clean H2 markdown headings (## ):
 
-[MANDATORY OPENING VARIATION RULE - ZERO CLICHE REPETITION]
-- You MUST start the opening story based strictly on the assigned scenario: "${selectedScenario}".
-- ABSOLUTELY FORBIDDEN: Do NOT default to a generic "meeting in 30 minutes" trope. Adapt the specific incident naturally into the local daily culture of ${lang.name}.
+## ${i18n.s1}
+- Do NOT summarize. Write at least 4 long, vivid paragraphs describing:
+  1) The intense daily/work situation, remaining battery percentage, and urgent communication needs.
+  2) The exact error message popup (or freeze/port failure) and the sudden panic it caused.
+  3) The naive first mistakes people make (blowing saliva, aggressive shaking, sharp needles) that risk permanent device damage.
+  4) The realization of what is at stake (lost business call, missed train ticket, urgent photos).
 
-[STRICT MARKDOWN & FORMATTING RULES - NO RENDERING GLITCHES]
-1. HEADINGS & STRUCTURE (MANDATORY):
-    - You MUST use clear markdown headings (## for major sections, ### for subsections) for every section:
-      * ## 1. [Opening Story/Problem]
-      * ## 2. [Root Cause Breakdown]
-      * ## 3. [Step-by-Step Resolution]
-      * ## 4. [Expert Advice]
-      * ## 5. Frequently Asked Questions
-    - NEVER put markdown asterisks inside headings. Keep clean headings like "## 2. Root Cause Breakdown".
-2. BOLD FORMATTING RULE:
-    - Use markdown bold (**) naturally and moderately ONLY for key action words, UI menu buttons, tools, or core technical terms.
-    - NEVER bold an entire sentence or overuse bold on every phrase.
-3. COMMANDS & CODE BLOCKS:
-    - Always wrap long technical terms, test codes (e.g. *#0*#), or shell snippets in standard 3-backtick code blocks (\`\`\`bash or \`\`\`cmd).
-4. NO LATEX & NO TILDE:
-    - ABSOLUTELY FORBIDDEN: NEVER use LaTeX math delimiters ($ or $$). Always write plain text units (e.g., "45°C", "9V 2A", "25W").
-    - ABSOLUTELY FORBIDDEN: NEVER use tilde (~) for ranges (e.g., NEVER write "10~20%"). Always use a hyphen (e.g., "10-20%").
+## ${i18n.s2}
+- Do NOT just write 3 quick bullets. Write an exhaustive technical breakdown across at least 4 detailed paragraphs explaining:
+  1) Physical hardware causes: Port pin oxidation, micro-lint compaction inside USB-C/Lightning cavities, and mechanical terminal wear.
+  2) Power delivery & circuit causes: PMIC (Power Management IC) protection loops, thermal throttling safeguards, and fluctuating cable resistances.
+  3) Environmental & software causes: Moisture sensor false positives, background rogue app drain, or battery BMS calibration drift.
 
-[Design Theme & Layout Dynamic Rules (MANDATORY)]
+## ${i18n.s3}
+- Provide at least 3 distinct, complete practical emergency resolution methods:
+  * Method 1: Safe non-conductive mechanical cleaning (wooden toothpick / antistatic brush / compressed air angled correctly).
+  * Method 2: System cache wipe, hardware diagnostic secret codes, or forced hard reboot key combinations.
+  * Method 3: Cable resistance testing, alternating charging protocols (PD vs QC), or wireless inductive bypass.
+  * Write step-by-step with clear numbered lists and explain the technical reasoning for each step.
+
+## ${i18n.s4}
+- Write at least 2 in-depth paragraphs of professional technician advice:
+  1) Critical hazards: Short-circuiting battery cells, voiding warranty, liquid residue corrosion.
+  2) Best maintenance habits: Recommended authentic chargers, charging temperature thresholds, and periodic port care.
+
+## ${i18n.s5}
+- Provide exactly 3 realistic, highly specific Q&A items:
+  * Each question must be bold (**Q1.**, **Q2.**, **Q3.**) followed by the question text.
+  * Each answer (**A1.**, **A2.**, **A3.**) MUST be a detailed, multi-sentence technical explanation (at least 3-4 sentences per answer).
+  * Put an empty blank line between every Question and Answer.
+
+[STRICT MARKDOWN & FORMATTING RULES]
+1. HEADINGS: Keep clean markdown headings (e.g. "## ${i18n.s2}"). NEVER put bold asterisks (**) inside headings.
+2. BOLD FORMATTING: Use bold (**) ONLY for key button clicks or essential UI/tool terms. Always put a space before and after the bold markup if surrounded by words.
+3. COMMANDS: Wrap test codes (e.g. *#0*#) or terminal steps in 3-backtick code blocks.
+4. NO LATEX & NO TILDE: NEVER use LaTeX ($ or $$). NEVER use tilde (~) for ranges; use hyphen (-).
+${lang.code !== 'ko' ? `- Absolutely NEVER include any Korean characters (가-힣) anywhere in non-Korean posts.` : ''}
+
+[Design Theme & Layout Dynamic Rules]
 - Assigned Theme: "${selectedTheme.name}"
 - Primary Accent Color: ${selectedTheme.primaryColor}
 - Layout Characteristic: ${selectedTheme.layout}
-- You MUST incorporate native Markdown and inline styled HTML callouts tailored to this theme.
-- Use custom styled tip/warning boxes (e.g., <div style="border-left: 4px solid ${selectedTheme.primaryColor}; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">...</div>).
-  * CRITICAL: All text inside callout/tip/warning boxes MUST be crisp dark charcoal/black (color: #111827) so it is 100% legible against any background.
-
-[Tone & Writing Style Rules (STRICT - NO AI VIBE)]
-1. Mandatory Opening:
-    - Absolutely FORBIDDEN: Boring textbook intros like "Hello", "In this post", "Today we will explore".
-    - Start immediately with an intense, relatable panic moment strictly about [Topic] based on the assigned incident.
-2. Tone & Voice:
-    - Write like an experienced repair shop owner sharing honest, battle-tested practical tips.
-3. Fast-Paced 3-Step Narrative:
-    - Step 1: Sudden charging/port panic regarding [Topic] set in the assigned incident.
-    - Step 2: Dangerous mistakes people make (e.g., using sharp metal pins, blowing saliva).
-    - Step 3: Safe, actionable diagnostic and cleaning/repair steps.
-
-[Content & Structure (AdSense E-E-A-T Compliant)]
-1. Opening Story: Intense real-life incident strictly regarding this topic based on the assigned scenario.
-2. Root Cause Breakdown: Clearly explain 3 realistic root causes behind the port/battery/charging failure.
-3. Step-by-Step Resolution: Actionable, safe diagnostic and cleaning/inspection steps.
-4. Expert Warning / Safety Tip: Crucial warnings on battery safety, pin deformation, or liquid contact.
-5. Frequently Asked Questions (FAQ): Exactly 3 realistic, high-value Q&As that users frequently ask.
-   * CRITICAL: Every single Question (Q) and Answer (A) MUST start on its own separate new line, separated by an empty blank line. Never run Q and A together.
-
-[Length & Richness Rules]
-- Korean (ko): Minimum 2,500 characters of rich, deep, non-repetitive text.
-- Other languages: 1,200 to 1,500 words of thorough practical explanation.
+- Incorporate inline styled HTML callout boxes tailored to this theme:
+  <div style="border-left: 4px solid ${selectedTheme.primaryColor}; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">...</div>
 
 [Strict Output Format]
 Return ONLY raw Markdown starting directly with frontmatter:
@@ -269,7 +383,7 @@ description: "Native concise description in ${lang.name} under 160 characters"
 publishDate: ${pubDateIso}
 image: "${coverUrl}"
 category: "life-tech"
-tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
+tags: ${JSON.stringify(i18n.tags)}
 theme: "${selectedTheme.name}"
 ---
 (Body starts directly here without H1 header)
@@ -306,8 +420,14 @@ theme: "${selectedTheme.name}"
       frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // 2호기 안전 정제 함수 적용 (볼드 복원 및 Q&A 개행 분리 방어)
-      body = sanitizeMarkdownFormatting(body);
+      // 🛡️ [이중 방어] 12개국 고유 언어로 강제 치환 및 볼드 서식 완벽 정제
+      body = sanitizeMarkdownFormatting(body, lang.code);
+
+      // 🛡️ [글자 수 검증 안전장치]
+      if (lang.code === 'ko') {
+        const charCount = body.length;
+        console.log(`📏 [2호기 한국어 본문 글자 수] 현재: ${charCount}자 (목표: 2,500자 이상)`);
+      }
 
       const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
       const middleImageMarkdown = `\n\n![${safeAlt} Mobile Repair Guide](${bodyUrl})\n\n`;
