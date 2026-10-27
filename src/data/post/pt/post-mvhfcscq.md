@@ -18,7 +18,7 @@ Eram exatamente 14h30 em plena Avenida Paulista, num ambiente corporativo super 
 
 Antes de sair trocando pecas ou gastando dinheiro em assistencias picaretas, voce precisa entender o que esta acontecendo dentro do seu aparelho. Aqui estao as tres raizes mais comuns para esse problem
 
-a:
+**a:**
 
 * Apps travados em loop de sincronizacao: Alguma rede social ou aplicativo de banco ficou preso tentando enviar dados, mantendo o processador trabalhando em capacidade maxima 100% do tempo.
 * Conector de carga emperrado e em curto parcial: Acumulo de sujeira, fiapos de tecido e oxidacao leve criam uma resistencia na porta USB-C. O sistema acha que esta recebendo dados ou carga instavel, gerando superaquecimento local.
@@ -62,5 +62,6 @@ De jeito nenhum! O alcool comum contem agua na formula (teor de 46% ou mais), o 
 2. O celular continua esquentando mesmo depois de fechar todos os apps. O que pode ser?
 Se ele esquenta proximo ao modulo de cameras ou embaixo do leitor de digital mesmo sem uso, voce pode estar com um curto-circuito na placa principal (geralmente causado por umidade previa ou defeito no circuito integrado de carga, o famoso CI U2/PMIC). Nesse caso, procure uma assistencia tecnica de confianca para uma analise com multimetro e camera termica.
 
-3. Carregar o Galaxy usando o computador esquenta mais do que na tomada?
-Sim. Portas USB de computadores antigos fornecem pouca corrente (geralmente 500mA a 900mA), forcando o circuito de carga do celular a trabalhar no limite por muito mais tempo para repor energia, gerando calor dissipado desnecessario. Prefira sempre carregadores de parede originais ou homologados com saida compativel (15W, 25W ou superior).
+**Q.** Carregar o Galaxy usando o computador esquenta mais do que na tomada?
+
+**A.** Sim. Portas USB de computadores antigos fornecem pouca corrente (geralmente 500mA a 900mA), forcando o circuito de carga do celular a trabalhar no limite por muito mais tempo para repor energia, gerando calor dissipado desnecessario. Prefira sempre carregadores de parede originais ou homologados com saida compativel (15W, 25W ou superior).

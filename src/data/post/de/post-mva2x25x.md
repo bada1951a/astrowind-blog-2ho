@@ -53,7 +53,7 @@ Ein einmaliger Absturz passiert. Wenn das iPhone jedoch wöchentlich einfriert, 
 
 Außerdem solltet ihr immer mindestens 10 GB Speicherplatz frei halten. iOS benötigt diesen Puffer für temporäre Swap-Dateien. Ist der Speicher komplett voll, sind Display-Freezes vorprogrammiert.
 
-### Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 1. Verliere ich meine ungespeicherten Daten, wenn ich einen erzwingenden Neustart mache?
 Nein. Ein Hard Reset entspricht dem harten Ausschalten eines Computers. Dokumente in Apps wie Notizen oder Office-Anwendungen, die die automatische Speicherfunktion nutzen, bleiben erhalten. Bereits in einer App getippter, aber noch nicht zwischengespeicherter Text kann jedoch verloren gehen.

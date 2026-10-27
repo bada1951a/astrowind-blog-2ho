@@ -19,7 +19,7 @@ Przez pierwsze dwie minuty wpadłem w klasyczną panikę. Zacząłem dziko wcisk
 Dopiero kiedy głęboko odetchnąłem i podszedłem do sprawy jak rutiniarz, który w swoim życiu widział już spalone płyty główne i zjedzone przez kawę klawiatury, zrozumiałem, w czym rzecz. Zanim pobiegniesz do serwisu i zostawisz tam fortunę za wymianę całego modułu ekranu elastycznego, spójrzmy na to chłodnym okiem informatyka. <div style="border-left: 4px solid #334155; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Wskazówka ekspertow
 
-a:</strong> Zanim rozkręcisz lub oddasz telefon do drogiego serwisu, upewnij się, że wykonałeś kopię zapasową danych przez Smart Switch na komputerze. Często przy problemach z taśmą elastyczną, port USB-C i zewnętrzny ekran wciąż pozwalają na zgranie kluczowych plików!
+**a:**</strong> Zanim rozkręcisz lub oddasz telefon do drogiego serwisu, upewnij się, że wykonałeś kopię zapasową danych przez Smart Switch na komputerze. Często przy problemach z taśmą elastyczną, port USB-C i zewnętrzny ekran wciąż pozwalają na zgranie kluczowych plików!
 </div>
 
 ### Dlaczego Fold szaleje? Główne przyczyny awarii

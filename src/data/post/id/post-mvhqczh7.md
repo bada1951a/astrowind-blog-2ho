@@ -46,7 +46,7 @@ Jika baterai terkuras habis gara-gara update sistem baru, lakukan langkah pendin
 * Matikan Background App Refresh: Masuk ke *Pengaturan > Umum > Penyegaran Aplikasi di Latar Belakang*, lalu matikan untuk aplikasi yang tidak penting. Ini menghentikan aplikasi menyedot daya secara diam-diam.
 * Kalibrasi Sederhan
 
-a: Gunakan iPhone sampai baterai tersisa 5-10%, lalu matikan ponsel. Cas dalam keadaan mati hingga 100%, biarkan tetap tersolok selama 30 menit tambahan agar sistem membaca ulang persentase baterai secara akurat.
+**a:** Gunakan iPhone sampai baterai tersisa 5-10%, lalu matikan ponsel. Cas dalam keadaan mati hingga 100%, biarkan tetap tersolok selama 30 menit tambahan agar sistem membaca ulang persentase baterai secara akurat.
 * Berikan Waktu 2-3 Hari: Biarkan proses *indexing* sistem selesai dengan sendirinya. Biasanya konsumsi baterai akan kembali normal setelah tiga hari pemakaian.
 
 <div style="border-left: 4px solid #e11d48; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -57,14 +57,14 @@ a: Gunakan iPhone sampai baterai tersisa 5-10%, lalu matikan ponsel. Cas dalam k
 
 ### Tanya Jawab Populer (FAQ)
 
-Q: Apakah aman membersihkan port charger iPhone menggunakan cairan alkohol?
+**Q:** Apakah aman membersihkan port charger iPhone menggunakan cairan alkohol?
 
-A: Aman, asalkan Anda menggunakan cairan Isopropyl Alcohol (IPA) dengan kadar minimal 95-99% dan pastikan ponsel dalam keadaan *OFF* (mati). Gunakan *cotton bud* yang sudah diperas hingga hampir kering (tidak menetes) untuk membersihkan sisa minyak. Jangan pernah menggunakan air biasa.
+**A:** Aman, asalkan Anda menggunakan cairan Isopropyl Alcohol (IPA) dengan kadar minimal 95-99% dan pastikan ponsel dalam keadaan *OFF* (mati). Gunakan *cotton bud* yang sudah diperas hingga hampir kering (tidak menetes) untuk membersihkan sisa minyak. Jangan pernah menggunakan air biasa.
 
-Q: Apakah wajib langsung mengganti baterai jika boros setelah update iOS?
+**Q:** Apakah wajib langsung mengganti baterai jika boros setelah update iOS?
 
-A: Tidak selalu. Cek dulu *Maximum Capacity* di menu *Pengaturan > Baterai > Kesehatan Baterai*. Jika angka di atas 80% dan tidak ada gejala restart sendiri (sudden shutdown), itu murni karena proses sistem yang sedang bekerja berat dan akan normal kembali dalam beberapa hari.
+**A:** Tidak selalu. Cek dulu *Maximum Capacity* di menu *Pengaturan > Baterai > Kesehatan Baterai*. Jika angka di atas 80% dan tidak ada gejala restart sendiri (sudden shutdown), itu murni karena proses sistem yang sedang bekerja berat dan akan normal kembali dalam beberapa hari.
 
-Q: Bagaimana cara membedakan port longgar karena kotoran atau karena patahnya pin di dalam?
+**Q:** Bagaimana cara membedakan port longgar karena kotoran atau karena patahnya pin di dalam?
 
-A: Jika setelah dibersihkan menggunakan tusuk gigi masih ada rongga atau kabel tetap goyang dan tidak mau ngecas sama sekali saat digeser, kemungkinan besar pengunci fisik di dalam port atau pin konektornya sudah aus atau patah. Kondisi ini memerlukan penggantian modul fleksibel *charging* di teknisi profesional.
+**A:** Jika setelah dibersihkan menggunakan tusuk gigi masih ada rongga atau kabel tetap goyang dan tidak mau ngecas sama sekali saat digeser, kemungkinan besar pengunci fisik di dalam port atau pin konektornya sudah aus atau patah. Kondisi ini memerlukan penggantian modul fleksibel *charging* di teknisi profesional.

@@ -20,8 +20,6 @@ La consapevolezza di ciò che è realmente in gioco si fa strada nella mente con
 
 <div style="border-left: 4px solid #be123c; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">Nota critica del laboratorio: Un dispositivo bloccato in boot loop sul logo aziendale non indica necessariamente una rottura della memoria flash. Spesso la corruzione dei file temporanei di sistema nella partizione cache impedisce il caricamento del kernel Android, un problema facilmente risolvibile agendo tempestivamente tramite la Recovery Mode originale.</div>
 
-
-
 ![Samsung Galaxy Boot Loop Stuck on Samsung Logo: Clearing Cache Partition in Recovery Mobile Repair Guide](https://picsum.photos/seed/mob-mvpkgkzj-6-b/1000/550.jpg)
 
 ## 2. Analisi approfondita dei guasti hardware e di ricarica
@@ -46,11 +44,11 @@ Per risolvere definitivamente il problema del blocco sul logo e ripristinare la 
 5. Erogare brevi e controllati getti d'aria compressa tenendo la bomboletta in posizione verticale, così da espellere definitivamente ogni residuo microscopico di polvere e umidità residua dalla sede del connettore.
 
 ### Metodo 2: Accesso alla Recovery Mode e cancellazione della partizione cache
-1. Assicurarsi che il telefono sia spento. Se il dispositivo è bloccato sul logo, tenere premuti contemporaneamente e a lungo i tasti **Volume Giù**e **Accensione **per circa dieci secondi fino a quando lo schermo non diventa completamente nero.
-2. Appena lo schermo si spegne, spostare rapidamente il dito dal tasto **Volume Giù**al tasto **Volume Su**, mantenendo sempre premuto il tasto **Accensione **unitamente al **Volume Su **per avviare la sequenza di ingresso in Recovery Mode.
+1. Assicurarsi che il telefono sia spento. Se il dispositivo è bloccato sul logo, tenere premuti contemporaneamente e a lungo i tasti **Volume Giù**e**Accensione **per circa dieci secondi fino a quando lo schermo non diventa completamente nero.
+2. Appena lo schermo si spegne, spostare rapidamente il dito dal tasto**Volume Giù**al tasto**Volume Su**, mantenendo sempre premuto il tasto**Accensione **unitamente al**Volume Su **per avviare la sequenza di ingresso in Recovery Mode.
 3. Rilasciare entrambi i tasti non appena compare sul display il logo della schermata di recupero Android con le scritte in piccolo di colore giallo e blu.
-4. Utilizzare i tasti del volume per muoversi verticalmente all'interno del menu testuale e selezionare la voce **Wipe cache partition **premendo il tasto **Accensione **per confermare la scelta.
-5. Spostarsi sulla voce **Yes **per confermare l'operazione di pulizia della cache corrotta, attendere pochi secondi il completamento del processo e selezionare infine **Reboot system now** per riavviare normalmente lo smartphone.
+4. Utilizzare i tasti del volume per muoversi verticalmente all'interno del menu testuale e selezionare la voce**Wipe cache partition **premendo il tasto**Accensione **per confermare la scelta.
+5. Spostarsi sulla voce**Yes **per confermare l'operazione di pulizia della cache corrotta, attendere pochi secondi il completamento del processo e selezionare infine**Reboot system now** per riavviare normalmente lo smartphone.
 
 ### Metodo 3: Test di resistenza dei cavi e protocolli di ricarica alternativi
 1. Procurarsi un cavo di ricarica USB-C originale certificato di tipo USB-IF o di marca primaria, evitando cavi economici privi di chip di protezione E-Marker integrato.
@@ -70,12 +68,12 @@ Per preservare l'integrità del vostro smartphone nel lungo periodo e prevenire 
 
 **Q1.**La procedura di pulizia della cache in Recovery Mode cancella i miei dati personali o le mie foto?
 
-A1. Assolutamente no. La voce "Wipe cache partition" agisce unicamente sui file temporanei di sistema accumulati dalle applicazioni e dal sistema operativo nel corso del normale utilizzo quotidiano. I vostri dati personali, le fotografie, i contatti e le applicazioni installate rimarranno perfettamente intatti e al sicuro nella memoria principale del dispositivo.
+**A1.** Assolutamente no. La voce "Wipe cache partition" agisce unicamente sui file temporanei di sistema accumulati dalle applicazioni e dal sistema operativo nel corso del normale utilizzo quotidiano. I vostri dati personali, le fotografie, i contatti e le applicazioni installate rimarranno perfettamente intatti e al sicuro nella memoria principale del dispositivo.
 
 **Q2.**Cosa devo fare se il mio Samsung Galaxy rimane bloccato sul logo anche dopo aver eseguito il wipe della cache?
 
-A2. Se il dispositivo persiste nel boot loop nonostante la pulizia della cache, significa che il file system principale o il firmware sono gravemente danneggiati. In questo scenario più critico, potrebbe essere necessario procedere con un ripristino ai dati di fabbrica (Factory Reset) sempre tramite Recovery Mode, oppure affidarsi a un centro assistenza autorizzato per il ricaricamento del firmware originale tramite software di servizio.
+**A2.** Se il dispositivo persiste nel boot loop nonostante la pulizia della cache, significa che il file system principale o il firmware sono gravemente danneggiati. In questo scenario più critico, potrebbe essere necessario procedere con un ripristino ai dati di fabbrica (Factory Reset) sempre tramite Recovery Mode, oppure affidarsi a un centro assistenza autorizzato per il ricaricamento del firmware originale tramite software di servizio.
 
 **Q3.** È sicuro utilizzare stuzzicadenti di legno per pulire la porta USB-C del telefono?
 
-A3. Sì, l'utilizzo di uno stuzzicadenti in legno adeguatamente assottigliato è considerato un metodo sicuro dai tecnici riparatori, a patto di operare con estrema delicatezza e senza esercitare una forza eccessiva sui lati. Il legno è un materiale più morbido rispetto ai pin di contatto dorati presenti all'interno del connettore, riducendo drasticamente il rischio di provocare piegature meccaniche o cortocircuiti irreversibili.
+**A3.** Sì, l'utilizzo di uno stuzzicadenti in legno adeguatamente assottigliato è considerato un metodo sicuro dai tecnici riparatori, a patto di operare con estrema delicatezza e senza esercitare una forza eccessiva sui lati. Il legno è un materiale più morbido rispetto ai pin di contatto dorati presenti all'interno del connettore, riducendo drasticamente il rischio di provocare piegature meccaniche o cortocircuiti irreversibili.

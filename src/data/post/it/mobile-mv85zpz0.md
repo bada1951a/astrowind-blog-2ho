@@ -22,13 +22,13 @@ I dispositivi pieghevoli come la serie Z Fold di Samsung hanno tolleranze meccan
 
 Ecco i 3 colpevoli reali dietro questo errore fantasm
 
-a:
+**a:**
 * Condensazione termica da sbalzo: Passare da un ufficio climatizzato a 20°C all'afa esterna estiva (o viceversa) crea condensa microscopica nei pin centrali della porta. * Residui di tasca e ossidazione silente: Pelucchi di tessuto misti a sudore che, appena scaldati dalla ricarica rapida, attivano i sensori di sicurezza antincendio/cortocircuito della One UI.
 * Bug di sistema della cache USB: A volte il sottosistema Android (`usbd` o i daemon di ricarica rapida) va in loop dopo un aggiornamento OTA, continuando a segnalare umidità anche a porta perfettamente asciutta. ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-592/1000/550)
 
 ## 2. Il protocollo di emergenz
 
-a: dal panico alla soluzione step-by-step
+**a:** dal panico alla soluzione step-by-step
 
 Dimenticate i miti del riso (che lascia polvere amido dentro i microfoni) o del phon a massima potenza (che fonde le guarnizioni impermeabili). Seguite questa procedura rigorosa testata sul campo.
 
@@ -61,7 +61,7 @@ Se siete in una situazione disperata (come la mia al gate) e dovete assolutament
 
 I pieghevoli sono macchine straordinarie ma delicate. Per evitare di passare le ferie o le trasferte di lavoro nei centri assistenz
 
-a:
+**a:**
 
 * Occhio alla ricarica wireless: Tenete sempre un piccolo pad di ricarica wireless nello zaino o in ufficio. Se la Type-C fa i capricci per un falso positivo di umidità, la ricarica a induzione vi salverà la vita senza rischiare cortocircuiti fisici.
 * Cover con tappino protettivo: Se lavorate in ambienti polverosi o umidi (cantieri, cucine, esterni), investite in una custodia rugged dotata di linguetta in silicone protettiva per la porta di ricarica. Riduce i problemi del 90%.

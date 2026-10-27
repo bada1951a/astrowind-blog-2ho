@@ -24,7 +24,7 @@ Bevor man gleich den Schraubenzieher zückt oder das Gerät panisch einschickt, 
 
 1. Das Flexkabel-Verschleiß-Dilemm
 
-a: Das flexible Ribbon-Kabel, das die Signale vom Mainboard zum Hauptdisplay leitet, wird bei jedem Aufklappen mechanisch beansprucht. Nach tausendfachem Falten kann es zu Mikrorissen oder einem Wackelkontakt kommen.
+**a:** Das flexible Ribbon-Kabel, das die Signale vom Mainboard zum Hauptdisplay leitet, wird bei jedem Aufklappen mechanisch beansprucht. Nach tausendfachem Falten kann es zu Mikrorissen oder einem Wackelkontakt kommen.
 
 2. Der Hall-Sensor / Magnet-Fehler: Im Scharnier sitzen winzige Magnetsensoren, die dem Betriebssystem mitteilen, ob das Gerät zugeklappt oder offen ist. Wenn sich dort Metallstaub angesammelt hat, denkt das Foldable fälschlicherweise, es sei noch zugeklappt, und schaltet das Hauptdisplay ab.
 
@@ -63,7 +63,7 @@ Wenn das System beim Umschalten eingefroren ist, hilft oft nur ein harten Neusta
 <strong>Pro-Tipp vom Technik-Tisch:</strong> Vermeiden Sie es, das Foldable bei Minustemperaturen im Freien ruckartig aufzuklappen. Der Kunststoff und der Kleber des Flexkabels werden bei Kälte spröde, was die Bruchgefahr des internen Kabels drastisch erhöht.
 </div>
 
-### Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 1. Was kann ich tun, wenn das Innendisplay nach all diesen Schritten weiterhin schwarz bleibt?
 Wenn das Display auch im abgesicherten Modus und nach dem Hard Reset schwarz bleibt, aber das Außendisplay normal funktioniert, liegt zu 99 Prozent ein Hardwaredefekt vor (Kabelbruch im Scharnier oder defektes Panel). In diesem Fall hilft nur der Gang zum Service-Partner für einen Austausch des Flexkabels oder der Display-Einheit.

@@ -1,5 +1,5 @@
 ---
-title: "Cara Aman Mengatasi Error 'Liquid Detected' di Port USB-C atau Lightning"
+title: "Cara Aman Mengatasi Error'Liquid Detected' di Port USB-C atau Lightning"
 description: "Panik port HP kena air pas mau kirim laporan? Begini cara aman mengatasi peringatan cairan terdeteksi tanpa merusak perangkat."
 publishDate: 2026-10-17T21:00:00.000Z
 image: "https://picsum.photos/seed/tech986/900/600"
@@ -12,7 +12,7 @@ theme: "Steel Silver Metallic"
 
 Jam menunjukkan pukul 16.45 sore di kantor kawasan SCBD, Jakarta. Sepuluh menit lagi tenggat waktu pengiriman laporan keuangan bulanan ke klien penting, tiba-tiba harddisk eksternal dan kabel data Type-C saya ngadat. Layar ponsel langsung memunculkan peringatan merah menyal
 
-a: "Liquid Detected in USB-C Connector". Padahal, seharian ini perangkat aman di atas meja kerja, paling cuma ketumpahan sedikit es kopi susu. Jantung rasanya mau copot karena data laporan krusial ada di dalam SSD yang harus segera disinkronkan. Kalau salah ambil tindakan, port bakal rusak permanen atau malah korsleting.
+**a:** "Liquid Detected in USB-C Connector". Padahal, seharian ini perangkat aman di atas meja kerja, paling cuma ketumpahan sedikit es kopi susu. Jantung rasanya mau copot karena data laporan krusial ada di dalam SSD yang harus segera disinkronkan. Kalau salah ambil tindakan, port bakal rusak permanen atau malah korsleting.
 
 <div style="border-left: 4px solid #64748b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Catatan Teknisi:</strong> Jangan pernah panik lalu mencolokkan benda tajam atau meniup port dengan kencang saat peringatan ini muncul. Itu justru mendorong uap air masuk lebih dalam ke komponen sensitif di dalam bodi ponsel.
@@ -24,7 +24,7 @@ a: "Liquid Detected in USB-C Connector". Padahal, seharian ini perangkat aman di
 
 Sebelum kita masuk ke cara penyelesaiannya, mari pahami dulu akar masalah yang sering bikin panik penggun
 
-a:
+**a:**
 
 1. Kelembapan Udara Jakarta & Kondensasi: Ruangan kantor ber-AC dingin yang kadang ditinggal lembap saat malam hari sering memicu embun mikro di dalam pin konektor logam USB-C atau Lightning.
 

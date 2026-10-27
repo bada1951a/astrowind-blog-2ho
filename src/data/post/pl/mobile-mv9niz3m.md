@@ -17,7 +17,7 @@ Pociąg PKP Intercity z Poznania do Warszawy leci jak szalony, za oknem mkną ma
 <div style="border-left: 4px solid #1d4ed8; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Log awarii systemu - godzina 08:42:</strong> Błąd odczytu optycznego. Przyczyn
 
-a: nierównomierne światło w przedziale PKP, cień ciała nad kartką, brak automatycznego wygładzania w standardowej aplikacji aparatu. Status: KRYTYCZNY.
+**a:** nierównomierne światło w przedziale PKP, cień ciała nad kartką, brak automatycznego wygładzania w standardowej aplikacji aparatu. Status: KRYTYCZNY.
 </div>
 
 ### Dlaczego zwykłe zdjęcie dokumentu zawsze wychodzi beznadziejnie?
@@ -28,7 +28,7 @@ Zanim zaczniesz kląć na swój drogi telefon, rzućmy okiem na to, dlaczego apa
 
 2. Odblaski i błyski światł
 
-a: Polakierowany papier albo zwykłe biurkowe światło odbijają się prosto w obiektyw, tworząc białe, oślepiające plamy, przez które znikają całe wyrazy.
+**a:** Polakierowany papier albo zwykłe biurkowe światło odbijają się prosto w obiektyw, tworząc białe, oślepiające plamy, przez które znikają całe wyrazy.
 
 3. Brak wykrywania krawędzi: Zwykła fota łapie też biurko, kubek z kawą i fragment siedzenia. System mobilnego faksu albo skanera gubi się, przez co zmniejsza rozdzielczość i kompresuje plik do nieczytelnej papki.
 

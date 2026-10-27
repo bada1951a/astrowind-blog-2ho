@@ -57,14 +57,14 @@ Mẹo nhỏ thực tế: Khi đi biển về, thói quen tốt nhất là dùng 
 
 ## Các câu hỏi thường gặp khi sửa lỗi Samsung tự giảm sáng và bám cát cổng sạc
 
-Q1. Tại sao tôi đã tắt độ sáng thích ứng mà điện thoại Samsung vẫn tự tối đi khi đang dùng ngoài trời?
+**Q1.** Tại sao tôi đã tắt độ sáng thích ứng mà điện thoại Samsung vẫn tự tối đi khi đang dùng ngoài trời?
 
-A1. Đây là cơ chế tự bảo vệ phần cứng của hãng. Khi nhiệt độ bo mạch chủ và màn hình vượt ngưỡng an toàn do trời nắng kết hợp với hiệu suất hoạt động cao, hệ thống sẽ bắt buộc giảm độ sáng xuống để hạ nhiệt và bảo vệ tuổi thọ màn hình AMOLED. Cách duy nhất là đưa máy vào bóng râm vài phút để tản nhiệt.
+**A1.** Đây là cơ chế tự bảo vệ phần cứng của hãng. Khi nhiệt độ bo mạch chủ và màn hình vượt ngưỡng an toàn do trời nắng kết hợp với hiệu suất hoạt động cao, hệ thống sẽ bắt buộc giảm độ sáng xuống để hạ nhiệt và bảo vệ tuổi thọ màn hình AMOLED. Cách duy nhất là đưa máy vào bóng râm vài phút để tản nhiệt.
 
-Q2. Tôi có nên dùng tăm bông gòn nhúng cồn để ngoáy sạch cát trong cổng sạc Type-C không?
+**Q2.** Tôi có nên dùng tăm bông gòn nhúng cồn để ngoáy sạch cát trong cổng sạc Type-C không?
 
-A2. Không nên dùng tăm bông thông thường vì các sợi bông rất dễ bị vướng lại và bứt ra, kẹt sâu hơn bên trong các chân tiếp xúc của cổng sạc. Nếu muốn dùng cồn isopropyl 90 độ, chỉ nên thấm cực kỳ ít vào bàn chải mềm để chà nhẹ bề mặt, sau đó dùng máy sấy tóc ở chế độ gió mát để thổi khô hoàn toàn.
+**A2.** Không nên dùng tăm bông thông thường vì các sợi bông rất dễ bị vướng lại và bứt ra, kẹt sâu hơn bên trong các chân tiếp xúc của cổng sạc. Nếu muốn dùng cồn isopropyl 90 độ, chỉ nên thấm cực kỳ ít vào bàn chải mềm để chà nhẹ bề mặt, sau đó dùng máy sấy tóc ở chế độ gió mát để thổi khô hoàn toàn.
 
-Q3. Làm sao để phân biệt lỗi cổng sạc do cát hay do hỏng cáp sạc bên ngoài?
+**Q3.** Làm sao để phân biệt lỗi cổng sạc do cát hay do hỏng cáp sạc bên ngoài?
 
-A3. Bạn hãy thử cắm một sợi cáp sạc chính hãng khác vào máy. Nếu vẫn có cảm giác cộm, sần sật và máy báo nhận sạc chập chờn thì chắc chắn dị vật hoặc cát đang nằm bên trong cổng sạc của điện thoại. Ngược lại, nếu cắm mượt mà nhưng không sạc được thì lỗi nằm ở bộ sạc hoặc chính cáp sạc của bạn.
+**A3.** Bạn hãy thử cắm một sợi cáp sạc chính hãng khác vào máy. Nếu vẫn có cảm giác cộm, sần sật và máy báo nhận sạc chập chờn thì chắc chắn dị vật hoặc cát đang nằm bên trong cổng sạc của điện thoại. Ngược lại, nếu cắm mượt mà nhưng không sạc được thì lỗi nằm ở bộ sạc hoặc chính cáp sạc của bạn.

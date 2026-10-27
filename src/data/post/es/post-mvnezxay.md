@@ -42,28 +42,28 @@ A veces, una actualización menor que se quedó a medio indexar o un archivo res
 Aquí tienes el procedimiento exacto que aplicamos en el taller para rescatar terminales bloqueados en el logo, sin perder la información personal del cliente. Vamos a usar el menú de recuperación (*Recovery Mode*).
 
 ### Paso 1: Forzar el Apagado Total
-Si el teléfono está atrapado en el bucle del logo, intenta mantener presionados simultáneamente el **Botón de Encendido** y el **Botón de Bajar Volumen** durante más de 10-15 segundos. En cuanto la pantalla se apague por completo, prepárate rápidamente para el siguiente paso, ya que no queremos que vuelva a arrancar de forma normal.
+Si el teléfono está atrapado en el bucle del logo, intenta mantener presionados simultáneamente el **Botón de Encendido**y el**Botón de Bajar Volumen**durante más de 10-15 segundos. En cuanto la pantalla se apague por completo, prepárate rápidamente para el siguiente paso, ya que no queremos que vuelva a arrancar de forma normal.
 
 ### Paso 2: Entrar en el Modo Recovery (Recuperación)
 Con el teléfono completamente apagado:
 1. Conecta el Galaxy a un ordenador mediante un cable USB original (en muchos modelos modernos de Samsung, esto actúa como llave de seguridad para activar el menú Recovery).
 
-2. Mantén presionados al mismo tiempo el **Botón de Encendido** y el **Botón de Subir Volumen**.
+2. Mantén presionados al mismo tiempo el**Botón de Encendido**y el**Botón de Subir Volumen**.
 
 3. Suelta ambos botones en cuanto aparezca el logotipo de Samsung con letras blancas pequeñas en la parte superior (*Recovery booting*).
 
 ### Paso 3: Limpiar la Partición de Caché (*Wipe Cache Partition*)
 Una vez dentro del menú en inglés con letras de aspecto técnico:
-1. Usa el **Botón de Bajar Volumen** para desplazarte hacia abajo hasta la opción llamada **Wipe cache partition**.
+1. Usa el **Botón de Bajar Volumen**para desplazarte hacia abajo hasta la opción llamada**Wipe cache partition**.
 
-2. Presiona el **Botón de Encendido** para seleccionarla.
+2. Presiona el**Botón de Encendido**para seleccionarla.
 
-3. El sistema te pedirá confirmación. Baja hasta **Yes** utilizando los botones de volumen y pulsa de nuevo el **Botón de Encendido**.
+3. El sistema te pedirá confirmación. Baja hasta**Yes**utilizando los botones de volumen y pulsa de nuevo el**Botón de Encendido**.
 
 4. En la parte inferior verás letras amarillas indicando que el proceso de limpieza ha finalizado (*Cache wipe complete*).
 
 ### Paso 4: Reiniciar el Sistema
-Selecciona la primera opción del menú superior que dice **Reboot system now** y presiona el **Botón de Encendido**. El teléfono tardará un poco más de lo habitual en encender (hasta 5 minutos mientras reconstruye los archivos temporales), pero arrancará directo a tu pantalla de bloqueo habitual sin haber borrado ni una sola foto.
+Selecciona la primera opción del menú superior que dice **Reboot system now**y presiona el**Botón de Encendido**. El teléfono tardará un poco más de lo habitual en encender (hasta 5 minutos mientras reconstruye los archivos temporales), pero arrancará directo a tu pantalla de bloqueo habitual sin haber borrado ni una sola foto.
 
 ```bash
 # Secuencia de diagnóstico rápida en terminales Android
@@ -84,14 +84,14 @@ Si después de limpiar la caché el terminal sigue atrapado en el logo, el probl
 
 ## 5. Preguntas Frecuentes (FAQ)
 
-Q: ¿Pierdo mis fotos, contactos y aplicaciones si limpio la partición de caché?
+**Q:** ¿Pierdo mis fotos, contactos y aplicaciones si limpio la partición de caché?
 
-A: No. Limpiar la partición de caché (*Wipe cache partition*) solo elimina archivos temporales y basura digital acumulada por el sistema. Tus datos personales, fotografías y aplicaciones instaladas se mantienen intactos.
+**A:** No. Limpiar la partición de caché (*Wipe cache partition*) solo elimina archivos temporales y basura digital acumulada por el sistema. Tus datos personales, fotografías y aplicaciones instaladas se mantienen intactos.
 
-Q: ¿Qué hago si mi Samsung Galaxy no entra de ninguna manera al modo Recovery?
+**Q:** ¿Qué hago si mi Samsung Galaxy no entra de ninguna manera al modo Recovery?
 
-A: Asegúrate de tenerlo conectado a un ordenador o a un cargador de pared mediante el cable USB oficial. Algunos modelos recientes de Samsung requieren obligatoriamente esta conexión física para habilitar el acceso al menú de recuperación.
+**A:** Asegúrate de tenerlo conectado a un ordenador o a un cargador de pared mediante el cable USB oficial. Algunos modelos recientes de Samsung requieren obligatoriamente esta conexión física para habilitar el acceso al menú de recuperación.
 
-Q: ¿Por qué ocurre este error después de fallar el lector de huellas?
+**Q:** ¿Por qué ocurre este error después de fallar el lector de huellas?
 
-A: Cuando fallas repetidamente los métodos biométricos junto con alertas de seguridad activas, el sistema operativo genera registros de eventos (*logs*) pesados que, si pillan al almacenamiento casi lleno, saturan la partición temporal provocando el bloqueo del arranque.
+**A:** Cuando fallas repetidamente los métodos biométricos junto con alertas de seguridad activas, el sistema operativo genera registros de eventos (*logs*) pesados que, si pillan al almacenamiento casi lleno, saturan la partición temporal provocando el bloqueo del arranque.

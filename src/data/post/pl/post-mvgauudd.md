@@ -11,11 +11,11 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Serwis GSM"]
 
 ### 1. Awaria w środku dni
 
-a: Migająca ładowarka i brak prądu
+**a:** Migająca ładowarka i brak prądu
 
 Siemanko! Pozdrowienia z mojego serwisu w samym sercu Warszawy. Przez moje ręce przewijają się dziesiątki smartfonów tygodniowo – od rozbitych ekranów po martwe płyty główne. Ale rano przychodzi klient, blady jak ściana, z najnowszego iPhone'a lub Samsunga w ręku. Sytuacja klasyczn
 
-a: kładzie telefon na elegancką, designerską ładowarkę indukcyjną na biurku, a ta zamiast stabilnie świecić na niebiesko czy zielono... zaczyna wściekle mrugać na czerwono lub pomarańczowo. Telefon oczywiście ani drgnie, bateria jak stała na 4%, tak stoi. 
+**a:** kładzie telefon na elegancką, designerską ładowarkę indukcyjną na biurku, a ta zamiast stabilnie świecić na niebiesko czy zielono... zaczyna wściekle mrugać na czerwono lub pomarańczowo. Telefon oczywiście ani drgnie, bateria jak stała na 4%, tak stoi. 
 
 ![Wireless Charger Blinking and Not Charging Phone: How to Align Induction Coils Guide](https://picsum.photos/seed/mob-mvgaxn1p-9-b/1000/550.jpg)
 
@@ -42,7 +42,7 @@ W moim serwisie zawsze zaczynamy od najprostszych metod metodą eliminacji. Zró
 #### Krok 1: Oczyszczenie pola bitwy
 Zdejmij telefon z ładowarki. Obejrzyj powierzchnię blatu ładującego oraz tył smartfona. Brud, tłuszcz z palców czy drobinki kurzu potrafią stworzyć mikro-dystans, który zakłóca indukcję. Przetrzyj obie powierzchnie ściereczką nasączoną alkoholem IP
 
-A. Odczekaj minutę, aż wszystko idealnie wyschnie.
+**A.** Odczekaj minutę, aż wszystko idealnie wyschnie.
 
 #### Krok 2: Zrzuć pancerz (Test bez etui)
 Ściągnij z telefonu jakiekolwiek etui, case czy nakładkę, niezależnie od tego, jak bardzo jest "slim". Połóż go gołym szkiełkiem/pleckami bezpośrednio na środek ładowarki. Jeśli mruganie zniknęło i pojawiła się ikona ładowania – masz winowajcę. Twoje etui ma zbyt grubą warstwę tworzywa lub ukryte metalowe elementy.
@@ -61,11 +61,11 @@ Bardzo często ładowarka mruga nie dlatego, że cewki są źle ułożone, ale d
 
 ### 4. Porady ekspert
 
-a: Jak dbać o baterię i porty ładowania
+**a:** Jak dbać o baterię i porty ładowania
 
 Jako serwisant urządzeń mobilnych muszę rzucić okiem na szerszą perspektywę. Wielu klientów pyt
 
-a: *"Panie serwisancie, czy ładowanie bezprzewodowe jest bezpieczne dla baterii?"*
+**a:** *"Panie serwisancie, czy ładowanie bezprzewodowe jest bezpieczne dla baterii?"*
 
 * Temperatura to wróg numer jeden: Ładowanie indukcyjne z natury generuje więcej ciepła niż kabłąk z miedzi. Ciepło degraduje chemię litowo-jonową szybciej. Jeśli Twój telefon podczas ładowania bezprzewodowego robi się gorący jak patelnia, zrezygnuj z tanich chińskich zamienników padów z Allegro i zainwestuj w certyfikowany sprzęt z aktywnym chłodzeniem (wentylatorkiem) lub standardem Qi/MagSafe z certyfikatem MFi.
 * Nie zapominaj o tradycyjnym gnieździe USB-C / Lightning: Nawet jeśli preferujesz indukcję, raz na kilka tygodni warto podpiąć kabel. Dlaczego? Port ładowania w telefonie potrafi zarosnąć kurzem z kieszeni. Jeśli całkowicie go zignorujesz, po roku w środku zrobi się zbity filc, który wywoła zwarcie, jeśli kiedykolwiek będziesz musiał podłączyć telefon do komputera w celu odzyskania danych.
@@ -75,13 +75,13 @@ a: *"Panie serwisancie, czy ładowanie bezprzewodowe jest bezpieczne dla baterii
 
 ## 5. Najczęściej zadawane pytania (FAQ) – Często zadawane pytania z serwisu GSM
 
-Q1: Telefon ładuje się bezprzewodowo tylko wtedy, gdy leży w jednej, konkretnej pozycji, a najmniejsze trącenie powoduje mruganie. Co robić?
+**Q1:** Telefon ładuje się bezprzewodowo tylko wtedy, gdy leży w jednej, konkretnej pozycji, a najmniejsze trącenie powoduje mruganie. Co robić?
 *Odp:* To znak, że cewki wewnątrz telefonu (lub samej ładowarki) poluzowały się na skutek upadku urządzenia, albo pierścień magnetyczny wewnątrz obudowy telefonu się przesunął. Jeśli telefon upadł Ci niedawno, magnesy trzymające cewkę mogły się odkleić. Pomaga wizyta w serwisie i ponowne osadzenie modułu indukcyjnego na taśmie montażowej.
 
-Q2: Dlaczego moja ładowarka indukcyjna mruga na żółto/czerwono w nocy, mimo że wieczorem telefon ładował się normalnie?
+**Q2:** Dlaczego moja ładowarka indukcyjna mruga na żółto/czerwono w nocy, mimo że wieczorem telefon ładował się normalnie?
 *Odp:* Najprawdopodobniej uruchomiła się funkcja optymalizacji ładowania baterii w systemie operacyjnym (np. ochrona przed przeładowaniem w iOS lub Samsung Care), albo telefon przeszedł w stan głębokiego uśpienia, a ładowarka wykryła pełne naładowanie i zmieniła tryb pracy (choć częściej po prostu gaśnie). Inna opcja to nocne wahania napięcia w sieci elektrycznej w starej kamienicy czy bloku – czuła ładowarka odcina wtedy zasilanie z powodów bezpieczeństwa.
 
-Q3: Czy grube etui ze skórą lub silikonem zawsze uniemożliwiają ładowanie indukcyjne?
+**Q3:** Czy grube etui ze skórą lub silikonem zawsze uniemożliwiają ładowanie indukcyjne?
 *Odp:* Zależy od grubości. Cienkie etui silikonowe (do 2-3 mm) zazwyczaj przepuszczają fale magnetyczne bez problemu, choć czas ładowania wydłuża się o około 20-30%. Grube kabury skórzane, etui z klapką, portfele na karty kredytowe (UWAG
 
-A: karty z chipem RFID mogą ulec rozmagnesowaniu!) oraz pancerne obudowy z wbudowanym stojakiem całkowicie blokują proces indukcji. Do ładowania bezprzewodowego etui musi wylecieć.
+**A:** karty z chipem RFID mogą ulec rozmagnesowaniu!) oraz pancerne obudowy z wbudowanym stojakiem całkowicie blokują proces indukcji. Do ładowania bezprzewodowego etui musi wylecieć.

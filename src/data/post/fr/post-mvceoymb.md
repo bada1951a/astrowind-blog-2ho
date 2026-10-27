@@ -12,7 +12,7 @@ theme: "Cobalt Enterprise Lab"
 
 Il est 13h45, le stress monte au 8ème étage de notre bureau à Paris. Dans à peine quinze minutes, nous avons une réunion stratégique cruciale avec les investisseurs pour valider le budget
 
-Q4. Je saisis mon téléphone pour brancher le câble de recharge rapide posé sur la table de la salle de réunion, et là, c'est la douche froide : le message « Du liquide a été détecté dans le connecteur Lightning » s'affiche en rouge sur mon écran. Panique totale : mon batterie est à 4% et toutes mes présentations de secours ainsi que mes notes d'interventions sont stockées sur le cloud, accessibles uniquement avec ce combiné. Pas de panique, en tant que spécialiste support technique et matériel, je gère ce type de crise sur le grill quotidiennement. Voyons ensemble comment contourner ce piège sans griller la carte mère.
+**Q4.** Je saisis mon téléphone pour brancher le câble de recharge rapide posé sur la table de la salle de réunion, et là, c'est la douche froide : le message « Du liquide a été détecté dans le connecteur Lightning » s'affiche en rouge sur mon écran. Panique totale : mon batterie est à 4% et toutes mes présentations de secours ainsi que mes notes d'interventions sont stockées sur le cloud, accessibles uniquement avec ce combiné. Pas de panique, en tant que spécialiste support technique et matériel, je gère ce type de crise sur le grill quotidiennement. Voyons ensemble comment contourner ce piège sans griller la carte mère.
 
 <div style="border-left: 4px solid #1e40af; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Alerte Sécurité Lab :</strong> Ne cédez jamais à la tentation de fourrer un coton-tige, une épingle ou un trombone dans le port de charge. Vous risquez de tordre irrémédiablement les micro-broches de données ou de pousser l'humidité encore plus profondément dans le châssis.
@@ -55,7 +55,7 @@ Une fois la réunion terminée et le calme revenu à l'atelier :
 <strong>Conseil Pro :</strong> Si le message persiste malgré un port visiblement sec et propre, le problème provient souvent d'un câble défectueux dont l'embout est oxydé. Testez toujours un autre câble certifié (MFi pour Apple ou USB-IF pour l'USB-C) avant d'envisager une réparation matérielle en centre de service.
 </div>
 
-## Foire Aux Questions (FAQ)
+## 5. Foire Aux Questions (FAQ)
 
 Puis-je continuer à utiliser mon téléphone si le message disparaît tout seul ?
 Oui, dès que le capteur interne ne détecte plus de résistance électrique anormale liée à l'humidité, le message s'efface de lui-même et les fonctions de charge et de transfert de données reviennent à la normale. Veillez simplement à ce que le connecteur ne dégage pas d'odeur de brûlé.

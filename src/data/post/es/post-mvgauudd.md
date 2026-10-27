@@ -25,7 +25,7 @@ Hoy vamos a ver exactamente por qué pasa esto, por qué la alineación de las b
 
 ## 1. El escenario de pánico en la oficin
 
-a: cuando el cargador dice "hasta aquí hemos llegado"
+**a:** cuando el cargador dice "hasta aquí hemos llegado"
 
 Son las 8:55 AM en nuestra oficina de Madrid. El café humea en la taza, abres el portátil y colocas el flamante smartphone sobre el cargador inalámbrico de diseño que tienes en la mesa. Te giras para revisar un correo y, de repente, de reojo, ves ese parpadeo rítmico. 
 
@@ -86,25 +86,25 @@ Como técnico que repara terminales a diario, déjame darte par de recomendacion
 * No dejes el móvil desalineado "por cabezonería": Si insistes en dejar el móvil mal colocado parpadeando toda la noche, los circuitos integrados de gestión de energía (PMIC) tanto del cargador como del teléfono sufren picos de voltaje continuos debido a las reconexiones. A la larga, puedes freír el chip receptor de carga inalámbrica de la placa base.
 * Si tu puerto USB por cable también fall
 
-a: Si usas la carga inalámbrica porque el puerto Lightning o USB-C de tu móvil está roto o lleno pelusas, pásate por el taller o limpia el conector con mucho tiento usando un palillo de madera (nunca metal). Depender exclusivamente de la carga inalámbrica con una base mal alineada es jugar a la ruleta rusa con la autonomía del terminal.
+**a:** Si usas la carga inalámbrica porque el puerto Lightning o USB-C de tu móvil está roto o lleno pelusas, pásate por el taller o limpia el conector con mucho tiento usando un palillo de madera (nunca metal). Depender exclusivamente de la carga inalámbrica con una base mal alineada es jugar a la ruleta rusa con la autonomía del terminal.
 
 ---
 
-## 5. Preguntas Frecuentes (FAQs) de oficina
+## 5. Preguntas Frecuentes (FAQ)
 
-Q: ¿Por qué mi cargador inalámbrico parpadea solo cuando pongo el móvil, pero sin el móvil la luz está fija (en espera)?
+**Q:** ¿Por qué mi cargador inalámbrico parpadea solo cuando pongo el móvil, pero sin el móvil la luz está fija (en espera)?
 
-A: Es totalmente normal. Sin el móvil, la base está en modo reposo o en espera de baja potencia. En cuanto detecta el teléfono, intenta establecer el protocolo de comunicación y transferencia de energía (handshake magnético). Si ese proceso falla por mala alineación, funda inadecuada o exceso de consumo, la base entra en modo de error y parpadea para avisarte.
+**A:** Es totalmente normal. Sin el móvil, la base está en modo reposo o en espera de baja potencia. En cuanto detecta el teléfono, intenta establecer el protocolo de comunicación y transferencia de energía (handshake magnético). Si ese proceso falla por mala alineación, funda inadecuada o exceso de consumo, la base entra en modo de error y parpadea para avisarte.
 
-Q: ¿Sirve cualquier funda para la carga inalámbrica MagSafe o Qi?
+**Q:** ¿Sirve cualquier funda para la carga inalámbrica MagSafe o Qi?
 
-A: No. Las fundas normales de silicona fina o policarbonato transparente de menos de 2-3 mm suelen funcionar sin problemas. Sin embargo, las fundas ultrarresistentes militares, las de madera gruesa, las que llevan anillas metálicas traseras o tarjeteros de cuero bloquean por completo la inducción o provocan sobrecalentamientos peligrosos. Si usas MagSafe, asegúrate de que la funda sea compatible con anillos magnéticos integrados.
+**A:** No. Las fundas normales de silicona fina o policarbonato transparente de menos de 2-3 mm suelen funcionar sin problemas. Sin embargo, las fundas ultrarresistentes militares, las de madera gruesa, las que llevan anillas metálicas traseras o tarjeteros de cuero bloquean por completo la inducción o provocan sobrecalentamientos peligrosos. Si usas MagSafe, asegúrate de que la funda sea compatible con anillos magnéticos integrados.
 
-Q: Mi móvil vibra, sale el icono de carga, se apaga, vibra otra vez...
+**Q:** Mi móvil vibra, sale el icono de carga, se apaga, vibra otra vez...
 
 ¿Es problema de la base o del teléfono?
 
-A: Ese bucle infinito suele indicar que la base intenta cargar, pero al haber una desalineación leve o un adaptador de corriente insuficiente, el voltaje cae por debajo del umbral mínimo de seguridad del teléfono, este corta la entrada, la base vuelve a intentarlo y se genera el bucle. Prueba primero cambiando el adaptador de corriente de la pared. Si sigue igual, prueba la base con otro teléfono diferente. Si con otro móvil funciona bien, el problema es el receptor interno de tu smartphone.
+**A:** Ese bucle infinito suele indicar que la base intenta cargar, pero al haber una desalineación leve o un adaptador de corriente insuficiente, el voltaje cae por debajo del umbral mínimo de seguridad del teléfono, este corta la entrada, la base vuelve a intentarlo y se genera el bucle. Prueba primero cambiando el adaptador de corriente de la pared. Si sigue igual, prueba la base con otro teléfono diferente. Si con otro móvil funciona bien, el problema es el receptor interno de tu smartphone.
 
 ---
 

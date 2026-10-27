@@ -18,8 +18,6 @@ Trong lúc cuống cuồng tìm cách cứu vãn tình thế giữa dòng xe c�
 
 Sự cố bất ngờ này đẩy người dùng vào ranh giới mong manh giữa việc giữ gìn được công việc kinh doanh trị giá lớn hay đối mặt với thảm họa mất sạch dữ liệu cá nhân trong tích tắc. Toàn bộ danh bạ khách sạn, lịch trình chuyến đi, các bản vẽ thiết kế kỹ thuật gửi qua ứng dụng bảo mật và hàng ngàn bức ảnh kỷ niệm gia đình chưa kịp sao lưu đều đang bị treo lơ lửng trong phân vùng dữ liệu được mã hóa của bộ nhớ trong. Nhịp sống hối hả của đô thị không cho phép bất kỳ khoảng trống nào cho sự chậm trễ, buộc người dùng phải tìm kiếm ngay lập tức một giải pháp kỹ thuật chính thống, dứt điểm và an toàn tuyệt đối từ những người thợ sửa chữa giàu kinh nghiệm thực tế tại các trung tâm bảo hành chuyên sâu.
 
-
-
 ![Samsung Galaxy Boot Loop Stuck on Samsung Logo: Clearing Cache Partition in Recovery Mobile Repair Guide](https://picsum.photos/seed/mob-mvpki92d-11-b/1000/550.jpg)
 
 ## 2. Phân tích nguyên nhân gốc rễ lỗi sạc và phần cứng
@@ -36,16 +34,16 @@ Bên cạnh đó, các yếu tố môi trường và phần mềm nền tảng c
 
 Để cứu chiếc điện thoại Samsung Galaxy đang kẹt logo boot loop mà không làm mất dữ liệu người dùng bên trong, kỹ thuật viên chuyên nghiệp luôn áp dụng quy trình xử lý chuẩn xác gồm 3 phương pháp thực tế sau đây:
 
-*   **Phương pháp 1: Làm sạch cơ học an toàn và hạ nhiệt độ thiết bị**1.  Tắt hoàn toàn nguồn điện của thiết bị (nếu máy vẫn đang trong trạng thái tự khởi động liên tục, hãy nhấn giữ đồng thời **Phím Giảm Âm Lượng **và**Phím Nguồn** trong hơn 10 giây cho đến khi màn hình tối hẳn).
+*   **Phương pháp 1: Làm sạch cơ học an toàn và hạ nhiệt độ thiết bị**1.  Tắt hoàn toàn nguồn điện của thiết bị (nếu máy vẫn đang trong trạng thái tự khởi động liên tục, hãy nhấn giữ đồng thời**Phím Giảm Âm Lượng **và**Phím Nguồn** trong hơn 10 giây cho đến khi màn hình tối hẳn).
     2.  Đặt thiết bị ở nơi thoáng mát, tránh ánh nắng trực tiếp hoặc luồng gió lạnh đột ngột từ điều hòa để tránh hiện tượng ngưng tụ hơi nước bên trong thân máy. Chờ ít nhất 15 phút để nhiệt độ bề mặt hạ xuống dưới 35 độ C.
     3.  Sử dụng một chiếc tăm tre sạch hoặc cọ quét tĩnh điện chuyên dụng (không dùng vật liệu kim loại) để nhẹ nhàng kiểm tra và loại bỏ các xơ vải, bụi bẩn bám dính sâu bên trong khoang cổng sạc Type-C.
     4.  Dùng bình xịt khí nén chuyên dụng thổi một góc nghiêng 45 độ vào cổng sạc để đẩy sạch các hạt bụi li ti còn sót lại mà không làm tổn hại đến các chân tiếp xúc mạ vàng bên trong.
 
-*   **Phương pháp 2: Xóa phân vùng Cache Partition thông qua chế độ Android Recovery **1.  Kết nối điện thoại với một củ sạc chính hãng hoặc cổng USB của máy tính bằng cáp chất lượng cao để đảm bảo nguồn điện không bị ngắt quãng giữa chừng trong quá trình thao tác.
-    2.  Nhấn và giữ đồng thời **Phím Tăng Âm Lượng **và**Phím Nguồn **trong khoảng 7-10 giây. Ngay khi logo Samsung xuất hiện trên màn hình, hãy thả tay ra và nhanh chóng chuyển sang nhấn giữ tổ hợp **Phím Tăng Âm Lượng **kết hợp **Phím Nguồn **cho đến khi giao diện dòng lệnh màu đen của chế độ Android Recovery xuất hiện.
-    3.  Sử dụng **Phím Giảm Âm Lượng**để di chuyển con trỏ lên xuống, chọn dòng lệnh có nội dung `Wipe cache partition` và nhấn **Phím Nguồn**để xác nhận lựa chọn.
-    4.  Di chuyển tiếp đến dòng `Yes` bằng phím âm lượng và nhấn **Phím Nguồn**để hệ thống tiến hành dọn dẹp toàn bộ các tệp tin cache bị lỗi, hỏng cấu trúc mà không làm ảnh hưởng đến dữ liệu cá nhân của người dùng.
-    5.  Sau khi quá trình hoàn tất, chọn dòng `Reboot system now` ở phía trên cùng và nhấn **Phím Nguồn** để khởi động lại thiết bị vào giao diện chính một cách bình thường.
+*   **Phương pháp 2: Xóa phân vùng Cache Partition thông qua chế độ Android Recovery**1.  Kết nối điện thoại với một củ sạc chính hãng hoặc cổng USB của máy tính bằng cáp chất lượng cao để đảm bảo nguồn điện không bị ngắt quãng giữa chừng trong quá trình thao tác.
+    2.  Nhấn và giữ đồng thời **Phím Tăng Âm Lượng**và**Phím Nguồn**trong khoảng 7-10 giây. Ngay khi logo Samsung xuất hiện trên màn hình, hãy thả tay ra và nhanh chóng chuyển sang nhấn giữ tổ hợp **Phím Tăng Âm Lượng**kết hợp **Phím Nguồn**cho đến khi giao diện dòng lệnh màu đen của chế độ Android Recovery xuất hiện.
+    3.  Sử dụng **Phím Giảm Âm Lượng**để di chuyển con trỏ lên xuống, chọn dòng lệnh có nội dung `Wipe cache partition` và nhấn**Phím Nguồn**để xác nhận lựa chọn.
+    4.  Di chuyển tiếp đến dòng `Yes` bằng phím âm lượng và nhấn**Phím Nguồn**để hệ thống tiến hành dọn dẹp toàn bộ các tệp tin cache bị lỗi, hỏng cấu trúc mà không làm ảnh hưởng đến dữ liệu cá nhân của người dùng.
+    5.  Sau khi quá trình hoàn tất, chọn dòng `Reboot system now` ở phía trên cùng và nhấn**Phím Nguồn** để khởi động lại thiết bị vào giao diện chính một cách bình thường.
 
 *   **Phương pháp 3: Kiểm tra điện trở cáp sạc và kích hoạt sạc cứu hộ dòng thấp**
     1.  Chuẩn bị một bộ cáp sạc đạt chuẩn USB-IF hỗ trợ công nghệ Power Delivery (PD) hoặc Quick Charge (QC) cùng với củ sạc có công suất tương thích chính hãng.
@@ -67,4 +65,4 @@ Quá trình can thiệp vào phần cứng và hệ thống của các dòng đi
 
 **Q3.** **Tôi phải làm gì nếu sau khi đã thử mọi cách xóa cache và khởi động lại mà chiếc điện thoại vẫn bị kẹt cứng ở logo khởi động?**
 
-A3. Nếu thiết bị vẫn tiếp tục lặp lại vòng lặp boot loop sau khi đã thực hiện thao tác xóa cache partition, điều đó chứng tỏ cấu trúc hệ điều hành bên trong đã bị tổn hại nặng nề hoặc có linh kiện phần cứng cốt lõi như chip nhớ NAND Flash hoặc IC nguồn gặp lỗi vật lý. Trong trường hợp này, bạn không nên tiếp tục can thiệp sâu hơn tại nhà mà cần mang thiết bị đến ngay các trung tâm sửa chữa điện thoại chuyên nghiệp để kỹ thuật viên tiến hành nạp lại phần mềm gốc (flash firmware) thông qua máy tính hoặc kiểm tra chuyên sâu các thông số điện áp trên bo mạch chủ.
+**A3.** Nếu thiết bị vẫn tiếp tục lặp lại vòng lặp boot loop sau khi đã thực hiện thao tác xóa cache partition, điều đó chứng tỏ cấu trúc hệ điều hành bên trong đã bị tổn hại nặng nề hoặc có linh kiện phần cứng cốt lõi như chip nhớ NAND Flash hoặc IC nguồn gặp lỗi vật lý. Trong trường hợp này, bạn không nên tiếp tục can thiệp sâu hơn tại nhà mà cần mang thiết bị đến ngay các trung tâm sửa chữa điện thoại chuyên nghiệp để kỹ thuật viên tiến hành nạp lại phần mềm gốc (flash firmware) thông qua máy tính hoặc kiểm tra chuyên sâu các thông số điện áp trên bo mạch chủ.

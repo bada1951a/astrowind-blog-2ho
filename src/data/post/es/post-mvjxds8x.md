@@ -30,11 +30,11 @@ Para solucionar este problema de raíz, primero debemos entender qué está ocur
 
 2. Efecto lupa y radiación solar direct
 
-a: Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
+**a:** Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
 
 3. Pérdida de eficiencia en la disipación pasiv
 
-a: Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
+**a:** Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
 
 ---
 
@@ -67,16 +67,16 @@ Muchos de estos bucles térmicos ocurren porque hay sincronizaciones pendientes 
 
 ---
 
-### Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
-Q1. ¿Es normal que mi móvil se caliente y baje el brillo solo por usar Google Maps en el coche?
+**Q1.** ¿Es normal que mi móvil se caliente y baje el brillo solo por usar Google Maps en el coche?
 
-A1.Sí, es completamente habitual. Google Maps utiliza GPS continuo, renderizado 3D de mapas, conexión de datos y brillo máximo para que veas la pantalla a través del cristal del coche (donde se crea un efecto invernadero). Si además lo llevas cargando en el soporte conectado al mechero, la temperatura se dispara. Te recomiendo colocar el soporte en las rejillas del aire acondicionado para usar el flujo del aire y mitigar el calor.
+**A1.**Sí, es completamente habitual. Google Maps utiliza GPS continuo, renderizado 3D de mapas, conexión de datos y brillo máximo para que veas la pantalla a través del cristal del coche (donde se crea un efecto invernadero). Si además lo llevas cargando en el soporte conectado al mechero, la temperatura se dispara. Te recomiendo colocar el soporte en las rejillas del aire acondicionado para usar el flujo del aire y mitigar el calor.
 
-Q2. ¿Por qué el brillo automático no responde aunque me ponga a la sombra?
+**Q2.** ¿Por qué el brillo automático no responde aunque me ponga a la sombra?
 
-A2.Porque el software mantiene un "bloqueo de protección térmica". Hasta que el termistor interno de la placa base no registre una temperatura inferior al límite de seguridad (normalmente por debajo de los 38°C), el sistema operativo bloqueará el potenciómetro de brillo para proteger la matriz de la pantalla de quemaduras permanentes (efecto fantasma o retención de imagen).
+**A2.**Porque el software mantiene un "bloqueo de protección térmica". Hasta que el termistor interno de la placa base no registre una temperatura inferior al límite de seguridad (normalmente por debajo de los 38°C), el sistema operativo bloqueará el potenciómetro de brillo para proteger la matriz de la pantalla de quemaduras permanentes (efecto fantasma o retención de imagen).
 
-Q3. ¿Ayuda en algo quitar la funda protectora cuando juego o hago fotos en la calle?
+**Q3.** ¿Ayuda en algo quitar la funda protectora cuando juego o hago fotos en la calle?
 
-A3. Drásticamente. Las fundas modernas, especialmente las de diseño robusto o siliconas gruesas, actúan como aislantes térmicos impidiendo que el calor generado por el chasis se disipe al aire libre. Quitar la funda durante tareas pesadas reduce la temperatura operativa del terminal entre 3°C y 5°C.
+**A3.** Drásticamente. Las fundas modernas, especialmente las de diseño robusto o siliconas gruesas, actúan como aislantes térmicos impidiendo que el calor generado por el chasis se disipe al aire libre. Quitar la funda durante tareas pesadas reduce la temperatura operativa del terminal entre 3°C y 5°C.

@@ -17,7 +17,7 @@ Với kinh nghiệm cầm mỏ hàn, khò nhiệt và bóc tách hàng ngàn chi
 <div style="border-left: 4px solid #4338ca; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Cảnh báo từ thợ sửa chữ
 
-a:</strong> Đừng vội vã mang máy đi thay pin hay thay cụm cáp sạc khi chưa kiểm tra kỹ phần mềm và vệ sinh đúng cách. Rất nhiều trường hợp chỉ cần tối ưu lại hệ thống hoặc làm sạch chân tiếp xúc là máy lại trâu bò bình thường.
+**a:**</strong> Đừng vội vã mang máy đi thay pin hay thay cụm cáp sạc khi chưa kiểm tra kỹ phần mềm và vệ sinh đúng cách. Rất nhiều trường hợp chỉ cần tối ưu lại hệ thống hoặc làm sạch chân tiếp xúc là máy lại trâu bò bình thường.
 </div>
 
 ## 3 nguyên nhân cốt lõi khiến iPhone hao pin nhanh và lỗi sạc nhanh sau khi cập nhật iOS

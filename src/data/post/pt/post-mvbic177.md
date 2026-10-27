@@ -25,13 +25,13 @@ Depois de resolver a emergência no sufoco usando a tela externa conectada ao mo
 
 3. Acúmulo de Detritos na Dobradiç
 
-a: Sujeira do bolso ou resíduos de uso diário podem bloquear o fechamento perfeito, impedindo que os contatos internos fechem o circuito elétrico da tela principal.
+**a:** Sujeira do bolso ou resíduos de uso diário podem bloquear o fechamento perfeito, impedindo que os contatos internos fechem o circuito elétrico da tela principal.
 
 ## Passo a Passo Prático para Tentar Recuperar a Tela
 
 Antes de correr para a assistência técnica e gastar uma fortuna, vale a pena executar estes procedimentos de verificação e limpeza no seu ambiente de trabalho ou em cas
 
-a:
+**a:**
 
 ### Passo 1: Limpeza Profunda da Dobradiça
 Desligue completamente o aparelho. Use uma escova de dentes de cerdas ultra macias ou ar comprimido em lata (com cuidado para não aplicar muita pressão direta) para remover qualquer partícula de poeira presa na fenda da dobradiça. Muitas vezes, um grão de areia microscópico impede que o sensor reconheça o estado aberto do celular.
@@ -50,12 +50,13 @@ Se você suspeitar de um travamento temporário do gerenciador de vídeo do Andr
 <div style="border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Alerta do Especialist
 
-a:</strong> Nunca force a abertura do aparelho se sentir qualquer resistência mecânica na dobradiça. Tentar desentortar o mecanismo manualmente pode estilhaçar o display OLED interno, transformando um reparo de cabo em um prejuízo total da tela. </div>
+**a:**</strong> Nunca force a abertura do aparelho se sentir qualquer resistência mecânica na dobradiça. Tentar desentortar o mecanismo manualmente pode estilhaçar o display OLED interno, transformando um reparo de cabo em um prejuízo total da tela. </div>
 
 ## Perguntas Frequentes (FAQ)
 
-1. Posso continuar usando o Galaxy Z Fold apenas com a tela externa se a interna quebrar?
-Sim, perfeitamente. O celular continuará funcionando para ligações, mensagens e aplicativos na tela externa. Inclusive, você pode usar o recurso Samsung DeX em uma Smart TV ou monitor para recuperar arquivos e trabalhar enquanto não leva o aparelho para o conserto.
+**Q.** Posso continuar usando o Galaxy Z Fold apenas com a tela externa se a interna quebrar?
+
+**A.** Sim, perfeitamente. O celular continuará funcionando para ligações, mensagens e aplicativos na tela externa. Inclusive, você pode usar o recurso Samsung DeX em uma Smart TV ou monitor para recuperar arquivos e trabalhar enquanto não leva o aparelho para o conserto.
 
 2. O conserto do cabo flex interno é muito caro?
 O valor varia dependendo se o componente pode ser trocado separadamente ou se a assistência exige a troca conjunta do módulo de tela e dobradiça. Por isso, sempre exija um orçamento detalhado em uma assistência técnica especializada antes de autorizar o serviço.

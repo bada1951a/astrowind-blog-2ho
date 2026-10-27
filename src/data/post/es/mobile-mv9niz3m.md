@@ -26,7 +26,7 @@ Antes de pasar a la acción, vamos a entender por qué sale ese churro de imagen
 
 1. La luz cenital traicioner
 
-a: En los trenes, oficinas o cafeterías, la luz suele venir directamente desde arriba. Al poner tu mano encima para sujetar el papel, creas una sombra chinesca perfecta sobre el texto.
+**a:** En los trenes, oficinas o cafeterías, la luz suele venir directamente desde arriba. Al poner tu mano encima para sujetar el papel, creas una sombra chinesca perfecta sobre el texto.
 
 2. El enfoque automático rebelde: La cámara de tu Galaxy intenta enfocar el fondo de la mesa o la textura del mantel en lugar de las letras negras del contrato.
 
@@ -55,18 +55,21 @@ Para que la próxima emergencia laboral no te pille con la guardia baja, ten en 
 * Limpia la lente: Parece una tontería, pero llevamos el móvil en el bolsillo junto con las llaves y las pelusas. Una pasada rápida con la manga de la camisa antes de escanear evita ese efecto "niebla" tan molesto.
 * Cuidado con el brillo de la pantall
 
-a: Si estás escaneando un documento digital que tienes en otro dispositivo, baja el brillo al mínimo para evitar las temidas rayas horizontales (efecto moiré).
+**a:** Si estás escaneando un documento digital que tienes en otro dispositivo, baja el brillo al mínimo para evitar las temidas rayas horizontales (efecto moiré).
 * Guarda un acceso directo: Configura el panel rápido de tu Galaxy para tener siempre a mano las herramientas de notas o escaneo rápido.
 
 ---
 
-### Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
-1. ¿Por qué el escáner automático de la cámara de mi Galaxy no detecta los bordes del papel?
-Normalmente ocurre porque el fondo (la mesa) es del mismo color que el documento (papel blanco sobre mesa blanca). Pon el contrato encima de una superficie oscura, como una alfombrilla de escritorio o la funda de la tablet, y verás cómo la IA lo detecta al instante.
+**Q.** ¿Por qué el escáner automático de la cámara de mi Galaxy no detecta los bordes del papel?
 
-2. ¿Cómo puedo reducir el peso del PDF escaneado sin perder calidad en el texto?
-Si usas la galería o la app de notas nativa de Samsung para guardar el archivo como PDF, el sistema ya comprime la imagen de forma inteligente. Si aun así pesa demasiado, guárdalo primero como imagen en formato JPG de alta eficiencia (HEIF) y luego conviértelo a PDF utilizando las opciones nativas de compartir.
+**A.** Normalmente ocurre porque el fondo (la mesa) es del mismo color que el documento (papel blanco sobre mesa blanca). Pon el contrato encima de una superficie oscura, como una alfombrilla de escritorio o la funda de la tablet, y verás cómo la IA lo detecta al instante.
 
-3. ¿Es seguro utilizar el escáner de la cámara de Samsung para documentos con datos bancarios o confidenciales?
-Sí, totalmente. Todo el procesado de detección de documentos y optimización de texto se realiza de manera local en el procesador de tu Galaxy gracias a Samsung Knox, sin subir tus datos personales a servidores externos desconocidos.
+**Q.** ¿Cómo puedo reducir el peso del PDF escaneado sin perder calidad en el texto?
+
+**A.** Si usas la galería o la app de notas nativa de Samsung para guardar el archivo como PDF, el sistema ya comprime la imagen de forma inteligente. Si aun así pesa demasiado, guárdalo primero como imagen en formato JPG de alta eficiencia (HEIF) y luego conviértelo a PDF utilizando las opciones nativas de compartir.
+
+**Q.** ¿Es seguro utilizar el escáner de la cámara de Samsung para documentos con datos bancarios o confidenciales?
+
+**A.** Sí, totalmente. Todo el procesado de detección de documentos y optimización de texto se realiza de manera local en el procesador de tu Galaxy gracias a Samsung Knox, sin subir tus datos personales a servidores externos desconocidos.

@@ -63,16 +63,16 @@ Da das Galaxy von Haus aus kein klassisches analoges Faxkabel besitzt, nutzen wi
 
 ---
 
-### Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
-F: Warum speichert mein Galaxy den Scan manchmal automatisch ab, ohne dass ich nachbearbeiten kann?
+**Q.** Warum speichert mein Galaxy den Scan manchmal automatisch ab, ohne dass ich nachbearbeiten kann?
 
-A: In den Kamera-Einstellungen gibt es die Option "Dokumente und Texte scannen". Wenn dort die Auto-Speicherung aktiv ist, knipst das Handy sofort los. Du kannst diesen automatischen Modus ausschalten oder nach der Aufnahme einfach unten auf das Vorschaubild tippen, um die Ecken des Dokuments manuell mit den blauen Anfassern zurechtzuziehen.
+**A:** In den Kamera-Einstellungen gibt es die Option "Dokumente und Texte scannen". Wenn dort die Auto-Speicherung aktiv ist, knipst das Handy sofort los. Du kannst diesen automatischen Modus ausschalten oder nach der Aufnahme einfach unten auf das Vorschaubild tippen, um die Ecken des Dokuments manuell mit den blauen Anfassern zurechtzuziehen.
 
-F: Das Fax kommt beim Kunden unleserlich an – die Linien sind zu dünn. Was tun?
+**Q.** Das Fax kommt beim Kunden unleserlich an – die Linien sind zu dünn. Was tun?
 
-A: Das liegt oft am automatischen Schwarz-Weiß-Filter, der helle Stifte oder feine Bleistiftunterschriften komplett verschluckt. Verwende beim nächsten Mal den Filter "Schatten entfernen" anstelle von reinem Schwarz-Weiß. Das erhält Graustufen, lässt aber den Hintergrund strahlend sauber.
+**A:** Das liegt oft am automatischen Schwarz-Weiß-Filter, der helle Stifte oder feine Bleistiftunterschriften komplett verschluckt. Verwende beim nächsten Mal den Filter "Schatten entfernen" anstelle von reinem Schwarz-Weiß. Das erhält Graustufen, lässt aber den Hintergrund strahlend sauber.
 
-F: Kann ich mehrere Seiten zu *einem* einzigen PDF-Fax zusammenfassen?
+**Q.** Kann ich mehrere Seiten zu *einem* einzigen PDF-Fax zusammenfassen?
 
-A: Absolut! Wenn du in der Samsung Kamera-App bist und das erste Dokument gescannt hast, tippe auf das Plus-Symbol (Hinzufügen) unten im Vorschaubild. Du kannst nacheinander fünf, zehn oder zwanzig Seiten fotografieren und sie am Ende als *eine* zusammenhängende PDF-Datei exportieren und versenden.
+**A:** Absolut! Wenn du in der Samsung Kamera-App bist und das erste Dokument gescannt hast, tippe auf das Plus-Symbol (Hinzufügen) unten im Vorschaubild. Du kannst nacheinander fünf, zehn oder zwanzig Seiten fotografieren und sie am Ende als *eine* zusammenhängende PDF-Datei exportieren und versenden.

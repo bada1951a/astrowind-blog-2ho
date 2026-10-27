@@ -13,7 +13,7 @@ Sono le due del pomeriggio, mi trovo nel mio laboratorio qui nel Centro Direzion
 
 Poco fa si precipita dentro Marco, un account manager che lavora nei paltoni di vetro qui vicino. Ha la faccia di chi sta per perdere un appuntamento cruciale con un cliente importante. Mi sbatte sul banco l'iPhone 14 e un power bank nuovo di zecca, ancora con la plastica sopr
 
-a: *"Ascolta, ho mezz'ora prima di un meeting in via Melchiorre Gioia. Lo attacco alla batteria portatile e mi esce quell'avviso fastidioso di ricarica lenta, ci mette tre ore a salire del 10%. Ma come, è nuovo!"*
+**a:** *"Ascolta, ho mezz'ora prima di un meeting in via Melchiorre Gioia. Lo attacco alla batteria portatile e mi esce quell'avviso fastidioso di ricarica lenta, ci mette tre ore a salire del 10%. Ma come, è nuovo!"*
 
 ![How to Fix Slow Charging Warning When Using Power Banks on iPhone and Android Guide](https://picsum.photos/seed/mob-mvf60ezb-6-b/1000/550.jpg)
 
@@ -46,7 +46,7 @@ Ora che il connettore è pulito, passiamo al cavo.
 * Prendi un cavo certificato (MFi per iPhone, oppure un cavo USB-C con marcatura E-Marker in grado di reggere almeno 3A o 60W).
 * Collega il power bank al telefono con il nuovo cavo e guarda la magi
 
-a: l'animazione di ricarica rapida sul display (la doppia saetta su Android o il beep di conferma su iPhone) dovrebbe tornare immediatamente attiva. #### Passo 3: Verifica delle specifiche di uscita (Output Specs) del Power Bank
+**a:** l'animazione di ricarica rapida sul display (la doppia saetta su Android o il beep di conferma su iPhone) dovrebbe tornare immediatamente attiva. #### Passo 3: Verifica delle specifiche di uscita (Output Specs) del Power Bank
 Se il cavo è buono e il connettore è pulito, il problema è a monte. Gira il power bank e leggi la serigrafia microscopica sul retro o sul manuale.
 * Cerca la voce Output. Se leggi solo `5V ⎂ 1A` o `5V ⎂ 2A`, mi spiace ma hai tra le mani un power bank obsoleto per i carichi richiesti dagli smartphone attuali.
 * Per eliminare l'avviso di ricarica lenta su un iPhone recente o un Android di fascia media/alta, hai bisogno di un power bank che supporti almeno il protocollo USB Power Delivery (PD) da 20W in su, oppure Quick Charge 3.0/4.0 per il mondo Android.
@@ -67,12 +67,12 @@ Nel mio lavoro vedo spesso telefoni buttati via non perché siano vecchi, ma per
 
 D: Continuare a usare un power bank che dà l'avviso di ricarica lenta danneggia la batteria del telefono?
 
-R: No, non direttamente. Paradossalmente, una ricarica lenta (a bassa potenza) genera meno calore e stress chimico sulle celle rispetto a una ricarica ultra-rapida. Il vero problema è che la corrente erogata è così bassa che, se usi il telefono mentre è collegato, rischi di assorbire più energia di quella che entra, scaricandolo comunque o stressando il circuito di ricarica.
+**A.** No, non direttamente. Paradossalmente, una ricarica lenta (a bassa potenza) genera meno calore e stress chimico sulle celle rispetto a una ricarica ultra-rapida. Il vero problema è che la corrente erogata è così bassa che, se usi il telefono mentre è collegato, rischi di assorbire più energia di quella che entra, scaricandolo comunque o stressando il circuito di ricarica.
 
 D: Come faccio a sapere se il mio power bank supporta la ricarica rapida prima di comprarne uno?
 
-R: Guarda sempre la scheda tecnica e cerca le sigle PD (Power Delivery) o QC (Quick Charge). Sull'etichetta di output dovresti leggere combinazioni di voltaggio e amperaggio superiori ai 18W, ad esempio `9V ⎂ 2.22A` (ottimo per iPhone) o `12V ⎂ 1.5A` (standard per molti Android).
+**A.** Guarda sempre la scheda tecnica e cerca le sigle PD (Power Delivery) o QC (Quick Charge). Sull'etichetta di output dovresti leggere combinazioni di voltaggio e amperaggio superiori ai 18W, ad esempio `9V ⎂ 2.22A` (ottimo per iPhone) o `12V ⎂ 1.5A` (standard per molti Android).
 
 D: Ho pulito il connettore e cambiato cavo, ma l'avviso persiste. Cosa faccio?
 
-R: Se hai escluso cavo e porta di ricarica sporca, il problema potrebbe risiedere nel circuito di ricarica interno del telefono (spesso un integrato denominato Tristar/Hydra su iPhone o il chip PMIC su Android) oppure nella porta USB del power bank stesso che ha i pin interni usurati. Fai un salto in un laboratorio di fiducia per un test con un multimetro USB: sapremo dirti subito chi dei due non eroga il wattaggio promesso.
+**A.** Se hai escluso cavo e porta di ricarica sporca, il problema potrebbe risiedere nel circuito di ricarica interno del telefono (spesso un integrato denominato Tristar/Hydra su iPhone o il chip PMIC su Android) oppure nella porta USB del power bank stesso che ha i pin interni usurati. Fai un salto in un laboratorio di fiducia per un test con un multimetro USB: sapremo dirti subito chi dei due non eroga il wattaggio promesso.

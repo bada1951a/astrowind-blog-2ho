@@ -57,20 +57,23 @@ Una vez que el teléfono arrancó de nuevo, pude enviar el archivo a tiempo por 
 * Mantén siempre un margen de seguridad: Nunca dejes que el almacenamiento interno baje del 5% de su capacidad total. iOS necesita espacio libre para gestionar la memoria virtual (swap).
 * Actualiza con cabez
 
-a: Muchos bloqueos táctiles repentinos están ligados a pequeños bugs en versiones menores de iOS. Revisa periódicamente Configuración > General > Actualización de software.
+**a:** Muchos bloqueos táctiles repentinos están ligados a pequeños bugs en versiones menores de iOS. Revisa periódicamente Configuración > General > Actualización de software.
 * Funda y temperatur
 
-a: Un uso intensivo conectado al cargador rápido mientras editas documentos pesados puede sobrecalentar el chip principal, obligando al sistema a congelar la interfaz para proteger el hardware.
+**a:** Un uso intensivo conectado al cargador rápido mientras editas documentos pesados puede sobrecalentar el chip principal, obligando al sistema a congelar la interfaz para proteger el hardware.
 
 ---
 
-### Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
-1. ¿Perderé mis fotos, mensajes o documentos si hago un reinicio forzado?
-No, en absoluto. El reinicio forzado es simplemente un apagado y encendido en frío a nivel de hardware. Tus datos están seguros en el almacenamiento interno encriptado; lo único que se reinicia es la memoria volátil (RAM) y el sistema operativo.
+**Q.** ¿Perderé mis fotos, mensajes o documentos si hago un reinicio forzado?
 
-2. ¿Qué debo hacer si hago la combinación de botones y el iPhone sigue sin encender?
-Si tras soltar el botón lateral con la manzana en pantalla el dispositivo no pasa del logo o la pantalla se queda negra, es muy probable que la batería esté totalmente agotada o que el sistema requiera una restauración limpia conectándolo a un ordenador mediante cable USB.
+**A.** No, en absoluto. El reinicio forzado es simplemente un apagado y encendido en frío a nivel de hardware. Tus datos están seguros en el almacenamiento interno encriptado; lo único que se reinicia es la memoria volátil (RAM) y el sistema operativo.
 
-3. ¿Por qué mi iPhone se congela con tanta frecuencia últimamente?
-Si el problema se repite de forma constante, suele ser síntoma de una aplicación de terceros corrupta que consume todos los recursos, o bien de una degradación severa de la salud de la batería. Te sugiero revisar el consumo de batería en los ajustes y desinstalar apps pesadas que ya no utilices.
+**Q.** ¿Qué debo hacer si hago la combinación de botones y el iPhone sigue sin encender?
+
+**A.** Si tras soltar el botón lateral con la manzana en pantalla el dispositivo no pasa del logo o la pantalla se queda negra, es muy probable que la batería esté totalmente agotada o que el sistema requiera una restauración limpia conectándolo a un ordenador mediante cable USB.
+
+**Q.** ¿Por qué mi iPhone se congela con tanta frecuencia últimamente?
+
+**A.** Si el problema se repite de forma constante, suele ser síntoma de una aplicación de terceros corrupta que consume todos los recursos, o bien de una degradación severa de la salud de la batería. Te sugiero revisar el consumo de batería en los ajustes y desinstalar apps pesadas que ya no utilices.

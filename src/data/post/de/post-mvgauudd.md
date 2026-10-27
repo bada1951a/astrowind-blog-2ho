@@ -68,7 +68,7 @@ Weil ich täglich Geräte auf dem Tisch habe, bei denen die USB-C Buchse komplet
 
 ---
 
-### Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 1. Warum lädt mein Handy erst, wenn ich es leicht schief auf das Pad lege?
 Das liegt daran, dass die integrierten Empfangs-Spulen im Smartphone je nach Modell (z. B. bei gefalteten Geräten oder speziellen Phablets) versetzt eingebaut sind. Wenn die Sende-Spule im Pad ebenfalls nicht zentriert sitzt, entsteht durch das schräge Auflegen genau der Überlappungsgrad, den die Induktion braucht.

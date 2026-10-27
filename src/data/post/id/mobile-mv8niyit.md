@@ -26,7 +26,9 @@ Nah, biar nggak ribet colok-colok setting tiap kali pindah skenario kerja *on-th
 2. Perlu aplikasi pihak ketiga? Nggak perlu, kita manfaatkan aplikasi bawaan iOS "Pintasan" (Shortcuts).<br>
 3. Apakah aman untuk sistem iOS? Sangat aman, ini fitur native Apple.<br>
 4. Bisakah di-setting berdasarkan lokasi (GPS)? Bisa banget, pas masuk area stasiun atau kantor, langsung trigger.<br>
-5. Apa solusinya kalau automation-nya gagal jalan? Cek izin (permission) "Run After Confirmation" di menu otomatisasi.
+**Q.** Apa solusinya kalau automation-nya gagal jalan?
+
+**A.** Cek izin (permission) "Run After Confirmation" di menu otomatisasi.
 </div>
 
 ---
@@ -39,7 +41,7 @@ Sebelum masuk ke eksekusi teknis, mari kita pahami dulu akar masalah yang sering
 
 2. Blue Light Toxicity di Ruangan Minim Cahay
 
-a: Di dalam kereta atau ruangan gelap, pupil mata otomatis membuka lebar. Cahaya putih terang dari layar tanpa *Dark Mode* iburat nyorot senter langsung ke retina.
+**a:** Di dalam kereta atau ruangan gelap, pupil mata otomatis membuka lebar. Cahaya putih terang dari layar tanpa *Dark Mode* iburat nyorot senter langsung ke retina.
 
 3. Manajemen Kontrol Manual yang Kerepotan: Kebanyakan orang males bolak-balik buka *Control Center* buat ganti mode tampilan, akhirnya dibiarin mode terang terus walau udah malam.
 
@@ -56,12 +58,12 @@ Masuk ke menu utama iPhone lo, cari aplikasi berikon kurva warna-warni bernama P
 Tap tombol "+" di pojok kanan atas. Pilih Buat Otomatisasi Pribadi (Create Personal Automation). Di sini kita punya banyak *trigger*. Untuk kasus kerja mobile di kereta, kita bisa pakai dua opsi:
 * Opsi
 
-A: Berdasarkan Waktu Hari (Time of Day) misal jam 17:00 sore.
+**A:** Berdasarkan Waktu Hari (Time of Day) misal jam 17:00 sore.
 * Opsi B: Berdasarkan Wi-Fi (Misalnya saat terhubung ke SSID Wi-Fi kantor atau kereta).
 
 Kita ambil contoh Waktu Hari saat senja tib
 
-a:
+**a:**
 * Pilih Waktu Hari > Atur waktu ke `18:00` > Pilih Ulangi: Setiap Hari > Pilih Jalankan Segera (Run Immediately) agar nggak butuh konfirmasi klik manual. Tap Lanjut.
 
 #### Step 3: Masukkan Aksi (Action) Set Tampilan
@@ -69,7 +71,7 @@ Di halaman kosong skrip, ketik di kolom pencarian: "Set Tampilan" (Set Appearanc
 * Ubah parameter dari *Light* ke Dark.
 * Lo juga bisa tambahkan aksi tambahan biar makin pro, misalny
 
-a: "Atur Keremangan" (Set Brightness) turunkan ke `35%` pas malam hari biar mata langsung adem.
+**a:** "Atur Keremangan" (Set Brightness) turunkan ke `35%` pas malam hari biar mata langsung adem.
 
 <div style="border-left: 4px solid #7c3aed; padding: 12px 16px; margin: 20px 0; background-color: rgba(124, 58, 237, 0.05); border-radius: 4px; color: #111827;">
 <strong>Catatan Teknisi:</strong><br>
@@ -86,7 +88,7 @@ Biar investasi HP puluhan juta lo nggak sia-sia gara-gara masalah sepele, perhat
 * Bersihkan Cache dan Background App: Terlalu banyak aplikasi kantor yang jalan di background saat *hotspot* bisa bikin suhu mesin naik. Panas berlebih + layar OLED tingkat kecerahan tinggi adalah resep utama perusakan umur panel (*dead pixels*).
 * Reset Pengaturan Jaringan Berkal
 
-a: Kalau abis dari kereta dan koneksi Wi-Fi/Bluetooth mendadak ngadat pas balik ke kantor, cukup masuk ke Pengaturan > Umum > Transfer atau Atur Ulang iPhone > Atur Ulang > Atur Ulang Pengaturan Jaringan.
+**a:** Kalau abis dari kereta dan koneksi Wi-Fi/Bluetooth mendadak ngadat pas balik ke kantor, cukup masuk ke Pengaturan > Umum > Transfer atau Atur Ulang iPhone > Atur Ulang > Atur Ulang Pengaturan Jaringan.
 
 ---
 

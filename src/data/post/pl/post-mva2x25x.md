@@ -26,7 +26,7 @@ Zanim przejdziemy do naprawy, spójrzmy prawdzie w oczy – oto trzy główne po
 
 2. Przepełniona pamięć podręczn
 
-a: Zbyt mało wolnego miejsca w pamięci masowej w połączeniu z intensywnym multitaskingiem dusi system.
+**a:** Zbyt mało wolnego miejsca w pamięci masowej w połączeniu z intensywnym multitaskingiem dusi system.
 
 3. Chwilowy błąd sterownika dotyku: Rzadziej, ale zdarza się, że digitizer (warstwa dotykowa ekranu) gubi synchronizację z płytą główną i potrzebuje twardego resetu kontrolera zasilania (PMIC).
 
@@ -34,7 +34,7 @@ a: Zbyt mało wolnego miejsca w pamięci masowej w połączeniu z intensywnym mu
 
 ## Błyskawiczna procedur
 
-a: Jak wykonać wymuszony restart (Hard Reset)
+**a:** Jak wykonać wymuszony restart (Hard Reset)
 
 Zapomnij o tradycyjnym wyłączaniu telefonu suwakiem – dotyk nie działa, więc go nie przesuniesz. Musimy wydać fizyczne polecenie kombinacją przycisków. Procedura różni się w zależności od modelu, który trzymasz w ręce.
 
@@ -51,7 +51,7 @@ Zapomnij o tradycyjnym wyłączaniu telefonu suwakiem – dotyk nie działa, wi�
 <div style="border-left: 4px solid #06b6d4; padding: 12px 16px; margin: 20px 0; background-color: rgba(6,182,212,0.05); border-radius: 4px; color: #111827;">
 <strong>Wskazówka praktyczn
 
-a:</strong> Cała sekwencja (Głośniej -> Ciszej -> Trzymaj Power) musi być wykonana dość sprawnie, jeden ruch po drugim, niczym kod do sejfu. Jeśli nie zadziała za pierwszym razem, odczekaj 5 sekund i spróbuj ponownie.
+**a:**</strong> Cała sekwencja (Głośniej -> Ciszej -> Trzymaj Power) musi być wykonana dość sprawnie, jeden ruch po drugim, niczym kod do sejfu. Jeśli nie zadziała za pierwszym razem, odczekaj 5 sekund i spróbuj ponownie.
 </div>
 
 ---

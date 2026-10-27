@@ -22,18 +22,20 @@ Sauf que le téléphone refuse de démarrer normalement. Il s'allume, affiche fi
 
 ## 2. Analyse approfondie des pannes matérielles et de charge
 
+## 2. Analyse des causes principales de l'erreur
+
 Pourquoi votre Samsung Galaxy reste-t-il bloqué sur le logo après un tel incident ? Techniquement, ce n'est pas forcément un dommage matériel irrémédiable, mais plutôt une crise de panique du système d'exploitation Android. Voici les trois causes principales de ce dysfonctionnement :
 
 *   **Corruption des données du cache système (Dalvik/ART) :** Lorsque le liquide touche la base du téléphone, il peut provoquer de micro-courts-circuits passagers sur le connecteur de charge (port USB-C). Le processeur panique, plante pendant l'écriture des fichiers temporaires, et corrompt la partition de cache. Au redémarrage, Android tente de lire des fichiers illisibles et boucle sur le logo.
-*   **Faux contact sur les boutons physiques :** Le café s'infiltre souvent par les interstices des boutons latéraux (volume ou mise sous tension). Un résidu collant peut maintenir la touche **Volume Bas** ou **Bouton Power** enfoncée en permanence de manière invisible. Résultat : le téléphone croit que vous voulez entrer en mode Download ou Recovery à chaque démarrage.
-*   **Sécurité anti-surchauffe de la batterie :** Les circuits de gestion de l'alimentation (PMIC) détectent une anomalie d'impédance au niveau du port de charge humide. Pour protéger la batterie, le système bloque le processus de boot normal, créant cette boucle infinie agaçante.
+*   **Faux contact sur les boutons physiques :**Le café s'infiltre souvent par les interstices des boutons latéraux (volume ou mise sous tension). Un résidu collant peut maintenir la touche**Volume Bas**ou**Bouton Power** enfoncée en permanence de manière invisible. Résultat : le téléphone croit que vous voulez entrer en mode Download ou Recovery à chaque démarrage.
+*   **Sécurité anti-surchauffe de la batterie :**Les circuits de gestion de l'alimentation (PMIC) détectent une anomalie d'impédance au niveau du port de charge humide. Pour protéger la batterie, le système bloque le processus de boot normal, créant cette boucle infinie agaçante.
 
 ## 3. Guide pratique de dépannage étape par étape
 
-Avant d'envisager un grand nettoyage chimique en atelier ou un remplacement de composant, nous allons tenter la manipulation officielle de sauvetage logiciel : le **Wipe Cache Partition**. 
+Avant d'envisager un grand nettoyage chimique en atelier ou un remplacement de composant, nous allons tenter la manipulation officielle de sauvetage logiciel : le**Wipe Cache Partition**. 
 
 ### Étape 1 : Le séchage d'urgence et la mise hors tension forcée
-Si le téléphone est encore allumé et boucle sur le logo, forcez l'extinction en maintenants simultanément enfoncés le bouton **Power** et le bouton **Volume Bas** pendant plus de 10 secondes, jusqu'à ce que l'écran devienne totalement noir. Si le téléphone chauffe anormalement, déposez-le dans un endroit sec et ventilé pendant 30 minutes avant de continuer.
+Si le téléphone est encore allumé et boucle sur le logo, forcez l'extinction en maintenants simultanément enfoncés le bouton**Power**et le bouton**Volume Bas**pendant plus de 10 secondes, jusqu'à ce que l'écran devienne totalement noir. Si le téléphone chauffe anormalement, déposez-le dans un endroit sec et ventilé pendant 30 minutes avant de continuer.
 
 ### Étape 2 : Le branchement filaire de déverrouillage (Astuce de technicien)
 Sur les modèles récents de Samsung Galaxy (S21, S22, S23, S24 et gammes A récentes), l'accès au mode Recovery nécessite parfois curieusement d'être branché.
@@ -46,21 +48,21 @@ Sur les modèles récents de Samsung Galaxy (S21, S22, S23, S24 et gammes A réc
 
 ### Étape 3 : Entrer dans le menu Recovery
 Une fois la charge affichée, déconnectez le câble (ou laissez-le selon le modèle si cela résiste), puis effectuez la combinaison de touches magique :
-1. Maintenez le bouton **Volume Haut** et le bouton **Power** enfoncés en même temps.
+1. Maintenez le bouton**Volume Haut**et le bouton**Power**enfoncés en même temps.
 
-2. Dès que le logo **Samsung Galaxy** apparaît en blanc sur fond noir, relâchez immédiatement le bouton **Power** tout en gardant le doigt fermement posé sur **Volume Haut**.
+2. Dès que le logo**Samsung Galaxy**apparaît en blanc sur fond noir, relâchez immédiatement le bouton**Power**tout en gardant le doigt fermement posé sur**Volume Haut**.
 
-3. Au bout de quelques secondes, un menu textuel en anglais sur fond noir apparaît : c'est le **Android Recovery**. Vous avez réussi la première étape.
+3. Au bout de quelques secondes, un menu textuel en anglais sur fond noir apparaît : c'est le**Android Recovery**. Vous avez réussi la première étape.
 
 ### Étape 4 : Vider la partition de cache
-Naviguez dans ce menu à l'aide des boutons de volume (pour monter et descendre) et validez avec le bouton **Power** :
-1. Descendez à l'aide du bouton **Volume Bas** jusqu'à l'option **Wipe cache partition**.
+Naviguez dans ce menu à l'aide des boutons de volume (pour monter et descendre) et validez avec le bouton**Power**:
+1. Descendez à l'aide du bouton**Volume Bas**jusqu'à l'option**Wipe cache partition**.
 
-2. Appuyez sur le bouton **Power** pour valider.
+2. Appuyez sur le bouton**Power**pour valider.
 
-3. Une ligne de confirmation va vous demander "Now wipe cache?". Descendez sur **Yes**.
+3. Une ligne de confirmation va vous demander "Now wipe cache?". Descendez sur**Yes**.
 
-4. Validez avec **Power**. En bas de l'écran, un message jaune confirmera : *Cache wipe complete*.
+4. Validez avec**Power**. En bas de l'écran, un message jaune confirmera : *Cache wipe complete*.
 
 ### Étape 5 : Redémarrage propre
 Sélectionnez l'option tout en haut **Reboot system now** et validez. Votre Samsung Galaxy va redémarrer. Le premier lancement peut prendre un peu plus de temps que d'habitude (jusqu'à 5 minutes), le temps que le système reconstruit ses fichiers temporaires propres.
@@ -102,14 +104,14 @@ En tant que réparateur professionnel, voici les pièges mortels à éviter abso
 
 ## 5. Foire Aux Questions (FAQ)
 
-Q : Est-ce que vider la partition de cache va effacer mes photos et mes applications personnelles ?
+**Q :** Est-ce que vider la partition de cache va effacer mes photos et mes applications personnelles ?
 
-A : Absolument pas. Contrairement à une réinitialisation complète aux paramètres d'usine (*Factory Data Reset*), l'option **Wipe Cache Partition** supprime uniquement les fichiers temporaires corrompus générés par le système et les applications. Vos données personnelles, contacts, photos et messages restent rigoureusement intacts.
+**A :** Absolument pas. Contrairement à une réinitialisation complète aux paramètres d'usine (*Factory Data Reset*), l'option **Wipe Cache Partition**supprime uniquement les fichiers temporaires corrompus générés par le système et les applications. Vos données personnelles, contacts, photos et messages restent rigoureusement intacts.
 
-Q : Mon téléphone ne rentre toujours pas en mode Recovery malgré la bonne combinaison de touches. Que faire ?
+**Q :** Mon téléphone ne rentre toujours pas en mode Recovery malgré la bonne combinaison de touches. Que faire ?
 
-A : Si le logo Samsung disparaît et que l'écran redevient noir sans afficher le menu texte, c'est généralement le signe que le bouton **Volume Haut** ne répond plus, souvent à cause d'une oxydation du circuit imprimé flexible (nappe) des boutons latéraux. Dans ce cas précis, un nettoyage ultrason en atelier spécialisé sera nécessaire.
+**A :** Si le logo Samsung disparaît et que l'écran redevient noir sans afficher le menu texte, c'est généralement le signe que le bouton**Volume Haut** ne répond plus, souvent à cause d'une oxydation du circuit imprimé flexible (nappe) des boutons latéraux. Dans ce cas précis, un nettoyage ultrason en atelier spécialisé sera nécessaire.
 
-Q : Puis-je utiliser du vinaigre blanc ou de l'alcool pour nettoyer l'extérieur du port USB-C ?
+**Q :** Puis-je utiliser du vinaigre blanc ou de l'alcool pour nettoyer l'extérieur du port USB-C ?
 
-A : Vous pouvez utiliser délicatement de l'alcool isopropylique à 90 ou 99 pourcent (disponible en pharmacie) appliqué sur un coton-tige très légèrement humidifié (presque sec), uniquement lorsque le téléphone est complètement éteint et débranché. N'utilisez jamais d'eau du robinet ou de produits ménagers corrosifs.
+**A :** Vous pouvez utiliser délicatement de l'alcool isopropylique à 90 ou 99 pourcent (disponible en pharmacie) appliqué sur un coton-tige très légèrement humidifié (presque sec), uniquement lorsque le téléphone est complètement éteint et débranché. N'utilisez jamais d'eau du robinet ou de produits ménagers corrosifs.

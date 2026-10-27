@@ -22,25 +22,25 @@ Erano le sette e mezza di sera e mi trovavo bloccato sul treno regionale diretto
 
 Nel mio laboratorio a Milano vedo questo difetto almeno tre volte alla settimana. Quando un Samsung Galaxy rimane piantato sulla schermata iniziale con il logo, le cause principali si riducono a tre fattori ben precisi:
 
-1. **Corruzione della partizione Cache (Wipe Cache necessario):** Spesso, dopo un aggiornamento di sistema OTA o un'interruzione anomala della carica (come uno sbalzo di tensione sulla presa del treno), i file temporanei memorizzati nella cache di sistema si corrompono. Il kernel Android va in conflitto durante il boot e il telefono si riavvia all'infinito cercando di leggere dati illeggibili.
+1.**Corruzione della partizione Cache (Wipe Cache necessario):**Spesso, dopo un aggiornamento di sistema OTA o un'interruzione anomala della carica (come uno sbalzo di tensione sulla presa del treno), i file temporanei memorizzati nella cache di sistema si corrompono. Il kernel Android va in conflitto durante il boot e il telefono si riavvia all'infinito cercando di leggere dati illeggibili.
 
-2. **Anomalie del connettore USB-C o instabilità energetica:** Un cavo difettoso o sporcizia accumulata nella porta dati possono inviare impulsi di tensione instabili alla scheda madre durante la fase di boot, impedendo al sistema operativo di completare il caricamento dei servizi di base.
+2.**Anomalie del connettore USB-C o instabilità energetica:**Un cavo difettoso o sporcizia accumulata nella porta dati possono inviare impulsi di tensione instabili alla scheda madre durante la fase di boot, impedendo al sistema operativo di completare il caricamento dei servizi di base.
 
-3. **Memoria interna satura al limite:** Se lo spazio di archiviazione disponibile scende sotto la soglia critica dei 500 megabyte, il sistema operativo non ha lo spazio temporale minimo necessario per scrivere i log di avvio, bloccando il dispositivo in un ciclo di riavvii forzati.
+3.**Memoria interna satura al limite:**Se lo spazio di archiviazione disponibile scende sotto la soglia critica dei 500 megabyte, il sistema operativo non ha lo spazio temporale minimo necessario per scrivere i log di avvio, bloccando il dispositivo in un ciclo di riavvii forzati.
 
 ## 3. Guida pratica di risoluzione passo dopo passo
 
 Non serve correre subito in un centro assistenza e spendere soldi inutilmente. Se il tuo Galaxy è bloccato sul logo Samsung, puoi tentare la procedura di pulizia della cache direttamente dalla modalità di recupero (**Recovery Mode**). Ecco come procedere passo dopo passo in totale sicurezza:
 
-1. **Spegnimento forzato:** Poiché il telefono è bloccato in loop, tieni premuti contemporaneamente il tasto **Volume Giù** e il tasto **Accensione/Spegnimento** per circa 10-15 secondi finché lo schermo non diventa completamente nero.
+1.**Spegnimento forzato:**Poiché il telefono è bloccato in loop, tieni premuti contemporaneamente il tasto**Volume Giù**e il tasto**Accensione/Spegnimento**per circa 10-15 secondi finché lo schermo non diventa completamente nero.
 
-2. **Entrare in Recovery Mode:** Appena lo schermo si spegne, sposta rapidamente il dito dal tasto Volume Giù al tasto **Volume Su**, mantenendo premuto il tasto **Accensione**. Quando compare il logo Samsung con la scritta blu in alto, rilascia tutti i tasti. Ti ritroverai nel menu testuale della Recovery.
+2.**Entrare in Recovery Mode:**Appena lo schermo si spegne, sposta rapidamente il dito dal tasto Volume Giù al tasto**Volume Su**, mantenendo premuto il tasto**Accensione**. Quando compare il logo Samsung con la scritta blu in alto, rilascia tutti i tasti. Ti ritroverai nel menu testuale della Recovery.
 
-3. **Navigazione nel menu:** Usa i tasti **Volume Giù** per scorrere le voci fino a evidenziare **Wipe cache partition**.
+3.**Navigazione nel menu:**Usa i tasti**Volume Giù**per scorrere le voci fino a evidenziare**Wipe cache partition**.
 
-4. **Conferma l'azione:** Premi il tasto **Accensione** per selezionare la voce. Spostati su **Yes** usando sempre i tasti volume e conferma nuovamente con il tasto Accensione. Questa operazione cancellerà unicamente i file temporanei corrotti senza toccare le tue foto, i tuoi contatti o le tue app.
+4.**Conferma l'azione:**Premi il tasto**Accensione**per selezionare la voce. Spostati su**Yes**usando sempre i tasti volume e conferma nuovamente con il tasto Accensione. Questa operazione cancellerà unicamente i file temporanei corrotti senza toccare le tue foto, i tuoi contatti o le tue app.
 
-5. **Riavvio del sistema:** Una volta completata la pulizia (ci vorranno pochissimi secondi), seleziona la prima voce in alto **Reboot system now** e premi il tasto Accensione. Il telefono si riavvierà normalmente impiegando un paio di minuti in più del solito per ricostruire la cache pulita.
+5.**Riavvio del sistema:**Una volta completata la pulizia (ci vorranno pochissimi secondi), seleziona la prima voce in alto**Reboot system now** e premi il tasto Accensione. Il telefono si riavvierà normalmente impiegando un paio di minuti in più del solito per ricostruire la cache pulita.
 
 ```bash
 # Sequenza rapida di emergenza per forzare il riavvio (Recovery Trigger)
@@ -55,14 +55,14 @@ Prima di farti prendere dal panico e tentare un ripristino ai dati di fabbrica (
 
 ## 5. Domande Frequenti (FAQ)
 
-Q: Perdereu foto o messaggi eseguendo il Wipe Cache Partition?
+**Q:** Perdereu foto o messaggi eseguendo il Wipe Cache Partition?
 
-A: Assolutamente no. Il comando di pulizia della cache rimuove solo i file temporanei di sistema accumulati dalle app e dagli aggiornamenti. I tuoi dati personali, le foto e le chat rimarranno perfettamente al sicuro nella memoria interna.
+**A:** Assolutamente no. Il comando di pulizia della cache rimuove solo i file temporanei di sistema accumulati dalle app e dagli aggiornamenti. I tuoi dati personali, le foto e le chat rimarranno perfettamente al sicuro nella memoria interna.
 
-Q: Cosa devo fare se il telefono rimane bloccato sul logo anche dopo aver pulito la cache?
+**Q:** Cosa devo fare se il telefono rimane bloccato sul logo anche dopo aver pulito la cache?
 
-A: Se il problema persiste, significa che la corruzione del sistema operativo è più profonda. In questo caso, potresti dover procedere con un Factory Reset sempre dalla Recovery Mode, oppure rivolgerti a un tecnico per il flash del firmware ufficiale tramite Odin.
+**A:** Se il problema persiste, significa che la corruzione del sistema operativo è più profonda. In questo caso, potresti dover procedere con un Factory Reset sempre dalla Recovery Mode, oppure rivolgerti a un tecnico per il flash del firmware ufficiale tramite Odin.
 
-Q: È sicuro usare le prese di corrente sui mezzi pubblici per i Galaxy?
+**Q:** È sicuro usare le prese di corrente sui mezzi pubblici per i Galaxy?
 
-A: Le prese a muro sui treni o sugli autobus possono occasionalmente subire sbalzi di tensione dovuti al sistema elettrico del veicolo. È sempre consigliabile utilizzare una power bank certificata o un caricabatterie da auto di marca affidabile per evitare problemi di alimentazione anomala.
+**A:** Le prese a muro sui treni o sugli autobus possono occasionalmente subire sbalzi di tensione dovuti al sistema elettrico del veicolo. È sempre consigliabile utilizzare una power bank certificata o un caricabatterie da auto di marca affidabile per evitare problemi di alimentazione anomala.

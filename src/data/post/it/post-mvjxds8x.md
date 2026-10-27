@@ -30,7 +30,7 @@ Prima di metterci all'opera con i nostri strumenti da banco, dobbiamo capire esa
 
 2. Carico di lavoro prolungato sotto la luce dirett
 
-a: Giocare o esportare video mentre lo schermo è al massimo della luminosità sotto il sole estivo di Milano crea una tempesta termica perfetta. L'energia solare assorbita dal display si somma a quella generata dai componenti interni, superando la soglia critica dei 45°C - 50°C.
+**a:** Giocare o esportare video mentre lo schermo è al massimo della luminosità sotto il sole estivo di Milano crea una tempesta termica perfetta. L'energia solare assorbita dal display si somma a quella generata dai componenti interni, superando la soglia critica dei 45°C - 50°C.
 
 3. Cover protettive troppo spesse o isolanti: Molti usano cover in silicone pesante o "rugged" ultra-protettive che purtroppo agiscono come vere e proprie coperte termiche, impedendo al calore di fuoriuscire dalla scocca posteriore.
 
@@ -47,7 +47,7 @@ Nel nostro banco da lavoro "Bronze Artisan Workshop", la regola d'oro è l'ordin
 
 Seguite questa procedura passo-passo per diagnosticare e risolvere il problem
 
-a:
+**a:**
 
 ```bash
 # Esempio di controllo rapido via codice diagnostico (se supportato dal brand)
@@ -57,7 +57,7 @@ a:
 
 1. Rimuovete immediatamente la custodi
 
-a: La prima cosa da fare appena sentite il telefono scaldarsi in modo anomalo è liberarlo dalla cover. Lasciatelo respirare su una superficie non isolante (come un tavolo in legno o marmo, evitate divani o tessuti).
+**a:** La prima cosa da fare appena sentite il telefono scaldarsi in modo anomalo è liberarlo dalla cover. Lasciatelo respirare su una superficie non isolante (come un tavolo in legno o marmo, evitate divani o tessuti).
 
 2. Spegnimento di raffreddamento: Se il lag è insopportabile e la scocca scotta, spegnete il dispositivo per 5-10 minuti. Non mettetelo mai in frigorifero o nel congelatore: lo shock termico causerà la formazione di condensa micidiale per i circuiti interni!
 
@@ -71,7 +71,7 @@ Negli anni ho visto di tutto nei telefoni portati in riparazione. Ecco cosa non 
 
 * Mai usare ghiaccio o acqua fredd
 
-a: Come accennato prima, la condensa creerebbe cortocircuiti istantanei sulla scheda madre.
+**a:** Come accennato prima, la condensa creerebbe cortocircuiti istantanei sulla scheda madre.
 * Non caricate il telefono mentre giocate: La ricarica (soprattutto quella rapida) genera tantissimo calore di per sé. Sommare la ricarica della batteria a un gioco pesante significa friggere i componenti interni in tempi record.
 * Non coprite le uscite audio/microfono con dita serrate: Durante le sessioni di gioco orizzontali, spesso copriamo le zone di dissipazione naturale del calore con i palmi delle mani.
 
@@ -79,14 +79,14 @@ a: Come accennato prima, la condensa creerebbe cortocircuiti istantanei sulla sc
 
 ### Domande Frequenti (FAQ)
 
-Q1. È normale che il mio telefono diventi caldo quando gioco?
+**Q1.** È normale che il mio telefono diventi caldo quando gioco?
 
-A1.Sì, è assolutamente normale che si intiepidisca o si scaldi leggermente durante sessioni di gioco prolungate. Tuttavia, non deve mai diventare bollente al punto da causare fastidio alle dita, blocchi improvvisi o il calo drastico della luminosità dello schermo. Se succede regolarmente, la gestione termica è sotto stress.
+**A1.**Sì, è assolutamente normale che si intiepidisca o si scaldi leggermente durante sessioni di gioco prolungate. Tuttavia, non deve mai diventare bollente al punto da causare fastidio alle dita, blocchi improvvisi o il calo drastico della luminosità dello schermo. Se succede regolarmente, la gestione termica è sotto stress.
 
-Q2. Rimuovere la cover risolve definitivamente il problema del surriscaldamento?
+**Q2.** Rimuovere la cover risolve definitivamente il problema del surriscaldamento?
 
-A2.Aiuta in modo significativo a dissipare il calore più velocemente, specialmente se usate cover spesse in TPU o silicone. Tuttavia, se il telefono si surriscalda anche a riposo o con compiti leggeri, potrebbe esserci un problema hardware interno, come la pasta termica degradata o un'anomalia nella batteria.
+**A2.**Aiuta in modo significativo a dissipare il calore più velocemente, specialmente se usate cover spesse in TPU o silicone. Tuttavia, se il telefono si surriscalda anche a riposo o con compiti leggeri, potrebbe esserci un problema hardware interno, come la pasta termica degradata o un'anomalia nella batteria.
 
-Q3. Posso usare una ventola di raffreddamento esterna per smartphone?
+**Q3.** Posso usare una ventola di raffreddamento esterna per smartphone?
 
-A3. Assolutamente sì! Esistono in commercio dissipatori a celle di Peltier magnetici o a clip che si applicano sul retro dello smartphone. Sono estremamente efficaci per chi fa gaming competitivo o streaming prolungato, mantenendo basse le temperature e prevenendo il throttling.
+**A3.** Assolutamente sì! Esistono in commercio dissipatori a celle di Peltier magnetici o a clip che si applicano sul retro dello smartphone. Sono estremamente efficaci per chi fa gaming competitivo o streaming prolungato, mantenendo basse le temperature e prevenendo il throttling.

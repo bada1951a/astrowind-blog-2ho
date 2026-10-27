@@ -13,7 +13,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Riparazione Cellulari"]
 
 Sono le 8:45 di lunedì mattina. Mi trovo nel pieno fermento del Centro Direzionale di Milano, tra grattacieli di vetro e manager in preda al panico da batteria scarica. Un cliente entra nel mio laboratorio a passo di caric
 
-a: ha la riunione più importante del trimestre tra venti minuti e il suo smartphone, poggiato sulla base di ricarica wireless della scrivania, si rifiuta categoricamente di fare il suo dovere. 
+**a:** ha la riunione più importante del trimestre tra venti minuti e il suo smartphone, poggiato sulla base di ricarica wireless della scrivania, si rifiuta categoricamente di fare il suo dovere. 
 
 ![Wireless Charger Blinking and Not Charging Phone: How to Align Induction Coils Guide](https://picsum.photos/seed/mob-mvgawqbc-6-b/1000/550.jpg)
 
@@ -21,7 +21,7 @@ Il sintomo? Classico, odioso e inequivocabile: il LED del caricabatterie wireles
 
 Faccio un respiro profondo, gli faccio cenno di sedersi e poso il telefono sul banco. Nella maggior parte dei casi, non siamo di fronte a un componente bruciato, ma a una questione di fisica pur
 
-a: un disallineamento millimetrico tra le bobine a induzione o un piccolo blocco di comunicazione tra i dispositivi. Mettiamoci al lavoro e vediamo come risolverlo in pochi minuti.
+**a:** un disallineamento millimetrico tra le bobine a induzione o un piccolo blocco di comunicazione tra i dispositivi. Mettiamoci al lavoro e vediamo come risolverlo in pochi minuti.
 
 ---
 
@@ -61,7 +61,7 @@ Prima di lasciar andare il cliente con il suo telefono perfettamente funzionante
 
 * Attenzione al calore eccessivo: Il nemico numero uno della batteria agli ioni di litio è la temperatura. Se noti che il telefono diventa bollente mentre è sul pad wireless, rimuovilo immediatamente. Il calore degrada la chimica interna della batteria, riducendone la capacità e rischiando persino di gonfiarla. * Non lasciare il telefono sul pad a oltranz
 
-a: Una volta raggiunto il 100%, la ricarica wireless continua a effettuare cicli di mantenimento che mantengono la batteria sotto stress termico. Cerca di rimuovere lo smartphone non appena la carica è completa. * Salute della porta USB: Anche se usi la ricarica wireless, ricordati di pulire periodicamente la porta USB-C o Lightning del telefono con uno stecchino di legno non appuntito. La polvere si accumula comunque, e in caso di guasto improvviso del pad wireless, avrai bisogno della porta cablata per effettuare il backup o caricare il telefono.
+**a:** Una volta raggiunto il 100%, la ricarica wireless continua a effettuare cicli di mantenimento che mantengono la batteria sotto stress termico. Cerca di rimuovere lo smartphone non appena la carica è completa. * Salute della porta USB: Anche se usi la ricarica wireless, ricordati di pulire periodicamente la porta USB-C o Lightning del telefono con uno stecchino di legno non appuntito. La polvere si accumula comunque, e in caso di guasto improvviso del pad wireless, avrai bisogno della porta cablata per effettuare il backup o caricare il telefono.
 
 ---
 
@@ -71,12 +71,12 @@ Domande Frequenti (FAQ)
 
 D: Perché il mio caricabatterie wireless lampeggia solo con il telefono inserito, ma rimane fisso (o spento) se è vuoto?
 
-R: È il comportamento standard dei circuiti di sicurezza dotati di FOD (*Foreign Object Detection*). Quando il pad è vuoto, è in modalità stand-by. Quando appoggi il telefono, il pad tenta di stabilire una comunicazione dati/energia con la bobina ricevente. Se rileva un disallineamento, un oggetto metallico estraneo o un'impedenza anomala, il sistema di protezione si attiva facendo lampeggiare il LED per segnalare l'errore.
+**A.** È il comportamento standard dei circuiti di sicurezza dotati di FOD (*Foreign Object Detection*). Quando il pad è vuoto, è in modalità stand-by. Quando appoggi il telefono, il pad tenta di stabilire una comunicazione dati/energia con la bobina ricevente. Se rileva un disallineamento, un oggetto metallico estraneo o un'impedenza anomala, il sistema di protezione si attiva facendo lampeggiare il LED per segnalare l'errore.
 
 D: Posso usare qualsiasi caricabatterie wireless con il mio smartphone?
 
-R: In linea di massima sì, grazie allo standard universale Qi. Tuttavia, per ottenere le massime prestazioni ed evitare problemi di compatibilità con i sistemi di ricarica rapida proprietari (come quelli di Samsung o Apple), è sempre consigliabile utilizzare accessori originali o certificati (es. marchi con certificazione Qi ufficiale). I pad economici senza marche spesso montano bobine di scarsa qualità che tollerano pochissimo il disallineamento.
+**A.** In linea di massima sì, grazie allo standard universale Qi. Tuttavia, per ottenere le massime prestazioni ed evitare problemi di compatibilità con i sistemi di ricarica rapida proprietari (come quelli di Samsung o Apple), è sempre consigliabile utilizzare accessori originali o certificati (es. marchi con certificazione Qi ufficiale). I pad economici senza marche spesso montano bobine di scarsa qualità che tollerano pochissimo il disallineamento.
 
 D: Il telefono si carica a intermittenza (collega/scollega continuamente): cosa sta succedendo?
 
-R: Questo fenomeno è solitamente causato da un'alimentazione instabile in arrivo alla base di ricarica. L'adattatore a muro sta erogando meno corrente del necessario (magari stai usando una vecchia presa da 5W/1A). Appena il telefono richiede energia per la ricarica rapida, il carico supera la capacità dell'alimentatore, che si spegne per un istante, facendo interrompere la ricarica. Sostituisci l'alimentatore con uno più potente e vedrai che il flusso diventerà continuo.
+**A.** Questo fenomeno è solitamente causato da un'alimentazione instabile in arrivo alla base di ricarica. L'adattatore a muro sta erogando meno corrente del necessario (magari stai usando una vecchia presa da 5W/1A). Appena il telefono richiede energia per la ricarica rapida, il carico supera la capacità dell'alimentatore, che si spegne per un istante, facendo interrompere la ricarica. Sostituisci l'alimentatore con uno più potente e vedrai che il flusso diventerà continuo.

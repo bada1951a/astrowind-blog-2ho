@@ -48,16 +48,16 @@ Tippen Sie dort auf den Punkt Sensor und überprüfen Sie, ob der Lichtsensor (L
 Sicherheitshinweis vom Techniker: Legen Sie Ihr Smartphone in der prallen Sonne niemals auf dunkle Oberflächen wie Autositze oder Asphalt. Die Kombination aus direkter Sonneneinstrahlung, hoher Displayhelligkeit und gleichzeitigem Schnellladen führt zu extremen Akku-Temperaturen, die die Lebensdauer der Lithium-Ionen-Zelle permanent verkürzen können.
 </div>
 
-### Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
-Q1: Warum lädt mein Galaxy in der Sonne trotz Kabel nicht mehr richtig und wird gleichzeitig dunkel?
+**Q1:** Warum lädt mein Galaxy in der Sonne trotz Kabel nicht mehr richtig und wird gleichzeitig dunkel?
 
-A1: Das ist ein kombinierter Schutzmechanismus. Wenn die Temperatur im Inneren des Smartphones steigt, drosselt das Ladegerät automatisch den Strom, um eine Überhitzung des Akkus zu verhindern. Gleichzeitig wird das Display dunkler, um Energie zu sparen und Abwärme zu reduzieren.
+**A1:** Das ist ein kombinierter Schutzmechanismus. Wenn die Temperatur im Inneren des Smartphones steigt, drosselt das Ladegerät automatisch den Strom, um eine Überhitzung des Akkus zu verhindern. Gleichzeitig wird das Display dunkler, um Energie zu sparen und Abwärme zu reduzieren.
 
-Q2: Kann eine dicke Panzerglasfolie das automatische Abdunkeln im Freien verschlimmern?
+**Q2:** Kann eine dicke Panzerglasfolie das automatische Abdunkeln im Freien verschlimmern?
 
-A2: Ja, absolut. Minderwertige oder zu dicke Schutzglasfolien, insbesondere solche mit schwarzem Rand oder starker Tönung, können das Umgebungslicht ablenken, das auf den Sensor trifft. Dadurch denkt das System, es sei dunkler als es ist, und regelt die Displayhelligkeit unkontrolliert herunter.
+**A2:** Ja, absolut. Minderwertige oder zu dicke Schutzglasfolien, insbesondere solche mit schwarzem Rand oder starker Tönung, können das Umgebungslicht ablenken, das auf den Sensor trifft. Dadurch denkt das System, es sei dunkler als es ist, und regelt die Displayhelligkeit unkontrolliert herunter.
 
-Q3: Gibt es eine App, die das automatische Abdunkeln bei Hitze komplett abschaltet?
+**Q3:** Gibt es eine App, die das automatische Abdunkeln bei Hitze komplett abschaltet?
 
-A3: Nein, und das ist auch gut so. Die automatische Helligkeitsreduzierung bei Überhitzung ist eine fest im Kernel verankerte Sicherheitsfunktion von Samsung, die das Display vor dauerhaften Einbrenneffekten und den Akku vor dem Aufblähen schützt. Der beste Weg ist, das Gerät bei starker Hitze im Freien nicht unnötig mit rechenintensiven Apps zu belasten.
+**A3:** Nein, und das ist auch gut so. Die automatische Helligkeitsreduzierung bei Überhitzung ist eine fest im Kernel verankerte Sicherheitsfunktion von Samsung, die das Display vor dauerhaften Einbrenneffekten und den Akku vor dem Aufblähen schützt. Der beste Weg ist, das Gerät bei starker Hitze im Freien nicht unnötig mit rechenintensiven Apps zu belasten.

@@ -30,7 +30,7 @@ Para solucionar un problema de hardware de forma efectiva, primero hay que enten
 
 3. Daño temporal en el flex de carg
 
-a: Si el terminal sufrió un golpe reciente o humedad ácida, el circuito integrado que lee la resistencia del puerto puede haberse quedado "atascado" digitalmente.
+**a:** Si el terminal sufrió un golpe reciente o humedad ácida, el circuito integrado que lee la resistencia del puerto puede haberse quedado "atascado" digitalmente.
 
 ---
 
@@ -65,7 +65,7 @@ En entornos de oficina con ritmos acelerados, es fácil descuidar los dispositiv
 
 * Carga inalámbrica de emergenci
 
-a: Si necesitas recuperar batería urgentemente para enviar un informe y el puerto de datos está bloqueado por humedad, utiliza una base de carga MagSafe o Qi inalámbrica. Eso sí, asegúrate de que la parte trasera del teléfono esté completamente seca por fuera antes de apoyarla. * La opción de emergencia del software: Si estás 100 por ciento seguro de que el puerto está seco y el sensor sigue fallando por un error lógico de iOS, puedes pulsar la opción "Omitir alerta" que a veces aparece debajo del mensaje (aunque úsala bajo tu propia responsabilidad si aún hay líquido real).
+**a:** Si necesitas recuperar batería urgentemente para enviar un informe y el puerto de datos está bloqueado por humedad, utiliza una base de carga MagSafe o Qi inalámbrica. Eso sí, asegúrate de que la parte trasera del teléfono esté completamente seca por fuera antes de apoyarla. * La opción de emergencia del software: Si estás 100 por ciento seguro de que el puerto está seco y el sensor sigue fallando por un error lógico de iOS, puedes pulsar la opción "Omitir alerta" que a veces aparece debajo del mensaje (aunque úsala bajo tu propia responsabilidad si aún hay líquido real).
 
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(249, 115, 22, 0.05); border-radius: 4px; color: #111827;">
 <strong>Consejo Pro:</strong> Si tras seguir estos pasos el teléfono sigue sin cargar y la batería está al mínimo, haz una copia de seguridad en iCloud de inmediato mediante Wi-Fi antes de que el dispositivo se apague del todo, por si el daño en el circuito de carga requiere asistencia técnica profesional en un Apple Store.
@@ -73,13 +73,16 @@ a: Si necesitas recuperar batería urgentemente para enviar un informe y el puer
 
 ---
 
-## Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
-1. ¿Es seguro cargar el iPhone si sale la alerta pero el teléfono dice que está seco por fuera?
-No. La humedad se acumula en el interior milimétrico del conector Lightning/USB-C, donde los pines están bajo tensión eléctrica constante. Conectar un cable con humedad interior puede fundir los microcircuitos de gestión de energía en cuestión de segundos.
+**Q.** ¿Es seguro cargar el iPhone si sale la alerta pero el teléfono dice que está seco por fuera?
 
-2. ¿Puedo usar spray limpiador de contactos genérico en lugar de alcohol isopropílico?
-Solo si el spray especifica claramente que es de evaporación total y no deja residuos oleosos. Muchos lubricantes de contactos para coches o cerraduras dejan una película grasa que aislará los pines e impedirá que el iPhone vuelva a cargar o sincronizar con el ordenador.
+**A.** No. La humedad se acumula en el interior milimétrico del conector Lightning/USB-C, donde los pines están bajo tensión eléctrica constante. Conectar un cable con humedad interior puede fundir los microcircuitos de gestión de energía en cuestión de segundos.
 
-3. ¿Cuánto tiempo debo esperar como máximo antes de llevarlo a reparar?
-Si han pasado más de 12 horas, has limpiado los residuos con alcohol isopropílico, el puerto luce completamente limpio bajo la lupa y el aviso de líquido sigue apareciendo de forma indefinida, es muy probable que el sensor físico o el flex de carga se hayan dañado por corrosión interna. En ese punto, toca visitar el servicio técnico para un reemplazo de pieza.
+**Q.** ¿Puedo usar spray limpiador de contactos genérico en lugar de alcohol isopropílico?
+
+**A.** Solo si el spray especifica claramente que es de evaporación total y no deja residuos oleosos. Muchos lubricantes de contactos para coches o cerraduras dejan una película grasa que aislará los pines e impedirá que el iPhone vuelva a cargar o sincronizar con el ordenador.
+
+**Q.** ¿Cuánto tiempo debo esperar como máximo antes de llevarlo a reparar?
+
+**A.** Si han pasado más de 12 horas, has limpiado los residuos con alcohol isopropílico, el puerto luce completamente limpio bajo la lupa y el aviso de líquido sigue apareciendo de forma indefinida, es muy probable que el sensor físico o el flex de carga se hayan dañado por corrosión interna. En ese punto, toca visitar el servicio técnico para un reemplazo de pieza.

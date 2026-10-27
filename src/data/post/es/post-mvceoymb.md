@@ -15,7 +15,7 @@ Eran las 17:45 en nuestra oficina en Madrid. Faltaban apenas quince minutos para
 <div style="border-left: 4px solid #3b82f6; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Alerta de Emergenci
 
-a:</strong> No ignores este aviso de seguridad. Los sistemas operativos modernos detectan microcortocircuitos por humedad para proteger la placa base, pero un mal movimiento puede fundir los pines de datos.
+**a:**</strong> No ignores este aviso de seguridad. Los sistemas operativos modernos detectan microcortocircuitos por humedad para proteger la placa base, pero un mal movimiento puede fundir los pines de datos.
 </div>
 
 ![Hardware & Tech Solution Guide](https://picsum.photos/seed/gadget121/1000/550)
@@ -50,7 +50,7 @@ Si necesitas rescatar datos urgentemente y estás seguro de que el puerto está 
 <div style="border-left: 4px solid #3b82f6; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Consejo Pro:</strong> Si tu móvil lo soporta, utiliza siempre la carga inalámbrica (Qi o MagSafe) mientras el puerto físico termina de evaporar toda la humedad interna de forma natural. Te salvará la vida en la oficina. </div>
 
-## Preguntas frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ¿Es seguro usar el puerto si la alerta desaparece y vuelve a aparecer?
 No del todo. Si el aviso parpadea, significa que aún queda humedad residual en los pines de datos. Forzar la conexión en este estado puede provocar corrosión galvánica (sulfatación), arruinando el puerto permanentemente.

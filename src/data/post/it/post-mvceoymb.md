@@ -1,5 +1,5 @@
 ---
-title: "Errore 'Liquido Rilevato' su Lightning o USB-C: Come Risolverlo Subito"
+title: "Errore'Liquido Rilevato' su Lightning o USB-C: Come Risolverlo Subito"
 description: "Guida pratica per risolvere l'avviso di liquido nella porta di ricarica del telefono senza danneggiare i componenti interni."
 publishDate: 2026-10-17T16:00:00.000Z
 image: "https://picsum.photos/seed/tech694/900/600"
@@ -24,7 +24,7 @@ Prima di metterci a trafficare con il telefono, capiamo cosa sta succedendo dent
 
 1. Umidità residua o condens
 
-a: Non serve aver immerso il telefono in acqua. Uno sbalzo termico tra la metropolitana fredda e l'ufficio riscaldato crea condensa invisibile direttamente dentro la porta di ricarica.
+**a:** Non serve aver immerso il telefono in acqua. Uno sbalzo termico tra la metropolitana fredda e l'ufficio riscaldato crea condensa invisibile direttamente dentro la porta di ricarica.
 
 2. Accumulo di lanugine e detriti: Tasche dei cappotti e zaini sono miniere di polvere. Quando la lanugine si mescola a micro-gocce d'acqua o al sudore, crea una poltiglia conduttiva che inganna il sensore facendogli credere che ci sia una perdita di liquido.
 
@@ -45,7 +45,7 @@ Lascia asciugare il dispositivo all'aria in un ambiente asciutto per almeno tren
 * Cosa NON fare assolutamente: Mai usare il phon caldo (fonde le guarnizioni e spinge l'acqua più in profondità), mai infilare cotton fioc (rilasciano fibre di cotone) e soprattutto mai mettere il telefono nel riso (la polvere di riso penetra nei circuiti bloccandoli definitivamente).
 * Soluzione d'emergenza estrema (se non puoi aspettare): Se proprio devi caricare il telefono per una emergenza vitale, riavvia il dispositivo tenendo collegato il cavo, oppure disattiva temporaneamente gli avvisi accessori se il sistema operativo lo permette (not
 
-a: sconsigliato se c'è acqua reale).
+**a:** sconsigliato se c'è acqua reale).
 
 ## Consigli dell'esperto per prevenire il problema
 

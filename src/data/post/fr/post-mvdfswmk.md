@@ -54,7 +54,7 @@ Si vous êtes absolument certain que le port est sec et propre mais que l'iPhone
 <strong>Alternative de secours en réunion :</strong> Si le port refuse toujours de s'ouvrir à la charge, basculez immédiatement sur une solution sans fil. Posez votre iPhone sur un chargeur à induction Qi ou MagSafe. Même si le port filaire est bloqué par sécurité par iOS, la bobine de charge sans fil située à l'arrière continue généralement de fonctionner.
 </div>
 
-### Questions Fréquemment Posées (FAQ)
+## 5. Foire Aux Questions (FAQ)
 
 Puis-je utiliser de l'alcool isopropylique pour accélérer le séchage ?
 Oui, l'alcool isopropylique à 99 pour cent est un excellent déshydratant et nettoyant électronique car il s'évapore instantanément sans laisser de résidus minéraux. Déposez une toute petite goutte sur une brosse à dents souple propre, brossez délicatement le port, puis laissez sécher deux minutes à l'air libre.

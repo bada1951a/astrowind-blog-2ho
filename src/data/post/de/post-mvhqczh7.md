@@ -78,7 +78,7 @@ Gehe in den Einstellungen auf Batterie und scrolle nach unten zur App-Liste. Pr�
 
 ---
 
-## Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 ### 1. Soll ich mein iPhone sofort auf die nächste Beta-Version aktualisieren, wenn der Akku leergesaugt wird?
 Nein, auf keinen Fall. Beta-Versionen enthalten oft noch mehr Debugging-Prozesse, die den Akku zusätzlich belasten. Warte lieber auf das offizielle, stabile Patch-Update von Apple.

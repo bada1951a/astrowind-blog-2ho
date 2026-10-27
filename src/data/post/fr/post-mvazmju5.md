@@ -40,7 +40,7 @@ Avant de passer à l'action, comprenons brièvement ce qui s'est passé dans la 
 
 Oubliez l'attente que la batterie se vide complètement (ce qui peut prendre des heures). Voici la manipulation exacte à effectuer, qu'il s'agisse d'un Galaxy S, d'un Note ou d'un modèle de la gamme
 
-A :
+**A :**
 
 * Étape 1 : Repérez simultanément le bouton de réduction du volume (sur la tranche gauche) et le bouton latéral d'alimentation / marche-arrêt (sur la tranche droite).
 * Étape 2 : Maintenez ces deux boutons enfoncés en même temps de manière ferme et continue.
@@ -63,13 +63,16 @@ Une fois que votre téléphone a redémarré et que vous avez réussi à assurer
 
 ---
 
-### Foire Aux Questions (FAQ)
+## 5. Foire Aux Questions (FAQ)
 
-1. Est-ce que cette manipulation efface mes photos ou mes mots de passe ?
-Absolument pas. Un redémarrage forcé équivaut simplement à débrancher et rebrancher la batterie d'un ordinateur. Vos données stockées sur la mémoire flash interne restent parfaitement en sécurité.
+**Q.** Est-ce que cette manipulation efface mes photos ou mes mots de passe ?
 
-2. Que faire si les boutons de mon téléphone sont cassés et ne répondent pas ?
-Si les boutons physiques sont hors service et que l'écran tactile est bloqué, la seule option sécurisée est de patienter sagement que la batterie se vide entièrement pour que le téléphone s'éteigne de lui-même, puis de le brancher pour le relancer.
+**A.** Absolument pas. Un redémarrage forcé équivaut simplement à débrancher et rebrancher la batterie d'un ordinateur. Vos données stockées sur la mémoire flash interne restent parfaitement en sécurité.
 
-3. Pourquoi mon écran tactile refait-il des siennes de temps en temps ?
-Si le gel de l'écran est récurrent, cela peut venir d'une protection d'écran en verre trempé de mauvaise qualité qui perturbe le capteur digitizer, ou d'une application vérolée. Essayez d'utiliser le téléphone en mode sans échec (*Paramètres de redémarrage en maintenant l'icône Éteindre*) pour identifier le coupable.
+**Q.** Que faire si les boutons de mon téléphone sont cassés et ne répondent pas ?
+
+**A.** Si les boutons physiques sont hors service et que l'écran tactile est bloqué, la seule option sécurisée est de patienter sagement que la batterie se vide entièrement pour que le téléphone s'éteigne de lui-même, puis de le brancher pour le relancer.
+
+**Q.** Pourquoi mon écran tactile refait-il des siennes de temps en temps ?
+
+**A.** Si le gel de l'écran est récurrent, cela peut venir d'une protection d'écran en verre trempé de mauvaise qualité qui perturbe le capteur digitizer, ou d'une application vérolée. Essayez d'utiliser le téléphone en mode sans échec (*Paramètres de redémarrage en maintenant l'icône Éteindre*) pour identifier le coupable.

@@ -48,7 +48,7 @@ Ikuti langkah-langkah praktis berikut:
 
 Setelah HP Anda menyala normal kembali dan data Anda selamat, lakukan langkah pencegahan ringan ini agar kejadian horor tadi tidak terulang pas jam kerj
 
-a:
+**a:**
 
 1. Rutin Bersihkan RAM: Masuk ke Pengaturan > Perawatan Perangkat (Device Care) > Memori, lalu ketuk *Bersihkan* untuk meringankan beban kerja sistem.
 
@@ -56,7 +56,7 @@ a:
 
 3. Update Software Berkal
 
-a: Seringkali Samsung merilis *patch* keamanan yang memperbaiki bug pada responsivitas layar sentuh. Cek berkala di Pengaturan > Pembaruan Perangkat Lunak.
+**a:** Seringkali Samsung merilis *patch* keamanan yang memperbaiki bug pada responsivitas layar sentuh. Cek berkala di Pengaturan > Pembaruan Perangkat Lunak.
 
 <div style="border-left: 4px solid #64748b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Peringatan Penting:</strong> Jika setelah dipaksa restart layar masih tetap tidak merespons sentuhan sama sekali, kemungkinan besar ada kerusakan hardware pada kabel fleksibel LCD atau lapisan digitizer (misalnya pernah jatuh atau masuk air tipis). Jika ini terjadi, segera bawa ke pusat servis resmi Samsung atau teknisi kepercayaan untuk pengecekan fisik.
@@ -66,14 +66,14 @@ a: Seringkali Samsung merilis *patch* keamanan yang memperbaiki bug pada respons
 
 ### Pertanyaan yang Sering Diajukan (FAQ)
 
-Q: Apakah cara paksa restart ini akan menghapus foto atau dokumen saya?
+**Q:** Apakah cara paksa restart ini akan menghapus foto atau dokumen saya?
 
-A: Sama sekali tidak. *Force restart* lewat kombinasi tombol fisik ini fungsinya hanya memutus aliran daya sementara untuk mematikan sistem yang macet, mirip seperti mencabut colokan komputer lalu menyalakannya lagi. File, foto, video, dan chat Anda dijamin aman.
+**A:** Sama sekali tidak. *Force restart* lewat kombinasi tombol fisik ini fungsinya hanya memutus aliran daya sementara untuk mematikan sistem yang macet, mirip seperti mencabut colokan komputer lalu menyalakannya lagi. File, foto, video, dan chat Anda dijamin aman.
 
-Q: Bagaimana jika tombol Volume Bawah dan Power di HP saya rusak?
+**Q:** Bagaimana jika tombol Volume Bawah dan Power di HP saya rusak?
 
-A: Jika salah satu tombol fisik rusak, situasinya jadi sedikit lebih rumit. Anda bisa mencoba mencolokkan HP ke komputer/laptop menggunakan kabel USB. Terkadang, sambungan daya atau perintah ADB sederhana dari PC bisa memicu sistem untuk reboot otomatis. Namun, jika tombol benar-benar rusak total, opsi terakhir adalah membawanya ke tempat servis untuk dibantu *restart* lewat jalur internal mesin.
+**A:** Jika salah satu tombol fisik rusak, situasinya jadi sedikit lebih rumit. Anda bisa mencoba mencolokkan HP ke komputer/laptop menggunakan kabel USB. Terkadang, sambungan daya atau perintah ADB sederhana dari PC bisa memicu sistem untuk reboot otomatis. Namun, jika tombol benar-benar rusak total, opsi terakhir adalah membawanya ke tempat servis untuk dibantu *restart* lewat jalur internal mesin.
 
-Q: Kenapa layar Samsung saya sering tiba-tiba tidak bisa disentuh?
+**Q:** Kenapa layar Samsung saya sering tiba-tiba tidak bisa disentuh?
 
-A: Biasanya ini disebabkan oleh penggunaan charger KW (bukan bawaan asli) yang membuat arus listrik tidak stabil saat HP di-charge sambil dipakai, atau karena penggunaan *tempered glass* tebal berkualitas buruk yang mengganggu sensor sentuh kapasitif. Gunakan selalu aksesoris original demi kesehatan perangkat Anda.
+**A:** Biasanya ini disebabkan oleh penggunaan charger KW (bukan bawaan asli) yang membuat arus listrik tidak stabil saat HP di-charge sambil dipakai, atau karena penggunaan *tempered glass* tebal berkualitas buruk yang mengganggu sensor sentuh kapasitif. Gunakan selalu aksesoris original demi kesehatan perangkat Anda.

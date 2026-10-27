@@ -30,7 +30,7 @@ Hier zijn de drie meest voorkomende boosdoeners achter dit irritante fenomeen:
 
 3. Maximale piekbelasting van de camer
 
-a: Foto's en video's verwerken in HDR-kwaliteit vraagt het uiterste van je grafische chip. Als je toestel al warm is, zorgt het openen van de camera-app voor de druppel die de emmer doet overlopen, waardoor het systeem direct ingrijpt.
+**a:** Foto's en video's verwerken in HDR-kwaliteit vraagt het uiterste van je grafische chip. Als je toestel al warm is, zorgt het openen van de camera-app voor de druppel die de emmer doet overlopen, waardoor het systeem direct ingrijpt.
 
 ---
 
@@ -58,14 +58,14 @@ Schakel de automatische helderheid (Auto-Brightness) tijdelijk uit wanneer je bu
 
 ## Veelgestelde vragen (FAQ)
 
-Q1. Kan mijn scherm permanent beschadigd raken als het vaak dimt in de zon?
+**Q1.** Kan mijn scherm permanent beschadigd raken als het vaak dimt in de zon?
 
-A1.Het scherm zelf kan hier meestal wel tegen, maar de lijmlaag rondom het paneel en met name je batterij lijden onder extreme temperaturen. Herhaaldelijke oververhitting zorgt ervoor dat batterijen snel capaciteit verliezen of zelfs opbollen.
+**A1.**Het scherm zelf kan hier meestal wel tegen, maar de lijmlaag rondom het paneel en met name je batterij lijden onder extreme temperaturen. Herhaaldelijke oververhitting zorgt ervoor dat batterijen snel capaciteit verliezen of zelfs opbollen.
 
-Q2. Waarom gebeurt dit nooit bij mijn oude telefoon, maar wel bij mijn dure nieuwe smartphone?
+**Q2.** Waarom gebeurt dit nooit bij mijn oude telefoon, maar wel bij mijn dure nieuwe smartphone?
 
-A2.Moderne smartphones zijn flinterdun en bevatten enorm krachtige processors. Ze hebben nauwelijks fysieke ruimte om warmte kwijt te raken (geen ventilatoren zoals een laptop). Daardoor grijpt de software veel sneller in door de prestaties te knijpen en het scherm te dimmen.
+**A2.**Moderne smartphones zijn flinterdun en bevatten enorm krachtige processors. Ze hebben nauwelijks fysieke ruimte om warmte kwijt te raken (geen ventilatoren zoals een laptop). Daardoor grijpt de software veel sneller in door de prestaties te knijpen en het scherm te dimmen.
 
-Q3. Helpt het om mijn telefoon uit te schakelen als hij heet is?
+**Q3.** Helpt het om mijn telefoon uit te schakelen als hij heet is?
 
-A3. Ja, absoluut. Als je merkt dat het toestel blijft hangen en heet blijft, is volledig uitschakelen de beste optie. Hierdoor stoppen alle processen direct en kan het moederbord veilig afkoelen tot normale bedrijfstemperaturen.
+**A3.** Ja, absoluut. Als je merkt dat het toestel blijft hangen en heet blijft, is volledig uitschakelen de beste optie. Hierdoor stoppen alle processen direct en kan het moederbord veilig afkoelen tot normale bedrijfstemperaturen.

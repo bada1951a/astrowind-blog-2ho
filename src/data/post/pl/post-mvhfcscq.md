@@ -24,7 +24,7 @@ W takich chwilach łatwo o błędy, które zamiast pomóc, kończą się zniszcz
 
 Zanim przejdziemy do naprawy, musisz zrozumieć, z czym walczymy. Oto trzy najczęstsze powody, dla których telefon gotuje się w kieszeni, a ładowarka ledwo dych
 
-a:
+**a:**
 
 1. Aplikacje-wampiry w tle: Po aktualizacji systemowej One UI niektóre aplikacje (zwłaszcza komunikatory, programy bankowe czy lokalizacyjne) tracą kontrolę nad uprawnieniami i zapętlają się w próbach synchronizacji. Procesor nie przechodzi w stan głębokiego uśpienia (deep sleep), co winduje temperaturę obudowy do 45-50°C.
 
@@ -32,7 +32,7 @@ a:
 
 3. Uszkodzone protokoły szybkiego ładowani
 
-a: Używanie tanich, chińskich zamienników ładowarek powoduje, że układ scalony odpowiedzialny za zasilanie (tzw. układ PMIC) wariuje, podając nieprawidłowe napięcie, co bezpośrednio katuje baterię.
+**a:** Używanie tanich, chińskich zamienników ładowarek powoduje, że układ scalony odpowiedzialny za zasilanie (tzw. układ PMIC) wariuje, podając nieprawidłowe napięcie, co bezpośrednio katuje baterię.
 
 ---
 

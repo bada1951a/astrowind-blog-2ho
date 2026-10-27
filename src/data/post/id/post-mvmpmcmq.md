@@ -22,15 +22,15 @@ Kemarin sore saat saya sedang menikmati kopi di kawasan Sudirman, seorang pelang
 
 Sebagai teknisi yang sering membongkar perangkat Apple, saya sering melihat struktur fisik layar Super Retina XDR. Ada tiga alasan utama mengapa layar iPhone bisa mengalami *burn-in* lebih cepat dari seharusnya:
 
-1. **Degradasi Piksel Organik (Pixel Aging):** Komponen organik di dalam piksel sub-pixel OLED akan kehilangan tingkat kecerahannya seiring waktu. Jika piksel tertentu menyala dengan warna putih atau terang secara terus-menerus sementara piksel di sekitarnya mati, keausan menjadi tidak merata.
+1. **Degradasi Piksel Organik (Pixel Aging):**Komponen organik di dalam piksel sub-pixel OLED akan kehilangan tingkat kecerahannya seiring waktu. Jika piksel tertentu menyala dengan warna putih atau terang secara terus-menerus sementara piksel di sekitarnya mati, keausan menjadi tidak merata.
 
-2. **Tingkat Kecerahan Maksimal yang Konstan:** Penggunaan *Auto-Brightness* yang dimatikan dengan posisi slider kecerahan di angka 100% saat berada di bawah terik matahari Jakarta mempercepat proses penuaan zat organik pada panel layar.
+2.**Tingkat Kecerahan Maksimal yang Konstan:** Penggunaan *Auto-Brightness* yang dimatikan dengan posisi slider kecerahan di angka 100% saat berada di bawah terik matahari Jakarta mempercepat proses penuaan zat organik pada panel layar.
 
-3. **Elemen Antarmuka Statis (UI Ghosting):** Status bar, dock aplikasi di bagian bawah, atau tombol navigasi aplikasi tertentu yang tidak pernah berubah posisi memberikan beban kerja yang tidak seimbang pada area piksel tertentu di layar.
+3. **Elemen Antarmuka Statis (UI Ghosting):**Status bar, dock aplikasi di bagian bawah, atau tombol navigasi aplikasi tertentu yang tidak pernah berubah posisi memberikan beban kerja yang tidak seimbang pada area piksel tertentu di layar.
 
 ## 3. Panduan Praktis Langkah demi Langkah Perbaikan Darurat
 
-Alih-alih menunggu layar Anda benar-benar rusak dan harus mengeluarkan biaya mahal untuk penggantian satu modul layar penuh, mari kita buat sistem pencegahan otomatis berbasis perangkat lunak menggunakan fitur **Automation** di aplikasi **Shortcuts** bawaan iOS.
+Alih-alih menunggu layar Anda benar-benar rusak dan harus mengeluarkan biaya mahal untuk penggantian satu modul layar penuh, mari kita buat sistem pencegahan otomatis berbasis perangkat lunak menggunakan fitur**Automation**di aplikasi**Shortcuts** bawaan iOS.
 
 ```bash
 # Ringkasan Alur Sistem Otomasi
@@ -43,11 +43,11 @@ Alih-alih menunggu layar Anda benar-benar rusak dan harus mengeluarkan biaya mah
 
 Ikuti langkah-langkah praktis berikut untuk mengaturnya:
 
-* **Langkah 1:** Buka aplikasi **Shortcuts** (Pintasan) di iPhone Anda, lalu ketuk tab **Automation** (Otomasi) di bagian bawah tengah layar.
-* **Langkah 2:** Ketuk ikon tambah (+) di pojok kanan atas, lalu pilih **Time of Day** (Waktu dalam Hari).
-* **Langkah 3:** Tentukan waktu spesifik, misalnya pukul 18.00 untuk mulai mengaktifkan mode gelap, pilih opsi **Run Immediately** (Jalankan Segera), lalu ketuk **Next** (Berikutnya).
-* **Langkah 4:** Cari tindakan dengan mengetik **Set Appearance** pada kolom pencarian, lalu ubah parameternya menjadi **Dark** (Gelap). Ketuk **Done** untuk menyimpan.
-* **Langkah 5:** Buat satu otomatisasi lagi dengan cara yang sama untuk pukul 06.00 pagi dengan aksi **Set Appearance** ke **Light** (Terang) agar mata tetap nyaman beraktivitas di luar ruangan.
+* **Langkah 1:**Buka aplikasi**Shortcuts**(Pintasan) di iPhone Anda, lalu ketuk tab**Automation** (Otomasi) di bagian bawah tengah layar.
+* **Langkah 2:**Ketuk ikon tambah (+) di pojok kanan atas, lalu pilih**Time of Day** (Waktu dalam Hari).
+* **Langkah 3:**Tentukan waktu spesifik, misalnya pukul 18.00 untuk mulai mengaktifkan mode gelap, pilih opsi**Run Immediately**(Jalankan Segera), lalu ketuk**Next** (Berikutnya).
+* **Langkah 4:**Cari tindakan dengan mengetik**Set Appearance**pada kolom pencarian, lalu ubah parameternya menjadi**Dark**(Gelap). Ketuk**Done** untuk menyimpan.
+* **Langkah 5:**Buat satu otomatisasi lagi dengan cara yang sama untuk pukul 06.00 pagi dengan aksi**Set Appearance**ke**Light**(Terang) agar mata tetap nyaman beraktivitas di luar ruangan.
 
 ## 4. Tips & Peringatan Penting Teknisi Reparasi
 
@@ -55,18 +55,18 @@ Ikuti langkah-langkah praktis berikut untuk mengaturnya:
 <strong>Tips Keamanan Perangkat:</strong> Jangan mudah percaya pada aplikasi pihak ketiga di App Store yang mengklaim bisa "memperbaiki" atau "mencuci" layar burn-in dengan menampilkan warna berkedip-kedip cepat. Metode tersebut justru membebani daya tahan baterai dan mempercepat kerusakan komponen resistor sub-pixel pada mesin. Pencegahan melalui manajemen kecerahan dan transisi Dark Mode adalah cara paling aman yang dianjurkan teknisi profesional.
 </div>
 
-Selain otomatisasi tema tampilan, biasakan untuk mengaktifkan fitur **Auto-Brightness** di menu **Settings > Accessibility > Display & Text Size**. Biarkan sensor cahaya ambient iPhone Anda yang bekerja menyesuaikan kebutuhan daya tahan panel layar.
+Selain otomatisasi tema tampilan, biasakan untuk mengaktifkan fitur**Auto-Brightness**di menu**Settings > Accessibility > Display & Text Size**. Biarkan sensor cahaya ambient iPhone Anda yang bekerja menyesuaikan kebutuhan daya tahan panel layar.
 
 ## 5. Pertanyaan yang Sering Diajukan (FAQ)
 
-Q: Apakah Dark Mode benar-benar bisa menghilangkan risiko *burn-in* pada layar iPhone?
+**Q:** Apakah Dark Mode benar-benar bisa menghilangkan risiko *burn-in* pada layar iPhone?
 
-A: Dark Mode tidak menghilangkan risiko secara mutlak, namun sangat efektif memperlambat proses keausan piksel organik karena sebagian besar piksel dimatikan (menampilkan warna hitam murni), sehingga umur pakai panel OLED menjadi jauh lebih panjang.
+**A:** Dark Mode tidak menghilangkan risiko secara mutlak, namun sangat efektif memperlambat proses keausan piksel organik karena sebagian besar piksel dimatikan (menampilkan warna hitam murni), sehingga umur pakai panel OLED menjadi jauh lebih panjang.
 
-Q: Apakah fitur otomatisasi ini akan menguras baterai iPhone saya?
+**Q:** Apakah fitur otomatisasi ini akan menguras baterai iPhone saya?
 
-A: Sama sekali tidak. Proses pergantian skema warna melalui sistem bawaan iOS ini sangat ringan dan justru menghemat daya baterai, terutama jika iPhone Anda menggunakan panel OLED yang mengonsumsi daya lebih sedikit saat menampilkan warna hitam.
+**A:** Sama sekali tidak. Proses pergantian skema warna melalui sistem bawaan iOS ini sangat ringan dan justru menghemat daya baterai, terutama jika iPhone Anda menggunakan panel OLED yang mengonsumsi daya lebih sedikit saat menampilkan warna hitam.
 
-Q: Apa yang harus saya lakukan jika bayangan aplikasi terlanjur tercetak di layar?
+**Q:** Apa yang harus saya lakukan jika bayangan aplikasi terlanjur tercetak di layar?
 
-A: Jika bayangan sudah permanen (ghost image), satu-satunya solusi teknis yang dapat mengembalikan kejernihan layar secara total adalah dengan melakukan penggantian modul satu set layar baru di pusat reparasi terpercaya.
+**A:** Jika bayangan sudah permanen (ghost image), satu-satunya solusi teknis yang dapat mengembalikan kejernihan layar secara total adalah dengan melakukan penggantian modul satu set layar baru di pusat reparasi terpercaya.

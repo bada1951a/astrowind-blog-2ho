@@ -36,7 +36,7 @@ Sebelum langsung panik memvonis hardware Anda rusak, mari kita kenali akar masal
 
 Jangan buru-buru pergi ke pusat servis. Ikuti langkah taktis berikut untuk membersihkan dan menormalkan kembali port iPhone Anda di meja kerj
 
-a:
+**a:**
 
 ### Langkah 1: Keringkan dengan Angin Alami (Bukan Panas!)
 Cabut kabel segera. Posisikan iPhone secara vertikal dengan bagian port pengisian daya menghadap ke bawah. Ketuk-ketuk perlahan punggung ponsel dengan telapak tangan untuk membantu sisa cairan atau embun keluar gravitasi. Arahkan aliran angin sejuk dari kipas angin meja atau *hair dryer* dengan settingan angin dingin (cold mode) dari jarak aman sekitar 30 cm selama 2-3 menit.

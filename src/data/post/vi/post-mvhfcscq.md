@@ -25,10 +25,10 @@ Sau khi kiem tra chiec may cua chi khach tai ban ky thuat TPHCM, nguyen nhan nha
 * Tien trinh ngam bi treo (Zombie App): Mot so ung dung mang xa hoi hoac app dat xe bi loi dong bo du lieu, chay ngam khong ngung nghi khien chip xu ly (CPU) luon hoat động o cong suat cao 100%, dan den nong ran toan bo mat lung va sut pin than toc.
 * Loi mach giao tiep USB Power Delivery (PD): Khi cong Type C bi bam bui ban hoac am moc, mach dieu khien sac nhanh bi nhieu tin hieu, danh lua bo nguon rang may dang qua nhiet, dan den tinh trang ngat sac nhanh hoac chi nhan sac cham 5W 1
 
-A.
+**A.**
 * Xung dot he thong sau ban cap nhat One UI: Nhieu tien ich (widgets) hoac dich vu vi tri chay ngam bi loi vong lap (loop) sau khi may tu dong cap nhat phan mem qua OT
 
-A.
+**A.**
 
 ## Cac buoc xu ly tai cho an toan va hieu qua nhat
 

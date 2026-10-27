@@ -55,7 +55,7 @@ Se abrirá un menú de diagnóstico con múltiples botones de colores. Pulsa sob
 Consejo de seguridad profesional: Jamás metas tu Samsung Galaxy en la nevera, congelador ni le eches agua fría para enfriarlo rápido si se ha calentado al sol. El choque térmico condensará humedad dentro de la placa base, oxidando los conectores y arruinando la pantalla AMOLED para siempre. Déjalo a la sombra unos minutos para que baje la temperatura de forma natural.
 </div>
 
-## Preguntas frecuentes de usuarios en el taller
+## 5. Preguntas Frecuentes (FAQ)
 
 Pregunta 1: ¿Por qué mi Samsung Galaxy se pone más oscuro que el de otras marcas cuando hace calor?
 Respuesta 1: Samsung prioriza la protección a largo plazo de sus paneles AMOLED contra el temido efecto burn-in (marcado de pantalla) y la degradación prematura de los diodos orgánicos por calor. Su firmware es muy estricto bajando el brillo para preservar la integridad física del componente.

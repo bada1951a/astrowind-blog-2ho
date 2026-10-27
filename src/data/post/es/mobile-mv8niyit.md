@@ -20,23 +20,21 @@ Si eres de los que vive pegado al ecosistema móvil gestionando correos de últi
 
 Antes de meternos a configurar la automatización definitiva, hay que entender por qué el teléfono sufre tanto en entornos de movilidad corporativ
 
-a:
+**a:**
 
 1. Ajuste de brillo desbocado por sensores de luz ambiental: Los sensores del iPhone intentan compensar la luz artificial dura de los vagones o aviones subiendo el brillo al máximo, friendo la matriz de píxeles OLED y tus retinas al mismo tiempo.
 
 2. Uso prolongado de Hotspot con apps blancas: Al compartir internet, el procesador se calienta. Si combinas alta temperatura con interfaces de fondo blanco (como Jira, Notion o Gmail en modo claro), aceleras la degradación de los subpíxeles orgánicos azules.
 
 3. Falta de contexto geográfico y horario: El modo oscuro automático de iOS basado solo en "Puesta a sol" (Sunset to Sunrise) falla miserably cuando viajas por diferentes zonas horarias o pasas de un túnel oscuro a una estación iluminada. <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(249,115,22,0.05); border-radius: 4px; color: #111827;">
-<strong>Nota del Especialist
-
-a:</strong> No confíes ciegamente en el brillo automático nativo. Los sensores de Apple priorizan la visibilidad bajo el sol, ignorando por completo el daño acumulativo por fatiga visual en espacios cerrados nocturnos.
+<strong>Nota del especialista:</strong> No confíes ciegamente en el brillo automático nativo. Los sensores de Apple priorizan la visibilidad bajo el sol, ignorando por completo el daño acumulativo por fatiga visual en espacios cerrados nocturnos.
 </div>
 
 ---
 
 ### Tabla Comparativ
 
-a: Modo Manual vs. Automatización Inteligente
+**a:** Modo Manual vs. Automatización Inteligente
 
 | Característica | Ajuste Manual Tradicional | Automatización por Rutinas (Atajos) |
 | :--- | :--- | :--- |
@@ -81,7 +79,7 @@ Como especialista en soporte móvil, me cansé de parchar esto manualmente. Vamo
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(249,115,22,0.05); border-radius: 4px; color: #111827;">
 <strong>Banner de Configuración Recomendad
 
-a:</strong><br>
+**a:**</strong><br>
 • Disparador: Al activar Punto de Acceso o abrir Slack/Notion.<br>
 • Acción 1: Forzar Apariencia Oscura. <br>
 • Acción 2: Fijar Brillo al 35% + Desactivar True Tone temporalmente para evitar parpadeos de temperatura de color.
@@ -98,14 +96,16 @@ Cuando compartes datos móviles por largos periodos en trenes de alta velocidad,
 
 ---
 
-### Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
-1. ¿Esta automatización afecta el consumo de batería del iPhone?
-Al contrario. Forzar el modo oscuro en pantallas OLED apaga físicamente los píxeles negros, y limitar el brillo al 35% mediante la automatización reduce drásticamente el consumo energético del panel, dándote hasta 40 minutos extra de autonomía en trayectos largos.
+**Q.** ¿Esta automatización afecta el consumo de batería del iPhone?
 
-2. ¿Puedo hacer que regrese al modo claro automáticamente al apagar el hotspot?
+**A.** Al contrario. Forzar el modo oscuro en pantallas OLED apaga físicamente los píxeles negros, y limitar el brillo al 35% mediante la automatización reduce drásticamente el consumo energético del panel, dándote hasta 40 minutos extra de autonomía en trayectos largos.
 
-¡Claro! Solo debes crear una automatización espejo. En lugar de seleccionar "Se activa", selecciona "Se desactiva" en el disparador de Punto de Acceso, y programa las acciones inversas: Apariencia Clara y Brillo Automático activado.
+**Q.** ¿Puedo hacer que regrese al modo claro automáticamente al apagar el hotspot?
 
-3. ¿Por qué mi pantalla sigue parpadeando a veces aunque tenga el modo oscuro activo?
-Eso suele deberse a la función Brillo Automático combinada con luces LED fluorescentes de los vagones antiguos. Para solucionarlo definitivamente, ve a *Ajustes > Accesibilidad > Tamaño de pantalla y texto* y desactiva "Reducir punto blanco" si lo tenías encendido, o limpia el sensor de luz ambiental ubicado en la isla dinámica / notch superior.
+**A.** ¡Claro! Solo debes crear una automatización espejo. En lugar de seleccionar "Se activa", selecciona "Se desactiva" en el disparador de Punto de Acceso, y programa las acciones inversas: Apariencia Clara y Brillo Automático activado.
+
+**Q.** ¿Por qué mi pantalla sigue parpadeando a veces aunque tenga el modo oscuro activo?
+
+**A.** Eso suele deberse a la función Brillo Automático combinada con luces LED fluorescentes de los vagones antiguos. Para solucionarlo definitivamente, ve a *Ajustes > Accesibilidad > Tamaño de pantalla y texto* y desactiva "Reducir punto blanco" si lo tenías encendido, o limpia el sensor de luz ambiental ubicado en la isla dinámica / notch superior.

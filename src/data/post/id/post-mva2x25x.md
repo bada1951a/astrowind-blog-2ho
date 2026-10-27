@@ -57,14 +57,14 @@ Bagi Anda yang masih memegang seri klasik ini, kombinasinya sedikit berbeda kare
 
 ## Tanya Jawab Populer (FAQ)
 
-Q: Apakah data di dalam iPhone saya akan hilang jika melakukan Force Restart?
+**Q:** Apakah data di dalam iPhone saya akan hilang jika melakukan Force Restart?
 
-A: Tidak sama sekali. Force restart murni hanya menyegarkan kembali sistem operasi (RAM dan cache prosesor) tanpa menyentuh penyimpanan memori internal (NAND Flash) tempat foto, dokumen kantor, dan chat WhatsApp Anda tersimpan.
+**A:** Tidak sama sekali. Force restart murni hanya menyegarkan kembali sistem operasi (RAM dan cache prosesor) tanpa menyentuh penyimpanan memori internal (NAND Flash) tempat foto, dokumen kantor, dan chat WhatsApp Anda tersimpan.
 
-Q: Mengapa iPhone saya sering mengalami freeze berulang kali dalam seminggu?
+**Q:** Mengapa iPhone saya sering mengalami freeze berulang kali dalam seminggu?
 
-A: Biasanya ini indikasi bahwa memori internal Anda sudah hampir penuh (cek di Pengaturan > Umum > Penyimpanan iPhone), atau ada satu aplikasi korup tertentu yang berjalan di latar belakang. Segera hapus aplikasi yang jarang dipakai dan bersihkan file sampah.
+**A:** Biasanya ini indikasi bahwa memori internal Anda sudah hampir penuh (cek di Pengaturan > Umum > Penyimpanan iPhone), atau ada satu aplikasi korup tertentu yang berjalan di latar belakang. Segera hapus aplikasi yang jarang dipakai dan bersihkan file sampah.
 
-Q: Bagaimana jika setelah logo Apple muncul, iPhone malah terjebak di logo saja (Bootloop)?
+**Q:** Bagaimana jika setelah logo Apple muncul, iPhone malah terjebak di logo saja (Bootloop)?
 
-A: Jika hal ini terjadi, masalahnya lebih dalam dari sekadar hang biasa. Anda perlu menyambungkan iPhone ke komputer Mac atau PC Windows yang memiliki aplikasi iTunes/Finder, lalu masuk ke mode pemulihan (*Recovery Mode*) untuk melakukan pembaruan atau pemulihan sistem.
+**A:** Jika hal ini terjadi, masalahnya lebih dalam dari sekadar hang biasa. Anda perlu menyambungkan iPhone ke komputer Mac atau PC Windows yang memiliki aplikasi iTunes/Finder, lalu masuk ke mode pemulihan (*Recovery Mode*) untuk melakukan pembaruan atau pemulihan sistem.

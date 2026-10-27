@@ -22,7 +22,7 @@ Bagi Anda yang mengalami drama serupa di tengah deadline kantor, jangan buru-bur
 
 Sebelum langsung membongkar atau panik, kita harus tahu dulu akar masalah dari fenomena layar lipat yang mendadak gelap gelita ini. Berdasarkan pengalaman membongkar berbagai lini *foldable phone*, biasanya ada tiga tersangka utam
 
-a:
+**a:**
 
 1. Kabel Fleksibel (Flex Cable) Mulai Aus atau Terjepit: Di dalam engsel Z Fold terdapat kabel pita tipis yang menghubungkan motherboard di bodi bagian kiri dan layar di bagian kanan. Setiap kali Anda membuka dan menutup ponsel, kabel ini mengalami tekukan jutaan siklus. Seiring waktu, jalur datanya bisa retak mikro.
 
@@ -72,14 +72,14 @@ Agar kejadian menegangkan menjelang deadline kantor tidak terulang lagi, terapka
 
 ## Tanya Jawab Seputar Masalah Layar Z Fold (FAQ)
 
-Q: Apakah layar hitam ini berarti LCD utama saya harus diganti total dengan biaya mahal?
+**Q:** Apakah layar hitam ini berarti LCD utama saya harus diganti total dengan biaya mahal?
 
-A: Belum tentu. Jika masalahnya hanya pada kabel fleksibel yang longgar atau sensor kotor, teknisi profesional biasanya cukup membersihkan atau menyolder ulang/mengganti kabel fleksibel engselnya saja, tanpa harus mengganti satu set panel OLED yang harganya selangit.
+**A:** Belum tentu. Jika masalahnya hanya pada kabel fleksibel yang longgar atau sensor kotor, teknisi profesional biasanya cukup membersihkan atau menyolder ulang/mengganti kabel fleksibel engselnya saja, tanpa harus mengganti satu set panel OLED yang harganya selangit.
 
-Q: Apakah aman tetap menggunakan layar depan saja dalam jangka panjang jika layar utama rusak?
+**Q:** Apakah aman tetap menggunakan layar depan saja dalam jangka panjang jika layar utama rusak?
 
-A: Sangat aman untuk fungsi dasar telepon dan chat. Namun, jika kabel fleksibel yang rusak mengalami korsleting internal, dikhawatirkan bisa merembet ke komponen motherboard utama. Sebaiknya tetap bawa ke tempat servis terpercaya untuk dicek jalurnya.
+**A:** Sangat aman untuk fungsi dasar telepon dan chat. Namun, jika kabel fleksibel yang rusak mengalami korsleting internal, dikhawatirkan bisa merembet ke komponen motherboard utama. Sebaiknya tetap bawa ke tempat servis terpercaya untuk dicek jalurnya.
 
-Q: Kenapa masalah ini sering kambuh saat cuaca dingin atau setelah kena AC kantor?
+**Q:** Kenapa masalah ini sering kambuh saat cuaca dingin atau setelah kena AC kantor?
 
-A: Perubahan suhu drastis bisa memicu kondensasi air mikroskopis di dalam rongga engsel atau membuat jalur sambungan solder pada *flex cable* yang sudah retak mikro menjadi terputus sementara akibat pemuaian material yang tidak merata.
+**A:** Perubahan suhu drastis bisa memicu kondensasi air mikroskopis di dalam rongga engsel atau membuat jalur sambungan solder pada *flex cable* yang sudah retak mikro menjadi terputus sementara akibat pemuaian material yang tidak merata.

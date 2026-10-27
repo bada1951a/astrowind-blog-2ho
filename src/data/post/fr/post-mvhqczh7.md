@@ -62,13 +62,16 @@ Si les processus logiciels continuent de s'affoler :
 
 ---
 
-### Foire Aux Questions (FAQ)
+## 5. Foire Aux Questions (FAQ)
 
-Q : Est-ce que rétrograder vers l'ancienne version d'iOS résout le problème ?
-R : Techniquement, il est parfois possible de "downgrader" vers une version précédente signée par Apple, mais cette manipulation est de plus en plus verrouillée et risque de corrompre vos sauvegardes. De plus, vous perdrez les correctifs de sécurité indispensables. Il vaut mieux patienter ou installer une éventuelle mise à jour corrective (type 1X.X.1) généralement publiée rapidement par Apple.
+**Q :** Est-ce que rétrograder vers l'ancienne version d'iOS résout le problème ?
 
-Q : Pourquoi mon iPhone chauffe-t-il autant pendant la charge depuis la mise à jour ?
-R : La chaleur est le résultat direct du travail intense du processeur en arrière-plan combiné au flux d'énergie de la charge rapide. Si le téléphone gère mal ses processus, il dissipe l'énergie sous forme de calories. Retirez impérativement votre coque de protection pendant les charges pour dissiper la chaleur.
+**A.** Techniquement, il est parfois possible de "downgrader" vers une version précédente signée par Apple, mais cette manipulation est de plus en plus verrouillée et risque de corrompre vos sauvegardes. De plus, vous perdrez les correctifs de sécurité indispensables. Il vaut mieux patienter ou installer une éventuelle mise à jour corrective (type 1X.X.1) généralement publiée rapidement par Apple.
 
-Q : À partir de quel seuil d'usure dois-je absolument remplacer la batterie ?
-R : En dessous de 80% de capacité maximale affichée, la résistance interne de la batterie augmente de façon critique. Couplée aux exigences des nouveaux iOS, elle provoque des extinctions intempestives (notamment quand vous lancez l'appareil photo ou le GPS). C'est le signal exact qu'un passage en atelier s'impose pour un remplacement de cellule.
+**Q :** Pourquoi mon iPhone chauffe-t-il autant pendant la charge depuis la mise à jour ?
+
+**A.** La chaleur est le résultat direct du travail intense du processeur en arrière-plan combiné au flux d'énergie de la charge rapide. Si le téléphone gère mal ses processus, il dissipe l'énergie sous forme de calories. Retirez impérativement votre coque de protection pendant les charges pour dissiper la chaleur.
+
+**Q :** À partir de quel seuil d'usure dois-je absolument remplacer la batterie ?
+
+**A.** En dessous de 80% de capacité maximale affichée, la résistance interne de la batterie augmente de façon critique. Couplée aux exigences des nouveaux iOS, elle provoque des extinctions intempestives (notamment quand vous lancez l'appareil photo ou le GPS). C'est le signal exact qu'un passage en atelier s'impose pour un remplacement de cellule.

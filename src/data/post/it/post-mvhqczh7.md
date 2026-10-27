@@ -32,7 +32,7 @@ Prima di mettere mano alle impostazioni o correre a comprare un power bank, capi
 
 3. Usura chimica latente amplificat
 
-a: Se la batteria aveva già una capacità massima inferiore al 85%, il carico di lavoro extra imposto dall'aggiornamento la spinge oltre il suo limite di tolleranza, evidenziando cali improvvisi di percentuale.
+**a:** Se la batteria aveva già una capacità massima inferiore al 85%, il carico di lavoro extra imposto dall'aggiornamento la spinge oltre il suo limite di tolleranza, evidenziando cali improvvisi di percentuale.
 
 ---
 
@@ -74,12 +74,12 @@ Per darti un'idea chiara di cosa aspettarti dal nostro intervento di ottimizzazi
 
 D: Devo per forza formattare il telefono se la batteria continua a durare poco?
 
-R: Nella maggior parte dei casi no. Se le ottimizzazioni via software e la chiusura delle app in background non bastano, spesso è sufficiente un ripristino delle sole impostazioni di sistema (*Impostazioni > Generali > Trasferisci o inizializza iPhone > Ripristina > Ripristina impostazioni*), senza perdere alcun dato personale.
+**A.** Nella maggior parte dei casi no. Se le ottimizzazioni via software e la chiusura delle app in background non bastano, spesso è sufficiente un ripristino delle sole impostazioni di sistema (*Impostazioni > Generali > Trasferisci o inizializza iPhone > Ripristina > Ripristina impostazioni*), senza perdere alcun dato personale.
 
 D: È vero che mettere l'iPhone in modalità di risparmio energetico fisso rovina la batteria a lungo termine?
 
-R: Assolutamente falso. La modalità di risparmio energetico limita semplicemente la frequenza di aggiornamento della CPU, riduce la luminosità dello schermo e ferma i download automatici. Anzi, riducendo lo stress termico, aiuta a preservare la salute chimica della batteria durante i periodi critici post-aggiornamento.
+**A.** Assolutamente falso. La modalità di risparmio energetico limita semplicemente la frequenza di aggiornamento della CPU, riduce la luminosità dello schermo e ferma i download automatici. Anzi, riducendo lo stress termico, aiuta a preservare la salute chimica della batteria durante i periodi critici post-aggiornamento.
 
 D: Come faccio a capire se il problema è l'aggiornamento o se la batteria è semplicemente guasta?
 
-R: Se la percentuale della batteria scende a blocchi netti (ad esempio passa di colpo dal 30% al 5% e poi si spegne) o se il telefono si spegne improvvisamente pur segnando il 20% di carica residua, siamo di fronte a un degrado chimico della batteria che richiede la sostituzione fisica del componente nel nostro centro assistenza.
+**A.** Se la percentuale della batteria scende a blocchi netti (ad esempio passa di colpo dal 30% al 5% e poi si spegne) o se il telefono si spegne improvvisamente pur segnando il 20% di carica residua, siamo di fronte a un degrado chimico della batteria che richiede la sostituzione fisica del componente nel nostro centro assistenza.

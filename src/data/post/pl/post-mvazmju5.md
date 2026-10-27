@@ -26,12 +26,12 @@ Zanim przejdziemy do naprawy, warto zrozumieć, co właściwie się stało. Zazw
 
 3. Przegrzanie urządzeni
 
-a: Intensywna praca procesora przy słabej wentylacji w obudowie potrafi tymczasowo zawiesić kontroler dotyku.
+**a:** Intensywna praca procesora przy słabej wentylacji w obudowie potrafi tymczasowo zawiesić kontroler dotyku.
 
 <div style="border-left: 4px solid #059669; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Wskazówka ekspert
 
-a:</strong> Nie wyjmuj karty SIM i nie próbuj na siłę rozbierać telefonu (współczesne smartfony są klejone). Najprostszy twardy reset programowy załatwi sprawę w kilka sekund i nie wyczyści Twojej pamięci.
+**a:**</strong> Nie wyjmuj karty SIM i nie próbuj na siłę rozbierać telefonu (współczesne smartfony są klejone). Najprostszy twardy reset programowy załatwi sprawę w kilka sekund i nie wyczyści Twojej pamięci.
 </div>
 
 ## Krok po kroku: Jak wymusić twardy restart bez utraty danych

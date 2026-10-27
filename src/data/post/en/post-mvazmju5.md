@@ -26,7 +26,7 @@ Before jumping into the fix, let's look at why this happens from a hardware and 
 * Kernel & Touch IC Desync: The touch IC (Integrated Circuit) chip on the motherboard loses communication over the I2C bus with the main application processor.
 * Corrupted Background Cache: A heavy app or rogue background sync exhausts RAM, causing the system to prioritize core functions and drop touch interrupt handlers entirely.
 
-## 3. Step-by-Step Practical Emergency Resolution
+## 3. Step-by-Step Practical Resolution Practical Emergency Resolution
 
 Because you cannot tap the software "Power Off" menu when the touch screen is dead, you must use a hardware key combination that bypasses the operating system layer and directly commands the Power Management Integrated Circuit (PMIC) to cycle power. 
 

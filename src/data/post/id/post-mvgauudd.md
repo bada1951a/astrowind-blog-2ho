@@ -23,7 +23,7 @@ Yuk, langsung saja kita bedah masalah ini ala teknisi berpengalaman supaya dompe
 
 Sebelum main bongkar atau ganti alat, kita harus tahu dulu kenapa si charger ini rewel. Berdasarkan pengalaman saya nanganin gadget klien di bengkel, ini tiga biang keladiny
 
-a:
+**a:**
 
 1. Misalignment (Posisi Koil Gak Klop): 
    Ini yang paling juara. Koil pengirim di *pad* charger sama koil penerima di punggung HP harus ketemu titik tengahnya (magnectic coupling). Kalau meleset sedikit saja—misalnya geser 5 milimeter karena getaran atau tersenggol tangan—medan elektromagnetiknya gak bakal 'nyambung', otomatis charger langsung ngasih sinyal error (kedip-kedip).
@@ -65,19 +65,19 @@ Namanya kerja pakai perangkat elektronik tiap hari, keselamatan dan keawetan kom
 
 ### Tanya Jawab (FAQ) Praktis
 
-Q: Kenapa HP saya tetap gak mau ngecas padahal lampunya udah gak kedip (nyala konstan), tapi persentase baterai gak nambah?
+**Q:** Kenapa HP saya tetap gak mau ngecas padahal lampunya udah gak kedip (nyala konstan), tapi persentase baterai gak nambah?
 >
 
-A: Wah, itu biasanya karena daya yang masuk (output) terlalu kecil akibat kepala adaptor tidak mumpuni, atau posisi koilnya pas di batas minimal jadi arus listrik yang ditransfer gak cukup buat ngisi baterai, cuma cukup buat nahan daya HP saja. Coba ganti kepala adaptor minimal 18W atau 20W.
+**A:** Wah, itu biasanya karena daya yang masuk (output) terlalu kecil akibat kepala adaptor tidak mumpuni, atau posisi koilnya pas di batas minimal jadi arus listrik yang ditransfer gak cukup buat ngisi baterai, cuma cukup buat nahan daya HP saja. Coba ganti kepala adaptor minimal 18W atau 20W.
 
-Q: Apakah pakai wireless charger bisa bikin baterai HP jadi lebih cepat ngedrop dibanding kabel?
+**Q:** Apakah pakai wireless charger bisa bikin baterai HP jadi lebih cepat ngedrop dibanding kabel?
 >
 
-A: Secara teori kimia baterai, panas adalah faktor utama yang nurunin *health* baterai. Karena wireless charging menghasilkan suhu lebih hangat, risikonya memang sedikit lebih tinggi buat bikin baterai cepat gerah jika dipakai di ruangan yang panas atau sambil ngegame berat.
+**A:** Secara teori kimia baterai, panas adalah faktor utama yang nurunin *health* baterai. Karena wireless charging menghasilkan suhu lebih hangat, risikonya memang sedikit lebih tinggi buat bikin baterai cepat gerah jika dipakai di ruangan yang panas atau sambil ngegame berat.
 
-Q: HP saya sudah mendukung wireless charging, tapi kok ditaruh di pad merk lain gak bereaksi sama sekali ya?
+**Q:** HP saya sudah mendukung wireless charging, tapi kok ditaruh di pad merk lain gak bereaksi sama sekali ya?
 >
 
-A: Cek standar protokolnya, bosku. Sebagian besar pakai standar Qi (Qi-certified). Kalau merk HP ente pakai standar eksklusif atau *fast wireless charging* khusus merk tertentu, kadang butuh *pad* original atau yang sudah mendukung Universal Qi Protocol.
+**A:** Cek standar protokolnya, bosku. Sebagian besar pakai standar Qi (Qi-certified). Kalau merk HP ente pakai standar eksklusif atau *fast wireless charging* khusus merk tertentu, kadang butuh *pad* original atau yang sudah mendukung Universal Qi Protocol.
 
 Nah, gitu kira-kira cara gampang ngatasi masalah wireless charger yang rewel karena salah posisi koil. Semoga panduan dari meja servis saya ini bisa ngebantu ente berhemat hari ini. Kalau masih bandel juga, baru deh bawa ke teknisi terdekat buat dicek jalur kumparan di dalamnya. Salam teknisi!

@@ -53,13 +53,16 @@ Une fois la réunion sauvée et le bureau retrouvé au calme, prenez quelques mi
 - Faites du ménage : Supprimez les applications tierces trop lourdes ou obsolètes qui monopolisent la mémoire.
 - Espace de stockage : Ne saturez jamais votre mémoire interne à 100%. Laissez toujours au moins 5 Go d'espace libre pour que le système puisse respirer.
 
-## Foire Aux Questions (FAQ)
+## 5. Foire Aux Questions (FAQ)
 
-1. Est-ce que le redémarrage forcé efface mes photos ou mes messages ?
-Absolument pas. Cette manipulation équivaut simplement à retirer et remettre la batterie d'un ancien téléphone. Vos données, applications et paramètres restent rigoureusement intacts.
+**Q.** Est-ce que le redémarrage forcé efface mes photos ou mes messages ?
 
-2. Que faire si le logo Apple reste affiché en boucle infinie (bootloop) ?
-Si l'appareil reste bloqué sur la pomme pendant plus de 10 minutes après le redémarrage forcé, il faudra connecter votre iPhone à un ordinateur (Mac ou PC Windows via iTunes/Appareils Apple), relancer la même combinaison de touches pour passer en mode de récupération (Recovery Mode), et procéder à une mise à jour ou une restauration du système.
+**A.** Absolument pas. Cette manipulation équivaut simplement à retirer et remettre la batterie d'un ancien téléphone. Vos données, applications et paramètres restent rigoureusement intacts.
 
-3. Le tactile ne fonctionne toujours pas après le redémarrage, que se passe-t-il ?
-Si l'affichage est revenu mais que vos doigts ne commandent toujours rien, le problème est probablement d'ordre matériel (nappe du tactile débranchée suite à une chute, ou écran de mauvaise qualité suite à un remplacement non officiel). Un passage en atelier de réparation s'imposera.
+**Q.** Que faire si le logo Apple reste affiché en boucle infinie (bootloop) ?
+
+**A.** Si l'appareil reste bloqué sur la pomme pendant plus de 10 minutes après le redémarrage forcé, il faudra connecter votre iPhone à un ordinateur (Mac ou PC Windows via iTunes/Appareils Apple), relancer la même combinaison de touches pour passer en mode de récupération (Recovery Mode), et procéder à une mise à jour ou une restauration du système.
+
+**Q.** Le tactile ne fonctionne toujours pas après le redémarrage, que se passe-t-il ?
+
+**A.** Si l'affichage est revenu mais que vos doigts ne commandent toujours rien, le problème est probablement d'ordre matériel (nappe du tactile débranchée suite à une chute, ou écran de mauvaise qualité suite à un remplacement non officiel). Un passage en atelier de réparation s'imposera.

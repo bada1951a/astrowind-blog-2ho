@@ -57,7 +57,7 @@ Puisque l'écran externe fonctionne, ne prenez aucun risque avec vos données pr
 <strong>Conseil d'expert :</strong> Ne tentez en aucun cas de démonter la charnière vous-même. Les tensions exercées par les écrans pliables AMOLED sont extrêmement sensibles, et une mauvaise manipulation détruira définitivement la dalle pliable, dont le coût de remplacement dépasse souvent la valeur résiduelle de l'appareil.
 </div>
 
-## Foire aux questions (FAQ)
+## 5. Foire Aux Questions (FAQ)
 
 Puis-je continuer à utiliser mon Galaxy Z Fold uniquement avec l'écran externe ?
 Oui, c'est tout à fait possible en mode dépannage. Vous pouvez continuer à passer des appels, lire vos e-mails et répondre à vos messages sur l'écran de couverture. C'est d'ailleurs ce qui m'a sauvé la mise pour ma réunion ce jour-là.

@@ -22,7 +22,7 @@ Por suerte, recordé el procedimiento de emergencia que utilizamos los técnicos
 
 Antes de pasar a la acción, vale la pena entender qué demonios pasó en el teléfono para que el digitalizador dejara de responder de la noche a la mañan
 
-a:
+**a:**
 
 1. Colapso temporal del controlador gráfico (SurfaceFlinger): A veces, un pico de uso de memoria RAM provocado por una aplicación en segundo plano hace que el proceso encargado de renderizar los toques en pantalla colapse y deje de aceptar entradas.
 
@@ -36,7 +36,7 @@ a:
 
 Dado que la pantalla táctil no funciona, la única vía de salvación es utilizar los botones físicos laterales del teléfono. Sigue estos pasos al pie de la letr
 
-a:
+**a:**
 
 ### Paso 1: Localiza los botones físicos clave
 Identifica el Botón de Encendido (Power / Lateral) y el Botón de Bajar Volumen (-) en el lateral de tu Samsung Galaxy.
@@ -63,12 +63,12 @@ Deja que el terminal complete el arranque habitual. Introduce tu PIN o contrase�
 * Evita llenar la memoria interna al 100%: Deja siempre al menos un 10 o 15 por ciento de espacio libre para que la memoria caché del sistema pueda respirar y gestionar procesos temporales.
 * Actualiza el software del sistem
 
-a: Ve periódicamente a Configuración > Actualización de software para instalar los parches de seguridad de Samsung, ya que muchos de estos congelamientos repentinos son bugs conocidos que la marca ya ha solucionado en versiones recientes de One UI.
+**a:** Ve periódicamente a Configuración > Actualización de software para instalar los parches de seguridad de Samsung, ya que muchos de estos congelamientos repentinos son bugs conocidos que la marca ya ha solucionado en versiones recientes de One UI.
 * Usa protectores de pantalla compatibles: Los cristales templados muy gruesos o de mala calidad a veces interfieren con la sensibilidad capacitiva del panel. Si notas fallos táctiles recurrentes, plantéate cambiar el protector.
 
 ---
 
-## Preguntas frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ### ¿Este reinicio forzado borra mis fotos o documentos?
 Absolutamente no. Este procedimiento equivale a quitarle la batería a un teléfono antiguo por un segundo; apaga el hardware de golpe para desbloquear el sistema operativo, pero la memoria de almacenamiento permanece intacta y tus datos están seguros.

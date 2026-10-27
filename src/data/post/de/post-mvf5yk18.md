@@ -62,7 +62,7 @@ Als Techniker sehe ich leider viel zu oft Geräte, bei denen durch falsches Equi
 
 ---
 
-### Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 1. Warum zeigt mein iPhone „Langsames Laden“ an, obwohl die Powerbank brandneu ist?
 Das liegt meist am verwendeten Kabel oder Port. Viele moderne Powerbanks liefern auf dem klassischen USB-A-Anschluss nur schwache 5 Watt. Wenn du ein älteres USB-A-auf-Lightning-Kabel nutzt, springt das iPhone sofort in den Sparmodus. Nutze stattdessen den USB-C-Ausgang der Powerbank zusammen mit einem USB-C-auf-Lightning-Kabel.

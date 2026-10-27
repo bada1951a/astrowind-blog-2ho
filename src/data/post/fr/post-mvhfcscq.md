@@ -57,13 +57,15 @@ Une fois le mobile redémarré et stabilisé :
 
 ---
 
-## Foire Aux Questions (FAQ)
+## 5. Foire Aux Questions (FAQ)
 
 1. Est-ce que la surchauffe risque d'exploser la batterie de mon Samsung ?
 Les smartphones modernes intègrent des sécurités thermiques strictes qui coupent l'alimentation en cas de surchauffe excessive. Cependant, une exposition prolongée à plus de 45°C dégrade définitivement la capacité de la batterie, réduisant son autonomie future de 20 à 30%.
 
-2. Pourquoi mon chargeur rapide d'origine ne fonctionne plus depuis que le téléphone chauffe ?
-C'est une mesure de protection matérielle. Le circuit de charge détecte une anomalie thermique ou une résistance anormale dans le port USB-C et bascule automatiquement en mode de charge lente (5W) pour stopper l'élévation de température.
+**Q.** Pourquoi mon chargeur rapide d'origine ne fonctionne plus depuis que le téléphone chauffe ?
 
-3. Dois-je réinitialiser entièrement mon téléphone aux paramètres d'usine ?
-C'est le dernier recours. Dans 95% des cas, identifier l'application coupable, nettoyer le port USB-C et vider le cache suffisent amplement. Ne passez à la réinitialisation qu'en cas d'échec des étapes précédentes.
+**A.** C'est une mesure de protection matérielle. Le circuit de charge détecte une anomalie thermique ou une résistance anormale dans le port USB-C et bascule automatiquement en mode de charge lente (5W) pour stopper l'élévation de température.
+
+**Q.** Dois-je réinitialiser entièrement mon téléphone aux paramètres d'usine ?
+
+**A.** C'est le dernier recours. Dans 95% des cas, identifier l'application coupable, nettoyer le port USB-C et vider le cache suffisent amplement. Ne passez à la réinitialisation qu'en cas d'échec des étapes précédentes.

@@ -24,16 +24,14 @@ Cuando Apple lanza un nuevo paquete de software, el telefono no solo cambia de a
 
 2. Conflictos con perifericos y puerto de carg
 
-a: Curiosamente, una mala conexion o suciedad acumulada en el puerto Lightning o USB-C puede hacer que el sistema gestor de energia (PMIC) entre en bucle intentando negociar voltajes con un cargador que detecta como "inestable" debido a residuos, forzando al procesador a consumir mas recursos para gestionar la entrada de corriente.
+**a:** Curiosamente, una mala conexion o suciedad acumulada en el puerto Lightning o USB-C puede hacer que el sistema gestor de energia (PMIC) entre en bucle intentando negociar voltajes con un cargador que detecta como "inestable" debido a residuos, forzando al procesador a consumir mas recursos para gestionar la entrada de corriente.
 
 3. Calibracion de bateria desajustad
 
-a: El nuevo firmware a menudo lee de forma diferente las celdas de desgaste de la bateria. Lo que antes parecia un 80% de salud real, el nuevo sistema lo interpreta con curvas de descarga mas agresivas, haciendo que el porcentaje baje de golpe.
+**a:** El nuevo firmware a menudo lee de forma diferente las celdas de desgaste de la bateria. Lo que antes parecia un 80% de salud real, el nuevo sistema lo interpreta con curvas de descarga mas agresivas, haciendo que el porcentaje baje de golpe.
 
 <div style="border-left: 4px solid #d97706; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Nota del especialist
-
-a:</strong> Muchos clientes culpan exclusivamente a la bateria cuando el verdadero culpable es una acumulacion de pelusa en el puerto de carga combinada con procesos colgados tras la actualizacion. Antes de cambiar piezas, limpia y reinicia. </div>
+<strong>Nota del especialista:</strong> Muchos clientes culpan exclusivamente a la bateria cuando el verdadero culpable es una acumulacion de pelusa en el puerto de carga combinada con procesos colgados tras la actualizacion. Antes de cambiar piezas, limpia y reinicia. </div>
 
 ---
 
@@ -50,7 +48,7 @@ Ve a *Ajustes > Bateria* y revisa que aplicaciones se estan bebiendo los recurso
 
 ### Comparativ
 
-a: Auto-reparacion casera vs Servicio Tecnico
+**a:** Auto-reparacion casera vs Servicio Tecnico
 
 A la hora de lidiar con problemas de bateria y puertos de carga, conviene saber donde estan los limites entre lo que puedes hacer en casa y cuando toca pasar por caja. | Caracteristica | Diagnostico Casero (Tus manos) | Servicio Tecnico Profesional |
 | :--- | :--- | :--- |
@@ -61,13 +59,15 @@ A la hora de lidiar con problemas de bateria y puertos de carga, conviene saber 
 
 ---
 
-### Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
-1. Es normal que el iPhone se caliente mucho despues de actualizar?
-Si, durante las primeras 24 a 48 horas posteriores a una gran actualizacion de iOS es completamente normal debido a la reindexacion de archivos y optimizacion de base de datos. Si el calor persiste mas tiempo, hay un proceso bloqueado o un cortocircuito leve.
+**Q.** Es normal que el iPhone se caliente mucho despues de actualizar?
 
-2. Debo cambiar la bateria inmediatamente si la salud marca por debajo del 80%?
-No necesariamente de forma inmediata, pero si notas que el telefono se apaga de repente cuando marca un 20% o 30% restante, la resistencia interna de la celda ha cedido y ninguna actualizacion de software va a revertir ese desgaste fisico.
+**A.** Si, durante las primeras 24 a 48 horas posteriores a una gran actualizacion de iOS es completamente normal debido a la reindexacion de archivos y optimizacion de base de datos. Si el calor persiste mas tiempo, hay un proceso bloqueado o un cortocircuito leve.
+
+**Q.** Debo cambiar la bateria inmediatamente si la salud marca por debajo del 80%?
+
+**A.** No necesariamente de forma inmediata, pero si notas que el telefono se apaga de repente cuando marca un 20% o 30% restante, la resistencia interna de la celda ha cedido y ninguna actualizacion de software va a revertir ese desgaste fisico.
 
 3. Puede un cargador barato dañar el puerto tras actualizar iOS?
 Absolutamente. Los nuevos firmwares de iOS son muy estrictos con los protocolos de seguridad energetica (Power Delivery). Los cables o adaptadores no certificados de baja calidad pueden provocar fallos de lectura en el circuito de carga, disparando el consumo energetico del terminal.

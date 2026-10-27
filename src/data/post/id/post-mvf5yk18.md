@@ -65,7 +65,7 @@ Sebelum buru-buru datang ke tempat servis atau beli power bank baru, coba lakuka
 
 Sebagai teknisi, saya sering banget nemuin kasus IC Power atau IC USB Tristar (di iPhone) jebol cuma karena urusan sepele. Nih, catat tips pengamananny
 
-a:
+**a:**
 
 *   Hindari "Nge-charge Sambil Main Game" Pakai Power Bank di Tempat Umum: Goyangan tangan saat main game bikin port yang udah agak longgar jadi makin goyang parah. Gesekan mikroskopis ini bisa bikin *micro-spark* (percikan api kecil) yang bikin pin port gosong.
 *   Jangan Pakai Power Bank Abal-abal Tanpa Proteksi Over-voltage: Power bank murah meriah tanpa merk jelas sering kali ngasih arus lonjakan (surges) pas baterai power bank mau habis. Ini musuh utama komponen sensitif di dalam HP modern.
@@ -75,19 +75,19 @@ a:
 
 ### Pertanyaan yang Sering Diajukan (FAQ)
 
-Q: Kenapa peringatan slow charging cuma muncul pas pakai power bank, tapi kalau pakai kepala charger colokan tembok (wall charger) normal-normal saja?
+**Q:** Kenapa peringatan slow charging cuma muncul pas pakai power bank, tapi kalau pakai kepala charger colokan tembok (wall charger) normal-normal saja?
 
-A: Jawabannya ada di kestabilan arus dan kualitas port. *Wall charger* colokan rumah menyalurkan arus listrik AC yang diubah secara konstan dan stabil oleh adaptor tanpa guncangan fisik. Sementara power bank sering dipakai sambil bergerak (di jalan, di motor, atau di dalam tas), yang membuat sambungan kabel gampang goyang. Ditambah lagi, port USB di power bank rata-rata punya kapasitas daya (output watt) yang lebih kecil dibanding *wall charger* bawaan HP kekinian.
+**A:** Jawabannya ada di kestabilan arus dan kualitas port. *Wall charger* colokan rumah menyalurkan arus listrik AC yang diubah secara konstan dan stabil oleh adaptor tanpa guncangan fisik. Sementara power bank sering dipakai sambil bergerak (di jalan, di motor, atau di dalam tas), yang membuat sambungan kabel gampang goyang. Ditambah lagi, port USB di power bank rata-rata punya kapasitas daya (output watt) yang lebih kecil dibanding *wall charger* bawaan HP kekinian.
 
-Q: Apakah port charger HP yang sudah longgar bisa diperbaiki tanpa harus ganti satu modul papan bawah?
+**Q:** Apakah port charger HP yang sudah longgar bisa diperbaiki tanpa harus ganti satu modul papan bawah?
 
-A: Tergantung jenis HP-nya, Boss. Kalau cuma karena kotor atau per pengait di dalam port-nya melar sedikit, teknisi biasanya bisa menyetelnya kembali pakai pinset presisi atau membersihkannya. Tapi kalau pin tembaganya sudah aus, terkikis, atau patah karena sering ditarik paksa, jalan satu-satunya memang harus ganti port (soldering ulang) atau ganti satu set *sub-board* (papan bawah), yang biayanya relatif terjangkau kok di konter servis terpercaya.
+**A:** Tergantung jenis HP-nya, Boss. Kalau cuma karena kotor atau per pengait di dalam port-nya melar sedikit, teknisi biasanya bisa menyetelnya kembali pakai pinset presisi atau membersihkannya. Tapi kalau pin tembaganya sudah aus, terkikis, atau patah karena sering ditarik paksa, jalan satu-satunya memang harus ganti port (soldering ulang) atau ganti satu set *sub-board* (papan bawah), yang biayanya relatif terjangkau kok di konter servis terpercaya.
 
-Q: Berbahayakah tetap membiarkan HP dicas dengan status slow charging dalam jangka panjang?
+**Q:** Berbahayakah tetap membiarkan HP dicas dengan status slow charging dalam jangka panjang?
 
-A: Secara langsung nggak bikin HP meledak, tapi sangat tidak disarankan. Pengisian daya yang tidak stabil membuat proses *chemical reaction* di dalam sel baterai jadi tidak efisien. Efek jangka panjangny
+**A:** Secara langsung nggak bikin HP meledak, tapi sangat tidak disarankan. Pengisian daya yang tidak stabil membuat proses *chemical reaction* di dalam sel baterai jadi tidak efisien. Efek jangka panjangny
 
-a: baterai jadi gampang kembung (*swollen battery*), umur kesehatan baterai (*battery health*) turun drastis lebih cepat dari seharusnya, dan komponen IC pengisian di mesin bisa berumur pendek karena dipaksa bekerja dalam suhu yang lebih panas.
+**a:** baterai jadi gampang kembung (*swollen battery*), umur kesehatan baterai (*battery health*) turun drastis lebih cepat dari seharusnya, dan komponen IC pengisian di mesin bisa berumur pendek karena dipaksa bekerja dalam suhu yang lebih panas.
 
 ---
 

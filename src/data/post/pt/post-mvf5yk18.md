@@ -11,7 +11,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Power Bank", "Carregamento L
 
 Fala, meu povo! Salve, salve da bancada. Aqui quem fala é o Ricardo, dono da TechReparos, cravado bem no coração comercial de São Paulo. Se você caiu neste artigo, aposto que o cenário é o seguinte: você está no meio da Avenida Paulista, correria danada, fechando aquela planilha pelo celular, e a bateria começa a gritar socorro. Você puxa o power bank da bolsa, pluga o cabo correndo e... *bam!* Notificação na tel
 
-a: "Carregamento Lento" ou o iPhone avisa que o acessório pode não ser compatível, demorando horas para subir 10% de bateria. Bate aquele desespero, né?
+**a:** "Carregamento Lento" ou o iPhone avisa que o acessório pode não ser compatível, demorando horas para subir 10% de bateria. Bate aquele desespero, né?
 
 Acalme o coração. Como técnico que já viu de tudo nesta bancada paulistana — desde celular que caiu no caldo de cana até aparelho socado com cabo falsificado —, eu vou te mostrar exatamente o que está acontecendo e como resolver isso sem gastar uma fortuna. Chega de sofrer com carga lenta fora da tomada!
 
@@ -50,7 +50,7 @@ O grande culpado do "conector emperrado" precisa ser neutralizado primeiro.
 
 ### Dicas de Ouro do Especialist
 
-a: Protegendo Bateria e Pinos
+**a:** Protegendo Bateria e Pinos
 
 Na bancada, eu sempre atendo clientes que estragaram o aparelho tentando resolver o problema sozinhos. Anote estas regras de ouro:
 

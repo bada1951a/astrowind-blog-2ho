@@ -46,7 +46,7 @@ Wenn der Port absolut trocken ist, das iPhone aber immer noch blockiert und Sie 
 <strong>Pro-Tipp für IT-Admins:</strong> Haben Sie im Büro ein MagSafe-Ladepad oder ein kabelloses Qi-Pad griffbereit? Damit umgehen Sie den physischen Port-Fehler komplett, während das iPhone im Hintergrund weiterläuft und Sie Ihre Präsentationen retten können.
 </div>
 
-## Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 ### Kann ich die Warnung in den iOS-Einstellungen einfach dauerhaft ausschalten?
 Nein, Apple bietet absichtlich keinen Schalter an, um diesen Sicherheitsmechanismus zu deaktivieren. Das schützt das Logicboard vor irreparablen Kurzschlüssen. Sie können den Sensor nur durch echte Trocknung oder einen Neustart überlisten.

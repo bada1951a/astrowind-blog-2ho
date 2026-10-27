@@ -1,5 +1,5 @@
 ---
-title: "Fehlermeldung 'Feuchtigkeit im Anschluss' beim Galaxy Z Fold: Schweißausbruch am Gate und was wirklich hilft"
+title: "Fehlermeldung'Feuchtigkeit im Anschluss' beim Galaxy Z Fold: Schweißausbruch am Gate und was wirklich hilft"
 description: "Panik am Flughafen: Das Galaxy Fold zeigt plötzlich Feuchtigkeitsalarm beim Laden. So trocknest du das Gerät sicher und rettest wichtige Business-Chats."
 publishDate: 2026-10-14T12:15:00.000Z
 image: "https://picsum.photos/seed/mobile-873/1200/630"
@@ -73,7 +73,7 @@ Als Praxis-Experte sehe ich täglich in der Werkstatt zerstörte Geräte, die ei
 
 ---
 
-## Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 ### 1. Das Fold ist absolut trocken, aber die Warnmeldung taucht nach jedem Neustart wieder auf. Was tun?
 Das liegt meist an winzigen, leitfähigen Schmutzpartikeln (z. B. Oxidationsrückstände oder Hosentaschen-Fusseln) im USB-C-Port, die den Stromkreis minimal überbrücken. Reinige den Port vorsichtig mit einer trockenen, sauberen Interdentalbürste (Zahnzwischenraum-Bürste in kleinster Größe) oder lass ihn im Shop mit Isopropanol (99,9%) reinigen.

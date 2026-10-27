@@ -20,7 +20,7 @@ Eram exatamente 14h30 em um dia caótico na minha bancada em São Paulo, no meio
 
 Na minha rotina de reparo, vejo três motivos principais para essa pane logo após uma atualização do sistem
 
-a:
+**a:**
 
 1. Reindexação do Spotlight e Backup em Nuvem: O sistema recria toda a base de dados interna. O processador trabalha a 100%, puxando muita corrente da bateria.
 
@@ -31,7 +31,7 @@ a:
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Alerta de Bancad
 
-a:</strong> Nunca use agulhas de metal ou clipes de papel para desentupir o conector de carga do seu iPhone. Você pode fechar curto nos contatos dourados internos e queimar o circuito de carga (chip U2 Tristar).
+**a:**</strong> Nunca use agulhas de metal ou clipes de papel para desentupir o conector de carga do seu iPhone. Você pode fechar curto nos contatos dourados internos e queimar o circuito de carga (chip U2 Tristar).
 </div>
 
 ---
@@ -40,7 +40,7 @@ a:</strong> Nunca use agulhas de metal ou clipes de papel para desentupir o cone
 
 Se o seu iPhone está com aquela drenagem absurda e o conector agarrando, siga este roteiro de quem vive a realidade da bancad
 
-a:
+**a:**
 
 ### Passo 1: Limpeza Segura do Conector de Carga
 * Desligue o aparelho completamente.
@@ -72,9 +72,7 @@ Para você entender o impacto real de um sistema otimizado versus um sistema tra
 
 ## Ferramentas Recomendadas na Bancada
 
-Se você gosta de fazer pequenos ajustes em casa ou quer entender o que nós usamos, aqui está o kit básico de sobrevivência para manutenção preventiv
-
-a:
+Se você gosta de fazer pequenos ajustes em casa ou quer entender o que nós usamos, aqui está o kit básico de sobrevivência para manutenção preventiva:
 
 * Palitos de madeira estéreis: Para limpeza mecânica sem riscos de curto-circuito.
 * Álcool Isopropílico 99.9%: Essencial para limpeza de contatos eletrônicos e remoção de oxidação leve.

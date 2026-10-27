@@ -71,7 +71,7 @@ Wenn das Zug-WLAN zickt, hilft kein langes Warten. Geht direkt in die Einstellun
 
 ---
 
-## Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 1. Verursacht der permanente Dunkelmodus Darstellungsprobleme bei bestimmten Apps?
 Einige schlecht programmierte Web-Apps oder ältere Firmenanwendungen erzwingen weißes CSS. Moderne iOS-Versionen erzwingen jedoch dank "Smart Invert" oder nativer Dark-Mode-APIs eine saubere Darstellung, sodass Textlesbarkeit fast immer gewährleistet ist.

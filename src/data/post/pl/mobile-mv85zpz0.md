@@ -43,7 +43,7 @@ Jeśli restart nie pomógł, musimy fizycznie pomóc fizyce. Zapomnij o ryżu �
 
 1. Grawitacj
 
-a: Skieruj port ładowania telefonu w dół i delikatnie stuknij w obudowę dłonią, aby wytrząsnąć ewentualne krople wody.
+**a:** Skieruj port ładowania telefonu w dół i delikatnie stuknij w obudowę dłonią, aby wytrząsnąć ewentualne krople wody.
 
 2. Ciepłe powietrze z dystansu: Użyj suszarki do włosów, ale wyłącznie na zimnym nawiewie (Cold Shot), trzymając ją w odległości minimum 30 cm przez 2-3 minuty.
 
@@ -68,7 +68,7 @@ Wejdź w Ustawienia > Zarządzanie ogólne > Resetowanie, a następnie wybierz R
 
 Jako praktyk wolę zapobiegać, niż wymieniać porty USB-C za kilkaset złotych. Zwracaj uwagę na to, czym ładujesz telefon w podróży. Tanie, chińskie kable z bazaru często mają słabe uszczelnienia i tolerancje prądowe, co wyzwala fałszywe alarmy o wilgoci w nowoczesnych zabezpieczeniach Samsunga czy iPhone'
 
-a. 
+**a.** 
 
 Zainwestuj w porządne zatyczki silikonowe do portu USB-C, jeśli pracujesz w trudnych warunkach (budowa, magazyn, częste podróże samolotami z dużymi wahami temperatur). Kosztują grosze, a ratują tyłek w najmniej oczekiwanych momentach.
 

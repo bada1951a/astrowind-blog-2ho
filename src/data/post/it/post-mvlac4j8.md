@@ -53,14 +53,14 @@ Attenzione: Non usare mai liquidi spray o oggetti metallici appuntiti come aghi 
 
 ### Domande Frequenti
 
-Q1. Perché il mio Samsung Galaxy continua a oscurarsi anche se ho disattivato il risparmio energetico?
+**Q1.** Perché il mio Samsung Galaxy continua a oscurarsi anche se ho disattivato il risparmio energetico?
 
-A1. L'oscuramento automatico dovuto al surriscaldamento (protezione termica) è una misura di sicurezza hardware indipendente dalle impostazioni di risparmio energetico tradizionali e non può essere disattivata permanentemente via software.
+**A1.** L'oscuramento automatico dovuto al surriscaldamento (protezione termica) è una misura di sicurezza hardware indipendente dalle impostazioni di risparmio energetico tradizionali e non può essere disattivata permanentemente via software.
 
-Q2. È normale che la batteria scenda anche se il telefono è collegato al caricabatterie?
+**Q2.** È normale che la batteria scenda anche se il telefono è collegato al caricabatterie?
 
-A2. Sì, succede quando il consumo energetico istantaneo del dispositivo (luminosità al massimo, connessione dati 5G attiva, chiamate o giochi pesanti) supera la potenza massima erogata dal caricabatterie utilizzato.
+**A2.** Sì, succede quando il consumo energetico istantaneo del dispositivo (luminosità al massimo, connessione dati 5G attiva, chiamate o giochi pesanti) supera la potenza massima erogata dal caricabatterie utilizzato.
 
-Q3. Posso mettere il telefono in frigorifero o sotto l'acqua per raffreddarlo velocemente?
+**Q3.** Posso mettere il telefono in frigorifero o sotto l'acqua per raffreddarlo velocemente?
 
-A3. Assolutamente no. Lo shock termico crea condensa all'interno della scocca danneggiando irreparabilmente la scheda madre e i componenti elettronici. Lascialo semplicemente all'ombra per qualche minuto.
+**A3.** Assolutamente no. Lo shock termico crea condensa all'interno della scocca danneggiando irreparabilmente la scheda madre e i componenti elettronici. Lascialo semplicemente all'ombra per qualche minuto.

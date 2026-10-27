@@ -54,14 +54,14 @@ Além disso, evite deixar o celular exposto ao sol direto no painel do carro ou 
 
 ## Perguntas Frequentes (FAQ)
 
-Q1. Usar película de vidro colorida ou privacidade interfere no sensor de brilho do Galaxy?
+**Q1.** Usar película de vidro colorida ou privacidade interfere no sensor de brilho do Galaxy?
 
-A1. Sim, com certeza. Películas muito escuras ou de baixa qualidade bloqueiam a passagem correta da luz até o sensor, fazendo o celular entender erroneamente que o ambiente está escuro e baixando o brilho da tela.
+**A1.** Sim, com certeza. Películas muito escuras ou de baixa qualidade bloqueiam a passagem correta da luz até o sensor, fazendo o celular entender erroneamente que o ambiente está escuro e baixando o brilho da tela.
 
-Q2. O meu celular pode estragar de vez se eu continuar usando com toque fantasma após o vapor do banheiro?
+**Q2.** O meu celular pode estragar de vez se eu continuar usando com toque fantasma após o vapor do banheiro?
 
-A2. Pode sim. Deixar o aparelho ligado com microfugas de corrente causadas por umidade pode gerar curtos-circuitos secundários na placa principal, queimando o circuito integrado responsável pelo gerenciamento do touch.
+**A2.** Pode sim. Deixar o aparelho ligado com microfugas de corrente causadas por umidade pode gerar curtos-circuitos secundários na placa principal, queimando o circuito integrado responsável pelo gerenciamento do touch.
 
-Q3. Como faço para desativar o escurecimento automático por superaquecimento permanentemente?
+**Q3.** Como faço para desativar o escurecimento automático por superaquecimento permanentemente?
 
-A3. A Samsung não permite desativar essa proteção por motivos de segurança do usuário e da bateria para evitar superaquecimentos extremos, mas manter o aparelho limpo e evitar capas grossas ajuda muito a dissipar o calor naturalmente.
+**A3.** A Samsung não permite desativar essa proteção por motivos de segurança do usuário e da bateria para evitar superaquecimentos extremos, mas manter o aparelho limpo e evitar capas grossas ajuda muito a dissipar o calor naturalmente.

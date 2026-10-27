@@ -68,13 +68,13 @@ En tant que technicien, je vois trop de smartphones endommagés par de mauvais r
 
 ---
 
-### 5. Foire Aux Questions (FAQ) du Technicien
+## 5. Foire Aux Questions (FAQ)
 
-Q1 : Mon téléphone clignote sur le chargeur de la voiture mais fonctionne bien chez moi, pourquoi ?
+**Q1 :** Mon téléphone clignote sur le chargeur de la voiture mais fonctionne bien chez moi, pourquoi ?
 *R : C'est un grand classique des trajets quotidiens à La Défense. Les supports de voiture à induction subissent des vibrations constantes qui désalignent le smartphone. De plus, les grilles de ventilation ou les tableaux de bord en plein soleil provoquent une surchauffe immédiate du téléphone. Le système de sécurité coupe la charge pour protéger la batterie.*
 
-Q2 : Est-ce que l'utilisation d'un chargeur sans fil abîme la batterie plus vite qu'un câble ?
+**Q2 :** Est-ce que l'utilisation d'un chargeur sans fil abîme la batterie plus vite qu'un câble ?
 *R : Indirectement, oui, à cause de la dissipation thermique. La charge sans fil a un rendement énergétique légèrement inférieur (une partie de l'énergie est perdue en chaleur). Cette chaleur, si elle est combinée à une coque épaisse, peut accélérer le vieillissement de la batterie sur le long terme. Privilégiez une charge filaire si vous êtes pressé ou si votre téléphone chauffe trop.*
 
-Q3 : Pourquoi mon voyant clignote en alternance de deux couleurs (ex: bleu et rouge) ?
+**Q3 :** Pourquoi mon voyant clignote en alternance de deux couleurs (ex: bleu et rouge) ?
 *R : C'est le code d'erreur universel des constructeurs pour signaler un "corps étranger" (FOD - Foreign Object Detection). Le chargeur a détecté un objet métallique non autorisé (clé, pièce de monnaie, aimant de coque) dans le champ magnétique et bloque l'alimentation par mesure de sécurité absolue pour éviter l'incendie.*

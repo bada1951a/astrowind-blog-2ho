@@ -45,7 +45,7 @@ Esqueça a ideia de tirar a bateria (o que é impossível nos modelos atuais sem
 
 ## Aviso do Especialist
 
-a: O Que Você NUNCA Deve Fazer
+**a:** O Que Você NUNCA Deve Fazer
 
 <div style="border-left: 4px solid #0284c7; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Cuidado com o Modo Recovery (Hard Reset):</strong><br>

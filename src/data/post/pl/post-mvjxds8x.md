@@ -39,7 +39,7 @@ Nie musisz od razu biec do serwisu ani restartować telefonu do ustawień fabryc
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Wskazówka serwisow
 
-a:</strong> Nigdy nie wkładaj przegrzanego telefonu do lodówki ani nie chłodź go zimną wodą! Gwałtowny szok termiczny doprowadzi do skroplenia się pary wodnej wewnątrz obudowy i trwałego uszkodzenia płyty głównej. Schładzaj go wyłącznie w cieniu, zdejmując grube etui ochronne.
+**a:**</strong> Nigdy nie wkładaj przegrzanego telefonu do lodówki ani nie chłodź go zimną wodą! Gwałtowny szok termiczny doprowadzi do skroplenia się pary wodnej wewnątrz obudowy i trwałego uszkodzenia płyty głównej. Schładzaj go wyłącznie w cieniu, zdejmując grube etui ochronne.
 </div>
 
 #### Krok 1: Natychmiastowe zdjęcie obudowy i usunięcie źródła ciepła
@@ -55,14 +55,14 @@ Jeśli system wciąż krzyczy o brak pamięci, przejrzyj folder Ostatnio usunię
 
 ### FAQ – Często zadawane pytania klientów serwisu
 
-Q1. Czy ciągłe przyciemnianie się ekranu na słońcu oznacza, że matryca jest uszkodzona?
+**Q1.** Czy ciągłe przyciemnianie się ekranu na słońcu oznacza, że matryca jest uszkodzona?
 
-A1.Zazwyczaj nie. To mechanizm ochronny oprogramowania przed przegrzaniem procesora i samej matrycy OLED/AMOLED, a nie fizyczna usterka ekranu. Dopiero gdy ekran pozostaje ciemny w chłodnym pomieszczeniu, można podejrzewać uszkodzenie czujnika światła lub podświetlenia.
+**A1.**Zazwyczaj nie. To mechanizm ochronny oprogramowania przed przegrzaniem procesora i samej matrycy OLED/AMOLED, a nie fizyczna usterka ekranu. Dopiero gdy ekran pozostaje ciemny w chłodnym pomieszczeniu, można podejrzewać uszkodzenie czujnika światła lub podświetlenia.
 
-Q2. Czy używanie telefonu podczas ładowania w samochodzie w upalny dzień może uszkodzić baterię?
+**Q2.** Czy używanie telefonu podczas ładowania w samochodzie w upalny dzień może uszkodzić baterię?
 
-A2.Tak, i to bardzo szybko. Proces ładowania generuje naturalne ciepło, a nawigacja GPS i słońce wpadające przez szybę auta potrafią wywindować temperaturę ogniwa powyżej 60°C, co drastycznie skraca żywotność baterii i grozi jej deformacją.
+**A2.**Tak, i to bardzo szybko. Proces ładowania generuje naturalne ciepło, a nawigacja GPS i słońce wpadające przez szybę auta potrafią wywindować temperaturę ogniwa powyżej 60°C, co drastycznie skraca żywotność baterii i grozi jej deformacją.
 
-Q3. Dlaczego czyszczenie pamięci cache pomaga w obniżeniu temperatury telefonu?
+**Q3.** Dlaczego czyszczenie pamięci cache pomaga w obniżeniu temperatury telefonu?
 
-A3. Pliki cache to tymczasowe śmieci, do których procesor ciągle się odwołuje. Ich nagromadzenie zmusza układ do ciągłej pracy na wysokich obrotach. Usunięci ich odciąża procesor i pozwala mu przejść w tryb oszczędzania energii, co natychmiast obniża temperaturę obudowy.
+**A3.** Pliki cache to tymczasowe śmieci, do których procesor ciągle się odwołuje. Ich nagromadzenie zmusza układ do ciągłej pracy na wysokich obrotach. Usunięci ich odciąża procesor i pozwala mu przejść w tryb oszczędzania energii, co natychmiast obniża temperaturę obudowy.

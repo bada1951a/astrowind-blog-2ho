@@ -55,14 +55,14 @@ Waarschuwing van de expert: Gebruik nooit perslucht uit een spuitbus rechtstreek
 
 ## Veelgestelde vragen
 
-Q1: Kan een goedkope powerbank of kabel mijn schermpermanent beschadigen?
+**Q1:** Kan een goedkope powerbank of kabel mijn schermpermanent beschadigen?
 
-A1: Niet direct het scherm zelf, maar het kan wel de laad-IC (het microchipje dat stroom regelt) op je moederbord beschadigen door voltage-pieken. Dit zorgt voor warmteontwikkeling, waardoor je telefoon in de beveiligingsmodus schiet en de helderheidpermanent beperkt totdat de temperatuur daalt.
+**A1:** Niet direct het scherm zelf, maar het kan wel de laad-IC (het microchipje dat stroom regelt) op je moederbord beschadigen door voltage-pieken. Dit zorgt voor warmteontwikkeling, waardoor je telefoon in de beveiligingsmodus schiet en de helderheidpermanent beperkt totdat de temperatuur daalt.
 
-Q2: Waarom wordt mijn scherm soms geel of grauw in plaats van alleen maar donker?
+**Q2:** Waarom wordt mijn scherm soms geel of grauw in plaats van alleen maar donker?
 
-A2: Dat is de ingebouwde Oogcomfort-functie of een actieve energiebesparende stand die automatisch aanslaat zodra de batterijtemperatuur oploopt of het systeem merkt dat je onderweg bent met een onstabiele stroombron.
+**A2:** Dat is de ingebouwde Oogcomfort-functie of een actieve energiebesparende stand die automatisch aanslaat zodra de batterijtemperatuur oploopt of het systeem merkt dat je onderweg bent met een onstabiele stroombron.
 
-Q3: Helpt het om een harde reset uit te voeren als dit blijft gebeuren?
+**Q3:** Helpt het om een harde reset uit te voeren als dit blijft gebeuren?
 
-A3: Meestal niet, omdat het een hardware- of sensorgerelateerd probleem is. Probeer eerst een geforceerde herstart door de Aan/Uit-knop en de Volume Omlaag-knop tien seconden tegelijk ingedrukt te houden tot het Samsung-logo verschijnt. Dit wist tijdelijke kernel-fouten in het stroombeheer.
+**A3:** Meestal niet, omdat het een hardware- of sensorgerelateerd probleem is. Probeer eerst een geforceerde herstart door de Aan/Uit-knop en de Volume Omlaag-knop tien seconden tegelijk ingedrukt te houden tot het Samsung-logo verschijnt. Dit wist tijdelijke kernel-fouten in het stroombeheer.

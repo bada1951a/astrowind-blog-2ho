@@ -13,7 +13,7 @@ theme: "Solarized Amber Warm"
 Eram três da tarde em ponto no nosso escritório corporativo na região da Avenida Paulista, em São Paulo, e o clima estava tenso. Eu estava no meio de um fechamento de relatório trimestral urgente para a diretoria, precisando puxar dados cruciais direto do meu iPhone para o computador via cabo, quando o pior aconteceu: pluguei o cabo Lightning e o celular cismou em exibir aquele aviso irritante de "Líquido detectado no conector Lightning". O problema? Meu celular não via água há semanas. Sem bateria decente para carregar por indução a tempo e com o erro travando a transferência de dados, a reunião com a chefia estava ameaçada por um falso positivo de umidade que simplesmente não sumia da tela. <div style="border-left: 4px solid #d97706; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Nota do Especialist
 
-a:</strong> O sensor do iPhone é extremamente sensível. Qualquer resquício de sujeira, zinabre ou umidade invisível a olho nu na porta de carga faz o sistema de segurança do iOS travar a porta para evitar curto-circuito.
+**a:**</strong> O sensor do iPhone é extremamente sensível. Qualquer resquício de sujeira, zinabre ou umidade invisível a olho nu na porta de carga faz o sistema de segurança do iOS travar a porta para evitar curto-circuito.
 </div>
 
 ![Hardware & Tech Solution Guide](https://picsum.photos/seed/gadget511/1000/550)
@@ -43,7 +43,7 @@ Se houver suspeita de umidade real, aplique algumas gotas de álcool isopropíli
 #### Passo 3: Reinicialização Forçada e Bypasses do iOS
 Se a limpeza física foi feita e o aviso persiste, o problema é de software. Faça uma reinicialização forçad
 
-a:
+**a:**
 - Pressione e solte rapidamente o botão de Aumentar Volume.
 - Pressione e solte rapidamente o botão de Diminuir Volume.
 - Pressione e mantenha o Botão Lateral pressionado até aparecer o logotipo da Apple na tela. Caso precise carregar o aparelho com urgência enquanto o aviso não some, desligue o iPhone completamente, conecte o cabo de energia e só então ligue-o novamente, ou utilize um carregador por indução (Wireless/MagSafe) compatível.
@@ -52,10 +52,10 @@ a:
 
 Para evitar que esse susto aconteça no meio de uma entrega importante de trabalho, adote algumas práticas simples no seu dia a di
 
-a:
+**a:**
 - Capa com tampa protetor
 
-a: Se você trabalha na rua ou transita muito sob garoa, use capas que possuem tampas de silicone para vedar a entrada do conector.
+**a:** Se você trabalha na rua ou transita muito sob garoa, use capas que possuem tampas de silicone para vedar a entrada do conector.
 - Limpeza preventiva semestral: Use o palito de dente de forma preventiva a cada seis meses para remover o acúmulo de fiapos do bolso da calça. - Cuidado com acessórios originais: Cabos danificados ou de procedência duvidosa podem enviar picos de energia incorretos e confundir o circuito de proteção do aparelho.
 
 ---

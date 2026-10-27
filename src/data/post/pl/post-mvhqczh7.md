@@ -31,7 +31,7 @@ Wielu użytkowników obwinia samą baterię, ale fizyka procesora i oprogramowan
 <div style="border-left: 4px solid #1e40af; padding: 12px 16px; margin: 20px 0; background-color: rgba(30,64,175,0.05); border-radius: 4px; color: #111827;">
 <strong>Wskazówka warsztatow
 
-a:</strong> Zanim oddasz telefon do drogiej diagnozy, daj systemowi 48 godzin na zakończenie procesów w tle. Jeśli po tym czasie telefon nadal jest gorący i traci ponad 10% baterii na godzinę w stanie czuwania, czas na konkretne działania. </div>
+**a:**</strong> Zanim oddasz telefon do drogiej diagnozy, daj systemowi 48 godzin na zakończenie procesów w tle. Jeśli po tym czasie telefon nadal jest gorący i traci ponad 10% baterii na godzinę w stanie czuwania, czas na konkretne działania. </div>
 
 ---
 

@@ -11,7 +11,7 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Manutenção Celular"]
 
 Fala, pessoal! Aqui na bancada o ritmo não para. São Paulo não perdo
 
-a: correria na Avenida Paulista, reuniões seguidas, e o cliente entra afobado na assistência técnica com aquela cara de desespero. O cenário de hoje foi clássico: um executivo chegou aqui com o celular na mão, pilhado porque o carregador por indução na mesa dele só faltava virar uma árvore de Natal de tanto piscar, e o pior — o conector USB-C do aparelho estava completamente emperrado por causa de um embolado de fiapos de bolso e sujeira acumulada. Se você já passou por isso, sabe o ódio que dá. O celular avisa que vai carregar, começa a piscar a luzinha vermelha ou azul do dock sem fio, corta a carga, e a bateria continua indo pro vinagre. Vamos abrir o jogo e resolver isso agora, sem enrolação de laboratório.
+**a:** correria na Avenida Paulista, reuniões seguidas, e o cliente entra afobado na assistência técnica com aquela cara de desespero. O cenário de hoje foi clássico: um executivo chegou aqui com o celular na mão, pilhado porque o carregador por indução na mesa dele só faltava virar uma árvore de Natal de tanto piscar, e o pior — o conector USB-C do aparelho estava completamente emperrado por causa de um embolado de fiapos de bolso e sujeira acumulada. Se você já passou por isso, sabe o ódio que dá. O celular avisa que vai carregar, começa a piscar a luzinha vermelha ou azul do dock sem fio, corta a carga, e a bateria continua indo pro vinagre. Vamos abrir o jogo e resolver isso agora, sem enrolação de laboratório.
 
 ![Wireless Charger Blinking and Not Charging Phone: How to Align Induction Coils Guide](https://picsum.photos/seed/mob-mvgax0pk-7-b/1000/550.jpg)
 
@@ -49,12 +49,12 @@ No caso do nosso executivo aqui em São Paulo, o conector USB-C estava tão entu
 
 Trabalhar com hardware móvel exige respeito à integridade do componente. Anota essas recomendações de bancad
 
-a:
+**a:**
 
 * Cuidado com o aquecimento: O carregamento por indução gera calor residual naturalmente. Se a base estiver piscando e você insistir em deixar o celular lá, o circuito térmico do aparelho vai fritar a bateria a longo prazo. Bateria estufada começa exatamente por ciclos ruins de calor excessivo na indução.
 * Nada de metais na traseir
 
-a: Nunca deixe moedas, chaves ou cartões com chip/aproximação entre o celular e a base sem fio. Além de estragar o cartão por causa do campo magnético, o sistema de segurança do carregador vai disparar o alerta piscando para evitar curto-circuito.
+**a:** Nunca deixe moedas, chaves ou cartões com chip/aproximação entre o celular e a base sem fio. Além de estragar o cartão por causa do campo magnético, o sistema de segurança do carregador vai disparar o alerta piscando para evitar curto-circuito.
 * Higiene do conector: Ao limpar o conector emperrado, nunca use objetos energizados ou metálicos grossos que possam fechar curto nos micro-pinos de dados e carga dentro da porta USB-C/Lightning.
 
 ---

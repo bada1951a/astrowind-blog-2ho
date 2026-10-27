@@ -49,14 +49,14 @@ Anda juga bisa melakukan pengecekan fungsi sensor melalui menu rahasia diagnosis
 Pilih menu Sensor, lalu arahkan tangan mendekati bagian atas layar untuk memastikan nilai pembacaan cahaya (*Light Sensor*) berubah merespons perubahan kondisi sekitar. Jika nilai berubah saat didekatkan dan dijauhkan, berarti sensor hardware Anda aman 100 persen dan masalahnya murni pada software atau suhu.
 ## 5. Pertanyaan yang Sering Diajukan (FAQ)
 
-Q1. Apakah mematikan Kecerahan Adaptif bisa merusak layar AMOLED Samsung saya dalam jangka panjang?
+**Q1.** Apakah mematikan Kecerahan Adaptif bisa merusak layar AMOLED Samsung saya dalam jangka panjang?
 
-A1. Tidak sama sekali. Mematikan kecerahan otomatis hanya membuat tingkat terang layar konstan sesuai keinginan Anda. Namun, pastikan Anda tidak terus-menerus menggunakan kecerahan 100 persen di dalam ruangan gelap agar mata tidak lelah dan baterai lebih hemat.
+**A1.** Tidak sama sekali. Mematikan kecerahan otomatis hanya membuat tingkat terang layar konstan sesuai keinginan Anda. Namun, pastikan Anda tidak terus-menerus menggunakan kecerahan 100 persen di dalam ruangan gelap agar mata tidak lelah dan baterai lebih hemat.
 
-Q2. Kenapa saat di-charge di luar ruangan ponsel Samsung saya malah semakin lambat mengisi daya dan layar meredup?
+**Q2.** Kenapa saat di-charge di luar ruangan ponsel Samsung saya malah semakin lambat mengisi daya dan layar meredup?
 
-A2. Itu adalah mekanisme keamanan baterai Li-Ion. Suhu luar ruangan yang panas ditambah panas dari proses pengisian daya cepat membuat sirkuit internal membatasi arus listrik demi mencegah baterai kembung atau meledak.
+**A2.** Itu adalah mekanisme keamanan baterai Li-Ion. Suhu luar ruangan yang panas ditambah panas dari proses pengisian daya cepat membuat sirkuit internal membatasi arus listrik demi mencegah baterai kembung atau meledak.
 
-Q3. Apakah mengganti tempered glass murahan benar-benar bisa mengembalikan fungsi auto-brightness yang normal?
+**Q3.** Apakah mengganti tempered glass murahan benar-benar bisa mengembalikan fungsi auto-brightness yang normal?
 
-A3. Sangat bisa. Banyak tempered glass murah di pasaran tidak memiliki lapisan anti-reflektif atau membiarkan lem menutupi area sensor cahaya, sehingga sensor membaca kondisi sekitar selalu gelap dan membuat layar ikut meredup.
+**A3.** Sangat bisa. Banyak tempered glass murah di pasaran tidak memiliki lapisan anti-reflektif atau membiarkan lem menutupi area sensor cahaya, sehingga sensor membaca kondisi sekitar selalu gelap dan membuat layar ikut meredup.

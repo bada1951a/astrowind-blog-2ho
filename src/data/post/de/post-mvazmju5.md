@@ -55,7 +55,7 @@ Damit Ihnen dieser Schreckmoment vor dem nächsten wichtigen Termin erspart blei
 
 ---
 
-### Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 1. Verliere ich durch den erzwungenen Neustart meine ungespeicherten Notizen oder WhatsApp-Nachrichten?
 Nein. Ein erzwungener Neustart entspricht einem harten Reset des Betriebssystems, berührt aber Ihren internen Speicher und Ihre Apps nicht. Sobald das Gerät hochgefahren ist, sind geöffnete Apps meist im gleichen Zustand oder der automatische Zwischenspeicher greift.

@@ -20,7 +20,7 @@ Czujnik wilgoci w nowszych modelach iPhone'ów bywa nadwrażliwy, a samo odczyty
 
 1. Mikroskopijne zabrudzenia w porcie ładowani
 
-a: Kurz zbity w kieszeni miesza się z wilgocią z powietrza, tworząc elektrolit, który oszukuje sensory.
+**a:** Kurz zbity w kieszeni miesza się z wilgocią z powietrza, tworząc elektrolit, który oszukuje sensory.
 
 2. Uszkodzony lub nieoryginalny przewód: Czasami woda wcale nie dostała się do telefonu – zniszczona wtyczka kabla powoduje zwarcie na pinach danych, co system iOS interpretuje jako obecność płynu.
 
@@ -29,7 +29,7 @@ a: Kurz zbity w kieszeni miesza się z wilgocią z powietrza, tworząc elektroli
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Ważna uwaga ekspert
 
-a:</strong> Zapomnij raz na zawsze o micie z ryżem! Surowy ryż nie tylko nie wyciąga skutecznie wilgoci z wnętrza obudowy, ale jego pył i skrobia wpadają do portu ładowania, tworząc z wodą twardą skorupę cementową, która dosłownie niszczy piny w środku.
+**a:**</strong> Zapomnij raz na zawsze o micie z ryżem! Surowy ryż nie tylko nie wyciąga skutecznie wilgoci z wnętrza obudowy, ale jego pył i skrobia wpadają do portu ładowania, tworząc z wodą twardą skorupę cementową, która dosłownie niszczy piny w środku.
 </div>
 
 ## Krok po kroku: Jak bezpiecznie rozwiązać problem
@@ -42,7 +42,7 @@ Odłącz natychmiast kabel od telefonu. Nie używaj suszarki do włosów – gor
 ### Krok 2: Czyszczenie mechaniczne złącza
 Wyłącz całkowicie iPhone'
 
-a. Weź wykałaczkę z drewna (unikaj ostrych igieł metalowych, które zrobią zwarcie) i delikatnie, pod światło, sprawdź wnętrze portu Lightning lub USB-C. Bardzo często znajdziesz tam zbitą "kulkę" z kurzu. Oczyść wnętrze bardzo ostrożnie, ruchami na boki, nie naciskając na dolną ściankę ze stykami.
+**a.** Weź wykałaczkę z drewna (unikaj ostrych igieł metalowych, które zrobią zwarcie) i delikatnie, pod światło, sprawdź wnętrze portu Lightning lub USB-C. Bardzo często znajdziesz tam zbitą "kulkę" z kurzu. Oczyść wnętrze bardzo ostrożnie, ruchami na boki, nie naciskając na dolną ściankę ze stykami.
 
 ### Krok 3: Twardy reset i obejście systemowe
 Jeśli fizycznie port jest czysty, a komunikat nadal blokuje ładowanie, mamy do czynienia z zawieszeniem się modułu zarządzania energią w iOS.

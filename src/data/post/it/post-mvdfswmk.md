@@ -32,7 +32,7 @@ Prima di agire, capiamo cosa sta succedendo all'interno del dispositivo. L'iPhon
 
 ### Procedura di emergenz
 
-a: Risolviamo senza riso
+**a:** Risolviamo senza riso
 
 Ecco la sequenza esatta di azioni da compiere per sbloccare la situazione e tornare operativi in pochi minuti, usando solo ciò che avete in ufficio.
 

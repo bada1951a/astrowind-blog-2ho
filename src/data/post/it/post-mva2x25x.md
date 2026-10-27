@@ -14,7 +14,7 @@ Sono le 14:45 e mi trovo nel nostro ufficio in pieno centro a Milano, nel bel me
 
 Nei primi trenta secondi ho fatto l'errore classico che fanno tutti in preda all'ansi
 
-a: ho iniziato a premere forsennatamente il tasto di accensione e a fare swipe a vuoto sullo schermo di vetro, sperando che si sbloccasse da solo. Ovviamente non è successo nulla, anzi, la batteria ha iniziato a scaldarsi leggermente per via di un processo in background andato in loop. 
+**a:** ho iniziato a premere forsennatamente il tasto di accensione e a fare swipe a vuoto sullo schermo di vetro, sperando che si sbloccasse da solo. Ovviamente non è successo nulla, anzi, la batteria ha iniziato a scaldarsi leggermente per via di un processo in background andato in loop. 
 
 ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget541/1000/550)
 
@@ -34,7 +34,7 @@ Prima di procedere, capiamo cosa è successo per evitare che accada di nuovo dur
 
 3. Anomalia hardware temporane
 
-a: Il chip del touch screen ha perso la comunicazione I2C con la scheda madre, un blocco risolvibile unicamente togliendo e rimettendo l'alimentazione hardware tramite i tasti fisici.
+**a:** Il chip del touch screen ha perso la comunicazione I2C con la scheda madre, un blocco risolvibile unicamente togliendo e rimettendo l'alimentazione hardware tramite i tasti fisici.
 
 ---
 
@@ -68,7 +68,7 @@ A seconda del modello di iPhone che porti in tasca, la sequenza dei tasti cambia
 <div style="border-left: 4px solid #06b6d4; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Consiglio sulla Memori
 
-a:</strong> Non lasciare mai l'archiviazione del tuo iPhone completamente satura. Lascia almeno 5 GB di spazio libero: iOS ha bisogno di memoria di scambio (swap) libera per gestire i processi quotidiani ed evitare freeze improvvisi.
+**a:**</strong> Non lasciare mai l'archiviazione del tuo iPhone completamente satura. Lascia almeno 5 GB di spazio libero: iOS ha bisogno di memoria di scambio (swap) libera per gestire i processi quotidiani ed evitare freeze improvvisi.
 </div>
 
 Se il problema si ripete frequentemente, ti consiglio di controllare in Impostazioni > Generali > Spazio iPhone se c'è qualche applicazione anomala che consuma troppa memoria o richiede aggiornamenti urgenti.

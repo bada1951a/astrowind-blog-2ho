@@ -61,7 +61,7 @@ Vamos a comprobar si el hardware de los sensores sigue respondiendo:
 
 ---
 
-### Preguntas frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ¿Puedo seguir usando el Galaxy Z Fold con la pantalla exterior si la interior está negra?
 Sí, perfectamente. Puedes configurar el dispositivo para realizar todas tus tareas diarias desde la cubierta exterior mientras gestionas una cita de reparación en el servicio técnico oficial.

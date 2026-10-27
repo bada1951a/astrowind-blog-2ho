@@ -20,8 +20,6 @@ Der Ernst der Lage wurde erst bewusst, als das Gerät nach dem x-ten erzwungenen
 <strong>Techniker-Hinweis:</strong> Bei flüssigkeitsbedingten Startschleifen niemals das Gerät sofort wieder ans Netzteil anschließen. Dies führt oft zu elektrochemischer Korrosion und permanenten Kurzschlüssen auf der Logic Board Hauptplatine.
 </div>
 
-
-
 ![Samsung Galaxy Boot Loop Stuck on Samsung Logo: Clearing Cache Partition in Recovery Mobile Repair Guide](https://picsum.photos/seed/mob-mvpkfno0-3-b/1000/550.jpg)
 
 ## 2. Detaillierte Ursachenanalyse von Lade- und Hardwarefehlern
@@ -36,12 +34,12 @@ Ein weiterer kritischer Aspekt betrifft die Sensorik. Moderne Samsung-Geräte ve
 
 Um das Samsung Galaxy aus dem festgefahrenen Boot-Loop zu befreien und die Integrität des Systems wiederherzustellen, dient das Leeren der Cache-Partition im Recovery-Modus als effektivste Methode. Führen Sie die folgenden Schritte präzise durch:
 
-1. **Erzwungener Neustart zum Ausschalten:**Da das Gerät in der Logo-Schleife feststeckt, halten Sie die Taste **Leiser **und die **Ein/Aus-Taste **gleichzeitig für mindestens zehn bis fünfzein Sekunden gedrückt, bis das Display schwarz wird und das Gerät vibriert.
-2.**Wechsel in den Recovery-Modus:**Sobald das Display erlischt, lassen Sie die **Leiser**-Taste kurz los und drücken stattdessen sofort die **Lauter**-Taste, während die **Ein/Aus-Taste **weiterhin gedrückt bleibt. Halten Sie beide Tasten gedrückt, bis das Samsung-Logo mit dem blauen Android-Systemwiederherstellungsbildschirm erscheint.
-3.**Navigation im Wiederherstellungsmenü:**Da der Touchscreen im Recovery-Modus deaktiviert ist, verwenden Sie die physischen Tasten **Lauter **und **Leiser**, um im Menü nach oben und unten zu navigieren.
-4. **Auswahl des Cache-Punktes:**Blättern Sie solange, bis der Eintrag **Wipe cache partition **markiert ist, und bestätigen Sie Ihre Auswahl durch einmaliges Drücken der **Ein/Aus-Taste**.
-5. **Sicherheitsabfrage bestätigen:**Navigieren Sie im nächsten Menüpunkt auf **Yes **und bestätigen Sie erneut mit der **Ein/Aus-Taste**, um temporäre, beschädigte Systemreste zu löschen, ohne persönliche Daten zu gefährden.
-6. **Systemneustart initiieren:**Nach Abschluss des Löschvorgangs steht der Cursor automatisch auf **Reboot system now**. Bestätigen Sie diesen Menüpunkt, woraufhin das Gerät neu startet und den Cache fehlerfrei neu aufbaut.
+1. **Erzwungener Neustart zum Ausschalten:**Da das Gerät in der Logo-Schleife feststeckt, halten Sie die Taste**Leiser **und die**Ein/Aus-Taste **gleichzeitig für mindestens zehn bis fünfzein Sekunden gedrückt, bis das Display schwarz wird und das Gerät vibriert.
+2.**Wechsel in den Recovery-Modus:**Sobald das Display erlischt, lassen Sie die**Leiser**-Taste kurz los und drücken stattdessen sofort die**Lauter**-Taste, während die**Ein/Aus-Taste **weiterhin gedrückt bleibt. Halten Sie beide Tasten gedrückt, bis das Samsung-Logo mit dem blauen Android-Systemwiederherstellungsbildschirm erscheint.
+3.**Navigation im Wiederherstellungsmenü:**Da der Touchscreen im Recovery-Modus deaktiviert ist, verwenden Sie die physischen Tasten**Lauter **und**Leiser**, um im Menü nach oben und unten zu navigieren.
+4.**Auswahl des Cache-Punktes:**Blättern Sie solange, bis der Eintrag**Wipe cache partition **markiert ist, und bestätigen Sie Ihre Auswahl durch einmaliges Drücken der**Ein/Aus-Taste**.
+5.**Sicherheitsabfrage bestätigen:**Navigieren Sie im nächsten Menüpunkt auf**Yes **und bestätigen Sie erneut mit der**Ein/Aus-Taste**, um temporäre, beschädigte Systemreste zu löschen, ohne persönliche Daten zu gefährden.
+6.**Systemneustart initiieren:**Nach Abschluss des Löschvorgangs steht der Cursor automatisch auf**Reboot system now**. Bestätigen Sie diesen Menüpunkt, woraufhin das Gerät neu startet und den Cache fehlerfrei neu aufbaut.
 
 <div style="border-left: 4px solid #475569; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Zusatz-Tipp für die mechanische Reinigung:</strong> Nutzen Sie für den USB-C-Port ausschließlich trockene, nicht leitende Holz-Zahnstocher unter einer hellen Lichtquelle, um eingetrocknete Rückstände vorsichtig herauszuhebeln.

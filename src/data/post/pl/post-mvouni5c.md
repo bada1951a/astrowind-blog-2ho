@@ -24,23 +24,23 @@ Zanim przejdziemy do naprawy, spójrzmy prawdzie w oczy – dlaczego telefon utk
 
 * **Uszkodzenie lub przepełnienie partycji Cache po incydencie wilgotnościowym:** Drobinki cieczy, które podeszły pod mikrofon lub dolną płytkę, mogły wywołać chwilowe zawieszenie procesora podczas ładowania plików tymczasowych. System próbuje odczytać uszkodzony cache i zapętla się.
 * **Nieudana lub przerwana aktualizacja w tle:** Często system pobiera paczkę aktualizacyjną, ale brak stabilnego zasilania lub nagłe zawieszenie hardware'owe sprawia, że pliki systemowe zostają "zawieszone" w próżni.
-* **Konflikt aplikacji trzecich:** Rzadziej, ale jednak – wadliwa aplikacja uruchamiana automatycznie przy starcie potrafi skutecznie zablokować proces ładowania interfejsu One UI.
+* **Konflikt aplikacji trzecich:**Rzadziej, ale jednak – wadliwa aplikacja uruchamiana automatycznie przy starcie potrafi skutecznie zablokować proces ładowania interfejsu One UI.
 
 ## 3. Praktyczne rozwiązanie problemu krok po kroku
 
-Skoro znamy już winowajcę, czas na konkretne, błyskawiczne działanie w stylu **Electric Cyan Speed**. Wykorzystamy wbudowane narzędzie ratunkowe każdego Androida, czyli **Recovery Mode**.
+Skoro znamy już winowajcę, czas na konkretne, błyskawiczne działanie w stylu**Electric Cyan Speed**. Wykorzystamy wbudowane narzędzie ratunkowe każdego Androida, czyli**Recovery Mode**.
 
-1. **Całkowite wyłączenie urządzenia:** Jeśli telefon w kółko się restartuje, przytrzymaj jednocześnie **Przycisk zasilania (Power)** oraz **Przycisk zmniejszania głośności (Volume Down)** przez około 10-15 sekund, aż ekran zgaśnie.
+1.**Całkowite wyłączenie urządzenia:**Jeśli telefon w kółko się restartuje, przytrzymaj jednocześnie**Przycisk zasilania (Power)**oraz**Przycisk zmniejszania głośności (Volume Down)**przez około 10-15 sekund, aż ekran zgaśnie.
 
-2. **Podłączenie kabla USB:** W nowszych modelach Samsunga wejście w tryb Recovery wymaga fizycznego podłączenia kabla USB podłączonego do komputera lub ładowarki. Podepnij kabel w momencie, gdy ekran jest czarny.
+2.**Podłączenie kabla USB:**W nowszych modelach Samsunga wejście w tryb Recovery wymaga fizycznego podłączenia kabla USB podłączonego do komputera lub ładowarki. Podepnij kabel w momencie, gdy ekran jest czarny.
 
-3. **Kombinacja klawiszy Recovery:** Natychmiast po podłączeniu kabla naciśnij i przytrzymaj **Przycisk zasilania (Power)** oraz **Przycisk zwiększania głośności (Volume Up)**. Trzymaj je do momentu, aż na czarnym tle pojawi się logo Samsunga, a potem tekstowe menu systemowe.
+3.**Kombinacja klawiszy Recovery:**Natychmiast po podłączeniu kabla naciśnij i przytrzymaj**Przycisk zasilania (Power)**oraz**Przycisk zwiększania głośności (Volume Up)**. Trzymaj je do momentu, aż na czarnym tle pojawi się logo Samsunga, a potem tekstowe menu systemowe.
 
-4. **Nawigacja w menu:** Przyciskami głośności przesuń zaznaczenie na opcję **Wipe cache partition**.
+4.**Nawigacja w menu:**Przyciskami głośności przesuń zaznaczenie na opcję**Wipe cache partition**.
 
-5. **Zatwierdzenie operacji:** Wciśnij **Przycisk zasilania (Power)**, aby wybrać tę opcję, a następnie potwierdź wybór, przechodząc na **Yes**.
+5.**Zatwierdzenie operacji:**Wciśnij**Przycisk zasilania (Power)**, aby wybrać tę opcję, a następnie potwierdź wybór, przechodząc na**Yes**.
 
-6. **Restart systemu:** Po zakończeniu czyszczenia (trwa to ułamki sekund) wybierz opcję **Reboot system now**.
+6.**Restart systemu:**Po zakończeniu czyszczenia (trwa to ułamki sekund) wybierz opcję**Reboot system now**.
 
 <div style="border-left: 4px solid #06b6d4; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Ważna uwaga:</strong> Opcja *Wipe cache partition* jest w 100% bezpieczna dla Twoich danych osobistych (zdjęć, kontaktów, wiadomości). Nie usuwa ona pamięci użytkownika, a jedynie czyści zepsute pliki tymczasowe systemowe.
@@ -54,14 +54,14 @@ Jeśli po wyczyszczeniu partycji cache Twój Galaxy nadal wisi na logo, a głoś
 
 ## 5. Najczęściej zadawane pytania (FAQ)
 
-Q: Czy czyszczenie partycji cache w trybie Recovery usunie moje zdjęcia i aplikacje?
+**Q:** Czy czyszczenie partycji cache w trybie Recovery usunie moje zdjęcia i aplikacje?
 
-A: Absolutnie nie. Ta funkcja usuwa wyłącznie tymczasowe pliki systemowe, które powodują konflikt podczas uruchamiania telefonu. Twoje prywatne dane pozostaną całkowicie nienaruszone.
+**A:** Absolutnie nie. Ta funkcja usuwa wyłącznie tymczasowe pliki systemowe, które powodują konflikt podczas uruchamiania telefonu. Twoje prywatne dane pozostaną całkowicie nienaruszone.
 
-Q: Co zrobić, jeśli kombinacja klawiszy nie działa i telefon w ogóle nie wchodzi w menu Recovery?
+**Q:** Co zrobić, jeśli kombinacja klawiszy nie działa i telefon w ogóle nie wchodzi w menu Recovery?
 
-A: Upewnij się, że kabel USB jest poprawnie wpięty do źródła zasilania (np. komputera), a przyciski trzymasz dokładnie w tym samym ułamku sekundy. Jeśli bateria całkowicie się rozładowała, podłącz telefon na 20 minut do ładowarki ściennej, zanim ponowisz próbę.
+**A:** Upewnij się, że kabel USB jest poprawnie wpięty do źródła zasilania (np. komputera), a przyciski trzymasz dokładnie w tym samym ułamku sekundy. Jeśli bateria całkowicie się rozładowała, podłącz telefon na 20 minut do ładowarki ściennej, zanim ponowisz próbę.
 
-Q: Dlaczego po kontakcie z wodą dźwięk z głośnika zrobił się metaliczny i zniekształcony?
+**Q:** Dlaczego po kontakcie z wodą dźwięk z głośnika zrobił się metaliczny i zniekształcony?
 
-A: Dźwięk staje się "먹먹" (przytłumiony), ponieważ w komorze akustycznej głośnika lub na samej membranie osadziła się kropla wody, która blokuje swobodny ruch membrany. Często pomaga odtworzenie specjalnego dźwięku o wysokiej częstotliwości, który "wypycha" wodę, lub oddanie telefonu do serwisu na bezpieczne osuszenie.
+**A:** Dźwięk staje się "먹먹" (przytłumiony), ponieważ w komorze akustycznej głośnika lub na samej membranie osadziła się kropla wody, która blokuje swobodny ruch membrany. Często pomaga odtworzenie specjalnego dźwięku o wysokiej częstotliwości, który "wypycha" wodę, lub oddanie telefonu do serwisu na bezpieczne osuszenie.

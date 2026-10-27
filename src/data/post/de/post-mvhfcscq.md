@@ -65,7 +65,7 @@ Vermeide unbedingt folgende Fehler, die ich in der Werkstatt oft sehe:
 
 ---
 
-## Häufig gestellte Fragen (FAQ)
+## 5. Häufig gestellte Fragen (FAQ)
 
 ### 1. Mein Samsung Galaxy wird trotz App-Fix immer noch heiß. Was nun?
 Wenn das Gerät auch im Flugmodus und nach einem Werksreset ohne installierte Apps extrem heiß wird, liegt ein Hardware-Defekt vor. Meistens handelt es sich um einen internen Kurzschluss auf der Hauptplatine oder einen defekten Power-Management-IC. In diesem Fall hilft nur der Gang zum zertifizierten Techniker.

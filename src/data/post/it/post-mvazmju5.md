@@ -45,7 +45,7 @@ Per evitare che il problema si presenti di nuovo nel momento meno opportuno, val
 - Crash di un'applicazione pesante: Un'app in background (spesso legata alla sincronizzazione o a un social network) va in loop di consumo della CPU, bloccando l'interfaccia grafica (UI).
 - Surriscaldamento: Se il telefono è rimasto sotto il sole sulla scrivania o sotto stress con app di navigazione e ricarica rapida contemporanea, il sistema limita le prestazioni e può ibernare parti del touchscreen per protezione termica. - Micro-corruzioni della cache di sistem
 
-a: Accumulo di file temporanei corrotti dopo un aggiornamento OTA (Over-The-Air) non ottimizzato perfettamente.
+**a:** Accumulo di file temporanei corrotti dopo un aggiornamento OTA (Over-The-Air) non ottimizzato perfettamente.
 
 ### Domande Frequenti (FAQ)
 

@@ -12,7 +12,7 @@ theme: "Steel Silver Metallic"
 
 Zit je dan, vol in de ochtendspits tussen Utrecht Centraal en Amsterdam Sloterdijk. Je laptop open op je schoot, de wifi van de NS hapert zoals altijd, dus je moet *nu* je mobiele hotspot aanzetten voor die cruciale kwartaalreview. Terwijl je op je iPhone of Galaxy drukt om snel te tetheren, word je blindgeslagen door een agressief felwitte achtergrond op max helderheid. Je collega's tegenover je kijken meewarig naar dat blauwige licht dat je hele gezicht verlicht, je OLED-paneel staat te loeien en je batterijpercentage keldert waar je bij staat. Geen
 
-A.I.-theorieboek of mooie marketingpraatjes gaan je hier redden; dit is pure praktische blusactie op de werkvloer.
+**A.**I.-theorieboek of mooie marketingpraatjes gaan je hier redden; dit is pure praktische blusactie op de werkvloer.
 
 <div style="border-left: 4px solid #64748b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>OFFICIÃ‹LE SERVICEBON / INBOD-CHECKLIST</strong><br>
@@ -63,7 +63,7 @@ We willen dat de Donkere Modus automatisch inschakelt op basis van een triggerâ€
 * Voor Android-gebruikers (Via Routines / Tasker):
   1. Ga naar *Instellingen > Standen en routines* (Modes and Routines - standaard op o.
 
-a. Samsung One UI).
+**a.** Samsung One UI).
 
 2. Maak een nieuwe routine aan via de + knop.
 

@@ -54,14 +54,14 @@ Wskazówka serwisu: Jeśli telefon ściemnia się nawet w chłodnym pokoju, prob
 
 ### Często Zadawane Pytania (FAQ)
 
-Q1. Czy ciągłe używanie telefonu na maksymalnej jasności w słońcu może trwale uszkodzić ekran?
+**Q1.** Czy ciągłe używanie telefonu na maksymalnej jasności w słońcu może trwale uszkodzić ekran?
 
-A1. Tak, długotrwałe wystawianie matrycy AMOLED na maksymalną jasność połączoną z wysoką temperaturą zewnętrzną przyspiesza proces degradacji diod organicznych, co prowadzi do wypaleń ekranu i szybszego zużycia baterii.
+**A1.** Tak, długotrwałe wystawianie matrycy AMOLED na maksymalną jasność połączoną z wysoką temperaturą zewnętrzną przyspiesza proces degradacji diod organicznych, co prowadzi do wypaleń ekranu i szybszego zużycia baterii.
 
-Q2. Dlaczego suwak jasności znika lub blokuje się na 80% w gorące dni?
+**Q2.** Dlaczego suwak jasności znika lub blokuje się na 80% w gorące dni?
 
-A2. To mechanizm zabezpieczający One UI. System celowo blokuje najwyższy pułk jasności (tzw. tryb wysokiej jasności HBM), gdy temperatura obudowy przekracza bezpieczny próg, aby zapobiec awarii sprzętowej.
+**A2.** To mechanizm zabezpieczający One UI. System celowo blokuje najwyższy pułk jasności (tzw. tryb wysokiej jasności HBM), gdy temperatura obudowy przekracza bezpieczny próg, aby zapobiec awarii sprzętowej.
 
-Q3. Czy reset do ustawień fabrycznych pomoże, jeśli ekran ściemnia się bez powodu?
+**Q3.** Czy reset do ustawień fabrycznych pomoże, jeśli ekran ściemnia się bez powodu?
 
-A3. Rzadko jest to konieczne. Najpierw warto wyczyścić górną część ekranu (okolice aparatu do selfie) oraz sprawdzić, czy żadna aplikacja w tle nie obciąża procesora, generując nadmierne ciepło.
+**A3.** Rzadko jest to konieczne. Najpierw warto wyczyścić górną część ekranu (okolice aparatu do selfie) oraz sprawdzić, czy żadna aplikacja w tle nie obciąża procesora, generując nadmierne ciepło.

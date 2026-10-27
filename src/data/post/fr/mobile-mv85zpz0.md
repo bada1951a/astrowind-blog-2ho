@@ -75,11 +75,14 @@ En tant que technicien mobile, j'en vois tous les mois des collègues qui bousil
 
 ## FAQ Technique : Vos questions sur l'alerte d'humidité
 
-Q1 : L'alerte disparaît quand je branche le téléphone éteint, est-ce une solution ?
-R : Oui et non. Charger le téléphone éteint force parfois le passage outre la sécurité logicielle car le système d'exploitation complet ne tourne pas. C'est risqué : si de l'eau est réellement présente, vous risquez d'oxyder irrémédiablement les micro-pistes. À n'utiliser qu'en ultime recours absolu.
+**Q1 :** L'alerte disparaît quand je branche le téléphone éteint, est-ce une solution ?
 
-Q2 : Comment désactiver définitivement cette sécurité via les Options pour les développeurs ?
-R : Contrairement à une idée reçue, il n'y a pas de toggle magique "Désactiver l'alerte d'humidité" dans les *Options pour les développeurs* sur les versions récentes de One UI / Android. Samsung a verrouillé cette option pour des raisons évidentes de responsabilité civile en cas de surchauffe de batterie.
+**A.** Oui et non. Charger le téléphone éteint force parfois le passage outre la sécurité logicielle car le système d'exploitation complet ne tourne pas. C'est risqué : si de l'eau est réellement présente, vous risquez d'oxyder irrémédiablement les micro-pistes. À n'utiliser qu'en ultime recours absolu.
 
-Q3 : Mon téléphone n'a jamais touché l'eau, mais l'alerte revient chaque semaine. Que faire ?
-R : C'est le signe d'une oxydation lente ou d'un dépôt de saleté incrusté au fond du port de charge suite à de la transpiration (si vous téléphonez souvent sous la pluie ou courez avec). Passez en maintenance informatique pour un nettoyage aux ultrasons du connecteur ou un remplacement direct du sous-plateau USB-C.
+**Q2 :** Comment désactiver définitivement cette sécurité via les Options pour les développeurs ?
+
+**A.** Contrairement à une idée reçue, il n'y a pas de toggle magique "Désactiver l'alerte d'humidité" dans les *Options pour les développeurs* sur les versions récentes de One UI / Android. Samsung a verrouillé cette option pour des raisons évidentes de responsabilité civile en cas de surchauffe de batterie.
+
+**Q3 :** Mon téléphone n'a jamais touché l'eau, mais l'alerte revient chaque semaine. Que faire ?
+
+**A.** C'est le signe d'une oxydation lente ou d'un dépôt de saleté incrusté au fond du port de charge suite à de la transpiration (si vous téléphonez souvent sous la pluie ou courez avec). Passez en maintenance informatique pour un nettoyage aux ultrasons du connecteur ou un remplacement direct du sous-plateau USB-C.

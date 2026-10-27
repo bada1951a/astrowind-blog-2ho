@@ -30,7 +30,7 @@ Trabalho na bancada há anos e vejo isso todo santo dia. O sensor do Android nã
 
 ## O Guia Prático de Sobrevivênci
 
-a: Como resolver passo a passo
+**a:** Como resolver passo a passo
 
 Se você está na mesma situação de desespero que eu estive no aeroporto, respire fundo e siga este roteiro testado e aprovado na bancada. Vamos usar os menus nativos do Android para isolar o problema. ### Passo 1: A Limpeza Mecânica Segura (Sem palito de metal!)
 Esqueça agulhas. Pegue um palito de dente de madeira comum e faça a ponta ficar bem fina. Com o celular completamente desligado, insira com extrema delicadeza na entrada USB-C e faça um movimento de varredura lateral para remover qualquer bolinho de fiapo. Você vai se assustar com a quantidade de sujeira preta que sai dali.
@@ -51,7 +51,7 @@ Se a sujeira não era o problema e o celular continua recusando carga mesmo seco
 <div style="border-left: 4px solid #78350f; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px;">
 <strong>💡 Dica de Ouro da Bancad
 
-a:</strong> Se o sistema continuar bloqueando a carga e você estiver desesperado para pegar uma carga mínima para trabalhar, use um carregador por indução (Wireless). Os dobráveis aceitam carregamento sem fio perfeitamente e isso pula totalmente a checagem da porta USB-C!
+**a:**</strong> Se o sistema continuar bloqueando a carga e você estiver desesperado para pegar uma carga mínima para trabalhar, use um carregador por indução (Wireless). Os dobráveis aceitam carregamento sem fio perfeitamente e isso pula totalmente a checagem da porta USB-C!
 </div>
 
 ### Passo 3: Limpando a Rede e Reinicialização Avançada

@@ -24,7 +24,7 @@ Para solucionar un problema, primero hay que entender al enemigo. En la gran may
 
 - Apps en bucle infinito: Aplicaciones de redes sociales o mensajeria que se quedan atascadas intentando sincronizar datos en segundo plano, manteniendo el procesador (SoC) trabajando al 100% incluso con la pantalla apagada. - Falsa averia de puerto de carg
 
-a: Acumulacion de pelusa y polvo compactado en el conector USB-C. Esto genera microcortes que confunden al circuito de carga (IC de carga), haciendo que el movil gestione mal la energia y disipe calor extra. - Servicios de localizacion desbocados: Aplicaciones de terceros consultando el GPS quinientas veces por hora sin que lo sepas, lo que dispara la temperatura del chasis de forma alarmante.
+**a:** Acumulacion de pelusa y polvo compactado en el conector USB-C. Esto genera microcortes que confunden al circuito de carga (IC de carga), haciendo que el movil gestione mal la energia y disipe calor extra. - Servicios de localizacion desbocados: Aplicaciones de terceros consultando el GPS quinientas veces por hora sin que lo sepas, lo que dispara la temperatura del chasis de forma alarmante.
 
 ## Paso a Paso: Como diagnosticar y sanar tu movil
 
@@ -44,10 +44,10 @@ Apaga completamente el terminal. Toma un palillo de madera de los de toda la vid
 <div style="border-left: 4px solid #10b981; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Advertencia Tecnic
 
-a:</strong> Nunca uses objetos metalicos para limpiar el puerto de carga. Un solo roce desafortunado puede doblar los pines de conexion o provocar un cortocircuito permanente en la placa base.
+**a:**</strong> Nunca uses objetos metalicos para limpiar el puerto de carga. Un solo roce desafortunado puede doblar los pines de conexion o provocar un cortocircuito permanente en la placa base.
 </div>
 
-## Preguntas Frecuentes (FAQ)
+## 5. Preguntas Frecuentes (FAQ)
 
 ¿Es normal que mi Samsung Galaxy se caliente mientras lo cargo?
 Es normal notar una tibieza moderada, especialmente si usas carga rapida de 25W o superior y estas usando el movil a la vez. Sin embargo, si quema al tocarlo o salta una advertencia de temperatura en pantalla, debes desconectarlo de inmediato.

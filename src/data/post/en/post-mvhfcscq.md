@@ -36,7 +36,7 @@ Before we apply the fix, you need to understand what is cooking your processor b
 
 ---
 
-## 3. Step-by-Step Practical Emergency Resolution
+## 3. Step-by-Step Practical Resolution Practical Emergency Resolution
 
 Follow these exact steps in order to diagnose and neutralize the background app drain on your Samsung Galaxy.
 
@@ -81,14 +81,14 @@ Follow these exact steps in order to diagnose and neutralize the background app 
 
 ## 5. Frequently Asked Questions (FAQ)
 
-Q: How do I know if my battery is physically damaged from overheating?
+**Q:** How do I know if my battery is physically damaged from overheating?
 
-A: If your phone back glass or screen starts lifting slightly at the edges, or if the device drains from 50% to 0% in two minutes flat, your battery has swollen or degraded beyond software repair and needs physical replacement.
+**A:** If your phone back glass or screen starts lifting slightly at the edges, or if the device drains from 50% to 0% in two minutes flat, your battery has swollen or degraded beyond software repair and needs physical replacement.
 
-Q: Should I factory reset my Samsung Galaxy if background drain continues?
+**Q:** Should I factory reset my Samsung Galaxy if background drain continues?
 
-A: Only as a last resort. If you have uninstalled the rogue apps and cleared cache partitions, but the phone still runs warm during basic tasks like text messaging, perform a complete data backup and execute a factory reset to wipe deep system corruption.
+**A:** Only as a last resort. If you have uninstalled the rogue apps and cleared cache partitions, but the phone still runs warm during basic tasks like text messaging, perform a complete data backup and execute a factory reset to wipe deep system corruption.
 
-Q: Does clearing the system cache partition delete my personal photos?
+**Q:** Does clearing the system cache partition delete my personal photos?
 
-A: No. Wiping the cache partition via Recovery Mode only clears temporary system junk files. Your personal photos, text messages, downloaded files, and app data remain completely untouched and safe.
+**A:** No. Wiping the cache partition via Recovery Mode only clears temporary system junk files. Your personal photos, text messages, downloaded files, and app data remain completely untouched and safe.

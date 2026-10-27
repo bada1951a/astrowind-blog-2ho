@@ -68,11 +68,11 @@ Om de accu te ontlasten tijdens de kritieke fase, kun je een paar zware functies
 
 ## Veelgestelde vragen (FAQ)
 
-Q1: Moet ik mijn iPhone direct laten repareren als de batterijconditie onder de 80% zakt na een update?
+**Q1:** Moet ik mijn iPhone direct laten repareren als de batterijconditie onder de 80% zakt na een update?
 *Nee, niet direct. Een update kan een vertekend beeld geven van je batterijgezondheid doordat de software opnieuw kalibreert. Wacht minimaal een week na de update en kijk of de conditiepercentage in de instellingen stabiliseert.*
 
-Q2: Helpt het om mijn iPhone volledig leeg te laten lopen en daarna weer tot 100% op te laden?
+**Q2:** Helpt het om mijn iPhone volledig leeg te laten lopen en daarna weer tot 100% op te laden?
 *Bij moderne lithium-ion accu's heeft dit geen zin en is het zelfs schadelijk. Diep ontladen belast de accucellen onnodig. Het is beter om de accu tussen de 20% en 80% te houden voor een maximale levensduur.*
 
-Q3: Kan een downgrade naar de vorige iOS-versie mijn batterijprobleem oplossen?
+**Q3:** Kan een downgrade naar de vorige iOS-versie mijn batterijprobleem oplossen?
 *In theory wel, maar Apple stopt al snel met het ondertekenen (signing) van oudere iOS-versies. Dit betekent dat een officiële downgrade vaak onmogelijk is zonder technische risico's. Beter is het om te wachten op een snelle 'bug-fix' update van Apple.*

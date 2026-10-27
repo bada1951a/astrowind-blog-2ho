@@ -18,8 +18,6 @@ En el peor momento de desesperación, es muy común cometer errores críticos de
 
 El verdadero coste de esta emergencia radica en la pérdida potencial de información crítica y la interrupción absoluta de la comunicación en un entorno urbano hiperconectado. Perder el acceso al dispositivo implica quedar incomunicado en medio de la capital, sin poder coordinar la logística de reuniones presenciales, consultar mapas de tráfico en tiempo real o validar operaciones financieras urgentes. Es en este preciso instante cuando se comprende la absoluta necesidad de aplicar un procedimiento técnico riguroso, basado en el conocimiento experto del hardware y del software del sistema operativo Android, para devolver el terminal a un estado operativo seguro y funcional sin comprometer los datos almacenados.
 
-
-
 ![Samsung Galaxy Boot Loop Stuck on Samsung Logo: Clearing Cache Partition in Recovery Mobile Repair Guide](https://picsum.photos/seed/mob-mvpkga97-5-b/1000/550.jpg)
 
 ## 2. Análisis de causas raíz de fallos de carga y hardware
@@ -46,8 +44,8 @@ Para resolver de manera definitiva el bloqueo en el logotipo y restaurar la esta
 
 ### Método 2: Borrado de partición de caché en modo Recovery (Wipe Cache Partition)
 1. Con el teléfono completamente apagado, conecte un cable USB original a un ordenador portátil o mantenga enchufado un auricular compatible para habilitar la puerta de enlace del gestor de arranque.
-2. Mantenga presionados simultáneamente los botones de **Subir volumen **y**Encendido **durante al menos 10 o 15 segundos hasta que aparezca el logotipo de la marca con las letras iniciales de recuperación en la esquina superior.
-3. Utilice el botón de **Bajar volumen **para navegar por el menú textual hasta resaltar la opción denominada `Wipe cache partition` y selecciónela pulsando el botón de **Encendido**.
+2. Mantenga presionados simultáneamente los botones de **Subir volumen**y**Encendido**durante al menos 10 o 15 segundos hasta que aparezca el logotipo de la marca con las letras iniciales de recuperación en la esquina superior.
+3. Utilice el botón de **Bajar volumen**para navegar por el menú textual hasta resaltar la opción denominada `Wipe cache partition` y selecciónela pulsando el botón de **Encendido**.
 4. Confirme la operación seleccionando la opción `Yes` mediante las teclas de volumen y, una vez finalizado el proceso de limpieza, seleccione `Reboot system now` para reiniciar el terminal de forma limpia.
 
 ### Método 3: Comprobación de resistencia de cables y protocolos de carga rápida
@@ -66,12 +64,12 @@ Para garantizar una larga vida útil y prevenir futuros episodios de bucles de a
 
 **Q1.**¿Perderé mis fotos, contactos y aplicaciones personales al realizar un borrado de caché en el modo Recovery?
 
-A1. No, la ejecución de la opción `Wipe cache partition` se limita estrictamente a eliminar los archivos temporales y datos obsoletos acumulados por el sistema operativo durante su funcionamiento cotidiano. Sus archivos personales, fotografías, vídeos y configuraciones de usuario permanecen completamente intactos en sus respectivas particiones de almacenamiento interno de tipo UFS. Este procedimiento es totalmente seguro y está diseñado específicamente por los fabricantes para solucionar bloqueos de software sin necesidad de recurrir a un restablecimiento de fábrica.
+**A1.** No, la ejecución de la opción `Wipe cache partition` se limita estrictamente a eliminar los archivos temporales y datos obsoletos acumulados por el sistema operativo durante su funcionamiento cotidiano. Sus archivos personales, fotografías, vídeos y configuraciones de usuario permanecen completamente intactos en sus respectivas particiones de almacenamiento interno de tipo UFS. Este procedimiento es totalmente seguro y está diseñado específicamente por los fabricantes para solucionar bloqueos de software sin necesidad de recurrir a un restablecimiento de fábrica.
 
 **Q2.**¿Qué debo hacer si el teléfono sigue atascado en el logotipo de Samsung incluso después de haber limpiado la partición de caché?
 
-A2. Si el sistema operativo continúa sin superar la pantalla de arranque tras limpiar la caché, es muy probable que el firmware principal se haya corrompido debido a un fallo en la lectura de la memoria flash o a sectores defectuosos en el almacenamiento. En este escenario crítico, la única solución viable pasa por reinstalar el paquete oficial de firmware completo utilizando un ordenador con la herramienta especializada Odin en un entorno técnico controlado. Se recomienda encarecidamente acudir a un centro de asistencia técnica autorizado para evitar un bloqueo permanente del gestor de arranque (hard brick).
+**A2.** Si el sistema operativo continúa sin superar la pantalla de arranque tras limpiar la caché, es muy probable que el firmware principal se haya corrompido debido a un fallo en la lectura de la memoria flash o a sectores defectuosos en el almacenamiento. En este escenario crítico, la única solución viable pasa por reinstalar el paquete oficial de firmware completo utilizando un ordenador con la herramienta especializada Odin en un entorno técnico controlado. Se recomienda encarecidamente acudir a un centro de asistencia técnica autorizado para evitar un bloqueo permanente del gestor de arranque (hard brick).
 
 **Q3.** ¿Por qué mi teléfono móvil se calienta de manera excesiva justo antes de quedarse bloqueado en el logotipo?
 
-A3. El calentamiento extremo previo a un bloqueo suele ser el síntoma inequívoco de un cortocircuito parcial en alguno de los componentes de la placa base, como el procesador central exigiendo la máxima potencia de cálculo debido a un bucle lógico infinito o un fallo en el circuito integrado de gestión de energía. Cuando el PMIC detecta un consumo anómalo de corriente que amenaza con fundir los microcircuitos adyacentes, activa mecanismos de protección térmica que congelan el sistema o fuerzan un reinicio constante. Si este comportamiento térmico se repite de forma sistemática, es imperativo realizar una revisión completa del hardware en un laboratorio especializado.
+**A3.** El calentamiento extremo previo a un bloqueo suele ser el síntoma inequívoco de un cortocircuito parcial en alguno de los componentes de la placa base, como el procesador central exigiendo la máxima potencia de cálculo debido a un bucle lógico infinito o un fallo en el circuito integrado de gestión de energía. Cuando el PMIC detecta un consumo anómalo de corriente que amenaza con fundir los microcircuitos adyacentes, activa mecanismos de protección térmica que congelan el sistema o fuerzan un reinicio constante. Si este comportamiento térmico se repite de forma sistemática, es imperativo realizar una revisión completa del hardware en un laboratorio especializado.
