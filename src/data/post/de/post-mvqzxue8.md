@@ -75,14 +75,14 @@ Ein weiterer kritischer Punkt betrifft die langfristige Vorsorge gegen den gefü
 
 ## 5. Häufig gestellte Fragen (FAQ)
 
-**Q1.** Verliere ich meine persönlichen Fotos und Kontakte, wenn ich im Recovery-Modus die Cache-Partition leere?
+Q1. Verliere ich meine persönlichen Fotos und Kontakte, wenn ich im Recovery-Modus die Cache-Partition leere?
 
-**A1.** Nein, das Löschen der Cache-Partition (Wipe cache partition) entfernt ausschließlich temporäre Systemdaten, App-Zwischenspeicher und veraltete Installationsreste. Ihre persönlichen Dateien, Fotos, Videos, Kontakte und installierten Anwendungen bleiben dabei vollständig unangetastet und sicher auf dem Gerät gespeichert. Sie müssen lediglich darauf achten, keinesfalls den Menüpunkt "Wipe data / factory reset" auszuwählen, da dieser tatsächlich alle Benutzerdaten unwiderruflich löscht.
+A1. Nein, das Löschen der Cache-Partition (Wipe cache partition) entfernt ausschließlich temporäre Systemdaten, App-Zwischenspeicher und veraltete Installationsreste. Ihre persönlichen Dateien, Fotos, Videos, Kontakte und installierten Anwendungen bleiben dabei vollständig unangetastet und sicher auf dem Gerät gespeichert. Sie müssen lediglich darauf achten, keinesfalls den Menüpunkt "Wipe data / factory reset" auszuwählen, da dieser tatsächlich alle Benutzerdaten unwiderruflich löscht.
 
-**Q2.** Was kann ich tun, wenn die Tastenkombination für den Recovery-Modus nicht reagiert und das Samsung Galaxy weiterhin im Logo festhängt?
+Q2. Was kann ich tun, wenn die Tastenkombination für den Recovery-Modus nicht reagiert und das Samsung Galaxy weiterhin im Logo festhängt?
 
-**A2.** Wenn das Smartphone auf die Standard-Tastenkombinationen nicht reagiert, liegt dies meist daran, dass der Akku komplett entladen ist oder sich das Gerät in einem tiefen Kernel-Freeze befindet. Schließen Sie das Smartphone für mindestens dreißig Minuten an ein leistungsstarkes Original-Ladegerät an, damit sich die Zelle etwas erholen kann. Versuchen Sie anschließend erneut, die Tasten "Lauter" und "Ein/Aus" gleichzeitig gedrückt zu halten, oder nutzen Sie die Drei-Tasten-Methode (Lauter, Leiser und Ein/Aus gleichzeitig), falls Ihr spezifisches Galaxy-Modell dies erfordert.
+A2. Wenn das Smartphone auf die Standard-Tastenkombinationen nicht reagiert, liegt dies meist daran, dass der Akku komplett entladen ist oder sich das Gerät in einem tiefen Kernel-Freeze befindet. Schließen Sie das Smartphone für mindestens dreißig Minuten an ein leistungsstarkes Original-Ladegerät an, damit sich die Zelle etwas erholen kann. Versuchen Sie anschließend erneut, die Tasten "Lauter" und "Ein/Aus" gleichzeitig gedrückt zu halten, oder nutzen Sie die Drei-Tasten-Methode (Lauter, Leiser und Ein/Aus gleichzeitig), falls Ihr spezifisches Galaxy-Modell dies erfordert.
 
-**Q3.** Warum stürzt das Smartphone überhaupt ab, nur weil der interne Speicher komplett voll ist?
+Q3. Warum stürzt das Smartphone überhaupt ab, nur weil der interne Speicher komplett voll ist?
 
-**A3.** Das Betriebssystem Android benötigt permanenten, freien Speicherplatz auf dem internen Flash-Speicher, um virtuelle Arbeitsspeicher-Auslagerungen (Swap), temporäre Log-Dateien und System-Caches zu verwalten. Wenn der Speicher zu einhundert Prozent voll ist, schlagen Schreibvorgänge des Linux-Kernels fehl, da keine physischen Blöcke mehr zugewiesen werden können. Dies führt zu kritischen Systemfehlern, die den Kernel zum sofortigen Schutzabsturz zwingen und den berüchtigten Boot-Loop auslösen.
+A3. Das Betriebssystem Android benötigt permanenten, freien Speicherplatz auf dem internen Flash-Speicher, um virtuelle Arbeitsspeicher-Auslagerungen (Swap), temporäre Log-Dateien und System-Caches zu verwalten. Wenn der Speicher zu einhundert Prozent voll ist, schlagen Schreibvorgänge des Linux-Kernels fehl, da keine physischen Blöcke mehr zugewiesen werden können. Dies führt zu kritischen Systemfehlern, die den Kernel zum sofortigen Schutzabsturz zwingen und den berüchtigten Boot-Loop auslösen.
