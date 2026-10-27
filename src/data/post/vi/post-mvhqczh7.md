@@ -17,7 +17,7 @@ Với kinh nghiệm cầm mỏ hàn, khò nhiệt và bóc tách hàng ngàn chi
 <div style="border-left: 4px solid #4338ca; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Cảnh báo từ thợ sửa chữ
 
-**A.** </strong> Đừng vội vã mang máy đi thay pin hay thay cụm cáp sạc khi chưa kiểm tra kỹ phần mềm và vệ sinh đúng cách. Rất nhiều trường hợp chỉ cần tối ưu lại hệ thống hoặc làm sạch chân tiếp xúc là máy lại trâu bò bình thường.
+A. </strong> Đừng vội vã mang máy đi thay pin hay thay cụm cáp sạc khi chưa kiểm tra kỹ phần mềm và vệ sinh đúng cách. Rất nhiều trường hợp chỉ cần tối ưu lại hệ thống hoặc làm sạch chân tiếp xúc là máy lại trâu bò bình thường.
 </div>
 
 ## 3 nguyên nhân cốt lõi khiến iPhone hao pin nhanh và lỗi sạc nhanh sau khi cập nhật iOS
@@ -40,7 +40,7 @@ Thay vì hoảng loạn mang máy đi tiệm, anh em hãy thực hiện lần l�
 Bụi vải trong túi quần, mồ hôi tay và độ ẩm đặc trưng của thời tiết Sài Gòn rất dễ bám vào các chân tiếp xúc mạ vàng bên trong cổng Type-C, cản trở giao tiếp dữ liệu và dòng điện sạc nhanh.
 * Cách làm: Lấy một chiếc tăm tre vót thật dẹt và mỏng (tuyệt đối không dùng kim loại hay tăm bông có sợi bông dễ bóc tách), nhẹ nhàng khều sạch lớp bụi xơ ép chặt ở đáy cổng sạc. Sau đó dùng cồn Isopropyl (IPA) 90 độ chấm vào bàn chải đánh răng lông mềm, vẩy thật ráo rồi chà nhẹ để tẩy sạch cặn bẩn oxy hó
 
-**A.** ### Bước 2: Tắt các tính năng làm mới nền và tối ưu hóa sạc
+A. ### Bước 2: Tắt các tính năng làm mới nền và tối ưu hóa sạc
 * Vào Cài đặt (Settings) > Cài đặt chung (General) > Làm mới ứng dụng trong nền (Background App Refresh) và chuyển về trạng thái Tắt hoặc chỉ chọn những app thực sự cần thiết.
 * Kiểm tra mục Pin (Battery) xem app nào đang "hút máu" nhiều nhất trong 24 giờ qua để tiến hành gỡ bỏ hoặc cài đặt lại phiên bản mới nhất từ App Store.
 

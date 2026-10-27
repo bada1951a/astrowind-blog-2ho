@@ -25,9 +25,9 @@ Sau khi kiem tra chiec may cua chi khach tai ban ky thuat TPHCM, nguyen nhan nha
 * Tien trinh ngam bi treo (Zombie App): Mot so ung dung mang xa hoi hoac app dat xe bi loi dong bo du lieu, chay ngam khong ngung nghi khien chip xu ly (CPU) luon hoat động o cong suat cao 100%, dan den nong ran toan bo mat lung va sut pin than toc.
 * Loi mach giao tiep USB Power Delivery (PD): Khi cong Type C bi bam bui ban hoac am moc, mach dieu khien sac nhanh bi nhieu tin hieu, danh lua bo nguon rang may dang qua nhiet, dan den tinh trang ngat sac nhanh hoac chi nhan sac cham 5W 1
 
-**A.** * Xung dot he thong sau ban cap nhat One UI: Nhieu tien ich (widgets) hoac dich vu vi tri chay ngam bi loi vong lap (loop) sau khi may tu dong cap nhat phan mem qua OT
+A. * Xung dot he thong sau ban cap nhat One UI: Nhieu tien ich (widgets) hoac dich vu vi tri chay ngam bi loi vong lap (loop) sau khi may tu dong cap nhat phan mem qua OT
 
-**A.** ## Cac buoc xu ly tai cho an toan va hieu qua nhat
+A. ## Cac buoc xu ly tai cho an toan va hieu qua nhat
 
 Truoc khi mang ra tiem de ton tien thay pin hay sua main, ban hoan toan co the tu xu ly tai ban lam viec cua minh bang quy trinh chuan ky thuat vien duoi day:
 
@@ -41,7 +41,7 @@ Dung mot cay tam tre vuot nhon hoac mot soi chi nho de nhe nhang khua sach bui v
 ### Buoc 3: Kiem tra muc tieu thu pin va go bo app rac
 Vao phan *Cai dat -> Cham soc pin va thiet bi -> Pin -> Muc su dung*. Tai day, hay kiem tra xem ung dung nao dang hut pin nhieu nhat trong 24 gio qu
 
-**A.** Neu thay app nao la hoac co thoi gian chay ngam bat thuong, hay chon "Buoc dung" (Force Stop) va tien hanh go cai dat (Uninstall) ngay lap tuc.
+A. Neu thay app nao la hoac co thoi gian chay ngam bat thuong, hay chon "Buoc dung" (Force Stop) va tien hanh go cai dat (Uninstall) ngay lap tuc.
 
 ---
 
@@ -50,7 +50,7 @@ Vao phan *Cai dat -> Cham soc pin va thiet bi -> Pin -> Muc su dung*. Tai day, h
 ### 1. Tai sao dien thoai cua toi khong dung gi ma van tu tut 30% pin trong 1 tieng?
 Hien tuong nay 90% do cac ung dung chay ngam hoac tinh nang dinh vi (GPS) bi mot app nao do kich hoat lien tuc. Ban nen bat Che do tiet kiem pin (Power Saving Mode) va kiem tra lai quyen truy cap vi tri cua cac ung dung ben thu b
 
-**A.** ![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhffjup-11-b/1000/550.jpg)
+A. ![Samsung Galaxy Severe Battery Drain and Overheating: Background App Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvhffjup-11-b/1000/550.jpg)
 
 ### 2. Cong Type C cua toi luc nhan sac nhanh, luc chi nhan sac cham la do dau?
 Thuong nguyen nhan la do chan tiep xuc ben trong dau cam Type C bi oxy hoa do mo hoi tay hoac bui ban bam lau ngay. Ban co the dung mot it con 90 do va tam bong nho de ve sinh nhe nhang phia trong long cong sac (nho tat nguon may truoc khi ve sinh).

@@ -28,7 +28,7 @@ Việc nhận thức rõ những gì đang bị đe dọa trong tình huống kh
 
 <div style="border-left: 4px solid #a16207; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">Mẹo chuyên gi
 
-**A.** Hiểu rõ nguyên nhân gốc rễ từ phần cứng và phần mềm giúp bạn phòng ngừa triệt để tình trạng treo logo lặp lại trên dòng máy Samsung Galaxy.</div>
+A. Hiểu rõ nguyên nhân gốc rễ từ phần cứng và phần mềm giúp bạn phòng ngừa triệt để tình trạng treo logo lặp lại trên dòng máy Samsung Galaxy.</div>
 
 Phân tích sâu về mặt vật lý, hiện tượng treo logo khởi động trên các dòng điện thoại Samsung Galaxy thường bắt nguồn từ sự suy giảm tiếp xúc tại các điểm kết nối vi mô bên trong cổng giao tiếp USB-C. Sau một thời gian dài sử dụng trong môi trường đô thị nhiều bụi mịn, các sợi xơ vải từ túi quần áo và bụi carbon tích tụ dày đặc bên trong khoang cổng sạc, bị nén chặt lại bởi lực cắm rút cáp hàng ngày. Sự tích tụ này kết hợp với độ ẩm từ mồ hôi tay hoặc không khí tạo ra một lớp màng dẫn điện trở kháng cao, khiến vi mạch điều khiển sạc nhận diện nhầm trạng thái dữ liệu, từ đó gửi các tín hiệu ngắt quãng đến trình quản lý khởi động nhân (kernel bootloader) của hệ điều hành.
 

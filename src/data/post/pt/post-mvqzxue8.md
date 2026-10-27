@@ -62,10 +62,10 @@ Antes de qualquer procedimento de software, certifique-se de que o hardware exte
 Este é o procedimento lógico definitivo para corrigir o boot loop causado por corrupção de arquivos temporários no sistema operacional Android.
 
 1. Conecte o smartphone a um computador ou a um carregador de parede utilizando um cabo USB original e certificado para garantir estabilidade de energia durante o processo.
-2. Pressione e mantenha pressionados simultaneamente o botão de Aumentar Volume**e o botão**Liga/Desliga(Power). Em alguns modelos mais recentes, mantenha também o botão de Início ou Bixby conforme a geração do aparelho.
+2. Pressione e mantenha pressionados simultaneamente o botão de Aumentar Volumee o botãoLiga/Desliga(Power). Em alguns modelos mais recentes, mantenha também o botão de Início ou Bixby conforme a geração do aparelho.
 3. Assim que o logotipo da Samsung aparecer na tela, solte imediatamente o botão Liga/Desliga, mas continue segurando o botão de Aumentar Volume até que o menu do Recovery Mode apareça em inglês na tela pret
 
-A.** 4. Navegue pelas opções utilizando os botões de**Volume para Baixoaté destacar a linha `Wipe cache partition` e selecione-a pressionando o botãoLiga/Desliga.
+A. 4. Navegue pelas opções utilizando os botões deVolume para Baixoaté destacar a linha `Wipe cache partition` e selecione-a pressionando o botãoLiga/Desliga.
 5. Confirme a operação selecionando `Yes` na tela seguinte e, após o término da limpeza, selecione a opção `Reboot system now` para reiniciar o aparelho de forma limpa e segur
 
 A. ### Método 3: Teste cruzado de protocolo de carga e dissipação térmica
