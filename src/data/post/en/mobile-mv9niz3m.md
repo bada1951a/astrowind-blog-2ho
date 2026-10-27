@@ -71,14 +71,14 @@ When you are dealing with sensitive financial documents, NDAs, or signed contrac
 
 ## 5. Frequently Asked Questions (FAQ)
 
-**Q:** Can I scan multiple pages into a single PDF file on my Galaxy?
+**Q.** Can I scan multiple pages into a single PDF file on my Galaxy?
 
-**A:** Yes! When using the native Galaxy camera scan feature, after capturing the first page, tap the Plus (+) icon on the screen to add subsequent pages. Once you hit save, all pages automatically compile into a clean, multi-page PDF document ready for email or faxing.
+**A.** Yes! When using the native Galaxy camera scan feature, after capturing the first page, tap the Plus (+) icon on the screen to add subsequent pages. Once you hit save, all pages automatically compile into a clean, multi-page PDF document ready for email or faxing.
 
-**Q:** What should I do if the room is too dark and shadows are unavoidable?
+**Q.** What should I do if the room is too dark and shadows are unavoidable?
 
-**A:** Turn on your Galaxy's flashlight toggle in the quick settings panel before opening the camera, or use a companion phone's flashlight angled from a 45-degree side angle. Never use your camera's direct flash right above glossy paper, as it creates a blinding white glare spot that washes out the text.
+**A.** Turn on your Galaxy's flashlight toggle in the quick settings panel before opening the camera, or use a companion phone's flashlight angled from a 45-degree side angle. Never use your camera's direct flash right above glossy paper, as it creates a blinding white glare spot that washes out the text.
 
-**Q:** Why do mobile fax apps still say my file is too large even after scanning?
+**Q.** Why do mobile fax apps still say my file is too large even after scanning?
 
-**A:** Built-in scanner apps sometimes output extremely high-resolution image PDFs. Open the PDF in your Samsung Notes app or a lightweight PDF viewer, then choose "Save as compressed PDF" or export it with medium quality settings to shrink the file size below the fax service limit without losing text legibility.
+**A.** Built-in scanner apps sometimes output extremely high-resolution image PDFs. Open the PDF in your Samsung Notes app or a lightweight PDF viewer, then choose "Save as compressed PDF" or export it with medium quality settings to shrink the file size below the fax service limit without losing text legibility.

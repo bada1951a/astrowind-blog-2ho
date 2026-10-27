@@ -17,17 +17,19 @@ Zamiast tracić nerwy na ręczne przestleianie jasności i motywów za każdym r
 ![Smartphone Diagnostic & Troubleshooting](https://picsum.photos/seed/smartphone-478/1000/550)
 
 <div style="border-left: 4px solid #14b8a6; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Diagnostyka Modułu:</strong> Poniższy protokół bazuje na analizie zachowania szyny danych i częstotliwości odświeżania podświetlenia pod kątem minimalizacji degradacji pikseli organicznych w warunkach zmiennego oświetlenia otoczenia. </div>
+<strong>Diagnostyka Modułu:</strong> Poniższy protokół bazuje na analizie zachowania szyny danych i częstotliwości odświeżania podświetlenia pod kątem minimalizacji degradacji pikseli organicznych w warunkach zmiennego oświetlenia otoczeni
+
+**A.** </div>
 
 ## Dlaczego domyślne ustawienia niszczą Twój ekran i baterię?
 
 Zanim przejdziemy do konfiguracji, spójrzmy prawdzie w oczy – fabryczne mechanizmy Apple rzadko nadają się do dynamicznego życia w trasie. Oto trzy główne powody, przez które Twój telefon cierpi:
 
-1. Wypalanie statyczne pikseli (Burn-in): Jasne tła w aplikacjach biurowych i przeglądarkach przez długie godziny trwale degradują niebieskie subpiksele w matrycach OLED. Wymiana ekranu w nowszych iPhone'ach to koszt dobrego monitora.
+1. Wypalanie statyczne pikseli (Burn-in): Jasne tła w aplikacjach biurowych i przeglądarkach przez długie godziny trwale degradują niebieskie subpiksele w matrycach OLED. Wymiana ekranu w nowszych iPhone'ach to koszt dobrego monitor
 
-2. Brutalny drenaż ogniw
+**A.** 2. Brutalny drenaż ogniw
 
-**a:** Ekran OLED zużywa energię proporcjonalnie do liczby zaświeconych pikseli. Białe tło na maksymalnej jasności to najszybsza droga do rozładowania baterii w środku ważnego callu.
+**A.** Ekran OLED zużywa energię proporcjonalnie do liczby zaświeconych pikseli. Białe tło na maksymalnej jasności to najszybsza droga do rozładowania baterii w środku ważnego callu.
 
 3. Niedokładność automatycznej jasności: Czujnik światła otoczenia (ALS) w pociągach czy tunelach często wariuje, przełączając się między skrajnymi trybami, co męczy wzrok i powoduje mikrozacięcia systemu.
 
@@ -35,7 +37,9 @@ Zanim przejdziemy do konfiguracji, spójrzmy prawdzie w oczy – fabryczne mecha
 
 ## Krok po kroku: Konfiguracja automatyzacji trybu ciemnego i ochrony wzroku
 
-Nie będziemy polegać na zwykłym harmonogramie "od zachodu do wschodu słońca", bo w podróży czas i miejsce ulegają ciągłej zmianie. Użyдим aplikacji Skróty (Shortcuts), aby spiąć to z fizycznym stanem urządzenia. ### Krok 1: Sprawdzenie ustawień sieciowych i synchronizacji
+Nie będziemy polegać na zwykłym harmonogramie "od zachodu do wschodu słońca", bo w podróży czas i miejsce ulegają ciągłej zmianie. Użyдим aplikacji Skróty (Shortcuts), aby spiąć to z fizycznym stanem urządzeni
+
+**A.** ### Krok 1: Sprawdzenie ustawień sieciowych i synchronizacji
 Zanim dotkniemy automatyzacji, upewnijmy się, że system nie zmaga się z backgroundową synchronizacją, która podgrzewa procesor. Wejdź w Ustawienia > Ogólne > Odświeżanie w tle i wyłącz aplikacje, których nie musisz widzieć na żywo w podróży. Jeśli sieć w pociągu wariuje, zrób szybki restart: Ustawienia > Ogólne > Przenieś lub wyzeruj iPhone'a > Wyzeruj > Zresetuj ustawienia sieciowe.
 
 ### Krok 2: Tworzenie inteligentnej automatyzacji w aplikacji Skróty
@@ -58,17 +62,19 @@ W edytorze akcji wpisz w wyszukiwarce komendy i dodaj następujące parametry:
 <div style="border-left: 4px solid #14b8a6; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Wskazówka serwisow
 
-**a:**</strong> Pamiętaj o dodaniu drugiej, odwrotnej automatyzacji dla zdarzenia "Jest zamykana", która przywróci jasność do poziomu domyślnego, gdy odłożysz telefon. W przeciwnym razie system pozostanie przyciemniony również na zewnątrz w pełnym słońcu.
+**A.** </strong> Pamiętaj o dodaniu drugiej, odwrotnej automatyzacji dla zdarzenia "Jest zamykana", która przywróci jasność do poziomu domyślnego, gdy odłożysz telefon. W przeciwnym razie system pozostanie przyciemniony również na zewnątrz w pełnym słońcu.
 </div>
 
 ---
 
 ## Profesjonalne porady serwisowe (E-E-A-T)
 
-Jako osoba, która przez lata przeszła przez setki napraw płyt głównych i wymian ekranów, muszę uczulić Cię na jedną rzecz. Korzystanie z telefonu podłączonego do powerbanku podczas intensywnego tetheringu w pociągu generuje ogromne ilości ciepła. * Kontrola temperatury: Połączenie wysokiej jasności ekranu, modemu 5G pracującego na pełnej mocy w ruchu oraz ładowania indukcyjnego lub przewodowego to najszybszy sposób na degradację chemiczną ogniwa litowo-jonowego. Jeśli zauważysz, że plecki iPhone'a parzą w ręce, odłącz ładowanie na 10 minut.
+Jako osoba, która przez lata przeszła przez setki napraw płyt głównych i wymian ekranów, muszę uczulić Cię na jedną rzecz. Korzystanie z telefonu podłączonego do powerbanku podczas intensywnego tetheringu w pociągu generuje ogromne ilości ciepł
+
+**A.** * Kontrola temperatury: Połączenie wysokiej jasności ekranu, modemu 5G pracującego na pełnej mocy w ruchu oraz ładowania indukcyjnego lub przewodowego to najszybszy sposób na degradację chemiczną ogniwa litowo-jonowego. Jeśli zauważysz, że plecki iPhone'a parzą w ręce, odłącz ładowanie na 10 minut.
 * Pamięć podręczn
 
-**a:** Regularnie czyść pamięć podręczną przeglądarek mobilnych. Nadmiar danych w tle połączony z niestabilnym sygnałem komórkowym w pociągu potrafi zajechać procesor szybciej niż granie w gry 3D.
+**A.** Regularnie czyść pamięć podręczną przeglądarek mobilnych. Nadmiar danych w tle połączony z niestabilnym sygnałem komórkowym w pociągu potrafi zajechać procesor szybciej niż granie w gry 3D.
 
 ---
 

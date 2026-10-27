@@ -34,7 +34,7 @@ Before you start poking around your charging port, it helps to understand why yo
 
 ---
 
-## 3. Step-by-Step Practical Resolution Practical Emergency Resolution
+## 3. Step-by-Step Practical Resolution Practical Resolution Practical Emergency Resolution
 
 When you are in a rush, desperate moves like blasting a hair dryer on high heat or jamming a metal paperclip into the port can permanently fry your logic board. Follow this tested workflow to clear the error safely.
 
@@ -70,14 +70,14 @@ Once your emergency has passed, take a few preventative steps to keep this error
 
 ## 5. Frequently Asked Questions (FAQ)
 
-**Q:** Can I use rubbing alcohol to clean out a liquid-detected port?
+**Q.** Can I use rubbing alcohol to clean out a liquid-detected port?
 
-**A:** Yes, but with strict conditions. High-purity isopropyl alcohol (99% or higher) is safe because it evaporates rapidly and displaces water. Dip a clean micro-brush lightly into the alcohol, gently clean the port, and wait at least 15 to 20 minutes for it to completely evaporate before attempting to charge.
+**A.** Yes, but with strict conditions. High-purity isopropyl alcohol (99% or higher) is safe because it evaporates rapidly and displaces water. Dip a clean micro-brush lightly into the alcohol, gently clean the port, and wait at least 15 to 20 minutes for it to completely evaporate before attempting to charge.
 
-**Q:** Why does the warning keep popping up even though my phone has never been near water?
+**Q.** Why does the warning keep popping up even though my phone has never been near water?
 
-**A:** This is almost always caused by humidity combined with accumulated pocket lint inside the port. The lint holds moisture from the air, creating enough electrical conductivity to trick the safety sensor. A thorough physical cleaning usually solves this permanently.
+**A.** This is almost always caused by humidity combined with accumulated pocket lint inside the port. The lint holds moisture from the air, creating enough electrical conductivity to trick the safety sensor. A thorough physical cleaning usually solves this permanently.
 
-**Q:** Is it safe to charge my phone while the "Liquid Detected" warning is active?
+**Q.** Is it safe to charge my phone while the "Liquid Detected" warning is active?
 
-**A:** Strongly discouraged. Forcing power into a wet or shorted connector can cause micro-arcing, permanently melting the plastic housing inside the port or frying the phone's charging management chip, leading to an expensive motherboard repair. Use wireless charging as a safe workaround until the port dries out.
+**A.** Strongly discouraged. Forcing power into a wet or shorted connector can cause micro-arcing, permanently melting the plastic housing inside the port or frying the phone's charging management chip, leading to an expensive motherboard repair. Use wireless charging as a safe workaround until the port dries out.

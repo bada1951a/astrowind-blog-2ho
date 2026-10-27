@@ -28,7 +28,9 @@ Para entender qué falló en ese momento de máxima tensión, hay que mirar bajo
 
 2. Conflicto de procesos en segundo plano: Una sincronización fallida con iCloud combinada con la recepción masiva de datos en aplicaciones de mensajería puede congelar el hilo principal del procesador.
 
-3. Bucle en el controlador táctil (Digitizer IC): El componente físico encargado de traducir tus pulsaciones dactilares a coordenadas digitales deja de comunicarse con la placa base debido a una excepción de software no controlada. ---
+3. Bucle en el controlador táctil (Digitizer IC): El componente físico encargado de traducir tus pulsaciones dactilares a coordenadas digitales deja de comunicarse con la placa base debido a una excepción de software no controlad
+
+**A.** ---
 
 ### Pasos exactos para realizar el Reinicio Forzado
 
@@ -40,7 +42,9 @@ Olvida los mitos de meter el teléfono en arroz o esperar milagros. Dependiendo 
 
 2. Pulsa y suelta rápidamente el botón de Bajar volumen.
 
-3. Mantén presionado el botón lateral (encendido) de forma continuada. No lo sueltes aunque aparezca el deslizador de apagar. Ignóralo por completo y sigue sujetándolo.
+3. Mantén presionado el botón lateral (encendido) de forma continuad
+
+**A.** No lo sueltes aunque aparezca el deslizador de apagar. Ignóralo por completo y sigue sujetándolo.
 
 4. Espera a que la pantalla se apague por completo y aparezca el logotipo de Apple (la manzana mordida). En ese preciso instante, puedes soltar el botón lateral.
 
@@ -57,10 +61,10 @@ Una vez que el teléfono arrancó de nuevo, pude enviar el archivo a tiempo por 
 * Mantén siempre un margen de seguridad: Nunca dejes que el almacenamiento interno baje del 5% de su capacidad total. iOS necesita espacio libre para gestionar la memoria virtual (swap).
 * Actualiza con cabez
 
-**a:** Muchos bloqueos táctiles repentinos están ligados a pequeños bugs en versiones menores de iOS. Revisa periódicamente Configuración > General > Actualización de software.
+**A.** Muchos bloqueos táctiles repentinos están ligados a pequeños bugs en versiones menores de iOS. Revisa periódicamente Configuración > General > Actualización de software.
 * Funda y temperatur
 
-**a:** Un uso intensivo conectado al cargador rápido mientras editas documentos pesados puede sobrecalentar el chip principal, obligando al sistema a congelar la interfaz para proteger el hardware.
+**A.** Un uso intensivo conectado al cargador rápido mientras editas documentos pesados puede sobrecalentar el chip principal, obligando al sistema a congelar la interfaz para proteger el hardware.
 
 ---
 
@@ -76,4 +80,6 @@ Una vez que el teléfono arrancó de nuevo, pude enviar el archivo a tiempo por 
 
 **Q.** ¿Por qué mi iPhone se congela con tanta frecuencia últimamente?
 
-**A.** Si el problema se repite de forma constante, suele ser síntoma de una aplicación de terceros corrupta que consume todos los recursos, o bien de una degradación severa de la salud de la batería. Te sugiero revisar el consumo de batería en los ajustes y desinstalar apps pesadas que ya no utilices.
+**A.** Si el problema se repite de forma constante, suele ser síntoma de una aplicación de terceros corrupta que consume todos los recursos, o bien de una degradación severa de la salud de la baterí
+
+**A.** Te sugiero revisar el consumo de batería en los ajustes y desinstalar apps pesadas que ya no utilices.

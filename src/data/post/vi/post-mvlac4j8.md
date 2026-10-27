@@ -17,7 +17,9 @@ Nếu bạn cũng đang gặp tình trạng màn hình Samsung tự động gi�
 ![How to Stop Samsung Galaxy Screen from Auto-Dimming Outdoors with High Brightness Mobile Repair Guide](https://picsum.photos/seed/mob-mvlaehfv-11-b/1000/550.jpg)
 
 <div style="border-left: 4px solid #059669; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-Lưu ý quan trọng từ thợ sửa chữa: Tuyệt đối không dùng kim loại nhọn như kim khâu hay đầu tăm nhôm để chọc ngoáy vào cổng sạc khi bị kẹt cát. Hành động này có thể làm cong vênh hoặc gãy các chân đồng tiếp xúc bên trong, biến một lỗi vệ sinh nhỏ thành chi phí thay cả cụm cáp sạc đắt đỏ.
+Lưu ý quan trọng từ thợ sửa chữ
+
+**A.** Tuyệt đối không dùng kim loại nhọn như kim khâu hay đầu tăm nhôm để chọc ngoáy vào cổng sạc khi bị kẹt cát. Hành động này có thể làm cong vênh hoặc gãy các chân đồng tiếp xúc bên trong, biến một lỗi vệ sinh nhỏ thành chi phí thay cả cụm cáp sạc đắt đỏ.
 </div>
 
 ## 3 nguyên nhân cốt lõi khiến máy tự giảm sáng ngoài trời và bám bẩn cổng sạc

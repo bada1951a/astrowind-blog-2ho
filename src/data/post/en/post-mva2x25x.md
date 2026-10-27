@@ -76,14 +76,14 @@ Once your phone boots back up, do not just rush back into your workday. Take the
 
 ## 5. Frequently Asked Questions (FAQ)
 
-**Q:** What if the Apple logo appears, but the screen is still unresponsive to touch after booting up?
+**Q.** What if the Apple logo appears, but the screen is still unresponsive to touch after booting up?
 
-**A:** If the phone boots up but touch still doesn't work, it's usually a dirty screen protector, moisture on the glass, or a disconnected digitizer cable (if the phone was recently dropped). Remove any thick tempered glass screen protectors and wipe the screen with a microfiber cloth. If that fails, you may need a display module check at an Apple Authorized Service Provider.
+**A.** If the phone boots up but touch still doesn't work, it's usually a dirty screen protector, moisture on the glass, or a disconnected digitizer cable (if the phone was recently dropped). Remove any thick tempered glass screen protectors and wipe the screen with a microfiber cloth. If that fails, you may need a display module check at an Apple Authorized Service Provider.
 
-**Q:** Will doing a force restart delete my photos, messages, or apps?
+**Q.** Will doing a force restart delete my photos, messages, or apps?
 
-**A:** Absolutely not. A force restart is simply a hard power cycle—equivalent to pulling the plug on a desktop computer. It does not clear your user data, wipe your cache partitions, or delete any personal files. Your data remains completely safe.
+**A.** Absolutely not. A force restart is simply a hard power cycle—equivalent to pulling the plug on a desktop computer. It does not clear your user data, wipe your cache partitions, or delete any personal files. Your data remains completely safe.
 
-**Q:** What should I do if the button combination still doesn't turn the screen black?
+**Q.** What should I do if the button combination still doesn't turn the screen black?
 
-**A:** If your buttons are physically damaged or the hardware is locked up deeper in the kernel, plug your iPhone into a computer running Finder (Mac) or iTunes (Windows) using a Lightning or USB-C cable. Sometimes an active data handshake with a computer will force the device out of its frozen state, after which you can safely execute the button combination again.
+**A.** If your buttons are physically damaged or the hardware is locked up deeper in the kernel, plug your iPhone into a computer running Finder (Mac) or iTunes (Windows) using a Lightning or USB-C cable. Sometimes an active data handshake with a computer will force the device out of its frozen state, after which you can safely execute the button combination again.

@@ -13,7 +13,9 @@ theme: "Rosewood Hardware Guide"
 Buổi chiều tại một quán cà phê bận rộn ở Quận 1, TP.HCM, tôi đang ngồi nhấp ngụm cà phê thì một vị khách hớt hải chạy vào tiệm sửa điện thoại nhỏ của tôi. Chị tay cầm chiếc Samsung Galaxy đời mới, mặt tái mét vì máy cứ nhấp nháy mãi ở logo khởi động mà không chịu vào màn hình chính. Chị kể vừa đưa máy lên định chụp lại khoảnh khắc đáng yêu của con trai thì màn hình hiện thông báo **"bộ nhớ đầy"**(low storage), ngay sau đó ứng dụng thư viện ảnh đơ cứng rồi máy sập nguồn và kẹt luôn ở màn hình khởi động Samsung. Đây là cơn ác mộng kinh điển của nhiều người dùng smartphone khi bộ nhớ đệm (cache) bị quá tải đột ngột trong lúc hệ thống đang ghi dữ liệu.
 
 <div style="border-left: 4px solid #be123c; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Cảnh báo khẩn cấp từ thợ sửa chữa:</strong> Khi điện thoại bị treo logo do đầy bộ nhớ, tuyệt đối không cố gắng bấm liên tục các phím nguồn hoặc mang đi cài lại phần mềm ngay lập tức. Điều này có thể khiến dữ liệu cá nhân chưa đồng bộ bị mất vĩnh viễn.
+<strong>Cảnh báo khẩn cấp từ thợ sửa chữ
+
+**A.** </strong> Khi điện thoại bị treo logo do đầy bộ nhớ, tuyệt đối không cố gắng bấm liên tục các phím nguồn hoặc mang đi cài lại phần mềm ngay lập tức. Điều này có thể khiến dữ liệu cá nhân chưa đồng bộ bị mất vĩnh viễn.
 </div>
 
 ![Samsung Galaxy Boot Loop Stuck on Samsung Logo: Clearing Cache Partition in Recovery Mobile Repair Guide](https://picsum.photos/seed/mob-mvnf1ypa-11-b/1000/550.jpg)
@@ -36,9 +38,9 @@ Hãy làm theo các bước thực hiện chuẩn kỹ thuật dưới đây:
 
 2.**Kết nối cáp dữ liệu (nếu cần thiết):**Trên các dòng Samsung đời mới chạy One UI phiên bản cao, để vào được Recovery Mode, bạn cần cắm một sợi cáp USB (đã kết nối với máy tính hoặc củ sạc) vào điện thoại. Đây là cơ chế bảo mật phần cứng mới của hãng.
 
-3.**Vào chế độ Recovery Mode:**Ngay khi màn hình vừa tắt, lập tức chuyển tay bấm giữ tổ hợp**Phím Tăng Âm Lượng (+)**và**Phím Nguồn**. Giữ nguyên cho đến khi logo Samsung xuất hiện rồi buông phím nguồn, tiếp tục giữ phím tăng âm lượng cho đến khi giao diện Recovery màu đen chữ xanh/vàng hiện ra.
+3.**Vào chế độ Recovery Mode:**Ngay khi màn hình vừa tắt, lập tức chuyển tay bấm giữ tổ hợp**Phím Tăng Âm Lượng (+)**và**Phím Nguồn**. Giữ nguyên cho đến khi logo Samsung xuất hiện rồi buông phím nguồn, tiếp tục giữ phím tăng âm lượng cho đến khi giao diện Recovery màu đen chữ xanh/vàng hiện r
 
-4.**Chọn tính năng xóa bộ nhớ đệm:**Sử dụng phím giảm âm lượng để di chuyển dòng thực đơn xuống mục**Wipe cache partition**, sau đó nhấn phím nguồn để chọn.
+**A.** 4.**Chọn tính năng xóa bộ nhớ đệm:**Sử dụng phím giảm âm lượng để di chuyển dòng thực đơn xuống mục**Wipe cache partition**, sau đó nhấn phím nguồn để chọn.
 
 5.**Xác nhận thực thi:**Máy sẽ hỏi lại để chắc chắn, bạn di chuyển xuống chọn**Yes**rồi nhấn phím nguồn. Quá trình này chỉ diễn ra trong vài giây.
 
@@ -60,14 +62,14 @@ Là một người thợ sửa chữa lâu năm, tôi luôn khuyên khách hàng
 
 ## 5. Các câu hỏi thường gặp (FAQ)
 
-**Q:** Xóa phân vùng cache partition trong Recovery Mode có làm mất ảnh và danh bạ của tôi không?
+**Q.** Xóa phân vùng cache partition trong Recovery Mode có làm mất ảnh và danh bạ của tôi không?
 
-**A:** Tuyệt đối không. Thao tác**Wipe cache partition** chỉ xóa các tệp tin tạm, tệp rác hệ thống sinh ra trong quá trình sử dụng. Toàn bộ hình ảnh, tin nhắn, danh bạ và dữ liệu cá nhân của bạn hoàn toàn được giữ nguyên vẹn.
+**A.** Tuyệt đối không. Thao tác**Wipe cache partition**chỉ xóa các tệp tin tạm, tệp rác hệ thống sinh ra trong quá trình sử dụng. Toàn bộ hình ảnh, tin nhắn, danh bạ và dữ liệu cá nhân của bạn hoàn toàn được giữ nguyên vẹn.
 
-**Q:** Tại sao tôi đã cắm cáp mà vẫn không thể vào được chế độ Recovery Mode?
+**Q.** Tại sao tôi đã cắm cáp mà vẫn không thể vào được chế độ Recovery Mode?
 
-**A:** Nguyên nhân phổ biến là do bạn thả tay quá sớm hoặc thời điểm nhấn tổ hợp phím chưa chuẩn xác khi máy vừa ngắt nguồn. Hãy đảm bảo bạn dùng cáp có kết nối dữ liệu ổn định và thử lại vài lần với nhịp bấm dứt khoát hơn.
+**A.** Nguyên nhân phổ biến là do bạn thả tay quá sớm hoặc thời điểm nhấn tổ hợp phím chưa chuẩn xác khi máy vừa ngắt nguồn. Hãy đảm bảo bạn dùng cáp có kết nối dữ liệu ổn định và thử lại vài lần với nhịp bấm dứt khoát hơn.
 
-**Q:** Sau khi xóa cache mà máy vẫn bị treo logo thì phải làm sao?
+**Q.** Sau khi xóa cache mà máy vẫn bị treo logo thì phải làm sao?
 
-**A:** Nếu đã xóa cache mà tình trạng boot loop vẫn tiếp diễn, điều này chứng tỏ phân vùng hệ thống (system) hoặc phân vùng dữ liệu người dùng (userdata) đã bị lỗi nặng do ổ cứng đầy trước đó. Lúc này, bạn cần mang máy ra cửa hàng kỹ thuật để chạy lại phần mềm hoặc kiểm tra sâu hơn về phần cứng.
+**A.** Nếu đã xóa cache mà tình trạng boot loop vẫn tiếp diễn, điều này chứng tỏ phân vùng hệ thống (system) hoặc phân vùng dữ liệu người dùng (userdata) đã bị lỗi nặng do ổ cứng đầy trước đó. Lúc này, bạn cần mang máy ra cửa hàng kỹ thuật để chạy lại phần mềm hoặc kiểm tra sâu hơn về phần cứng.

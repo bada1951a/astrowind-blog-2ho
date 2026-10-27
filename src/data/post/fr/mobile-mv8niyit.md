@@ -70,14 +70,14 @@ Attention aux fausses bonnes idées. Ne télécharge surtout pas des application
 
 ### FAQ Technique
 
-**Q :** Pourquoi mon iPhone repasse parfois en mode clair tout seul malgré l'automatisation ?
+**Q.** Pourquoi mon iPhone repasse parfois en mode clair tout seul malgré l'automatisation ?
 
 **A.** C'est généralement dû à un profil de configuration entreprise (MDM) installé par ton service IT qui force des règles d'affichage, ou à un bug de synchronisation de l'heure automatique avec le réseau cellulaire du train. Désactive le mode automatique de l'heure dans les réglages généraux pour stabiliser tes scripts.
 
-**Q :** Est-ce que vider le cache des apps résout les plantages du partage de connexion ?
+**Q.** Est-ce que vider le cache des apps résout les plantages du partage de connexion ?
 
 **A.** Indirectement, oui. Un iPhone dont la mémoire est saturée par des apps mal codées redirige la puissance de calcul du processeur vers la gestion des tâches, ce qui fait sauter la pile réseau Wi-Fi/Bluetooth du hotspot. Un bon nettoyage redonne la priorité au modem cellulaire.
 
-**Q :** Comment éviter que le mode sombre ne rende illisible certaines feuilles de calcul Excel sur mobile ?
+**Q.** Comment éviter que le mode sombre ne rende illisible certaines feuilles de calcul Excel sur mobile ?
 
 **A.** C'est le piège classique. Dans les applications Office (Excel/Word), le mode sombre du système force parfois l'inversion des cellules. Va directement dans les paramètres de l'application Microsoft concernée et désactive l'inversion de couleur du canevas pour garder un fond blanc de travail tout en gardant les menus en noir.

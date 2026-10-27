@@ -12,7 +12,9 @@ theme: "Nordic Clean Ice"
 
 Ero seduto ai tavolini fuori di un caffè in zona Centrale a Milano, con il sole che batteva dritto sul tavolino, nel bel mezzo di una serie di chiamate di lavoro urgentissime con i fornitori. Proprio mentre cercavo disperatamente di confermare un preventivo urgente, lo schermo del mio Samsung Galaxy ha deciso di spegnersi quasi del tutto, diventando improvvisamente buio a causa del surriscaldamento sotto la luce diretta del sole. Per completare il disastro, ho collegato il power bank con il cavetto ma, invece di ricaricare, la percentuale della batteria continuava a scendere inesorabilmente a vista d'occhio, mentre il telefono bolliva tra le mie mani.
 
-Se ti è mai capitato di trovarti in questa situazione frustrante, sai benissimo cosa si prova. Lavorare o semplicemente usare lo smartphone all'aperto quando fa caldo, magari mentre si carica o si usa il GPS, mette a dura prova l'hardware dei moderni Galaxy.
+Se ti è mai capitato di trovarti in questa situazione frustrante, sai benissimo cosa si prov
+
+**A.** Lavorare o semplicemente usare lo smartphone all'aperto quando fa caldo, magari mentre si carica o si usa il GPS, mette a dura prova l'hardware dei moderni Galaxy.
 
 ![How to Stop Samsung Galaxy Screen from Auto-Dimming Outdoors with High Brightness Mobile Repair Guide](https://picsum.photos/seed/mob-mvlad950-6-b/1000/550.jpg)
 
@@ -24,21 +26,29 @@ Nota del tecnico: Quando la temperatura interna supera i livelli di guardia, il 
 
 Prima di correre in un centro assistenza, capiamo cosa sta succedendo dentro la scocca del tuo smartphone:
 
-1. Protezione termica attiva: I pannelli AMOLED luminosi generano tantissimo calore. Sotto il sole diretto di Milano d'estate, il sensore rileva temperature critiche e oscura il display per raffreddare il processore.
+1. Protezione termica attiv
 
-2. Assorbimento energetico anomalo: Se usi il telefono al massimo della luminosità, con dati mobili attivi e in chiamata, il consumo energetico supera i watt erogati dal caricabatterie o dal power bank, facendo scendere la percentuale della batteria.
+**A.** I pannelli AMOLED luminosi generano tantissimo calore. Sotto il sole diretto di Milano d'estate, il sensore rileva temperature critiche e oscura il display per raffreddare il processore.
 
-3. Sensore di luminosità confuso: La luce riflessa o sporcizia accumulata vicino alla fotocamera frontale falsano la lettura automatica della luce ambientale.
+2. Assorbimento energetico anomalo: Se usi il telefono al massimo della luminosità, con dati mobili attivi e in chiamata, il consumo energetico supera i watt erogati dal caricabatterie o dal power bank, facendo scendere la percentuale della batteri
+
+**A.** 3. Sensore di luminosità confuso: La luce riflessa o sporcizia accumulata vicino alla fotocamera frontale falsano la lettura automatica della luce ambientale.
 
 ### Come risolvere il problema in pochi passi
 
 Ecco la procedura pratica che adotto ogni giorno in laboratorio per evitare che il telefono si spenga o si oscuri nei momenti meno opportuni.
 
 Passo 1: Disattiva la luminosità adattiva e gestisci il calore
-Entra nelle impostazioni del display e disattiva temporaneamente la luminosità adattiva se ti trovi sotto il sole cocente e hai bisogno di visibilità costante, oppure assicurati che la funzione di protezione della vista sia disattivata. Ricorda però di riattivarla quando rientri al chiuso per non stressare la vista e la batteria.
+Entra nelle impostazioni del display e disattiva temporaneamente la luminosità adattiva se ti trovi sotto il sole cocente e hai bisogno di visibilità costante, oppure assicurati che la funzione di protezione della vista sia disattivat
 
-Passo 2: Ottimizza la ricarica in condizioni di stress
-Se colleghi il cavo ma la batteria cala, significa che le app aperte consumano più energia di quella immessa. Chiudi le applicazioni in background pesanti come navigatori o chiamate VoIP prolungate mentre è in carica. Se usi codici di diagnostica di sistema per verificare lo stato della porta, inserisci questo comando nel tastierino numerico:
+**A.** Ricorda però di riattivarla quando rientri al chiuso per non stressare la vista e la batteri
+
+**A.** Passo 2: Ottimizza la ricarica in condizioni di stress
+Se colleghi il cavo ma la batteria cala, significa che le app aperte consumano più energia di quella immess
+
+**A.** Chiudi le applicazioni in background pesanti come navigatori o chiamate VoIP prolungate mentre è in caric
+
+**A.** Se usi codici di diagnostica di sistema per verificare lo stato della porta, inserisci questo comando nel tastierino numerico:
 ```bash
 *#0*#
 ```
@@ -48,7 +58,9 @@ Passo 3: Pulisci i connettori e favorisci la dissipazione
 Togli la cover protettiva se è particolarmente spessa e isolante (specialmente quelle in silicone spesso o materiali sintetici che trattengono il calore). Se noti che la ricarica è lenta o instabile, pulisci delicatamente la porta USB-C con uno stecchino di legno asciutto, rimuovendo la polvere accumulata in tasca che aumenta la resistenza elettrica e quindi il calore.
 
 <div style="border-left: 4px solid #0284c7; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-Attenzione: Non usare mai liquidi spray o oggetti metallici appuntiti come aghi per pulire la porta di ricarica. Rischieresti di cortocircuitare i contatti interni o danneggiare permanentemente i pin di alimentazione.
+Attenzione: Non usare mai liquidi spray o oggetti metallici appuntiti come aghi per pulire la porta di ricaric
+
+**A.** Rischieresti di cortocircuitare i contatti interni o danneggiare permanentemente i pin di alimentazione.
 </div>
 
 ### Domande Frequenti

@@ -86,14 +86,14 @@ When pushing mobile hardware to its limits inside a moving Faraday cage like a h
 
 ## 5. Frequently Asked Questions (FAQ)
 
-**Q1:** Will turning on Low Power Mode during a hotspot session disconnect my laptop's internet connection?
+**Q1.** Will turning on Low Power Mode during a hotspot session disconnect my laptop's internet connection?
 
-**A1:** No. iOS Low Power Mode restricts background mail fetch, app refreshes, and visual eye-candy animations, but it maintains full bandwidth allocation for active tethering clients connected via Wi-Fi or USB.
+**A1.** No. iOS Low Power Mode restricts background mail fetch, app refreshes, and visual eye-candy animations, but it maintains full bandwidth allocation for active tethering clients connected via Wi-Fi or USB.
 
-**Q2:** My iPhone still gets warm even with Dark Mode enabled on the train. What else can I check?
+**Q2.** My iPhone still gets warm even with Dark Mode enabled on the train. What else can I check?
 
-**A2:** Check your active background apps. Go to Settings > Battery and see which application is hogging the CPU. Often, cloud sync apps (like Dropbox, OneDrive, or heavy enterprise mail clients) try to sync gigabytes of data over cellular the moment a stable connection is detected, creating immense modem heat. Toggle off "Background App Refresh" for non-essential apps before boarding.
+**A2.** Check your active background apps. Go to Settings > Battery and see which application is hogging the CPU. Often, cloud sync apps (like Dropbox, OneDrive, or heavy enterprise mail clients) try to sync gigabytes of data over cellular the moment a stable connection is detected, creating immense modem heat. Toggle off "Background App Refresh" for non-essential apps before boarding.
 
-**Q3:** Can I set this automation to trigger based on my location (e.g., entering the train station) instead of manual hotspot toggling?
+**Q3.** Can I set this automation to trigger based on my location (e.g., entering the train station) instead of manual hotspot toggling?
 
-**A3:** Yes! In the Shortcuts app, you can use a Arrival / Leaving Location trigger tied to your local railway station coordinates. However, GPS geofencing can sometimes suffer from signal drift inside concrete transit terminals. Tying the routine directly to the Personal Hotspot toggle remains the most bulletproof and immediate trigger for field engineers on the move.
+**A3.** Yes! In the Shortcuts app, you can use a Arrival / Leaving Location trigger tied to your local railway station coordinates. However, GPS geofencing can sometimes suffer from signal drift inside concrete transit terminals. Tying the routine directly to the Personal Hotspot toggle remains the most bulletproof and immediate trigger for field engineers on the move.

@@ -13,7 +13,9 @@ tags: ["Serwis Telefonów", "Powerbank", "Ładowanie", "Naprawa Smartphone"]
 
 Siemanko! Pozdrowienia z samego serca stolicy – mój serwis w Warszawie w okolicach Centrum widział już chyba wszystko. Ale powiem Wam, że jedną z najbardziej frustrujących sytuacji dla klientów, którzy wpadają do mnie z ulicy, jest ta klasyczna scen
 
-**a:** zimny poranek, biegniesz na tramwaj, patrzysz na ekran, a tam bateria pokazuje czerwone 4%. Wyciągasz z plecaka rzetelnego, ciężkiego powerbanka, podłączasz kablem i... nagle na ekranie iPhone'a albo Samsunga pojawia się ten wkurzający komunikat: *„Wolne ładowanie”*, *„Użyj oryginalnej ładowarki”* albo telefon niby łapie prąd, ale procenty zamiast rosnąć, lecą w dół, bo w tle odpaliła się nawigacja. ![How to Fix Slow Charging Warning When Using Power Banks on iPhone and Android Guide](https://picsum.photos/seed/mob-mvf61b8z-9-b/1000/550.jpg)
+**A.** zimny poranek, biegniesz na tramwaj, patrzysz na ekran, a tam bateria pokazuje czerwone 4%. Wyciągasz z plecaka rzetelnego, ciężkiego powerbanka, podłączasz kablem i... nagle na ekranie iPhone'a albo Samsunga pojawia się ten wkurzający komunikat: *„Wolne ładowanie”*, *„Użyj oryginalnej ładowarki”* albo telefon niby łapie prąd, ale procenty zamiast rosnąć, lecą w dół, bo w tle odpaliła się nawigacj
+
+**A.** ![How to Fix Slow Charging Warning When Using Power Banks on iPhone and Android Guide](https://picsum.photos/seed/mob-mvf61b8z-9-b/1000/550.jpg)
 
 No szlag może trafić, prawda? Człowiek kupuje akcesorium za ponad sto złotych, liczy na szybki zastrzyk energii, a tu dostaje informację, że proces trwa wieczność. Zamiast panikować, że telefon nadaje się do wyrzucenia, usiądźmy na spokojnie i przeanalizujmy, dlaczego tak się dzieje. Jako serwisant z wieloletnim stażem podpowiem Ci krok po kroku, jak zdiagnozować i rozwiązać ten problem – najczęściej bez płacenia ani grosza za wizytę w profesjonalnym zakładzie.
 
@@ -30,7 +32,9 @@ Zanim wyciągniesz z szuflady pęsetę albo zaczniesz przeklinać producenta swo
 
 **A.** Telefon próbuje „dogadać się” z magazynem energii, nie znajduje wspólnego języka i przełącza się w awaryjny, bezpieczny tryb ślimaczy.
 *   Uszkodzony, przepalony lub "zmęczony" kabel USB
-    Kabelki za 5 złotych z kiosku to cisi zabójcy baterii. Mają tak cienkie żyły w środku, że przy próbie przesłania wyższego prądu po prostu się nagrzewają, powodując ogromne spadki napięcia. Telefon myśli wtedy, że źródło jest słabe i ogranicza pobór mocy.
+    Kabelki za 5 złotych z kiosku to cisi zabójcy baterii. Mają tak cienkie żyły w środku, że przy próbie przesłania wyższego prądu po prostu się nagrzewają, powodując ogromne spadki napięci
+
+**A.** Telefon myśli wtedy, że źródło jest słabe i ogranicza pobór mocy.
 
 ---
 
@@ -55,27 +59,37 @@ Większość nowoczesnych powerbanków ma kilka wyjść: starsze USB-A oraz nowo
 
 ### 4. Porady ekspert
 
-**a:** Jak dbać o porty i baterię, żeby służyły latami?
+**A.** Jak dbać o porty i baterię, żeby służyły latami?
 
-Jako serwisant urządzeń mobilnych muszę przypomnieć Wam o kilku żelaznych zasadach bezpieczeństwa. Ignorowanie ich kończy się zazwyczaj wymianą płyty głównej albo drogą regeneracją gniazd
+Jako serwisant urządzeń mobilnych muszę przypomnieć Wam o kilku żelaznych zasadach bezpieczeństw
 
-**a:**
+**A.** Ignorowanie ich kończy się zazwyczaj wymianą płyty głównej albo drogą regeneracją gniazd
 
-*   Nigdy nie dłub w porcie metalowymi przedmiotami! Igły, spinacze czy szpilki to najlepsi przyjaciele zwarcia. Wystarczy ułamek sekundy, by dotknąć styków zasilania i masy – w efekcie usmażysz układ zarządzania zasilaniem (tzw. IC ładowania) na płycie głównej. Naprawa w takim przypadku kosztuje już konkretne pieniądze.
-*   Unikaj ładowania w ekstremalnych temperaturach. Powerbanki nie lubią mrozów, a podczas szybkiego oddawania prądu mocno się nagrzewają. Jeśli leżał zimą w samochodzie, daj mu chwilę na złapanie temperatury pokojowej przed podpięciem do drogiego smartfona. *   Inwestuj w certyfikowane akcesoria. Kupowanie powerbanka bez żadnych zabezpieczeń przeciwprzepięciowych to loteria. Taki sprzęt może podać za wysokie napięcie w momencie rozładowania ogniwa, co bezwzględnie uszkodzi elektronikę w telefonie.
+**A.** *   Nigdy nie dłub w porcie metalowymi przedmiotami! Igły, spinacze czy szpilki to najlepsi przyjaciele zwarci
+
+**A.** Wystarczy ułamek sekundy, by dotknąć styków zasilania i masy – w efekcie usmażysz układ zarządzania zasilaniem (tzw. IC ładowania) na płycie głównej. Naprawa w takim przypadku kosztuje już konkretne pieniądze.
+*   Unikaj ładowania w ekstremalnych temperaturach. Powerbanki nie lubią mrozów, a podczas szybkiego oddawania prądu mocno się nagrzewają. Jeśli leżał zimą w samochodzie, daj mu chwilę na złapanie temperatury pokojowej przed podpięciem do drogiego smartfon
+
+**A.** *   Inwestuj w certyfikowane akcesori
+
+**A.** Kupowanie powerbanka bez żadnych zabezpieczeń przeciwprzepięciowych to loteri
+
+**A.** Taki sprzęt może podać za wysokie napięcie w momencie rozładowania ogniwa, co bezwzględnie uszkodzi elektronikę w telefonie.
 
 ---
 
 ## 5. Najczęściej zadawane pytania (FAQ) – Najczęściej zadawane pytania z mojego warsztatu
 
-**Q:** Dlaczego iPhone częściej niż Android pokazuje ostrzeżenie o wolnym ładowaniu z powerbanka?
+**Q.** Dlaczego iPhone częściej niż Android pokazuje ostrzeżenie o wolnym ładowaniu z powerbanka?
 
-**A:** System iOS jest niezwykle restrykcyjny pod względem bezpieczeństwa i parametrów prądowych. Apple dba o żywotność baterii w swoich urządzeniach, dlatego jeśli wykryje chociażby minimalne skoki napięcia, niestabilność protokołu MFi (Made for iPhone) lub zbyt niskie natężenie, natychmiast wyrzuca komunikat ostrzegawczy na ekranie blokady.
+**A.** System iOS jest niezwykle restrykcyjny pod względem bezpieczeństwa i parametrów prądowych. Apple dba o żywotność baterii w swoich urządzeniach, dlatego jeśli wykryje chociażby minimalne skoki napięcia, niestabilność protokołu MFi (Made for iPhone) lub zbyt niskie natężenie, natychmiast wyrzuca komunikat ostrzegawczy na ekranie blokady.
 
-**Q:** Czy używanie powerbanka stale psuje baterię w telefonie?
+**Q.** Czy używanie powerbanka stale psuje baterię w telefonie?
 
-**A:** Absolutnie nie, pod warunkiem, że używasz sprawnego, markowego sprzętu o odpowiednich parametrach. Mit o „psuciu baterii” wziął się z czasów tanich, chińskich akumulatorów bez stabilizacji napięcia. Współczesne smartfony same regulują pobór prądu dzięki zaawansowanym kontrolerom ładowania.
+**A.** Absolutnie nie, pod warunkiem, że używasz sprawnego, markowego sprzętu o odpowiednich parametrach. Mit o „psuciu baterii” wziął się z czasów tanich, chińskich akumulatorów bez stabilizacji napięci
 
-**Q:** Co zrobić, jeśli wyczyściłem gniazdo, zmieniłem kabel i powerbank nadal ładuje tragicznie wolno?
+**A.** Współczesne smartfony same regulują pobór prądu dzięki zaawansowanym kontrolerom ładowani
 
-**A:** W takiej sytuacji problem może leżeć głębiej – np. w uszkodzonym układzie U2/Tristar (w iPhone'ach) lub uszkodzonym kontrolerze ładowania USB na płycie głównej (w Androidach). Często zdarza się to po zalaniu telefonu lub silnym uderzeniu mechanicznym w dolną część obudowy. Wpadnij do nas do serwisu w centrum Warszawy – bezpłatnie rzucimy na to okiem pod mikroskopem!
+**A.Q.** Co zrobić, jeśli wyczyściłem gniazdo, zmieniłem kabel i powerbank nadal ładuje tragicznie wolno?
+
+**A.** W takiej sytuacji problem może leżeć głębiej – np. w uszkodzonym układzie U2/Tristar (w iPhone'ach) lub uszkodzonym kontrolerze ładowania USB na płycie głównej (w Androidach). Często zdarza się to po zalaniu telefonu lub silnym uderzeniu mechanicznym w dolną część obudowy. Wpadnij do nas do serwisu w centrum Warszawy – bezpłatnie rzucimy na to okiem pod mikroskopem!

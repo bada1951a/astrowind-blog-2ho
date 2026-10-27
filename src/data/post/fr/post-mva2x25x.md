@@ -65,4 +65,6 @@ Une fois la réunion sauvée et le bureau retrouvé au calme, prenez quelques mi
 
 **Q.** Le tactile ne fonctionne toujours pas après le redémarrage, que se passe-t-il ?
 
-**A.** Si l'affichage est revenu mais que vos doigts ne commandent toujours rien, le problème est probablement d'ordre matériel (nappe du tactile débranchée suite à une chute, ou écran de mauvaise qualité suite à un remplacement non officiel). Un passage en atelier de réparation s'imposera.
+**A.** Si l'affichage est revenu mais que vos doigts ne commandent toujours rien, le problème est probablement d'ordre matériel (nappe du tactile débranchée suite à une chute, ou écran de mauvaise qualité suite à un remplacement non officiel). Un passage en atelier de réparation s'imposer
+
+**A.**

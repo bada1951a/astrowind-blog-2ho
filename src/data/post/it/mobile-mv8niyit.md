@@ -12,7 +12,9 @@ theme: "Industrial Blueprint"
 
 Ore 07:30, treno KTX diretto a Milano Centrale (o Roma Termini, fate voi). Devo assolutamente aprire il Mac, far partire l'hotspot dal mio iPhone 15 Pro e chiudere un preventivo urgente prima di arrivare in stazione. Controllo la percentuale della batteri
 
-**a:** 14%. Un brivido freddo lungo la schiena, lo stesso che sento quando un cliente mi porta un telefono "morto" dopo un tentativo di fai-da-te male riuscito. La luminosità dello schermo è sparata al massimo perché fuori dai finestrini il sole picchia forte, i sub-pixel OLED stanno letteralmente bruciando energia a intervalli regolari, e l'AP (Application Processor) sta urlando invocando pietà termica. Bastano tre minuti di tethering con il display bianco accecante per veder crollare l'autonomia al 9% e far andare il telefono in thermal throttling. Maledizione, serviva un'automazione per la Dark Mode già attiva da un pezzo.
+**A.** 14%. Un brivido freddo lungo la schiena, lo stesso che sento quando un cliente mi porta un telefono "morto" dopo un tentativo di fai-da-te male riuscito. La luminosità dello schermo è sparata al massimo perché fuori dai finestrini il sole picchia forte, i sub-pixel OLED stanno letteralmente bruciando energia a intervalli regolari, e l'AP (Application Processor) sta urlando invocando pietà termic
+
+**A.** Bastano tre minuti di tethering con il display bianco accecante per veder crollare l'autonomia al 9% e far andare il telefono in thermal throttling. Maledizione, serviva un'automazione per la Dark Mode già attiva da un pezzo.
 
 <div style="border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>NOTA TECNICA DEL BANCONE:</strong> Quando l'iPhone lavora sotto stress di rete (Hotspot 5G) con il display al 100% di luminosità in modalità Light, la temperatura della scheda madre sale vertiginosamente. Il circuito di gestione energetica (PMIC) taglia la corrente per evitare danni permanenti alle celle agli ioni di litio, causando lag e consumi anomali.
@@ -28,13 +30,15 @@ Prima di mettere le mani nel codice o nei comandi rapidi, smontiamo il problema 
 
 2. Carico Termico sull'AP (Application Processor): Un display impostato su sfondi chiari in ambienti ad alta luminosità costringe il sensore di luce ambientale a spingere la retroilluminazione logica del pannello al limite, generando calore che si propaga direttamente verso la CPU e il modem 5G durante il tethering.
 
-3. Mancanza di Automazione Contestuale: Lasciare che sia l'utente a ricordarsi di attivare la Dark Mode o a regolarla manualmente è un errore di sistema. L'hardware moderno richiede routine basate su trigger intelligenti (orario, posizione o stato della batteria).
+3. Mancanza di Automazione Contestuale: Lasciare che sia l'utente a ricordarsi di attivare la Dark Mode o a regolarla manualmente è un errore di sistem
+
+**A.** L'hardware moderno richiede routine basate su trigger intelligenti (orario, posizione o stato della batteria).
 
 ---
 
 ## Analisi Comparativ
 
-**a:** Light Mode vs Dark Mode vs Automazione Smart
+**A.** Light Mode vs Dark Mode vs Automazione Smart
 
 Per capire l'impatto reale sulla componentistica interna, vediamo questa tabella comparativa basata sui dati diagnostici del banco:
 
@@ -48,7 +52,9 @@ Per capire l'impatto reale sulla componentistica interna, vediamo questa tabella
 
 ## Procedura di Riparazione: Configurare l'Automazione della Dark Mode
 
-Basta imprecare sui treni o rischiare di rimanere offline. Apriamo le Impostazioni del nostro iPhone e costruiamo una routine a prova di bomba utilizzando l'app Comandi Rapidi (Shortcuts) integrata in iOS. Nessuna app di terze parti pesante, solo ottimizzazione nativa. ### Step 1: Verifica dei parametri di base
+Basta imprecare sui treni o rischiare di rimanere offline. Apriamo le Impostazioni del nostro iPhone e costruiamo una routine a prova di bomba utilizzando l'app Comandi Rapidi (Shortcuts) integrata in iOS. Nessuna app di terze parti pesante, solo ottimizzazione nativ
+
+**A.** ### Step 1: Verifica dei parametri di base
 Andiamo su Impostazioni > Batteria e verificamene lo stato di salute. Se la batteria è già degradata (<80%), l'uso della Dark Mode non è un optional, è una necessità vitale per evitare shutdown improvvisi durante l'hotspot.
 
 ### Step 2: Configurazione dell'Automazione Temporale o di Trigger
@@ -58,7 +64,9 @@ Andiamo su Impostazioni > Batteria e verificamene lo stato di salute. Se la batt
 
 3. Tocca il pulsante + in alto a destra per creare una nuova automazione personale.
 
-4. Scorri e seleziona Ora del giorno (oppure Arrivo / Quando mi connettoa. .. se vuoi collegarla direttamente all'hotspot o al Wi-Fi del treno/ufficio).
+4. Scorri e seleziona Ora del giorno (oppure Arrivo / Quando mi connetto
+
+**A.** .. se vuoi collegarla direttamente all'hotspot o al Wi-Fi del treno/ufficio).
 
 5. Imposta l'orario desiderato (es. Tramonto, o le 08:00 del mattino) e seleziona Esegui subito (disattiva "Chiedi prima di eseguire" per renderla totalmente autonoma).
 
@@ -75,8 +83,7 @@ Andiamo su Impostazioni > Batteria e verificamene lo stato di salute. Se la batt
 ### Step 3: Pulizia e Reset dei parametri di sistema (Opzionale)
 Se noti che il sensore di luce ambientale fa i capricci e non commuta correttamente, esegui una pulizia della cache del sistem
 
-**a:**
-* Vai su Impostazioni > Generali > Ripristina > Ripristina impostazioni (attenzione, non cancellare i contenuti, solo le impostazioni generali per ricalibrare i sensori).
+**A.** * Vai su Impostazioni > Generali > Ripristina > Ripristina impostazioni (attenzione, non cancellare i contenuti, solo le impostazioni generali per ricalibrare i sensori).
 * Assicurati che Opzioni sviluppatore (se abilitate tramite Xcode per diagnostica avanzata) non stiano forzando il rendering GPU in modalità di test energetico.
 
 ---
@@ -89,20 +96,20 @@ Prima di chiudere la cover posteriore e rimettere il telefono in tasca, tieni a 
 * Non esagerare con i temi custom: Evita sfondi neri con widget troppo complessi o animati. Sfondi statici neri puri (#000000) massimizzano il beneficio dell'hardware OLED.
 * Gestione termic
 
-**a:** Se il telefono scalda troppo durante l'hotspot sul treno, rimuovi la cover protettiva per facilitare la dissipazione del calore attraverso lo chassis in titanio o alluminio.
+**A.** Se il telefono scalda troppo durante l'hotspot sul treno, rimuovi la cover protettiva per facilitare la dissipazione del calore attraverso lo chassis in titanio o alluminio.
 
 ---
 
 ## FAQ Tecniche (Domande Frequenti dal Banco)
 
-**Q1:** L'automazione della Dark Mode consuma risorse in background?
+**Q1.** L'automazione della Dark Mode consuma risorse in background?
 
 **A.** No. L'app Comandi Rapidi di iOS sfrutta i daemon nativi del sistema operativo già presenti nel kernel. L'impatto sul consumo della CPU è letteralmente pari allo 0%, a differenza dei widget meteo o delle app di personalizzazione di terze parti.
 
-**Q2:** Perché il mio schermo OLED mostra comunque una leggera luminosità nei neri al buio totale?
+**Q2.** Perché il mio schermo OLED mostra comunque una leggera luminosità nei neri al buio totale?
 
 **A.** È una caratteristica fisica dei pannelli OLED di tipo economico o non calibrati perfettamente sui livelli di tensione minimi (sub-pixel bleed). Tuttavia, con la Dark Mode attiva, il consumo energetico su quei pixel scende comunque a valori prossimi allo zero assoluto rispetto al bianco.
 
-**Q3:** Posso collegare l'automazione della Dark Mode direttamente all'attivazione dell'Hotspot Personale?
+**Q3.** Posso collegare l'automazione della Dark Mode direttamente all'attivazione dell'Hotspot Personale?
 
 **A.** Assolutamente sì. Nella schermata di creazione dell'automazione in Comandi Rapidi, puoi selezionare come trigger "Hotspot Personale attivo". In questo modo, ogni volta che accendi il tethering per il tuo laptop, l'iPhone si metterà automaticamente in modalità di risparmio visivo ed energetico spinto.

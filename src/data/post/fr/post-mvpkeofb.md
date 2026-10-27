@@ -44,9 +44,9 @@ Pour résoudre cette situation critique de boucle de redémarrage et nettoyer le
 5. Inspectez la propreté des broches dorées à l'aide d'une loupe et d'une source lumineuse puissante pour vous assurer qu'aucun corps étranger résiduel ne subsiste.
 
 ### Méthode 2 : Effacement de la partition de cache via le Recovery Mode matériel
-1. Assurez-vous que l'appareil est éteint. S'il est bloqué sur le logo, maintenez simultanément enfoncés le bouton**Volume Bas **et le bouton**Marche/Arrêt **pendant environ dix secondes jusqu'à ce que l'écran s'éteigne.
-2. Dès que l'écran s'éteint, basculez immédiatement la combinaison de touches en maintenant enfoncés le bouton**Volume Haut **et le bouton**Marche/Arrêt**jusqu'à l'apparition du logo Samsung, puis relâchez.
-3. Le terminal va charger l'interface textuelle noire du mode de récupération (**Android Recovery**). Naviguez dans les menus en utilisant les boutons**Volume Bas **pour descendre et le bouton**Marche/Arrêt** pour valider.
+1. Assurez-vous que l'appareil est éteint. S'il est bloqué sur le logo, maintenez simultanément enfoncés le bouton**Volume Bas**et le bouton**Marche/Arrêt**pendant environ dix secondes jusqu'à ce que l'écran s'éteigne.
+2. Dès que l'écran s'éteint, basculez immédiatement la combinaison de touches en maintenant enfoncés le bouton**Volume Haut**et le bouton**Marche/Arrêt**jusqu'à l'apparition du logo Samsung, puis relâchez.
+3. Le terminal va charger l'interface textuelle noire du mode de récupération (**Android Recovery**). Naviguez dans les menus en utilisant les boutons**Volume Bas**pour descendre et le bouton**Marche/Arrêt** pour valider.
 4. Sélectionnez l'option `Wipe cache partition` en utilisant les boutons de volume, puis validez avec le bouton d'alimentation.
 5. Confirmez l'opération en sélectionnant `Yes` sur l'écran suivant pour effacer les fichiers système corrompus sans toucher à vos photos ou documents personnels.
 6. Une fois le nettoyage terminé, sélectionnez l'option `Reboot system now` pour relancer l'appareil normalement.
@@ -73,11 +73,11 @@ Pour pérenniser votre matériel et éviter de vous retrouver dans une situation
 
 ## 5. Foire Aux Questions (FAQ)
 
-**Q1.**Est-ce que l'effacement de la partition de cache via le Recovery Mode supprime mes photos et mes messages personnels ?
+**Q1.** Est-ce que l'effacement de la partition de cache via le Recovery Mode supprime mes photos et mes messages personnels ?
 
 **A1.** Absolument pas. L'option `Wipe cache partition` se limite exclusivement à supprimer les fichiers temporaires et les données résiduelles compilées par le système d'exploitation Android lors des mises à jour ou des utilisations quotidiennes. Vos données personnelles, telles que vos photos, vos contacts, vos applications et vos messages, sont stockées dans une partition sécurisée distincte appelée Userdata qui n'est en aucun cas effacée par cette manipulation de maintenance.
 
-**Q2.**Que dois-je faire si mon téléphone reste bloqué sur le logo Samsung même après avoir vidé le cache ?
+**Q2.** Que dois-je faire si mon téléphone reste bloqué sur le logo Samsung même après avoir vidé le cache ?
 
 **A2.** Si la boucle de redémarrage persiste après un nettoyage de cache, cela indique généralement que la corruption du système d'exploitation est plus profonde ou que le port USB-C endommagé maintient un court-circuit matériel persistant. Dans ce cas de figure, il conviendra d'envisager une réinitialisation complète aux paramètres d'usine via le même menu Recovery, ou de confier l'appareil à un centre de réparation professionnel pour le remplacement physique du connecteur de charge endommagé.
 

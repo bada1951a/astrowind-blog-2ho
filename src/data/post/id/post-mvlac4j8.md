@@ -22,9 +22,9 @@ Banyak pengguna langsung panik mengira LCD atau OLED ponsel mereka rusak parah d
 
 Berikut adalah tiga akar permasalahan utama kenapa layar Samsung Galaxy Anda mendadak gelap gulita di luar ruangan:
 
-Pertama, sensor cahaya sekitar (ambient light sensor) di bagian atas layar tertutup oleh debu tebal, minyak wajah, atau temper glass berkualitas rendah yang salah memotong lubang sensor. Ketika sensor membaca cahaya luar sangat kuat, sistem terkadang salah mengalkulasi dan justru memicu proteksi silau yang menurunkan tingkat kecerahan demi menghemat daya.
+Pertama, sensor cahaya sekitar (ambient light sensor) di bagian atas layar tertutup oleh debu tebal, minyak wajah, atau temper glass berkualitas rendah yang salah memotong lubang sensor. Ketika sensor membaca cahaya luar sangat kuat, sistem terkadang salah mengalkulasi dan justru memicu proteksi silau yang menurunkan tingkat kecerahan demi menghemat day
 
-Kedua, proteksi suhu berlebih (thermal throttling). Ketika Anda memakai ponsel di area outdoor yang panas ditambah aktivitas berat seperti panggilan video, GPS, atau pengisian daya cepat, suhu chip internal melonjak cepat. One UI secara otomatis akan memangkas kecerahan layar maksimal untuk mencegah layar mengalami *burn-in* permanen atau komponen terbakar.
+**A.** Kedua, proteksi suhu berlebih (thermal throttling). Ketika Anda memakai ponsel di area outdoor yang panas ditambah aktivitas berat seperti panggilan video, GPS, atau pengisian daya cepat, suhu chip internal melonjak cepat. One UI secara otomatis akan memangkas kecerahan layar maksimal untuk mencegah layar mengalami *burn-in* permanen atau komponen terbakar.
 
 Ketiga, fitur Kecerahan Adaptif (Adaptive Brightness) atau Perlindungan Mata (Eye Comfort Shield) aktif pada waktu yang tidak tepat, atau adanya gangguan kecil pada cache sistem setelah pembaruan perangkat lunak.
 
@@ -34,11 +34,13 @@ Peringatan Penting: Jangan pernah mencongkel area lubang speaker atas atau senso
 
 Mari kita selesaikan masalah ini langkah demi langkah dengan panduan praktis yang aman dilakukan sendiri tanpa alat berat:
 
-Langkah pertama, periksa dan bersihkan area sekitar kamera depan dan speaker atas. Gunakan kain microfiber bersih yang sedikit dibubuhi cairan pembersih kaca khusus gadget atau sekadar usap perlahan untuk menghilangkan minyak tangan dan debu halus yang menutupi sensor cahaya. Jika Anda menggunakan tempered glass murah yang menutupi area sensor tanpa potongan yang pas, pertimbangkan untuk menggantinya dengan pelindung layar berkualitas tinggi yang memiliki potongan presisi untuk sensor.
+Langkah pertama, periksa dan bersihkan area sekitar kamera depan dan speaker atas. Gunakan kain microfiber bersih yang sedikit dibubuhi cairan pembersih kaca khusus gadget atau sekadar usap perlahan untuk menghilangkan minyak tangan dan debu halus yang menutupi sensor cahay
 
-Langkah kedua, atur ulang pengaturan tampilan layar. Masuk ke menu Pengaturan (Settings), pilih Tampilan (Display), dan sesuaikan opsi Kecerahan Adaptif. Jika Anda sering beraktivitas di luar ruangan Jakarta yang terik, Anda bisa mematikan fitur Kecerahan Adaptif sementara waktu atau mengatur kalibrasi ulang kecerahan manual. Selain itu, pastikan fitur Extra Brightness dalam keadaan aktif jika tipe Samsung Galaxy Anda mendukungnya.
+**A.** Jika Anda menggunakan tempered glass murah yang menutupi area sensor tanpa potongan yang pas, pertimbangkan untuk menggantinya dengan pelindung layar berkualitas tinggi yang memiliki potongan presisi untuk sensor.
 
-Langkah ketiga, lakukan pengecekan suhu dan restart sistem. Jika ponsel terasa panas saat di luar ruangan, lepaskan casing pelindung tebal yang mengurung hawa panas, lepaskan kabel charger jika tidak mendesak, lalu letakkan sejenak di tempat yang teduh. Lakukan *reboot* atau restart ponsel untuk menyegarkan kembali proses latar belakang yang mungkin sedang mengalami *hang*.
+Langkah kedua, atur ulang pengaturan tampilan layar. Masuk ke menu Pengaturan (Settings), pilih Tampilan (Display), dan sesuaikan opsi Kecerahan Adaptif. Jika Anda sering beraktivitas di luar ruangan Jakarta yang terik, Anda bisa mematikan fitur Kecerahan Adaptif sementara waktu atau mengatur kalibrasi ulang kecerahan manual. Selain itu, pastikan fitur Extra Brightness dalam keadaan aktif jika tipe Samsung Galaxy Anda mendukungny
+
+**A.** Langkah ketiga, lakukan pengecekan suhu dan restart sistem. Jika ponsel terasa panas saat di luar ruangan, lepaskan casing pelindung tebal yang mengurung hawa panas, lepaskan kabel charger jika tidak mendesak, lalu letakkan sejenak di tempat yang teduh. Lakukan *reboot* atau restart ponsel untuk menyegarkan kembali proses latar belakang yang mungkin sedang mengalami *hang*.
 
 Anda juga bisa melakukan pengecekan fungsi sensor melalui menu rahasia diagnosis perangkat Samsung dengan memasukkan kode tes berikut pada aplikasi telepon:
 
@@ -51,7 +53,9 @@ Pilih menu Sensor, lalu arahkan tangan mendekati bagian atas layar untuk memasti
 
 **Q1.** Apakah mematikan Kecerahan Adaptif bisa merusak layar AMOLED Samsung saya dalam jangka panjang?
 
-**A1.** Tidak sama sekali. Mematikan kecerahan otomatis hanya membuat tingkat terang layar konstan sesuai keinginan Anda. Namun, pastikan Anda tidak terus-menerus menggunakan kecerahan 100 persen di dalam ruangan gelap agar mata tidak lelah dan baterai lebih hemat.
+**A1.** Tidak sama sekali. Mematikan kecerahan otomatis hanya membuat tingkat terang layar konstan sesuai keinginan And
+
+**A.** Namun, pastikan Anda tidak terus-menerus menggunakan kecerahan 100 persen di dalam ruangan gelap agar mata tidak lelah dan baterai lebih hemat.
 
 **Q2.** Kenapa saat di-charge di luar ruangan ponsel Samsung saya malah semakin lambat mengisi daya dan layar meredup?
 
@@ -59,4 +63,6 @@ Pilih menu Sensor, lalu arahkan tangan mendekati bagian atas layar untuk memasti
 
 **Q3.** Apakah mengganti tempered glass murahan benar-benar bisa mengembalikan fungsi auto-brightness yang normal?
 
-**A3.** Sangat bisa. Banyak tempered glass murah di pasaran tidak memiliki lapisan anti-reflektif atau membiarkan lem menutupi area sensor cahaya, sehingga sensor membaca kondisi sekitar selalu gelap dan membuat layar ikut meredup.
+**A3.** Sangat bis
+
+**A.** Banyak tempered glass murah di pasaran tidak memiliki lapisan anti-reflektif atau membiarkan lem menutupi area sensor cahaya, sehingga sensor membaca kondisi sekitar selalu gelap dan membuat layar ikut meredup.

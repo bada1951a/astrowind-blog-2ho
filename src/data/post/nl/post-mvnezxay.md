@@ -60,14 +60,14 @@ Laat je telefoon in de auto nooit direct in de felle zon op de ventilatierooster
 
 ## 5. Veelgestelde Vragen (FAQ)
 
-**Q:** Raak ik al mijn foto's en persoonlijke gegevens kwijt als ik de cachepartitie wis?
+**Q.** Raak ik al mijn foto's en persoonlijke gegevens kwijt als ik de cachepartitie wis?
 
-**A:** Nee, absoluut niet. Het wissen van de cachepartitie verwijdert enkel tijdelijke systeemdata en app-restanten. Je foto's, WhatsApp-berichten en documenten blijven netjes bewaard.
+**A.** Nee, absoluut niet. Het wissen van de cachepartitie verwijdert enkel tijdelijke systeemdata en app-restanten. Je foto's, WhatsApp-berichten en documenten blijven netjes bewaard.
 
-**Q:** Wat moet ik doen als ik de Recovery Mode niet inkom, zelfs niet met een USB-kabel aangesloten?
+**Q.** Wat moet ik doen als ik de Recovery Mode niet inkom, zelfs niet met een USB-kabel aangesloten?
 
-**A:** Soms reageert de knoppencombinatie niet direct als de accu nagenoeg leeg is door de oververhitting. Laat de telefoon eerst twintig minuten opladen aan een krachtige lader voordat je de procedure opnieuw probeert.
+**A.** Soms reageert de knoppencombinatie niet direct als de accu nagenoeg leeg is door de oververhitting. Laat de telefoon eerst twintig minuten opladen aan een krachtige lader voordat je de procedure opnieuw probeert.
 
-**Q:** Hoe voorkom ik dat mijn telefoon tijdens het navigatiegebruik in de auto weer oververhit raakt?
+**Q.** Hoe voorkom ik dat mijn telefoon tijdens het navigatiegebruik in de auto weer oververhit raakt?
 
-**A:** Haal de telefoon tijdens lange ritten af en toe uit de directe zon, gebruik een houder die niet direct voor het warme luchtrooster van de auto zit, en zet zware achtergrond-apps uit voordat je vertrekt.
+**A.** Haal de telefoon tijdens lange ritten af en toe uit de directe zon, gebruik een houder die niet direct voor het warme luchtrooster van de auto zit, en zet zware achtergrond-apps uit voordat je vertrekt.

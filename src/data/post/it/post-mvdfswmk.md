@@ -10,7 +10,13 @@ theme: "Acid Lime Hacker Space"
 
 ## 1. Emergenza improvvisa con lo smartphone
 
-Erano le 14:45 e mancava esattamente un quarto d'ora a una call cruciale con i partner di Milano per la revisione del budget trimestrale. Il mio iPhone, appoggiato sulla scrivania dell'open space, segnava il 4% di batteria. Con un gesto automatico, ho preso il cavo Lightning dallo zaino e l'ho collegato. Niente. Anzi, peggio: sullo schermo è comparso quell'avviso maledetto in rosso e giallo: "Liquido rilevato nel connettore Lightning". Il panico totale. Niente ricarica, zero percento in arrivo, e il telefono che serve assolutamente per ricevere i codici OTP aziendali e gestire l'hotspot se la fibra balla. Ho pensato subito al bicchiere d'acqua rovesciato distrattamente sul tavolo mezz'ora prima. Nel bel mezzo della corsa contro il tempo per ripristinare il flusso di lavoro prima del meeting, dovevo trovare una soluzione immediata, sicura ed efficace, senza ovviamente correre a comprare del riso al supermercato sotto l'ufficio.
+Erano le 14:45 e mancava esattamente un quarto d'ora a una call cruciale con i partner di Milano per la revisione del budget trimestrale. Il mio iPhone, appoggiato sulla scrivania dell'open space, segnava il 4% di batteri
+
+**A.** Con un gesto automatico, ho preso il cavo Lightning dallo zaino e l'ho collegato. Niente. Anzi, peggio: sullo schermo è comparso quell'avviso maledetto in rosso e giallo: "Liquido rilevato nel connettore Lightning". Il panico totale. Niente ricarica, zero percento in arrivo, e il telefono che serve assolutamente per ricevere i codici OTP aziendali e gestire l'hotspot se la fibra ball
+
+**A.** Ho pensato subito al bicchiere d'acqua rovesciato distrattamente sul tavolo mezz'ora prim
+
+**A.** Nel bel mezzo della corsa contro il tempo per ripristinare il flusso di lavoro prima del meeting, dovevo trovare una soluzione immediata, sicura ed efficace, senza ovviamente correre a comprare del riso al supermercato sotto l'ufficio.
 
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Nota dell'Esperto IT:</strong> Dimenticate il mito del sacchetto di riso. Non solo è inefficace, ma i piccoli amidi e la polvere penetrano nei circuiti creando una pasta collosa che corrode i pin del connettore. Vediamo come procedere in modo professionale.
@@ -20,7 +26,9 @@ Erano le 14:45 e mancava esattamente un quarto d'ora a una call cruciale con i p
 
 ### Perché l'avviso non va via? Le 3 cause reali
 
-Prima di agire, capiamo cosa sta succedendo all'interno del dispositivo. L'iPhone non è bagnato dentro (almeno si spera), ma il sensore rileva un'anomalia elettrica. Ecco perché l'avviso persiste:
+Prima di agire, capiamo cosa sta succedendo all'interno del dispositivo. L'iPhone non è bagnato dentro (almeno si spera), ma il sensore rileva un'anomalia elettric
+
+**A.** Ecco perché l'avviso persiste:
 
 1. Micro-gocce intrappolate: Anche se l'esterno sembra asciutto, la tensione superficiale dell'acqua trattiene minuscole gocce proprio all'interno della porta di ricarica, dove i pin sono ravvicinati.
 
@@ -32,7 +40,7 @@ Prima di agire, capiamo cosa sta succedendo all'interno del dispositivo. L'iPhon
 
 ### Procedura di emergenz
 
-**a:** Risolviamo senza riso
+**A.** Risolviamo senza riso
 
 Ecco la sequenza esatta di azioni da compiere per sbloccare la situazione e tornare operativi in pochi minuti, usando solo ciò che avete in ufficio.
 
@@ -40,7 +48,9 @@ Ecco la sequenza esatta di azioni da compiere per sbloccare la situazione e torn
 Scollega immediatamente qualsiasi cavo. Prendi l'iPhone in mano, orienta il connettore verso il basso e picchietta delicatamente il palmo della mano per favorire l'uscita del liquido in eccesso. Niente phon caldo (il calore rovina le guarnizioni e lo schermo): se hai a disposizione una bomboletta d'aria compressa per tastiere, usala tenendola a debita distanza (almeno 15 centimetri) con getti brevi e leggeri.
 
 #### Passo 2: Pulizia meccanica dei residui (Impostazioni e strumenti sicuri)
-Se l'avviso persiste anche a telefono apparentemente asciutto, il problema è lo sporco umido. Spegni completamente l'iPhone. Prendi uno stecchino di legno (evita assolutamente oggetti metallici come spille o graffette che possono graffiare i contatti dorati o causare cortocircuiti) e rimuovi con delicatezza millimetrica eventuali residui di polvere compressi sul fondo della porta. #### Passo 3: Il trucco del bypass d'emergenza (Solo in caso di vita o di morte lavorativa)
+Se l'avviso persiste anche a telefono apparentemente asciutto, il problema è lo sporco umido. Spegni completamente l'iPhone. Prendi uno stecchino di legno (evita assolutamente oggetti metallici come spille o graffette che possono graffiare i contatti dorati o causare cortocircuiti) e rimuovi con delicatezza millimetrica eventuali residui di polvere compressi sul fondo della port
+
+**A.** #### Passo 3: Il trucco del bypass d'emergenza (Solo in caso di vita o di morte lavorativa)
 Se proprio non puoi fare a meno di ricaricare il telefono per ricevere quel codice OTP fondamentale e il tempo è scaduto:
 * Spegni completamente l'iPhone.
 * Collegalo a una power bank o a un caricatore a muro certificato.
@@ -52,14 +62,20 @@ Se proprio non puoi fare a meno di ricaricare il telefono per ricevere quel codi
 ### Consigli dell'Esperto per evitare guai peggiori
 
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Attenzione alla corrosione:</strong> Non inserire mai cotton fioc (rilasciano pelucchi micidiali) e non immergere il telefono nell'alcol denaturato o in altri solventi chimici. Se la porta ha preso acqua di mare o bevande zuccherate (caffè, tè), l'acqua evapora ma gli zuccheri e il sale restano, cristallizzandosi sui circuiti. In quel caso serve un passaggio in assistenza per una pulizia ultrasonica. </div>
+<strong>Attenzione alla corrosione:</strong> Non inserire mai cotton fioc (rilasciano pelucchi micidiali) e non immergere il telefono nell'alcol denaturato o in altri solventi chimici. Se la porta ha preso acqua di mare o bevande zuccherate (caffè, tè), l'acqua evapora ma gli zuccheri e il sale restano, cristallizzandosi sui circuiti. In quel caso serve un passaggio in assistenza per una pulizia ultrasonic
+
+**A.** </div>
 
 ---
 
 ### Domande Frequenti (FAQ)
 
 Posso usare l'opzione "Ignora avviso" che compare su iOS?
- iOS a volte offre la possibilità di ignorare l'avviso in caso di emergenza. Fallo *solo* se hai assoluta certezza che la porta sia asciutta. Forzare la ricarica con liquido residuo può fondere permanentemente i pin della scheda madre o danneggiare irreparabilmente il cavo.
+ iOS a volte offre la possibilità di ignorare l'avviso in caso di emergenz
+
+**A.** Fallo *solo* se hai assoluta certezza che la porta sia asciutt
+
+**A.** Forzare la ricarica con liquido residuo può fondere permanentemente i pin della scheda madre o danneggiare irreparabilmente il cavo.
 
 Quanto tempo ci vuole perché l'avviso scompaia da solo?
 In condizioni di normale umidità ambientale in un ufficio riscaldato o climatizzato, l'evaporazione naturale richiede dai 30 minuti alle 2 ore. Lasciare il telefono capovolto su una superficie pulita accelera notevolmente il processo.

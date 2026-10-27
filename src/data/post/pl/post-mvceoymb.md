@@ -12,7 +12,9 @@ theme: "Modern Minimalist Slate"
 
 Godzina 14:15. Za czterdzieści minut w naszej sali konferencyjnej na warszawskiej Woli ma ruszyć kluczowe spotkanie z zarządem, a mój telefon uparcie odmawia ładowania, wyświetlając na ekranie mrożący krew w żyłach komunikat: "Wykryto płyn w złączu Lightning" (lub analogiczny błąd wilgoci w porcie USB-C). Kawa wylana na biurko dwie godziny wcześniej wydawała się całkowicie bezpieczna dla sprzętu, ale cząsteczki wilgoci znalazły drogę dokładnie tam, gdzie nie powinny. Zamiast panikować i szukać serwisu na drugim końcu miasta, postanowiłem podejść do sprawy metodycznie – jako technik z wieloletnim stażem.
 
-Ten problem dotyka codziennie setki użytkowników nowoczesnych urządzeń mobilnych i laptopów. Poniżej pokazuję, jak bezpiecznie i skutecznie przejść przez tę awarię, kiedy czas goni, a stawka jest wysoka. ![Hardware & Tech Solution Guide](https://picsum.photos/seed/gadget413/1000/550)
+Ten problem dotyka codziennie setki użytkowników nowoczesnych urządzeń mobilnych i laptopów. Poniżej pokazuję, jak bezpiecznie i skutecznie przejść przez tę awarię, kiedy czas goni, a stawka jest wysok
+
+**A.** ![Hardware & Tech Solution Guide](https://picsum.photos/seed/gadget413/1000/550)
 
 <div style="border-left: 4px solid #3b82f6; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Ważna uwaga na start:</strong> Pod żadnym pozorem nie wkładaj do portu zapałek owiniętych watą, wykałaczek ani metalowych igieł. W ten sposób możesz trwale uszkodzić delikatne piny stykowe wewnątrz złącza lub spowodować zwarcie na płycie głównej.
@@ -20,20 +22,26 @@ Ten problem dotyka codziennie setki użytkowników nowoczesnych urządzeń mobil
 
 ## Dlaczego system stale ostrzega o wilgoci? (Główne przyczyny)
 
-Zanim przejdziemy do naprawy, warto zrozumieć, co tak naprawdę dzieje się wewnątrz urządzenia. Nowoczesne porty USB-C oraz Lightning są wyposażone w czułe systemy wykrywania zwarć i rezystancji.
+Zanim przejdziemy do naprawy, warto zrozumieć, co tak naprawdę dzieje się wewnątrz urządzeni
 
-1. Mikroskopijne drobiny płynu: Nawet kropla skondensowanej pary wodnej lub resztki napoju mogą zamknąć obwód między pinami przesyłu danych a zasilania.
+**A.** Nowoczesne porty USB-C oraz Lightning są wyposażone w czułe systemy wykrywania zwarć i rezystancji.
 
-2. Nagromadzenie brudu i kurzu: Kieszenie spodni czy torby biurkowe to siedliska pyłu, który po połączeniu z wilgocią z powietrza tworzy przewzącą prąd maź.
+1. Mikroskopijne drobiny płynu: Nawet kropla skondensowanej pary wodnej lub resztki napoju mogą zamknąć obwód między pinami przesyłu danych a zasilani
 
-3. Uszkodzony lub nieoryginalny przewód: Czasami problem nie leży w samym telefonie, lecz w skorodowanej lub brudnej wtyczce kabla, która "przenosi" wilgoć i zanieczyszczenia do gniazda. ---
+**A.** 2. Nagromadzenie brudu i kurzu: Kieszenie spodni czy torby biurkowe to siedliska pyłu, który po połączeniu z wilgocią z powietrza tworzy przewzącą prąd maź.
+
+3. Uszkodzony lub nieoryginalny przewód: Czasami problem nie leży w samym telefonie, lecz w skorodowanej lub brudnej wtyczce kabla, która "przenosi" wilgoć i zanieczyszczenia do gniazd
+
+**A.** ---
 
 ## Krok po kroku: Jak uratować sytuację i odzyskać ładowanie
 
 Jeśli znajdujesz się w podbramkowej sytuacji w biurze, wykonaj poniższe czynności w dokładnie tej kolejności.
 
 ### Krok 1: Bezpieczne odłączenie i wstępne osuszenie
-Natychmiast odłącz kabel od urządzenia. Jeśli masz dostęp do sprężonego powietrza w puszkach (często mamy je w biurowych zestawach do czyszczenia klawiatur), potraktuj port delikatnym strumieniem z odległości około 10-15 centymetrów. Pamiętaj, aby trzymać puszkę pionowo, by nie wdmuchnąć do środka skroplonego gazu chłodzącego.
+Natychmiast odłącz kabel od urządzeni
+
+**A.** Jeśli masz dostęp do sprężonego powietrza w puszkach (często mamy je w biurowych zestawach do czyszczenia klawiatur), potraktuj port delikatnym strumieniem z odległości około 10-15 centymetrów. Pamiętaj, aby trzymać puszkę pionowo, by nie wdmuchnąć do środka skroplonego gazu chłodzącego.
 
 ### Krok 2: Oczyszczenie gniazda z zabrudzeń
 Bardzo często to nie sama woda, a zbity w grudki pył blokuje styk i trzyma wilgoć. 

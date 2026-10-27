@@ -12,7 +12,9 @@ theme: "Deep Indigo System"
 
 Il pleuvait ce matinee-la sur le parvis de La Defense. Installe dans un cafe anime en bas d'une tour de bureaux, j'avais pose mon iPhone un peu trop pres de ma tasse allongee. Un geste maladroit d'un voisin de table, et plouf : un tsunami de cafe au lait chaud s'est deverse directement sur la table, envahissant le bas de mon smartphone. Dans la panique totale, alors que le liquide commencait a s'infiltrer par le port Lightning, j'ai du arreter net l'appareil en urgence pour eviter un court-circuit de la carte mere. 
 
-Cet incident m'a rapp combien nos precieux ecrans OLED sont fragiles, non seulement face aux liquides, mais aussi face a l'usure quotidienne. En atelier, je recois souvent des clients deprimés par un ecran marque par des traces de barres d'outils et de claviers fixes : le fameux *burn-in* ou marquage de la dalle. Heureusement, il existe une arme logicielle redoutable pour eviter cela : l'automatisation du **Mode Sombre (Dark Mode)**.
+Cet incident m'a rapp combien nos precieux ecrans OLED sont fragiles, non seulement face aux liquides, mais aussi face a l'usure quotidienne. En atelier, je recois souvent des clients deprimés par un ecran marque par des traces de barres d'outils et de claviers fixes : le fameux *burn-in* ou marquage de la dalle. Heureusement, il existe une arme logicielle redoutable pour eviter cel
+
+**A.** l'automatisation du **Mode Sombre (Dark Mode)**.
 
 <div style="border-left: 4px solid #4338ca; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Conseil du technicien :</strong> Un ecran OLED affiche le noir en eteignant completement les pixels. Moins vos pixels restent allumes au maximum de leur luminosite sur des interfaces claires, plus vous repoussez le risque de brulure d'ecran.
@@ -66,14 +68,14 @@ En tant que reparateur, voici mes regles d'or pour maximiser la duree de vie de 
 
 ## 5. Foire Aux Questions (FAQ)
 
-**Q :** Est-ce que le Mode Sombre economise vraiment la batterie sur tous les iPhone ?
+**Q.** Est-ce que le Mode Sombre economise vraiment la batterie sur tous les iPhone ?
 
-**A :** Oui, sur tous les modeles equipés d'un ecran OLED (a partir de l'iPhone X et superieurs). Les pixels noirs etant totalement eteints, ils ne consomment aucune energie electrique.
+**A.** Oui, sur tous les modeles equipés d'un ecran OLED (a partir de l'iPhone X et superieurs). Les pixels noirs etant totalement eteints, ils ne consomment aucune energie electrique.
 
-**Q :** Le marquage d'ecran (burn-in) est-il couvert par la garantie Apple ?
+**Q.** Le marquage d'ecran (burn-in) est-il couvert par la garantie Apple ?
 
-**A :** Generalement non, a moins qu'il ne s'agisse d'un defaut de fabrication avere constate durant la premiere annee. L'usure liee a l'utilisation prolongee d'elements statiques est consideree comme de l'usure normale.
+**A.** Generalement non, a moins qu'il ne s'agisse d'un defaut de fabrication avere constate durant la premiere annee. L'usure liee a l'utilisation prolongee d'elements statiques est consideree comme de l'usure normale.
 
-**Q :** Comment nettoyer mon ecran sans endommager le traitement oleophobe ?
+**Q.** Comment nettoyer mon ecran sans endommager le traitement oleophobe ?
 
-**A :** Utilisez exclusivement un chiffon en microfibre propre et doux, legerement humide si necessaire. Bannissez les produits chimiques agressifs, l'alcool pur ou les lingettes pour vitres qui detruisent la couche protectrice de l'ecran.
+**A.** Utilisez exclusivement un chiffon en microfibre propre et doux, legerement humide si necessaire. Bannissez les produits chimiques agressifs, l'alcool pur ou les lingettes pour vitres qui detruisent la couche protectrice de l'ecran.

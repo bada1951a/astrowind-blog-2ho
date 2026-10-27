@@ -22,6 +22,8 @@ Il est 13h50. Vous êtes installé dans un espace de coworking moderne de La Dé
 
 ## 2. Analyse des causes principales de l'erreur
 
+## 2. Analyse des causes principales de l'erreur
+
 Pourquoi ce fameux "boot loop" (boucle de redémarrage) se produit-il soudainement, souvent après un épisode de forte chauffe en plein usage intensif ?
 
 1. **Corruption des fichiers temporaires (Cache) :**Lors d'un usage lourd (visio prolongée, partage de connexion, applications multiples en arrière-plan), le processeur chauffe. Si une application plante pendant l'écriture de données temporaires, le fichier cache du système devient corrompu. Au redémarrage, Android essaie de lire ce fichier endommagé, plante, et recommence en boucle.
@@ -50,7 +52,9 @@ Attention, l'écran tactile ne répond pas dans ce menu. Vous devez utiliser les
 - Utilisez le**bouton Volume Bas**pour descendre dans la liste jusqu'à l'option**Wipe cache partition**.
 - Appuyez sur le**bouton Marche/Arrêt (Power)**pour valider votre choix.
 - Le système vous demande une confirmation : descendez sur**Yes**avec le bouton volume, puis validez avec**Power**.
-- En bas de l'écran, un message de confirmation rapide apparaîtra : *Cache wipe complete*.
+- En bas de l'écran, un message de confirmation rapide apparaîtr
+
+**A.** *Cache wipe complete*.
 
 ### Étape 4 : Redémarrer le système
 - L'option **Reboot system now**est sélectionnée par défaut. Appuyez simplement sur le**bouton Marche/Arrêt (Power)**.
@@ -73,14 +77,14 @@ En tant que technicien, voici quelques conseils d'or pour éviter que cela ne se
 
 ## 5. Foire Aux Questions (FAQ)
 
-**Q:** Est-ce que vider la partition de cache va effacer mes photos, messages ou applications ?
+**Q.** Est-ce que vider la partition de cache va effacer mes photos, messages ou applications ?
 
-**A:** Absolument pas. La fonction**Wipe cache partition** supprime uniquement les fichiers temporaires et obsolètes accumulés par le système. Vos données personnelles (photos, contacts, applications, messages) restent rigoureusement intactes.
+**A.** Absolument pas. La fonction**Wipe cache partition**supprime uniquement les fichiers temporaires et obsolètes accumulés par le système. Vos données personnelles (photos, contacts, applications, messages) restent rigoureusement intactes.
 
-**Q:** Mon téléphone ne veut toujours pas entrer en mode Recovery, que faire ?
+**Q.** Mon téléphone ne veut toujours pas entrer en mode Recovery, que faire ?
 
-**A:** Sur certains modèles récents, il est strictement obligatoire de brancher le téléphone à un ordinateur via un câble USB de type C pour déverrouiller l'accès au menu Recovery. Assurez-vous d'avoir fait cette manipulation avec le câble branché.
+**A.** Sur certains modèles récents, il est strictement obligatoire de brancher le téléphone à un ordinateur via un câble USB de type C pour déverrouiller l'accès au menu Recovery. Assurez-vous d'avoir fait cette manipulation avec le câble branché.
 
-**Q:** Pourquoi mon téléphone a-t-il surchauffé de cette façon soudaine ?
+**Q.** Pourquoi mon téléphone a-t-il surchauffé de cette façon soudaine ?
 
-**A:** Une surchauffe inopinée est souvent causée par une application tierce bloquée dans une boucle de traitement en arrière-plan (comme un bug de synchronisation cloud ou une application de visioconférence mal optimisée), combinée à une mauvaise dissipation thermique extérieure.
+**A.** Une surchauffe inopinée est souvent causée par une application tierce bloquée dans une boucle de traitement en arrière-plan (comme un bug de synchronisation cloud ou une application de visioconférence mal optimisée), combinée à une mauvaise dissipation thermique extérieure.

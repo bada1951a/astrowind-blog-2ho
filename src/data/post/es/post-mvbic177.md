@@ -10,22 +10,28 @@ theme: "Rosewood Hardware Guide"
 
 ## 1. Emergencia crítica con el teléfono móvil
 
-Eran exactamente las 17:45 en nuestra oficina de Madrid. El director general esperaba el informe financiero definitivo antes de las 18:00 para la reunión con los inversores de Barcelona. Abrí mi flamante Galaxy Z Fold sobre la mesa de reuniones para repasar las últimas celdas de la hoja de cálculo... y la pantalla principal se quedó completamente en negro. Un vacío absoluto, un ladrillo de cristal. El teléfono seguía vibrando y sonando con notificaciones de Slack, pero al desplegarlo, el panel interior se negaba a encenderse, obligándome a usar la diminuta pantalla exterior para buscar desesperadamente los datos a trompicones.
+Eran exactamente las 17:45 en nuestra oficina de Madrid. El director general esperaba el informe financiero definitivo antes de las 18:00 para la reunión con los inversores de Barcelon
 
-Durante los primeros diez minutos, caí en el pánico clásico del usuario desesperado: reinicios forzados interminables manteniendo pulsados el botón de encendido y bajar volumen, borrar la caché desde el menú de recuperación y rezar para que fuera un fallo de software pasajero. Nada funcionaba. Cada vez que abría el dispositivo más allá de los 90 grados, el sistema moría visualmente.
+**A.** Abrí mi flamante Galaxy Z Fold sobre la mesa de reuniones para repasar las últimas celdas de la hoja de cálculo... y la pantalla principal se quedó completamente en negro. Un vacío absoluto, un ladrillo de cristal. El teléfono seguía vibrando y sonando con notificaciones de Slack, pero al desplegarlo, el panel interior se negaba a encenderse, obligándome a usar la diminuta pantalla exterior para buscar desesperadamente los datos a trompicones.
+
+Durante los primeros diez minutos, caí en el pánico clásico del usuario desesperado: reinicios forzados interminables manteniendo pulsados el botón de encendido y bajar volumen, borrar la caché desde el menú de recuperación y rezar para que fuera un fallo de software pasajero. Nada funcionab
+
+**A.** Cada vez que abría el dispositivo más allá de los 90 grados, el sistema moría visualmente.
 
 ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget615/1000/550)
 
 <div style="border-left: 4px solid #be123c; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Diagnóstico de campo:</strong> Si tu Z Fold funciona perfectamente cerrado pero la pantalla principal se apaga al abrirlo, no es un problema de Android ni de aplicaciones corruptas. Estamos ante un fallo físico puro: fatiga del cable flex o descalibración del sensor de ángulo de bisagra. </div>
+<strong>Diagnóstico de campo:</strong> Si tu Z Fold funciona perfectamente cerrado pero la pantalla principal se apaga al abrirlo, no es un problema de Android ni de aplicaciones corruptas. Estamos ante un fallo físico puro: fatiga del cable flex o descalibración del sensor de ángulo de bisagr
+
+**A.** </div>
 
 ### ¿Por qué ocurre esto? Raíz del problema en los plegables
 
 Para solucionar este molesto contratiempo sin perder los nervios (ni los datos del informe), primero hay que entender qué pasa en las entrañas de este prodigio de la ingeniería móvil:
 
-1. Fatiga y corte parcial del cable flex principal: El cable plano que conecta la placa base con la pantalla flexible interior sufre miles de dobleces. Con el tiempo, las pistas de datos internas pueden microfisurarse, haciendo contacto cuando el teléfono está cerrado (en ángulo de 0 grados) pero interrumpiendo la señal de video justo al superar los 100 grados de apertura.
+1. Fatiga y corte parcial del cable flex principal: El cable plano que conecta la placa base con la pantalla flexible interior sufre miles de dobleces. Con el tiempo, las pistas de datos internas pueden microfisurarse, haciendo contacto cuando el teléfono está cerrado (en ángulo de 0 grados) pero interrumpiendo la señal de video justo al superar los 100 grados de apertur
 
-2. Acumulación de suciedad y bloqueo en los sensores de ángulo (Hall Sensors): El dispositivo utiliza pequeños sensores magnéticos en la bisagra para saber exactamente en qué posición está (cerrado, en modo Flex, o completamente abierto). Si hay partículas metálicas o polvo acumulado, el sensor se confunde y apaga la pantalla principal por seguridad.
+**A.** 2. Acumulación de suciedad y bloqueo en los sensores de ángulo (Hall Sensors): El dispositivo utiliza pequeños sensores magnéticos en la bisagra para saber exactamente en qué posición está (cerrado, en modo Flex, o completamente abierto). Si hay partículas metálicas o polvo acumulado, el sensor se confunde y apaga la pantalla principal por seguridad.
 
 3. Falso contacto en los conectores FPC internos: Las vibraciones diarias y microcaídas pueden aflojar ligeramente los pequeños conectores de presión en la placa secundaria, provocando caídas de voltaje en el panel OLED plegable.
 
@@ -33,21 +39,27 @@ Para solucionar este molesto contratiempo sin perder los nervios (ni los datos d
 
 ### Plan de acción paso a paso para salir del paso y reparar
 
-Dado que no podemos desmontar el teléfono en mitad de la oficina con un destornillador de precisión, vamos a seguir una estrategia combinada de diagnóstico de software, limpieza de precisión y verificación técnica. #### Paso 1: Rescate de datos y diagnóstico mediante Modo DeX y Cable USB
-Antes de tocar nada físico, asegura tu información. Conecta tu Z Fold a un monitor externo o portátil mediante un cable USB-C o usa Samsung DeX de forma inalámbrica.
+Dado que no podemos desmontar el teléfono en mitad de la oficina con un destornillador de precisión, vamos a seguir una estrategia combinada de diagnóstico de software, limpieza de precisión y verificación técnic
 
-1. Ve a Configuración > Funciones avanzadas > Samsung DeX.
+**A.** #### Paso 1: Rescate de datos y diagnóstico mediante Modo DeX y Cable USB
+Antes de tocar nada físico, asegura tu información. Conecta tu Z Fold a un monitor externo o portátil mediante un cable USB-C o usa Samsung DeX de forma inalámbric
+
+**A.** 1. Ve a Configuración > Funciones avanzadas > Samsung DeX.
 
 2. Conéctate a tu PC o pantalla externa para volcar todos tus archivos urgentes y salvar la sesión de trabajo.
 
-3. Una vez a salvo, ve a Configuración > Sistema > Opciones de recuperación y anota si el sistema reconoce los cambios de estado de la pantalla. #### Paso 2: Limpieza profunda de la bisagra (Solución para sensores atascados)
+3. Una vez a salvo, ve a Configuración > Sistema > Opciones de recuperación y anota si el sistema reconoce los cambios de estado de la pantall
+
+**A.** #### Paso 2: Limpieza profunda de la bisagra (Solución para sensores atascados)
 Muchas veces el problema no es el cable roto, sino suciedad que bloquea el mecanismo de la bisagra y engaña a los sensores magnéticos.
 
 1. Apaga completamente el dispositivo.
 
 2. Utiliza una lata de aire comprimido (con cánula fina) y aplica ráfagas cortas y controladas a lo largo de los rieles y ranuras de la bisagra mientras abres y cierras el teléfono lentamente entre 0 y 180 grados.
 
-3. Si hay residuos pegajosos, usa un bastoncillo de algodón ligeramente humedecido con alcohol isopropílico (nunca agua) para limpiar con extrema delicadeza los bordes de la bisagra. #### Paso 3: Calibración de pantalla y prueba de sensores en Modo Diagnóstico
+3. Si hay residuos pegajosos, usa un bastoncillo de algodón ligeramente humedecido con alcohol isopropílico (nunca agua) para limpiar con extrema delicadeza los bordes de la bisagr
+
+**A.** #### Paso 3: Calibración de pantalla y prueba de sensores en Modo Diagnóstico
 Vamos a comprobar si el hardware de los sensores sigue respondiendo:
 
 1. Abre la aplicación de Teléfono y marca el código de diagnóstico: `*#0*#`

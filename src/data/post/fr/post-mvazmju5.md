@@ -40,9 +40,7 @@ Avant de passer à l'action, comprenons brièvement ce qui s'est passé dans la 
 
 Oubliez l'attente que la batterie se vide complètement (ce qui peut prendre des heures). Voici la manipulation exacte à effectuer, qu'il s'agisse d'un Galaxy S, d'un Note ou d'un modèle de la gamme
 
-**A :**
-
-* Étape 1 : Repérez simultanément le bouton de réduction du volume (sur la tranche gauche) et le bouton latéral d'alimentation / marche-arrêt (sur la tranche droite).
+**A.** * Étape 1 : Repérez simultanément le bouton de réduction du volume (sur la tranche gauche) et le bouton latéral d'alimentation / marche-arrêt (sur la tranche droite).
 * Étape 2 : Maintenez ces deux boutons enfoncés en même temps de manière ferme et continue.
 * Étape 3 : Ne relâchez surtout pas lorsque l'écran clignote ou vibre légèrement. Continuez de les maintenir pendant environ 7 à 10 secondes.
 * Étape 4 : Lâchez les boutons dès que le logo Samsung Galaxy apparaît enfin à l'écran. C'est la preuve que le système a coupé le courant et redémarre proprement son noyau.

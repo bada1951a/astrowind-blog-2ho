@@ -28,7 +28,9 @@ Trước khi bấm nút cứu hộ, chúng ta cần hiểu nhanh nguyên nhân �
 
 ## Hướng dẫn Buộc Khởi động lại (Force Restart) theo từng dòng máy
 
-Quên việc cố gắng bấm giữ nút nguồn vuốt tắt máy đi, vì lúc này màn hình cảm ứng đã liệt thì không cách nào vuốt "Slide to power off" được nữa. Bạn phải dùng tổ hợp phím cứng vật lý.
+Quên việc cố gắng bấm giữ nút nguồn vuốt tắt máy đi, vì lúc này màn hình cảm ứng đã liệt thì không cách nào vuốt "Slide to power off" được nữ
+
+**A.** Bạn phải dùng tổ hợp phím cứng vật lý.
 
 ### 1. Dành cho iPhone 8, iPhone X, dòng iPhone 11, 12, 13, 14, 15 và mới hơn
 Đây là nhóm máy phổ biến nhất tại các công sở hiện nay. Hãy thực hiện dứt khoát các bước sau theo thứ tự:
@@ -36,7 +38,9 @@ Quên việc cố gắng bấm giữ nút nguồn vuốt tắt máy đi, vì lú
 * Bước 1: Bấm và thả nhanh nút Tăng âm lượng (Volume Up).
 * Bước 2: Bấm và thả nhanh nút Giảm âm lượng (Volume Down).
 * Bước 3: Ngay lập tức bấm và giữ chặt nút Nguồn (Side Button) bên cạnh phải. Giữ nguyên tay trong khoảng 10 đến 15 giây.
-* Bước 4: Tuyệt đối không buông tay khi thấy màn hình trượt tắt nguồn. Hãy kiên nhẫn giữ đến khi màn hình tối hẳn và logo Apple màu trắng xuất hiện trở lại thì mới thả ra. ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget906/1000/550)
+* Bước 4: Tuyệt đối không buông tay khi thấy màn hình trượt tắt nguồn. Hãy kiên nhẫn giữ đến khi màn hình tối hẳn và logo Apple màu trắng xuất hiện trở lại thì mới thả r
+
+**A.** ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget906/1000/550)
 
 ### 2. Dành cho dòng iPhone 7 và 7 Plus
 Nếu bạn vẫn đang dùng dòng máy này làm máy phụ nghe gọi:

@@ -36,9 +36,7 @@ Pour resoudre un probleme, il faut d'abord comprendre ce qui se passe sous la da
 
 Voici la methode que nous appliquons dans notre atelier pour diagnostiquer et corriger definitivement ce comportement agacant sur les gammes Galaxy S et Galaxy
 
-**A.**
-
-Etape 1 : Nettoyage minutieux de la zone superieure
+**A.** Etape 1 : Nettoyage minutieux de la zone superieure
 Si un liquide (comme le fameux bouillon du dejeuner) ou des residus gras se sont deposes sur la grille du haut-parleur et le capteur de luminosite, preparez un kit de nettoyage doux. Utilisez un coton-tige legerement humidifie avec un tout petit peu d'alcool isopropylique (et non de l'eau du robinet). Frottez delicatement la grille en faisant des mouvements circulaires pour dissoudre les graisses sans les pousser a l'interieur.
 
 Etape 2 : Verification des parametres d'affichage

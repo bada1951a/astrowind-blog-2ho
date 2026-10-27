@@ -40,7 +40,9 @@ Sortez vos outils, on passe à l'action. Voici la méthode infaillible que j'app
 
 3. Inspectez l'intérieur du port USB-C ou Lightning à la lumière du téléphone. Vous allez sûrement apercevoir un compactage grisâtre au fond.
 
-4. Grattez très délicatement pour décoller la bourre de poussière et extrayez-la. Vous seriez surpris de ce qu'on y trouve !
+4. Grattez très délicatement pour décoller la bourre de poussière et extrayez-l
+
+**A.** Vous seriez surpris de ce qu'on y trouve !
 
 5. Donnez un coup de spray à air sec (maintenez la bombe bien droite pour ne pas projeter de gaz liquéfié).
 
@@ -70,15 +72,15 @@ En tant que technicien, je vois trop d'appareils arriver avec des connecteurs fo
 
 ### FA
 
-**Q :** Vos questions fréquentes à l'atelier
+**Q.** Vos questions fréquentes à l'atelier
 
-**Q1 :** Ma power bank affiche "Fast Charge", mais mon téléphone me met quand même une alerte de charge lente. Pourquoi ?
+**Q1.** Ma power bank affiche "Fast Charge", mais mon téléphone me met quand même une alerte de charge lente. Pourquoi ?
 *R.: C'est souvent un problème de compatibilité de protocoles. Par exemple, certaines batteries utilisent le système Quick Charge de Qualcomm (très répandu sur Android), mais votre iPhone utilise le Power Delivery d'Apple. Les deux ne se parlent pas correctement, et la power bank se replie sur un profil de secours sécurisé en 5V lent.*
 
-**Q2 :** Est-ce dangereux pour mon téléphone de continuer à l'utiliser avec cette alerte ?
+**Q2.** Est-ce dangereux pour mon téléphone de continuer à l'utiliser avec cette alerte ?
 *R.: Dangereux pour la sécurité incendie, non, les sécurités modernes couperont net si ça chauffe anormalement. En revanche, c'est un calvaire au quotidien car votre téléphone va mettre 4 heures à se charger, et s'il est allumé en train d'utiliser le GPS, il risque même de se décharger plus vite qu'il ne se charge.*
 
-**Q3 :** Pourquoi ma batterie externe chargeait vite mon ancien téléphone, mais charge lentement mon nouveau ?
+**Q3.** Pourquoi ma batterie externe chargeait vite mon ancien téléphone, mais charge lentement mon nouveau ?
 *R.: Tout simplement parce que les batteries des smartphones récents ont des capacités d'absorption d'énergie bien plus élevées (et des sécurités logicielles plus strictes). Une power bank de 10W qui suffisait pour un iPhone 8 va s'effondrer techniquement face aux exigences d'un iPhone 15 ou d'un Samsung Galaxy S24.*
 
 Voilà, vous savez tout ! Le client du début de l'heure de pointe est reparti le sourire aux lèvres : un bon coup de nettoyage dans son port USB-C et l'utilisation du bon port sur sa power bank ont relancé la charge rapide. Si malgré tout cela persiste, passez me voir à La Défense, on jettera un œil à l'oscilloscope !

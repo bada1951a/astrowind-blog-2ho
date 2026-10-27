@@ -67,14 +67,14 @@ Verwar**Wipe cache partition**nooit met**Wipe data / factory reset**. Die laatst
 
 ## 5. Veelgestelde Vragen (FAQ)
 
-**Q:** Ben ik al mijn foto's en apps kwijt als ik de cache-partitie wis?
+**Q.** Ben ik al mijn foto's en apps kwijt als ik de cache-partitie wis?
 
-**A:** Nee, absoluut niet. Het wissen van de cache verwijdert alleen tijdelijke systeembestanden die corrupte data bevatten. Je persoonlijke foto's, WhatsApp-chats en apps blijven volledig behouden.
+**A.** Nee, absoluut niet. Het wissen van de cache verwijdert alleen tijdelijke systeembestanden die corrupte data bevatten. Je persoonlijke foto's, WhatsApp-chats en apps blijven volledig behouden.
 
-**Q:** Wat moet ik doen als de telefoon nog steeds op het logo blijft hangen na het wissen van de cache?
+**Q.** Wat moet ik doen als de telefoon nog steeds op het logo blijft hangen na het wissen van de cache?
 
-**A:** Als de cache wissen niet helpt, is de schade diepgaander. Het kan zijn dat het besturingssysteem beschadigd is geraakt door de valschok. In dat geval is een fabrieksreset (Wipe data / factory reset) of het opnieuw flitsen van de firmware via Odin de volgende stap. Maak vooraf wel een back-up als dat nog lukt.
+**A.** Als de cache wissen niet helpt, is de schade diepgaander. Het kan zijn dat het besturingssysteem beschadigd is geraakt door de valschok. In dat geval is een fabrieksreset (Wipe data / factory reset) of het opnieuw flitsen van de firmware via Odin de volgende stap. Maak vooraf wel een back-up als dat nog lukt.
 
-**Q:** Kan die groene streep op mijn OLED-scherm vanzelf weggaan als ik dit oplos?
+**Q.** Kan die groene streep op mijn OLED-scherm vanzelf weggaan als ik dit oplos?
 
-**A:** Helaas niet. Die groene streep wordt veroorzaakt door fysieke schade aan de verbindingen tussen het OLED-paneel en de display-driver IC. Software-trucs lossen dit niet op; hiervoor is uiteindelijk een schermreparatie of vervanging van het display nodig.
+**A.** Helaas niet. Die groene streep wordt veroorzaakt door fysieke schade aan de verbindingen tussen het OLED-paneel en de display-driver IC. Software-trucs lossen dit niet op; hiervoor is uiteindelijk een schermreparatie of vervanging van het display nodig.

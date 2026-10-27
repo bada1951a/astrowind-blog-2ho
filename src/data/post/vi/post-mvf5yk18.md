@@ -68,11 +68,11 @@ Trong quá trình làm nghề, tôi thấy rất nhiều anh em rước họa v�
 
 ### 5. Câu hỏi thường gặp (FAQs)
 
-**Q1:** Tại sao tôi dùng củ sạc tường cắm ổ điện thì nhanh, mà cứ cắm qua sạc dự phòng cùng công suất 20W lại báo sạc chậm?
+**Q1.** Tại sao tôi dùng củ sạc tường cắm ổ điện thì nhanh, mà cứ cắm qua sạc dự phòng cùng công suất 20W lại báo sạc chậm?
 > Trả lời: Chuyện này cực kỳ bình thường anh em ạ. Dòng điện xoay chiều từ ổ điện nhà qua củ sạc tường luôn ổn định hơn dòng điện một chiều được phóng ra từ mạch của pin dự phòng. Hơn nữa, một số pin dự phòng khi cắm nhiều thiết bị cùng lúc hoặc khi dung lượng pin của chính nó tụt dưới 20%, nó sẽ tự động hạ công suất đầu ra để tiết kiệm năng lượng, khiến điện thoại của anh em nhận được ít điện hơn và báo sạc chậm.
 
-**Q2:** Điện thoại báo "Phụ kiện không được hỗ trợ" hoặc "Thiết bị không tương thích" khi cắm sạc dự phòng thì phải làm sao?
+**Q2.** Điện thoại báo "Phụ kiện không được hỗ trợ" hoặc "Thiết bị không tương thích" khi cắm sạc dự phòng thì phải làm sao?
 > Trả lời: Lỗi này thường do chuẩn giao tiếp giữa chip sạc của cáp và IC sạc trên điện thoại không khớp nhau (nhất là khi anh em dùng cáp lô, cáp không đạt chứng nhận MFi của Apple đối với iPhone). Giải pháp duy nhất là thay ngay một sợi cáp chính hãng hoặc cáp có chứng nhận chất lượng rõ ràng.
 
-**Q3:** Liệu việc sạc chậm bằng sạc dự phòng có làm hỏng pin điện thoại về lâu dài không?
+**Q3.** Liệu việc sạc chậm bằng sạc dự phòng có làm hỏng pin điện thoại về lâu dài không?
 > Trả lời: Bản thân việc sạc chậm (dòng điện nhỏ) không làm hỏng pin hay gây hại trực tiếp cho viên pin của anh em, thậm chí nó còn giúp pin mát hơn so với sạc nhanh. Tuy nhiên, nếu nguyên nhân sạc chậm là do dòng điện từ pin dự phòng bị trồi sụt thất thường, chập chờn, thì nó sẽ cực kỳ có hại cho IC nguồn trên bo mạch chính của điện thoại. Thế nên gặp lỗi này, anh em cứ xử lý dứt điểm theo hướng dẫn ở trên cho tôi nhé!

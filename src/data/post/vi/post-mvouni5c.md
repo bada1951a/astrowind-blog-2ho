@@ -40,7 +40,7 @@ Nếu máy cứ treo ở logo và không thể tắt nguồn bằng phím thông
 Sử dụng phím**Giảm âm lượng**để di chuyển xuống dòng có nội dung**Wipe cache partition**. Nhấn phím**Nguồn**để chọn. Hệ thống sẽ hiển thị bảng xác nhận, tiếp tục dùng phím âm lượng chọn**Yes**và nhấn phím**Nguồn**để xác nhận lệnh. Quá trình này chỉ diễn ra trong vòng vài giây.
 
 ### Bước 4: Khởi động lại thiết bị
-Sau khi xóa xong, màn hình sẽ quay lại giao diện chính của Recovery. Lúc này, dòng**Reboot system now**đã được chọn sẵn, bạn chỉ việc nhấn phím**Nguồn** để máy khởi động lại bình thường.
+Sau khi xóa xong, màn hình sẽ quay lại giao diện chính của Recovery. Lúc này, dòng**Reboot system now**đã được chọn sẵn, bạn chỉ việc nhấn phím**Nguồn**để máy khởi động lại bình thường.
 
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(132, 204, 22, 0.08); border-radius: 4px; color: #111827;">
 <strong>Cảnh báo quan trọng:</strong> Hãy chắc chắn rằng bạn chọn đúng dòng <strong>Wipe cache partition</strong> chứ tuyệt đối không chọn <strong>Wipe data/factory reset</strong>. Lệnh thứ hai sẽ xóa toàn bộ dữ liệu cá nhân có trong máy của bạn!
@@ -54,14 +54,14 @@ Bên cạnh đó, việc sử dụng các bộ củ cáp sạc chính hãng ho�
 
 ## 5. Câu hỏi thường gặp (FAQ)
 
-**Q:** Việc xóa cache phân vùng có làm mất hình ảnh hay danh bạ của tôi không?
+**Q.** Việc xóa cache phân vùng có làm mất hình ảnh hay danh bạ của tôi không?
 
-**A:** Tuyệt đối không. Lệnh Wipe cache partition chỉ xóa các tệp tin tạm và rác của hệ thống, hoàn toàn không ảnh hưởng đến dữ liệu cá nhân, hình ảnh hay ứng dụng của bạn.
+**A.** Tuyệt đối không. Lệnh Wipe cache partition chỉ xóa các tệp tin tạm và rác của hệ thống, hoàn toàn không ảnh hưởng đến dữ liệu cá nhân, hình ảnh hay ứng dụng của bạn.
 
-**Q:** Tôi đã làm theo các bước nhưng máy vẫn kẹt ở logo Samsung thì phải làm sao?
+**Q.** Tôi đã làm theo các bước nhưng máy vẫn kẹt ở logo Samsung thì phải làm sao?
 
-**A:** Nếu sau khi xóa cache mà máy vẫn treo logo, có thể hệ điều hành đã bị lỗi sâu hơn hoặc hỏng bộ nhớ flash (eMMC/UFS). Lúc này bạn cần mang máy đến trung tâm bảo hành hoặc cửa hàng sửa chữa uy tín để chạy lại phần mềm bằng máy tính.
+**A.** Nếu sau khi xóa cache mà máy vẫn treo logo, có thể hệ điều hành đã bị lỗi sâu hơn hoặc hỏng bộ nhớ flash (eMMC/UFS). Lúc này bạn cần mang máy đến trung tâm bảo hành hoặc cửa hàng sửa chữa uy tín để chạy lại phần mềm bằng máy tính.
 
-**Q:** Làm thế nào để hạn chế tình trạng treo logo lặp đi lặp lại trên điện thoại Samsung?
+**Q.** Làm thế nào để hạn chế tình trạng treo logo lặp đi lặp lại trên điện thoại Samsung?
 
-**A:** Bạn nên thường xuyên cập nhật phiên bản phần mềm mới nhất do Samsung phát hành, tránh cài đặt các ứng dụng không rõ nguồn gốc bên ngoài cửa hàng CH Play và khởi động lại điện thoại định kỳ mỗi tuần một lần để máy dọn dẹp bộ nhớ tạm.
+**A.** Bạn nên thường xuyên cập nhật phiên bản phần mềm mới nhất do Samsung phát hành, tránh cài đặt các ứng dụng không rõ nguồn gốc bên ngoài cửa hàng CH Play và khởi động lại điện thoại định kỳ mỗi tuần một lần để máy dọn dẹp bộ nhớ tạm.

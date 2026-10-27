@@ -24,7 +24,7 @@ Bevor man gleich den Schraubenzieher zückt oder das Gerät panisch einschickt, 
 
 1. Das Flexkabel-Verschleiß-Dilemm
 
-**a:** Das flexible Ribbon-Kabel, das die Signale vom Mainboard zum Hauptdisplay leitet, wird bei jedem Aufklappen mechanisch beansprucht. Nach tausendfachem Falten kann es zu Mikrorissen oder einem Wackelkontakt kommen.
+**A.** Das flexible Ribbon-Kabel, das die Signale vom Mainboard zum Hauptdisplay leitet, wird bei jedem Aufklappen mechanisch beansprucht. Nach tausendfachem Falten kann es zu Mikrorissen oder einem Wackelkontakt kommen.
 
 2. Der Hall-Sensor / Magnet-Fehler: Im Scharnier sitzen winzige Magnetsensoren, die dem Betriebssystem mitteilen, ob das Gerät zugeklappt oder offen ist. Wenn sich dort Metallstaub angesammelt hat, denkt das Foldable fälschlicherweise, es sei noch zugeklappt, und schaltet das Hauptdisplay ab.
 

@@ -53,18 +53,18 @@ Als Techniker sehe ich täglich Geräte mit vermeidbaren Display-Schäden. Neben
 
 -**Helligkeitsautomatik aktiv lassen:**Deaktivieren Sie niemals dauerhaft die automatische Helligkeitsanpassung. Sie schützt das Display vor unnötiger Bestrahlung unter direkter Sonneneinstrahlung.
 -**Auto-Sperre verkürzen:**Stellen Sie unter**Anzeige & Helligkeit**>**Automatische Sperre**einen kurzen Intervall ein (z. B. 30 Sekunden oder 1 Minute). Wenn das iPhone ungenutzt auf dem Tisch liegt, schaltet sich das Display blitzschnell ab, anstatt statische Inhalte einzubrennen.
--**Vorsicht bei Zubehör:** Nutzen Sie ausschließlich zertifiziertes Ladezubehör (MFi-zertifiziert). Billige Kabel ohne adäquate Isolierung gefährden nicht nur den Akku, sondern stören die gesamte Energieverteilung im Gerät.
+-**Vorsicht bei Zubehör:**Nutzen Sie ausschließlich zertifiziertes Ladezubehör (MFi-zertifiziert). Billige Kabel ohne adäquate Isolierung gefährden nicht nur den Akku, sondern stören die gesamte Energieverteilung im Gerät.
 
 ## 5. Häufig gestellte Fragen (FAQ)
 
-**Q:** Verhindert der Dark Mode das Einbrennen zu einhundert Prozent?
+**Q.** Verhindert der Dark Mode das Einbrennen zu einhundert Prozent?
 
-**A:** Einen absoluten, hundertprozentigen Schutz gibt es bei organischer Leuchttechnik physikalisch bedingt nicht, da Pixel bei Nutzung unweigerlich altern. Der Dark Mode verlangsamt diesen Verschleiß jedoch so massiv, dass ein Einbrennen während der üblichen Nutzungsdauer eines iPhones extrem unwahrscheinlich wird.
+**A.** Einen absoluten, hundertprozentigen Schutz gibt es bei organischer Leuchttechnik physikalisch bedingt nicht, da Pixel bei Nutzung unweigerlich altern. Der Dark Mode verlangsamt diesen Verschleiß jedoch so massiv, dass ein Einbrennen während der üblichen Nutzungsdauer eines iPhones extrem unwahrscheinlich wird.
 
-**Q:** Verbraucht die Kurzbefehle-Automation für den Dark Mode zusätzlichen Akku?
+**Q.** Verbraucht die Kurzbefehle-Automation für den Dark Mode zusätzlichen Akku?
 
-**A:** Nein, überhaupt nicht. Die Automation läuft ereignisbasiert im Hintergrund von iOS und benötigt im Ruhezustand keine spürbaren Systemressourcen oder Energie.
+**A.** Nein, überhaupt nicht. Die Automation läuft ereignisbasiert im Hintergrund von iOS und benötigt im Ruhezustand keine spürbaren Systemressourcen oder Energie.
 
-**Q:** Was kann ich tun, wenn mein Display bereits leichte Geisterschatten zeigt?
+**Q.** Was kann ich tun, wenn mein Display bereits leichte Geisterschatten zeigt?
 
-**A:** Bei leichten, softwarebasierten Nachbildungen hilft es manchmal, das Gerät für einige Stunden komplett auszuschalten oder für ein paar Tage konsequent ein komplett schwarzes Hintergrundbild in Kombination mit dem Dark Mode zu nutzen, um die noch gesunden Pixel an die gealterten anzugleichen. Bei echten Hardware-Ehbränden hilft leider nur der Austausch des Displaymoduls.
+**A.** Bei leichten, softwarebasierten Nachbildungen hilft es manchmal, das Gerät für einige Stunden komplett auszuschalten oder für ein paar Tage konsequent ein komplett schwarzes Hintergrundbild in Kombination mit dem Dark Mode zu nutzen, um die noch gesunden Pixel an die gealterten anzugleichen. Bei echten Hardware-Ehbränden hilft leider nur der Austausch des Displaymoduls.

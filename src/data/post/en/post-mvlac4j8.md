@@ -33,7 +33,7 @@ Samsung utilizes an aggressive algorithm called Vision Booster, tied directly to
 3. Background App Load and High Refresh Rates
 Running heavy apps like GPS navigation, cameras, or streaming services while outdoors generates compounding heat. Combined with a fixed 120Hz refresh rate, your display panel constantly draws maximum power, accelerating internal heat generation and triggering the auto-dim safeguard within minutes.
 
-## 3. Step-by-Step Practical Resolution Practical Emergency Resolution
+## 3. Step-by-Step Practical Resolution Practical Resolution Practical Emergency Resolution
 
 You do not have to live with a phone that becomes a black mirror every time you step outside. Follow this systematic checklist to regain full control over your display output.
 

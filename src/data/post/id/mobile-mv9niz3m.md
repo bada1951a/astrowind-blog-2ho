@@ -39,7 +39,9 @@ Sebelum masuk ke solusinya, kita kenali dulu musuh utama dokumen digital:
 Manfaatkan fitur bawaan One UI di HP Samsung kalian tanpa perlu repot download aplikasi tambahan yang penuh iklan.
 
 #### Langkah 1: Aktifkan Fitur "Scan Dokumen" Bawaan Kamera
-Buka aplikasi Kamera Samsung kalian, arahkan ke selembar kertas dokumen. Jangan langsung ditekan tombol shutter-nya. - *Arah Pengaturan:* Perhatikan kotak kuning otomatis yang muncul di layar. Samsung punya fitur AI pendeteksi dokumen cerdas. Kotak kuning itu akan memotong (*crop*) pinggiran kertas secara otomatis meskipun kalian memotretnya dari sudut miring.
+Buka aplikasi Kamera Samsung kalian, arahkan ke selembar kertas dokumen. Jangan langsung ditekan tombol shutter-ny
+
+**A.** - *Arah Pengaturan:* Perhatikan kotak kuning otomatis yang muncul di layar. Samsung punya fitur AI pendeteksi dokumen cerdas. Kotak kuning itu akan memotong (*crop*) pinggiran kertas secara otomatis meskipun kalian memotretnya dari sudut miring.
 - Tekan tombol "Scan" yang muncul di layar, lalu pilih opsi Simpan.
 
 <div style="border-left: 4px solid #a16207; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -74,7 +76,9 @@ Biar nggak panik lagi pas baterai HP tinggal 15 persen di tengah jalan pulang ke
 Sah, asalkan teks terbaca dengan jelas, tidak terpotong, dan tanda tangan serta stempel basah terlihat autentik tanpa manipulasi digital yang berlebihan.
 
 2. Kenapa hasil scan saya tetap ada bayangan meskipun sudah di dalam ruangan terang?
-Biasanya karena sumber cahaya berada tepat di belakang punggung Anda, sehingga tubuh Anda menutupi cahaya. Pindahkan posisi duduk Anda agar cahaya datang dari arah samping atau depan atas.
+Biasanya karena sumber cahaya berada tepat di belakang punggung Anda, sehingga tubuh Anda menutupi cahay
+
+**A.** Pindahkan posisi duduk Anda agar cahaya datang dari arah samping atau depan atas.
 
 3. Mana yang lebih baik untuk faks, format PDF atau JPG?
 Selalu utamakan format PDF untuk dokumen teks. Format PDF menjaga ukuran file tetap kecil namun mempertahankan ketajaman garis huruf, sehingga tidak pecah saat dicetak atau difaks ulang.

@@ -28,7 +28,7 @@ When a Galaxy device gets stuck on the boot logo after a moisture event, users o
 
 3.**Firmware Hangs Caused by Partial Boot Interruption:**If the phone shut down abruptly due to a safety cutout from the moisture sensor, the Android Runtime (ART) may fail to verify odex files during the boot sequence, causing the startup sequence to hang indefinitely.
 
-## 3. Step-by-Step Practical Resolution Practical Emergency Resolution
+## 3. Step-by-Step Practical Resolution Practical Resolution Practical Emergency Resolution
 
 Before you panic and pay for an expensive motherboard replacement, you can try a safe, industry-standard diagnostic and repair procedure right from your desk. Follow these steps carefully to clear your system cache via Recovery Mode.
 
@@ -62,7 +62,7 @@ Cache wipe complete.
 ```
 
 ### Step 4: Reboot System Now
-With**Reboot system now**highlighted at the top of the menu, press the**Power** button once. Your Samsung Galaxy will now restart cleanly, rebuilding necessary system cache files without touching your precious personal photos, messages, or apps.
+With**Reboot system now**highlighted at the top of the menu, press the**Power**button once. Your Samsung Galaxy will now restart cleanly, rebuilding necessary system cache files without touching your precious personal photos, messages, or apps.
 
 <div style="border-left: 4px solid #a6e22e; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Pro Tip:</strong> Never insert metal pins, sewing needles, or unfolded paperclips into the USB-C port to clean out moisture or lint. You risk permanently bending the delicate spring pins inside the port, which turns a simple software/moisture glitch into an expensive hardware repair.
@@ -74,14 +74,14 @@ As a technician who handles dozens of water-damaged and boot-looping devices eve
 
 ## 5. Frequently Asked Questions (FAQ)
 
-**Q:** Will clearing the cache partition delete my photos, text messages, or downloaded apps?
+**Q.** Will clearing the cache partition delete my photos, text messages, or downloaded apps?
 
-**A:** No. Wiping the cache partition only removes temporary system data and residual app caches used to speed up loading times. Your personal files, photos, and app data remain completely safe and untouched.
+**A.** No. Wiping the cache partition only removes temporary system data and residual app caches used to speed up loading times. Your personal files, photos, and app data remain completely safe and untouched.
 
-**Q:** What should I do if my phone does not enter Recovery Mode and keeps looping?
+**Q.** What should I do if my phone does not enter Recovery Mode and keeps looping?
 
-**A:** Battery power level is often the culprit. Plug the phone into a standard 5V/2A low-output charger for 15 minutes to gain a stable charge, then immediately attempt the Volume Up + Power button combination again while it is connected.
+**A.** Battery power level is often the culprit. Plug the phone into a standard 5V/2A low-output charger for 15 minutes to gain a stable charge, then immediately attempt the Volume Up + Power button combination again while it is connected.
 
-**Q:** Can I use a hair dryer to dry out the charging port quickly?
+**Q.** Can I use a hair dryer to dry out the charging port quickly?
 
-**A:** Absolutely not. Using a hair dryer pushes moisture deeper into the chassis through the microphone and speaker grilles, and the excessive heat can warp the internal display panels and degrade the lithium-ion battery seals. Always rely on natural air drying.
+**A.** Absolutely not. Using a hair dryer pushes moisture deeper into the chassis through the microphone and speaker grilles, and the excessive heat can warp the internal display panels and degrade the lithium-ion battery seals. Always rely on natural air drying.

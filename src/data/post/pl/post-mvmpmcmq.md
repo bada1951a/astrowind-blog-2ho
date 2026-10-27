@@ -10,7 +10,9 @@ theme: "Rosewood Hardware Guide"
 
 ## 1. Awaryjna sytuacja ze smartfonem
 
-Wrzucasz ulubioną playlistę, kładziesz iPhone'a na półce w łazience i biorąc gorący prysznic, relaksujesz się przy muzyce. Szybki powrót do rzeczywistości następuje sekundy po wyjściu z kabiny: ekran jest dosłownie mokry od gęstej pary wodnej, a kiedy próbujesz ściszyć utwór, ikony na wyświetlaczu zaczynają żyć własnym życiem – aplikacje otwierają się same, a kursor myszkuje po ekranie jak opętany. To klasyczny przypadek **ghost touch**wywołany kondensacją wilgoci wewnątrz digitizera. Co gorsza, jeśli w takim stanie Twój telefon utknie na statycznym, jasnym ekranie odtwarzacza muzyki przez dłuższy czas, w połączeniu z ciepłem i wilgocią drastycznie przyspieszasz proces stałego**wypalenia pikeli OLED**. Jako serwisant z Warszawy widzę to w każdy poniedziałek po weekendzie. Czas dowiedzieć się, jak przed tym uciec, automatyzując**Tryb Ciemny**i chroniąc hardware.
+Wrzucasz ulubioną playlistę, kładziesz iPhone'a na półce w łazience i biorąc gorący prysznic, relaksujesz się przy muzyce. Szybki powrót do rzeczywistości następuje sekundy po wyjściu z kabiny: ekran jest dosłownie mokry od gęstej pary wodnej, a kiedy próbujesz ściszyć utwór, ikony na wyświetlaczu zaczynają żyć własnym życiem – aplikacje otwierają się same, a kursor myszkuje po ekranie jak opętany. To klasyczny przypadek **ghost touch**wywołany kondensacją wilgoci wewnątrz digitizer
+
+**A.** Co gorsza, jeśli w takim stanie Twój telefon utknie na statycznym, jasnym ekranie odtwarzacza muzyki przez dłuższy czas, w połączeniu z ciepłem i wilgocią drastycznie przyspieszasz proces stałego**wypalenia pikeli OLED**. Jako serwisant z Warszawy widzę to w każdy poniedziałek po weekendzie. Czas dowiedzieć się, jak przed tym uciec, automatyzując**Tryb Ciemny**i chroniąc hardware.
 
 <div style="border-left: 4px solid #be123c; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Wskazówka serwisu:</strong> Para wodna w łazience to cichy zabójca elektroniki. Ekran OLED nie wybacza trzymania statycznych, jasnych elementów interfejsu w wysokiej temperaturze i wilgotności.
@@ -32,8 +34,9 @@ Aby uniknąć uszkodzenia powłoki OLED oraz zminimalizować ryzyko awarii dotyk
 
 1.**Konfiguracja Automatyzacji Trybu Ciemnego w aplikacji Skróty (Shortcuts):**- Otwórz aplikację**Skróty**na swoim iPhonie i przejdź do zakładki**Automatyzacja**.
    - Kliknij plus w prawym górnym rogu, aby utworzyć nową**Automatyzację osobistą**.
-   - Wybierz warunek czasowy, np.**Pora dnia**(ustaw na godzinę wieczorną lub ranną) albo powiąż go z lokalizacją/zachodem słońca.
-   - Jako akcję wybierz**Ustaw wygląd**i skonfiguruj ją na**Ciemny**. Stwórz drugą automatyzację na poranek ze zmianą na**Jasny**(jeśli wolisz za dnia).
+   - Wybierz warunek czasowy, np.**Pora dnia**(ustaw na godzinę wieczorną lub ranną) albo powiąż go z lokalizacją/zachodem słońc
+
+**A.** - Jako akcję wybierz**Ustaw wygląd**i skonfiguruj ją na**Ciemny**. Stwórz drugą automatyzację na poranek ze zmianą na**Jasny**(jeśli wolisz za dnia).
    - Dzięki temu Twój ekran przez większą część dnia będzie oszczędzał subpiksele organiczne, drastycznie zmniejszając ryzyko wypaleń.
 
 2.**Procedura ratunkowa przy wystąpieniu ghost touch po łazience:**- Wyłącz natychmiast ekran przyciskiem bocznym.**Nigdy**nie próbuj klikać na oślep.
@@ -53,22 +56,25 @@ Aby uniknąć uszkodzenia powłoki OLED oraz zminimalizować ryzyko awarii dotyk
 
 ## 4. Wskazówki i ostrzeżenia profesjonalnego serwisanta
 
-W mojej praktyce serwisowej spotykam wielu klientów, którzy po wyjściu z zaparowanej łazienki próbują ratować telefon, wkładając go do miski z surowym ryżem.**To błąd techniczny!** Pył ryżowy wchodzi w interakcje z resztkami wilgoci, tworząc lepką miazgę, która dosłownie blokuje port Lightning lub USB-C. Jeśli Twój iPhone po kontakcie z parą wodną wariuje przez dłużej niż godzinę, najlepiej wyłączyć go całkowicie i oddać do serwisu w celu oczyszczenia płyty głównej z osadów mineralnych oraz zabezpieczenia taśm wyświetlacza.
+W mojej praktyce serwisowej spotykam wielu klientów, którzy po wyjściu z zaparowanej łazienki próbują ratować telefon, wkładając go do miski z surowym ryżem.**To błąd techniczny!**Pył ryżowy wchodzi w interakcje z resztkami wilgoci, tworząc lepką miazgę, która dosłownie blokuje port Lightning lub USB-C. Jeśli Twój iPhone po kontakcie z parą wodną wariuje przez dłużej niż godzinę, najlepiej wyłączyć go całkowicie i oddać do serwisu w celu oczyszczenia płyty głównej z osadów mineralnych oraz zabezpieczenia taśm wyświetlacz
 
-<div style="border-left: 4px solid #be123c; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Ważna zasada bezpieczeństwa:</strong> Wodoszczelność iPhone'a (norma IP68) słabieje z wiekiem pod wpływem upadków, wysokich temperatur i naturalnego zużycia uszczelek. Łazienkowa para to najkrótsza droga do zalania wnętrza.
-</div>
+**A.** <div style="border-left: 4px solid #be123c; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
+<strong>Ważna zasada bezpieczeństw
+
+**A.** </strong> Wodoszczelność iPhone'a (norma IP68) słabieje z wiekiem pod wpływem upadków, wysokich temperatur i naturalnego zużycia uszczelek. Łazienkowa para to najkrótsza droga do zalania wnętrz
+
+**A.** </div>
 
 ## 5. Najczęściej zadawane pytania (FAQ)
 
-**Q:** Czy włączenie Trybu Ciemnego całkowicie eliminuje ryzyko wypalenia ekranu OLED?
+**Q.** Czy włączenie Trybu Ciemnego całkowicie eliminuje ryzyko wypalenia ekranu OLED?
 
-**A:** Nie eliminuje w stu procentach, ale drastycznie zwalnia ten proces. Piksele w trybie ciemnym zużywają znacznie mniej energii i wolniej ulegają degradacji niż przy stałym wyświetlanju jasnego tła.
+**A.** Nie eliminuje w stu procentach, ale drastycznie zwalnia ten proces. Piksele w trybie ciemnym zużywają znacznie mniej energii i wolniej ulegają degradacji niż przy stałym wyświetlanju jasnego tł
 
-**Q:** Co zrobić, gdy ghost touch nie mija mimo wysuszenia telefonu?
+**A.Q.** Co zrobić, gdy ghost touch nie mija mimo wysuszenia telefonu?
 
-**A:** Jeśli po kilku godzinach w suchym miejscu dotyk nadal wariuje, oznacza to, że wilgoć mogła uszkodzić kontroler dotyku na taśmie wyświetlacza lub na płycie głównej. W takim wypadku konieczna jest wizyta w profesjonalnym serwisie w celu diagnostyki hardware'owej.
+**A.** Jeśli po kilku godzinach w suchym miejscu dotyk nadal wariuje, oznacza to, że wilgoć mogła uszkodzić kontroler dotyku na taśmie wyświetlacza lub na płycie głównej. W takim wypadku konieczna jest wizyta w profesjonalnym serwisie w celu diagnostyki hardware'owej.
 
-**Q:** Czy automatyczna zmiana jasności ekranu pomaga w ochronie przed wypaleniami?
+**Q.** Czy automatyczna zmiana jasności ekranu pomaga w ochronie przed wypaleniami?
 
-**A:** Tak, warto połączyć automatyczny Tryb Ciemny z włączoną funkcją Automatycznej Jasności. Unikanie pracy na 100% jasności w pełnym słońcu lub mocnym sztucznym oświetleniu znacząco wydłuża żywotność matrycy OLED.
+**A.** Tak, warto połączyć automatyczny Tryb Ciemny z włączoną funkcją Automatycznej Jasności. Unikanie pracy na 100% jasności w pełnym słońcu lub mocnym sztucznym oświetleniu znacząco wydłuża żywotność matrycy OLED.

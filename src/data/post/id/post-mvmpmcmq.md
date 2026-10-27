@@ -10,9 +10,13 @@ theme: "Matte Black stealth"
 
 ## 1. Situasi Darurat Kritis pada Smartphone
 
-Kemarin sore saat saya sedang menikmati kopi di kawasan Sudirman, seorang pelanggan datang dengan wajah panik. Ia buru-buru menyodorkan iPhone miliknya karena ingin memotret momen penting keponakannya yang sedang tertawa lucu. Sialnya, begitu ikon kamera ditekan, muncul pop-up peringatan **"Penyimpanan Hampir Penuh"** dan seketika aplikasi Galeri macet total, membeku di layar utama. Yang lebih mengerikan, saat layar kembali normal, bayangan samar dari tombol ikon aplikasi sebelumnya masih tercetak permanen di panel layarnya. Masalah klasik yang sering diabaikan pengguna iPhone: gejala awal layar OLED *burn-in* akibat penggunaan tingkat kecerahan maksimal yang statis dalam waktu lama.
+Kemarin sore saat saya sedang menikmati kopi di kawasan Sudirman, seorang pelanggan datang dengan wajah panik. Ia buru-buru menyodorkan iPhone miliknya karena ingin memotret momen penting keponakannya yang sedang tertawa lucu. Sialnya, begitu ikon kamera ditekan, muncul pop-up peringatan **"Penyimpanan Hampir Penuh"** dan seketika aplikasi Galeri macet total, membeku di layar utam
 
-<div style="border-left: 4px solid #ffffff; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
+**A.** Yang lebih mengerikan, saat layar kembali normal, bayangan samar dari tombol ikon aplikasi sebelumnya masih tercetak permanen di panel layarny
+
+**A.** Masalah klasik yang sering diabaikan pengguna iPhone: gejala awal layar OLED *burn-in* akibat penggunaan tingkat kecerahan maksimal yang statis dalam waktu lam
+
+**A.** <div style="border-left: 4px solid #ffffff; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Catatan Teknisi:</strong> Panel OLED sangat rentan terhadap degradasi piksel organik jika terus-menerus menampilkan elemen statis dengan warna terang. Mengatur transisi visual ke mode gelap secara otomatis adalah pertahanan lini pertama yang paling efektif.
 </div>
 
@@ -20,11 +24,11 @@ Kemarin sore saat saya sedang menikmati kopi di kawasan Sudirman, seorang pelang
 
 ## 2. Analisis Mendalam Kerusakan Port dan Hardware
 
-Sebagai teknisi yang sering membongkar perangkat Apple, saya sering melihat struktur fisik layar Super Retina XDR. Ada tiga alasan utama mengapa layar iPhone bisa mengalami *burn-in* lebih cepat dari seharusnya:
+Sebagai teknisi yang sering membongkar perangkat Apple, saya sering melihat struktur fisik layar Super Retina XDR. Ada tiga alasan utama mengapa layar iPhone bisa mengalami *burn-in* lebih cepat dari seharusny
 
-1. **Degradasi Piksel Organik (Pixel Aging):**Komponen organik di dalam piksel sub-pixel OLED akan kehilangan tingkat kecerahannya seiring waktu. Jika piksel tertentu menyala dengan warna putih atau terang secara terus-menerus sementara piksel di sekitarnya mati, keausan menjadi tidak merata.
+**A.** 1. **Degradasi Piksel Organik (Pixel Aging):**Komponen organik di dalam piksel sub-pixel OLED akan kehilangan tingkat kecerahannya seiring waktu. Jika piksel tertentu menyala dengan warna putih atau terang secara terus-menerus sementara piksel di sekitarnya mati, keausan menjadi tidak merat
 
-2.**Tingkat Kecerahan Maksimal yang Konstan:** Penggunaan *Auto-Brightness* yang dimatikan dengan posisi slider kecerahan di angka 100% saat berada di bawah terik matahari Jakarta mempercepat proses penuaan zat organik pada panel layar.
+**A.** 2.**Tingkat Kecerahan Maksimal yang Konstan:** Penggunaan *Auto-Brightness* yang dimatikan dengan posisi slider kecerahan di angka 100% saat berada di bawah terik matahari Jakarta mempercepat proses penuaan zat organik pada panel layar.
 
 3. **Elemen Antarmuka Statis (UI Ghosting):**Status bar, dock aplikasi di bagian bawah, atau tombol navigasi aplikasi tertentu yang tidak pernah berubah posisi memberikan beban kerja yang tidak seimbang pada area piksel tertentu di layar.
 
@@ -41,9 +45,9 @@ Alih-alih menunggu layar Anda benar-benar rusak dan harus mengeluarkan biaya mah
 3. Atur aksi untuk mengubah Appearance (Tampilan) ke Dark Mode saat malam dan Light Mode di siang hari.
 ```
 
-Ikuti langkah-langkah praktis berikut untuk mengaturnya:
+Ikuti langkah-langkah praktis berikut untuk mengaturny
 
-* **Langkah 1:**Buka aplikasi**Shortcuts**(Pintasan) di iPhone Anda, lalu ketuk tab**Automation** (Otomasi) di bagian bawah tengah layar.
+**A.** * **Langkah 1:**Buka aplikasi**Shortcuts**(Pintasan) di iPhone Anda, lalu ketuk tab**Automation** (Otomasi) di bagian bawah tengah layar.
 * **Langkah 2:**Ketuk ikon tambah (+) di pojok kanan atas, lalu pilih**Time of Day** (Waktu dalam Hari).
 * **Langkah 3:**Tentukan waktu spesifik, misalnya pukul 18.00 untuk mulai mengaktifkan mode gelap, pilih opsi**Run Immediately**(Jalankan Segera), lalu ketuk**Next** (Berikutnya).
 * **Langkah 4:**Cari tindakan dengan mengetik**Set Appearance**pada kolom pencarian, lalu ubah parameternya menjadi**Dark**(Gelap). Ketuk**Done** untuk menyimpan.
@@ -59,14 +63,16 @@ Selain otomatisasi tema tampilan, biasakan untuk mengaktifkan fitur**Auto-Bright
 
 ## 5. Pertanyaan yang Sering Diajukan (FAQ)
 
-**Q:** Apakah Dark Mode benar-benar bisa menghilangkan risiko *burn-in* pada layar iPhone?
+**Q.** Apakah Dark Mode benar-benar bisa menghilangkan risiko *burn-in* pada layar iPhone?
 
-**A:** Dark Mode tidak menghilangkan risiko secara mutlak, namun sangat efektif memperlambat proses keausan piksel organik karena sebagian besar piksel dimatikan (menampilkan warna hitam murni), sehingga umur pakai panel OLED menjadi jauh lebih panjang.
+**A.** Dark Mode tidak menghilangkan risiko secara mutlak, namun sangat efektif memperlambat proses keausan piksel organik karena sebagian besar piksel dimatikan (menampilkan warna hitam murni), sehingga umur pakai panel OLED menjadi jauh lebih panjang.
 
-**Q:** Apakah fitur otomatisasi ini akan menguras baterai iPhone saya?
+**Q.** Apakah fitur otomatisasi ini akan menguras baterai iPhone saya?
 
-**A:** Sama sekali tidak. Proses pergantian skema warna melalui sistem bawaan iOS ini sangat ringan dan justru menghemat daya baterai, terutama jika iPhone Anda menggunakan panel OLED yang mengonsumsi daya lebih sedikit saat menampilkan warna hitam.
+**A.** Sama sekali tidak. Proses pergantian skema warna melalui sistem bawaan iOS ini sangat ringan dan justru menghemat daya baterai, terutama jika iPhone Anda menggunakan panel OLED yang mengonsumsi daya lebih sedikit saat menampilkan warna hitam.
 
-**Q:** Apa yang harus saya lakukan jika bayangan aplikasi terlanjur tercetak di layar?
+**Q.** Apa yang harus saya lakukan jika bayangan aplikasi terlanjur tercetak di layar?
 
-**A:** Jika bayangan sudah permanen (ghost image), satu-satunya solusi teknis yang dapat mengembalikan kejernihan layar secara total adalah dengan melakukan penggantian modul satu set layar baru di pusat reparasi terpercaya.
+**A.** Jika bayangan sudah permanen (ghost image), satu-satunya solusi teknis yang dapat mengembalikan kejernihan layar secara total adalah dengan melakukan penggantian modul satu set layar baru di pusat reparasi terpercay
+
+**A.**

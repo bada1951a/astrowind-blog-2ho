@@ -29,7 +29,9 @@ Cái cảm giác đang cần máy gấp để scan tài liệu hay check group Z
 
 Dựa trên kinh nghiệm mổ xẻ hàng trăm ca lỗi sạc không dây từ đế sạc Xiaomi, Samsung cho tới MagSafe của iPhone, mình đúc kết ra 3 nguyên nhân chính sau:
 
-*   Lệch tâm cuộn dây cảm ứng (Misaligned Induction Coils): Đây là thủ phạm chiếm tới 70% các ca. Sạc không dây hoạt động dựa trên nguyên lý cảm ứng điện từ giữa hai cuộn dây đồng: một nằm trong đế sạc và một nằm ở mặt lưng điện thoại. Nếu tâm của hai cuộn này lệch nhau quá 3-5mm, từ trường không thể cộng hưởng tối ưu, hệ thống bảo vệ sẽ tự ngắt và bật đèn nhấp nháy để cảnh báo quá dòng/quá nhiệt.
+*   Lệch tâm cuộn dây cảm ứng (Misaligned Induction Coils): Đây là thủ phạm chiếm tới 70% các c
+
+**A.** Sạc không dây hoạt động dựa trên nguyên lý cảm ứng điện từ giữa hai cuộn dây đồng: một nằm trong đế sạc và một nằm ở mặt lưng điện thoại. Nếu tâm của hai cuộn này lệch nhau quá 3-5mm, từ trường không thể cộng hưởng tối ưu, hệ thống bảo vệ sẽ tự ngắt và bật đèn nhấp nháy để cảnh báo quá dòng/quá nhiệt.
 *   Vướng dị vật hoặc ốp lưng quá dày/có từ tính: Nhiều anh em dùng ốp chống sốc dày cộp, ốp lưng gắn nam châm tản nhiệt, hoặc kẹt mấy cái card visit, thẻ giữ xe có dán lá nhôm chống trộm phía sau lưng máy. Mấy thứ này cản trở từ trường cực kỳ mạnh.
 *   Nguồn cấp điện đầu vào không đủ dòng (Adapter yếu): Cắm đế sạc nhanh vào mấy cái củ sạc iPhone 5W đời cũ hoặc cắm nhầm vào cổng USB của máy tính bàn văn phòng (chỉ cấp dòng 0.5A - 1A). Khi điện thoại đòi dòng cao mà cấp không đủ, đế sạc sẽ nháy đèn báo lỗi nguồn.
 
@@ -63,17 +65,17 @@ Sạc không dây tiện thật, nhưng nếu dùng sai cách thì "tàn phá" t
 
 ### 5. Câu hỏi thường gặp (FAQ)
 
-**Q1:** Tại sao tôi đã đặt đúng chính giữa mà đèn vẫn nhấp nháy đỏ?
+**Q1.** Tại sao tôi đã đặt đúng chính giữa mà đèn vẫn nhấp nháy đỏ?
 *
 
-**A:*** Có thể đế sạc của bạn đang bị lỗi quá nhiệt nội tại hoặc củ sạc cấp nguồn không đạt chuẩn công suất yêu cầu. Hãy thử đổi củ sạc khác hoặc rút điện đế sạc ra 5 phút để nguội rồi cắm lại.
+**A.** Có thể đế sạc của bạn đang bị lỗi quá nhiệt nội tại hoặc củ sạc cấp nguồn không đạt chuẩn công suất yêu cầu. Hãy thử đổi củ sạc khác hoặc rút điện đế sạc ra 5 phút để nguội rồi cắm lại.
 
-**Q2:** Dán kính cường lực mặt lưng điện thoại có ảnh hưởng đến sạc không dây không?
+**Q2.** Dán kính cường lực mặt lưng điện thoại có ảnh hưởng đến sạc không dây không?
 *
 
-**A:*** Miếng dán PPF mỏng hoặc kính cường lực thông thường không ảnh hưởng đáng kể. Tuy nhiên, nếu bạn dán loại cường lực có viền kim loại trang trí hoặc tấm dán chống nhìn trộm dày có chứa thành phần kim loại thì chắc chắn sẽ gây lỗi ngắt sạc.
+**A.** Miếng dán PPF mỏng hoặc kính cường lực thông thường không ảnh hưởng đáng kể. Tuy nhiên, nếu bạn dán loại cường lực có viền kim loại trang trí hoặc tấm dán chống nhìn trộm dày có chứa thành phần kim loại thì chắc chắn sẽ gây lỗi ngắt sạc.
 
-**Q3:** Sạc không dây có làm chai pin nhanh hơn sạc dây bình thường không?
+**Q3.** Sạc không dây có làm chai pin nhanh hơn sạc dây bình thường không?
 *
 
-**A:*** Bản thân công nghệ sạc không dây không làm chai pin trực tiếp, nhưng hiệu suất chuyển hóa năng lượng thấp hơn và sinh nhiệt nhiều hơn mới là nguyên nhân chính. Nếu kiểm soát tốt nhiệt độ máy, pin vẫn bền bình thường anh em nhé!
+**A.** Bản thân công nghệ sạc không dây không làm chai pin trực tiếp, nhưng hiệu suất chuyển hóa năng lượng thấp hơn và sinh nhiệt nhiều hơn mới là nguyên nhân chính. Nếu kiểm soát tốt nhiệt độ máy, pin vẫn bền bình thường anh em nhé!

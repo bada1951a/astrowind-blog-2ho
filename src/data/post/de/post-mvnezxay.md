@@ -44,7 +44,7 @@ Bevor Sie den Weg zum teuren Reparaturdienst antreten oder gar einen Werksreset 
 
 6.**Sicherheitsabfrage:**Bestätigen Sie den Vorgang mit**Yes**. Das System leert nun die beschädigten temporären Dateien in wenigen Sekunden.
 
-7.**Neustart:**Wählen Sie abschließend**Reboot system now** aus und bestätigen Sie. Ihr Galaxy startet nun frisch und sollte den Boot-Loop erfolgreich hinter sich gelassen haben.
+7.**Neustart:**Wählen Sie abschließend**Reboot system now**aus und bestätigen Sie. Ihr Galaxy startet nun frisch und sollte den Boot-Loop erfolgreich hinter sich gelassen haben.
 
 ```bash
 # Technischer Hinweis zum Recovery-Befehl
@@ -62,14 +62,14 @@ Achten Sie im Alltag darauf, Ihren internen Speicher niemals komplett vollzulauf
 
 ## 5. Häufig gestellte Fragen (FAQ)
 
-**Q:** Werden durch das Leeren der Cache Partition meine persönlichen Fotos und Kontakte gelöscht?
+**Q.** Werden durch das Leeren der Cache Partition meine persönlichen Fotos und Kontakte gelöscht?
 
-**A:** Nein. Das Leeren der Cache Partition entfernt lediglich temporäre Systemdaten und App-Reste. Ihre privaten Dateien, Fotos, WhatsApp-Chats und Kontakte bleiben zu 100 Prozent erhalten.
+**A.** Nein. Das Leeren der Cache Partition entfernt lediglich temporäre Systemdaten und App-Reste. Ihre privaten Dateien, Fotos, WhatsApp-Chats und Kontakte bleiben zu 100 Prozent erhalten.
 
-**Q:** Warum muss ich mein Galaxy für den Recovery-Modus an einen PC anschließen?
+**Q.** Warum muss ich mein Galaxy für den Recovery-Modus an einen PC anschließen?
 
-**A:** Samsung hat ab Android 11 / One UI 3.0 aus Sicherheitsgründen eingeführt, dass bestimmte Tastenombinationen für den Recovery-Modus nur dann funktionieren, wenn das Smartphone über ein USB-Kabel mit einem Computer, einer Konsole oder einem anderen USB-Gerät verbunden ist.
+**A.** Samsung hat ab Android 11 / One UI 3.0 aus Sicherheitsgründen eingeführt, dass bestimmte Tastenombinationen für den Recovery-Modus nur dann funktionieren, wenn das Smartphone über ein USB-Kabel mit einem Computer, einer Konsole oder einem anderen USB-Gerät verbunden ist.
 
-**Q:** Was kann ich tun, wenn der Punkt "Wipe cache partition" im Menü nicht angezeigt wird?
+**Q.** Was kann ich tun, wenn der Punkt "Wipe cache partition" im Menü nicht angezeigt wird?
 
-**A:** Bei sehr neuen Software-Versionen oder bestimmten Modellreihen kann es vorkommen, dass Samsung diesen Menüpunkt angepasst hat. Nutzen Sie in diesem Fall alternativ den Punkt "Repair Apps" im selben Recovery-Menü, um fehlerhafte App-Strukturen zu bereinigen.
+**A.** Bei sehr neuen Software-Versionen oder bestimmten Modellreihen kann es vorkommen, dass Samsung diesen Menüpunkt angepasst hat. Nutzen Sie in diesem Fall alternativ den Punkt "Repair Apps" im selben Recovery-Menü, um fehlerhafte App-Strukturen zu bereinigen.

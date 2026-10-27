@@ -54,11 +54,11 @@ Lorsque vous marchez en plein soleil, évitez de laisser votre téléphone dans 
 
 **Q1.** Mon téléphone chauffe et s'assombrit même à l'ombre dans mon bureau climatisé, est-ce normal ?
 
-**A1.**Non, ce n'est pas normal. Si le phénomène se produit en intérieur sans exposition au soleil, cela indique généralement un processus en arrière-plan bloqué (comme une synchronisation cloud corrompue) ou, pire, un début de court-circuit au niveau du circuit de charge ou de la batterie. Un diagnostic en atelier s'impose pour mesurer la consommation réelle de la carte mère.
+**A1.** Non, ce n'est pas normal. Si le phénomène se produit en intérieur sans exposition au soleil, cela indique généralement un processus en arrière-plan bloqué (comme une synchronisation cloud corrompue) ou, pire, un début de court-circuit au niveau du circuit de charge ou de la batterie. Un diagnostic en atelier s'impose pour mesurer la consommation réelle de la carte mère.
 
 **Q2.** Est-ce que l'utilisation d'un film de protection en verre trempé accentue la surchauffe de l'écran ?
 
-**A2.**Indirectement, oui, surtout si vous utilisez un verre trempé bas de gamme très épais ou mal collé. Il agit comme une couche isolante supplémentaire qui retient la chaleur émise par la dalle tactile et le panneau OLED. Préférez des films de qualité certifiée qui n'altèrent pas la dissipation thermique superficielle.
+**A2.** Indirectement, oui, surtout si vous utilisez un verre trempé bas de gamme très épais ou mal collé. Il agit comme une couche isolante supplémentaire qui retient la chaleur émise par la dalle tactile et le panneau OLED. Préférez des films de qualité certifiée qui n'altèrent pas la dissipation thermique superficielle.
 
 **Q3.** Si le problème persiste malgré tout, est-ce que le changement de la batterie résoudra la baisse de luminosité ?
 

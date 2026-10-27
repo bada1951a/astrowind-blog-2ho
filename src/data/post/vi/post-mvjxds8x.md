@@ -15,7 +15,7 @@ theme: "High-Contrast Charcoal"
 <div style="border-left: 4px solid #e11d48; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Cảnh báo từ thợ sửa chữ
 
-**a:**</strong> Tình trạng màn hình tự đột ngột giảm sáng tối đa và đơ cảm ứng không phải do hỏng phần cứng vĩnh viễn, mà là cơ chế tự vệ khẩn cấp của điện thoại khi linh kiện bên trong quá nóng (Thermal Throttling).
+**A.** </strong> Tình trạng màn hình tự đột ngột giảm sáng tối đa và đơ cảm ứng không phải do hỏng phần cứng vĩnh viễn, mà là cơ chế tự vệ khẩn cấp của điện thoại khi linh kiện bên trong quá nóng (Thermal Throttling).
 </div>
 
 ![Phone Screen Dimming Automatically in Bright Sunlight: Overheating Throttling Fix Mobile Repair Guide](https://picsum.photos/seed/mob-mvjxgmyg-11-b/1000/550.jpg)
@@ -26,7 +26,7 @@ Trong quá trình làm việc tại cửa hàng sửa chữa, tôi đã gặp h�
 
 1. Hiệu ứng nhà kính từ ánh nắng trực tiếp kết hợp độ sáng tối đ
 
-**a:** Khi bạn đứng ngoài trời nắng gắt, cảm biến ánh sáng đẩy độ sáng màn hình lên mức cực đại (Peak Brightness). Đồng thời, tấm nền OLED/LCD cùng vi xử lý (CPU) phải hoạt động hết công suất để duy trì hiển thị, sinh ra lượng nhiệt cực lớn không thể thoát ra ngoài kịp.
+**A.** Khi bạn đứng ngoài trời nắng gắt, cảm biến ánh sáng đẩy độ sáng màn hình lên mức cực đại (Peak Brightness). Đồng thời, tấm nền OLED/LCD cùng vi xử lý (CPU) phải hoạt động hết công suất để duy trì hiển thị, sinh ra lượng nhiệt cực lớn không thể thoát ra ngoài kịp.
 
 2. Ốp lưng dày cản trở quá trình tản nhiệt: Chiếc ốp lưng chống sốc dày cộp bằng nhựa dẻo hoặc silicon thời trang mà bạn đang dùng vô tình đóng vai trò như một chiếc lò nướng mini, giữ chặt hơi nóng bên trong thân máy thay vì tản ra ngoài không khí.
 
@@ -61,11 +61,11 @@ Nếu máy đã hồi phục phần nào cảm ứng, hãy vuốt thanh công c�
 
 **Q1.** Điện thoại của tôi cứ ra nắng là tự giảm độ sáng dù tôi đã tắt tính năng Auto-Brightness, tại sao vậy?
 
-**A1.**Đó là cơ chế bảo vệ phần cứng bằng phần mềm của nhà sản xuất (như Apple, Samsung, Xiaomi). Dù bạn tắt tự động sáng, hệ thống vẫn có một lớp bảo vệ nền dựa trên nhiệt độ cảm biến nhiệt (Thermal Sensor). Khi nhiệt độ máy vượt ngưỡng giới hạn an toàn, hệ thống sẽ ép giảm độ sáng màn hình xuống mức thấp nhất để bảo vệ tấm nền màn hình không bị ám vàng hoặc cháy điểm ảnh.
+**A1.** Đó là cơ chế bảo vệ phần cứng bằng phần mềm của nhà sản xuất (như Apple, Samsung, Xiaomi). Dù bạn tắt tự động sáng, hệ thống vẫn có một lớp bảo vệ nền dựa trên nhiệt độ cảm biến nhiệt (Thermal Sensor). Khi nhiệt độ máy vượt ngưỡng giới hạn an toàn, hệ thống sẽ ép giảm độ sáng màn hình xuống mức thấp nhất để bảo vệ tấm nền màn hình không bị ám vàng hoặc cháy điểm ảnh.
 
 **Q2.** Tình trạng quá nhiệt này có làm hỏng pin hoặc giảm tuổi thọ điện thoại không?
 
-**A2.**Có. Nhiệt độ kẻ thù số một của pin Li-ion. Việc điện thoại thường xuyên bị quá nhiệt ngoài trời sẽ làm pin bị phù (phồng), chai nhanh chóng và làm keo dán màn hình bị hở. Nếu máy của bạn thường xuyên bị tình trạng này, bạn nên mang ra tiệm kiểm tra tình trạng keo tản nhiệt bên trong chip hoặc thay pin nếu pin đã cũ.
+**A2.** Có. Nhiệt độ kẻ thù số một của pin Li-ion. Việc điện thoại thường xuyên bị quá nhiệt ngoài trời sẽ làm pin bị phù (phồng), chai nhanh chóng và làm keo dán màn hình bị hở. Nếu máy của bạn thường xuyên bị tình trạng này, bạn nên mang ra tiệm kiểm tra tình trạng keo tản nhiệt bên trong chip hoặc thay pin nếu pin đã cũ.
 
 **Q3.** Tôi có nên dán các loại kính cường lực chống chói hay kính tản nhiệt để giải quyết triệt để vấn đề này không?
 

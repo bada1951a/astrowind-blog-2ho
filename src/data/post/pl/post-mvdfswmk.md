@@ -20,7 +20,7 @@ Czujnik wilgoci w nowszych modelach iPhone'ów bywa nadwrażliwy, a samo odczyty
 
 1. Mikroskopijne zabrudzenia w porcie ładowani
 
-**a:** Kurz zbity w kieszeni miesza się z wilgocią z powietrza, tworząc elektrolit, który oszukuje sensory.
+**A.** Kurz zbity w kieszeni miesza się z wilgocią z powietrza, tworząc elektrolit, który oszukuje sensory.
 
 2. Uszkodzony lub nieoryginalny przewód: Czasami woda wcale nie dostała się do telefonu – zniszczona wtyczka kabla powoduje zwarcie na pinach danych, co system iOS interpretuje jako obecność płynu.
 
@@ -29,7 +29,7 @@ Czujnik wilgoci w nowszych modelach iPhone'ów bywa nadwrażliwy, a samo odczyty
 <div style="border-left: 4px solid #84cc16; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Ważna uwaga ekspert
 
-**a:**</strong> Zapomnij raz na zawsze o micie z ryżem! Surowy ryż nie tylko nie wyciąga skutecznie wilgoci z wnętrza obudowy, ale jego pył i skrobia wpadają do portu ładowania, tworząc z wodą twardą skorupę cementową, która dosłownie niszczy piny w środku.
+**A.** </strong> Zapomnij raz na zawsze o micie z ryżem! Surowy ryż nie tylko nie wyciąga skutecznie wilgoci z wnętrza obudowy, ale jego pył i skrobia wpadają do portu ładowania, tworząc z wodą twardą skorupę cementową, która dosłownie niszczy piny w środku.
 </div>
 
 ## Krok po kroku: Jak bezpiecznie rozwiązać problem
@@ -42,7 +42,7 @@ Odłącz natychmiast kabel od telefonu. Nie używaj suszarki do włosów – gor
 ### Krok 2: Czyszczenie mechaniczne złącza
 Wyłącz całkowicie iPhone'
 
-**a.** Weź wykałaczkę z drewna (unikaj ostrych igieł metalowych, które zrobią zwarcie) i delikatnie, pod światło, sprawdź wnętrze portu Lightning lub USB-C. Bardzo często znajdziesz tam zbitą "kulkę" z kurzu. Oczyść wnętrze bardzo ostrożnie, ruchami na boki, nie naciskając na dolną ściankę ze stykami.
+**A.** Weź wykałaczkę z drewna (unikaj ostrych igieł metalowych, które zrobią zwarcie) i delikatnie, pod światło, sprawdź wnętrze portu Lightning lub USB-C. Bardzo często znajdziesz tam zbitą "kulkę" z kurzu. Oczyść wnętrze bardzo ostrożnie, ruchami na boki, nie naciskając na dolną ściankę ze stykami.
 
 ### Krok 3: Twardy reset i obejście systemowe
 Jeśli fizycznie port jest czysty, a komunikat nadal blokuje ładowanie, mamy do czynienia z zawieszeniem się modułu zarządzania energią w iOS.
@@ -57,12 +57,18 @@ Po ponownym uruchomieniu systemu, w rzadkich przypadkach awaryjnych (gdy musisz 
 
 ## Profilaktyka i dobre nawyki
 
-Aby uniknąć podobnej sytuacji tuż przed wyjściem na spotkanie biznesowe, warto przestrzegać kilku prostych zasad. Po pierwsze, unikaj korzystania ze smartfona w zaparowanej łazience lub podczas ulewnego deszczu bez zabezpieczenia. Po drugie, raz w miesiącu przedrzuć port ładowania czystą, suchą szczoteczką o miękkim włosiu. Jeśli Twój iPhone regularnie zgłasza fałszywe alarmy o płynie, mimo że telefon nigdy nie widział wody, oznacza to uszkodzenie fizyczne taśmy ze złączem dokowania i wizyta w profesjonalnym serwisie warszawskim będzie nieunikniona. ---
+Aby uniknąć podobnej sytuacji tuż przed wyjściem na spotkanie biznesowe, warto przestrzegać kilku prostych zasad. Po pierwsze, unikaj korzystania ze smartfona w zaparowanej łazience lub podczas ulewnego deszczu bez zabezpieczeni
+
+**A.** Po drugie, raz w miesiącu przedrzuć port ładowania czystą, suchą szczoteczką o miękkim włosiu. Jeśli Twój iPhone regularnie zgłasza fałszywe alarmy o płynie, mimo że telefon nigdy nie widział wody, oznacza to uszkodzenie fizyczne taśmy ze złączem dokowania i wizyta w profesjonalnym serwisie warszawskim będzie nieuniknion
+
+**A.** ---
 
 ## Często Zadawane Pytania (FAQ)
 
 1. Czy mogę bezpiecznie ładować telefon indukcyjnie, gdy pali się komunikat o płynie?
-Tak. Ładowanie bezprzewodowe (MagSafe lub standardowe Qi) nie korzysta z fizycznych styków w porcie dokowania. Jeśli bateria jest krytycznie niska, a Ty musisz uruchomić urządzenie, połóż je na ładowarce indukcyjnej – zignoruje ona ostrzeżenie systemowe dotyczące wilgoci w porcie przewodowym.
+Tak. Ładowanie bezprzewodowe (MagSafe lub standardowe Qi) nie korzysta z fizycznych styków w porcie dokowani
+
+**A.** Jeśli bateria jest krytycznie niska, a Ty musisz uruchomić urządzenie, połóż je na ładowarce indukcyjnej – zignoruje ona ostrzeżenie systemowe dotyczące wilgoci w porcie przewodowym.
 
 2. Co zrobić, jeśli ładowanie przez kabel działa, ale telefon nie chce łączyć się z komputerem?
 To klasyczny objaw zawilgocenia lub uszkodzenia konkretnych pinów odpowiadających za przesył danych (linie TX/RX), podczas gdy piny zasilające (VBUS) wciąż przewodzą prąd. Wyczyszczenie portu izopropanolem i upewnienie się, że styki są idealnie suche, powinno rozwiązać problem z komunikacją z PC lub Maciem.

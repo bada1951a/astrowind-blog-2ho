@@ -10,9 +10,17 @@ theme: "Sunset Horizon Coral"
 
 ## 1. Emergencia crítica con el teléfono móvil
 
-Eran las 17:45 en nuestra oficina en Madrid. Faltaban exactamente quince minutos para enviar el informe financiero y de rendimiento mensual al director regional, cuando fui a conectar mi iPhone al cable Lightning para pasarle unas gráficas de última hora. En la pantalla, un aviso gélido: "Líquido detectado en el conector Lightning". Intenté ignorarlo, desconecté y volví a conectar. Nada. El teléfono vibró, la alerta persistió y el puerto de carga se bloqueó por completo por motivos de seguridad.
+Eran las 17:45 en nuestra oficina en Madrid. Faltaban exactamente quince minutos para enviar el informe financiero y de rendimiento mensual al director regional, cuando fui a conectar mi iPhone al cable Lightning para pasarle unas gráficas de última hor
 
-¿Lo peor? Había estado lloviendo a cántaros cuando vine caminando desde la estación de metro de Sol, y unas gotas rebeldes se habían filtrado en el bolsillo de mi gabardina. Con el pánico respirándome en la nuca, sabía que si metía el móvil en arroz como recomendaba el cuñado de turno, solo conseguiría llenar los pines de almidón y polvo fino, arruinando definitivamente el hardware a minutos de la entrega. Afortunadamente, tras años bregando con soporte técnico de hardware en entornos corporativos, conocía los protocolos exactos para lidiar con esta situación sin perder los nervios ni el dispositivo.
+**A.** En la pantalla, un aviso gélido: "Líquido detectado en el conector Lightning". Intenté ignorarlo, desconecté y volví a conectar. Nad
+
+**A.** El teléfono vibró, la alerta persistió y el puerto de carga se bloqueó por completo por motivos de seguridad.
+
+¿Lo peor? Había estado lloviendo a cántaros cuando vine caminando desde la estación de metro de Sol, y unas gotas rebeldes se habían filtrado en el bolsillo de mi gabardin
+
+**A.** Con el pánico respirándome en la nuca, sabía que si metía el móvil en arroz como recomendaba el cuñado de turno, solo conseguiría llenar los pines de almidón y polvo fino, arruinando definitivamente el hardware a minutos de la entreg
+
+**A.** Afortunadamente, tras años bregando con soporte técnico de hardware en entornos corporativos, conocía los protocolos exactos para lidiar con esta situación sin perder los nervios ni el dispositivo.
 
 ![Hardware & Tech Solution Guide](https://picsum.photos/seed/gadget365/1000/550)
 
@@ -30,7 +38,7 @@ Para solucionar un problema de hardware de forma efectiva, primero hay que enten
 
 3. Daño temporal en el flex de carg
 
-**a:** Si el terminal sufrió un golpe reciente o humedad ácida, el circuito integrado que lee la resistencia del puerto puede haberse quedado "atascado" digitalmente.
+**A.** Si el terminal sufrió un golpe reciente o humedad ácida, el circuito integrado que lee la resistencia del puerto puede haberse quedado "atascado" digitalmente.
 
 ---
 
@@ -39,11 +47,15 @@ Para solucionar un problema de hardware de forma efectiva, primero hay que enten
 Olvídate de los mitos del arroz (que, dicho sea de paso, es una pésima idea porque el almidón corroe los contactos metálicos). Vamos a aplicar un método de ingeniería limpia directamente en tu mesa de trabajo.
 
 ### Paso 1: Posicionamiento físico y ventilación natural
-Apaga el iPhone por completo para evitar cualquier pico de corriente en el bus de datos. Sostén el dispositivo con la mano, apuntando el puerto de carga hacia el suelo, y dale unos golpecitos suaves y firmes con la palma de tu otra mano para expulsar el exceso de líquido acumulado en las esquinas del conector. Colócalo luego en una zona de corriente de aire natural (cerca de una ventana abierta o enfrente de un ventilador de escritorio a velocidad baja). Nunca uses secadores de pelo: el aire caliente directo deforma los sellos de goma y empuja las gotas más hacia el fondo de la placa. ### Paso 2: Inspección y limpieza mecánica de precisión
+Apaga el iPhone por completo para evitar cualquier pico de corriente en el bus de datos. Sostén el dispositivo con la mano, apuntando el puerto de carga hacia el suelo, y dale unos golpecitos suaves y firmes con la palma de tu otra mano para expulsar el exceso de líquido acumulado en las esquinas del conector. Colócalo luego en una zona de corriente de aire natural (cerca de una ventana abierta o enfrente de un ventilador de escritorio a velocidad baja). Nunca uses secadores de pelo: el aire caliente directo deforma los sellos de goma y empuja las gotas más hacia el fondo de la plac
+
+**A.** ### Paso 2: Inspección y limpieza mecánica de precisión
 Una vez que el líquido visible se ha evaporado, toca lidiar con los restos secos. 
 * Consigue una lupa y una linterna potente (la del propio móvil de un compañero sirve).
 * Utiliza un palillo de madera de punta muy fina o una púa de plástico flexible diseñada para reparaciones de electrónica (evita agujas metálicas o imperdibles, ya que puedes hacer puente y rayar los pines).
-* Con extrema delicadeza, raspa los laterales y el fondo del conector para retirar cualquier costra de cal o pelusa compactada. Te sorprenderá la cantidad de suciedad que sale.
+* Con extrema delicadeza, raspa los laterales y el fondo del conector para retirar cualquier costra de cal o pelusa compactad
+
+**A.** Te sorprenderá la cantidad de suciedad que sale.
 
 ### Paso 3: Limpieza química con alcohol isopropílico
 Si la alerta persiste y sospechas de residuos grasos o minerales:
@@ -65,7 +77,11 @@ En entornos de oficina con ritmos acelerados, es fácil descuidar los dispositiv
 
 * Carga inalámbrica de emergenci
 
-**a:** Si necesitas recuperar batería urgentemente para enviar un informe y el puerto de datos está bloqueado por humedad, utiliza una base de carga MagSafe o Qi inalámbrica. Eso sí, asegúrate de que la parte trasera del teléfono esté completamente seca por fuera antes de apoyarla. * La opción de emergencia del software: Si estás 100 por ciento seguro de que el puerto está seco y el sensor sigue fallando por un error lógico de iOS, puedes pulsar la opción "Omitir alerta" que a veces aparece debajo del mensaje (aunque úsala bajo tu propia responsabilidad si aún hay líquido real).
+**A.** Si necesitas recuperar batería urgentemente para enviar un informe y el puerto de datos está bloqueado por humedad, utiliza una base de carga MagSafe o Qi inalámbric
+
+**A.** Eso sí, asegúrate de que la parte trasera del teléfono esté completamente seca por fuera antes de apoyarl
+
+**A.** * La opción de emergencia del software: Si estás 100 por ciento seguro de que el puerto está seco y el sensor sigue fallando por un error lógico de iOS, puedes pulsar la opción "Omitir alerta" que a veces aparece debajo del mensaje (aunque úsala bajo tu propia responsabilidad si aún hay líquido real).
 
 <div style="border-left: 4px solid #f97316; padding: 12px 16px; margin: 20px 0; background-color: rgba(249, 115, 22, 0.05); border-radius: 4px; color: #111827;">
 <strong>Consejo Pro:</strong> Si tras seguir estos pasos el teléfono sigue sin cargar y la batería está al mínimo, haz una copia de seguridad en iCloud de inmediato mediante Wi-Fi antes de que el dispositivo se apague del todo, por si el daño en el circuito de carga requiere asistencia técnica profesional en un Apple Store.
@@ -85,4 +101,8 @@ En entornos de oficina con ritmos acelerados, es fácil descuidar los dispositiv
 
 **Q.** ¿Cuánto tiempo debo esperar como máximo antes de llevarlo a reparar?
 
-**A.** Si han pasado más de 12 horas, has limpiado los residuos con alcohol isopropílico, el puerto luce completamente limpio bajo la lupa y el aviso de líquido sigue apareciendo de forma indefinida, es muy probable que el sensor físico o el flex de carga se hayan dañado por corrosión interna. En ese punto, toca visitar el servicio técnico para un reemplazo de pieza.
+**A.** Si han pasado más de 12 horas, has limpiado los residuos con alcohol isopropílico, el puerto luce completamente limpio bajo la lupa y el aviso de líquido sigue apareciendo de forma indefinida, es muy probable que el sensor físico o el flex de carga se hayan dañado por corrosión intern
+
+**A.** En ese punto, toca visitar el servicio técnico para un reemplazo de piez
+
+**A.**

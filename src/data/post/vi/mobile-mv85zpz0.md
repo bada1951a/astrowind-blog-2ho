@@ -48,14 +48,14 @@ Cảm biến đã khô nhưng phần mềm vẫn "cố chấp" cảnh báo? Hãy
 * Bấm vào biểu tượng lọc (sắp xếp) bên cạnh danh sách ứng dụng và bật Hiển thị ứng dụng hệ thống (Show system apps).
 * Gõ tìm kiếm từ khó
 
-**a:** USB hoặc USBSettings.
+**A.** USB hoặc USBSettings.
 * Chọn ứng dụng đó > Bấm vào Lưu trữ (Storage) > Chọn Xóa bộ nhớ đệm (Clear Cache) và Xóa dữ liệu (Clear Data).
 * Khởi động lại (Restart) điện thoại ngay lập tức.
 
 <div style="border-left: 4px solid #e11d48; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px;">
 <strong>MẸO CHUYÊN GI
 
-**A:**</strong> Nếu làm cách trên vẫn chưa hết, hãy vào phần <strong>Cài đặt > Quản lý chung > Đặt lại > Đặt lại cài đặt mạng (Reset Network Settings)</strong>. Thao tác này sẽ làm mới toàn bộ kết nối phần cứng ngoại vi mà không làm mất bất kỳ dữ liệu ảnh, tin nhắn hay tài liệu công việc nào của bạn.
+**A.** </strong> Nếu làm cách trên vẫn chưa hết, hãy vào phần <strong>Cài đặt > Quản lý chung > Đặt lại > Đặt lại cài đặt mạng (Reset Network Settings)</strong>. Thao tác này sẽ làm mới toàn bộ kết nối phần cứng ngoại vi mà không làm mất bất kỳ dữ liệu ảnh, tin nhắn hay tài liệu công việc nào của bạn.
 </div>
 
 #### Bước 3: Giải pháp "chữa cháy" cuối cùng khi cần sạc gấp
@@ -79,7 +79,9 @@ Lỗi này tuy nhỏ nhưng nếu xử lý sai cách có thể khiến bạn bay
 > Đây là hiện tượng lỗi cảm biến do phần mềm hoặc do tích tụ bụi bẩn lâu ngày kết hợp với độ ẩm không khí cao (mùa nồm, phòng điều hòa lạnh). Bạn chỉ cần làm sạch cổng sạc và xóa dữ liệu ứng dụng `USBSettings` theo hướng dẫn ở bước 2 là khắc phục được triệt để.
 
 2. Cắm sạc khi điện thoại đang báo lỗi ẩm có làm cháy nổ máy không?
-> Hệ thống bảo vệ phần cứng của các dòng smartphone hiện đại (đặc biệt là Samsung, Apple) sẽ tự động ngắt mạch dòng điện vào cổng sạc khi phát hiện trở kháng bất thường, do đó hiếm khi xảy ra cháy nổ ngay lập tức. Tuy nhiên, việc cố tình ép sạc nhiều lần có thể làm hỏng IC sạc hoặc làm mòn chân tiếp xúc do quá trình điện phân gây ra.
+> Hệ thống bảo vệ phần cứng của các dòng smartphone hiện đại (đặc biệt là Samsung, Apple) sẽ tự động ngắt mạch dòng điện vào cổng sạc khi phát hiện trở kháng bất thường, do đó hiếm khi xảy ra cháy nổ ngay lập tức. Tuy nhiên, việc cố tình ép sạc nhiều lần có thể làm hỏng IC sạc hoặc làm mòn chân tiếp xúc do quá trình điện phân gây r
 
-3. Làm sao để phân biệt lỗi cảm biến phần mềm và nước vào thực tế?
-> Nếu bạn vừa làm rơi điện thoại xuống nước, chắc chắn máy sẽ kèm theo các triệu chứng như loa bị rè, màn hình chớp nháy hoặc xuất hiện hơi nước bên trong cụm camera. Ngược lại, máy hoàn toàn khô ráo, dùng bình thường mà tự dưng cắm sạc vào báo lỗi thì 99% là lỗi cảm biến phần mềm hoặc cổng sạc bị bám bụi bẩn vi mô.
+**A.** 3. Làm sao để phân biệt lỗi cảm biến phần mềm và nước vào thực tế?
+> Nếu bạn vừa làm rơi điện thoại xuống nước, chắc chắn máy sẽ kèm theo các triệu chứng như loa bị rè, màn hình chớp nháy hoặc xuất hiện hơi nước bên trong cụm camer
+
+**A.** Ngược lại, máy hoàn toàn khô ráo, dùng bình thường mà tự dưng cắm sạc vào báo lỗi thì 99% là lỗi cảm biến phần mềm hoặc cổng sạc bị bám bụi bẩn vi mô.

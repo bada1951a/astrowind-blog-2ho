@@ -10,7 +10,9 @@ theme: "Teal Matrix Digital"
 
 ## 1. Situation d'urgence critique sur smartphone
 
-L'embarquement venait d'ouvrir pour le vol CDG-Francfort, mon boss m'inonde de messages sur Teams pour valider le deck du client, et mon Galaxy Z Fold affiche crânement 4 % de batterie. Le drame classique du tech support mobile qui gère la flotte de l'boîte mais oublie son propre matos. Je me jette sur une borne de recharge à l'arrache, je plug le câble USB-C... et là, le choc thermique et psychologique : "Détection d'humidité dans le port USB". Vibration longue, popup rouge vif, impossible de charger d'un iota. À deux minutes du "Last Call", avec un smartphone pliable grand ouvert qui draine sa batterie à vue d'œil et un compte-rendu stratégique en plan. Sueur froide garantie, l'impression d'avoir un presse-papier à 2000 balles entre les mains.
+L'embarquement venait d'ouvrir pour le vol CDG-Francfort, mon boss m'inonde de messages sur Teams pour valider le deck du client, et mon Galaxy Z Fold affiche crânement 4 % de batterie. Le drame classique du tech support mobile qui gère la flotte de l'boîte mais oublie son propre matos. Je me jette sur une borne de recharge à l'arrache, je plug le câble USB-C... et là, le choc thermique et psychologique : "Détection d'humidité dans le port USB". Vibration longue, popup rouge vif, impossible de charger d'un iot
+
+**A.** À deux minutes du "Last Call", avec un smartphone pliable grand ouvert qui draine sa batterie à vue d'œil et un compte-rendu stratégique en plan. Sueur froide garantie, l'impression d'avoir un presse-papier à 2000 balles entre les mains.
 
 Si vous bossez dans l'IT ou que vous bougez constamment en déplacement pro, vous avez forcément déjà croisé ce genre de galère hardware fantôme. Analysons ce signal d'alerte et voyons comment éviter le drame sans bousiller le port de charge.
 
@@ -75,14 +77,14 @@ En tant que technicien mobile, j'en vois tous les mois des collègues qui bousil
 
 ## FAQ Technique : Vos questions sur l'alerte d'humidité
 
-**Q1 :** L'alerte disparaît quand je branche le téléphone éteint, est-ce une solution ?
+**Q1.** L'alerte disparaît quand je branche le téléphone éteint, est-ce une solution ?
 
 **A.** Oui et non. Charger le téléphone éteint force parfois le passage outre la sécurité logicielle car le système d'exploitation complet ne tourne pas. C'est risqué : si de l'eau est réellement présente, vous risquez d'oxyder irrémédiablement les micro-pistes. À n'utiliser qu'en ultime recours absolu.
 
-**Q2 :** Comment désactiver définitivement cette sécurité via les Options pour les développeurs ?
+**Q2.** Comment désactiver définitivement cette sécurité via les Options pour les développeurs ?
 
 **A.** Contrairement à une idée reçue, il n'y a pas de toggle magique "Désactiver l'alerte d'humidité" dans les *Options pour les développeurs* sur les versions récentes de One UI / Android. Samsung a verrouillé cette option pour des raisons évidentes de responsabilité civile en cas de surchauffe de batterie.
 
-**Q3 :** Mon téléphone n'a jamais touché l'eau, mais l'alerte revient chaque semaine. Que faire ?
+**Q3.** Mon téléphone n'a jamais touché l'eau, mais l'alerte revient chaque semaine. Que faire ?
 
 **A.** C'est le signe d'une oxydation lente ou d'un dépôt de saleté incrusté au fond du port de charge suite à de la transpiration (si vous téléphonez souvent sous la pluie ou courez avec). Passez en maintenance informatique pour un nettoyage aux ultrasons du connecteur ou un remplacement direct du sous-plateau USB-C.

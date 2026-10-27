@@ -60,14 +60,14 @@ Als Techniker gebe ich Ihnen noch zwei goldene Regeln mit auf den Weg. Erstens: 
 
 ## 5. Häufig gestellte Fragen (FAQ)
 
-**Q:** Gehen beim Leeren der Cache Partition meine Fotos und WhatsApp-Chats verloren?
+**Q.** Gehen beim Leeren der Cache Partition meine Fotos und WhatsApp-Chats verloren?
 
-**A:** Nein, absolut nicht. Die Cache Partition enthält ausschließlich temporäre System- und App-Daten. Ihre persönlichen Dateien, Kontakte und Medien bleiben unangetastet.
+**A.** Nein, absolut nicht. Die Cache Partition enthält ausschließlich temporäre System- und App-Daten. Ihre persönlichen Dateien, Kontakte und Medien bleiben unangetastet.
 
-**Q:** Ich komme trotz Tastenkombination nicht in den Recovery-Modus. Was mache ich falsch?
+**Q.** Ich komme trotz Tastenkombination nicht in den Recovery-Modus. Was mache ich falsch?
 
-**A:** Bei vielen modernen Samsung-Geräten müssen Sie zwingend ein USB-Kabel anschließen, das mit einem Computer oder einer eingeschalteten Powerbank verbunden ist, bevor die Tastenkombination für den Recovery-Modus greift.
+**A.** Bei vielen modernen Samsung-Geräten müssen Sie zwingend ein USB-Kabel anschließen, das mit einem Computer oder einer eingeschalteten Powerbank verbunden ist, bevor die Tastenkombination für den Recovery-Modus greift.
 
-**Q:** Das Galaxy startet nach dem Cache Wipe immer noch nicht. Was ist der nächste Schritt?
+**Q.** Das Galaxy startet nach dem Cache Wipe immer noch nicht. Was ist der nächste Schritt?
 
-**A:** Wenn der Boot-Loop weiterhin besteht, ist das Dateisystem schwer beschädigt. Hier hilft meist nur noch ein kompletter "Factory Reset" über dasselbe Recovery-Menü, wobei hierbei sämtliche Benutzerdaten gelöscht werden.
+**A.** Wenn der Boot-Loop weiterhin besteht, ist das Dateisystem schwer beschädigt. Hier hilft meist nur noch ein kompletter "Factory Reset" über dasselbe Recovery-Menü, wobei hierbei sämtliche Benutzerdaten gelöscht werden.

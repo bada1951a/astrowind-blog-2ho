@@ -59,11 +59,11 @@ Gehen Sie in die Einstellungen Ihres Smartphones und schalten Sie die adaptive H
 
 **Q1.** Kann sich ein grüner Streifen nach einem Sturz von selbst wieder reparieren?
 
-**A1.**Nein, leider nicht. Ein grüner oder pinker Streifen auf einem OLED-Panel ist ein physischer Defekt der Leuchtdioden oder der Ansteuereinheit direkt unter dem Glas. Da hilft langfristig nur der Austausch der gesamten Display-Einheit.
+**A1.** Nein, leider nicht. Ein grüner oder pinker Streifen auf einem OLED-Panel ist ein physischer Defekt der Leuchtdioden oder der Ansteuereinheit direkt unter dem Glas. Da hilft langfristig nur der Austausch der gesamten Display-Einheit.
 
 **Q2.** Warum schaltet mein Handy in der Sonne immer in den extremen Energiesparmodus?
 
-**A2.**Das ist eine integrierte Schutzfunktion des Betriebssystems. Wenn die CPU-Temperatur kritische Werte erreicht, limitiert das System die Leistung und dimmt das Display, um das Smartphone vor dauerhaften Hitzeschäden zu bewahren.
+**A2.** Das ist eine integrierte Schutzfunktion des Betriebssystems. Wenn die CPU-Temperatur kritische Werte erreicht, limitiert das System die Leistung und dimmt das Display, um das Smartphone vor dauerhaften Hitzeschäden zu bewahren.
 
 **Q3.** Hilft es, eine Panzerglasfolie zu entfernen, wenn das Handy in der Sonne überhitzt?
 

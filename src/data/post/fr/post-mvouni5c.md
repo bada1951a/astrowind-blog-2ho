@@ -24,6 +24,8 @@ Sauf que le téléphone refuse de démarrer normalement. Il s'allume, affiche fi
 
 ## 2. Analyse des causes principales de l'erreur
 
+## 2. Analyse des causes principales de l'erreur
+
 Pourquoi votre Samsung Galaxy reste-t-il bloqué sur le logo après un tel incident ? Techniquement, ce n'est pas forcément un dommage matériel irrémédiable, mais plutôt une crise de panique du système d'exploitation Android. Voici les trois causes principales de ce dysfonctionnement :
 
 *   **Corruption des données du cache système (Dalvik/ART) :** Lorsque le liquide touche la base du téléphone, il peut provoquer de micro-courts-circuits passagers sur le connecteur de charge (port USB-C). Le processeur panique, plante pendant l'écriture des fichiers temporaires, et corrompt la partition de cache. Au redémarrage, Android tente de lire des fichiers illisibles et boucle sur le logo.
@@ -62,7 +64,9 @@ Naviguez dans ce menu à l'aide des boutons de volume (pour monter et descendre)
 
 3. Une ligne de confirmation va vous demander "Now wipe cache?". Descendez sur**Yes**.
 
-4. Validez avec**Power**. En bas de l'écran, un message jaune confirmera : *Cache wipe complete*.
+4. Validez avec**Power**. En bas de l'écran, un message jaune confirmer
+
+**A.** *Cache wipe complete*.
 
 ### Étape 5 : Redémarrage propre
 Sélectionnez l'option tout en haut **Reboot system now** et validez. Votre Samsung Galaxy va redémarrer. Le premier lancement peut prendre un peu plus de temps que d'habitude (jusqu'à 5 minutes), le temps que le système reconstruit ses fichiers temporaires propres.
@@ -100,18 +104,18 @@ En tant que réparateur professionnel, voici les pièges mortels à éviter abso
 
 *   **L'erreur du sèche-cheveux thermique :** Ne pointez jamais un sèche-cheveux réglé sur air chaud en direction du port USB ou de la grille haut-parleur. Vous risquez simplement de fondre les joints d'étanchéité en silicone et de pousser les résidus de café encore plus profondément à l'intérieur des composants sensibles.
 *   **Le mythe du sachet de riz magique :** Le riz ne répare rien. La poussière d'amidon contenue dans les sachets s'infiltre dans le port de charge, se mélange au liquide séché et forme un ciment solide quasi impossible à déloger sans micro-spatule. Préférez un endroit sec, ouvrez le tiroir de la carte SIM pour créer un appel d'air.
-*   **L'inspection minutieuse des touches :** Si après avoir vidé le cache, le téléphone refait des siennes ou s'obstine à redémarrer tout seul, pressez délicatement et tapotez doucement les boutons de volume contre la paume de votre main pour libérer d'éventuels résidus collants de sucre.
+*   **L'inspection minutieuse des touches :**Si après avoir vidé le cache, le téléphone refait des siennes ou s'obstine à redémarrer tout seul, pressez délicatement et tapotez doucement les boutons de volume contre la paume de votre main pour libérer d'éventuels résidus collants de sucre.
 
 ## 5. Foire Aux Questions (FAQ)
 
-**Q :** Est-ce que vider la partition de cache va effacer mes photos et mes applications personnelles ?
+**Q.** Est-ce que vider la partition de cache va effacer mes photos et mes applications personnelles ?
 
-**A :** Absolument pas. Contrairement à une réinitialisation complète aux paramètres d'usine (*Factory Data Reset*), l'option **Wipe Cache Partition**supprime uniquement les fichiers temporaires corrompus générés par le système et les applications. Vos données personnelles, contacts, photos et messages restent rigoureusement intacts.
+**A.** Absolument pas. Contrairement à une réinitialisation complète aux paramètres d'usine (*Factory Data Reset*), l'option **Wipe Cache Partition**supprime uniquement les fichiers temporaires corrompus générés par le système et les applications. Vos données personnelles, contacts, photos et messages restent rigoureusement intacts.
 
-**Q :** Mon téléphone ne rentre toujours pas en mode Recovery malgré la bonne combinaison de touches. Que faire ?
+**Q.** Mon téléphone ne rentre toujours pas en mode Recovery malgré la bonne combinaison de touches. Que faire ?
 
-**A :** Si le logo Samsung disparaît et que l'écran redevient noir sans afficher le menu texte, c'est généralement le signe que le bouton**Volume Haut** ne répond plus, souvent à cause d'une oxydation du circuit imprimé flexible (nappe) des boutons latéraux. Dans ce cas précis, un nettoyage ultrason en atelier spécialisé sera nécessaire.
+**A.** Si le logo Samsung disparaît et que l'écran redevient noir sans afficher le menu texte, c'est généralement le signe que le bouton**Volume Haut**ne répond plus, souvent à cause d'une oxydation du circuit imprimé flexible (nappe) des boutons latéraux. Dans ce cas précis, un nettoyage ultrason en atelier spécialisé sera nécessaire.
 
-**Q :** Puis-je utiliser du vinaigre blanc ou de l'alcool pour nettoyer l'extérieur du port USB-C ?
+**Q.** Puis-je utiliser du vinaigre blanc ou de l'alcool pour nettoyer l'extérieur du port USB-C ?
 
-**A :** Vous pouvez utiliser délicatement de l'alcool isopropylique à 90 ou 99 pourcent (disponible en pharmacie) appliqué sur un coton-tige très légèrement humidifié (presque sec), uniquement lorsque le téléphone est complètement éteint et débranché. N'utilisez jamais d'eau du robinet ou de produits ménagers corrosifs.
+**A.** Vous pouvez utiliser délicatement de l'alcool isopropylique à 90 ou 99 pourcent (disponible en pharmacie) appliqué sur un coton-tige très légèrement humidifié (presque sec), uniquement lorsque le téléphone est complètement éteint et débranché. N'utilisez jamais d'eau du robinet ou de produits ménagers corrosifs.

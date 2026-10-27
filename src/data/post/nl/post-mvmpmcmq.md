@@ -33,9 +33,9 @@ Hier zijn de drie meest voorkomende oorzaken waarom je display en oplaadpoort ge
 Gelukkig kun je dit eenvoudig oplossen en voorkomen door een slimme automatisering in te stellen via de**Opdrachten**(Shortcuts) app op je iPhone. Hiermee dwing je het systeem om automatisch over te schakelen zodra dat nodig is, zonder dat je er zelf aan hoeft te denken.
 
 ### Stap 1: Handmatige basisinstellingen controleren
-Ga naar**Instellingen**>**Scherm en helderheid**en zet de weergave vast op**Donker**. Controleer tevens of**Automatisch**aanstaat op basis van zonsondergang of een vast schema.
+Ga naar**Instellingen**>**Scherm en helderheid**en zet de weergave vast op**Donker**. Controleer tevens of**Automatisch**aanstaat op basis van zonsondergang of een vast schem
 
-### Stap 2: Een geautomatiseerde routine instellen voor batterijbesparing en OLED-bescherming
+**A.** ### Stap 2: Een geautomatiseerde routine instellen voor batterijbesparing en OLED-bescherming
 We gaan ervoor zorgen dat zodra je batterij onder een bepaalde grens komt, of op vaste tijden, de donkere modus geforceerd wordt om inbranding en energieverlies tegen te gaan.
 
 1. Open de app**Opdrachten**(Shortcuts) op je iPhone.
@@ -60,18 +60,18 @@ Als reparateur zie ik wekelijks telefoons binnenkomen met schade die makkelijk v
 
 -**Laat vocht op natuurlijke wijze verdampen:**Leg je iPhone op een droge plek met de oplaadpoort naar beneden gericht zodat het water eruit kan zakken. Gebruik géén föhn (de hitte beschadigt de schermlijm en de batterij).
 -**Beperk statische UI elementen:**Wissel regelmatig van achtergrond en gebruik widgets met een donkere achtergrond. 
--**De kracht van automatisering:** Door slimme routines te gebruiken minimaliseer je de piekbelasting op je OLED-scherm op momenten dat je toch druk bent met andere zaken, zoals reizen of werken.
+-**De kracht van automatisering:**Door slimme routines te gebruiken minimaliseer je de piekbelasting op je OLED-scherm op momenten dat je toch druk bent met andere zaken, zoals reizen of werken.
 
 ## 5. Veelgestelde Vragen (FAQ)
 
-**Q:** Kan OLED-inbranding volledig worden teruggedraaid met een software-update?
+**Q.** Kan OLED-inbranding volledig worden teruggedraaid met een software-update?
 
-**A:** Nee, helaas niet. Inbranding is fysieke degradatie van de organische materialen in de pixels zelf. Wat weg is, kan softwarematig niet worden hersteld; preventie is daarom echt de enige optie.
+**A.** Nee, helaas niet. Inbranding is fysieke degradatie van de organische materialen in de pixels zelf. Wat weg is, kan softwarematig niet worden hersteld; preventie is daarom echt de enige optie.
 
-**Q:** Wat moet ik doen als mijn iPhone blijft volhouden dat er vocht in de poort zit, ook al is deze al uren droog?
+**Q.** Wat moet ik doen als mijn iPhone blijft volhouden dat er vocht in de poort zit, ook al is deze al uren droog?
 
-**A:** Soms blijven er oxidatieresten achter in de USB-C of Lightning poort. Kom niet zelf met naalden praten, maar laat een specialist de poort voorzichtig reinigen met isopropylalcohol en een speciaal antistatisch borsteltje.
+**A.** Soms blijven er oxidatieresten achter in de USB-C of Lightning poort. Kom niet zelf met naalden praten, maar laat een specialist de poort voorzichtig reinigen met isopropylalcohol en een speciaal antistatisch borsteltje.
 
-**Q:** Kost het instellen van automatische Dark Mode routines veel batterijvermogen?
+**Q.** Kost het instellen van automatische Dark Mode routines veel batterijvermogen?
 
-**A:** Integendeel! Omdat pixels in Dark Mode volledig uitschakelen (zwart is écht uit op een OLED-scherm), bespaar je juist aanzienlijk op je accuduur tijdens het dagelijks gebruik.
+**A.** Integendeel! Omdat pixels in Dark Mode volledig uitschakelen (zwart is écht uit op een OLED-scherm), bespaar je juist aanzienlijk op je accuduur tijdens het dagelijks gebruik.
