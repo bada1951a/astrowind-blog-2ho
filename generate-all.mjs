@@ -194,10 +194,23 @@ function sanitizeMarkdownFormatting(content, langCode) {
                     .replace(/con la energi\s*\n\s*a:/gi, 'con la energía:')
                     .replace(/preventiv\s*\n\s*a:/gi, 'preventiva:');
 
-  // 7) Gukosora ibibazo n'ibisubizo (FAQ)
-  cleaned = cleaned.replace(/([^\n])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
-  cleaned = cleaned.replace(/([^\n])\s+([QA][0-9]*\s*[:.])/g, '$1\n\n$2');
-  cleaned = cleaned.replace(/([.!?])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
+  // =========================================================================
+  // 🛡️ [GUKOSORA FAQ] Gutunganya neza Q&A no kwirinda ikosa rya **
+  // =========================================================================
+  // Gukuraho ** zose ziri hafi ya Q na A kugira ngo bisubire ku nyandiko isanzwe
+  cleaned = cleaned.replace(/\*{1,4}\s*([QA][0-9]*)\s*[:.]\s*\*{1,4}/gi, '$1.');
+  cleaned = cleaned.replace(/([QA][0-9]*)\s*[:.]/gi, (match, p1) => `${p1.toUpperCase()}.`);
+
+  // Gutandukanya Q na A n'imirongo ibiri y'ubusa
+  cleaned = cleaned.replace(/([^\n])\s*\n*\s*(Q[0-9]*\.)/gi, '$1\n\n$2');
+  cleaned = cleaned.replace(/([^\n])\s*\n*\s*(A[0-9]*\.)/gi, '$1\n\n$2');
+
+  // Gushyiraho bold nyayo (urugero: **Q1.** cyangwa **A1.**)
+  cleaned = cleaned.replace(/^(Q[0-9]*\.)\s*(.*)$/gm, '**$1** $2');
+  cleaned = cleaned.replace(/^(A[0-9]*\.)\s*(.*)$/gm, '**$1** $2');
+
+  // Gukuraho ibisigazwa by'ubusa bya ** **
+  cleaned = cleaned.replace(/\*\*\s*\*\*/g, '');
 
   // 8) Gukosora ibimenyetso by'interuro n'imirongo irenze
   cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9가-힣])/g, '? $1');
