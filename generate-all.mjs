@@ -133,7 +133,7 @@ const I18N_SECTIONS = {
 };
 
 // =========================================================================
-// [Imyandikire itunganyije neza] Gukuraho imyanya y'ubusa + Gukumira gusubiramo imitwe
+// [Imyandikire itunganyije neza]
 // =========================================================================
 function sanitizeMarkdownFormatting(content, langCode) {
   let cleaned = content;
@@ -175,24 +175,31 @@ function sanitizeMarkdownFormatting(content, langCode) {
   }
   cleaned = cleaned.replace(/^(## 1\.[^\n]+)\n+(\s*1\.\s+[^\n]+)\n+/m, '$1\n\n');
 
-  // 5) Gukosora bold irenze ku mitwe
-  cleaned = cleaned.replace(/^(#{1,6}\s*)\*\*(.*?)\*\*/gm, '$1$2');
+  // =========================================================================
+  // 🛡️ [GUKOSORA 1] Gukuraho ** zose ziri mu mirongo y'imitwe (H1~H6)
+  // =========================================================================
+  cleaned = cleaned.replace(/^(#{1,6}\s+[^\n]+)$/gm, (match) => {
+    return match.replace(/\*\*/g, '');
+  });
+
+  // =========================================================================
+  // 🛡️ [GUKOSORA 2] Gukuraho imyanya y'ubusa muri ** ituma markdown ipfa
+  // =========================================================================
+  cleaned = cleaned.replace(/\*\*\s+([^*]+?)\s+\*\*/g, '**$1**');
+  cleaned = cleaned.replace(/\*\*\s+([^*]+?)\*\*/g, '**$1**');
+  cleaned = cleaned.replace(/\*\*([^*]+?)\s+\*\*/g, '**$1**');
 
   // 6) Gukosora amagambo acitsemo ibice
   cleaned = cleaned.replace(/derech\s*\n\s*a:/gi, 'derecha:')
-                   .replace(/con la energi\s*\n\s*a:/gi, 'con la energía:')
-                   .replace(/preventiv\s*\n\s*a:/gi, 'preventiva:');
+                    .replace(/con la energi\s*\n\s*a:/gi, 'con la energía:')
+                    .replace(/preventiv\s*\n\s*a:/gi, 'preventiva:');
 
-  // 7) Gukosora intera z'amagambo afatanye
-  cleaned = cleaned.replace(/\*\*\s+([^\*]+?)\s+\*\*/g, '**$1**');
-  cleaned = cleaned.replace(/([가-힣a-zA-Z0-9])\*\*([가-힣a-zA-Z0-9])/g, '$1 **$2');
-
-  // 8) Gukosora ibibazo n'ibisubizo (FAQ)
+  // 7) Gukosora ibibazo n'ibisubizo (FAQ)
   cleaned = cleaned.replace(/([^\n])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
   cleaned = cleaned.replace(/([^\n])\s+([QA][0-9]*\s*[:.])/g, '$1\n\n$2');
   cleaned = cleaned.replace(/([.!?])\s*(\*\*?[QA][0-9]*\s*[:.]\*\*?)/gi, '$1\n\n$2');
 
-  // 9) Gukosora ibimenyetso by'interuro n'imirongo irenze
+  // 8) Gukosora ibimenyetso by'interuro n'imirongo irenze
   cleaned = cleaned.replace(/\?([A-Za-z\u00C0-\u024F\u1EA0-\u1EF9가-힣])/g, '? $1');
   cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
 
@@ -299,9 +306,6 @@ const TARGET_LANGS = [
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 const fileSlug = `post-${Date.now().toString(36)}`;
 
-// =========================================================================
-// [Ikoreshwa rihoraho] gemini-3.5-flash-lite + maxOutputTokens 8192
-// =========================================================================
 async function fetchWithRetry(prompt, maxRetries = 5, delayMs = 5000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
@@ -384,10 +388,10 @@ You MUST strictly follow these 5 sections using clean H2 markdown headings (## )
 
 [STRICT MARKDOWN & FORMATTING RULES]
 1. HEADINGS: Keep clean markdown headings (e.g. "## ${i18n.s2}"). NEVER put bold asterisks (**) inside headings.
-2. BOLD FORMATTING: Use bold (**) ONLY for key button clicks or essential UI/tool terms. Always put a space before and after the bold markup if surrounded by words.
+2. BOLD FORMATTING: Use bold (**word**) STRICTLY WITHOUT SPACES inside the asterisks. Never write "** word **".
 3. COMMANDS: Wrap test codes (e.g. \`*#0*#\`) or terminal steps in 3-backtick code blocks.
 4. ABSOLUTE FORBIDDEN CHARACTERS:
-   - NEVER use dollar signs ($). NEVER write keys, variables, or codes wrapped in $. Use standard markdown inline backticks instead.
+   - NEVER use dollar signs ($). Wrap keys, variables, or codes in backticks.
    - NEVER use tilde (~) for ranges; use hyphen (-).
 ${lang.code !== 'ko' ? `- Absolutely NEVER include any Korean characters (가-힣) anywhere in non-Korean posts.` : ''}
 
@@ -442,10 +446,8 @@ theme: "${selectedTheme.name}"
       frontmatter = frontmatter.replace(/publishDate:\s*[^\n\r]+/i, `publishDate: ${pubDateIso}`);
       frontmatter = frontmatter.replace(/image:\s*["'][^"']*["']/i, `image: '${coverUrl}'`);
 
-      // 🛡️ Gutunganya no gukosora imyandikire y'indimi 12
       body = sanitizeMarkdownFormatting(body, lang.code);
 
-      // 🛡️ Gusubiramo niba inyandiko y'Igiswahili/Ikinyakoreya itagejeje ku bipimo
       let retryCount = 0;
       while (lang.code === 'ko' && body.length < 2200 && retryCount < 2) {
         console.warn(`⚠️ [2호기 분량 부족] 현재 ${body.length}자 -> 목표 2,500자 충족을 위해 재작성 시도 (${retryCount + 1}/2)...`);
@@ -484,7 +486,6 @@ theme: "${selectedTheme.name}"
         }
       }
 
-      // Kumenya neza ko hagati ya frontmatter na body hari imirongo ibiri gusa
       text = `${frontmatter}\n\n${body}\n`;
     }
 
