@@ -163,7 +163,7 @@ function validateGeneratedPost(text, langCode) {
   const meta = fm[1], body = text.slice(fm[0].length);
   for (const field of ['title', 'description', 'publishDate', 'image', 'theme'])
     if (!new RegExp('^' + field + ':\\s*\\S', 'm').test(meta)) errors.push(field + ' missing');
-  if (!/^category:\s*['"]?tech['"]?\s*$/m.test(meta)) errors.push('category must be tech');
+  if (!/^category:\s*['"]?life-tech['"]?\s*$/m.test(meta)) errors.push('category must be life-tech');
   const readable = body.replace(/!\[[^\]]*\]\([^)]*\)/g,'').replace(/[#*_\x60>]/g,'');
   const isCharacterCountLanguage = langCode === 'ko' || langCode === 'ja';
   const count = isCharacterCountLanguage ? [...readable.replace(/\s/g, '')].length : (readable.match(/\S+/g) || []).length;
@@ -417,7 +417,7 @@ theme: "${selectedTheme.name}"
 async function run() {
   if (DRY_RUN) {
     console.log('SAFE DRY RUN: no API calls, no files changed, no publishing');
-    const sample = '---\ntitle: sample\ndescription: sample\npublishDate: 2026-10-28\nimage: /images/tech-photo/test.jpg\ncategory: tech\ntheme: test\n---\n\n## 1. Test\nshort';
+    const sample = '---\ntitle: sample\ndescription: sample\npublishDate: 2026-10-28\nimage: https://picsum.photos/seed/test/1200/675.jpg\ncategory: life-tech\ntheme: test\n---\n\n## 1. Test\nshort';
     if (!validateGeneratedPost(sample,'ko').some(e=>e.startsWith('body length'))) throw new Error('Validation smoke test failed for Korean');
     if (!validateGeneratedPost(sample,'ja').some(e=>e.startsWith('body length'))) throw new Error('Validation smoke test failed for Japanese');
     const japaneseBody = ['## 1. 症状', 'あ'.repeat(500), '## 2. 原因', 'あ'.repeat(500), '## 3. 対処法', 'あ'.repeat(500), '## 4. 注意点', 'あ'.repeat(500), '## 5. 質問', '**Q1.** 質問', '**A1.** 回答', '**Q2.** 質問', '**A2.** 回答', '**Q3.** 質問', '**A3.** 回答'].join('\n\n');
