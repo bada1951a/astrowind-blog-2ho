@@ -304,6 +304,7 @@ Write a high-quality, practical mobile smartphone hardware & repair guide native
 Target Culture: "${lang.localeContext}"
 Optional illustrative scenario ONLY when directly relevant; do not invent a firsthand event: "${selectedScenario}"
 Topic: "${currentTopic}"
+Example native language taxonomy: ${JSON.stringify(i18n.tags)}. Choose only topic-relevant tags.
 
 [ADSENSE QUALITY & LENGTH REQUIREMENT]
 - For Korean (ko): Target 2,400-2,600 Korean characters excluding whitespace and Markdown; prioritize practical accuracy rather than filler.
