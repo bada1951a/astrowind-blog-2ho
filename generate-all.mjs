@@ -9,15 +9,11 @@
 
 import fs from 'fs';
 import path from 'path';
-import { GoogleGenAI } from '@google/genai';
+import { createHash } from 'node:crypto';
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-if (!GEMINI_API_KEY) {
-  console.error("❌ GEMINI_API_KEY 환경변수가 설정되지 않았습니다.");
-  process.exit(1);
-}
-
-const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
+const DRY_RUN = process.argv.includes('--dry-run');
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+if (!DRY_RUN && !OPENAI_API_KEY) throw new Error('OPENAI_API_KEY secret is required.');
 const POSTS_BASE_DIR = path.resolve('src/data/post');
 const TOPICS_FILE = path.resolve('topics.txt');
 
@@ -150,68 +146,48 @@ const I18N_SECTIONS = {
 // =========================================================================
 // 🛡️ [2호기 자가 검수 및 치유 엔진: Self-Healing Inspector]
 // =========================================================================
-function inspectAndHealMarkdown(body, langCode) {
-  let healed = body.trim();
-  const i18n = I18N_SECTIONS[langCode] || I18N_SECTIONS.ko;
-  const auditLogs = [];
-
-  // 1) 헤딩 내부 볼드 제거 및 2호기 표준 소제목 강제 안착
-  healed = healed.replace(/^(#{1,6}\s+)\*\*(.*?)\*\*/gm, '$1$2');
-  healed = healed.replace(/^#{1,6}\s*1[.\s]+([^\n]+)/m, `## ${i18n.s1}`);
-  healed = healed.replace(/^#{1,6}\s*2[.\s]+([^\n]+)/m, `## ${i18n.s2}`);
-  healed = healed.replace(/^#{1,6}\s*3[.\s]+([^\n]+)/m, `## ${i18n.s3}`);
-  healed = healed.replace(/^#{1,6}\s*4[.\s]+([^\n]+)/m, `## ${i18n.s4}`);
-  healed = healed.replace(/^#{1,6}\s*5[.\s]+([^\n]+)/m, `## ${i18n.s5}`);
-
-  if (!healed.startsWith('## 1.')) {
-    healed = `## ${i18n.s1}\n\n` + healed;
-    auditLogs.push("1번 헤딩 주입");
+function inspectAndHealMarkdown(body) {
+  return body.trim()
+    .replace(/^(#{1,6}\s+)\*\*([^\n]*?)\*\*/gm, '$1$2')
+    .replace(/\*\*[ \t]+([^*\n]+?)[ \t]+\*\*/g, '**$1**')
+    // Luna sometimes bolds the whole FAQ question: **Q1. question?**.
+    // Normalize the marker only; keep the native-language question text unchanged.
+    .replace(/^\*\*Q([1-3])\.\s+([^\n]*?)\*\*[ \t]*$/gm, '**Q$1.** $2')
+    .replace(/(\*\*Q[1-3]\.\*\*[^\n]*)\n(?=\*\*A[1-3]\.\*\*)/g, '$1\n\n')
+    .replace(/\n{3,}/g, '\n\n');
+}
+function validateGeneratedPost(text, langCode) {
+  const errors = [];
+  const fm = text.match(/^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n/);
+  if (!fm) return ['frontmatter missing'];
+  const meta = fm[1], body = text.slice(fm[0].length);
+  for (const field of ['title', 'description', 'publishDate', 'image', 'theme'])
+    if (!new RegExp('^' + field + ':\\s*\\S', 'm').test(meta)) errors.push(field + ' missing');
+  if (!/^category:\s*['"]?tech['"]?\s*$/m.test(meta)) errors.push('category must be tech');
+  const readable = body.replace(/!\[[^\]]*\]\([^)]*\)/g,'').replace(/[#*_\x60>]/g,'');
+  const isCharacterCountLanguage = langCode === 'ko' || langCode === 'ja';
+  const count = isCharacterCountLanguage ? [...readable.replace(/\s/g, '')].length : (readable.match(/\S+/g) || []).length;
+  const minLength = langCode === 'ko' ? 1900 : langCode === 'ja' ? 1700 : 700;
+  const maxLength = langCode === 'ko' ? 3100 : langCode === 'ja' ? 3500 : 1400;
+  if (count < minLength || count > maxLength) errors.push('body length ' + count);
+  const headings = body.match(/^##\s+[^\n]+/gm)||[];
+  if (headings.length !== 5) errors.push('exactly 5 H2 headings required');
+  for(let n=1;n<=5;n++) if(!headings[n-1]?.startsWith('## '+n+'. ')) errors.push('H2 order '+n);
+  for(let n=1;n<=3;n++){
+    if((body.match(new RegExp('\\*\\*Q'+n+'\\.\\*\\*','gi'))||[]).length!==1) errors.push('Q'+n+' missing or duplicated');
+    if((body.match(new RegExp('\\*\\*A'+n+'\\.\\*\\*','gi'))||[]).length!==1) errors.push('A'+n+' missing or duplicated');
   }
-
-  // 2) 🛡️ Q&A 줄바꿈 뭉개짐 자동 분리 치유 (질문과 답변 사이 빈 줄 2개 보장)
-  const rawQnACount = (healed.match(/Q[1-3]\./gi) || []).length;
-  if (rawQnACount > 0) {
-    healed = healed.replace(/\s*(\*\*Q[1-3]\.\*\*|Q[1-3]\.)\s*/gi, '\n\n**$1** ');
-    healed = healed.replace(/\s*(\*\*A[1-3]\.\*\*|A[1-3]\.)\s*/gi, '\n\n**$1** ');
-    healed = healed.replace(/\*\*\s*\*\*(Q[1-3]\.|A[1-3]\.)\*\*\s*\*\*/gi, '**$1**');
-    healed = healed.replace(/\*\*(Q[1-3]\.|A[1-3]\.)\*\*/gi, '**$1**');
-    auditLogs.push("Q&A 줄바꿈 2열 분리 치유");
-  }
-
-  // 3) 볼드 기호 안쪽 공백 정돈 (** 단어 ** -> **단어**)
-  if (/\*\*\s+[^*]+?\s+\*\*/.test(healed)) {
-    healed = healed.replace(/\*\*\s+([^*]+?)\s+\*\*/g, '**$1**')
-                   .replace(/\*\*\s+([^*]+?)\*\*/g, '**$1**')
-                   .replace(/\*\*([^*]+?)\s+\*\*/g, '**$1**');
-    auditLogs.push("볼드 공백 정돈");
-  }
-
-  // 4) 특수문자 및 수식 인라인 백틱화
-  healed = healed.replace(/\$(?:Strg|Ctrl|Win|Shift|Alt|Esc)\s*[^$\n]*\$/gi, (match) => {
-    return `\`${match.replace(/\$/g, '').trim()}\``;
-  });
-  healed = healed.replace(/\$([A-Za-z0-9_-]+)\$/g, '`$1`');
-  healed = healed.replace(/\\times/g, 'x')
-                 .replace(/\\circ/g, '°')
-                 .replace(/\\approx/g, '≈')
-                 .replace(/~/g, '-');
-
-  // 5) 연속 빈 줄 압축
-  healed = healed.replace(/\n{3,}/g, '\n\n').trim();
-
-  if (auditLogs.length > 0) {
-    console.log(`   🩺 [자가 치유 완료]: ${auditLogs.join(' | ')}`);
-  }
-
-  return healed;
+  if((body.match(/^\x60\x60\x60/gm)||[]).length%2) errors.push('unclosed code fence');
+  if(langCode!=='ko' && /[가-힣]/.test(body)) errors.push('Korean in non-Korean article');
+  return errors;
 }
 
-if (!fs.existsSync(TOPICS_FILE)) {
+if (!DRY_RUN && !fs.existsSync(TOPICS_FILE)) {
   console.error("❌ topics.txt 파일이 존재하지 않습니다.");
   process.exit(1);
 }
 
-const fileContent = fs.readFileSync(TOPICS_FILE, 'utf-8');
+const fileContent = DRY_RUN ? 'offline test mobile topic' : fs.readFileSync(TOPICS_FILE, 'utf-8');
 const lines = fileContent.split('\n').map(l => l.trim()).filter(l => l.length > 0);
 
 if (lines.length === 0) {
@@ -279,7 +255,7 @@ const TARGET_LANGS = [
 ];
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
-const fileSlug = `post-${Date.now().toString(36)}`;
+const fileSlug = 'post-' + createHash('sha256').update(currentTopic).digest('hex').slice(0,14);
 
 // =========================================================================
 // [호출 함수] maxOutputTokens: 4096 (2,500자 정량 생성 최적화)
@@ -287,24 +263,31 @@ const fileSlug = `post-${Date.now().toString(36)}`;
 async function fetchWithRetry(prompt, maxRetries = 3, delayMs = 3000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
-      const response = await ai.models.generateContent({
-        model: 'gemini-3.5-flash-lite',
-        contents: prompt,
-        config: {
-          maxOutputTokens: 4096,
-          temperature: 0.7,
-        }
+      const response = await fetch('https://api.openai.com/v1/responses', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${OPENAI_API_KEY}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ model: 'gpt-6-luna', input: prompt, max_output_tokens: 6500 }),
       });
-      return response.text;
+      const result = await response.json();
+      if (!response.ok) throw new Error(`OpenAI HTTP ${response.status}: ${JSON.stringify(result.error || result).slice(0, 400)}`);
+      const output = (result.output || []).flatMap((item) => item.content || [])
+        .filter((part) => part.type === 'output_text').map((part) => part.text).join('\n');
+      if (!output.trim()) throw new Error('No text in GPT response: ' + (result.status || 'unknown'));
+      return output;
     } catch (error) {
-      console.warn(`⚠️ [호출 재시도 ${attempt}/${maxRetries}]: ${error.message}`);
+      console.warn(`GPT retry ${attempt}/${maxRetries}: ${error.message}`);
       if (attempt === maxRetries) throw error;
-      await delay(delayMs);
+      await delay(delayMs * attempt);
     }
   }
 }
 
 async function generateSinglePost(lang, index) {
+  const existingPath = path.join(POSTS_BASE_DIR, lang.code, `${fileSlug}.md`);
+  if (fs.existsSync(existingPath)) {
+    console.log(`기존 성공 언어 유지: ${lang.code}`);
+    return true;
+  }
   const selectedTheme = THEME_PRESETS[Math.floor(Math.random() * THEME_PRESETS.length)];
   const selectedScenario = MOBILE_CRISIS_SCENARIOS_30[Math.floor(Math.random() * MOBILE_CRISIS_SCENARIOS_30.length)];
   const i18n = I18N_SECTIONS[lang.code] || I18N_SECTIONS.ko;
@@ -319,30 +302,30 @@ async function generateSinglePost(lang, index) {
 You are a ${lang.persona}.
 Write a high-quality, practical mobile smartphone hardware & repair guide natively in ${lang.name}.
 Target Culture: "${lang.localeContext}"
-Assigned Situation: "${selectedScenario}"
+Optional illustrative scenario ONLY when directly relevant; do not invent a firsthand event: "${selectedScenario}"
 Topic: "${currentTopic}"
 
 [ADSENSE QUALITY & LENGTH REQUIREMENT]
-- For Korean (ko): Write exactly around 2,400 - 2,600 characters (do NOT exceed 3,000 characters).
+- For Korean (ko): Target 2,400-2,600 Korean characters excluding whitespace and Markdown; prioritize practical accuracy rather than filler.
 - For other languages: Write exactly 900 - 1,100 words.
 - Tone: Highly informative, professional, practical technician advice.
 
 [STRUCTURE - STRICT 5 H2 HEADINGS]
-Use these exact H2 headings:
+Use exactly five topic-specific native-language H2 headings numbered 1 to 5 in order. Avoid fixed generic charging or hardware headings for unrelated topics:
 
-## ${i18n.s1}
-Write 2 detailed paragraphs describing the sudden smartphone hardware failure, remaining battery panic, and urgent crisis based on: "${selectedScenario}".
+## 1. [Specific native-language heading relevant to the exact topic]
+Explain symptoms and safe initial checks specific to the topic. Never invent personal experience, a crisis, or an expert credential.
 
-## ${i18n.s2}
-Write 2 analytical paragraphs explaining the technical root causes (port pin oxidation, lint compaction, PMIC loop, thermal throttling, or BMS calibration drift).
+## 2. [Specific native-language heading relevant to the exact topic]
+Explain plausible causes specifically relevant to the topic. Avoid unsupported hardware diagnoses and risky physical interventions.
 
-## ${i18n.s3}
-Provide 3 concrete practical emergency resolution steps. Use clean numbered lists with safe tools and exact diagnostic steps.
+## 3. [Specific native-language heading relevant to the exact topic]
+Provide three concrete, safe troubleshooting steps in clear order. Use manufacturer-appropriate interface labels; never advise inserting tools or liquids into ports.
 
-## ${i18n.s4}
-Write 2 paragraphs of practical precautions and technician tips to prevent recurring hardware damage.
+## 4. [Specific native-language heading relevant to the exact topic]
+Explain how to verify the fix, possible exceptions, when to stop troubleshooting, and when professional service is warranted.
 
-## ${i18n.s5}
+## 5. [Specific native-language heading relevant to the exact topic]
 Provide exactly 3 practical Q&A items. You MUST put an empty line between Question and Answer:
 
 **Q1.** Question text
@@ -371,7 +354,7 @@ description: "Native concise description in ${lang.name} under 160 characters"
 publishDate: ${pubDateIso}
 image: "${coverUrl}"
 category: "life-tech"
-tags: ${JSON.stringify(i18n.tags)}
+tags: ["3 to 5 useful topic-specific tags in this language"]
 theme: "${selectedTheme.name}"
 ---
 `;
@@ -393,7 +376,7 @@ theme: "${selectedTheme.name}"
                                .replace(/category:\s*[^\n\r]+/i, 'category: "life-tech"');
 
       // 🩺 [자가 검수 및 치유 엔진 가동]
-      body = inspectAndHealMarkdown(body, lang.code);
+      body = inspectAndHealMarkdown(body);
 
       if (lang.code === 'ko') {
         console.log(`   📏 [2호기 본문 최종 글자 수] ${body.length}자 (애드센스 표준: 2,400~2,600자)`);
@@ -410,7 +393,11 @@ theme: "${selectedTheme.name}"
       }
 
       text = `${frontmatter}\n\n${body}\n`;
+    } else {
+      throw new Error('프런트매터 없음: 저장 차단');
     }
+    const validationErrors = validateGeneratedPost(text, lang.code);
+    if (validationErrors.length) throw new Error('품질 검사 실패: ' + validationErrors.join(', '));
 
     const targetDir = path.join(POSTS_BASE_DIR, lang.code);
     if (!fs.existsSync(targetDir)) {
@@ -428,6 +415,19 @@ theme: "${selectedTheme.name}"
 }
 
 async function run() {
+  if (DRY_RUN) {
+    console.log('SAFE DRY RUN: no API calls, no files changed, no publishing');
+    const sample = '---\ntitle: sample\ndescription: sample\npublishDate: 2026-10-28\nimage: /images/tech-photo/test.jpg\ncategory: tech\ntheme: test\n---\n\n## 1. Test\nshort';
+    if (!validateGeneratedPost(sample,'ko').some(e=>e.startsWith('body length'))) throw new Error('Validation smoke test failed for Korean');
+    if (!validateGeneratedPost(sample,'ja').some(e=>e.startsWith('body length'))) throw new Error('Validation smoke test failed for Japanese');
+    const japaneseBody = ['## 1. 症状', 'あ'.repeat(500), '## 2. 原因', 'あ'.repeat(500), '## 3. 対処法', 'あ'.repeat(500), '## 4. 注意点', 'あ'.repeat(500), '## 5. 質問', '**Q1.** 質問', '**A1.** 回答', '**Q2.** 質問', '**A2.** 回答', '**Q3.** 質問', '**A3.** 回答'].join('\n\n');
+    const japaneseSample = sample.slice(0, sample.indexOf('## 1. Test')) + japaneseBody;
+    if (validateGeneratedPost(japaneseSample, 'ja').length) throw new Error('Valid Japanese character-count sample rejected');
+    const repairedFaq = inspectAndHealMarkdown('**Q1. 와이파이 연결 오류인가요?**  \n**A1.** 답변');
+    if (!repairedFaq.includes('**Q1.** 와이파이 연결 오류인가요?\n\n**A1.**')) throw new Error('FAQ bold-question repair or paragraph separation failed');
+    console.log('PASS: Korean/Japanese length gates and FAQ question-marker repair');
+    return;
+  }
   console.log("==================================================");
   console.log("⚡ [2호기 Life & Tech] (카테고리: life-tech) 12개국 고속 자동 포스팅 시작");
   console.log("==================================================");
@@ -435,20 +435,24 @@ async function run() {
   let successCount = 0;
 
   for (let i = 0; i < TARGET_LANGS.length; i++) {
-    const isSuccess = await generateSinglePost(TARGET_LANGS[i], i);
+    let isSuccess = false;
+    for (let attempt=1;attempt<=2 && !isSuccess;attempt++) {
+      isSuccess = await generateSinglePost(TARGET_LANGS[i], i);
+      if (!isSuccess && attempt<2) await delay(2500);
+    }
     if (isSuccess) successCount++;
     if (i < TARGET_LANGS.length - 1) {
       await delay(2000);
     }
   }
 
-  if (successCount > 0) {
+  if (successCount === TARGET_LANGS.length) {
     lines.shift();
     fs.writeFileSync(TOPICS_FILE, lines.join('\n'), 'utf-8');
     console.log(`\n🧹 총 ${successCount}개국 포스팅 완료. topics.txt에서 주제를 제거했습니다.`);
     console.log(`📊 남은 주제 수: ${lines.length}개`);
   } else {
-    console.error("\n❌ 모든 언어 생성이 실패하여 topics.txt를 보존합니다.");
+    console.error(`\n❌ ${TARGET_LANGS.length - successCount}개 언어 누락. 주제 보존.`);
     process.exit(1);
   }
 }
