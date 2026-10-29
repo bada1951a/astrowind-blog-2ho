@@ -34,6 +34,10 @@ Nếu máy vẫn bị treo, hãy kết nối với máy tính. Mở Finder trên
 
 Khi máy tính đưa ra lựa chọn **Cập nhật** hoặc **Khôi phục**, hãy chọn **Cập nhật trước**. Cập nhật thử cài đặt lại iOS mà không xóa dữ liệu. Khôi phục sẽ xóa iPhone rồi cài đặt lại iOS. Giữ thiết bị kết nối trong quá trình này. Nếu tải về lâu khiến iPhone thoát khỏi màn hình khôi phục, hãy chờ tải xong rồi vào lại chế độ khôi phục.
 
+Trước khi vào chế độ khôi phục, tôi cùng người cần trợ giúp rà soát nhanh. Trước hết, chúng tôi xác nhận thanh tiến trình thực sự không thay đổi ít nhất một giờ sau cập nhật, khôi phục hoặc chuyển dữ liệu. Một khoảng dừng ngắn hơn chưa đạt mốc Apple nêu cho tình huống này. Sau đó, tôi xác định máy tính và ứng dụng cần dùng: Finder trên macOS Catalina trở lên, iTunes trên macOS cũ hơn, hoặc ứng dụng Apple Devices mới nhất hay iTunes trên Windows. Giữ iPhone kết nối và chờ màn hình chế độ khôi phục.
+
+Tôi cũng giải thích dấu hiệu cần chuyển sang hỗ trợ kỹ thuật. Nếu máy tính không nhận iPhone, nút cần dùng bị hỏng hoặc bị kẹt, lặp lại cùng một tổ hợp phím có thể không giúp ích. Apple cho biết có thể cần bảo dưỡng nếu chế độ khôi phục không thể cập nhật hoặc khôi phục thiết bị, hoặc nút không hoạt động. Nếu tải phần mềm quá 15 phút, iPhone có thể thoát khỏi màn hình khôi phục. Đừng ngắt quá trình tải; hãy chờ tải xong, đưa iPhone vào chế độ khôi phục lần nữa rồi chọn Cập nhật. Trước khi bàn đến Khôi phục, tôi hỏi về bản sao lưu. Cập nhật là lựa chọn nên thử trước theo hướng dẫn Apple nhưng không đảm bảo dữ liệu sẽ được giữ; Khôi phục sẽ xóa iPhone. Nếu dữ liệu quan trọng chưa có bản sao, hãy dừng lại trước khi xóa và liên hệ Apple Support hoặc nhà cung cấp dịch vụ được ủy quyền. Cách này giúp quyết định dựa trên trạng thái hiển thị thực tế thay vì phỏng đoán hay bấm nút liên tục.
+
 ## Cảnh báo quan trọng về dữ liệu
 
 Thử Cập nhật trước không đảm bảo dữ liệu sẽ được giữ lại. Kiểm tra xem bạn có bản sao lưu gần đây không. Nếu dữ liệu quan trọng và chưa được sao lưu, hãy liên hệ bộ phận hỗ trợ Apple hoặc đơn vị dịch vụ được ủy quyền trước khi chọn Khôi phục. Hãy yêu cầu dịch vụ nếu cập nhật trong chế độ khôi phục thất bại hoặc nút bị hỏng.
