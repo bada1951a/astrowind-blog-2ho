@@ -45,7 +45,7 @@ Se il download del software supera i 15 minuti, l’iPhone può uscire dalla sch
 
 **Q1.** Aggiorna garantisce che le foto rimangano sul telefono?
 
-**Q2.** Devo aspettare esattamente un’ora se la barra sembra bloccata?
+**A1.** No, non è possibile garantire il risultato dei dati. Prova Aggiorna prima di Ripristina e chiedi assistenza prima di cancellare dati importanti.
 
 **Q2.** Devo aspettare esattamente un’ora se la barra sembra bloccata?
 
