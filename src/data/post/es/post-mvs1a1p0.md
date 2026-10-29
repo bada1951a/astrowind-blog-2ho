@@ -45,7 +45,7 @@ Si la descarga del software tarda más de 15 minutos, el iPhone puede salir de l
 
 **Q1.** ¿Actualizar garantiza que conservaré las fotos?
 
-**Q2.** ¿Debo esperar exactamente una hora si la barra parece bloqueada?
+**A1.** No se puede garantizar el resultado de los datos. Prueba Actualizar antes de Restaurar y pide ayuda antes de borrar información importante.
 
 **Q2.** ¿Debo esperar exactamente una hora si la barra parece bloqueada?
 
