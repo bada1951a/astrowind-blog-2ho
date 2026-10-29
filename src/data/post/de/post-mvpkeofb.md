@@ -34,12 +34,12 @@ Ein weiterer kritischer Aspekt betrifft die Sensorik. Moderne Samsung-Geräte ve
 
 Um das Samsung Galaxy aus dem festgefahrenen Boot-Loop zu befreien und die Integrität des Systems wiederherzustellen, dient das Leeren der Cache-Partition im Recovery-Modus als effektivste Methode. Führen Sie die folgenden Schritte präzise durch:
 
-1. **Erzwungener Neustart zum Ausschalten:**Da das Gerät in der Logo-Schleife feststeckt, halten Sie die Taste**Leiser**und die**Ein/Aus-Taste**gleichzeitig für mindestens zehn bis fünfzein Sekunden gedrückt, bis das Display schwarz wird und das Gerät vibriert.
-2.**Wechsel in den Recovery-Modus:**Sobald das Display erlischt, lassen Sie die**Leiser**-Taste kurz los und drücken stattdessen sofort die**Lauter**-Taste, während die**Ein/Aus-Taste**weiterhin gedrückt bleibt. Halten Sie beide Tasten gedrückt, bis das Samsung-Logo mit dem blauen Android-Systemwiederherstellungsbildschirm erscheint.
-3.**Navigation im Wiederherstellungsmenü:**Da der Touchscreen im Recovery-Modus deaktiviert ist, verwenden Sie die physischen Tasten**Lauter**und**Leiser**, um im Menü nach oben und unten zu navigieren.
-4.**Auswahl des Cache-Punktes:**Blättern Sie solange, bis der Eintrag**Wipe cache partition**markiert ist, und bestätigen Sie Ihre Auswahl durch einmaliges Drücken der**Ein/Aus-Taste**.
-5.**Sicherheitsabfrage bestätigen:**Navigieren Sie im nächsten Menüpunkt auf**Yes**und bestätigen Sie erneut mit der**Ein/Aus-Taste**, um temporäre, beschädigte Systemreste zu löschen, ohne persönliche Daten zu gefährden.
-6.**Systemneustart initiieren:**Nach Abschluss des Löschvorgangs steht der Cursor automatisch auf**Reboot system now**. Bestätigen Sie diesen Menüpunkt, woraufhin das Gerät neu startet und den Cache fehlerfrei neu aufbaut.
+1. <strong>Erzwungener Neustart zum Ausschalten:</strong> Da das Gerät in der Logo-Schleife feststeckt, halten Sie die Taste <strong>Leiser</strong> und die <strong>Ein/Aus-Taste</strong> gleichzeitig für mindestens zehn bis fünfzein Sekunden gedrückt, bis das Display schwarz wird und das Gerät vibriert.
+2.<strong>Wechsel in den Recovery-Modus:</strong> Sobald das Display erlischt, lassen Sie die <strong>Leiser</strong>-Taste kurz los und drücken stattdessen sofort die <strong>Lauter</strong>-Taste, während die <strong>Ein/Aus-Taste</strong> weiterhin gedrückt bleibt. Halten Sie beide Tasten gedrückt, bis das Samsung-Logo mit dem blauen Android-Systemwiederherstellungsbildschirm erscheint.
+3.<strong>Navigation im Wiederherstellungsmenü:</strong> Da der Touchscreen im Recovery-Modus deaktiviert ist, verwenden Sie die physischen Tasten <strong>Lauter</strong> und <strong>Leiser</strong>, um im Menü nach oben und unten zu navigieren.
+4.<strong>Auswahl des Cache-Punktes:</strong> Blättern Sie solange, bis der Eintrag <strong>Wipe cache partition</strong> markiert ist, und bestätigen Sie Ihre Auswahl durch einmaliges Drücken der <strong>Ein/Aus-Taste</strong>.
+5.<strong>Sicherheitsabfrage bestätigen:</strong> Navigieren Sie im nächsten Menüpunkt auf <strong>Yes</strong> und bestätigen Sie erneut mit der <strong>Ein/Aus-Taste</strong>, um temporäre, beschädigte Systemreste zu löschen, ohne persönliche Daten zu gefährden.
+6.<strong>Systemneustart initiieren:</strong> Nach Abschluss des Löschvorgangs steht der Cursor automatisch auf <strong>Reboot system now</strong>. Bestätigen Sie diesen Menüpunkt, woraufhin das Gerät neu startet und den Cache fehlerfrei neu aufbaut.
 
 <div style="border-left: 4px solid #475569; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Zusatz-Tipp für die mechanische Reinigung:</strong> Nutzen Sie für den USB-C-Port ausschließlich trockene, nicht leitende Holz-Zahnstocher unter einer hellen Lichtquelle, um eingetrocknete Rückstände vorsichtig herauszuhebeln.
@@ -53,14 +53,38 @@ Für eine langfristige Werterhaltung empfiehlt sich die Nutzung zertifizierter S
 
 ## 5. Häufig gestellte Fragen (FAQ)
 
-**Q1.** Verliere ich meine persönlichen Fotos und Kontakte, wenn ich im Recovery-Modus die Option Wipe cache partition ausführe?
 
-**A1.** Nein, das Leeren der Cache-Partition (Wipe cache partition) löscht ausschließlich temporäre Systemdateien und App-Rückstände, die während des Boot-Loops beschädigt wurden. Ihre persönlichen Daten wie Fotos, Kontakte, Nachrichten und installierten Apps bleiben dabei vollständig unangetastet und sicher auf dem internen Speicher erhalten.
 
-**Q2.** Was muss ich tun, wenn das Samsung Galaxy nach dem Leeren des Caches immer noch im Boot-Loop hängen bleibt?
 
-**A2.** Wenn der Cache-Wipe das Problem nicht löst, liegt oft eine schwerwiegendere Beschädigung der Betriebssystem-Partition oder ein hartnäckiger Kurzschluss durch Flüssigkeitsrückstände vor. In diesem Fall kann ein kompletter Werkset-Reset (Factory Reset) über das Recovery-Menü notwendig werden, wobei hierbei ungesicherte Daten verloren gehen. Sollte auch dies fehlschlagen, ist ein professioneller Werkstattbesuch zur Ultraschallreinigung der Hauptplatine unumgänglich.
 
-**Q3.** Darf man das feuchte Smartphone zum schnellen Trocknen in rohen Reis legen?
+Q1. Verliere ich meine persönlichen Fotos und Kontakte, wenn ich im Recovery-Modus die Option Wipe cache partition ausführe?
 
-**A3.** Aus technischer Sicht ist von der traditionellen Reismethode dringend abzuraten, da feiner Reisstaub und Stärkepartikel in den offenen USB-C-Port eindringen und dort mit verbleibender Flüssigkeit eine zementartige, extrem schwer zu entfernende Schicht bilden. Stattdessen sollte das Gerät ausgeschaltet an einem gut belüfteten, trockenen Ort bei Raumtemperatur natürlich auslüften.
+
+
+
+
+A1. Nein, das Leeren der Cache-Partition (Wipe cache partition) löscht ausschließlich temporäre Systemdateien und App-Rückstände, die während des Boot-Loops beschädigt wurden. Ihre persönlichen Daten wie Fotos, Kontakte, Nachrichten und installierten Apps bleiben dabei vollständig unangetastet und sicher auf dem internen Speicher erhalten.
+
+
+
+
+
+Q2. Was muss ich tun, wenn das Samsung Galaxy nach dem Leeren des Caches immer noch im Boot-Loop hängen bleibt?
+
+
+
+
+
+A2. Wenn der Cache-Wipe das Problem nicht löst, liegt oft eine schwerwiegendere Beschädigung der Betriebssystem-Partition oder ein hartnäckiger Kurzschluss durch Flüssigkeitsrückstände vor. In diesem Fall kann ein kompletter Werkset-Reset (Factory Reset) über das Recovery-Menü notwendig werden, wobei hierbei ungesicherte Daten verloren gehen. Sollte auch dies fehlschlagen, ist ein professioneller Werkstattbesuch zur Ultraschallreinigung der Hauptplatine unumgänglich.
+
+
+
+
+
+Q3. Darf man das feuchte Smartphone zum schnellen Trocknen in rohen Reis legen?
+
+
+
+
+
+A3. Aus technischer Sicht ist von der traditionellen Reismethode dringend abzuraten, da feiner Reisstaub und Stärkepartikel in den offenen USB-C-Port eindringen und dort mit verbleibender Flüssigkeit eine zementartige, extrem schwer zu entfernende Schicht bilden. Stattdessen sollte das Gerät ausgeschaltet an einem gut belüfteten, trockenen Ort bei Raumtemperatur natürlich auslüften.

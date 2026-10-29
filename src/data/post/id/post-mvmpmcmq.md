@@ -10,13 +10,13 @@ theme: "Matte Black stealth"
 
 ## 1. Situasi Darurat Kritis pada Smartphone
 
-Kemarin sore saat saya sedang menikmati kopi di kawasan Sudirman, seorang pelanggan datang dengan wajah panik. Ia buru-buru menyodorkan iPhone miliknya karena ingin memotret momen penting keponakannya yang sedang tertawa lucu. Sialnya, begitu ikon kamera ditekan, muncul pop-up peringatan **"Penyimpanan Hampir Penuh"** dan seketika aplikasi Galeri macet total, membeku di layar utam
+Kemarin sore saat saya sedang menikmati kopi di kawasan Sudirman, seorang pelanggan datang dengan wajah panik. Ia buru-buru menyodorkan iPhone miliknya karena ingin memotret momen penting keponakannya yang sedang tertawa lucu. Sialnya, begitu ikon kamera ditekan, muncul pop-up peringatan <strong>"Penyimpanan Hampir Penuh"</strong> dan seketika aplikasi Galeri macet total, membeku di layar utama.
 
-**A.** Yang lebih mengerikan, saat layar kembali normal, bayangan samar dari tombol ikon aplikasi sebelumnya masih tercetak permanen di panel layarny
+Yang lebih mengerikan, saat layar kembali normal, bayangan samar dari tombol ikon aplikasi sebelumnya masih tercetak permanen di panel layarnya.
 
-**A.** Masalah klasik yang sering diabaikan pengguna iPhone: gejala awal layar OLED *burn-in* akibat penggunaan tingkat kecerahan maksimal yang statis dalam waktu lam
+Masalah klasik yang sering diabaikan pengguna iPhone: gejala awal layar OLED *burn-in* akibat penggunaan tingkat kecerahan maksimal yang statis dalam waktu lama.
 
-**A.** <div style="border-left: 4px solid #ffffff; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
+<div style="border-left: 4px solid #ffffff; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
 <strong>Catatan Teknisi:</strong> Panel OLED sangat rentan terhadap degradasi piksel organik jika terus-menerus menampilkan elemen statis dengan warna terang. Mengatur transisi visual ke mode gelap secara otomatis adalah pertahanan lini pertama yang paling efektif.
 </div>
 
@@ -24,17 +24,17 @@ Kemarin sore saat saya sedang menikmati kopi di kawasan Sudirman, seorang pelang
 
 ## 2. Analisis Mendalam Kerusakan Port dan Hardware
 
-Sebagai teknisi yang sering membongkar perangkat Apple, saya sering melihat struktur fisik layar Super Retina XDR. Ada tiga alasan utama mengapa layar iPhone bisa mengalami *burn-in* lebih cepat dari seharusny
+Sebagai teknisi yang sering membongkar perangkat Apple, saya sering melihat struktur fisik layar Super Retina XDR. Ada tiga alasan utama mengapa layar iPhone bisa mengalami *burn-in* lebih cepat dari seharusnya.
 
-**A.** 1. **Degradasi Piksel Organik (Pixel Aging):**Komponen organik di dalam piksel sub-pixel OLED akan kehilangan tingkat kecerahannya seiring waktu. Jika piksel tertentu menyala dengan warna putih atau terang secara terus-menerus sementara piksel di sekitarnya mati, keausan menjadi tidak merat
+1. <strong>Degradasi Piksel Organik (Pixel Aging):</strong> Komponen organik di dalam piksel sub-pixel OLED akan kehilangan tingkat kecerahannya seiring waktu. Jika piksel tertentu menyala dengan warna putih atau terang secara terus-menerus sementara piksel di sekitarnya mati, keausan menjadi tidak merata.
 
-**A.** 2.**Tingkat Kecerahan Maksimal yang Konstan:** Penggunaan *Auto-Brightness* yang dimatikan dengan posisi slider kecerahan di angka 100% saat berada di bawah terik matahari Jakarta mempercepat proses penuaan zat organik pada panel layar.
+2.<strong>Tingkat Kecerahan Maksimal yang Konstan:</strong> Penggunaan *Auto-Brightness* yang dimatikan dengan posisi slider kecerahan di angka 100% saat berada di bawah terik matahari Jakarta mempercepat proses penuaan zat organik pada panel layar.
 
-3. **Elemen Antarmuka Statis (UI Ghosting):**Status bar, dock aplikasi di bagian bawah, atau tombol navigasi aplikasi tertentu yang tidak pernah berubah posisi memberikan beban kerja yang tidak seimbang pada area piksel tertentu di layar.
+3. <strong>Elemen Antarmuka Statis (UI Ghosting):</strong> Status bar, dock aplikasi di bagian bawah, atau tombol navigasi aplikasi tertentu yang tidak pernah berubah posisi memberikan beban kerja yang tidak seimbang pada area piksel tertentu di layar.
 
 ## 3. Panduan Praktis Langkah demi Langkah Perbaikan Darurat
 
-Alih-alih menunggu layar Anda benar-benar rusak dan harus mengeluarkan biaya mahal untuk penggantian satu modul layar penuh, mari kita buat sistem pencegahan otomatis berbasis perangkat lunak menggunakan fitur**Automation**di aplikasi**Shortcuts** bawaan iOS.
+Alih-alih menunggu layar Anda benar-benar rusak dan harus mengeluarkan biaya mahal untuk penggantian satu modul layar penuh, mari kita buat sistem pencegahan otomatis berbasis perangkat lunak menggunakan fitur <strong>Automation</strong> di aplikasi <strong>Shortcuts</strong> bawaan iOS.
 
 ```bash
 # Ringkasan Alur Sistem Otomasi
@@ -45,13 +45,13 @@ Alih-alih menunggu layar Anda benar-benar rusak dan harus mengeluarkan biaya mah
 3. Atur aksi untuk mengubah Appearance (Tampilan) ke Dark Mode saat malam dan Light Mode di siang hari.
 ```
 
-Ikuti langkah-langkah praktis berikut untuk mengaturny
+Ikuti langkah-langkah praktis berikut untuk mengaturnya.
 
-**A.** * **Langkah 1:**Buka aplikasi**Shortcuts**(Pintasan) di iPhone Anda, lalu ketuk tab**Automation** (Otomasi) di bagian bawah tengah layar.
-* **Langkah 2:**Ketuk ikon tambah (+) di pojok kanan atas, lalu pilih**Time of Day** (Waktu dalam Hari).
-* **Langkah 3:**Tentukan waktu spesifik, misalnya pukul 18.00 untuk mulai mengaktifkan mode gelap, pilih opsi**Run Immediately**(Jalankan Segera), lalu ketuk**Next** (Berikutnya).
-* **Langkah 4:**Cari tindakan dengan mengetik**Set Appearance**pada kolom pencarian, lalu ubah parameternya menjadi**Dark**(Gelap). Ketuk**Done** untuk menyimpan.
-* **Langkah 5:**Buat satu otomatisasi lagi dengan cara yang sama untuk pukul 06.00 pagi dengan aksi**Set Appearance**ke**Light**(Terang) agar mata tetap nyaman beraktivitas di luar ruangan.
+* <strong>Langkah 1:</strong> Buka aplikasi <strong>Shortcuts</strong>(Pintasan) di iPhone Anda, lalu ketuk tab <strong>Automation</strong> (Otomasi) di bagian bawah tengah layar.
+* <strong>Langkah 2:</strong> Ketuk ikon tambah (+) di pojok kanan atas, lalu pilih <strong>Time of Day</strong> (Waktu dalam Hari).
+* <strong>Langkah 3:</strong> Tentukan waktu spesifik, misalnya pukul 18.00 untuk mulai mengaktifkan mode gelap, pilih opsi <strong>Run Immediately</strong>(Jalankan Segera), lalu ketuk <strong>Next</strong> (Berikutnya).
+* <strong>Langkah 4:</strong> Cari tindakan dengan mengetik <strong>Set Appearance</strong> pada kolom pencarian, lalu ubah parameternya menjadi <strong>Dark</strong>(Gelap). Ketuk <strong>Done</strong> untuk menyimpan.
+* <strong>Langkah 5:</strong> Buat satu otomatisasi lagi dengan cara yang sama untuk pukul 06.00 pagi dengan aksi <strong>Set Appearance</strong> ke <strong>Light</strong>(Terang) agar mata tetap nyaman beraktivitas di luar ruangan.
 
 ## 4. Tips & Peringatan Penting Teknisi Reparasi
 
@@ -59,20 +59,20 @@ Ikuti langkah-langkah praktis berikut untuk mengaturny
 <strong>Tips Keamanan Perangkat:</strong> Jangan mudah percaya pada aplikasi pihak ketiga di App Store yang mengklaim bisa "memperbaiki" atau "mencuci" layar burn-in dengan menampilkan warna berkedip-kedip cepat. Metode tersebut justru membebani daya tahan baterai dan mempercepat kerusakan komponen resistor sub-pixel pada mesin. Pencegahan melalui manajemen kecerahan dan transisi Dark Mode adalah cara paling aman yang dianjurkan teknisi profesional.
 </div>
 
-Selain otomatisasi tema tampilan, biasakan untuk mengaktifkan fitur**Auto-Brightness**di menu**Settings > Accessibility > Display & Text Size**. Biarkan sensor cahaya ambient iPhone Anda yang bekerja menyesuaikan kebutuhan daya tahan panel layar.
+Selain otomatisasi tema tampilan, biasakan untuk mengaktifkan fitur <strong>Auto-Brightness</strong> di menu <strong>Settings > Accessibility > Display & Text Size</strong>. Biarkan sensor cahaya ambient iPhone Anda yang bekerja menyesuaikan kebutuhan daya tahan panel layar.
 
 ## 5. Pertanyaan yang Sering Diajukan (FAQ)
 
-**Q.** Apakah Dark Mode benar-benar bisa menghilangkan risiko *burn-in* pada layar iPhone?
+<strong>Q.</strong> Apakah Dark Mode benar-benar bisa menghilangkan risiko *burn-in* pada layar iPhone?
 
-**A.** Dark Mode tidak menghilangkan risiko secara mutlak, namun sangat efektif memperlambat proses keausan piksel organik karena sebagian besar piksel dimatikan (menampilkan warna hitam murni), sehingga umur pakai panel OLED menjadi jauh lebih panjang.
+A. Dark Mode tidak menghilangkan risiko secara mutlak, namun sangat efektif memperlambat proses keausan piksel organik karena sebagian besar piksel dimatikan (menampilkan warna hitam murni), sehingga umur pakai panel OLED menjadi jauh lebih panjang.
 
-**Q.** Apakah fitur otomatisasi ini akan menguras baterai iPhone saya?
+<strong>Q.</strong> Apakah fitur otomatisasi ini akan menguras baterai iPhone saya?
 
-**A.** Sama sekali tidak. Proses pergantian skema warna melalui sistem bawaan iOS ini sangat ringan dan justru menghemat daya baterai, terutama jika iPhone Anda menggunakan panel OLED yang mengonsumsi daya lebih sedikit saat menampilkan warna hitam.
+A. Sama sekali tidak. Proses pergantian skema warna melalui sistem bawaan iOS ini sangat ringan dan justru menghemat daya baterai, terutama jika iPhone Anda menggunakan panel OLED yang mengonsumsi daya lebih sedikit saat menampilkan warna hitam.
 
-**Q.** Apa yang harus saya lakukan jika bayangan aplikasi terlanjur tercetak di layar?
+<strong>Q.</strong> Apa yang harus saya lakukan jika bayangan aplikasi terlanjur tercetak di layar?
 
-**A.** Jika bayangan sudah permanen (ghost image), satu-satunya solusi teknis yang dapat mengembalikan kejernihan layar secara total adalah dengan melakukan penggantian modul satu set layar baru di pusat reparasi terpercay
+A. Jika bayangan sudah permanen (ghost image), satu-satunya solusi teknis yang dapat mengembalikan kejernihan layar secara total adalah dengan melakukan penggantian modul satu set layar baru di pusat reparasi terpercaya.
 
-**A.**
+

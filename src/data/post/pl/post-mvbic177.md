@@ -8,35 +8,25 @@ tags: ["Galaxy Z Fold", "Smartfony", "Naprawa", "Poradnik serwisowy"]
 theme: "Pure Titanium Clean"
 ---
 
-## 1. Awaryjna sytuacja ze smartfonem
+Zegarek na pulpicie pokazywał dokładnie 13:45. Za piętnaście minut w naszym warszawskim biurze miała zacząć się kluczowa wideokonferencja z zarządem w sprawie nowego oprogramowania dla logistyki. Wziąłem do ręki mojego wiernego Galaxy Z Folda, żeby na szybko rzucić okiem na notatki w głównym, rozszerzonym ekranie... i nagle – czarna rozpacz. Zewnętrzny wyświetlacz działał bez zarzutu, ale gdy tylko rozłożyłem telefon, wewnątrz zapadła całkowita ciemność. Ekran ani drgnął, zero podświetlenia, absolutna martwica. Serce podeszło mi do gardła, a w głowie kołatała się tylko jedna myśl: "Przecież tam mam całą prezentację i otwarte karty z danymi projektu!".
 
-Zegarek na pulpicie pokazywał dokładnie 13:45. Za piętnaście minut w naszym warszawskim biurze miała zacząć się kluczowa wideokonferencja z zarządem w sprawie nowego oprogramowania dla logistyki. Wziąłem do ręki mojego wiernego Galaxy Z Folda, żeby na szybko rzucić okiem na notatki w głównym, rozszerzonym ekranie... i nagle – czarna rozpacz. Zewnętrzny wyświetlacz działał bez zarzutu, ale gdy tylko rozłożyłem telefon, wewnątrz zapadła całkowita ciemność. Ekran ani drgnął, zero podświetlenia, absolutna martwic
-
-**A.** Serce podeszło mi do gardła, a w głowie kołatała się tylko jedna myśl: "Przecież tam mam całą prezentację i otwarte karty z danymi projektu!".
-
-Przez pierwsze dwie minuty wpadłem w klasyczną panikę. Zacząłem dziko wciskać przycisk zasilania, składać i rozkładać telefon z nadzieją, że "samo się naprawi", potrząsałem nim, a nawet dmuchałem w szczelinę zawiasu jak w stary cartridge od Pegasus
-
-**A.** Oczywiście, jedyne co osiągnąłem, to podwyższone tętno i zarysowana obudowa od nerwowego dotykania paznokciem. Próbowałem też restartować system przez zewnętrzny ekran, myśląc, że to zwieszka softu. Nic z tego. Za każdym razem, gdy urządzenie mijało punkt krytyczny rozwarcia – bup! – wnętrze gasło.
+Przez pierwsze dwie minuty wpadłem w klasyczną panikę. Zacząłem dziko wciskać przycisk zasilania, składać i rozkładać telefon z nadzieją, że "samo się naprawi", potrząsałem nim, a nawet dmuchałem w szczelinę zawiasu jak w stary cartridge od Pegasusa. Oczywiście, jedyne co osiągnąłem, to podwyższone tętno i zarysowana obudowa od nerwowego dotykania paznokciem. Próbowałem też restartować system przez zewnętrzny ekran, myśląc, że to zwieszka softu. Nic z tego. Za każdym razem, gdy urządzenie mijało punkt krytyczny rozwarcia – bup! – wnętrze gasło.
 
 ![Tech Troubleshooting & Hardware Guide](https://picsum.photos/seed/gadget907/1000/550)
 
-Dopiero kiedy głęboko odetchnąłem i podszedłem do sprawy jak rutiniarz, który w swoim życiu widział już spalone płyty główne i zjedzone przez kawę klawiatury, zrozumiałem, w czym rzecz. Zanim pobiegniesz do serwisu i zostawisz tam fortunę za wymianę całego modułu ekranu elastycznego, spójrzmy na to chłodnym okiem informatyk
+Dopiero kiedy głęboko odetchnąłem i podszedłem do sprawy jak rutiniarz, który w swoim życiu widział już spalone płyty główne i zjedzone przez kawę klawiatury, zrozumiałem, w czym rzecz. Zanim pobiegniesz do serwisu i zostawisz tam fortunę za wymianę całego modułu ekranu elastycznego, spójrzmy na to chłodnym okiem informatyka. 
 
-**A.** <div style="border-left: 4px solid #334155; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>Wskazówka ekspertow
-
-**A.** </strong> Zanim rozkręcisz lub oddasz telefon do drogiego serwisu, upewnij się, że wykonałeś kopię zapasową danych przez Smart Switch na komputerze. Często przy problemach z taśmą elastyczną, port USB-C i zewnętrzny ekran wciąż pozwalają na zgranie kluczowych plików!
+<div style="border-left: 4px solid #334155; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
+<strong>Wskazówka ekspertowa:</strong> Zanim rozkręcisz lub oddasz telefon do drogiego serwisu, upewnij się, że wykonałeś kopię zapasową danych przez Smart Switch na komputerze. Często przy problemach z taśmą elastyczną, port USB-C i zewnętrzny ekran wciąż pozwalają na zgranie kluczowych plików!
 </div>
 
 ### Dlaczego Fold szaleje? Główne przyczyny awarii
 
 Zanim przejdziemy do konkretnych kroków naprawczych, musisz wiedzieć, z czym tak naprawdę walczymy. W konstrukcjach składanych najczęściej mamy do czynienia z trzema winowajcami:
 
-1. Uszkodzenie mechaniczne taśmy flex (Flex Cable): Taśma przesyłająca obraz i sygnał dotykowy zgina się tysiące razy. W końcu miedź wewnątrz może ulec mikropęknięciu.
-
-2. Zablokowany lub zabrudzony czujnik Halla (Angle Sensor): Telefon wykakuje z trybu tabletu na telefon na podstawie miniaturowych magnesów i czujników położenia w zawiasie. Jeśli dostanie się tam pył z kieszeni, czujnik głupieje i myśli, że urządzenie jest zamknięte.
-
-3. Zawieszenie sterownika ekranu po aktualizacji: Czasami podsystem graficzny Androida gubi synchronizację między dwoma wyświetlaczami po nagłym uśpieniu.
+1. <strong>Uszkodzenie mechaniczne taśmy flex (Flex Cable):</strong> Taśma przesyłająca obraz i sygnał dotykowy zgina się tysiące razy. W końcu miedź wewnątrz może ulec mikropęknięciu.
+2. <strong>Zablokowany lub zabrudzony czujnik Halla (Angle Sensor):</strong> Telefon wykakuje z trybu tabletu na telefon na podstawie miniaturowych magnesów i czujników położenia w zawiasie. Jeśli dostanie się tam pył z kieszeni, czujnik głupieje i myśli, że urządzenie jest zamknięte.
+3. <strong>Zawieszenie sterownika ekranu po aktualizacji:</strong> Czasami podsystem graficzny Androida gubi synchronizację między dwoma wyświetlaczami po nagłym uśpieniu.
 
 ---
 
@@ -52,30 +42,26 @@ Często problem nie leży w samym ekranie, a w brudzie, który blokuje mechanizm
 
 #### Krok 2: Sprawdzenie diagnostyczne przez menu serwisowe
 Nie musisz zgadywać, czy hardware żyje. System Android ma wbudowane narzędzia diagnostyczne.
-- Na zewnętrznym ekranie wejdź w aplikację Telefon.
+- Na zewnętrznym ekranie wejdź w aplikację <strong>Telefon</strong>.
 - Wpisz kod serwisowy: `*#0*#` (po wpisaniu ostatniego krzyżyka automatycznie otworzy się ukryte menu diagnostyczne).
-- Poszukaj pola Receiver lub Sensor, a przede wszystkim przetestuj opcję Mega Version oraz testy wyświetlacz
-
-**A.** Jeśli telefon pozwala na test subpikseli, sprawdź, czy reakcja dotyku rejestruje się na głównym ekranie, nawet jeśli jest czarny.
+- Poszukaj pola <strong>Receiver</strong> lub <strong>Sensor</strong>, a przede wszystkim przetestuj opcję <strong>Mega Version</strong> oraz testy wyświetlacza. Jeśli telefon pozwala na test subpikseli, sprawdź, czy reakcja dotyku rejestruje się na głównym ekranie, nawet jeśli jest czarny.
 
 #### Krok 3: Twardy reset i wyczyszczenie pamięci podręcznej (Wipe Cache Partition)
-Czasami winny jest zepsuty cache systemowy po ostatniej łatce bezpieczeństw
-
-**A.** - Wyłącz telefon. Podłącz go do komputera kablem USB (to ważne, bo bez tego nowsze wersje One UI nie pozwolą wejść w trybRecovery).
-- Przytrzymaj jednocześnie przyciski Zwiększ głośność oraz Zasilanie, aż na zewnętrznym ekranie pojawi się logo Samsung.
-- Kiedy wejdziesz w menu Recovery, użyj przycisków głośności, aby przejść do opcji Wipe cache partition, a następnie zatwierdź przyciskiem zasilani
-
-**A.** - Na koniec wybierz Reboot system now.
+Czasami winny jest zepsuty cache systemowy po ostatniej łatce bezpieczeństwa.
+- Wyłącz telefon. Podłącz go do komputera kablem USB (to ważne, bo bez tego nowsze wersje One UI nie pozwolą wejść w trybRecovery).
+- Przytrzymaj jednocześnie przyciski <strong>Zwiększ głośność</strong> oraz <strong>Zasilanie</strong>, aż na zewnętrznym ekranie pojawi się logo Samsung.
+- Kiedy wejdziesz w menu <strong>Recovery</strong>, użyj przycisków głośności, aby przejść do opcji <strong>Wipe cache partition</strong>, a następnie zatwierdź przyciskiem zasilania.
+- Na koniec wybierz <strong>Reboot system now</strong>.
 
 ---
 
 ### FAQ – Często zadawane pytania
 
-1. Czy mogę bezpiecznie używać telefonu, jeśli działa tylko zewnętrzny ekran?
+<strong>1. Czy mogę bezpiecznie używać telefonu, jeśli działa tylko zewnętrzny ekran?</strong>
 Tak, zewnętrzny ekran w Galaxy Z Fold jest w pełni funkcjonalnym smartfonem. Możesz bez problemu dzwonić, pisać maile i korzystać z aplikacji, co pozwoli Ci przetrwać dzień w pracy do momentu oddania sprzętu do serwisu.
 
-2. Ile kosztuje wymiana taśmy flex lub czujnika w autoryzowanym serwisie?
+<strong>2. Ile kosztuje wymiana taśmy flex lub czujnika w autoryzowanym serwisie?</strong>
 Jeśli telefon nie jest już objęty standardową gwarancją, koszty bywają wysokie, ponieważ Samsung często wymienia cały moduł ramki i ekranu jako jedną część. Ceny mogą wahać się od kilkuset do nawet ponad dwóch tysięcy złotych, dlatego zawsze warto najpierw sprawdzić, czy usterka nie wynika z zabrudzenia zawiasu podlegającego pod czyszczenie serwisowe.
 
-3. Czy ponowne uruchomienie w trybie awaryjnym (Safe Mode) coś da?
+<strong>3. Czy ponowne uruchomienie w trybie awaryjnym (Safe Mode) coś da?</strong>
 Tryb awaryjny pomaga wykluczyć sytuację, w której aplikacja trzecia blokuje przełączanie rozdzielczości ekranu. Aby go włączyć, przytrzymaj przycisk wyłączania na panelu powiadomień, a następnie przytrzymaj palec na ikonie "Wyłącz", aż pojawi się opcja "Tryb awaryjny". Jeśli w tym trybie po rozłożeniu ekran zadziała, winna jest konkretna aplikacja zainstalowana w systemie.

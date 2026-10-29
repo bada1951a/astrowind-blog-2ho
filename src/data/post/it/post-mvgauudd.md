@@ -11,29 +11,29 @@ tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Riparazione Cellulari"]
 
 ### 1. Scenario d'emergenza nel Centro Direzionale: Il led rosso che fa impazzire
 
-Sono le 8:45 di lunedì mattin
+Sono le 8:45 di lunedì mattina.
 
-**A.** Mi trovo nel pieno fermento del Centro Direzionale di Milano, tra grattacieli di vetro e manager in preda al panico da batteria scaric
+Mi trovo nel pieno fermento del Centro Direzionale di Milano, tra grattacieli di vetro e manager in preda al panico da batteria scarica.
 
-**A.** Un cliente entra nel mio laboratorio a passo di caric
+Un cliente entra nel mio laboratorio a passo di carica.
 
-**A.** ha la riunione più importante del trimestre tra venti minuti e il suo smartphone, poggiato sulla base di ricarica wireless della scrivania, si rifiuta categoricamente di fare il suo dovere. 
+ha la riunione più importante del trimestre tra venti minuti e il suo smartphone, poggiato sulla base di ricarica wireless della scrivania, si rifiuta categoricamente di fare il suo dovere. 
 
 ![Wireless Charger Blinking and Not Charging Phone: How to Align Induction Coils Guide](https://picsum.photos/seed/mob-mvgawqbc-6-b/1000/550.jpg)
 
 Il sintomo? Classico, odioso e inequivocabile: il LED del caricabatterie wireless continua a lampeggiare freneticamente (spesso passando da blu a rosso o lampeggiando in arancione), mentre la percentuale della batteria sullo schermo resta inchiodata o continua a scendere. Il panico sale. "Ho comprato questo pad wireless da cento euro e non funziona più!", mi urla quasi addosso. 
 
-Faccio un respiro profondo, gli faccio cenno di sedersi e poso il telefono sul banco. Nella maggior parte dei casi, non siamo di fronte a un componente bruciato, ma a una questione di fisica pur
+Faccio un respiro profondo, gli faccio cenno di sedersi e poso il telefono sul banco. Nella maggior parte dei casi, non siamo di fronte a un componente bruciato, ma a una questione di fisica pura.
 
-**A.** un disallineamento millimetrico tra le bobine a induzione o un piccolo blocco di comunicazione tra i dispositivi. Mettiamoci al lavoro e vediamo come risolverlo in pochi minuti.
+un disallineamento millimetrico tra le bobine a induzione o un piccolo blocco di comunicazione tra i dispositivi. Mettiamoci al lavoro e vediamo come risolverlo in pochi minuti.
 
 ---
 
 ### 2. Le 3 cause reali dietro al LED lampeggiante
 
-Prima di smontare mezza scrivania o correre a comprare un caricabatterie nuovo, dobbiamo capire cosa sta succedendo sotto la scocc
+Prima di smontare mezza scrivania o correre a comprare un caricabatterie nuovo, dobbiamo capire cosa sta succedendo sotto la scocca.
 
-**A.** Quando il LED lampeggia, significa che il sistema di sicurezza del caricabatterie ha rilevato un’anomalia e ha interrotto l'erogazione di energia per evitare surriscaldamenti o cortocircuiti. 
+Quando il LED lampeggia, significa che il sistema di sicurezza del caricabatterie ha rilevato un’anomalia e ha interrotto l'erogazione di energia per evitare surriscaldamenti o cortocircuiti. 
 
 Ecco i tre colpevoli principali che incontro quotidianamente nel mio laboratorio milanese:
 
@@ -47,45 +47,45 @@ Ecco i tre colpevoli principali che incontro quotidianamente nel mio laboratorio
 
 ### 3. Guida passo-passo alla diagnosi e risoluzione
 
-Mettiamoci le mani in past
+Mettiamoci le mani in pasta.
 
-**A.** Segui questa procedura logica per diagnosticare e risolvere il problema del tuo caricabatterie wireless in autonomi
+Segui questa procedura logica per diagnosticare e risolvere il problema del tuo caricabatterie wireless in autonomia.
 
-**A.** #### Passo 1: Rimozione degli ostacoli e verifica della cover
+#### Passo 1: Rimozione degli ostacoli e verifica della cover
 * Cosa fare: Togli la cover dallo smartphone. Rimuovi qualsiasi anello di supporto posteriore (tipo PopSocket), eventuali piastrine metalliche per supporti auto e controlla che non ci siano carte di credito o tessere magnetiche infilate dietro al telefono.
-* Controllo: Ripoggia il telefono nudo sulla base di ricaric
+* Controllo: Ripoggia il telefono nudo sulla base di ricarica.
 
-**A.** Se il LED smette di lampeggiare e la ricarica parte, hai trovato il colpevole: la tua cover è troppo spessa o contiene parti metalliche non compatibili.
+Se il LED smette di lampeggiare e la ricarica parte, hai trovato il colpevole: la tua cover è troppo spessa o contiene parti metalliche non compatibili.
 
 #### Passo 2: Il rituale del centramento millimetrico (Allineamento delle bobine)
-* Cosa fare: Prendi il telefono e posizionalo esattamente al centro geometrico del pad di ricaric
+* Cosa fare: Prendi il telefono e posizionalo esattamente al centro geometrico del pad di ricarica.
 
-**A.** Se usi un caricabatterie wireless verticale a torretta, assicurati che l'altezza delle bobine interne corrisponda a quella del ricevitore del tuo specifico modello di telefono (specialmente se usi modelli Plus o Ultra che hanno dimensioni generose).
+Se usi un caricabatterie wireless verticale a torretta, assicurati che l'altezza delle bobine interne corrisponda a quella del ricevitore del tuo specifico modello di telefono (specialmente se usi modelli Plus o Ultra che hanno dimensioni generose).
 * Trucco del mestiere: Molti smartphone moderni indicano la posizione corretta con una leggera vibrazione o attivando l'animazione di ricarica sullo schermo. Muovi il telefono lentamente di pochi millimetri in cerchio finché non senti il "bip" o vedi l'icona della batteria cambiare stato.
 
 #### Passo 3: Pulizia delle superfici di contatto
-* Cosa fare: Polvere, umidità o residui oleosi accumulati sul fondo del telefono o sulla base possono creare un micro-spazio isolante o interferire con i sensori di temperatur
+* Cosa fare: Polvere, umidità o residui oleosi accumulati sul fondo del telefono o sulla base possono creare un micro-spazio isolante o interferire con i sensori di temperatura.
 
-**A.** Prendi un panno in microfibra leggermente inumidito con alcol isopropilico (mai acqua pura o detergenti aggressivi) e pulisci sia il retro del telefono che la superficie del pad. Asciuga perfettamente prima di riprovare.
+Prendi un panno in microfibra leggermente inumidito con alcol isopropilico (mai acqua pura o detergenti aggressivi) e pulisci sia il retro del telefono che la superficie del pad. Asciuga perfettamente prima di riprovare.
 
 #### Passo 4: Test incrociato dell'alimentazione
-* Cosa fare: Se il problema persiste, il difetto potrebbe non essere il pad in sé, ma l'energia che riceve. Scollega il cavo USB dalla base di ricarica e sostituiscilo con un cavo certificato di alta qualità. Sposta l'alimentatore a muro inserendolo direttamente in una presa di corrente a muro (evita ciabatte sovraccariche o hub USB economici). Assicurati che l'adattatore sia almeno un 18W o 20W a ricarica rapid
+* Cosa fare: Se il problema persiste, il difetto potrebbe non essere il pad in sé, ma l'energia che riceve. Scollega il cavo USB dalla base di ricarica e sostituiscilo con un cavo certificato di alta qualità. Sposta l'alimentatore a muro inserendolo direttamente in una presa di corrente a muro (evita ciabatte sovraccariche o hub USB economici). Assicurati che l'adattatore sia almeno un 18W o 20W a ricarica rapida.
 
-**A.** ---
+---
 
 ### 4. Consigli di sicurezza da esperto (Protezione batteria e pin)
 
 Prima di lasciar andare il cliente con il suo telefono perfettamente funzionante, spiego sempre alcune regole d'oro per preservare la salute del dispositivo nel lungo periodo. La ricarica wireless è comodissima, ma genera più calore rispetto al cavo tradizionale.
 
-* Attenzione al calore eccessivo: Il nemico numero uno della batteria agli ioni di litio è la temperatur
+* Attenzione al calore eccessivo: Il nemico numero uno della batteria agli ioni di litio è la temperatura.
 
-**A.** Se noti che il telefono diventa bollente mentre è sul pad wireless, rimuovilo immediatamente. Il calore degrada la chimica interna della batteria, riducendone la capacità e rischiando persino di gonfiarl
+Se noti che il telefono diventa bollente mentre è sul pad wireless, rimuovilo immediatamente. Il calore degrada la chimica interna della batteria, riducendone la capacità e rischiando persino di gonfiarla.
 
-**A.** * Non lasciare il telefono sul pad a oltranz
+* Non lasciare il telefono sul pad a oltranza.
 
-**A.** Una volta raggiunto il 100%, la ricarica wireless continua a effettuare cicli di mantenimento che mantengono la batteria sotto stress termico. Cerca di rimuovere lo smartphone non appena la carica è complet
+Una volta raggiunto il 100%, la ricarica wireless continua a effettuare cicli di mantenimento che mantengono la batteria sotto stress termico. Cerca di rimuovere lo smartphone non appena la carica è completa.
 
-**A.** * Salute della porta USB: Anche se usi la ricarica wireless, ricordati di pulire periodicamente la porta USB-C o Lightning del telefono con uno stecchino di legno non appuntito. La polvere si accumula comunque, e in caso di guasto improvviso del pad wireless, avrai bisogno della porta cablata per effettuare il backup o caricare il telefono.
+* Salute della porta USB: Anche se usi la ricarica wireless, ricordati di pulire periodicamente la porta USB-C o Lightning del telefono con uno stecchino di legno non appuntito. La polvere si accumula comunque, e in caso di guasto improvviso del pad wireless, avrai bisogno della porta cablata per effettuare il backup o caricare il telefono.
 
 ---
 
@@ -95,16 +95,16 @@ Domande Frequenti (FAQ)
 
 D: Perché il mio caricabatterie wireless lampeggia solo con il telefono inserito, ma rimane fisso (o spento) se è vuoto?
 
-**A.** È il comportamento standard dei circuiti di sicurezza dotati di FOD (*Foreign Object Detection*). Quando il pad è vuoto, è in modalità stand-by. Quando appoggi il telefono, il pad tenta di stabilire una comunicazione dati/energia con la bobina ricevente. Se rileva un disallineamento, un oggetto metallico estraneo o un'impedenza anomala, il sistema di protezione si attiva facendo lampeggiare il LED per segnalare l'errore.
+A. È il comportamento standard dei circuiti di sicurezza dotati di FOD (*Foreign Object Detection*). Quando il pad è vuoto, è in modalità stand-by. Quando appoggi il telefono, il pad tenta di stabilire una comunicazione dati/energia con la bobina ricevente. Se rileva un disallineamento, un oggetto metallico estraneo o un'impedenza anomala, il sistema di protezione si attiva facendo lampeggiare il LED per segnalare l'errore.
 
 D: Posso usare qualsiasi caricabatterie wireless con il mio smartphone?
 
-**A.** In linea di massima sì, grazie allo standard universale Qi. Tuttavia, per ottenere le massime prestazioni ed evitare problemi di compatibilità con i sistemi di ricarica rapida proprietari (come quelli di Samsung o Apple), è sempre consigliabile utilizzare accessori originali o certificati (es. marchi con certificazione Qi ufficiale). I pad economici senza marche spesso montano bobine di scarsa qualità che tollerano pochissimo il disallineamento.
+A. In linea di massima sì, grazie allo standard universale Qi. Tuttavia, per ottenere le massime prestazioni ed evitare problemi di compatibilità con i sistemi di ricarica rapida proprietari (come quelli di Samsung o Apple), è sempre consigliabile utilizzare accessori originali o certificati (es. marchi con certificazione Qi ufficiale). I pad economici senza marche spesso montano bobine di scarsa qualità che tollerano pochissimo il disallineamento.
 
 D: Il telefono si carica a intermittenza (collega/scollega continuamente): cosa sta succedendo?
 
-**A.** Questo fenomeno è solitamente causato da un'alimentazione instabile in arrivo alla base di ricaric
+A. Questo fenomeno è solitamente causato da un'alimentazione instabile in arrivo alla base di ricarica.
 
-**A.** L'adattatore a muro sta erogando meno corrente del necessario (magari stai usando una vecchia presa da 5W/1A). Appena il telefono richiede energia per la ricarica rapida, il carico supera la capacità dell'alimentatore, che si spegne per un istante, facendo interrompere la ricaric
+L'adattatore a muro sta erogando meno corrente del necessario (magari stai usando una vecchia presa da 5W/1A). Appena il telefono richiede energia per la ricarica rapida, il carico supera la capacità dell'alimentatore, che si spegne per un istante, facendo interrompere la ricarica.
 
-**A.** Sostituisci l'alimentatore con uno più potente e vedrai che il flusso diventerà continuo.
+Sostituisci l'alimentatore con uno più potente e vedrai che il flusso diventerà continuo.

@@ -7,8 +7,6 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Sạc Dự Phòng", "Sửa Điện Thoại"]
 ---
 
-## 1. Tình huống sự cố điện thoại thông minh khẩn cấp
-
 ### 1. Ác mộng sạc pin giữa lòng Sài Gòn: Cắm sạc dự phòng mà điện thoại cứ "rùa bò"
 
 Chào anh em, lại là tôi - một thằng thợ sửa điện thoại ngâm mình qua không biết bao nhiêu đời máy tại cái tiệm nhỏ ở khu vực quận 10, TP.HCM này đây. 
@@ -43,11 +41,11 @@ Sài Gòn khói bụi mịt mù, cộng thêm việc anh em hay nhét điện th
 Đừng vội vứt cục pin dự phòng hay phi ra tiệm mua máy mới. Hãy áp dụng ngay quy trình "bắt bệnh" theo các bước thực chiến dưới đây:
 
 #### Bước 1: Vệ sinh sạch sẽ "ổ khóa" cổng sạc trên điện thoại
-* Dụng cụ cần chuẩn bị: Một cây tăm tre vót nhọn thật mỏng (tuyệt đối không dùng kim loại như kim may hay kẹp ghim vì dễ làm quéo hoặc chập cháy các chân tiếp xúc bên trong cổng sạc), một chai cồn Isopropyl (IPA) 90 độ và một bàn chải đánh răng cũ lông mềm.
-* Cách làm: Tắt nguồn điện thoại. Lấy tăm tre khẽ lùa vào khe cổng sạc, cạo nhẹ nhàng lớp xơ vải đen thui bám ở đáy. Anh em sẽ phải giật mình vì không nghĩ trong đó lại lắm bụi đến thế. Sau đó, nhúng bàn chải vào một chút cồn IPA (vắt ráo nước), quét nhẹ nhàng bên trong cổng sạc rồi dùng máy sấy tóc ở chế độ gió mát thổi khô.
+* <strong>Dụng cụ cần chuẩn bị:</strong> Một cây tăm tre vót nhọn thật mỏng (tuyệt đối không dùng kim loại như kim may hay kẹp ghim vì dễ làm quéo hoặc chập cháy các chân tiếp xúc bên trong cổng sạc), một chai cồn Isopropyl (IPA) 90 độ và một bàn chải đánh răng cũ lông mềm.
+* <strong>Cách làm:</strong> Tắt nguồn điện thoại. Lấy tăm tre khẽ lùa vào khe cổng sạc, cạo nhẹ nhàng lớp xơ vải đen thui bám ở đáy. Anh em sẽ phải giật mình vì không nghĩ trong đó lại lắm bụi đến thế. Sau đó, nhúng bàn chải vào một chút cồn IPA (vắt ráo nước), quét nhẹ nhàng bên trong cổng sạc rồi dùng máy sấy tóc ở chế độ gió mát thổi khô.
 
 #### Bước 2: Kiểm tra lại thông số kỹ thuật của pin dự phòng và cáp
-* Cách làm: Lật mặt sau cục pin dự phòng đọc kỹ phần thông số Output (Đầu ra). Ví dụ, nó ghi rõ `PD 20W` hoặc `PPS 25W`. 
+* <strong>Cách làm:</strong> Lật mặt sau cục pin dự phòng đọc kỹ phần thông số Output (Đầu ra). Ví dụ, nó ghi rõ `PD 20W` hoặc `PPS 25W`. 
 * Sau đó, đảm bảo sợi cáp của anh em là cáp có hỗ trợ truyền dữ liệu và dòng điện cao (từ 3A trở lên, tốt nhất là cáp có tích hợp chip E-marker nếu dùng sạc công suất lớn trên 60W). Thử đổi một sợi cáp chính hãng khác mà anh em đang dùng củ sạc tường cắm thử xem tốc độ có khác biệt không.
 
 #### Bước 3: Thử nghiệm loại trừ theo thứ tự
@@ -60,19 +58,19 @@ Sài Gòn khói bụi mịt mù, cộng thêm việc anh em hay nhét điện th
 
 Trong quá trình làm nghề, tôi thấy rất nhiều anh em rước họa vào thân chỉ vì những thói quen nhỏ. Để bảo vệ đôi "bạn cùng tiến" điện thoại và sạc dự phòng luôn bền bỉ, anh em lưu ý giùm tôi mấy điểm sau:
 
-* Không vừa sạc vừa cày game nặng: Cục pin dự phòng sinh nhiệt, cộng thêm việc chip điện thoại xử lý đồ họa game nặng sẽ đẩy nhiệt độ máy lên cao. Nhiệt độ chính là "kẻ thù số một" của tuổi thọ pin Lithium-ion. Nó không chỉ làm sạc chậm do cơ chế tự bảo vệ ngắt nhiệt mà còn làm phồng pin nhanh chóng.
-* Chọn mua pin dự phòng có thương hiệu: Ưu tiên các dòng có hỗ trợ công nghệ Power Delivery (PD) chuẩn quốc tế từ các hãng uy tín như Anker, Baseus, Ugreen, Samsung, Xiaomi... Đừng ham rẻ mua mấy loại pin không rõ nguồn gốc ngoài chợ trời, vừa sạc chậm, vừa dễ gây sốc điện cháy nổ ic nguồn.
-* Cất cáp gọn gàng: Khi cuộn cáp sạc dự phòng để vào balo, tránh bẻ gập khúc vuông góc 90 độ. Hãy cuộn tròn theo dạng vòng cung để bảo vệ các lõi đồng bên trong không bị đứt gãy ngầm.
+* <strong>Không vừa sạc vừa cày game nặng:</strong> Cục pin dự phòng sinh nhiệt, cộng thêm việc chip điện thoại xử lý đồ họa game nặng sẽ đẩy nhiệt độ máy lên cao. Nhiệt độ chính là "kẻ thù số một" của tuổi thọ pin Lithium-ion. Nó không chỉ làm sạc chậm do cơ chế tự bảo vệ ngắt nhiệt mà còn làm phồng pin nhanh chóng.
+* <strong>Chọn mua pin dự phòng có thương hiệu:</strong> Ưu tiên các dòng có hỗ trợ công nghệ Power Delivery (PD) chuẩn quốc tế từ các hãng uy tín như Anker, Baseus, Ugreen, Samsung, Xiaomi... Đừng ham rẻ mua mấy loại pin không rõ nguồn gốc ngoài chợ trời, vừa sạc chậm, vừa dễ gây sốc điện cháy nổ ic nguồn.
+* <strong>Cất cáp gọn gàng:</strong> Khi cuộn cáp sạc dự phòng để vào balo, tránh bẻ gập khúc vuông góc 90 độ. Hãy cuộn tròn theo dạng vòng cung để bảo vệ các lõi đồng bên trong không bị đứt gãy ngầm.
 
 ---
 
 ### 5. Câu hỏi thường gặp (FAQs)
 
-Q1. Tại sao tôi dùng củ sạc tường cắm ổ điện thì nhanh, mà cứ cắm qua sạc dự phòng cùng công suất 20W lại báo sạc chậm?
-> Trả lời: Chuyện này cực kỳ bình thường anh em ạ. Dòng điện xoay chiều từ ổ điện nhà qua củ sạc tường luôn ổn định hơn dòng điện một chiều được phóng ra từ mạch của pin dự phòng. Hơn nữa, một số pin dự phòng khi cắm nhiều thiết bị cùng lúc hoặc khi dung lượng pin của chính nó tụt dưới 20%, nó sẽ tự động hạ công suất đầu ra để tiết kiệm năng lượng, khiến điện thoại của anh em nhận được ít điện hơn và báo sạc chậm.
+<strong>Q1: Tại sao tôi dùng củ sạc tường cắm ổ điện thì nhanh, mà cứ cắm qua sạc dự phòng cùng công suất 20W lại báo sạc chậm?</strong>
+> <strong>Trả lời:</strong> Chuyện này cực kỳ bình thường anh em ạ. Dòng điện xoay chiều từ ổ điện nhà qua củ sạc tường luôn ổn định hơn dòng điện một chiều được phóng ra từ mạch của pin dự phòng. Hơn nữa, một số pin dự phòng khi cắm nhiều thiết bị cùng lúc hoặc khi dung lượng pin của chính nó tụt dưới 20%, nó sẽ tự động hạ công suất đầu ra để tiết kiệm năng lượng, khiến điện thoại của anh em nhận được ít điện hơn và báo sạc chậm.
 
-Q2. Điện thoại báo "Phụ kiện không được hỗ trợ" hoặc "Thiết bị không tương thích" khi cắm sạc dự phòng thì phải làm sao?
-> Trả lời: Lỗi này thường do chuẩn giao tiếp giữa chip sạc của cáp và IC sạc trên điện thoại không khớp nhau (nhất là khi anh em dùng cáp lô, cáp không đạt chứng nhận MFi của Apple đối với iPhone). Giải pháp duy nhất là thay ngay một sợi cáp chính hãng hoặc cáp có chứng nhận chất lượng rõ ràng.
+<strong>Q2: Điện thoại báo "Phụ kiện không được hỗ trợ" hoặc "Thiết bị không tương thích" khi cắm sạc dự phòng thì phải làm sao?</strong>
+> <strong>Trả lời:</strong> Lỗi này thường do chuẩn giao tiếp giữa chip sạc của cáp và IC sạc trên điện thoại không khớp nhau (nhất là khi anh em dùng cáp lô, cáp không đạt chứng nhận MFi của Apple đối với iPhone). Giải pháp duy nhất là thay ngay một sợi cáp chính hãng hoặc cáp có chứng nhận chất lượng rõ ràng.
 
-Q3. Liệu việc sạc chậm bằng sạc dự phòng có làm hỏng pin điện thoại về lâu dài không?
-> Trả lời: Bản thân việc sạc chậm (dòng điện nhỏ) không làm hỏng pin hay gây hại trực tiếp cho viên pin của anh em, thậm chí nó còn giúp pin mát hơn so với sạc nhanh. Tuy nhiên, nếu nguyên nhân sạc chậm là do dòng điện từ pin dự phòng bị trồi sụt thất thường, chập chờn, thì nó sẽ cực kỳ có hại cho IC nguồn trên bo mạch chính của điện thoại. Thế nên gặp lỗi này, anh em cứ xử lý dứt điểm theo hướng dẫn ở trên cho tôi nhé!
+<strong>Q3: Liệu việc sạc chậm bằng sạc dự phòng có làm hỏng pin điện thoại về lâu dài không?</strong>
+> <strong>Trả lời:</strong> Bản thân việc sạc chậm (dòng điện nhỏ) không làm hỏng pin hay gây hại trực tiếp cho viên pin của anh em, thậm chí nó còn giúp pin mát hơn so với sạc nhanh. Tuy nhiên, nếu nguyên nhân sạc chậm là do dòng điện từ pin dự phòng bị trồi sụt thất thường, chập chờn, thì nó sẽ cực kỳ có hại cho <strong>IC nguồn</strong> trên bo mạch chính của điện thoại. Thế nên gặp lỗi này, anh em cứ xử lý dứt điểm theo hướng dẫn ở trên cho tôi nhé!

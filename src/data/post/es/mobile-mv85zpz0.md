@@ -10,11 +10,11 @@ theme: "Dracula Purple Dev"
 
 ## 1. Emergencia crítica con el teléfono móvil
 
-Eran las 7:15 PM, sudando frío en la fila de embarque de la Terminal 2, con el portapapeles digital ardiendo en el chat corporativo y el Galaxy Z Fold marcando un trágico 4% de baterí
+Eran las 7:15 PM, sudando frío en la fila de embarque de la Terminal 2, con el portapapeles digital ardiendo en el chat corporativo y el Galaxy Z Fold marcando un trágico 4% de batería.
 
-**A.** Necesitaba enviar la cotización final al director antes de que cerraran las puertas del avión. Con la mano temblando, conecté el cable USB-C al power bank y... el desastre: *«Se ha detectado humedad en el puerto de carga»*. El icono de la gota de agua parpadeando en la pantalla principal como una advertencia de expulsión nuclear. Cero carga, cero llamadas, cero vida corporativ
+Necesitaba enviar la cotización final al director antes de que cerraran las puertas del avión. Con la mano temblando, conecté el cable USB-C al power bank y... el desastre: *«Se ha detectado humedad en el puerto de carga»*. El icono de la gota de agua parpadeando en la pantalla principal como una advertencia de expulsión nuclear. Cero carga, cero llamadas, cero vida corporativa.
 
-**A.** Si te ha pasado esto justo en el peor momento, quédate, porque estuve investigando con técnicos de servicio y probé de todo para no perder el equipo.
+Si te ha pasado esto justo en el peor momento, quédate, porque estuve investigando con técnicos de servicio y probé de todo para no perder el equipo.
 
 ### ¿Por qué saltó esta maldita alerta de humedad de la nada?
 
@@ -24,27 +24,27 @@ Para entender por qué tu teléfono se pone tan histérico, hay que mirar bajo e
 
 <div style="border-left: 4px solid #bd93f9; padding: 12px 16px; margin: 20px 0; background-color: rgba(189, 147, 249, 0.05); border-radius: 4px;">
 <strong>Diagnóstico Técnico Directo:</strong><br>
-1. <strong>Micro-oxidación o pelusa acumulad
+1. <strong>Micro-oxidación o pelusa acumulada.</strong> La pelusa del bolsillo absorbe humedad ambiental y genera un falso positivo de cortocircuito al medir la resistencia eléctrica en los pines.<br>
 
-**A.** </strong> La pelusa del bolsillo absorbe humedad ambiental y genera un falso positivo de cortocircuito al medir la resistencia eléctrica en los pines.<br>
+
 2. <strong>Condensación por cambio térmico:</strong> Pasar de una oficina con aire acondicionado helado al calor húmedo de la pista de abordaje crea micro-gotas de condensación dentro del conector Type-C.<br>
 3. <strong>Bloqueo temporal del System UI:</strong> Un fallo en el caché del servicio USB (<i>USB Settings</i>) que se queda colgado registrando un evento de agua pasado.
 </div>
 
 ---
 
-### El protocolo de emergenci
+### El protocolo de emergencia.
 
-**A.** Cómo salir del apuro paso a paso
+Cómo salir del apuro paso a paso
 
 Si estás atrapado en una situación crítica, olvídate de los mitos de la abuela como meter el teléfono en arroz (lo único que logras ahí es meter almidón y polvo dentro del puerto). Aquí tienes el procedimiento real y seguro avalado por soporte técnico corporativo:
 
 #### Paso 1: Forzar el reinicio del sistema de control de energía
 A veces el sensor se queda bloqueado digitalmente. Necesitamos un reinicio forzoso para limpiar la lectura errónea en la controladora PMIC.
 * Mantén presionados simultáneamente el Botón de Encendido (Lateral) y el Bajar Volumen durante más de 10 segundos.
-* Espera a que aparezca el logotipo de Samsung y suelt
+* Espera a que aparezca el logotipo de Samsung y suelta.
 
-**A.** #### Paso 2: Limpieza física del puerto sin dañar los pines
+#### Paso 2: Limpieza física del puerto sin dañar los pines
 Apaga el dispositivo por completo. Consigue un palillo de madera (nunca metal) y revisa con unalupa o la linterna de otro teléfono el interior del conector USB-C. Saca con muchísimo cuidado cualquier pelusa compactada al fondo. Luego, utiliza aire comprimido a una distancia prudente (o sopla con fuerza controlada) para expulsar partículas sueltas.
 
 #### Paso 3: Restablecer los datos del servicio USB (Caché del sistema)
@@ -69,32 +69,32 @@ Si una app de terceros está interfiriendo con los permisos del puerto, mantén 
 
 ### Advertencias de experto para evitar daños fatales
 
-* Cero secador de pelo caliente: El calor excesivo de un secador de cabello de casa deforma los sellos de goma internos y el pegamento de la pantalla plegable del Fold, arruinando la certificación IP de resistencia al agu
+* Cero secador de pelo caliente: El calor excesivo de un secador de cabello de casa deforma los sellos de goma internos y el pegamento de la pantalla plegable del Fold, arruinando la certificación IP de resistencia al agua.
 
-**A.** Si usas aire, que sea completamente frío.
-* Cuidado con la carga inalámbrica de emergenci
+Si usas aire, que sea completamente frío.
+* Cuidado con la carga inalámbrica de emergencia.
 
-**A.** Si el puerto sigue bloqueado y necesitas batería urgentemente para salir del paso, usa una base de carga inalámbrica Qi. Salva la patria sin forzar el paso de corriente por pines húmedos que puedan sulfatarse.
-* No desactives las alertas vía ADB a lo loco: Hay tutoriales en foros oscuros que te enseñan a desactivar la comprobación de humedad por comandos de consol
+Si el puerto sigue bloqueado y necesitas batería urgentemente para salir del paso, usa una base de carga inalámbrica Qi. Salva la patria sin forzar el paso de corriente por pines húmedos que puedan sulfatarse.
+* No desactives las alertas vía ADB a lo loco: Hay tutoriales en foros oscuros que te enseñan a desactivar la comprobación de humedad por comandos de consola.
 
-**A.** No lo hagas; si hay agua real y metes 25W de potencia, vas a freír la placa madre y perderás toda la información del trabajo.
+No lo hagas; si hay agua real y metes 25W de potencia, vas a freír la placa madre y perderás toda la información del trabajo.
 
 ---
 
 ## 5. Preguntas Frecuentes (FAQ)
 
-**Q.** ¿Puedo usar el teléfono si la advertencia aparece pero carga de forma intermitente?
+<strong>Q.</strong> ¿Puedo usar el teléfono si la advertencia aparece pero carga de forma intermitente?
 
-**A.** Es una pésima ide
+A. Es una pésima idea.
 
-**A.** Si carga de forma intermitente significa que hay un puente de resistencia inestable (probablemente líquido mezclado con suciedad). Esto genera picos de voltaje que pueden dañar el circuito integrado de carga (IC de carga) de la placa principal.
+A. Si carga de forma intermitente significa que hay un puente de resistencia inestable (probablemente líquido mezclado con suciedad). Esto genera picos de voltaje que pueden dañar el circuito integrado de carga (IC de carga) de la placa principal.
 
-**Q.** ¿Qué hago si ya limpié y sequé el puerto, pero la notificación no desaparece ni con un hard reset?
+<strong>Q.</strong> ¿Qué hago si ya limpié y sequé el puerto, pero la notificación no desaparece ni con un hard reset?
 
-**A.** Es muy probable que los pines del conector USB-C se hayan corrosionado internamente o que el flex de carga haya sufrido un daño por humedad residual. Debes acudir a un centro de servicio técnico autorizado para un ultrasonido de placa y reemplazo del módulo de puerto.
+A. Es muy probable que los pines del conector USB-C se hayan corrosionado internamente o que el flex de carga haya sufrido un daño por humedad residual. Debes acudir a un centro de servicio técnico autorizado para un ultrasonido de placa y reemplazo del módulo de puerto.
 
-**Q.** ¿La garantía cubre fallas por detección de humedad falsa?
+<strong>Q.</strong> ¿La garantía cubre fallas por detección de humedad falsa?
 
-**A.** Depende de la inspección visual del técnico. Si los indicadores LDI (Liquid Damage Indicator) ubicados dentro del puerto o en la bandeja SIM cambiaron de color (pasaron de blanco a rosa/rojo), Samsung podría invalidar la garantía por daño accidental por líquidos, aunque el puerto solo haya fallado por condensación ambiental. Por eso es vital una limpieza ultrasónica previa si el teléfono nunca se sumergió en agu
+A. Depende de la inspección visual del técnico. Si los indicadores LDI (Liquid Damage Indicator) ubicados dentro del puerto o en la bandeja SIM cambiaron de color (pasaron de blanco a rosa/rojo), Samsung podría invalidar la garantía por daño accidental por líquidos, aunque el puerto solo haya fallado por condensación ambiental. Por eso es vital una limpieza ultrasónica previa si el teléfono nunca se sumergió en agua.
 
-**A.**
+

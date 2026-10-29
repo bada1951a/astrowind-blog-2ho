@@ -40,20 +40,20 @@ Enfin, la résistance interne des câbles de connexion joue un rôle souvent sou
 
 Pour ressusciter un Samsung Galaxy bloqué sur le logo suite à un incident thermique et une corruption de cache, la méthode la plus efficace consiste à nettoyer logiquement la partition système endommagée tout en vérifiant l'intégrité matérielle. Suivez scrupuleusement ces trois méthodes validées en atelier professionnel.
 
-*   Méthode 1 : Nettoyage mécanique non conductrice et préparation du port de charge
+*   <strong>Méthode 1 : Nettoyage mécanique non conductrice et préparation du port de charge</strong>
     1. Éteignez complètement l'appareil si possible (si le téléphone redémarre en boucle, attendez que la batterie soit totalement épuisée par la boucle de démarrage, ou maintenez la combinaison de touches d'extinction forcée : `Volume Bas` + `Power` pendant plus de dix secondes).
     2. Munissez-vous d'un cure-dent en bois fin (jamais de métal pour éviter de rayer ou courber les broches dorées).
     3. Insérez délicatement le cure-dent dans la fente du port USB-C et raclez doucement les parois pour extraire les compactages de poussière et de fibres.
     4. Utilisez une brosse antistatique à poils rigides pour balayer les débris détachés, puis envoyez une courte pression d'air sec à l'aide d'une bombe aérosol en maintenant le flacon bien vertical pour chasser les dernières impuretés.
 
-*   Méthode 2 : Effacement de la partition cache via le mode Recovery (Wipe Cache Partition)
+*   <strong>Méthode 2 : Effacement de la partition cache via le mode Recovery (Wipe Cache Partition)</strong>
     1. Connectez le smartphone à un ordinateur portable ou à un chargeur mural certifié via un câble USB-C de haute qualité pour garantir une alimentation stable pendant la manipulation.
     2. Maintenez simultanément enfoncés les boutons `Volume Haut` et `Power` (Marche/Arrêt) pendant environ sept à dix secondes.
     3. Dès que le logo Samsung s'affiche avec le texte secondaire, relâchez le bouton `Power` tout en maintenant fermement le bouton `Volume Haut` jusqu'à l'apparition du menu du mode Recovery en caractères textuels.
     4. Utilisez les boutons `Volume Bas` pour naviguer dans le menu et sélectionnez l'option `Wipe cache partition` en validant avec le bouton `Power`.
     5. Confirmez l'opération en sélectionnant `Yes`, puis terminez en sélectionnant `Reboot system now` pour relancer le système d'exploitation sur des bases logiques saines.
 
-*   Méthode 3 : Diagnostic de résistance des câbles et protocoles alternatifs1. Si l'appareil refuse toujours de charger ou de démarrer après le nettoyage, testez un autre bloc d'alimentation d'origine d'une puissance minimale de 25W délivrant du standard USB-PD.
+*   <strong>Méthode 3 : Diagnostic de résistance des câbles et protocoles alternatifs</strong> 1. Si l'appareil refuse toujours de charger ou de démarrer après le nettoyage, testez un autre bloc d'alimentation d'origine d'une puissance minimale de 25W délivrant du standard USB-PD.
     2. Branchez le smartphone et observez la réaction de l'indicateur de charge à l'écran pendant dix minutes sans tenter de l'allumer, afin de permettre au BMS de remonter au-dessus du seuil critique de sécurité thermique (cinq pour cent minimum).
     3. Si le port filaire reste capricieux en raison d'une oxydation profonde des micro-contacts, posez l'appareil sur un socle de charge sans fil à induction compatible Qi. La charge par induction contourne totalement le contrôleur physique du port USB-C et permet de réveiller la batterie en douceur.
 
@@ -67,4 +67,16 @@ L'exercice quotidien de la réparation de smartphones en milieu urbain dense nou
 
 Par ailleurs, l'utilisation de chargeurs contrefaits ou de câbles achetés à bas prix dans les stations de métro ou les échoppes non spécialisées constitue la cause principale de la destruction prématurée des circuits de gestion d'alimentation (PMIC) et des cartes mères. Ces accessoires bon marché ne possèdent aucun système de régulation des surtensions et laissent passer des pics de courant dévastateurs lors des micro-coupures du réseau électrique urbain. Privilégiez systématiquement des chargeurs authentiques ou certifiés par les constructeurs, dotés de puces de négociation de tension conformes aux normes internationales. Enfin, adoptez une routine d'entretien semestriel consistant à nettoyer délicatement le port de charge avec un outil non conducteur pour éviter l'accumulation compacte de poussières, préservant ainsi la longévité de votre investissement technologique.
 
-## 5. Foire Aux Questions (FAQ)Q1. Pourquoi mon Samsung Galaxy s'est-il éteint subitement alors que la batterie affichait encore 40% d'énergie ? A1. Ce phénomène physique est directement lié à la chute brutale de la température extérieure qui augmente la résistance interne de la batterie lithium-ion. Le système de gestion de l'énergie (BMS) détecte une chute de tension instantanée sous le seuil critique de sécurité et coupe l'alimentation pour protéger les cellules chimiques contre une détérioration irréversible, simulant une décharge totale instantanée.Q2. Est-ce que l'effacement de la partition cache (Wipe Cache Partition) va effacer mes photos, mes contacts et mes messages ? A2. Absolument pas. L'option "Wipe cache partition" supprime uniquement les fichiers temporaires et les données d'application obsolètes accumulées par le système d'exploitation, qui sont souvent la cause principale des boucles de démarrage. Vos données personnelles, vos documents et vos photos stockés dans la mémoire utilisateur restent totalement intacts et sécurisés.Q3. Que dois-je faire si le menu Recovery n'apparaît pas malgré l'utilisation de la bonne combinaison de touches ? A3. Si le menu Recovery refuse de s'afficher, cela indique généralement que la batterie est tellement déchargée ou en état de protection thermique qu'elle ne peut pas alimenter le processeur pour lancer l'environnement de récupération. Laissez l'appareil branché sur un chargeur mural d'origine pendant au moins une heure sans y toucher, puis réitérez la manipulation des touches `Volume Haut` et `Power`.
+## 5. Foire Aux Questions (FAQ)
+
+Q1. Pourquoi mon Samsung Galaxy s'est-il éteint subitement alors que la batterie affichait encore 40% d'énergie ? 
+
+A1. Ce phénomène physique est directement lié à la chute brutale de la température extérieure qui augmente la résistance interne de la batterie lithium-ion. Le système de gestion de l'énergie (BMS) détecte une chute de tension instantanée sous le seuil critique de sécurité et coupe l'alimentation pour protéger les cellules chimiques contre une détérioration irréversible, simulant une décharge totale instantanée.
+
+Q2. Est-ce que l'effacement de la partition cache (Wipe Cache Partition) va effacer mes photos, mes contacts et mes messages ? 
+
+A2. Absolument pas. L'option "Wipe cache partition" supprime uniquement les fichiers temporaires et les données d'application obsolètes accumulées par le système d'exploitation, qui sont souvent la cause principale des boucles de démarrage. Vos données personnelles, vos documents et vos photos stockés dans la mémoire utilisateur restent totalement intacts et sécurisés.
+
+Q3. Que dois-je faire si le menu Recovery n'apparaît pas malgré l'utilisation de la bonne combinaison de touches ? 
+
+A3. Si le menu Recovery refuse de s'afficher, cela indique généralement que la batterie est tellement déchargée ou en état de protection thermique qu'elle ne peut pas alimenter le processeur pour lancer l'environnement de récupération. Laissez l'appareil branché sur un chargeur mural d'origine pendant au moins une heure sans y toucher, puis réitérez la manipulation des touches `Volume Haut` et `Power`.

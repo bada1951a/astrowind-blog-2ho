@@ -22,29 +22,29 @@ Flughafen Berlin-Brandenburg, Terminal 1. Die Schlange am Gate schrumpft bedrohl
 
 Als Mobilfunk-Techniker sehe ich dieses Problem wöchentlich auf meiner Werkbank. Warum bleibt ein modernes Galaxy-Gerät plötzlich in der Startschleife hängen? Hier sind die drei häufigsten Ursachen:
 
-1. **Korrupte Cache-Dateien nach Updates:**Während des Betriebs legt Android temporäre Systemdaten im Cache ab. Schlägt ein Hintergrund-Update fehl oder wird unterbrochen, verweisen diese Cache-Dateien auf fehlerhafte Systempfade, was den Startvorgang blockiert.
+1. <strong>Korrupte Cache-Dateien nach Updates:</strong> Während des Betriebs legt Android temporäre Systemdaten im Cache ab. Schlägt ein Hintergrund-Update fehl oder wird unterbrochen, verweisen diese Cache-Dateien auf fehlerhafte Systempfade, was den Startvorgang blockiert.
 
-2.**Überfüllter Speicher (Storage Full):**Wenn der interne Speicher bis auf den letzten Megabyte voll ist, fehlt dem Android-Kernel der nötige Platz, um temporäre Startprozesse und Swap-Dateien auszulagern. Das System stürzt beim Booten ab.
+2.<strong>Überfüllter Speicher (Storage Full):</strong> Wenn der interne Speicher bis auf den letzten Megabyte voll ist, fehlt dem Android-Kernel der nötige Platz, um temporäre Startprozesse und Swap-Dateien auszulagern. Das System stürzt beim Booten ab.
 
-3.**Inkompatible Apps im Hintergrund:**Manche Apps versuchen, sich direkt beim Systemstart zu initialisieren. Führt dies zu einem Konflikt mit aktuellen Sicherheitspatches, greift ein automatischer Schutzmechanismus, der das Gerät in einen Endlos-Neustart schickt.
+3.<strong>Inkompatible Apps im Hintergrund:</strong> Manche Apps versuchen, sich direkt beim Systemstart zu initialisieren. Führt dies zu einem Konflikt mit aktuellen Sicherheitspatches, greift ein automatischer Schutzmechanismus, der das Gerät in einen Endlos-Neustart schickt.
 
 ## 3. Schritt-für-Schritt-Anleitung zur Notfallbehebung
 
-Bevor Sie den Weg zum teuren Reparaturdienst antreten oder gar einen Werksreset (Factory Reset) durchführen und dabei all Ihre Daten verlieren, versuchen wir gemeinsam den sichersten Rettungsweg: Das Leeren der**Wipe Cache Partition**über den**Recovery Mode**. Ihre persönlichen Fotos und Nachrichten bleiben dabei vollständig erhalten.
+Bevor Sie den Weg zum teuren Reparaturdienst antreten oder gar einen Werksreset (Factory Reset) durchführen und dabei all Ihre Daten verlieren, versuchen wir gemeinsam den sichersten Rettungsweg: Das Leeren der <strong>Wipe Cache Partition</strong> über den <strong>Recovery Mode</strong>. Ihre persönlichen Fotos und Nachrichten bleiben dabei vollständig erhalten.
 
-1.**Vorbereitung:**Schalten Sie das Gerät vollständig aus. Sollte es im Boot-Loop festhängen, halten Sie die**Leiser-Taste**und die**Ein-/Aus-Taste (Power)**für etwa zehn Sekunden gleichzeitig gedrückt, bis der Bildschirm schwarz wird.
+1.<strong>Vorbereitung:</strong> Schalten Sie das Gerät vollständig aus. Sollte es im Boot-Loop festhängen, halten Sie die <strong>Leiser-Taste</strong> und die <strong>Ein-/Aus-Taste (Power)</strong> für etwa zehn Sekunden gleichzeitig gedrückt, bis der Bildschirm schwarz wird.
 
-2.**Verbindung herstellen (bei neueren Modellen):**Bei aktuellen Samsung Galaxy-Modellen (ab One UI 3.x / Android 11) müssen Sie das Smartphone via USB-Kabel an einen PC oder an ein eingeschaltetes Tablet anschließen, damit das Recovery-Menü überhaupt aufgerufen werden kann. Dies ist eine wichtige Sicherheitsvorgabe von Samsung.
+2.<strong>Verbindung herstellen (bei neueren Modellen):</strong> Bei aktuellen Samsung Galaxy-Modellen (ab One UI 3.x / Android 11) müssen Sie das Smartphone via USB-Kabel an einen PC oder an ein eingeschaltetes Tablet anschließen, damit das Recovery-Menü überhaupt aufgerufen werden kann. Dies ist eine wichtige Sicherheitsvorgabe von Samsung.
 
-3.**Recovery-Menü starten:**Sobald das Gerät aus ist, drücken und halten Sie gleichzeitig die**Lauter-Taste**und die**Ein-/Aus-Taste**. Lassen Sie die Tasten erst los, wenn das Samsung-Logo verschwindet und das blaue Android-Recovery-Menü auf dem Bildschirm erscheint.
+3.<strong>Recovery-Menü starten:</strong> Sobald das Gerät aus ist, drücken und halten Sie gleichzeitig die <strong>Lauter-Taste</strong> und die <strong>Ein-/Aus-Taste</strong>. Lassen Sie die Tasten erst los, wenn das Samsung-Logo verschwindet und das blaue Android-Recovery-Menü auf dem Bildschirm erscheint.
 
-4.**Navigation:**Nutzen Sie die**Lauter-**und**Leiser-Tasten**, um durch das Menü zu navigieren.
+4.<strong>Navigation:</strong> Nutzen Sie die <strong>Lauter-</strong> und <strong>Leiser-Tasten</strong>, um durch das Menü zu navigieren.
 
-5.**Cache löschen:**Wählen Sie mit den Tasten den Punkt**Wipe cache partition**aus und bestätigen Sie die Auswahl mit der**Ein-/Aus-Taste**.
+5.<strong>Cache löschen:</strong> Wählen Sie mit den Tasten den Punkt <strong>Wipe cache partition</strong> aus und bestätigen Sie die Auswahl mit der <strong>Ein-/Aus-Taste</strong>.
 
-6.**Sicherheitsabfrage:**Bestätigen Sie den Vorgang mit**Yes**. Das System leert nun die beschädigten temporären Dateien in wenigen Sekunden.
+6.<strong>Sicherheitsabfrage:</strong> Bestätigen Sie den Vorgang mit <strong>Yes</strong>. Das System leert nun die beschädigten temporären Dateien in wenigen Sekunden.
 
-7.**Neustart:**Wählen Sie abschließend**Reboot system now**aus und bestätigen Sie. Ihr Galaxy startet nun frisch und sollte den Boot-Loop erfolgreich hinter sich gelassen haben.
+7.<strong>Neustart:</strong> Wählen Sie abschließend <strong>Reboot system now</strong> aus und bestätigen Sie. Ihr Galaxy startet nun frisch und sollte den Boot-Loop erfolgreich hinter sich gelassen haben.
 
 ```bash
 # Technischer Hinweis zum Recovery-Befehl
@@ -62,14 +62,14 @@ Achten Sie im Alltag darauf, Ihren internen Speicher niemals komplett vollzulauf
 
 ## 5. Häufig gestellte Fragen (FAQ)
 
-**Q.** Werden durch das Leeren der Cache Partition meine persönlichen Fotos und Kontakte gelöscht?
+<strong>Q.</strong> Werden durch das Leeren der Cache Partition meine persönlichen Fotos und Kontakte gelöscht?
 
-**A.** Nein. Das Leeren der Cache Partition entfernt lediglich temporäre Systemdaten und App-Reste. Ihre privaten Dateien, Fotos, WhatsApp-Chats und Kontakte bleiben zu 100 Prozent erhalten.
+A. Nein. Das Leeren der Cache Partition entfernt lediglich temporäre Systemdaten und App-Reste. Ihre privaten Dateien, Fotos, WhatsApp-Chats und Kontakte bleiben zu 100 Prozent erhalten.
 
-**Q.** Warum muss ich mein Galaxy für den Recovery-Modus an einen PC anschließen?
+<strong>Q.</strong> Warum muss ich mein Galaxy für den Recovery-Modus an einen PC anschließen?
 
-**A.** Samsung hat ab Android 11 / One UI 3.0 aus Sicherheitsgründen eingeführt, dass bestimmte Tastenombinationen für den Recovery-Modus nur dann funktionieren, wenn das Smartphone über ein USB-Kabel mit einem Computer, einer Konsole oder einem anderen USB-Gerät verbunden ist.
+A. Samsung hat ab Android 11 / One UI 3.0 aus Sicherheitsgründen eingeführt, dass bestimmte Tastenombinationen für den Recovery-Modus nur dann funktionieren, wenn das Smartphone über ein USB-Kabel mit einem Computer, einer Konsole oder einem anderen USB-Gerät verbunden ist.
 
-**Q.** Was kann ich tun, wenn der Punkt "Wipe cache partition" im Menü nicht angezeigt wird?
+<strong>Q.</strong> Was kann ich tun, wenn der Punkt "Wipe cache partition" im Menü nicht angezeigt wird?
 
-**A.** Bei sehr neuen Software-Versionen oder bestimmten Modellreihen kann es vorkommen, dass Samsung diesen Menüpunkt angepasst hat. Nutzen Sie in diesem Fall alternativ den Punkt "Repair Apps" im selben Recovery-Menü, um fehlerhafte App-Strukturen zu bereinigen.
+A. Bei sehr neuen Software-Versionen oder bestimmten Modellreihen kann es vorkommen, dass Samsung diesen Menüpunkt angepasst hat. Nutzen Sie in diesem Fall alternativ den Punkt "Repair Apps" im selben Recovery-Menü, um fehlerhafte App-Strukturen zu bereinigen.

@@ -7,8 +7,6 @@ category: 'mobile'
 tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Powerbank", "Amsterdam"]
 ---
 
-## 1. Kritieke smartphone-noodsituatie
-
 ### Die typische Zuidas-paniek: accu leeg, powerbank traag
 
 Het is woensdagmiddag, kwart over drie. Je loopt haastig over de Amsterdamse Zuidas na een drukke meeting in een van die glazen torens. Je haalt je telefoon tevoorschijn om snel een e-mail te beantwoorden, en... pats, 4% batterij. Geen paniek, denk je nog, want je hebt gelukkig een powerbank die losse bungelt in je tas. Je klikt de kabel vast, stopt 'm in je binnenzak en loopt door. 
@@ -46,21 +44,18 @@ Heb je last van die irritante melding? Volg deze stappen op je werkbank (of gewo
 #### Stap 1: Check de output-specificaties van je powerbank
 Pak je powerbank vast en draai hem om. Lees de kleine lettertjes bij de poorten. 
 * Zie je daar ergens iets staan als `5V / 1A` (5 Watt)? Dan weet je meteen waarom het traag gaat. 
-* Zoek naar poorten met het label PD (Power Delivery) of QC 3.0 / 4.0, en gebruik bij voorkeur een USB-C naar USB-C kabel. Moderne iPhones en Androids hebben simpelweg minstens 18W tot 25W+ nodig om de snellaadstatus te activeren.
+* Zoek naar poorten met het label <strong>PD (Power Delivery)</strong> of <strong>QC 3.0 / 4.0</strong>, en gebruik bij voorkeur een USB-C naar USB-C kabel. Moderne iPhones en Androids hebben simpelweg minstens 18W tot 25W+ nodig om de snellaadstatus te activeren.
 
 #### Stap 2: Professionele reiniging van de laadpoort (Doe het voorzichtig!)
 Pak een goede bureaulamp en een vergrootglas (of de zaklampfunctie van een andere telefoon). Schijn in de laadpoort van je smartphone. Zie je daar een grijze pluislaag of rotzooi zitten?
-* Wat je WEL moet doen: Neem een houten tandenstoker (geen metaal!). Schraap *heel voorzichtig* langs de randen en over de bodem om het samengeperste pluis los te wrikken. Je zult versteld staan wat eruit komt.
-* Wat je NIET moet doen: Gebruik nooit een naald, paperclip of andere metalen voorwerpen. Daarmee buig je de fragiele gouden pinnetjes in de poort direct permanent krom, en ben je duizenden euro's (of een dure moederbordreparatie) verder.
+* <strong>Wat je WEL moet doen:</strong> Neem een houten tandenstoker (geen metaal!). Schraap *heel voorzichtig* langs de randen en over de bodem om het samengeperste pluis los te wrikken. Je zult versteld staan wat eruit komt.
+* <strong>Wat je NIET moet doen:</strong> Gebruik nooit een naald, paperclip of andere metalen voorwerpen. Daarmee buig je de fragiele gouden pinnetjes in de poort direct permanent krom, en ben je duizenden euro's (of een dure moederbordreparatie) verder.
 * Blaas na afloop eventueel schoon met een spuitbus perslucht (houd de bus recht om condensvorming te voorkomen).
 
 #### Stap 3: De kabel- en poort-eliminatietest
 Tijd om te testen of het aan je hardware ligt.
-
 1. Probeer een andere kabel waarvan je *zeker* weet dat ie snel kan laden (bijv. de officiële kabel die bij je wandoplader zat).
-
 2. Sluit de kabel aan op een *andere* poort van je powerbank (als die er is).
-
 3. Check of de melding verdwijnt. Blijft de melding komen, zelfs met een gecertificeerde kabel in een PD-poort? Dan kan de laadchip (zoals de Tristar/Hydra chip bij oudere iPhones of de PMIC bij Android) lichte slijtage vertonen door eerdere piekspanningen. 
 
 ---
@@ -69,19 +64,19 @@ Tijd om te testen of het aan je hardware ligt.
 
 Als reparateur geef ik klanten altijd een paar gouden regels mee om accuhardware en poorten te beschermen:
 
-* Voorkom ‘tas-stress’ voor kabels: Rol je powerbank-kabels nooit strak om je powerbank heen in een scherpe knoop. Dat breekt de interne soldeerverbindingen. Gebruik een kabelbinder.
-* Koop MFi of gecertificeerde accessoires: Goedkope no-name powerbankjes uit de uitverkoopbak hebben vaak inferieure spanningsregelaars. Een piekspanning kan je laad-IC op het moederbord direct frituren. Geef iets meer uit aan gerenommeerde merken (Anker, Belkin, Samsung, etc.).
-* Laad niet op in de volle zon: Als je powerbank en telefoon op een zomerse dag op het terras in de volle zon liggen te laden, worden ze loeiheet. Zowel Android als iOS knijpen dan automatisch de laadsnelheid (of stoppen helemaal) om explosiegevaar of permanente accudegradatie te voorkomen.
+* <strong>Voorkom ‘tas-stress’ voor kabels:</strong> Rol je powerbank-kabels nooit strak om je powerbank heen in een scherpe knoop. Dat breekt de interne soldeerverbindingen. Gebruik een kabelbinder.
+* <strong>Koop MFi of gecertificeerde accessoires:</strong> Goedkope no-name powerbankjes uit de uitverkoopbak hebben vaak inferieure spanningsregelaars. Een piekspanning kan je laad-IC op het moederbord direct frituren. Geef iets meer uit aan gerenommeerde merken (Anker, Belkin, Samsung, etc.).
+* <strong>Laad niet op in de volle zon:</strong> Als je powerbank en telefoon op een zomerse dag op het terras in de volle zon liggen te laden, worden ze loeiheet. Zowel Android als iOS knijpen dan automatisch de laadsnelheid (of stoppen helemaal) om explosiegevaar of permanente accudegradatie te voorkomen.
 
 ---
 
 ### Praktische FAQs (Veelgestelde Vragen)
 
-1. Maakt het uit of ik een USB-A naar USB-C kabel gebruik op een moderne powerbank?
-Ja, enorm. Vrijwel alle moderne snellaadprotocollen (zoals USB-PD) vereisen een USB-C naar USB-C verbinding om de hogere voltages (9V, 12V of zelfs 20V) te onderhandelen met je telefoon. Gebruik je een oude USB-A adapterkabel, dan val je vaak terug op maximaal 10W tot 12W, wat je telefoon al snel als ‘traag’ bestempelt.
+<strong>1. Maakt het uit of ik een USB-A naar USB-C kabel gebruik op een moderne powerbank?</strong>
+Ja, enorm. Vrijwel alle moderne snellaadprotocollen (zoals USB-PD) vereisen een <strong>USB-C naar USB-C</strong> verbinding om de hogere voltages (9V, 12V of zelfs 20V) te onderhandelen met je telefoon. Gebruik je een oude USB-A adapterkabel, dan val je vaak terug op maximaal 10W tot 12W, wat je telefoon al snel als ‘traag’ bestempelt.
 
-2. Kan mijn telefoon stukgaan van een 'langzaam opladen' melding?
+<strong>2. Kan mijn telefoon stukgaan van een 'langzaam opladen' melding?</strong>
 Nee, de melding op zich is juist een beschermingsmechanisme van je besturingssysteem. Het betekent dat je hardware slim genoeg is om te herkennen dat er onvoldoende of instabiele stroom binnenkomt, en uit voorzorg de stroomtoevoer beperkt. Wat wél schadelijk kan zijn, is het blijven gebruiken van een defecte, rokende of extreme warme kabel/powerbank.
 
-3. Mijn poort is brandschoon en de kabel is nieuw, maar hij blijft traag laden via de powerbank. Wat nu?
+<strong>3. Mijn poort is brandschoon en de kabel is nieuw, maar hij blijft traag laden via de powerbank. Wat nu?</strong>
 Kijk even naar de capaciteit en de staat van de accu van je powerbank zelf. Powerbanks slijten ook! Na zo'n 300 tot 500 laadcycli kan de interne capaciteit én de maximale stroomafgifte (output) aanzienlijk dalen. Als de powerbank intern verouderd is, kan hij simpelweg het benodigde vermogen niet meer leveren aan je hongerige smartphone. Tijd voor een moderne vervanger!
