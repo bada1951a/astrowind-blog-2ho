@@ -45,7 +45,7 @@ Duurt het downloaden van software langer dan 15 minuten, dan kan de iPhone het h
 
 **Q1.** Blijven mijn foto’s zeker behouden als ik Werk bij kies?
 
-**Q2.** Moet ik precies één uur wachten als de balk stil lijkt te staan?
+**A1.** Dat kan niet worden gegarandeerd. Probeer Werk bij vóór Herstel en vraag hulp voordat je belangrijke gegevens wist.
 
 **Q2.** Moet ik precies één uur wachten als de balk stil lijkt te staan?
 
