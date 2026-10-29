@@ -10,6 +10,12 @@ tags: ["iPhone","iOS","Tryb odzyskiwania","Rozwiązywanie problemów"]
 
 ## Najpierw sprawdź pasek postępu
 
+
+Aby lepiej zobrazować sytuację, wyobraźmy sobie wyraźnie fikcyjny przykład — nie prawdziwą historię klienta ani moje osobiste doświadczenie serwisowe. Jestem technikiem, do którego ktoś zwraca się po poradę, bo iPhone pokazuje logo Apple i pasek postępu, który wygląda na nieruchomy. Właściciel zaraz musi wyjść, potrzebuje zapisanych w telefonie biletów i wiadomości i ma wrażenie, że każde naciśnięcie przycisku może pomóc. Nie uznaję od razu urządzenia za uszkodzone. Najpierw pytam, co działo się tuż przedtem: aktualizacja iOS, odtwarzanie iPhone’a czy przenoszenie danych z innego iPhone’a? Pytam też, jak długo pasek wygląda na niezmieniony.
+
+W tej wyobrażonej rozmowie moim pierwszym pożytecznym działaniem jest uspokojenie sytuacji. Pasek może wyglądać na zatrzymany, choć proces nadal trwa, dlatego wyjaśniam, czemu odłączanie zasilania i wielokrotne naciskanie przycisków utrudnia ocenę. Nie obiecuję, że którakolwiek czynność zachowa dane, i nie zaczynam od opcji „Odtwórz”. Oddzielam ostrożne kontrole od operacji wymazującej urządzenie i omawiam je po kolei. Ten poradnik podąża za tym samym rozumowaniem: sprawdzamy, czy trzeba jeszcze poczekać, wybieramy restart odpowiedni dla modelu, w trybie odzyskiwania najpierw próbujemy „Uaktualnij” i jasno omawiamy ryzyko utraty danych przed zatwierdzeniem wymazania.
+
+
 Po uaktualnieniu, odtworzeniu lub przenoszeniu danych z innego iPhone’a pasek pod logo Apple może wyglądać na zatrzymany, choć proces nadal trwa. Apple zaleca podłączenie iPhone’a do komputera i użycie trybu odzyskiwania, jeśli pasek nie porusza się przez **co najmniej godzinę**. Jeśli proces nadal trwa, poczekaj i nie odłączaj urządzenia wielokrotnie.
 
 ## Krok 1: wymuś ponowne uruchomienie odpowiednie dla modelu
