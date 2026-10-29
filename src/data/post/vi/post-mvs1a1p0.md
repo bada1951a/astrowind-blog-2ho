@@ -10,11 +10,7 @@ tags: ["iPhone","iOS","Chế độ khôi phục","Khắc phục sự cố"]
 
 ## Trước tiên, kiểm tra thanh tiến trình
 
-
-Để hình dung rõ tình huống, hãy xem đây là một kịch bản minh họa, không phải câu chuyện khách hàng có thật hay trải nghiệm cá nhân mà tôi khẳng định đã xảy ra. Tôi đóng vai kỹ thuật viên được hỏi ý kiến khi iPhone hiện logo Apple cùng thanh tiến trình trông như đứng yên. Chủ máy sắp phải đi, cần vé và tin nhắn lưu trong điện thoại, nên nghĩ rằng bấm thêm nút có thể giúp ích. Tôi không vội kết luận máy đã hỏng. Trước tiên, tôi hỏi điều gì xảy ra ngay trước đó: iOS đang cập nhật, iPhone đang khôi phục hay dữ liệu đang chuyển từ iPhone khác? Tôi cũng hỏi thanh tiến trình trông không thay đổi trong bao lâu.
-
-Trong cuộc trao đổi giả định này, việc hữu ích đầu tiên của tôi là làm chậm nhịp xử lý. Thanh tiến trình có thể trông đứng yên dù quá trình vẫn tiếp tục; vì vậy tôi giải thích tại sao rút nguồn hoặc bấm nút liên tục có thể khiến việc đánh giá khó hơn. Tôi không hứa rằng bất kỳ bước nào cũng giữ nguyên dữ liệu và không bắt đầu bằng Restore. Tôi tách các bước kiểm tra thận trọng khỏi thao tác xóa thiết bị rồi hướng dẫn theo thứ tự. Phần còn lại của bài viết đi theo cùng cách suy nghĩ: xác định có nên tiếp tục chờ, khởi động lại đúng theo mẫu máy, thử Cập nhật trước trong chế độ khôi phục và nói rõ rủi ro dữ liệu trước khi xác nhận xóa.
-
+Khi iPhone dừng ở logo Apple, tôi không chọn Khôi phục ngay. Trước hết, tôi kiểm tra xem thanh tiến trình có thực sự đứng yên không và ngay trước đó có đang cập nhật, khôi phục hay chuyển dữ liệu không. Dừng lại kiểm tra giúp tránh vội chọn thao tác có thể xóa dữ liệu.
 
 Sau khi cập nhật, khôi phục hoặc chuyển dữ liệu từ iPhone khác, thanh bên dưới logo Apple có thể trông như đứng yên dù quá trình vẫn tiếp tục. Apple khuyên kết nối iPhone với máy tính và dùng chế độ khôi phục nếu thanh không di chuyển trong **ít nhất một giờ**. Nếu quá trình vẫn đang chạy, hãy chờ và không liên tục rút cáp hoặc nhấn nút.
 
@@ -54,3 +50,4 @@ Hướng dẫn của Apple lấy mốc ít nhất một giờ không tiến tri�
 Cập nhật thử cài đặt lại iOS mà không xóa dữ liệu. Khôi phục xóa iPhone rồi cài đặt lại iOS.
 
 Nguồn: [Apple: iPhone bị treo ở logo Apple](https://support.apple.com/vi-vn/102474); [Sự cố khi cập nhật hoặc khôi phục](https://support.apple.com/en-us/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
+
