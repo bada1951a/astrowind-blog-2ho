@@ -282,7 +282,7 @@ const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 const fileSlug = `post-${Date.now().toString(36)}`;
 
 // =========================================================================
-// [호출 함수] maxOutputTokens: 4096 (2,500자 정량 생성 최적화)
+// [호출 함수] maxOutputTokens: 8192 (2,500자 정량 생성 최적화)
 // =========================================================================
 async function fetchWithRetry(prompt, maxRetries = 3, delayMs = 3000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
