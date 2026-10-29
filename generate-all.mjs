@@ -10,7 +10,9 @@
 import fs from 'fs';
 import path from 'path';
 import { createHash, createCipheriv, createDecipheriv, randomBytes } from 'node:crypto';
+import { createCheckpointKey, createTopicFileSlug } from './generation-identity.mjs';
 
+const GENERATION_PROMPT_VERSION = '2026-10-30-first-person-story-v2';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 if (!OPENAI_API_KEY) {
   console.error('❌ OPENAI_API_KEY 환경변수가 설정되지 않았습니다.');
@@ -222,7 +224,7 @@ if (lines.length === 0) {
 }
 
 const currentTopic = lines[0];
-const topicKey = createHash('sha256').update(lines.join('\n'), 'utf8').digest('hex');
+const topicKey = createCheckpointKey(lines, GENERATION_PROMPT_VERSION);
 const checkpointRoot = path.resolve('.generation-checkpoints');
 const checkpointDir = path.join(checkpointRoot, topicKey);
 const checkpointEncryptionKey = createHash('sha256')
@@ -368,7 +370,7 @@ const TARGET_LANGS = [
 ];
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
-const fileSlug = `post-${topicKey.slice(0, 12)}`;
+const fileSlug = createTopicFileSlug(currentTopic);
 const generatedPostContents = new Map();
 
 // 이전 주제 체크포인트를 정리하고, 같은 topics 큐의 검증된 언어 원고는 실패 뒤 재사용합니다.
