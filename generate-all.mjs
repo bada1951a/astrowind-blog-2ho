@@ -291,7 +291,7 @@ async function fetchWithRetry(prompt, maxRetries = 3, delayMs = 3000) {
         model: 'gemini-3.5-flash-lite',
         contents: prompt,
         config: {
-          maxOutputTokens: 4096,
+          maxOutputTokens: 8192,
           temperature: 0.7,
         }
       });
@@ -326,6 +326,10 @@ Topic: "${currentTopic}"
 - For Korean (ko): Write exactly around 2,400 - 2,600 characters (do NOT exceed 3,000 characters).
 - For other languages: Write exactly 900 - 1,100 words.
 - Tone: Highly informative, professional, practical technician advice.
+- Narrative voice: Write in a first-person storytelling voice ("I"/the natural first-person form in ${lang.name}) from the assigned technician persona's perspective.
+- Open with a vivid but clearly illustrative troubleshooting scene based on the assigned situation; build a story arc from the urgent problem through diagnosis, safe action, and outcome, then explain the practical guidance.
+- Do not falsely claim that an illustrative scenario is a real customer case or the author's personal experience. Do not invent verified outcomes, quotations, or facts. Clearly frame hypothetical/composite events as illustrative.
+- Keep first-person narration throughout the opening and transitions, while making technical instructions, safety warnings, and sources precise and factual.
 
 [STRUCTURE - STRICT 5 H2 HEADINGS]
 Use these exact H2 headings:
