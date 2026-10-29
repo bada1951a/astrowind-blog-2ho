@@ -51,7 +51,7 @@ Jeśli pobieranie oprogramowania trwa ponad 15 minut, iPhone może opuścić ekr
 
 **Q1.** Czy Uaktualnij na pewno zachowa zdjęcia?
 
-**Q2.** Czy muszę czekać dokładnie godzinę, gdy pasek wygląda na zatrzymany?
+**A1.** Nie można tego zagwarantować. Spróbuj Uaktualnij przed Odtwórz i poproś o pomoc przed skasowaniem ważnych danych.
 
 **Q2.** Czy muszę czekać dokładnie godzinę, gdy pasek wygląda na zatrzymany?
 
