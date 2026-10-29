@@ -10,6 +10,12 @@ tags: ["iPhone","iOS","Modo de recuperación","Solución de problemas"]
 
 ## Primero, comprueba la barra de progreso
 
+
+Para entender la urgencia, imaginemos una escena claramente ilustrativa: no es un caso real de un cliente ni una experiencia personal que yo afirme haber vivido. Soy el técnico al que piden orientación porque un iPhone muestra el logotipo de Apple y una barra de progreso que parece inmóvil. La persona está a punto de salir, necesita los billetes y mensajes guardados en el teléfono y siente que cada pulsación puede ayudar. No empiezo diciendo que el dispositivo está averiado. Primero pregunto qué ocurrió justo antes: ¿se estaba instalando una actualización de iOS, restaurando el iPhone o transfiriendo datos desde otro iPhone? También pregunto cuánto tiempo lleva la barra aparentemente igual.
+
+En esta conversación imaginaria, mi primer paso útil es reducir la prisa. La barra puede parecer detenida aunque el proceso continúe; por eso explico por qué desconectar la alimentación o pulsar botones repetidamente dificulta saber qué está pasando. No prometo que ningún paso conserve los datos y tampoco empiezo por «Restaurar». Separo las comprobaciones prudentes de la operación que borra el dispositivo y las recorro en orden. El resto de la guía sigue ese razonamiento: determinar si conviene esperar, usar el reinicio correcto para el modelo, probar primero «Actualizar» en modo de recuperación y explicar el riesgo de pérdida antes de confirmar cualquier borrado.
+
+
 Después de actualizar, restaurar o transferir datos desde otro iPhone, la barra bajo el logotipo de Apple puede parecer detenida mientras el proceso continúa. Apple recomienda conectar el iPhone a un ordenador y usar el modo de recuperación si la barra no avanza durante **al menos una hora**. Si el proceso sigue activo, espera y evita desconectar el dispositivo o pulsar botones repetidamente.
 
 ## Paso 1: fuerza el reinicio según el modelo
