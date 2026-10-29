@@ -19,6 +19,8 @@ Je moet bijna weg en hebt een ticket nodig, maar je iPhone toont alleen het Appl
 
 Na een update, herstelactie of overdracht kan de balk langzaam gaan of stil lijken. Dat bewijst geen defect aan de oplaadpoort of opslag. Blijft het Apple-logo minutenlang staan zonder balk, dan noemt Apple herstelmodus via een computer als mogelijke stap. Herken eerst het verschil tussen de schermen voordat je een defect vermoedt of gegevens riskeert.
 
+Voordat ik de iPhone aansluit, controleer ik ook of hij aan de voeding hangt en of er meer op het scherm staat dan alleen het logo. Ik trek de kabel niet los tijdens een actieve update. Toont de computer twee opties, dan lees ik ze rustig: Werk bij en Herstel hebben verschillende gevolgen voor je gegevens.
+
 ## 3. Veilige stappen om het probleem op te lossen
 
 Een geforceerde herstart kan helpen wanneer normaal herstarten niet lukt. Dit is iets anders dan Herstel, waarbij gegevens worden gewist.
