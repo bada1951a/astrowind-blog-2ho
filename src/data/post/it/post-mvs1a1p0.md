@@ -10,6 +10,12 @@ tags: ["iPhone","iOS","Modalità di recupero","Risoluzione problemi"]
 
 ## Controlla prima la barra di avanzamento
 
+
+Per rendere concreta l’urgenza, immaginiamo una scena dichiaratamente illustrativa: non è un caso reale di un cliente né un’esperienza personale che sostengo di aver vissuto. Sono il tecnico a cui viene chiesto consiglio perché un iPhone mostra il logo Apple e una barra di avanzamento che sembra ferma. La persona deve uscire a breve, ha bisogno dei biglietti e dei messaggi salvati sul telefono e pensa che ogni pressione di un tasto possa servire. Non dichiaro subito che il dispositivo è guasto. Chiedo prima che cosa stesse accadendo: era in corso un aggiornamento di iOS, un ripristino o il trasferimento dei dati da un altro iPhone? Chiedo anche da quanto tempo la barra sembra invariata.
+
+In questa conversazione immaginaria, la mia prima azione utile è rallentare la situazione. La barra può sembrare ferma mentre il processo continua; spiego quindi perché scollegare l’alimentazione o premere ripetutamente i tasti rende più difficile capire cosa succede. Non prometto che un passaggio conserverà i dati e non inizio da “Ripristina”. Distinguo i controlli prudenti dall’operazione che cancella il dispositivo e li affronto in ordine. Il resto della guida segue questo ragionamento: capire se è ancora opportuno aspettare, usare il riavvio adatto al modello, provare prima “Aggiorna” in modalità di recupero e chiarire il rischio per i dati prima di confermare una cancellazione.
+
+
 Dopo un aggiornamento, un ripristino o il trasferimento dei dati da un altro iPhone, la barra sotto il logo Apple può sembrare ferma anche se l’operazione continua. Apple consiglia di collegare l’iPhone a un computer e usare la modalità di recupero se la barra non avanza per **almeno un’ora**. Se il processo è ancora in corso, attendi e non scollegare il dispositivo né premere ripetutamente i tasti.
 
 ## Passaggio 1: forza il riavvio in base al modello
