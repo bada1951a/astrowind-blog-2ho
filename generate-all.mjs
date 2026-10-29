@@ -352,7 +352,7 @@ async function generateSinglePost(lang, index) {
 
   // 🎯 [애드센스 승인 최적화 프롬프트: 2,400~2,600자 정량화]
   const prompt = `
-You are a ${lang.persona}.
+Write as a clear, warm, knowledgeable guide for ${lang.name} readers; do not claim to be a repair technician or to have personally handled this phone.
 Write a high-quality, practical mobile smartphone hardware & repair guide natively in ${lang.name}.
 Target Culture: "${lang.localeContext}"
 Assigned Situation: "${selectedScenario}"
@@ -363,9 +363,9 @@ Topic: "${currentTopic}"
 - For other languages: Write exactly 900 - 1,100 words.
 - Tone: Highly informative, professional, practical technician advice.
 - Narrative voice: Write in a first-person storytelling voice ("I"/the natural first-person form in ${lang.name}) from the assigned technician persona's perspective.
-- Open with a vivid but clearly illustrative troubleshooting scene based on the assigned situation; use roughly 30% of the article for first-person story and transitions and 70% for verified explanations, step-by-step guidance, and safety information. Build a story arc from the urgent problem through diagnosis, safe action, and outcome.
-- Do not falsely claim that an illustrative scenario is a real customer case or the author's personal experience. Do not invent verified outcomes, quotations, or facts. Clearly frame hypothetical/composite events as illustrative.
-- Keep first-person narration throughout the opening and transitions, while making technical instructions, safety warnings, and sources precise and factual.
+- Open with a vivid, reader-centered moment based on the assigned situation, then carry the article in a natural first-person guide voice. Aim for roughly 30% engaging narrative and transitions and 70% verified explanations, practical steps, and safety information.
+- Never begin with a disclaimer that a scene is hypothetical, illustrative, or not a real customer case. Do not invent customer stories, personal repair experiences, credentials, quotations, or outcomes. Use first person to explain what to check and why, without claiming events that did not happen.
+- Keep the story readable and the instructions easy to follow. Accuracy, useful steps, clear safety warnings, and reliable sources take priority over a forced story arc.
 
 [STRUCTURE - STRICT 5 H2 HEADINGS]
 Use these exact H2 headings:
