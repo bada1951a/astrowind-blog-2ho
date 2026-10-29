@@ -10,11 +10,7 @@ tags: ["iPhone","iOS","Recovery Mode","Troubleshooting"]
 
 ## First, check the progress bar
 
-
-To make the stakes concrete, consider an illustrative scene—not a real customer case or a claim about my personal repair history. I am the technician asked to advise someone whose iPhone shows the Apple logo and a progress bar that appears motionless. They are getting ready to leave, the phone holds the tickets and messages they need, and every extra button press feels like it might help. I do not begin by calling the phone broken. I ask what happened immediately before the screen stopped: Was iOS updating, was the phone being restored, or was data moving from another iPhone? I also ask how long the bar has looked unchanged.
-
-In this imagined conversation, my first useful action is to slow the situation down. A bar can appear still while work continues, so I explain why repeatedly disconnecting power or pressing buttons can make it harder to tell what is happening. I do not promise that any step will preserve data, and I do not start with Restore. Instead, I separate the safer checks from the operation that erases the device, then walk through them in order. The rest of this guide follows that same technician’s reasoning: establish whether waiting is appropriate, choose the model-correct restart, try Update in recovery mode before Restore, and make the data risk explicit before anyone confirms an erase.
-
+When an iPhone stays on the Apple logo, I don't start by reaching for Restore. I first check whether the progress bar has truly stopped and what was happening just before it appeared: an iOS update, a restore, or a transfer from another phone. That pause helps keep a stressful moment from turning into a rushed data-erasing decision.
 
 After an update, restore, or transfer from another iPhone, the progress bar under the Apple logo can appear still while the process continues. Apple says to connect the iPhone to a computer and use recovery mode if the bar has not moved for **at least one hour**. If work is still in progress, wait instead of repeatedly pressing buttons or disconnecting power.
 
@@ -54,3 +50,4 @@ Apple’s guidance uses at least one hour without progress as the threshold afte
 Update attempts to reinstall iOS without erasing data. Restore erases the iPhone and reinstalls iOS.
 
 Sources: [Apple: If your iPhone is stuck on the Apple logo](https://support.apple.com/en-us/102474); [If you can't update or restore](https://support.apple.com/en-us/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
+
