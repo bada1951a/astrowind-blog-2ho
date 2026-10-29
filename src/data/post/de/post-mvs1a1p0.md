@@ -49,7 +49,7 @@ Dauert der Software-Download länger als 15 Minuten, kann das iPhone den Wiederh
 
 **Q1.** Bleiben meine Fotos bei „Aktualisieren“ garantiert erhalten?
 
-**Q2.** Muss ich genau eine Stunde warten, wenn der Balken stillzustehen scheint?
+**A1.** Das lässt sich nicht garantieren. Versuche zuerst „Aktualisieren“ und hole Hilfe, bevor du Daten löschst.
 
 **Q2.** Muss ich genau eine Stunde warten, wenn der Balken stillzustehen scheint?
 
