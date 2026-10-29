@@ -10,11 +10,7 @@ tags: ["iPhone","iOS","Mode de récupération","Dépannage"]
 
 ## Vérifiez d’abord la barre de progression
 
-
-Pour rendre l’urgence concrète, imaginons une scène explicitement fictive : ce n’est ni un vrai dossier client ni le récit d’une expérience personnelle que je prétends avoir vécue. Je suis le technicien à qui l’on demande conseil parce qu’un iPhone affiche le logo Apple et une barre de progression qui semble immobile. La personne doit bientôt partir, a besoin des billets et des messages stockés sur son téléphone et pense que chaque pression de bouton peut aider. Je ne conclus pas immédiatement que l’appareil est en panne. Je demande d’abord ce qui se passait juste avant : une mise à jour d’iOS, une restauration ou un transfert de données depuis un autre iPhone ? Je demande aussi depuis combien de temps la barre paraît inchangée.
-
-Dans cette conversation imaginaire, ma première action utile consiste à calmer le rythme. Une barre peut sembler figée alors que le processus continue ; j’explique donc pourquoi débrancher l’alimentation ou appuyer sans cesse sur les boutons complique le diagnostic. Je ne promets pas qu’une étape préservera les données et je ne commence pas par « Restaurer ». Je distingue les vérifications prudentes de l’opération qui efface l’appareil, puis je les suis dans l’ordre. Le guide reprend ce raisonnement : vérifier s’il faut encore attendre, choisir le redémarrage adapté au modèle, essayer d’abord « Mettre à jour » en mode de récupération et exposer clairement le risque avant toute confirmation d’effacement.
-
+Quand un iPhone reste bloqué sur le logo Apple, je ne commence pas par choisir « Restaurer ». Je vérifie d’abord si la barre de progression est réellement immobile et si une mise à jour, une restauration ou un transfert venait d’avoir lieu. Cette vérification évite de se précipiter vers une action qui peut effacer les données.
 
 Après une mise à jour, une restauration ou un transfert depuis un autre iPhone, la barre sous le logo Apple peut sembler immobile alors que l’opération continue. Apple conseille de connecter l’iPhone à un ordinateur et d’utiliser le mode de récupération si la barre n’a pas avancé pendant **au moins une heure**. Si l’opération est encore en cours, patientez et évitez de débrancher l’appareil ou d’appuyer plusieurs fois sur les boutons.
 
@@ -54,3 +50,4 @@ Apple recommande d’attendre au moins une heure sans progression après une mis
 Mettre à jour tente de réinstaller iOS sans effacer les données. Restaurer efface l’iPhone puis réinstalle iOS.
 
 Sources : [Apple : iPhone bloqué sur le logo Apple](https://support.apple.com/fr-fr/102474) ; [Problèmes de mise à jour ou de restauration](https://support.apple.com/fr-fr/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
+
