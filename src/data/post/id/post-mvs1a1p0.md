@@ -1,0 +1,46 @@
+---
+title: "iPhone Berhenti di Logo Apple: Langkah Aman Sebelum Menghapus Data"
+excerpt: "Paksa mulai ulang iPhone, lalu coba Perbarui terlebih dahulu melalui mode pemulihan. Pemulihan dapat menghapus data."
+publishDate: 2026-10-29T15:00:00.000Z
+image: "https://images.pexels.com/photos/22032426/pexels-photo-22032426.jpeg?auto=compress&cs=tinysrgb&w=1200"
+imageAlt: "iPhone dengan latar gelap"
+category: "life-tech"
+tags: ["iPhone","iOS","Mode Pemulihan","Pemecahan Masalah"]
+---
+
+## Periksa bar kemajuan terlebih dahulu
+
+Setelah pembaruan, pemulihan, atau pemindahan data dari iPhone lain, bar di bawah logo Apple dapat terlihat diam meski proses masih berjalan. Apple menyarankan menghubungkan iPhone ke komputer dan menggunakan mode pemulihan jika bar tidak bergerak selama **setidaknya satu jam**. Jika proses masih berlangsung, tunggu dan jangan berulang kali melepas kabel atau menekan tombol.
+
+## Langkah 1: paksa mulai ulang sesuai model
+
+Mulai ulang paksa dapat dicoba ketika iPhone tidak dapat dimulai ulang secara normal. Ini berbeda dari Pulihkan, yang menghapus perangkat.
+
+- iPhone 8 dan lebih baru: tekan lalu cepat lepaskan Volume Naik, kemudian Volume Turun. Tahan tombol Samping sampai logo Apple muncul.
+- iPhone 7 dan 7 Plus: tahan Volume Turun dan tombol Samping bersamaan sampai logo Apple muncul.
+- iPhone 6s dan lebih lama: tahan tombol Utama dan tombol Samping atau Atas bersamaan sampai logo Apple muncul.
+
+Jika iPhone menyala, buat cadangan data sebelum melanjutkan.
+
+## Langkah 2: pilih Perbarui terlebih dahulu di mode pemulihan
+
+Jika tetap macet, sambungkan iPhone ke komputer. Buka Finder di Mac, atau app Apple Devices terbaru maupun iTunes di PC Windows. Gunakan kombinasi tombol untuk model Anda dan tetap tahan tombol terakhir hingga layar mode pemulihan muncul.
+
+Saat komputer menampilkan pilihan **Perbarui** atau **Pulihkan**, pilih **Perbarui terlebih dahulu**. Perbarui mencoba memasang ulang iOS tanpa menghapus data. Pulihkan menghapus iPhone lalu memasang ulang iOS. Biarkan perangkat tetap tersambung selama proses. Jika unduhan lama membuat iPhone keluar dari layar pemulihan, tunggu unduhan selesai lalu masuk ke mode pemulihan lagi.
+
+## Peringatan penting tentang data
+
+Memilih Perbarui lebih dahulu tidak menjamin semua data akan tersimpan. Periksa apakah ada cadangan terbaru. Jika data penting dan belum dicadangkan, hubungi Dukungan Apple atau penyedia servis resmi sebelum memilih Pulihkan. Minta bantuan teknisi jika pembaruan lewat mode pemulihan gagal atau ada tombol yang rusak.
+
+## Pertanyaan umum
+
+**Apakah Perbarui menjamin foto saya tetap ada?**  
+Tidak ada jaminan untuk hasil data. Coba Perbarui sebelum Pulihkan, dan minta bantuan sebelum menghapus data penting.
+
+**Bar baru diam selama 20 menit. Apakah saya harus langsung memakai mode pemulihan?**  
+Panduan Apple menyebut setidaknya satu jam tanpa kemajuan setelah pembaruan, pemulihan, atau transfer. Tunggu jika proses mungkin masih berjalan.
+
+**Apa bedanya Perbarui dan Pulihkan?**  
+Perbarui mencoba memasang ulang iOS tanpa menghapus data. Pulihkan menghapus iPhone dan memasang ulang iOS.
+
+Sumber: [Apple: iPhone macet di logo Apple](https://support.apple.com/id-id/102474); [Masalah saat memperbarui atau memulihkan](https://support.apple.com/id-id/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)

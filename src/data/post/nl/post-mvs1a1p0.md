@@ -1,0 +1,46 @@
+---
+title: "iPhone blijft hangen op het Apple-logo: veilige stappen vóór je gegevens wist"
+excerpt: "Forceer een herstart en probeer in de herstelmodus eerst Werk bij. Herstel wist gegevens; controleer het verschil voordat je verdergaat."
+publishDate: 2026-10-29T15:00:00.000Z
+image: "https://images.pexels.com/photos/22032426/pexels-photo-22032426.jpeg?auto=compress&cs=tinysrgb&w=1200"
+imageAlt: "Een iPhone tegen een donkere achtergrond"
+category: "life-tech"
+tags: ["iPhone","iOS","Herstelmodus","Probleemoplossing"]
+---
+
+## Controleer eerst de voortgangsbalk
+
+Na een update, herstel of gegevensoverdracht vanaf een andere iPhone kan de balk onder het Apple-logo stil lijken te staan terwijl het proces doorgaat. Apple adviseert de iPhone op een computer aan te sluiten en de herstelmodus te gebruiken als de balk **minstens één uur** niet beweegt. Als het proces nog loopt, wacht dan en koppel de kabel niet steeds los.
+
+## Stap 1: forceer een herstart voor jouw model
+
+Een geforceerde herstart kan helpen wanneer normaal herstarten niet lukt. Dit is iets anders dan Herstel, waarbij gegevens worden gewist.
+
+- iPhone 8 en nieuwer: druk kort op Volume omhoog en laat los, druk daarna kort op Volume omlaag. Houd de zijknop ingedrukt tot het Apple-logo verschijnt.
+- iPhone 7 en 7 Plus: houd Volume omlaag en de zijknop tegelijk ingedrukt tot het logo verschijnt.
+- iPhone 6s en ouder: houd de thuisknop en de zij- of bovenknop tegelijk ingedrukt tot het logo verschijnt.
+
+Start de iPhone weer op, maak dan eerst een reservekopie.
+
+## Stap 2: kies in de herstelmodus eerst ‘Werk bij’
+
+Blijft de iPhone hangen, sluit hem dan aan op een computer. Open Finder op een Mac of de nieuwste Apple Devices-app of iTunes op een Windows-pc. Gebruik de knoppencombinatie voor jouw model en houd de laatste knop vast tot het herstelmodusscherm verschijnt.
+
+Kiest de computer tussen **Werk bij** en **Herstel**, probeer dan eerst **Werk bij**. Deze optie probeert iOS opnieuw te installeren zonder gegevens te wissen. Herstel wist de iPhone en installeert iOS opnieuw. Laat het apparaat aangesloten. Als een lange download de iPhone uit het herstelscherm laat gaan, wacht dan tot de download klaar is en ga opnieuw naar de herstelmodus.
+
+## Belangrijke waarschuwing over gegevens
+
+Eerst Werk bij proberen garandeert niet dat gegevens behouden blijven. Controleer of er een recente reservekopie is. Zijn de gegevens belangrijk en is er geen kopie, neem dan contact op met Apple Support of een erkende serviceprovider voordat je Herstel kiest. Vraag service aan als bijwerken in de herstelmodus mislukt of een knop defect is.
+
+## Veelgestelde vragen
+
+**Blijven mijn foto’s zeker behouden als ik Werk bij kies?**  
+Dat kan niet worden gegarandeerd. Probeer Werk bij vóór Herstel en vraag hulp voordat je belangrijke gegevens wist.
+
+**De balk staat al 20 minuten stil. Moet ik nu herstelmodus gebruiken?**  
+Apple noemt minstens één uur zonder voortgang na een update, herstel of overdracht als richtlijn. Wacht zolang het proces nog actief kan zijn.
+
+**Wat is het verschil tussen Werk bij en Herstel?**  
+Werk bij probeert iOS opnieuw te installeren zonder gegevens te wissen. Herstel wist de iPhone en installeert iOS opnieuw.
+
+Bronnen: [Apple: iPhone blijft hangen op het Apple-logo](https://support.apple.com/nl-nl/102474); [Problemen met bijwerken of herstellen](https://support.apple.com/nl-nl/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
