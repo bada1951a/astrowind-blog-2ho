@@ -19,6 +19,8 @@ Você precisa sair e quer abrir um bilhete, mas o iPhone mostra apenas o logotip
 
 Após uma atualização, restauração ou transferência, a barra pode avançar devagar ou parecer parada. Isso não comprova falha na porta de carga ou no armazenamento. Se o logotipo da Apple permanecer por vários minutos sem barra, a Apple orienta considerar o modo de recuperação no computador. Identifique primeiro a tela antes de presumir um defeito ou arriscar os dados.
 
+Antes de conectar o iPhone, verifico também se ele está ligado à energia e se a tela mostra algo além do logotipo. Não desconecto o cabo enquanto uma atualização estiver ativa. Se o computador apresentar duas opções, leio cada uma com calma: Atualizar e Restaurar têm efeitos diferentes sobre os dados.
+
 ## 3. Etapas seguras para resolver o problema
 
 A reinicialização forçada pode ajudar quando não é possível reiniciar normalmente. Ela é diferente de Restaurar, que apaga o dispositivo.
