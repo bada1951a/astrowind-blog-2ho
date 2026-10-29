@@ -10,11 +10,7 @@ tags: ["iPhone","iOS","Modo de recuperación","Solución de problemas"]
 
 ## Primero, comprueba la barra de progreso
 
-
-Para entender la urgencia, imaginemos una escena claramente ilustrativa: no es un caso real de un cliente ni una experiencia personal que yo afirme haber vivido. Soy el técnico al que piden orientación porque un iPhone muestra el logotipo de Apple y una barra de progreso que parece inmóvil. La persona está a punto de salir, necesita los billetes y mensajes guardados en el teléfono y siente que cada pulsación puede ayudar. No empiezo diciendo que el dispositivo está averiado. Primero pregunto qué ocurrió justo antes: ¿se estaba instalando una actualización de iOS, restaurando el iPhone o transfiriendo datos desde otro iPhone? También pregunto cuánto tiempo lleva la barra aparentemente igual.
-
-En esta conversación imaginaria, mi primer paso útil es reducir la prisa. La barra puede parecer detenida aunque el proceso continúe; por eso explico por qué desconectar la alimentación o pulsar botones repetidamente dificulta saber qué está pasando. No prometo que ningún paso conserve los datos y tampoco empiezo por «Restaurar». Separo las comprobaciones prudentes de la operación que borra el dispositivo y las recorro en orden. El resto de la guía sigue ese razonamiento: determinar si conviene esperar, usar el reinicio correcto para el modelo, probar primero «Actualizar» en modo de recuperación y explicar el riesgo de pérdida antes de confirmar cualquier borrado.
-
+Cuando un iPhone se queda en el logotipo de Apple, no empiezo por elegir «Restaurar». Primero compruebo si la barra de progreso está realmente inmóvil y si justo antes había una actualización, una restauración o una transferencia de datos. Ese primer vistazo ayuda a no tomar con prisa una decisión que puede borrar información.
 
 Después de actualizar, restaurar o transferir datos desde otro iPhone, la barra bajo el logotipo de Apple puede parecer detenida mientras el proceso continúa. Apple recomienda conectar el iPhone a un ordenador y usar el modo de recuperación si la barra no avanza durante **al menos una hora**. Si el proceso sigue activo, espera y evita desconectar el dispositivo o pulsar botones repetidamente.
 
@@ -54,3 +50,4 @@ Apple indica como referencia que no haya progreso durante al menos una hora tras
 Actualizar intenta reinstalar iOS sin borrar los datos. Restaurar borra el iPhone y reinstala iOS.
 
 Fuentes: [Apple: iPhone bloqueado en el logotipo de Apple](https://support.apple.com/es-es/102474); [Problemas al actualizar o restaurar](https://support.apple.com/es-es/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
+

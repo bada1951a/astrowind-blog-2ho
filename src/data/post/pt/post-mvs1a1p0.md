@@ -10,11 +10,7 @@ tags: ["iPhone","iOS","Modo de recuperação","Solução de problemas"]
 
 ## Primeiro, verifique a barra de progresso
 
-
-Para tornar a situação concreta, imagine uma cena assumidamente ilustrativa — não um caso real de cliente nem uma experiência pessoal que eu alegue ter vivido. Sou o técnico a quem pedem orientação porque um iPhone mostra o logotipo da Apple e uma barra de progresso aparentemente parada. A pessoa precisa sair em breve, depende dos bilhetes e das mensagens guardados no aparelho e pensa que cada toque num botão talvez ajude. Não começo declarando que o telefone está avariado. Primeiro pergunto o que acontecia antes: o iOS estava a atualizar, o iPhone estava a ser restaurado ou os dados estavam a ser transferidos de outro iPhone? Também pergunto há quanto tempo a barra parece igual.
-
-Nesta conversa imaginária, a minha primeira ação útil é reduzir a pressa. A barra pode parecer imóvel mesmo enquanto o processo continua; por isso, explico por que desligar a alimentação ou carregar repetidamente nos botões dificulta perceber o que está a acontecer. Não prometo que alguma etapa conservará os dados e não começo por “Restaurar”. Separo as verificações prudentes da operação que apaga o aparelho e explico-as pela ordem. O restante guia segue este raciocínio: perceber se ainda é melhor esperar, usar o reinício adequado ao modelo, tentar primeiro “Atualizar” no modo de recuperação e esclarecer o risco para os dados antes de confirmar qualquer apagamento.
-
+Quando um iPhone fica preso no logotipo da Apple, não começo escolhendo “Restaurar”. Primeiro verifico se a barra de progresso realmente parou e se havia uma atualização, restauração ou transferência de dados em andamento. Essa pausa evita uma decisão apressada que pode apagar informações.
 
 Depois de uma atualização, restauração ou transferência de outro iPhone, a barra sob o logotipo da Apple pode parecer parada enquanto o processo continua. A Apple recomenda conectar o iPhone ao computador e usar o modo de recuperação se a barra não avançar por **pelo menos uma hora**. Se o processo ainda estiver ativo, aguarde e evite desconectar o aparelho ou pressionar os botões repetidamente.
 
@@ -54,3 +50,4 @@ A orientação da Apple considera pelo menos uma hora sem progresso após atuali
 Atualizar tenta reinstalar o iOS sem apagar dados. Restaurar apaga o iPhone e reinstala o iOS.
 
 Fontes: [Apple: iPhone travado no logotipo da Apple](https://support.apple.com/pt-br/102474); [Problemas ao atualizar ou restaurar](https://support.apple.com/pt-br/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
+

@@ -10,11 +10,7 @@ tags: ["iPhone","iOS","Herstelmodus","Probleemoplossing"]
 
 ## Controleer eerst de voortgangsbalk
 
-
-Om de situatie concreet te maken, stel ik een nadrukkelijk fictief voorbeeld voor. Het is geen echt klantverhaal en geen bewering over mijn persoonlijke reparatiegeschiedenis. Ik ben de technicus aan wie advies wordt gevraagd omdat een iPhone het Apple-logo en een voortgangsbalk toont die stil lijkt te staan. De eigenaar moet bijna weg, heeft tickets en berichten op het toestel nodig en denkt dat elke druk op een knop misschien helpt. Ik verklaar de telefoon niet meteen defect. Eerst vraag ik wat er vlak daarvoor gebeurde: werd iOS bijgewerkt, werd de iPhone hersteld of werden gegevens van een andere iPhone overgezet? Ook vraag ik hoelang de balk al onveranderd lijkt.
-
-In dit denkbeeldige gesprek is mijn eerste nuttige stap om de haast te verminderen. Een balk kan stil lijken terwijl het proces doorgaat. Daarom leg ik uit waarom herhaaldelijk de stroom loshalen of op knoppen drukken het moeilijker maakt om de toestand te beoordelen. Ik beloof niet dat een stap de gegevens behoudt en begin niet met ‘Herstel’. Ik onderscheid voorzichtige controles van de handeling die het toestel wist en bespreek ze in volgorde. De rest van deze gids volgt dezelfde redenering: nagaan of wachten nog verstandig is, de juiste herstart voor het model kiezen, in de herstelmodus eerst ‘Werk bij’ proberen en het risico voor gegevens uitleggen voordat iemand wissen bevestigt.
-
+Blijft een iPhone hangen op het Apple-logo, dan begin ik niet met ‘Herstel’. Ik controleer eerst of de voortgangsbalk echt stilstaat en of er vlak daarvoor een update, herstelactie of gegevensoverdracht bezig was. Die korte controle voorkomt een overhaaste keuze die gegevens kan wissen.
 
 Na een update, herstel of gegevensoverdracht vanaf een andere iPhone kan de balk onder het Apple-logo stil lijken te staan terwijl het proces doorgaat. Apple adviseert de iPhone op een computer aan te sluiten en de herstelmodus te gebruiken als de balk **minstens één uur** niet beweegt. Als het proces nog loopt, wacht dan en koppel de kabel niet steeds los.
 
@@ -54,3 +50,4 @@ Apple noemt minstens één uur zonder voortgang na een update, herstel of overdr
 Werk bij probeert iOS opnieuw te installeren zonder gegevens te wissen. Herstel wist de iPhone en installeert iOS opnieuw.
 
 Bronnen: [Apple: iPhone blijft hangen op het Apple-logo](https://support.apple.com/nl-nl/102474); [Problemen met bijwerken of herstellen](https://support.apple.com/nl-nl/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
+

@@ -10,11 +10,7 @@ tags: ["iPhone","iOS","Wiederherstellungsmodus","Fehlerbehebung"]
 
 ## Prüfe zuerst den Fortschrittsbalken
 
-
-Um die Lage greifbar zu machen, stelle ich mir eine ausdrücklich illustrative Szene vor – keinen echten Kundenfall und keine Behauptung über meine persönliche Reparaturgeschichte. Ich bin der Techniker, der einer Person helfen soll, deren iPhone das Apple-Logo und einen scheinbar stillstehenden Fortschrittsbalken zeigt. Sie muss gleich los, auf dem Gerät liegen wichtige Tickets und Nachrichten, und jeder weitere Tastendruck scheint vielleicht hilfreich. Ich erkläre das Gerät nicht sofort für defekt. Zuerst frage ich, was unmittelbar vorher geschah: lief ein iOS-Update, wurde das iPhone wiederhergestellt oder wurden Daten von einem anderen iPhone übertragen? Außerdem frage ich, wie lange der Balken schon unverändert aussieht.
-
-In diesem gedachten Gespräch besteht mein erster sinnvoller Schritt darin, das Tempo herauszunehmen. Ein Balken kann still wirken, obwohl der Vorgang weiterläuft. Deshalb erkläre ich, warum häufiges Trennen der Stromversorgung oder Drücken von Tasten die Einschätzung erschweren kann. Ich verspreche nicht, dass ein Schritt Daten erhält, und beginne nicht mit „Wiederherstellen“. Stattdessen trenne ich die vorsichtigen Prüfungen von der Aktion, die das Gerät löscht, und gehe sie der Reihe nach durch. Der Leitfaden folgt dieser Überlegung: zunächst klären, ob Warten sinnvoll ist, dann den passenden Neustart wählen, im Wiederherstellungsmodus zuerst „Aktualisieren“ versuchen und das Datenrisiko vor jeder Löschbestätigung offen benennen.
-
+Bleibt ein iPhone beim Apple-Logo hängen, greife ich nicht als Erstes zu „Wiederherstellen“. Zunächst prüfe ich, ob der Fortschrittsbalken wirklich stillsteht und ob kurz zuvor ein Update, eine Wiederherstellung oder eine Datenübertragung lief. Dieser kurze Check verhindert, dass aus einem stressigen Moment vorschnell eine Entscheidung mit möglichem Datenverlust wird.
 
 Nach einem Update, einer Wiederherstellung oder einer Datenübertragung kann der Balken unter dem Apple-Logo stillstehen, obwohl der Vorgang weiterläuft. Apple empfiehlt den Wiederherstellungsmodus, wenn sich der Balken **mindestens eine Stunde lang** nicht bewegt hat. Läuft der Vorgang noch, warte und trenne das iPhone nicht wiederholt vom Strom.
 
@@ -58,3 +54,4 @@ Apple nennt mindestens eine Stunde ohne Fortschritt nach Update, Wiederherstellu
 „Aktualisieren“ versucht, iOS ohne Löschen neu zu installieren. „Wiederherstellen“ löscht das iPhone und installiert iOS neu.
 
 Quellen: [Apple: iPhone bleibt beim Apple-Logo hängen](https://support.apple.com/de-de/102474); [Update- oder Wiederherstellungsprobleme](https://support.apple.com/de-de/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
+

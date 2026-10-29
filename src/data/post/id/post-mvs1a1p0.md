@@ -10,11 +10,7 @@ tags: ["iPhone","iOS","Mode Pemulihan","Pemecahan Masalah"]
 
 ## Periksa bar kemajuan terlebih dahulu
 
-
-Agar situasinya terasa konkret, bayangkan skenario ilustratif ini—bukan kisah pelanggan sungguhan dan bukan klaim tentang pengalaman pribadi saya. Saya berperan sebagai teknisi yang dimintai arahan ketika iPhone seseorang menampilkan logo Apple dan bar kemajuan yang tampak tidak bergerak. Orang itu harus segera berangkat, membutuhkan tiket dan pesan yang tersimpan di ponsel, lalu merasa setiap kali menekan tombol mungkin akan membantu. Saya tidak langsung menyebut perangkatnya rusak. Saya lebih dulu bertanya apa yang terjadi sebelumnya: apakah iOS sedang diperbarui, iPhone sedang dipulihkan, atau data sedang dipindahkan dari iPhone lain? Saya juga menanyakan berapa lama bar itu terlihat tidak berubah.
-
-Dalam percakapan yang dibayangkan ini, langkah berguna pertama saya adalah memperlambat keadaan. Bar dapat tampak diam meskipun proses masih berjalan, jadi saya menjelaskan mengapa mencabut daya atau terus menekan tombol bisa menyulitkan penilaian. Saya tidak menjanjikan bahwa langkah apa pun pasti menjaga data, dan saya tidak memulai dengan Restore. Saya memisahkan pemeriksaan yang lebih aman dari tindakan yang menghapus perangkat, lalu menjelaskannya berurutan. Panduan ini mengikuti cara berpikir tersebut: pastikan apakah masih perlu menunggu, gunakan cara mulai ulang yang sesuai model, coba Perbarui lebih dahulu dalam mode pemulihan, dan jelaskan risiko data sebelum siapa pun menyetujui penghapusan.
-
+Saat iPhone berhenti di logo Apple, saya tidak langsung memilih Pulihkan. Saya lebih dulu memeriksa apakah bar kemajuan benar-benar tidak bergerak dan apakah sebelumnya ada pembaruan, pemulihan, atau pemindahan data. Jeda singkat ini membantu mencegah keputusan terburu-buru yang dapat menghapus data.
 
 Setelah pembaruan, pemulihan, atau pemindahan data dari iPhone lain, bar di bawah logo Apple dapat terlihat diam meski proses masih berjalan. Apple menyarankan menghubungkan iPhone ke komputer dan menggunakan mode pemulihan jika bar tidak bergerak selama **setidaknya satu jam**. Jika proses masih berlangsung, tunggu dan jangan berulang kali melepas kabel atau menekan tombol.
 
@@ -58,3 +54,4 @@ Panduan Apple menyebut setidaknya satu jam tanpa kemajuan setelah pembaruan, pem
 Perbarui mencoba memasang ulang iOS tanpa menghapus data. Pulihkan menghapus iPhone dan memasang ulang iOS.
 
 Sumber: [Apple: iPhone macet di logo Apple](https://support.apple.com/id-id/102474); [Masalah saat memperbarui atau memulihkan](https://support.apple.com/id-id/118106). [Photo by Laura Chouette on Pexels](https://www.pexels.com/photo/apple-iphone-12-pro-22032426/)
+
