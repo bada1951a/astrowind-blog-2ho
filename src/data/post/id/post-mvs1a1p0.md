@@ -19,6 +19,8 @@ Kamu harus segera pergi dan perlu membuka tiket, tetapi iPhone hanya menampilkan
 
 Setelah pembaruan, pemulihan, atau pemindahan data, bar bisa bergerak lambat atau tampak diam. Hal itu saja tidak membuktikan port pengisian atau penyimpanan rusak. Jika logo Apple bertahan beberapa menit tanpa bar, Apple menyarankan mempertimbangkan mode pemulihan lewat komputer. Kenali tampilan layar lebih dulu sebelum menebak kerusakan atau mengambil risiko pada data.
 
+Sebelum menyambungkan iPhone, saya juga memeriksa apakah perangkat terhubung ke daya dan apakah layar menampilkan sesuatu selain logo. Saya tidak mencabut kabel saat pembaruan masih berjalan. Jika komputer menawarkan dua pilihan, baca dengan tenang: Perbarui dan Pulihkan memiliki dampak berbeda pada data.
+
 ## 3. Langkah aman untuk mengatasinya
 
 Mulai ulang paksa dapat dicoba ketika iPhone tidak dapat dimulai ulang secara normal. Ini berbeda dari Pulihkan, yang menghapus perangkat.
