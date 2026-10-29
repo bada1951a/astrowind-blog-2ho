@@ -49,7 +49,7 @@ Jika unduhan perangkat lunak memakan waktu lebih dari 15 menit, iPhone dapat kel
 
 **Q1.** Apakah Perbarui menjamin foto saya tetap ada?
 
-**Q2.** Apakah saya harus menunggu tepat satu jam jika bar tampak macet?
+**A1.** Tidak ada jaminan untuk hasil data. Coba Perbarui sebelum Pulihkan, dan minta bantuan sebelum menghapus data penting.
 
 **Q2.** Apakah saya harus menunggu tepat satu jam jika bar tampak macet?
 
