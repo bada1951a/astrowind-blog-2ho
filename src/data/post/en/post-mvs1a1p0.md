@@ -45,7 +45,7 @@ A software download taking more than 15 minutes can cause the iPhone to leave th
 
 **Q1.** Will Update definitely keep my photos?
 
-**Q2.** Must I wait exactly one hour if the progress bar looks stuck?
+**A1.** No data outcome can be guaranteed. Try Update before Restore, and get help before erasing if the data matters.
 
 **Q2.** Must I wait exactly one hour if the progress bar looks stuck?
 
