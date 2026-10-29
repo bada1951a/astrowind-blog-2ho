@@ -26,9 +26,9 @@ Việc nhận thức rõ những gì đang bị đe dọa trong tình huống kh
 
 ## 2. Phân tích nguyên nhân gốc rễ lỗi sạc và phần cứng
 
-<div style="border-left: 4px solid #a16207; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">Mẹo chuyên gi
+<div style="border-left: 4px solid #a16207; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">Mẹo chuyên gia.
 
-A. Hiểu rõ nguyên nhân gốc rễ từ phần cứng và phần mềm giúp bạn phòng ngừa triệt để tình trạng treo logo lặp lại trên dòng máy Samsung Galaxy.</div>
+Hiểu rõ nguyên nhân gốc rễ từ phần cứng và phần mềm giúp bạn phòng ngừa triệt để tình trạng treo logo lặp lại trên dòng máy Samsung Galaxy.</div>
 
 Phân tích sâu về mặt vật lý, hiện tượng treo logo khởi động trên các dòng điện thoại Samsung Galaxy thường bắt nguồn từ sự suy giảm tiếp xúc tại các điểm kết nối vi mô bên trong cổng giao tiếp USB-C. Sau một thời gian dài sử dụng trong môi trường đô thị nhiều bụi mịn, các sợi xơ vải từ túi quần áo và bụi carbon tích tụ dày đặc bên trong khoang cổng sạc, bị nén chặt lại bởi lực cắm rút cáp hàng ngày. Sự tích tụ này kết hợp với độ ẩm từ mồ hôi tay hoặc không khí tạo ra một lớp màng dẫn điện trở kháng cao, khiến vi mạch điều khiển sạc nhận diện nhầm trạng thái dữ liệu, từ đó gửi các tín hiệu ngắt quãng đến trình quản lý khởi động nhân (kernel bootloader) của hệ điều hành.
 
@@ -64,9 +64,9 @@ Việc dung lượng pin bị hiệu chỉnh sai lệch (BMS calibration drift) 
 
 ## 4. Lưu ý và lời khuyên quan trọng từ thợ sửa chữa
 
-<div style="border-left: 4px solid #a16207; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">Lời khuyên chuyên gi
+<div style="border-left: 4px solid #a16207; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">Lời khuyên chuyên gia.
 
-A. Những thói quen sử dụng nhỏ hàng ngày sẽ giúp bạn bảo vệ tuyệt đối tuổi thọ của pin và bo mạch chủ điện thoại.</div>
+Những thói quen sử dụng nhỏ hàng ngày sẽ giúp bạn bảo vệ tuyệt đối tuổi thọ của pin và bo mạch chủ điện thoại.</div>
 
 Trong quá trình làm nghề sửa chữa phần cứng điện thoại thông minh lâu năm, tôi đã chứng kiến không ít trường hợp người dùng tự ý can thiệp sai cách dẫn đến việc thiết bị hư hỏng vĩnh viễn và không thể phục hồi. Mối nguy hiểm lớn nhất khi tự sửa chữa tại nhà là việc sử dụng các dụng cụ bằng kim loại để cạy phá cổng sạc hoặc khay sim, rất dễ làm chập mạch trực tiếp các điểm tiếp xúc nguồn của pin, gây ra hiện tượng phóng điện đột ngột làm thủng màng ngăn tế bào pin, dẫn đến cháy nổ cực kỳ nguy hiểm. Ngoài ra, việc tự ý tháo máy trong môi trường ẩm thấp mà không có thiết bị cách điện và khò nhiệt đúng tiêu chuẩn sẽ làm rách các ron chống nước, khiến hơi nước và bụi bẩn xâm nhập sâu hơn, gây ăn mòn chân linh kiện trên bo mạch chủ chỉ sau vài tuần.
 
@@ -76,14 +76,38 @@ Trong quá trình làm nghề sửa chữa phần cứng điện thoại thông 
 
 <div style="border-left: 4px solid #a16207; padding: 14px 18px; margin: 24px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">Giải đáp thắc mắc: Tổng hợp những câu hỏi phổ biến nhất từ người dùng về lỗi treo logo Samsung Galaxy và cách xử lý hiệu quả.</div>
 
+
+
+
+
 Q1. Việc xóa phân vùng bộ nhớ đệm (Wipe Cache Partition) trong chế độ Recovery có làm mất dữ liệu cá nhân như hình ảnh và danh bạ không?
+
+
+
+
 
 A1. Hoàn toàn không. Thao tác này chỉ tiến hành xóa sạch các tập tin tạm, bộ nhớ đệm hệ thống và dữ liệu rác tích tụ từ các ứng dụng trong quá trình sử dụng lâu dài. Toàn bộ dữ liệu cá nhân quan trọng của bạn bao gồm hình ảnh, video, danh bạ và tin nhắn vẫn được bảo vệ nguyên vẹn trong phân vùng người dùng (user data partition).
 
+
+
+
+
 Q2. Tại sao tôi đã làm đúng tổ hợp phím vào Recovery Mode nhưng máy Samsung Galaxy vẫn không phản hồi và tiếp tục treo logo?
+
+
+
+
 
 A2. Nguyên nhân phổ biến nhất là do dung lượng pin hiện tại của thiết bị đã cạn kiệt hoàn toàn dưới ngưỡng tối thiểu để khởi động phân vùng hệ thống khôi phục, hoặc phần cứng cổng sạc đang bị đoản mạch nặng khiến dòng điện không thể truyền vào máy. Bạn nên cắm sạc thiết bị với nguồn điện ổn định trong ít nhất 20 phút trước khi thử lại tổ hợp phím, hoặc sử dụng sạc không dây để nạp năng lượng dự phòng.
 
+
+
+
+
 Q3. Khi nào tình trạng treo logo Samsung chuyển từ lỗi phần mềm sang lỗi phần cứng nặng cần phải mang ra cửa hàng sửa chữa?
+
+
+
+
 
 A3. Nếu bạn đã thực hiện thành công thao tác xóa bộ nhớ đệm và thậm chí đã chạy lại phần mềm gốc (firmware flash) thông qua máy tính nhưng thiết bị vẫn lặp lại vòng khởi động logo hoặc tự động sập nguồn liên tục, đó là dấu hiệu rõ ràng của lỗi phần cứng. Các nguyên nhân thường gặp trong trường hợp này bao gồm hỏng chip nhớ flash UFS, bong chân vi xử lý chính do va đập, hoặc lỗi vi mạch quản lý nguồn (PMIC), đòi hỏi kỹ thuật viên phải can thiệp đo đạc và đóng cặp lại trên bo mạch chủ.

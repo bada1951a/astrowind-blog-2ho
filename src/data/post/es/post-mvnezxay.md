@@ -23,12 +23,12 @@ Había terminado mi sesión de entrenamiento en el gimnasio de Chamberí y, con 
 Para entender por qué tu Galaxy se ha quedado atascado en el logotipo, debemos mirar bajo el capó digital del terminal. No hace falta ser un ingeniero eléctrico, pero comprender la causa raíz nos ayuda a evitar errores graves de pérdida de datos.
 
 ### 1. Corrupción en la Partición de Caché (Wipe Cache Partition)
-Tras un error de lectura biométrica o un cierre forzoso, los archivos temporales que Android almacena para acelerar la apertura de apps pueden corromperse. El sistema intenta leerlos al arrancar, choca contra un bucle y se congela mostrando el logo corporativo de manera indefinid
+Tras un error de lectura biométrica o un cierre forzoso, los archivos temporales que Android almacena para acelerar la apertura de apps pueden corromperse. El sistema intenta leerlos al arrancar, choca contra un bucle y se congela mostrando el logo corporativo de manera indefinida.
 
-**A.** ### 2. Conflicto de Procesos en Segundo Plano
-Los bloqueos de seguridad consecutivos obligan a la CPU a gestionar hilos de cifrado de emergencia y alertas de intrusión simultáneamente. Si la memoria RAM o el almacenamiento interno están al límite de su capacidad, el gestor de arranque (*bootloader*) colaps
+### 2. Conflicto de Procesos en Segundo Plano
+Los bloqueos de seguridad consecutivos obligan a la CPU a gestionar hilos de cifrado de emergencia y alertas de intrusión simultáneamente. Si la memoria RAM o el almacenamiento interno están al límite de su capacidad, el gestor de arranque (*bootloader*) colapsa.
 
-**A.** ### 3. Fallo Menor de Integridad en el Firmware
+### 3. Fallo Menor de Integridad en el Firmware
 A veces, una actualización menor que se quedó a medio indexar o un archivo residual en la partición del sistema crea un falso positivo de arranque, impidiendo que cargue la interfaz gráfica principal (*One UI*).
 
 | Causa Probable | Síntoma Principal | Nivel de Riesgo para tus Datos |
@@ -42,28 +42,28 @@ A veces, una actualización menor que se quedó a medio indexar o un archivo res
 Aquí tienes el procedimiento exacto que aplicamos en el taller para rescatar terminales bloqueados en el logo, sin perder la información personal del cliente. Vamos a usar el menú de recuperación (*Recovery Mode*).
 
 ### Paso 1: Forzar el Apagado Total
-Si el teléfono está atrapado en el bucle del logo, intenta mantener presionados simultáneamente el **Botón de Encendido**y el**Botón de Bajar Volumen**durante más de 10-15 segundos. En cuanto la pantalla se apague por completo, prepárate rápidamente para el siguiente paso, ya que no queremos que vuelva a arrancar de forma normal.
+Si el teléfono está atrapado en el bucle del logo, intenta mantener presionados simultáneamente el <strong>Botón de Encendido</strong> y el <strong>Botón de Bajar Volumen</strong> durante más de 10-15 segundos. En cuanto la pantalla se apague por completo, prepárate rápidamente para el siguiente paso, ya que no queremos que vuelva a arrancar de forma normal.
 
 ### Paso 2: Entrar en el Modo Recovery (Recuperación)
 Con el teléfono completamente apagado:
 1. Conecta el Galaxy a un ordenador mediante un cable USB original (en muchos modelos modernos de Samsung, esto actúa como llave de seguridad para activar el menú Recovery).
 
-2. Mantén presionados al mismo tiempo el**Botón de Encendido**y el**Botón de Subir Volumen**.
+2. Mantén presionados al mismo tiempo el <strong>Botón de Encendido</strong> y el <strong>Botón de Subir Volumen</strong>.
 
 3. Suelta ambos botones en cuanto aparezca el logotipo de Samsung con letras blancas pequeñas en la parte superior (*Recovery booting*).
 
 ### Paso 3: Limpiar la Partición de Caché (*Wipe Cache Partition*)
 Una vez dentro del menú en inglés con letras de aspecto técnico:
-1. Usa el **Botón de Bajar Volumen**para desplazarte hacia abajo hasta la opción llamada**Wipe cache partition**.
+1. Usa el <strong>Botón de Bajar Volumen</strong> para desplazarte hacia abajo hasta la opción llamada <strong>Wipe cache partition</strong>.
 
-2. Presiona el**Botón de Encendido**para seleccionarl
+2. Presiona el <strong>Botón de Encendido</strong> para seleccionarlo.
 
-**A.** 3. El sistema te pedirá confirmación. Baja hasta**Yes**utilizando los botones de volumen y pulsa de nuevo el**Botón de Encendido**.
+3. El sistema te pedirá confirmación. Baja hasta <strong>Yes</strong> utilizando los botones de volumen y pulsa de nuevo el <strong>Botón de Encendido</strong>.
 
 4. En la parte inferior verás letras amarillas indicando que el proceso de limpieza ha finalizado (*Cache wipe complete*).
 
 ### Paso 4: Reiniciar el Sistema
-Selecciona la primera opción del menú superior que dice **Reboot system now**y presiona el**Botón de Encendido**. El teléfono tardará un poco más de lo habitual en encender (hasta 5 minutos mientras reconstruye los archivos temporales), pero arrancará directo a tu pantalla de bloqueo habitual sin haber borrado ni una sola foto.
+Selecciona la primera opción del menú superior que dice <strong>Reboot system now</strong> y presiona el <strong>Botón de Encendido</strong>. El teléfono tardará un poco más de lo habitual en encender (hasta 5 minutos mientras reconstruye los archivos temporales), pero arrancará directo a tu pantalla de bloqueo habitual sin haber borrado ni una sola foto.
 
 ```bash
 # Secuencia de diagnóstico rápida en terminales Android
@@ -77,25 +77,25 @@ adb reboot recovery
 Como profesional que ve decenas de móviles a la semana, déjame darte un par de consejos de oro para evitar sustos innecesarios:
 
 <div style="border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
-<strong>¡Cuidado con la opción equivocada!</strong> En el modo Recovery existe la opción llamada <em>Wipe data / factory reset</em>. <strong>Nunca la selecciones</strong> a menos que quieras borrar todo tu contenido y dejar el teléfono de fábric
+<strong>¡Cuidado con la opción equivocada!</strong> En el modo Recovery existe la opción llamada <em>Wipe data / factory reset</em>. <strong>Nunca la selecciones</strong> a menos que quieras borrar todo tu contenido y dejar el teléfono de fábrica.
 
-**A.** Asegúrate de marcar únicamente <em>Wipe cache partition</em>.
+Asegúrate de marcar únicamente <em>Wipe cache partition</em>.
 </div>
 
 Si después de limpiar la caché el terminal sigue atrapado en el logo, el problema podría deberse a una degradación de la memoria flash interna o a un fallo físico en la placa base derivado de golpes previos. En ese caso, acude a un servicio técnico autorizado para realizar un diagnóstico con herramientas de nivel de componente.
 
 ## 5. Preguntas Frecuentes (FAQ)
 
-**Q.** ¿Pierdo mis fotos, contactos y aplicaciones si limpio la partición de caché?
+<strong>Q.</strong> ¿Pierdo mis fotos, contactos y aplicaciones si limpio la partición de caché?
 
-**A.** No. Limpiar la partición de caché (*Wipe cache partition*) solo elimina archivos temporales y basura digital acumulada por el sistem
+A. No. Limpiar la partición de caché (*Wipe cache partition*) solo elimina archivos temporales y basura digital acumulada por el sistema.
 
-**A.** Tus datos personales, fotografías y aplicaciones instaladas se mantienen intactos.
+Tus datos personales, fotografías y aplicaciones instaladas se mantienen intactos.
 
-**Q.** ¿Qué hago si mi Samsung Galaxy no entra de ninguna manera al modo Recovery?
+<strong>Q.</strong> ¿Qué hago si mi Samsung Galaxy no entra de ninguna manera al modo Recovery?
 
-**A.** Asegúrate de tenerlo conectado a un ordenador o a un cargador de pared mediante el cable USB oficial. Algunos modelos recientes de Samsung requieren obligatoriamente esta conexión física para habilitar el acceso al menú de recuperación.
+A. Asegúrate de tenerlo conectado a un ordenador o a un cargador de pared mediante el cable USB oficial. Algunos modelos recientes de Samsung requieren obligatoriamente esta conexión física para habilitar el acceso al menú de recuperación.
 
-**Q.** ¿Por qué ocurre este error después de fallar el lector de huellas?
+<strong>Q.</strong> ¿Por qué ocurre este error después de fallar el lector de huellas?
 
-**A.** Cuando fallas repetidamente los métodos biométricos junto con alertas de seguridad activas, el sistema operativo genera registros de eventos (*logs*) pesados que, si pillan al almacenamiento casi lleno, saturan la partición temporal provocando el bloqueo del arranque.
+A. Cuando fallas repetidamente los métodos biométricos junto con alertas de seguridad activas, el sistema operativo genera registros de eventos (*logs*) pesados que, si pillan al almacenamiento casi lleno, saturan la partición temporal provocando el bloqueo del arranque.

@@ -40,19 +40,19 @@ Tot slot moeten we de status van de Battery Management System (BMS) kalibratie n
 
 Wanneer je in een acute noodsituatie verkeert en je Samsung Galaxy weigert verder te gaan dan het startlogo, moet je methodisch te werk gaan om het toestel te redden zonder data te verliezen. Hieronder volgen drie essentiële, professionele methoden die je direct kunt toepassen.
 
-* Methode 1: Veilige niet-geleidende mechanische reiniging van de USB-C-poort
+* <strong>Methode 1: Veilige niet-geleidende mechanische reiniging van de USB-C-poort</strong>
   1. Schakel het toestel indien mogelijk volledig uit door de Volume Omlaag en Aan/Uit-knop tien seconden ingedrukt te houden totdat het scherm zwart wordt.
   2. Neem een schone, houten tandenstoker (gebruik absoluut geen metaal) en inspecteer de USB-C-poort met een sterke lichtbron.
   3. Verwijder voorzichtig compact stof en pluisjes door de tandenstoker langs de centrale connectorpin te bewegen.
   4. Blaas eventueel loszittend vuil weg met perslucht in blik, waarbij je de spuitbus strikt rechtop houdt om vloeibare drijfgascondensatie te voorkomen.
 
-* Methode 2: Het wissen van de Cache Partition via Recovery Mode1. Sluit de smartphone aan op een betrouwbare wandlader of een computer via een officiële USB-C-kabel om te garanderen dat het toestel niet uitvalt tijdens de procedure.
-  2. Houd tegelijkertijd de**Volume Omhoog**en deAan/Uit-knop(Power button) ingedrukt. Laat beide knopen pas los zodra het Android-herstelscherm (Recovery Mode) met gele en blauwe tekst op een zwarte achtergrond verschijnt.
-  3. Gebruik deVolume Omlaag-knopom te navigeren in het menu en selecteer de optie `Wipe cache partition` door op deAan/Uit-knopte drukken.
-  4. Bevestig je keuze door `Yes` te selecteren en op deAan/Uit-knop te drukken. De corrupte tijdelijke systeembestanden worden nu in luttele seconden verwijderd.
+* <strong>Methode 2: Het wissen van de Cache Partition via Recovery Mode</strong> 1. Sluit de smartphone aan op een betrouwbare wandlader of een computer via een officiële USB-C-kabel om te garanderen dat het toestel niet uitvalt tijdens de procedure.
+  2. Houd tegelijkertijd de <strong>Volume Omhoog</strong> en de <strong>Aan/Uit-knop</strong>(Power button) ingedrukt. Laat beide knopen pas los zodra het Android-herstelscherm (Recovery Mode) met gele en blauwe tekst op een zwarte achtergrond verschijnt.
+  3. Gebruik de <strong>Volume Omlaag-knop</strong> om te navigeren in het menu en selecteer de optie `Wipe cache partition` door op de <strong>Aan/Uit-knop</strong> te drukken.
+  4. Bevestig je keuze door `Yes` te selecteren en op de <strong>Aan/Uit-knop</strong> te drukken. De corrupte tijdelijke systeembestanden worden nu in luttele seconden verwijderd.
   5. Selecteer ten slotte de optie `Reboot system now` om het toestel schoon en zonder dataverlies opnieuw op te starten.
 
-* Methode 3: Kabelweerstand testen en alternatieve laadprotocollen toepassen1. Koppel goedkope, niet-gecertificeerde kabels onmiddellijk los van het toestel. Deze veroorzaken te veel spanningsval.
+* <strong>Methode 3: Kabelweerstand testen en alternatieve laadprotocollen toepassen</strong> 1. Koppel goedkope, niet-gecertificeerde kabels onmiddellijk los van het toestel. Deze veroorzaken te veel spanningsval.
   2. Sluit het toestel aan op een gecertificeerde USB Power Delivery (PD) lader van minimaal 25 watt.
   3. Schakel over op draadloos opladen via een Qi-inductielader als de fysieke USB-C-poort intern verontreinigd of geblokkeerd is door vocht, aangezien inductief laden de datalijnen van de poort volledig omzeilt en direct de accucel voedt.
   4. Wacht exact tien minuten zonder het toestel aan te raken om het BMS de tijd te geven om de celspanning veilig boven de kritieke opstartdrempel van vijf procent te tillen.
@@ -65,14 +65,38 @@ Daarnaast waarschuw ik ten strengste voor het negeren van vochtschade-indicatore
 
 ## 5. Veelgestelde Vragen (FAQ)
 
+
+
+
+
 Q1. Kan het wissen van de cache partition in recovery mode ervoor zorgen dat ik mijn foto's en persoonlijke documenten verlies?
+
+
+
+
 
 A1. Nee, absoluut niet. De optie `Wipe cache partition` verwijdert uitsluitend tijdelijke systeembestanden en applicatiecaches die door eerdere updates of corrupte processen zijn beschadigd. Je persoonlijke foto's, video's, contacten en berichten staan veilig opgeslagen in de beveiligde gebruikerspartitie van het flash-geheugen en worden door deze specifieke procedure volledig met rust gelaten.
 
+
+
+
+
 Q2. Wat moet ik doen als mijn Samsung Galaxy niet reageert op de knopcombinatie om in de Recovery Mode te komen?
+
+
+
+
 
 A2. Wanneer het toestel totaal niet reageert op de toetscombinatie voor recovery mode, is de accu meestal zo diep ontladen dat er niet genoeg restspanning is om de opstartloader te activeren. Sluit het toestel in dat geval aan op een krachtige wandlader met een vermogen van minimaal 25 watt en laat het minstens twintig tot dertig minuten onaangeroerd aan de kabel liggen. Probeer daarna opnieuw de volumeknop omhoog en de aan-uitknop gelijktijdig ingedrukt te houden.
 
+
+
+
+
 Q3. Is het schadelijk om mijn smartphone te gebruiken terwijl deze tijdens het laden gloeiend heet wordt?
+
+
+
+
 
 A3. Ja, dit is uiterst schadelijk voor de levensduur van de lithium-ion accucellen en de interne processorkern. Lithium-ion accu's verliezen permanent capaciteit en kunnen opzetten bij temperaturen boven de veertig graden Celsius tijdens het snelladen. Als je merkt dat het toestel extreem warm wordt, dien je direct zware apps af te sluiten, het hoesje te verwijderen om warmteafvoer te bevorderen, of het laden tijdelijk te pauzeren om permanente hardware-degradatie te voorkomen.

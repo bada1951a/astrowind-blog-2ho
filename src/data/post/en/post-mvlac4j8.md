@@ -69,14 +69,38 @@ If your phone is already trapped in a heavy, rubberized, multi-layer protective 
 
 ## 5. Frequently Asked Questions (FAQ)
 
-**Q1.** Why does my Galaxy screen dim even when Adaptive Brightness is turned completely off?
 
-**A1.** Even with manual brightness enabled, Samsung firmware features an overriding thermal protection circuit. When internal components exceed safe temperature thresholds due to sun exposure or heavy processing, the operating system forcibly restricts maximum current to the display panel to prevent hardware failure.
 
-**Q2.** Does using a cheap tempered glass screen protector cause my phone to auto-dim outdoors?
 
-**A2.** Yes, low-quality or thick glass protectors with poor light transmittance or hazy adhesives block incoming UV and visible light from reaching the ambient light sensor properly. This tricks the software into thinking you are in a dark room, causing it to lower display brightness inappropriately.
 
-**Q3.** Can I permanently disable thermal throttling on my Samsung Galaxy?
+Q1. Why does my Galaxy screen dim even when Adaptive Brightness is turned completely off?
 
-**A3.** There is no official menu toggle to permanently disable thermal throttling because it is a vital safety feature protecting your lithium-ion battery from catastrophic failure. However, you can minimize its trigger frequency by keeping your background apps clean, reducing display refresh rates, and avoiding direct dashboard sun mounts while driving.
+
+
+
+
+A1. Even with manual brightness enabled, Samsung firmware features an overriding thermal protection circuit. When internal components exceed safe temperature thresholds due to sun exposure or heavy processing, the operating system forcibly restricts maximum current to the display panel to prevent hardware failure.
+
+
+
+
+
+Q2. Does using a cheap tempered glass screen protector cause my phone to auto-dim outdoors?
+
+
+
+
+
+A2. Yes, low-quality or thick glass protectors with poor light transmittance or hazy adhesives block incoming UV and visible light from reaching the ambient light sensor properly. This tricks the software into thinking you are in a dark room, causing it to lower display brightness inappropriately.
+
+
+
+
+
+Q3. Can I permanently disable thermal throttling on my Samsung Galaxy?
+
+
+
+
+
+A3. There is no official menu toggle to permanently disable thermal throttling because it is a vital safety feature protecting your lithium-ion battery from catastrophic failure. However, you can minimize its trigger frequency by keeping your background apps clean, reducing display refresh rates, and avoiding direct dashboard sun mounts while driving.

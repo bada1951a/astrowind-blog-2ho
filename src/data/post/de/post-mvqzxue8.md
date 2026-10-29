@@ -50,9 +50,9 @@ Bevor Sie softwareseitige Eingriffe vornehmen, müssen Sie physikalische Störfa
 
 ### Methode 2: System-Cache im Recovery-Modus leeren (Wipe Cache Partition)
 Dies ist der effektivste und sicherste Weg, um den Boot-Loop zu beheben, ohne Ihre persönlichen Daten (Fotos, Nachrichten, Apps) zu löschen.
-1. Schalten Sie das Gerät vollständig aus. Sollte es sich im Dauer-Boot-Loop befinden, halten Sie die Taste `Leiser` und die `Ein/Aus-Taste` gleichzeitig für c
+1. Schalten Sie das Gerät vollständig aus. Sollte es sich im Dauer-Boot-Loop befinden, halten Sie die Taste `Leiser` und die `Ein/Aus-Taste` gleichzeitig für ca.
 
-**A.** zehn Sekunden gedrückt, bis der Bildschirm schwarz wird.
+zehn Sekunden gedrückt, bis der Bildschirm schwarz wird.
 2. Sobald das Display dunkel wird, wechseln Sie blitzschnell die Tastenkombination: Drücken Sie sofort die Taste `Lauter` und die `Ein/Aus-Taste` gleichzeitig. Halten Sie beide Tasten gedrückt, bis das Samsung-Logo und kurz darauf das Android-Recovery-Menü (blaue und gelbe Schrift auf schwarzem Grund) erscheint.
 3. Navigieren Sie im Recovery-Menü mithilfe der Tasten `Leiser` und `Lauter` nach unten bzw. oben, bis der Eintrag `Wipe cache partition` markiert ist.
 4. Bestätigen Sie Ihre Auswahl durch einmaliges Drücken der `Ein/Aus-Taste`.
@@ -75,14 +75,38 @@ Ein weiterer kritischer Punkt betrifft die langfristige Vorsorge gegen den gefü
 
 ## 5. Häufig gestellte Fragen (FAQ)
 
+
+
+
+
 Q1. Verliere ich meine persönlichen Fotos und Kontakte, wenn ich im Recovery-Modus die Cache-Partition leere?
+
+
+
+
 
 A1. Nein, das Löschen der Cache-Partition (Wipe cache partition) entfernt ausschließlich temporäre Systemdaten, App-Zwischenspeicher und veraltete Installationsreste. Ihre persönlichen Dateien, Fotos, Videos, Kontakte und installierten Anwendungen bleiben dabei vollständig unangetastet und sicher auf dem Gerät gespeichert. Sie müssen lediglich darauf achten, keinesfalls den Menüpunkt "Wipe data / factory reset" auszuwählen, da dieser tatsächlich alle Benutzerdaten unwiderruflich löscht.
 
+
+
+
+
 Q2. Was kann ich tun, wenn die Tastenkombination für den Recovery-Modus nicht reagiert und das Samsung Galaxy weiterhin im Logo festhängt?
+
+
+
+
 
 A2. Wenn das Smartphone auf die Standard-Tastenkombinationen nicht reagiert, liegt dies meist daran, dass der Akku komplett entladen ist oder sich das Gerät in einem tiefen Kernel-Freeze befindet. Schließen Sie das Smartphone für mindestens dreißig Minuten an ein leistungsstarkes Original-Ladegerät an, damit sich die Zelle etwas erholen kann. Versuchen Sie anschließend erneut, die Tasten "Lauter" und "Ein/Aus" gleichzeitig gedrückt zu halten, oder nutzen Sie die Drei-Tasten-Methode (Lauter, Leiser und Ein/Aus gleichzeitig), falls Ihr spezifisches Galaxy-Modell dies erfordert.
 
+
+
+
+
 Q3. Warum stürzt das Smartphone überhaupt ab, nur weil der interne Speicher komplett voll ist?
+
+
+
+
 
 A3. Das Betriebssystem Android benötigt permanenten, freien Speicherplatz auf dem internen Flash-Speicher, um virtuelle Arbeitsspeicher-Auslagerungen (Swap), temporäre Log-Dateien und System-Caches zu verwalten. Wenn der Speicher zu einhundert Prozent voll ist, schlagen Schreibvorgänge des Linux-Kernels fehl, da keine physischen Blöcke mehr zugewiesen werden können. Dies führt zu kritischen Systemfehlern, die den Kernel zum sofortigen Schutzabsturz zwingen und den berüchtigten Boot-Loop auslösen.

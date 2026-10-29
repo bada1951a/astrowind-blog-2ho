@@ -34,9 +34,9 @@ Pour resoudre un probleme, il faut d'abord comprendre ce qui se passe sous la da
 
 ### Guide de resolution pas a pas pour retrouver une luminosite stable
 
-Voici la methode que nous appliquons dans notre atelier pour diagnostiquer et corriger definitivement ce comportement agacant sur les gammes Galaxy S et Galaxy
+Voici la methode que nous appliquons dans notre atelier pour diagnostiquer et corriger definitivement ce comportement agacant sur les gammes Galaxy S et Galaxy A.
 
-**A.** Etape 1 : Nettoyage minutieux de la zone superieure
+Etape 1 : Nettoyage minutieux de la zone superieure
 Si un liquide (comme le fameux bouillon du dejeuner) ou des residus gras se sont deposes sur la grille du haut-parleur et le capteur de luminosite, preparez un kit de nettoyage doux. Utilisez un coton-tige legerement humidifie avec un tout petit peu d'alcool isopropylique (et non de l'eau du robinet). Frottez delicatement la grille en faisant des mouvements circulaires pour dissoudre les graisses sans les pousser a l'interieur.
 
 Etape 2 : Verification des parametres d'affichage
@@ -57,14 +57,38 @@ Les smartphones modernes sont de veritable petits ordinateurs de poche dotes de 
 
 ### Questions Frequentes (FAQ)
 
-**Q1.** Est-ce que l'utilisation d'une protection d'ecran en verre trempe bas de gamme peut perturber la luminosite automatique ?
 
-**A1.** Tout a fait. Une vitre de protection de mauvaise qualite, mal collees ou dotee d'une colle jauni peut devier la lumiere entrante et tromper le capteur de proximite et de luminosite, provoquant des baisses d'intensite intempestives.
 
-**Q2.** Pourquoi mon Samsung Galaxy chauffe-t-il autant des que je sors au soleil avec la luminosite au maximum ?
 
-**A2.** Les ecrans AMOLED modernes peuvent atteindre des pics de luminosite tres eleves (plus de 1000 nits) en plein soleil. Cette montee en puissance tire enormement sur le circuit d'alimentation et genere naturellement de la chaleur, accentuee par les rayons solaires directs.
 
-**Q3.** Que faire si le nettoyage de la grille ne resout pas le probleme d'assombrissement ?
+Q1. Est-ce que l'utilisation d'une protection d'ecran en verre trempe bas de gamme peut perturber la luminosite automatique ?
 
-**A3.** Si le capteur reste aveugle ou deffectueux malgre un nettoyage approfondi et une reinitialisation des parametres d'usine, le module du capteur est peut-etre endommage ou deconnecte suite a une chute. Il est alors conseille de passer voir un technicien qualifie pour verifier la nappe superieure.
+
+
+
+
+A1. Tout a fait. Une vitre de protection de mauvaise qualite, mal collees ou dotee d'une colle jauni peut devier la lumiere entrante et tromper le capteur de proximite et de luminosite, provoquant des baisses d'intensite intempestives.
+
+
+
+
+
+Q2. Pourquoi mon Samsung Galaxy chauffe-t-il autant des que je sors au soleil avec la luminosite au maximum ?
+
+
+
+
+
+A2. Les ecrans AMOLED modernes peuvent atteindre des pics de luminosite tres eleves (plus de 1000 nits) en plein soleil. Cette montee en puissance tire enormement sur le circuit d'alimentation et genere naturellement de la chaleur, accentuee par les rayons solaires directs.
+
+
+
+
+
+Q3. Que faire si le nettoyage de la grille ne resout pas le probleme d'assombrissement ?
+
+
+
+
+
+A3. Si le capteur reste aveugle ou deffectueux malgre un nettoyage approfondi et une reinitialisation des parametres d'usine, le module du capteur est peut-etre endommage ou deconnecte suite a une chute. Il est alors conseille de passer voir un technicien qualifie pour verifier la nappe superieure.

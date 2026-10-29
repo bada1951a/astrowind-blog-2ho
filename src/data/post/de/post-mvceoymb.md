@@ -8,8 +8,6 @@ tags: ["iPhone", "USB-C", "Hardware", "Troubleshooting", "Muenchen"]
 theme: "Bronze Artisan Workshop"
 ---
 
-## 1. Kritischer Smartphone-Notfall im Alltag
-
 Es war exakt 14:15 Uhr an einem Dienstagnachmittag in unserem Buero im Muenchner Werksviertel. In vierzig Minuten sollte der entscheidende Q3-Review-Call mit einem wichtigen Grosskunden ueber die Buehne gehen. Ich hatte mein iPhone 15 Pro Max am Schreibtisch liegen, den Kaffee in unmittelbarer Naehe, als ein winziger Tropfen Kondenswasser oder ein Hauch Restfeuchtigkeit das besiegelte, wovor sich jeder ITler im Aussendienst fuerchtet: Plötzlich ploppte die Warnmeldung auf dem Display auf. *„Flüssigkeit im USB-C-Anschluss erkannt“*. Kein Laden mehr moeglich, und der Akku stand bei kritischen 12 Prozent. Der Adrenalinspiegel schoss sofort durch die Decke, denn ohne funktionierendes Geraet und gespiegelten Bildschirm war der Termin gelaufen.
 
 <div style="border-left: 4px solid #b45309; padding: 12px 16px; margin: 20px 0; background-color: rgba(0,0,0,0.03); border-radius: 4px; color: #111827;">
@@ -23,11 +21,9 @@ Es war exakt 14:15 Uhr an einem Dienstagnachmittag in unserem Buero im Muenchner
 Moderne iPhones und Android-Smartphones mit USB-C oder Lightning-Buchsen sind mit extrem sensiblen Feuchtigkeitssensoren und Kurzschlusserkennungen direkt an den Pins ausgestattet. Sobald der elektrische Widerstand im Port durch winzige Partikel oder Feuchtigkeit sinkt, schaltet das Betriebssystem aus Sicherheitsgruenden die Stromzufuhr ab. 
 
 Drei typische Ursachen fuehren im buerodynamischen Alltag zu diesem Fehler:
-1. Der Kondensations-Effekt: Das Smartphone lag im klimatisierten Konferenzraum und kam direkt aus der kalten Herbstluft nach draussen oder umgekehrt.
-
-2. Umwelt- und Taschenstaub: Mikroskopisch kleine Fusseln aus der Hosentasche haben sich mit etwas Luftfeuchtigkeit oder Schweiss zu einer leitenden Paste verbunden.
-
-3. Kleine Missgeschicke: Ein winziger Spritzer vom Mineralwasser oder dem Espresso auf dem Schreibtisch hat den Weg in die Buchse gefunden.
+1. <strong>Der Kondensations-Effekt:</strong> Das Smartphone lag im klimatisierten Konferenzraum und kam direkt aus der kalten Herbstluft nach draussen oder umgekehrt.
+2. <strong>Umwelt- und Taschenstaub:</strong> Mikroskopisch kleine Fusseln aus der Hosentasche haben sich mit etwas Luftfeuchtigkeit oder Schweiss zu einer leitenden Paste verbunden.
+3. <strong>Kleine Missgeschicke:</strong> Ein winziger Spritzer vom Mineralwasser oder dem Espresso auf dem Schreibtisch hat den Weg in die Buchse gefunden.
 
 ### Schritt-fuer-Schritt-Loesung fuer den Notfall
 
@@ -52,11 +48,11 @@ Wer den Fehler ignoriert und die Software-Warnung uebersteuert (oft gibt es bei 
 
 ### Haeufig gestellte Fragen (FAQ)
 
-1. Kann ich mein Geraet kabellos laden, solange der Port nass ist?
+<strong>1. Kann ich mein Geraet kabellos laden, solange der Port nass ist?</strong>
 Ja, das ist der beste Workaround im Buero. MagSafe oder kabelloses Qi-Laden funktionieren unabhaengig vom Zustand des physischen Ports und retten deinen Akku im Ernstfall.
 
-2. Wie lange dauert es normalerweise, bis die Meldung verschwindet?
+<strong>2. Wie lange dauert es normalerweise, bis die Meldung verschwindet?</strong>
 Bei leichter Umgebungsfeuchtigkeit dauert es meist zwischen 15 und 45 Minuten an einem gut belüfteten Ort. Bei echtem Wasserkontakt sollten Sie dem Geraet mindestens 5 Stunden Ruhe goennen.
 
-3. Darf ich Kontaktspray oder Isopropanol zur Reinigung nutzen?
+<strong>3. Darf ich Kontaktspray oder Isopropanol zur Reinigung nutzen?</strong>
 Hochreines Isopropanol (ab 99 Prozent) auf einem staubfreien Wattestaebchen kann helfen, hartnaeckige Verunreinigungen zu loesen. Achten Sie jedoch darauf, das Geraet dabei komplett auszuschalten und es vollstaendig ablueften zu lassen, bevor Sie es wieder ans Netz nehmen.

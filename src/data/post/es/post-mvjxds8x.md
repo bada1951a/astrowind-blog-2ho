@@ -28,13 +28,13 @@ Para solucionar este problema de raíz, primero debemos entender qué está ocur
 
 1. Saturación crítica de la memoria NAND Flash: Cuando el almacenamiento interno supera el 95-98 de ocupación, el controlador de memoria se queda sin espacio para realizar operaciones de E/S (Entrada/Salida) básicas y la gestión de la memoria virtual (swap). Al abrir la galería para procesar fotos pesadas, el sistema se bloquea intentando escribir archivos temporales (caché).
 
-2. Efecto lupa y radiación solar direct
+2. Efecto lupa y radiación solar directa.
 
-**A.** Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
+Los chasis de aluminio y cristal actúan como trampas térmicas. Bajo el sol de mediodía, la temperatura ambiente combinada con la luz directa eleva la temperatura externa del chasis rápidamente, impidiendo que el calor interno del procesador se disipe hacia el exterior.
 
-3. Pérdida de eficiencia en la disipación pasiv
+3. Pérdida de eficiencia en la disipación pasiva.
 
-**A.** Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
+Los smartphones modernos carecen de ventiladores. Confían en láminas de grafito y cámaras de vapor internas. Si tu funda es demasiado gruesa o de un material aislante (como cuero sintético o silicona barata), estás metiendo el móvil en un horno portátil.
 
 ---
 
@@ -49,12 +49,12 @@ Lo primero que debes hacer ante un bloqueo por sobrecalentamiento no es meter el
 
 #### Paso 2: Limpieza de emergencia de caché y archivos basura
 Una vez que el terminal encienda y temple su temperatura, toca liberar oxígeno al sistema de almacenamiento:
-* Entra en los ajustes de almacenamiento de tu sistem
+* Entra en los ajustes de almacenamiento de tu sistema.
 
-**A.** * Borra la caché de las aplicaciones pesadas que más utilizas (Galería, Redes Sociales, Navegadores).
-* Evita usar aplicaciones de terceros de "limpieza milagrosa" que hay en las tiendas de apps; la mayoría solo consumen recursos en segundo plano. Hazlo desde el menú nativo del sistem
+* Borra la caché de las aplicaciones pesadas que más utilizas (Galería, Redes Sociales, Navegadores).
+* Evita usar aplicaciones de terceros de "limpieza milagrosa" que hay en las tiendas de apps; la mayoría solo consumen recursos en segundo plano. Hazlo desde el menú nativo del sistema.
 
-**A.** * Desinstala de forma temporal aquella aplicación pesada que no uses a diario. Necesitamos recuperar al menos un 15% de espacio libre para que el sistema de archivos respire.
+* Desinstala de forma temporal aquella aplicación pesada que no uses a diario. Necesitamos recuperar al menos un 15% de espacio libre para que el sistema de archivos respire.
 
 #### Paso 3: Verificación de procesos en segundo plano
 Muchos de estos bucles térmicos ocurren porque hay sincronizaciones pendientes (como subir miles de fotos a la nube usando datos móviles bajo el sol).
@@ -73,16 +73,40 @@ Muchos de estos bucles térmicos ocurren porque hay sincronizaciones pendientes 
 
 ## 5. Preguntas Frecuentes (FAQ)
 
-**Q1.** ¿Es normal que mi móvil se caliente y baje el brillo solo por usar Google Maps en el coche?
 
-**A1.** Sí, es completamente habitual. Google Maps utiliza GPS continuo, renderizado 3D de mapas, conexión de datos y brillo máximo para que veas la pantalla a través del cristal del coche (donde se crea un efecto invernadero). Si además lo llevas cargando en el soporte conectado al mechero, la temperatura se dispar
 
-**A.** Te recomiendo colocar el soporte en las rejillas del aire acondicionado para usar el flujo del aire y mitigar el calor.
 
-**Q2.** ¿Por qué el brillo automático no responde aunque me ponga a la sombra?
 
-**A2.** Porque el software mantiene un "bloqueo de protección térmica". Hasta que el termistor interno de la placa base no registre una temperatura inferior al límite de seguridad (normalmente por debajo de los 38°C), el sistema operativo bloqueará el potenciómetro de brillo para proteger la matriz de la pantalla de quemaduras permanentes (efecto fantasma o retención de imagen).
+Q1. ¿Es normal que mi móvil se caliente y baje el brillo solo por usar Google Maps en el coche?
 
-**Q3.** ¿Ayuda en algo quitar la funda protectora cuando juego o hago fotos en la calle?
 
-**A3.** Drásticamente. Las fundas modernas, especialmente las de diseño robusto o siliconas gruesas, actúan como aislantes térmicos impidiendo que el calor generado por el chasis se disipe al aire libre. Quitar la funda durante tareas pesadas reduce la temperatura operativa del terminal entre 3°C y 5°C.
+
+
+
+A1. Sí, es completamente habitual. Google Maps utiliza GPS continuo, renderizado 3D de mapas, conexión de datos y brillo máximo para que veas la pantalla a través del cristal del coche (donde se crea un efecto invernadero). Si además lo llevas cargando en el soporte conectado al mechero, la temperatura se dispara.
+
+A. Te recomiendo colocar el soporte en las rejillas del aire acondicionado para usar el flujo del aire y mitigar el calor.
+
+
+
+
+
+Q2. ¿Por qué el brillo automático no responde aunque me ponga a la sombra?
+
+
+
+
+
+A2. Porque el software mantiene un "bloqueo de protección térmica". Hasta que el termistor interno de la placa base no registre una temperatura inferior al límite de seguridad (normalmente por debajo de los 38°C), el sistema operativo bloqueará el potenciómetro de brillo para proteger la matriz de la pantalla de quemaduras permanentes (efecto fantasma o retención de imagen).
+
+
+
+
+
+Q3. ¿Ayuda en algo quitar la funda protectora cuando juego o hago fotos en la calle?
+
+
+
+
+
+A3. Drásticamente. Las fundas modernas, especialmente las de diseño robusto o siliconas gruesas, actúan como aislantes térmicos impidiendo que el calor generado por el chasis se disipe al aire libre. Quitar la funda durante tareas pesadas reduce la temperatura operativa del terminal entre 3°C y 5°C.
