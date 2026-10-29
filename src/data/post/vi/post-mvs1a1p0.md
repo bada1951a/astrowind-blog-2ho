@@ -45,7 +45,7 @@ Nếu tải phần mềm mất hơn 15 phút, iPhone có thể thoát khỏi mà
 
 **Q1.** Chọn Cập nhật có chắc chắn giữ lại ảnh không?
 
-**Q2.** Tôi có phải chờ đúng một giờ nếu thanh tiến trình có vẻ bị đứng không?
+**A1.** Không thể đảm bảo kết quả dữ liệu. Hãy thử Cập nhật trước Khôi phục và tìm trợ giúp trước khi xóa dữ liệu quan trọng.
 
 **Q2.** Tôi có phải chờ đúng một giờ nếu thanh tiến trình có vẻ bị đứng không?
 
