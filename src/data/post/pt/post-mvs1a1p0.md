@@ -45,7 +45,7 @@ Se o download do software demorar mais de 15 minutos, o iPhone pode sair da tela
 
 **Q1.** Atualizar garante que minhas fotos serão mantidas?
 
-**Q2.** Preciso esperar exatamente uma hora se a barra parecer parada?
+**A1.** Não é possível garantir o resultado dos dados. Tente Atualizar antes de Restaurar e procure ajuda antes de apagar dados importantes.
 
 **Q2.** Preciso esperar exatamente uma hora se a barra parecer parada?
 
