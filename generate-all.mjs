@@ -47,99 +47,99 @@ function getKstPublishDateIso() {
 // =========================================================================
 const I18N_SECTIONS = {
   ko: {
-    s1: "1. 스마트폰 먹통 돌발 위기 상황",
-    s2: "2. 충전 오류 및 하드웨어 결함의 핵심 원인 분석",
-    s3: "3. 1분 만에 끝내는 단계별 실전 응급 조치법",
-    s4: "4. 현직 수리 기사가 전하는 주의사항 및 팁",
+    s1: "1. 문제가 생긴 순간과 먼저 확인할 것",
+    s2: "2. 증상으로 원인을 구분하는 방법",
+    s3: "3. 안전하게 따라 하는 해결 순서",
+    s4: "4. 실수 방지와 전문가 도움을 받을 때",
     s5: "5. 자주 묻는 질문 (FAQ)",
     tags: ["스마트폰수리", "모바일팁", "트러블슈팅", "배터리케어"]
   },
   en: {
-    s1: "1. Critical Smartphone Emergency Situation",
-    s2: "2. Root Cause Breakdown of Port and Hardware Failures",
-    s3: "3. Step-by-Step Practical Emergency Resolution",
-    s4: "4. Professional Repair Technician Precautions & Tips",
+    s1: "1. The Moment It Happens: What to Check First",
+    s2: "2. What the Symptoms Can Tell You",
+    s3: "3. Safe Steps to Solve the Problem",
+    s4: "4. Mistakes to Avoid and When to Get Help",
     s5: "5. Frequently Asked Questions (FAQ)",
     tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
   },
   ja: {
-    s1: "1. スマホが突然動かなくなった緊急トラブル",
-    s2: "2. 充電不良とハードウェア障害の根本原因",
-    s3: "3. 1分で完了する実践的な応急処置手順",
-    s4: "4. 現役修理技術者が教える注意点とコツ",
+    s1: "1. トラブルが起きた瞬間に最初に確認すること",
+    s2: "2. 症状から原因を見分ける",
+    s3: "3. 安全に試す解決手順",
+    s4: "4. 避けるべき操作と相談の目安",
     s5: "5. よくある質問 (FAQ)",
     tags: ["スマホ修理", "ハードウェア", "トラブルシューティング", "バッテリーケア"]
   },
   de: {
-    s1: "1. Kritischer Smartphone-Notfall im Alltag",
-    s2: "2. Detaillierte Ursachenanalyse von Lade- und Hardwarefehlern",
-    s3: "3. Schritt-für-Schritt-Anleitung zur Notfallbehebung",
-    s4: "4. Praxistipps und Warnungen vom Reparatur-Experten",
-    s5: "5. Häufig gestellte Fragen (FAQ)",
+    s1: "1. Der Moment, in dem es passiert: Das zuerst prüfen",
+    s2: "2. Was die Symptome verraten",
+    s3: "3. Sichere Schritte zur Lösung",
+    s4: "4. Fehler vermeiden und wissen, wann Hilfe nötig ist",
+    s5: "5. Häufige Fragen (FAQ)",
     tags: ["Smartphone-Reparatur", "Hardware", "Fehlerbehebung", "Akku-Pflege"]
   },
   fr: {
-    s1: "1. Situation d'urgence critique sur smartphone",
-    s2: "2. Analyse approfondie des pannes matérielles et de charge",
-    s3: "3. Guide pratique de dépannage étape par étape",
-    s4: "4. Conseils et précautions d'un réparateur professionnel",
-    s5: "5. Foire Aux Questions (FAQ)",
+    s1: "1. Au moment du problème : les premières vérifications",
+    s2: "2. Ce que les symptômes peuvent indiquer",
+    s3: "3. Les étapes sûres pour résoudre le problème",
+    s4: "4. Les erreurs à éviter et quand demander de l’aide",
+    s5: "5. Questions fréquentes (FAQ)",
     tags: ["Réparation Smartphone", "Matériel", "Dépannage", "Entretien Batterie"]
   },
   es: {
-    s1: "1. Emergencia crítica con el teléfono móvil",
-    s2: "2. Análisis de causas raíz de fallos de carga y hardware",
-    s3: "3. Solución práctica de emergencia paso a paso",
-    s4: "4. Consejos y advertencias de un técnico reparador",
-    s5: "5. Preguntas Frecuentes (FAQ)",
+    s1: "1. Cuando ocurre: qué comprobar primero",
+    s2: "2. Qué pueden indicar los síntomas",
+    s3: "3. Pasos seguros para resolverlo",
+    s4: "4. Errores que conviene evitar y cuándo pedir ayuda",
+    s5: "5. Preguntas frecuentes (FAQ)",
     tags: ["Reparación Móvil", "Hardware", "Solución de Problemas", "Cuidado Batería"]
   },
   it: {
-    s1: "1. Emergenza improvvisa con lo smartphone",
-    s2: "2. Analisi approfondita dei guasti hardware e di ricarica",
-    s3: "3. Guida pratica di risoluzione passo dopo passo",
-    s4: "4. Avvertenze e suggerimenti del tecnico riparatore",
-    s5: "5. Domande Frequenti (FAQ)",
+    s1: "1. Quando succede: cosa controllare per prima cosa",
+    s2: "2. Cosa possono indicare i sintomi",
+    s3: "3. I passaggi sicuri per risolvere il problema",
+    s4: "4. Errori da evitare e quando chiedere assistenza",
+    s5: "5. Domande frequenti (FAQ)",
     tags: ["Riparazione Smartphone", "Hardware", "Risoluzione Problemi", "Cura Batteria"]
   },
   pt: {
-    s1: "1. Situação de emergência com o smartphone",
-    s2: "2. Análise da causa raiz de falhas de carregamento e hardware",
-    s3: "3. Guia prático de primeiros socorros passo a passo",
-    s4: "4. Alertas e recomendações de técnicos especialistas",
-    s5: "5. Perguntas Frecuentes (FAQ)",
+    s1: "1. Quando acontece: o que verificar primeiro",
+    s2: "2. O que os sintomas podem indicar",
+    s3: "3. Etapas seguras para resolver o problema",
+    s4: "4. Erros a evitar e quando pedir ajuda",
+    s5: "5. Perguntas frequentes (FAQ)",
     tags: ["Reparo Celular", "Hardware", "Solução de Problemas", "Cuidado Bateria"]
   },
   nl: {
-    s1: "1. Kritieke smartphone-noodsituatie",
-    s2: "2. Grondige oorzaakanalyse van laad- en hardwareproblemen",
-    s3: "3. Stapsgewijze praktische noodoplossing",
-    s4: "4. Belangrijke waarschuwingen van reparatiespecialisten",
-    s5: "5. Veelgestelde Vragen (FAQ)",
+    s1: "1. Op het moment zelf: wat controleer je eerst?",
+    s2: "2. Wat de symptomen kunnen betekenen",
+    s3: "3. Veilige stappen om het probleem op te lossen",
+    s4: "4. Wat je beter niet doet en wanneer je hulp vraagt",
+    s5: "5. Veelgestelde vragen (FAQ)",
     tags: ["Smartphone Reparatie", "Hardware", "Probleemoplossing", "Accuzorg"]
   },
   pl: {
-    s1: "1. Awaryjna sytuacja ze smartfonem",
-    s2: "2. Szczegółowa analiza przyczyn problemów z ładowaniem i sprzętem",
-    s3: "3. Praktyczne rozwiązanie problemu krok po kroku",
-    s4: "4. Wskazówki i ostrzeżenia profesjonalnego serwisanta",
-    s5: "5. Najczęściej zadawane pytania (FAQ)",
+    s1: "1. Gdy to się dzieje: co najpierw sprawdzić",
+    s2: "2. Co mogą oznaczać objawy",
+    s3: "3. Bezpieczne kroki rozwiązania problemu",
+    s4: "4. Czego unikać i kiedy szukać pomocy",
+    s5: "5. Częste pytania (FAQ)",
     tags: ["Naprawa Smartfona", "Sprzęt", "Rozwiązywanie Problemów", "Kondycja Baterii"]
   },
   id: {
-    s1: "1. Situasi Darurat Kritis pada Smartphone",
-    s2: "2. Analisis Mendalam Kerusakan Port dan Hardware",
-    s3: "3. Panduan Praktis Langkah demi Langkah Perbaikan Darurat",
-    s4: "4. Tips & Peringatan Penting Teknisi Reparasi",
-    s5: "5. Pertanyaan yang Sering Diajukan (FAQ)",
+    s1: "1. Saat masalah muncul: apa yang diperiksa lebih dulu",
+    s2: "2. Arti gejala yang terlihat",
+    s3: "3. Langkah aman untuk mengatasinya",
+    s4: "4. Hal yang perlu dihindari dan kapan mencari bantuan",
+    s5: "5. Pertanyaan umum (FAQ)",
     tags: ["Reparasi HP", "Perangkat Keras", "Troubleshooting", "Perawatan Baterai"]
   },
   vi: {
-    s1: "1. Tình huống sự cố điện thoại thông minh khẩn cấp",
-    s2: "2. Phân tích nguyên nhân gốc rễ lỗi sạc và phần cứng",
-    s3: "3. Các bước xử lý khẩn cấp thực tế từng bước",
-    s4: "4. Lưu ý và lời khuyên quan trọng từ thợ sửa chữa",
-    s5: "5. Các câu hỏi thường gặp (FAQ)",
+    s1: "1. Khi sự cố xảy ra: điều cần kiểm tra trước tiên",
+    s2: "2. Triệu chứng có thể cho biết điều gì",
+    s3: "3. Các bước an toàn để xử lý",
+    s4: "4. Điều cần tránh và khi nào cần trợ giúp",
+    s5: "5. Câu hỏi thường gặp (FAQ)",
     tags: ["Sửa Điện Thoại", "Phần Cứng", "Khắc Phục Sự Cố", "Bảo Vệ Pin"]
   }
 };
@@ -342,7 +342,7 @@ function validateGeneratedPost(text, langCode) {
 
 async function generateSinglePost(lang, index) {
   const selectedTheme = THEME_PRESETS[Math.floor(Math.random() * THEME_PRESETS.length)];
-  const selectedScenario = MOBILE_CRISIS_SCENARIOS_30[Math.floor(Math.random() * MOBILE_CRISIS_SCENARIOS_30.length)];
+  const selectedScenario = currentTopic;
   const i18n = I18N_SECTIONS[lang.code] || I18N_SECTIONS.ko;
 
   console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 애드센스 표준 생성 중... (테마: ${selectedTheme.name})`);
@@ -353,7 +353,7 @@ async function generateSinglePost(lang, index) {
   // 🎯 [애드센스 승인 최적화 프롬프트: 2,400~2,600자 정량화]
   const prompt = `
 Write as a clear, warm, knowledgeable guide for ${lang.name} readers; do not claim to be a repair technician or to have personally handled this phone.
-Write a high-quality, practical mobile smartphone hardware & repair guide natively in ${lang.name}.
+Write a high-quality, practical mobile technology guide about the assigned topic, natively in ${lang.name}.
 Target Culture: "${lang.localeContext}"
 Assigned Situation: "${selectedScenario}"
 Topic: "${currentTopic}"
@@ -362,7 +362,7 @@ Topic: "${currentTopic}"
 - For Korean (ko): Write exactly around 2,400 - 2,600 characters (do NOT exceed 3,000 characters).
 - For other languages: Write exactly 900 - 1,100 words.
 - Tone: Highly informative, professional, practical technician advice.
-- Narrative voice: Write in a first-person storytelling voice ("I"/the natural first-person form in ${lang.name}) from the assigned technician persona's perspective.
+- Narrative voice: Use a natural first-person guide voice ("I"/the natural first-person form in ${lang.name}) without claiming professional credentials or personal repair experiences.
 - Open with a vivid, reader-centered moment based on the assigned situation, then carry the article in a natural first-person guide voice. Aim for roughly 30% engaging narrative and transitions and 70% verified explanations, practical steps, and safety information.
 - Never begin with a disclaimer that a scene is hypothetical, illustrative, or not a real customer case. Do not invent customer stories, personal repair experiences, credentials, quotations, or outcomes. Use first person to explain what to check and why, without claiming events that did not happen.
 - Keep the story readable and the instructions easy to follow. Accuracy, useful steps, clear safety warnings, and reliable sources take priority over a forced story arc.
@@ -371,16 +371,16 @@ Topic: "${currentTopic}"
 Use these exact H2 headings:
 
 ## ${i18n.s1}
-Write 2 detailed paragraphs describing the sudden smartphone hardware failure, remaining battery panic, and urgent crisis based on: "${selectedScenario}".
+Write 2 detailed, engaging paragraphs that place the reader in a recognizable moment related to the actual topic. Keep the scene specific to "${currentTopic}" and do not invent a real customer case.
 
 ## ${i18n.s2}
-Write 2 analytical paragraphs explaining the technical root causes (port pin oxidation, lint compaction, PMIC loop, thermal throttling, or BMS calibration drift).
+Write 2 clear paragraphs explaining plausible causes and observable clues specific to "${currentTopic}". Do not list unrelated hardware causes or state uncertain diagnoses as fact.
 
 ## ${i18n.s3}
 Provide 3 concrete practical emergency resolution steps. Use clean numbered lists with safe tools and exact diagnostic steps.
 
 ## ${i18n.s4}
-Write 2 paragraphs of practical precautions and technician tips to prevent recurring hardware damage.
+Write 2 practical paragraphs about safe use, mistakes to avoid, prevention where relevant, and when to seek professional help.
 
 ## ${i18n.s5}
 Provide exactly 3 practical Q&A items. You MUST put an empty line between Question and Answer:
