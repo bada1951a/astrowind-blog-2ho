@@ -19,6 +19,8 @@ Devi uscire e ti serve un biglietto, ma sull’iPhone resta solo il logo Apple. 
 
 Dopo un aggiornamento, un ripristino o un trasferimento, la barra può avanzare lentamente o sembrare ferma. Questo da solo non dimostra un guasto alla porta o alla memoria. Se il logo Apple resta per diversi minuti senza barra, Apple indica di valutare la modalità di recupero dal computer. Distingui prima le schermate, senza indovinare la causa o rischiare i dati.
 
+Prima di collegare il telefono, controllo anche se è collegato all’alimentazione e se lo schermo mostra un messaggio diverso dal logo. Non stacco il cavo durante un aggiornamento attivo. Se il computer propone due scelte, leggo entrambe con calma: Aggiorna e Ripristina non hanno lo stesso effetto sui dati.
+
 ## 3. I passaggi sicuri per risolvere il problema
 
 Il riavvio forzato è utile quando non è possibile riavviare normalmente l’iPhone. È diverso da Ripristina, che cancella il dispositivo.
