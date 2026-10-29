@@ -45,7 +45,7 @@ Si le téléchargement du logiciel dépasse 15 minutes, l’iPhone peut quitter 
 
 **Q1.** Mettre à jour garantit-il la conservation de mes photos ?
 
-**Q2.** Dois-je attendre exactement une heure si la barre semble bloquée ?
+**A1.** Non, aucune garantie ne peut être donnée. Essayez Mettre à jour avant Restaurer et demandez conseil avant tout effacement.
 
 **Q2.** Dois-je attendre exactement une heure si la barre semble bloquée ?
 
