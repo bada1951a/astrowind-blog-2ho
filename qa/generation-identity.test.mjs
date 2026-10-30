@@ -3,7 +3,7 @@ import test from 'node:test';
 import { readFileSync } from 'node:fs';
 
 import { createCheckpointKey, createTopicFileSlug, decidePublishLocales } from '../generation-identity.mjs';
-import { normalizeBoldSpacing, validateFaqLayout } from '../markdown-normalizers.mjs';
+import { normalizeBoldSpacing, normalizeFaqMarkerProse, validateFaqLayout } from '../markdown-normalizers.mjs';
 
 test('a prompt update invalidates cached drafts but the same version can resume', () => {
   const topics = ['Assigned topic', 'Next topic'];
@@ -60,6 +60,39 @@ test('publication gate allows exactly passing locales at 9/12, 10/12, and 12/12'
   assert.equal(twelve.canPublish, true);
   assert.deepEqual(twelve.passingLocales, publicationTargets);
   assert.deepEqual(twelve.failedCodes, []);
+});
+
+test('split FAQ marker and prose normalize to the validated same-line layout', () => {
+  const markdown = [
+    '## 5. Questions',
+    '**Q1.** Why does the app freeze?',
+    '',
+    '**A1.**',
+    '',
+    'Check memory pressure and the affected app version.',
+    '',
+    '**Q2.** When should I restart?',
+    '',
+    '**A2.** Restart after saving any open work.',
+    '',
+    '**Q3.** Should I clear app data?',
+    '',
+    '**A3.** Clear cache first and back up important data.',
+  ].join('\n');
+
+  const normalized = normalizeFaqMarkerProse(markdown);
+
+  assert.match(normalized, /\*\*A1\.\*\* Check memory pressure and the affected app version\./);
+  assert.deepEqual(validateFaqLayout(normalized), []);
+});
+
+test('FAQ marker normalization does not rewrite code examples or absorb the next marker', () => {
+  const markdown = ['```md', '**A1.**', 'example answer', '```', '**Q1.**', '**A1.**'].join('\n');
+
+  const normalized = normalizeFaqMarkerProse(markdown);
+
+  assert.match(normalized, /```md\n\*\*A1\.\*\*\nexample answer\n```/);
+  assert.match(normalized, /\*\*Q1\.\*\*\n\*\*A1\.\*\*/);
 });
 
 test('generator uses the tested publication plan to gate and select written locales', () => {
@@ -230,3 +263,4 @@ test('repair prompt preserves explicit FAQ markers and blank-line layout', () =>
     assert.ok(source.includes(requirement), 'Missing FAQ repair requirement: ' + requirement);
   }
 });
+
