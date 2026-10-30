@@ -139,7 +139,7 @@ test("generator uses the tested publication plan to gate and select written loca
   );
   assert.match(
     source,
-    /decidePublishLocales\s*\(\s*TARGET_LANGS,\s*\[\s*\.\.\.generatedPostContents\.keys\(\)\s*\],\s*10\s*\)/,
+    /decidePublishLocales\s*\([\s\S]*?TARGET_LANGS,[\s\S]*?\.\.\.generatedPostContents\.keys\(\)[\s\S]*?\b10,?\s*\)/,
   );
   assert.match(source, /if \(!publication\.canPublish\)/);
   assert.match(source, /for \(const lang of publication\.passingLocales\)/);
@@ -151,7 +151,6 @@ test("the 2ho prompt requires independent locale generation and truthful first-p
     "utf8",
   );
   const requiredDirectives = [
-    "const GENERATION_PROMPT_VERSION = '2026-10-30-first-person-story-v3';",
     "separate locale-specific generation call, not a translation",
     "Carry a natural, topic-fit first-person storytelling voice throughout the full article.",
     "Keep roughly 30% engaging narrative and narrator reasoning/transitions and 70%",
@@ -160,6 +159,11 @@ test("the 2ho prompt requires independent locale generation and truthful first-p
     "Do not invent customer stories, personal repair experiences,",
     "credentials, quotations, or outcomes.",
   ];
+
+  assert.match(
+    source,
+    /const GENERATION_PROMPT_VERSION\s*=\s*[\"']2026-10-30-first-person-story-v3[\"'];/,
+  );
 
   for (const directive of requiredDirectives) {
     assert.ok(
