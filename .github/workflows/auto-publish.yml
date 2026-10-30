@@ -46,7 +46,11 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/post/ topics.txt
-          git commit -m "Auto published new multi-language mobile-tech posts" || echo "No changes to commit"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto published new multi-language mobile-tech posts"
+          fi
           git push
 
       # 실패한 언어 실행에서도 통과한 원고를 다음 실행에서 재사용합니다.
