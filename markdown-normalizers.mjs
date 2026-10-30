@@ -6,6 +6,14 @@ export function normalizeBoldSpacing(markdown) {
 }
 
 export function normalizeFaqMarkerProse(markdown) {
+  const source = String(markdown);
+  const sourceLines = source.split(/\r?\n/);
+  const faqStart = sourceLines.findIndex((line) => /^##\s+5[.)]\s+\S/i.test(line));
+  if (faqStart < 0) return source;
+  const nextSection = sourceLines.findIndex((line, index) => index > faqStart && /^##\s+/.test(line));
+  const faqEnd = nextSection < 0 ? sourceLines.length : nextSection;
+  const faqLines = sourceLines.slice(faqStart, faqEnd);
+
   const normalizeSegment = (segment) => {
     const lines = segment.split(/\r?\n/);
 
@@ -27,10 +35,17 @@ export function normalizeFaqMarkerProse(markdown) {
     return lines.join('\n');
   };
 
-  return markdown
+  const faqSource = faqLines.join('\n');
+  const normalizedFaq = faqSource
     .split(/(```[\s\S]*?```)/g)
     .map((segment, index) => (index % 2 === 0 ? normalizeSegment(segment) : segment))
     .join('');
+  if (normalizedFaq === faqSource) return source;
+
+  const newline = source.includes('\r\n') ? '\r\n' : '\n';
+  return [...sourceLines.slice(0, faqStart), ...normalizedFaq.split(/\r?\n/), ...sourceLines.slice(faqEnd)].join(
+    newline
+  );
 }
 
 export function validateFaqLayout(markdown) {
@@ -60,3 +75,4 @@ export function validateFaqLayout(markdown) {
   }
   return errors;
 }
+

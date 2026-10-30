@@ -87,12 +87,56 @@ test('split FAQ marker and prose normalize to the validated same-line layout', (
 });
 
 test('FAQ marker normalization does not rewrite code examples or absorb the next marker', () => {
-  const markdown = ['```md', '**A1.**', 'example answer', '```', '**Q1.**', '**A1.**'].join('\n');
+  const markdown = ['## 5. Questions', '```md', '**A1.**', 'example answer', '```', '**Q1.**', '**A1.**'].join('\n');
 
   const normalized = normalizeFaqMarkerProse(markdown);
 
   assert.match(normalized, /```md\n\*\*A1\.\*\*\nexample answer\n```/);
   assert.match(normalized, /\*\*Q1\.\*\*\n\*\*A1\.\*\*/);
+});
+
+test('FAQ marker-like text outside the FAQ section is unchanged', () => {
+  const markdown = [
+    '## 2. Example',
+    '**A1.**',
+    'This is literal sample text and should stay on its own line.',
+    '## 5. Questions',
+    '**Q1.**',
+    'Actual FAQ question?',
+    '**A1.**',
+    'Actual FAQ answer.',
+  ].join('\n');
+
+  const normalized = normalizeFaqMarkerProse(markdown);
+
+  assert.ok(normalized.startsWith('## 2. Example\n**A1.**\nThis is literal sample text'));
+  assert.match(normalized, /\*\*Q1\.\*\* Actual FAQ question\?/);
+  assert.match(normalized, /\*\*A1\.\*\* Actual FAQ answer\./);
+});
+
+test('FAQ normalization preserves continuation lines and paragraph breaks', () => {
+  const markdown = [
+    '## 5. Questions',
+    '**Q1.** Why check the backup?',
+    '**A1.**',
+    '',
+    'A backup protects files before a reset.',
+    'Check that the copy opens on another device.',
+    '',
+    'Keep the original until the restored copy is verified.',
+  ].join('\n');
+
+  assert.equal(
+    normalizeFaqMarkerProse(markdown),
+    [
+      '## 5. Questions',
+      '**Q1.** Why check the backup?',
+      '**A1.** A backup protects files before a reset.',
+      'Check that the copy opens on another device.',
+      '',
+      'Keep the original until the restored copy is verified.',
+    ].join('\n')
+  );
 });
 
 test('generator uses the tested publication plan to gate and select written locales', () => {
@@ -263,3 +307,4 @@ test('repair prompt preserves explicit FAQ markers and blank-line layout', () =>
     assert.ok(source.includes(requirement), 'Missing FAQ repair requirement: ' + requirement);
   }
 });
+
