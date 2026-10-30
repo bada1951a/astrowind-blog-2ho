@@ -162,7 +162,7 @@ test("the 2ho prompt requires independent locale generation and truthful first-p
 
   assert.match(
     source,
-    /const GENERATION_PROMPT_VERSION\s*=\s*[\"']2026-10-30-first-person-story-v3[\"'];/,
+    /const GENERATION_PROMPT_VERSION\s*=\s*["']2026-10-30-first-person-story-v3["'];/,
   );
 
   for (const directive of requiredDirectives) {
