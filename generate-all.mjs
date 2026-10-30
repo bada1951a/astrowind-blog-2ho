@@ -52,7 +52,7 @@ function refreshPublishDate(text, publishDate) {
     throw new Error('Checkpoint must have exactly one publishDate field.');
   const updatedFrontmatter = frontmatterMatch[0].replace(
     /^publishDate:\s*.*$/m,
-    'publishDate: ' + publishDate
+    'publishDate: ' + publishDate,
   );
   return updatedFrontmatter + text.slice(frontmatterMatch[0].length);
 }
