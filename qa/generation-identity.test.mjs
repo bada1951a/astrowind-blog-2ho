@@ -70,9 +70,9 @@ test('generator uses the tested publication plan to gate and select written loca
 });
 
 test('the 2ho prompt requires independent locale generation and truthful first-person storytelling', () => {
+  const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
   assert.ok(generatorSource.includes('Write concise headings in the target language that fit ${currentTopic}'));
   assert.ok(generatorSource.includes('Do not use generic boilerplate, promise guaranteed resolution times or outcomes'));
-  const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
   const requiredDirectives = [
     "const GENERATION_PROMPT_VERSION = '2026-10-30-topic-specific-headings-v1';",
     'separate locale-specific generation call, not a translation',
