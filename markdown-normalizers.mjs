@@ -16,15 +16,37 @@ export function normalizeFaqMarkerProse(markdown) {
 
   const normalizeSegment = (segment) => {
     const lines = segment.split(/\r?\n/);
+    let fenceCharacter = null;
+    let fenceLength = 0;
 
     for (let index = 0; index < lines.length; index += 1) {
-      const marker = lines[index].match(/^[ \t]*(\*\*(?:Q|A)[1-3]\.\*\*)[ \t]*$/);
+      const line = lines[index];
+      const fence = line.match(/^ {0,3}(`{3,}|~{3,})(.*)$/);
+      if (fenceCharacter) {
+        if (
+          fence &&
+          fence[1][0] === fenceCharacter &&
+          fence[1].length >= fenceLength &&
+          /^[ \t]*$/.test(fence[2])
+        ) {
+          fenceCharacter = null;
+          fenceLength = 0;
+        }
+        continue;
+      }
+      if (fence) {
+        fenceCharacter = fence[1][0];
+        fenceLength = fence[1].length;
+        continue;
+      }
+
+      const marker = line.match(/^[ \t]*(\*\*(?:Q|A)[1-3]\.\*\*)[ \t]*$/);
       if (!marker) continue;
 
       let proseIndex = index + 1;
       while (proseIndex < lines.length && lines[proseIndex].trim() === '') proseIndex += 1;
       const prose = lines[proseIndex]?.trim();
-      if (!prose || /^(?:\*\*(?:Q|A)[1-3]\.\*\*|#{1,6}\s|[-*+]\s|>\s|```)/.test(prose)) {
+      if (!prose || /^(?:\*\*(?:Q|A)[1-3]\.\*\*|#{1,6}\s|[-*+]\s|>\s|(?:`{3,}|~{3,}))/u.test(prose)) {
         continue;
       }
 
@@ -36,10 +58,7 @@ export function normalizeFaqMarkerProse(markdown) {
   };
 
   const faqSource = faqLines.join('\n');
-  const normalizedFaq = faqSource
-    .split(/(```[\s\S]*?```)/g)
-    .map((segment, index) => (index % 2 === 0 ? normalizeSegment(segment) : segment))
-    .join('');
+  const normalizedFaq = normalizeSegment(faqSource);
   if (normalizedFaq === faqSource) return source;
 
   const newline = source.includes('\r\n') ? '\r\n' : '\n';
