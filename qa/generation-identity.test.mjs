@@ -70,9 +70,11 @@ test('generator uses the tested publication plan to gate and select written loca
 });
 
 test('the 2ho prompt requires independent locale generation and truthful first-person storytelling', () => {
+  assert.ok(source.includes('Write concise headings in the target language that fit ${currentTopic}'));
+  assert.ok(source.includes('Do not use generic boilerplate, promise guaranteed resolution times or outcomes'));
   const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
   const requiredDirectives = [
-    "const GENERATION_PROMPT_VERSION = '2026-10-30-first-person-story-v3';",
+    "const GENERATION_PROMPT_VERSION = '2026-10-30-topic-specific-headings-v1';",
     'separate locale-specific generation call, not a translation',
     'Carry a natural, topic-fit first-person storytelling voice throughout the full article.',
     'Keep roughly 30% engaging narrative and narrator reasoning/transitions and 70%',
