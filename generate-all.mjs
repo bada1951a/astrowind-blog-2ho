@@ -13,7 +13,7 @@ import { createHash, createCipheriv, createDecipheriv, randomBytes } from 'node:
 import { normalizeBoldSpacing, validateFaqLayout } from './markdown-normalizers.mjs';
 import { createCheckpointKey, createTopicFileSlug, decidePublishLocales } from './generation-identity.mjs';
 
-const GENERATION_PROMPT_VERSION = '2026-10-30-truthful-first-person-v2';
+const GENERATION_PROMPT_VERSION = '2026-10-30-truthful-first-person-v3';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 if (!OPENAI_API_KEY) {
   console.error('❌ OPENAI_API_KEY 환경변수가 설정되지 않았습니다.');
@@ -303,73 +303,73 @@ const TARGET_LANGS = [
   {
     code: 'ko',
     name: 'Korean',
-    persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사',
+    persona: '실용적인 스마트폰 문제 해결 방법을 쉽게 설명하는 글쓴이',
     localeContext: 'Korean-language readers in South Korea',
   },
   {
     code: 'en',
     name: 'English',
-    persona: 'Expert mobile repair technician and smartphone specialist',
+    persona: 'Practical guide writer explaining smartphone troubleshooting clearly',
     localeContext: 'English-language readers in the United States',
   },
   {
     code: 'ja',
     name: 'Japanese',
-    persona: 'スマホ修理とハードウェアトラブルシューティングの専門家',
+    persona: 'スマートフォンの問題解決を分かりやすく案内する実用ガイドの書き手',
     localeContext: 'Japanese-language readers in Japan',
   },
   {
     code: 'de',
     name: 'German',
-    persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker',
+    persona: 'Praktischer Ratgeberautor für verständliche Smartphone-Hilfe',
     localeContext: 'German-language readers in Germany',
   },
   {
     code: 'fr',
     name: 'French',
-    persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles',
+    persona: 'Rédacteur de guides pratiques sur le dépannage des smartphones',
     localeContext: 'French-language readers in France',
   },
   {
     code: 'es',
     name: 'Spanish',
-    persona: 'Técnico especialista en telefonía móvil y reparación de terminales',
+    persona: 'Redactor de guías prácticas para resolver problemas de teléfonos',
     localeContext: 'Spanish-language readers in Spain',
   },
   {
     code: 'it',
     name: 'Italian',
-    persona: 'Tecnico esperto in riparazione e diagnostica smartphone',
+    persona: 'Autore di guide pratiche per spiegare i problemi degli smartphone',
     localeContext: 'Italian-language readers in Italy',
   },
   {
     code: 'pt',
     name: 'Portuguese',
-    persona: 'Técnico experiente em reparação de celulares e hardware móvel',
+    persona: 'Redator de guias práticos para explicar problemas de smartphones',
     localeContext: 'Portuguese-language readers in Brazil',
   },
   {
     code: 'nl',
     name: 'Dutch',
-    persona: 'Smartphone reparatiespecialist en mobiele hardware-expert',
+    persona: 'Praktische gidsenschrijver voor duidelijke hulp bij smartphoneproblemen',
     localeContext: 'Dutch-language readers in the Netherlands',
   },
   {
     code: 'pl',
     name: 'Polish',
-    persona: 'Serwisant urządzeń mobilnych i smartfonów',
+    persona: 'Autor praktycznych poradników o rozwiązywaniu problemów ze smartfonami',
     localeContext: 'Polish-language readers in Poland',
   },
   {
     code: 'id',
     name: 'Indonesian',
-    persona: 'Teknisi profesional perbaikan smartphone dan gadget',
+    persona: 'Penulis panduan praktis untuk menjelaskan masalah ponsel',
     localeContext: 'Indonesian-language readers in Indonesia',
   },
   {
     code: 'vi',
     name: 'Vietnamese',
-    persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm',
+    persona: 'Người viết hướng dẫn thực tế, giải thích cách xử lý sự cố điện thoại',
     localeContext: 'Vietnamese-language readers in Vietnam',
   },
 ];
@@ -640,7 +640,7 @@ theme: "${selectedTheme.name}"
       console.warn(
         `⚠️ ${lang.code} 검수 실패(${validationErrors.join(', ')}). 해당 언어 correction ${correctionAttempt}/2 요청합니다.`
       );
-      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing or malformed, add five concise numbered headings in ${lang.name} that fit the topic and existing content. Avoid generic boilerplate, unsupported credentials, and guaranteed time or outcome claims. Reorganize relevant existing content without adding filler, unsupported facts, invented first-person experiences, or customer anecdotes. Preserve required FAQ markers and language. Keep the first-person voice in present reasoning only; do not invent a past event, commute, customer interaction, meeting, named person, city, date, time, or case. Do not add a hypothetical-scene disclaimer. Return raw Markdown only.\n\nOriginal article:\n${text}`;
+      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing or malformed, add five concise numbered headings in ${lang.name} that fit the topic and existing content. Avoid generic boilerplate, unsupported credentials, and guaranteed time or outcome claims. Reorganize relevant existing content without adding filler, unsupported facts, invented first-person experiences, or customer anecdotes. Preserve required FAQ markers and language. Keep the first-person voice in present reasoning only; do not invent a past event, commute, customer interaction, meeting, named person, city, date, time, or case. Do not add a hypothetical-scene disclaimer. [REQUIRED FAQ LAYOUT]\n- Keep all FAQ question and answer prose in ${lang.name}; preserve its meaning.\n- Put each exact marker (**Q1.**, **A1.**, **Q2.**, **A2.**, **Q3.**, **A3.**) at the start of its own line, followed by that question or answer text on the same line.\n- Put one blank line between each question and its answer, and between FAQ pairs. Do not place a question and its answer marker on the same line. Return raw Markdown only.\n\nOriginal article:\n${text}`;
       text = normalizeGeneratedResponse(await fetchWithRetry(repairPrompt));
       validationErrors = validateGeneratedPost(text, lang.code);
     }
