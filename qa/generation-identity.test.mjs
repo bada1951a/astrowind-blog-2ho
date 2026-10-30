@@ -95,6 +95,38 @@ test('FAQ marker normalization does not rewrite code examples or absorb the next
   assert.match(normalized, /\*\*Q1\.\*\*\n\*\*A1\.\*\*/);
 });
 
+test('FAQ normalization preserves tilde-fenced examples while repairing prose outside them', () => {
+  const markdown = [
+    '## 5. Questions',
+    '~~~md',
+    '**A1.**',
+    'example answer',
+    '~~~',
+    '**Q1.**',
+    '',
+    'Actual FAQ question?',
+    '',
+    '**A1.**',
+    'Actual FAQ answer.',
+  ].join('\n');
+
+  const normalized = normalizeFaqMarkerProse(markdown);
+
+  assert.equal(
+    normalized,
+    [
+      '## 5. Questions',
+      '~~~md',
+      '**A1.**',
+      'example answer',
+      '~~~',
+      '**Q1.** Actual FAQ question?',
+      '',
+      '**A1.** Actual FAQ answer.',
+    ].join('\n')
+  );
+});
+
 test('FAQ marker-like text outside the FAQ section is unchanged', () => {
   const markdown = [
     '## 2. Example',
