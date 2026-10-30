@@ -3,6 +3,7 @@ import test from 'node:test';
 import { readFileSync } from 'node:fs';
 
 import { createCheckpointKey, createTopicFileSlug, decidePublishLocales } from '../generation-identity.mjs';
+import { normalizeBoldSpacing, validateFaqLayout } from '../markdown-normalizers.mjs';
 
 test('a prompt update invalidates cached drafts but the same version can resume', () => {
   const topics = ['Assigned topic', 'Next topic'];
@@ -84,4 +85,75 @@ test('the 2ho prompt requires independent locale generation and truthful first-p
   for (const directive of requiredDirectives) {
     assert.ok(source.includes(directive), `Missing prompt directive: ${directive}`);
   }
+});
+
+const validFaq = [
+  '**Q1.** First question?',
+  '',
+  '**A1.** First answer.',
+  '',
+  '**Q2.** Second question?',
+  '',
+  '**A2.** Second answer.',
+  '',
+  '**Q3.** Third question?',
+  '',
+  '**A3.** Third answer.',
+].join('\n');
+
+test('bold spacing cleanup preserves FAQ marker lines and blank lines', () => {
+  const input = [
+    '** spaced bold text **',
+    '',
+    '**Q1.** First question?',
+    '',
+    '**A1.** First answer.',
+    '',
+    '**Q2.** Second question?',
+    '',
+    '**A2.** Second answer.',
+  ].join('\n');
+
+  assert.equal(
+    normalizeBoldSpacing(input),
+    [
+      '**spaced bold text**',
+      '',
+      '**Q1.** First question?',
+      '',
+      '**A1.** First answer.',
+      '',
+      '**Q2.** Second question?',
+      '',
+      '**A2.** Second answer.',
+    ].join('\n')
+  );
+  assert.deepEqual(validateFaqLayout(validFaq), []);
+});
+
+test('bold spacing cleanup never joins text across a newline', () => {
+  const input = '** opening phrase\ncontinued phrase **';
+
+  assert.equal(normalizeBoldSpacing(input), input);
+});
+
+test('collapsed FAQ question and answer markers are rejected', () => {
+  const malformed = [
+    '**Q1.** First question? **A1.** First answer.',
+    '',
+    '**Q2.** Second question? **A2.** Second answer.',
+    '',
+    '**Q3.** Third question? **A3.** Third answer.',
+  ].join('\n');
+
+  const errors = validateFaqLayout(malformed);
+
+  assert.ok(errors.some((error) => error.includes('A1') && error.includes('별도 줄')));
+  assert.ok(errors.some((error) => error.includes('Q1') && error.includes('빈 줄')));
+});
+
+test('generator validates FAQ marker line layout before publishing', () => {
+  const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
+
+  assert.match(source, /errors\.push\(\.\.\.validateFaqLayout\(bodyWithoutCode\)\)/);
 });
