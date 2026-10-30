@@ -641,7 +641,10 @@ theme: "${selectedTheme.name}"
       console.warn(
         `⚠️ ${lang.code} 검수 실패(${validationErrors.join(', ')}). 해당 언어 correction ${correctionAttempt}/2 요청합니다.`
       );
-      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing, use exactly these localized headings: ${[i18n.s1, i18n.s2, i18n.s3, i18n.s4, i18n.s5].map((heading) => '## ' + heading).join(' | ')}. Reorganize relevant existing content without adding filler, unsupported facts, invented first-person experiences, or customer anecdotes. Preserve required FAQ markers and language. Return raw Markdown only.\n\nOriginal article:\n${text}`;
+      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing, use exactly these localized headings: ${[i18n.s1, i18n.s2, i18n.s3, i18n.s4, i18n.s5].map((heading) => '## ' + heading).join(' | ')}. Reorganize relevant existing content without adding filler, unsupported facts, invented first-person experiences, or customer anecdotes. [REQUIRED FAQ LAYOUT]
+- Keep all FAQ question and answer prose in ${lang.name}; preserve its meaning.
+- Put each exact marker (**Q1.**, **A1.**, **Q2.**, **A2.**, **Q3.**, **A3.**) at the start of its own line, followed by that question or answer text on the same line.
+- Put one blank line between each question and its answer, and between FAQ pairs. Do not place a question and its answer marker on the same line. Return raw Markdown only.\n\nOriginal article:\n${text}`;
       text = normalizeGeneratedResponse(await fetchWithRetry(repairPrompt));
       validationErrors = validateGeneratedPost(text, lang.code);
     }
