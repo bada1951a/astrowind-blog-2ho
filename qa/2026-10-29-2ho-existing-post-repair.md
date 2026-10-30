@@ -13,6 +13,7 @@
 - Luna 검토 PR과 운영 수정은 분리한다. 배포 승인에 따라 콘텐츠 전용 PR을 통해 적용하며 자동발행 중지/유료 API 금지 유지.
 
 ## 수정 파일
+
 - `src/data/post/de/mobile-mv85zpz0.md`
 - `src/data/post/de/mobile-mv8niyit.md`
 - `src/data/post/de/mobile-mv9niz3m.md`

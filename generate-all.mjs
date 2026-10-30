@@ -3,14 +3,16 @@
 // ⚠️ [혼동 방지 경고]
 // 1. 이 파일은 '2호기 (Life & Tech)'입니다. 향후 나올 '2-2호기'와 절대 혼동하지 말 것!
 // 2. 카테고리는 대표님의 지시 전까지 'life-tech'로 영구 고정한다. (임의 변경 절대 금지)
-// 3. 이미지 생성 방식은 Picsum 동적 시드 URL 방식을 영구 유지한다.
+// 3. 이미지 경로는 main의 Picsum 시드 선택 로직을 유지한다.
 // 4. 대표님과의 모든 설명, 질문, 대화 및 주석은 반드시 100% 한국어로만 진행한다.
 // =========================================================================
 
 import fs from 'fs';
 import path from 'path';
+import { createHash, createCipheriv, createDecipheriv, randomBytes } from 'node:crypto';
+import { createCheckpointKey, createTopicFileSlug, decidePublishLocales } from './generation-identity.mjs';
 
-
+const GENERATION_PROMPT_VERSION = '2026-10-30-first-person-story-v2';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 if (!OPENAI_API_KEY) {
   console.error('❌ OPENAI_API_KEY 환경변수가 설정되지 않았습니다.');
@@ -26,7 +28,7 @@ function getPostImages(topic, index) {
   const seedBase = Date.now().toString(36);
   return {
     coverUrl: `https://picsum.photos/seed/mob-${seedBase}-${index}-c/1200/675.jpg`,
-    bodyUrl: `https://picsum.photos/seed/mob-${seedBase}-${index}-b/1000/550.jpg`
+    bodyUrl: `https://picsum.photos/seed/mob-${seedBase}-${index}-b/1000/550.jpg`,
   };
 }
 
@@ -47,101 +49,101 @@ function getKstPublishDateIso() {
 // =========================================================================
 const I18N_SECTIONS = {
   ko: {
-    s1: "1. 문제가 생긴 순간과 먼저 확인할 것",
-    s2: "2. 증상으로 원인을 구분하는 방법",
-    s3: "3. 안전하게 따라 하는 해결 순서",
-    s4: "4. 실수 방지와 전문가 도움을 받을 때",
-    s5: "5. 자주 묻는 질문 (FAQ)",
-    tags: ["스마트폰수리", "모바일팁", "트러블슈팅", "배터리케어"]
+    s1: '1. 문제가 생긴 순간과 먼저 확인할 것',
+    s2: '2. 증상으로 원인을 구분하는 방법',
+    s3: '3. 안전하게 따라 하는 해결 순서',
+    s4: '4. 실수 방지와 전문가 도움을 받을 때',
+    s5: '5. 자주 묻는 질문 (FAQ)',
+    tags: ['스마트폰수리', '모바일팁', '트러블슈팅', '배터리케어'],
   },
   en: {
-    s1: "1. The Moment It Happens: What to Check First",
-    s2: "2. What the Symptoms Can Tell You",
-    s3: "3. Safe Steps to Solve the Problem",
-    s4: "4. Mistakes to Avoid and When to Get Help",
-    s5: "5. Frequently Asked Questions (FAQ)",
-    tags: ["Mobile Repair", "Smartphone", "Fix Guide", "Tech Tips"]
+    s1: '1. The Moment It Happens: What to Check First',
+    s2: '2. What the Symptoms Can Tell You',
+    s3: '3. Safe Steps to Solve the Problem',
+    s4: '4. Mistakes to Avoid and When to Get Help',
+    s5: '5. Frequently Asked Questions (FAQ)',
+    tags: ['Mobile Repair', 'Smartphone', 'Fix Guide', 'Tech Tips'],
   },
   ja: {
-    s1: "1. トラブルが起きた瞬間に最初に確認すること",
-    s2: "2. 症状から原因を見分ける",
-    s3: "3. 安全に試す解決手順",
-    s4: "4. 避けるべき操作と相談の目安",
-    s5: "5. よくある質問 (FAQ)",
-    tags: ["スマホ修理", "ハードウェア", "トラブルシューティング", "バッテリーケア"]
+    s1: '1. トラブルが起きた瞬間に最初に確認すること',
+    s2: '2. 症状から原因を見分ける',
+    s3: '3. 安全に試す解決手順',
+    s4: '4. 避けるべき操作と相談の目安',
+    s5: '5. よくある質問 (FAQ)',
+    tags: ['スマホ修理', 'ハードウェア', 'トラブルシューティング', 'バッテリーケア'],
   },
   de: {
-    s1: "1. Der Moment, in dem es passiert: Das zuerst prüfen",
-    s2: "2. Was die Symptome verraten",
-    s3: "3. Sichere Schritte zur Lösung",
-    s4: "4. Fehler vermeiden und wissen, wann Hilfe nötig ist",
-    s5: "5. Häufige Fragen (FAQ)",
-    tags: ["Smartphone-Reparatur", "Hardware", "Fehlerbehebung", "Akku-Pflege"]
+    s1: '1. Der Moment, in dem es passiert: Das zuerst prüfen',
+    s2: '2. Was die Symptome verraten',
+    s3: '3. Sichere Schritte zur Lösung',
+    s4: '4. Fehler vermeiden und wissen, wann Hilfe nötig ist',
+    s5: '5. Häufige Fragen (FAQ)',
+    tags: ['Smartphone-Reparatur', 'Hardware', 'Fehlerbehebung', 'Akku-Pflege'],
   },
   fr: {
-    s1: "1. Au moment du problème : les premières vérifications",
-    s2: "2. Ce que les symptômes peuvent indiquer",
-    s3: "3. Les étapes sûres pour résoudre le problème",
-    s4: "4. Les erreurs à éviter et quand demander de l’aide",
-    s5: "5. Questions fréquentes (FAQ)",
-    tags: ["Réparation Smartphone", "Matériel", "Dépannage", "Entretien Batterie"]
+    s1: '1. Au moment du problème : les premières vérifications',
+    s2: '2. Ce que les symptômes peuvent indiquer',
+    s3: '3. Les étapes sûres pour résoudre le problème',
+    s4: '4. Les erreurs à éviter et quand demander de l’aide',
+    s5: '5. Questions fréquentes (FAQ)',
+    tags: ['Réparation Smartphone', 'Matériel', 'Dépannage', 'Entretien Batterie'],
   },
   es: {
-    s1: "1. Cuando ocurre: qué comprobar primero",
-    s2: "2. Qué pueden indicar los síntomas",
-    s3: "3. Pasos seguros para resolverlo",
-    s4: "4. Errores que conviene evitar y cuándo pedir ayuda",
-    s5: "5. Preguntas frecuentes (FAQ)",
-    tags: ["Reparación Móvil", "Hardware", "Solución de Problemas", "Cuidado Batería"]
+    s1: '1. Cuando ocurre: qué comprobar primero',
+    s2: '2. Qué pueden indicar los síntomas',
+    s3: '3. Pasos seguros para resolverlo',
+    s4: '4. Errores que conviene evitar y cuándo pedir ayuda',
+    s5: '5. Preguntas frecuentes (FAQ)',
+    tags: ['Reparación Móvil', 'Hardware', 'Solución de Problemas', 'Cuidado Batería'],
   },
   it: {
-    s1: "1. Quando succede: cosa controllare per prima cosa",
-    s2: "2. Cosa possono indicare i sintomi",
-    s3: "3. I passaggi sicuri per risolvere il problema",
-    s4: "4. Errori da evitare e quando chiedere assistenza",
-    s5: "5. Domande frequenti (FAQ)",
-    tags: ["Riparazione Smartphone", "Hardware", "Risoluzione Problemi", "Cura Batteria"]
+    s1: '1. Quando succede: cosa controllare per prima cosa',
+    s2: '2. Cosa possono indicare i sintomi',
+    s3: '3. I passaggi sicuri per risolvere il problema',
+    s4: '4. Errori da evitare e quando chiedere assistenza',
+    s5: '5. Domande frequenti (FAQ)',
+    tags: ['Riparazione Smartphone', 'Hardware', 'Risoluzione Problemi', 'Cura Batteria'],
   },
   pt: {
-    s1: "1. Quando acontece: o que verificar primeiro",
-    s2: "2. O que os sintomas podem indicar",
-    s3: "3. Etapas seguras para resolver o problema",
-    s4: "4. Erros a evitar e quando pedir ajuda",
-    s5: "5. Perguntas frequentes (FAQ)",
-    tags: ["Reparo Celular", "Hardware", "Solução de Problemas", "Cuidado Bateria"]
+    s1: '1. Quando acontece: o que verificar primeiro',
+    s2: '2. O que os sintomas podem indicar',
+    s3: '3. Etapas seguras para resolver o problema',
+    s4: '4. Erros a evitar e quando pedir ajuda',
+    s5: '5. Perguntas frequentes (FAQ)',
+    tags: ['Reparo Celular', 'Hardware', 'Solução de Problemas', 'Cuidado Bateria'],
   },
   nl: {
-    s1: "1. Op het moment zelf: wat controleer je eerst?",
-    s2: "2. Wat de symptomen kunnen betekenen",
-    s3: "3. Veilige stappen om het probleem op te lossen",
-    s4: "4. Wat je beter niet doet en wanneer je hulp vraagt",
-    s5: "5. Veelgestelde vragen (FAQ)",
-    tags: ["Smartphone Reparatie", "Hardware", "Probleemoplossing", "Accuzorg"]
+    s1: '1. Op het moment zelf: wat controleer je eerst?',
+    s2: '2. Wat de symptomen kunnen betekenen',
+    s3: '3. Veilige stappen om het probleem op te lossen',
+    s4: '4. Wat je beter niet doet en wanneer je hulp vraagt',
+    s5: '5. Veelgestelde vragen (FAQ)',
+    tags: ['Smartphone Reparatie', 'Hardware', 'Probleemoplossing', 'Accuzorg'],
   },
   pl: {
-    s1: "1. Gdy to się dzieje: co najpierw sprawdzić",
-    s2: "2. Co mogą oznaczać objawy",
-    s3: "3. Bezpieczne kroki rozwiązania problemu",
-    s4: "4. Czego unikać i kiedy szukać pomocy",
-    s5: "5. Częste pytania (FAQ)",
-    tags: ["Naprawa Smartfona", "Sprzęt", "Rozwiązywanie Problemów", "Kondycja Baterii"]
+    s1: '1. Gdy to się dzieje: co najpierw sprawdzić',
+    s2: '2. Co mogą oznaczać objawy',
+    s3: '3. Bezpieczne kroki rozwiązania problemu',
+    s4: '4. Czego unikać i kiedy szukać pomocy',
+    s5: '5. Częste pytania (FAQ)',
+    tags: ['Naprawa Smartfona', 'Sprzęt', 'Rozwiązywanie Problemów', 'Kondycja Baterii'],
   },
   id: {
-    s1: "1. Saat masalah muncul: apa yang diperiksa lebih dulu",
-    s2: "2. Arti gejala yang terlihat",
-    s3: "3. Langkah aman untuk mengatasinya",
-    s4: "4. Hal yang perlu dihindari dan kapan mencari bantuan",
-    s5: "5. Pertanyaan umum (FAQ)",
-    tags: ["Reparasi HP", "Perangkat Keras", "Troubleshooting", "Perawatan Baterai"]
+    s1: '1. Saat masalah muncul: apa yang diperiksa lebih dulu',
+    s2: '2. Arti gejala yang terlihat',
+    s3: '3. Langkah aman untuk mengatasinya',
+    s4: '4. Hal yang perlu dihindari dan kapan mencari bantuan',
+    s5: '5. Pertanyaan umum (FAQ)',
+    tags: ['Reparasi HP', 'Perangkat Keras', 'Troubleshooting', 'Perawatan Baterai'],
   },
   vi: {
-    s1: "1. Khi sự cố xảy ra: điều cần kiểm tra trước tiên",
-    s2: "2. Triệu chứng có thể cho biết điều gì",
-    s3: "3. Các bước an toàn để xử lý",
-    s4: "4. Điều cần tránh và khi nào cần trợ giúp",
-    s5: "5. Câu hỏi thường gặp (FAQ)",
-    tags: ["Sửa Điện Thoại", "Phần Cứng", "Khắc Phục Sự Cố", "Bảo Vệ Pin"]
-  }
+    s1: '1. Khi sự cố xảy ra: điều cần kiểm tra trước tiên',
+    s2: '2. Triệu chứng có thể cho biết điều gì',
+    s3: '3. Các bước an toàn để xử lý',
+    s4: '4. Điều cần tránh và khi nào cần trợ giúp',
+    s5: '5. Câu hỏi thường gặp (FAQ)',
+    tags: ['Sửa Điện Thoại', 'Phần Cứng', 'Khắc Phục Sự Cố', 'Bảo Vệ Pin'],
+  },
 };
 
 // =========================================================================
@@ -162,7 +164,7 @@ function inspectAndHealMarkdown(body, langCode) {
 
   if (!healed.startsWith('## 1.')) {
     healed = `## ${i18n.s1}\n\n` + healed;
-    auditLogs.push("1번 헤딩 주입");
+    auditLogs.push('1번 헤딩 주입');
   }
 
   // 2) 🛡️ Q&A 줄바꿈 뭉개짐 자동 분리 치유 (질문과 답변 사이 빈 줄 2개 보장)
@@ -172,15 +174,16 @@ function inspectAndHealMarkdown(body, langCode) {
     healed = healed.replace(/\s*(\*\*A[1-3]\.\*\*|A[1-3]\.)\s*/gi, '\n\n**$1** ');
     healed = healed.replace(/\*\*\s*\*\*(Q[1-3]\.|A[1-3]\.)\*\*\s*\*\*/gi, '**$1**');
     healed = healed.replace(/\*\*(Q[1-3]\.|A[1-3]\.)\*\*/gi, '**$1**');
-    auditLogs.push("Q&A 줄바꿈 2열 분리 치유");
+    auditLogs.push('Q&A 줄바꿈 2열 분리 치유');
   }
 
   // 3) 볼드 기호 안쪽 공백 정돈 (** 단어 ** -> **단어**)
   if (/\*\*\s+[^*]+?\s+\*\*/.test(healed)) {
-    healed = healed.replace(/\*\*\s+([^*]+?)\s+\*\*/g, '**$1**')
-                   .replace(/\*\*\s+([^*]+?)\*\*/g, '**$1**')
-                   .replace(/\*\*([^*]+?)\s+\*\*/g, '**$1**');
-    auditLogs.push("볼드 공백 정돈");
+    healed = healed
+      .replace(/\*\*\s+([^*]+?)\s+\*\*/g, '**$1**')
+      .replace(/\*\*\s+([^*]+?)\*\*/g, '**$1**')
+      .replace(/\*\*([^*]+?)\s+\*\*/g, '**$1**');
+    auditLogs.push('볼드 공백 정돈');
   }
 
   // 4) 특수문자 및 수식 인라인 백틱화
@@ -188,10 +191,11 @@ function inspectAndHealMarkdown(body, langCode) {
     return `\`${match.replace(/\$/g, '').trim()}\``;
   });
   healed = healed.replace(/\$([A-Za-z0-9_-]+)\$/g, '`$1`');
-  healed = healed.replace(/\\times/g, 'x')
-                 .replace(/\\circ/g, '°')
-                 .replace(/\\approx/g, '≈')
-                 .replace(/~/g, '-');
+  healed = healed
+    .replace(/\\times/g, 'x')
+    .replace(/\\circ/g, '°')
+    .replace(/\\approx/g, '≈')
+    .replace(/~/g, '-');
 
   // 5) 연속 빈 줄 압축
   healed = healed.replace(/\n{3,}/g, '\n\n').trim();
@@ -204,81 +208,187 @@ function inspectAndHealMarkdown(body, langCode) {
 }
 
 if (!fs.existsSync(TOPICS_FILE)) {
-  console.error("❌ topics.txt 파일이 존재하지 않습니다.");
+  console.error('❌ topics.txt 파일이 존재하지 않습니다.');
   process.exit(1);
 }
 
 const fileContent = fs.readFileSync(TOPICS_FILE, 'utf-8');
-const lines = fileContent.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+const lines = fileContent
+  .split('\n')
+  .map((l) => l.trim())
+  .filter((l) => l.length > 0);
 
 if (lines.length === 0) {
-  console.log("⚠️ topics.txt에 남은 주제가 없습니다. 생성을 건너뜁니다.");
+  console.log('⚠️ topics.txt에 남은 주제가 없습니다. 생성을 건너뜁니다.');
   process.exit(0);
 }
 
 const currentTopic = lines[0];
+const topicKey = createCheckpointKey(lines, GENERATION_PROMPT_VERSION);
+const checkpointRoot = path.resolve('.generation-checkpoints');
+const checkpointDir = path.join(checkpointRoot, topicKey);
+const checkpointEncryptionKey = createHash('sha256')
+  .update('blog-locale-checkpoint-v1\0', 'utf8')
+  .update(OPENAI_API_KEY, 'utf8')
+  .digest();
+
+function readEncryptedCheckpoint(filePath) {
+  const envelope = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  if (envelope.version !== 1) throw new Error('체크포인트 형식 버전이 다릅니다.');
+  const decipher = createDecipheriv('aes-256-gcm', checkpointEncryptionKey, Buffer.from(envelope.iv, 'base64'));
+  decipher.setAuthTag(Buffer.from(envelope.authTag, 'base64'));
+  return Buffer.concat([decipher.update(Buffer.from(envelope.ciphertext, 'base64')), decipher.final()]).toString(
+    'utf8'
+  );
+}
+
+function writeEncryptedCheckpoint(filePath, text) {
+  const iv = randomBytes(12);
+  const cipher = createCipheriv('aes-256-gcm', checkpointEncryptionKey, iv);
+  const ciphertext = Buffer.concat([cipher.update(text, 'utf8'), cipher.final()]);
+  const envelope = {
+    version: 1,
+    iv: iv.toString('base64'),
+    authTag: cipher.getAuthTag().toString('base64'),
+    ciphertext: ciphertext.toString('base64'),
+  };
+  fs.writeFileSync(filePath, JSON.stringify(envelope), 'utf8');
+}
 console.log(`📌 오늘 처리할 주제 [2호기 Life & Tech]: "${currentTopic}"`);
 
-const MOBILE_CRISIS_SCENARIOS_30 = [
-  "중요한 외부 미팅을 위해 거래처로 이동하기 10분 전, 스마트폰 배터리가 3%밖에 남지 않아 초조한 순간",
-  "공항 탑승구 앞에서 모바일 탑승권과 여권을 띄워야 하는데 화면 밝기가 급격히 떨어지며 기기가 꺼지려 할 때",
-  "KTX 열차 안에서 좌석 콘센트에 고속 충전기를 꽂았지만 '충전 중이 아님' 경고창이 깜빡거릴 때",
-  "퇴근길 지하철에서 대중교통 모바일 교통카드 결제를 태그해야 하는 순간 터치가 먹통이 된 상황",
-  "주말 장거리 고속도로 주행 중 차량용 거치대에서 내비게이션을 보던 스마트폰이 고온 경고와 함께 종료될 때",
-  "카페에서 급한 업무 전화를 연속으로 받던 중 충전 케이블을 연결해도 배터리 퍼센트가 계속 깎여나가는 순간",
-  "외근 중 배터리 공유를 위해 보조배터리를 연결했으나 단자 접촉 불량으로 충전과 끊김이 무한 반복될 때",
-  "아침 출근 알람을 듣고 일어났더니 밤새 충전기에 꽂아두었던 폰이 차갑게 꺼져 있던 당혹스러운 상황",
-  "비 오는 날 야외에서 우산을 들고 메신저를 확인하다가 빗방울이 충전 포트에 들어가 '물기 감지' 경고가 뜬 순간",
-  "세면대나 싱크대 옆에 올려둔 스마트폰 모서리가 물에 살짝 닿은 뒤 스피커 소리가 먹먹하게 찢어질 때",
-  "주머니 속 먼지와 보풀이 충전 단자 깊숙이 엉겨 붙어 충전 케이블이 끝까지 딸깍 물리지 않고 튕겨 나올 때",
-  "해변이나 모래사장에서 사진을 찍은 뒤 단자 안쪽에 미세 모래 알갱이가 들어가 충전 핀을 긁는 느낌이 들 때",
-  "운동 후 땀이 묻은 손으로 지문 인식을 시도했으나 잠금이 풀리지 않고 연속 실패 경고가 뜰 때",
-  "카페에서 커피나 음료가 테이블 위 스마트폰 하단부로 쏟아져 긴급히 전원을 차단해야 했던 순간",
-  "습도가 높은 욕실에 음악을 틀어두고 샤워를 마친 후 화면 터치 좌표가 제멋대로 튀는 고스트 터치 발생 시",
-  "식당에서 국물 요리가 스피커 그릴 틈새로 살짝 튀어 알코올 솜과 면봉을 찾아 헤매던 상황",
-  "여름철 대낮 야외 주차장 차 안에서 스마트폰이 과열되어 카메라 앱 실행이 강제 차단된 순간",
-  "고사양 모바일 게임이나 동영상 편집 렌더링 중 기기 후면이 뜨거워지며 프레임이 심각하게 끊길 때",
-  "한겨울 영하의 날씨에 야외에서 사진을 찍으려 하자 배터리가 40%에서 1%로 곤두박질치며 기절한 상황",
-  "중요한 화상 면접이나 라이브 방송 도중 스마트폰 발열로 인해 화면이 멈추고 연결이 끊어질 위기",
-  "소프트웨어 정기 업데이트 다운로드 도중 배터리가 빠르게 닳으며 벽돌(부팅 루프) 조짐을 보일 때",
-  "카카오톡이나 사내 업무 앱을 백그라운드에 10개 이상 띄워둔 상태에서 갑자기 화면 전체가 멈췄을 때",
-  "블루투스 무선 이어폰과 스마트워치가 동시에 연결 해제되며 스마트폰 시스템 설정 창이 튕길 때",
-  "아이 사진을 찍어주려는데 '저장공간 부족'과 함께 갤러리 앱이 멈춰버려 당장 캐시를 정리해야 하는 순간",
-  "인터넷에서 본 자가 수리 팁을 따라 이쑤시개나 바늘로 단자를 쑤셨다가 핀이 손상될 뻔한 아찔한 경험",
-  "저가형 다이소 충전 케이블 끝부분 피복이 벗겨지며 탄 냄새가 살짝 나 급히 코드를 뽑았던 기억",
-  "스마트폰을 바닥에 떨어뜨린 직후 겉유리는 멀쩡한데 내부 OLED 패널에 초록색 세로줄이 번지기 시작할 때",
-  "정품이 아닌 차량용 시거잭 급속 충전기에 폰을 연결하자마자 화면 깜빡임과 함께 전원 리셋이 일어날 때",
-  "중고 스마트폰을 구매하여 첫 세팅을 마치고 유심(USIM)을 꽂았는데 안테나가 전혀 잡히지 않던 순간",
-  "보호 필름 교체 중 기포가 심하게 생겨 터치 감도가 급격히 둔화되어 화면 터치가 씹히는 답답한 상황"
-];
-
 const THEME_PRESETS = [
-  { id: 1, name: "Cyberpunk Terminal", primaryColor: "#00ffcc", bgColor: "#111827", layout: "CLI/진단기 로그 스타일, 하드웨어 점검 단축 경로 최상단 배치" },
-  { id: 2, name: "Modern Minimalist Slate", primaryColor: "#3b82f6", bgColor: "#f8fafc", layout: "미니멀 가이드 스타일, 여백 중심의 깔끔한 단계별 분해/세척 넘버링" },
-  { id: 3, name: "Industrial Blueprint", primaryColor: "#f59e0b", bgColor: "#1e293b", layout: "엔지니어링 청사진 스타일, 부품 단자 접촉 불량 원인 시각화, 쉬운 3단 비교표 포함" },
-  { id: 4, name: "Retro Monokai", primaryColor: "#a6e22e", bgColor: "#272822", layout: "테크니션 워크벤치 스타일, 실전 세척/수리 주의 팁 강조 박스 중심" },
-  { id: 5, name: "Nordic Clean Ice", primaryColor: "#0284c7", bgColor: "#f0f9ff", layout: "북유럽 감성 클린 레이아웃, 인용구 중심 도입부, 필수 준비물 체크리스트" }
+  {
+    id: 1,
+    name: 'Cyberpunk Terminal',
+    primaryColor: '#00ffcc',
+    bgColor: '#111827',
+    layout: 'CLI/진단기 로그 스타일, 하드웨어 점검 단축 경로 최상단 배치',
+  },
+  {
+    id: 2,
+    name: 'Modern Minimalist Slate',
+    primaryColor: '#3b82f6',
+    bgColor: '#f8fafc',
+    layout: '미니멀 가이드 스타일, 여백 중심의 깔끔한 단계별 분해/세척 넘버링',
+  },
+  {
+    id: 3,
+    name: 'Industrial Blueprint',
+    primaryColor: '#f59e0b',
+    bgColor: '#1e293b',
+    layout: '엔지니어링 청사진 스타일, 부품 단자 접촉 불량 원인 시각화, 쉬운 3단 비교표 포함',
+  },
+  {
+    id: 4,
+    name: 'Retro Monokai',
+    primaryColor: '#a6e22e',
+    bgColor: '#272822',
+    layout: '테크니션 워크벤치 스타일, 실전 세척/수리 주의 팁 강조 박스 중심',
+  },
+  {
+    id: 5,
+    name: 'Nordic Clean Ice',
+    primaryColor: '#0284c7',
+    bgColor: '#f0f9ff',
+    layout: '북유럽 감성 클린 레이아웃, 인용구 중심 도입부, 필수 준비물 체크리스트',
+  },
 ];
 
 const TARGET_LANGS = [
-  { code: 'ko', name: 'Korean', persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사', localeContext: '서울/수도권 일상 및 직장 오피스' },
-  { code: 'en', name: 'English', persona: 'Expert mobile repair technician and smartphone specialist', localeContext: 'Metropolitan US tech workplace & everyday commuting' },
-  { code: 'ja', name: 'Japanese', persona: 'スマホ修理とハードウェアトラブルシューティングの専門家', localeContext: '東京・丸の内および首都圏の通勤・オフィス環境' },
-  { code: 'de', name: 'German', persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker', localeContext: 'Berlin / München Unternehmens- und Alltagsalltag' },
-  { code: 'fr', name: 'French', persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles', localeContext: 'Paris La Défense et environnement urbain quotidien' },
-  { code: 'es', name: 'Spanish', persona: 'Técnico especialista en telefonía móvil y reparación de terminales', localeContext: 'Madrid y centros corporativos urbanos' },
-  { code: 'it', name: 'Italian', persona: 'Tecnico esperto in riparazione e diagnostica smartphone', localeContext: 'Milano centro direzionale e vita quotidiana' },
-  { code: 'pt', name: 'Portuguese', persona: 'Técnico experiente em reparação de celulares e hardware móvel', localeContext: 'São Paulo ambiente corporativo e transporte diário' },
-  { code: 'nl', name: 'Dutch', persona: 'Smartphone reparatiespecialist en mobiele hardware-expert', localeContext: 'Amsterdam Zuidas en forenzenverkeer' },
-  { code: 'pl', name: 'Polish', persona: 'Serwisant urządzeń mobilnych i smartfonów', localeContext: 'Warszawa centrum i codzienne wyzwania biurowe' },
-  { code: 'id', name: 'Indonesian', persona: 'Teknisi profesional perbaikan smartphone dan gadget', localeContext: 'Kawasan Sudirman Jakarta dan mobilitas harian' },
-  { code: 'vi', name: 'Vietnamese', persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm', localeContext: 'Văn phòng trung tâm TP.HCM và nhịp sống đô thị' }
+  {
+    code: 'ko',
+    name: 'Korean',
+    persona: '친절하고 실무 경험이 많은 모바일 스마트폰 전문 수리 기사',
+    localeContext: '서울/수도권 일상 및 직장 오피스',
+  },
+  {
+    code: 'en',
+    name: 'English',
+    persona: 'Expert mobile repair technician and smartphone specialist',
+    localeContext: 'Metropolitan US tech workplace & everyday commuting',
+  },
+  {
+    code: 'ja',
+    name: 'Japanese',
+    persona: 'スマホ修理とハードウェアトラブルシューティングの専門家',
+    localeContext: '東京・丸の内および首都圏の通勤・オフィス環境',
+  },
+  {
+    code: 'de',
+    name: 'German',
+    persona: 'Erfahrener Smartphone- und Mobilgeräte-Techniker',
+    localeContext: 'Berlin / München Unternehmens- und Alltagsalltag',
+  },
+  {
+    code: 'fr',
+    name: 'French',
+    persona: 'Technicien réparateur spécialiste en smartphones et appareils mobiles',
+    localeContext: 'Paris La Défense et environnement urbain quotidien',
+  },
+  {
+    code: 'es',
+    name: 'Spanish',
+    persona: 'Técnico especialista en telefonía móvil y reparación de terminales',
+    localeContext: 'Madrid y centros corporativos urbanos',
+  },
+  {
+    code: 'it',
+    name: 'Italian',
+    persona: 'Tecnico esperto in riparazione e diagnostica smartphone',
+    localeContext: 'Milano centro direzionale e vita quotidiana',
+  },
+  {
+    code: 'pt',
+    name: 'Portuguese',
+    persona: 'Técnico experiente em reparação de celulares e hardware móvel',
+    localeContext: 'São Paulo ambiente corporativo e transporte diário',
+  },
+  {
+    code: 'nl',
+    name: 'Dutch',
+    persona: 'Smartphone reparatiespecialist en mobiele hardware-expert',
+    localeContext: 'Amsterdam Zuidas en forenzenverkeer',
+  },
+  {
+    code: 'pl',
+    name: 'Polish',
+    persona: 'Serwisant urządzeń mobilnych i smartfonów',
+    localeContext: 'Warszawa centrum i codzienne wyzwania biurowe',
+  },
+  {
+    code: 'id',
+    name: 'Indonesian',
+    persona: 'Teknisi profesional perbaikan smartphone dan gadget',
+    localeContext: 'Kawasan Sudirman Jakarta dan mobilitas harian',
+  },
+  {
+    code: 'vi',
+    name: 'Vietnamese',
+    persona: 'Kỹ thuật viên sửa chữa điện thoại thông minh giàu kinh nghiệm',
+    localeContext: 'Văn phòng trung tâm TP.HCM và nhịp sống đô thị',
+  },
 ];
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
-const fileSlug = `post-${Date.now().toString(36)}`;
+const fileSlug = createTopicFileSlug(currentTopic);
+const generatedPostContents = new Map();
 
-const generatedPostFiles = [];
+// 이전 주제 체크포인트를 정리하고, 같은 topics 큐의 검증된 언어 원고는 실패 뒤 재사용합니다.
+if (fs.existsSync(checkpointRoot)) {
+  for (const entry of fs.readdirSync(checkpointRoot, { withFileTypes: true })) {
+    if (entry.isDirectory() && entry.name !== topicKey) {
+      fs.rmSync(path.join(checkpointRoot, entry.name), { recursive: true, force: true });
+    }
+  }
+}
+
+if (fs.existsSync(checkpointDir)) {
+  for (const fileName of fs.readdirSync(checkpointDir)) {
+    if (fileName.endsWith('.md')) {
+      fs.unlinkSync(path.join(checkpointDir, fileName));
+    }
+  }
+}
 
 // =========================================================================
 // [호출 함수] maxOutputTokens: 8192 (2,500자 정량 생성 최적화)
@@ -332,20 +442,73 @@ function validateGeneratedPost(text, langCode) {
   for (const field of ['title', 'description', 'publishDate', 'image']) {
     if (!new RegExp('^' + field + ':\\s*\\S', 'm').test(fm[1])) errors.push(field + ' 누락');
   }
-  if (body.length < (langCode === 'ko' ? 1000 : 1800)) errors.push('본문 길이 부족 또는 잘림');
-  if ((body.match(/^##\s+/gm) || []).length < 5) errors.push('H2 섹션 5개 미만');
-  if ((body.match(/\*\*Q[1-3]\.\*\*/gi) || []).length < 3) errors.push('FAQ 질문 3개 미만');
-  if ((body.match(/\*\*A[1-3]\.\*\*/gi) || []).length < 3) errors.push('FAQ 답변 3개 미만');
-  if (langCode !== 'ko' && /[가-힣]/.test(body)) errors.push('비한국어 본문에 한글 포함');
+  const description = fm[1].match(/^description:\s*["']?([^\r\n"']*)/m)?.[1]?.trim() || '';
+  if (description.length > 160) errors.push('description 160자 초과');
+  if (!/^image:\s*["']?https?:\/\//m.test(fm[1])) errors.push('image URL 형식 오류');
+
+  const bodyWithoutCode = body.replace(/```[\s\S]*?```/g, ' ');
+  const plainBody = bodyWithoutCode
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, ' ')
+    .replace(/\[[^\]]+\]\([^)]+\)/g, ' ')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/^#+\s*/gm, '')
+    .replace(/[>*_~|]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const nonSpaceLength = [...plainBody].filter((char) => !/\s/u.test(char)).length;
+  const words = [...plainBody.matchAll(/[\p{L}\p{N}]+(?:['’.-][\p{L}\p{N}]+)*/gu)].length;
+  if ((bodyWithoutCode.match(/^##\s+/gm) || []).length !== 5) errors.push('H2 섹션은 정확히 5개여야 함');
+  for (const n of [1, 2, 3]) {
+    const questionMarker = '**Q' + n + '.**';
+    const answerMarker = '**A' + n + '.**';
+    if (bodyWithoutCode.split(questionMarker).length - 1 !== 1)
+      errors.push('FAQ 질문 Q' + n + ' 표식이 정확히 1개 필요');
+    if (bodyWithoutCode.split(answerMarker).length - 1 !== 1) errors.push('FAQ 답변 A' + n + ' 표식이 정확히 1개 필요');
+  }
+  if (langCode === 'ko' && nonSpaceLength < 1800) errors.push('한국어 본문 공백 제외 1,800자 미만');
+  if (langCode === 'ko' && nonSpaceLength > 3600) errors.push('한국어 본문 공백 제외 3,600자 초과');
+  if (langCode === 'ja' && nonSpaceLength < 900) errors.push('일본어 본문 공백 제외 900자 미만');
+  if (!['ko', 'ja'].includes(langCode) && words < 650) errors.push('본문 650단어 미만');
+  if (!['ko', 'ja'].includes(langCode) && words > 1500) errors.push('본문 1,500단어 초과');
+
+  const hangulCount = (plainBody.match(/[가-힣]/g) || []).length;
+  const kanaCount = (plainBody.match(/[\u3040-\u30ff]/g) || []).length;
+  const latinCount = (plainBody.match(/\p{Script=Latin}/gu) || []).length;
+  if (langCode === 'ko' && hangulCount < 300) errors.push('한국어 본문 한글 문자 부족');
+  if (langCode === 'ja' && kanaCount < 80) errors.push('일본어 본문 가나 문자 부족');
+  if (langCode !== 'ko' && hangulCount > 0) errors.push('비한국어 본문에 한글 포함');
+  if (langCode !== 'ja' && kanaCount > 40) errors.push('일본어 외 본문에 가나 문자 과다 포함');
+  if (!['ko', 'ja'].includes(langCode) && latinCount < words * 0.6)
+    errors.push('본문 문자 체계가 라틴 문자 locale과 맞지 않음');
   return errors;
 }
-
 async function generateSinglePost(lang, index) {
+  const checkpointPath = path.join(checkpointDir, `${lang.code}.enc`);
+  if (fs.existsSync(checkpointPath)) {
+    try {
+      const cachedText = readEncryptedCheckpoint(checkpointPath);
+      const cachedErrors = validateGeneratedPost(cachedText, lang.code);
+      if (cachedErrors.length === 0) {
+        generatedPostContents.set(lang.code, cachedText);
+        console.log(`\n♻️ [${index + 1}/12] ${lang.name} (${lang.code}) 암호화된 검증 원고 재사용`);
+        return true;
+      }
+      fs.unlinkSync(checkpointPath);
+      console.warn(`⚠️ ${lang.code} 체크포인트 검수 실패로 다시 생성합니다: ${cachedErrors.join(', ')}`);
+    } catch {
+      fs.unlinkSync(checkpointPath);
+      console.warn(`⚠️ ${lang.code} 암호화 체크포인트를 읽을 수 없어 다시 생성합니다.`);
+    }
+  }
+
   const selectedTheme = THEME_PRESETS[Math.floor(Math.random() * THEME_PRESETS.length)];
   const selectedScenario = currentTopic;
   const i18n = I18N_SECTIONS[lang.code] || I18N_SECTIONS.ko;
 
-  console.log(`\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 애드센스 표준 생성 중... (테마: ${selectedTheme.name})`);
+  console.log(
+    `\n🚀 [${index + 1}/12] ${lang.name} (${lang.code}) 2호기 애드센스 표준 생성 중... (테마: ${selectedTheme.name})`
+  );
 
   const { coverUrl, bodyUrl } = getPostImages(currentTopic, index);
   const pubDateIso = getKstPublishDateIso();
@@ -353,7 +516,7 @@ async function generateSinglePost(lang, index) {
   // 🎯 [애드센스 승인 최적화 프롬프트: 2,400~2,600자 정량화]
   const prompt = `
 Write as a clear, warm, knowledgeable guide for ${lang.name} readers; do not claim to be a repair technician or to have personally handled this phone.
-Write a high-quality, practical mobile technology guide about the assigned topic, natively in ${lang.name}.
+Write an original, high-quality, practical mobile technology guide about the assigned topic, natively in ${lang.name}. This is a separate locale-specific generation call, not a translation of another locale's finished article.
 Target Culture: "${lang.localeContext}"
 Assigned Situation: "${selectedScenario}"
 Topic: "${currentTopic}"
@@ -362,8 +525,9 @@ Topic: "${currentTopic}"
 - For Korean (ko): Write exactly around 2,400 - 2,600 characters (do NOT exceed 3,000 characters).
 - For other languages: Write exactly 900 - 1,100 words.
 - Tone: Highly informative, professional, practical technician advice.
-- Narrative voice: Use a natural first-person guide voice ("I"/the natural first-person form in ${lang.name}) without claiming professional credentials or personal repair experiences.
+- Narrative voice: Use natural first-person procedural phrasing ("I would first check…") where it fits, without implying an actual personal event, professional credentials, or repair experience.
 - Open with a vivid, reader-centered moment based on the assigned situation, then carry the article in a natural first-person guide voice. Aim for roughly 30% engaging narrative and transitions and 70% verified explanations, practical steps, and safety information.
+- In the opening paragraph, naturally present a specific situation the reader may recognize and the key unresolved question; answer it in useful stages so each section gives a reason to keep reading. Use the narrator's first-person reasoning and brief transitions to connect sections. Avoid exaggeration, clickbait, fabricated experiences, and rigid opening formulas; phrase this naturally for the locale.
 - Never begin with a disclaimer that a scene is hypothetical, illustrative, or not a real customer case. Do not invent customer stories, personal repair experiences, credentials, quotations, or outcomes. Use first person to explain what to check and why, without claiming events that did not happen.
 - Keep the story readable and the instructions easy to follow. Accuracy, useful steps, clear safety warnings, and reliable sources take priority over a forced story arc.
 
@@ -417,53 +581,72 @@ theme: "${selectedTheme.name}"
 `;
 
   try {
-    let rawText = await fetchWithRetry(prompt);
-    let text = rawText.trim();
-    if (text.startsWith('```markdown')) text = text.replace(/^```markdown\n/, '').replace(/\n```$/, '');
-    if (text.startsWith('```')) text = text.replace(/^```\n/, '').replace(/\n```$/, '');
+    const normalizeGeneratedResponse = (rawText) => {
+      let text = rawText.trim();
+      if (text.startsWith('```markdown')) text = text.replace(/^```markdown\n/, '').replace(/\n```$/, '');
+      if (text.startsWith('```')) text = text.replace(/^```\n/, '').replace(/\n```$/, '');
 
-    const fmMatch = text.match(/^---[\s\S]*?---\n*/);
-    if (fmMatch) {
-      let frontmatter = fmMatch[0].trim();
-      let body = text.slice(fmMatch[0].length).trim();
-      body = body.replace(/^#\s+[^\n]+\n+/, '');
+      const fmMatch = text.match(/^---[\s\S]*?---\n*/);
+      if (fmMatch) {
+        let frontmatter = fmMatch[0].trim();
+        let body = text.slice(fmMatch[0].length).trim();
+        body = body.replace(/^#\s+[^\n]+\n+/, '');
 
-      // ⚠️ 2호기 카테고리 'life-tech' 영구 보존 강제 검증
-      frontmatter = frontmatter.replace(/category:\s*["'][^"']*["']/i, 'category: "life-tech"')
-                               .replace(/category:\s*[^\n\r]+/i, 'category: "life-tech"');
+        // ⚠️ 2호기 카테고리 'life-tech' 영구 보존 강제 검증
+        frontmatter = frontmatter
+          .replace(/category:\s*["'][^"']*["']/i, 'category: "life-tech"')
+          .replace(/category:\s*[^\n\r]+/i, 'category: "life-tech"');
 
-      // 🩺 [자가 검수 및 치유 엔진 가동]
-      body = inspectAndHealMarkdown(body, lang.code);
+        // 🩺 [자가 검수 및 치유 엔진 가동]
+        body = inspectAndHealMarkdown(body, lang.code);
 
-      if (lang.code === 'ko') {
-        console.log(`   📏 [2호기 본문 최종 글자 수] ${body.length}자 (애드센스 표준: 2,400~2,600자)`);
+        if (lang.code === 'ko') {
+          console.log(`   📏 [2호기 본문 최종 글자 수] ${body.length}자 (애드센스 표준: 2,400~2,600자)`);
+        }
+
+        // 본문 중간 이미지 배치 (2번 섹션 직전)
+        const safeAlt = currentTopic
+          .replaceAll('[', '')
+          .replaceAll(']', '')
+          .replaceAll('(', '')
+          .replaceAll(')', '')
+          .replaceAll('"', '')
+          .replaceAll("'", '')
+          .trim();
+        const middleImageMarkdown = `\n\n![${safeAlt} Mobile Repair Guide](${bodyUrl})\n\n`;
+
+        if (!body.includes(bodyUrl)) {
+          if (body.includes('## 2.')) {
+            body = body.replace(/(##\s*2\.[^\n]+)/, `${middleImageMarkdown}$1`);
+          } else {
+            body = `${middleImageMarkdown}${body}`;
+          }
+        }
+
+        text = `${frontmatter}\n\n${body}\n`;
       }
 
-      // 본문 중간 이미지 배치 (2번 섹션 직전)
-      const safeAlt = currentTopic.replace(/[\[\]\(\)"']/g, '').trim();
-      const middleImageMarkdown = `\n\n![${safeAlt} Mobile Repair Guide](${bodyUrl})\n\n`;
+      return text;
+    };
 
-      if (body.includes('## 2.')) {
-        body = body.replace(/(##\s*2\.[^\n]+)/, `${middleImageMarkdown}$1`);
-      } else {
-        body = `${middleImageMarkdown}${body}`;
-      }
-
-      text = `${frontmatter}\n\n${body}\n`;
+    let text = normalizeGeneratedResponse(await fetchWithRetry(prompt));
+    let validationErrors = validateGeneratedPost(text, lang.code);
+    for (let correctionAttempt = 1; validationErrors.length > 0 && correctionAttempt <= 2; correctionAttempt++) {
+      console.warn(
+        `⚠️ ${lang.code} 검수 실패(${validationErrors.join(', ')}). 해당 언어 correction ${correctionAttempt}/2 요청합니다.`
+      );
+      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing, use exactly these localized headings: ${[i18n.s1, i18n.s2, i18n.s3, i18n.s4, i18n.s5].map((heading) => '## ' + heading).join(' | ')}. Reorganize relevant existing content without adding filler, unsupported facts, invented first-person experiences, or customer anecdotes. Preserve required FAQ markers and language. Return raw Markdown only.\n\nOriginal article:\n${text}`;
+      text = normalizeGeneratedResponse(await fetchWithRetry(repairPrompt));
+      validationErrors = validateGeneratedPost(text, lang.code);
+    }
+    if (validationErrors.length > 0) {
+      throw new Error('발행 전 검수 실패(보정 2회 후): ' + validationErrors.join(', '));
     }
 
-    const targetDir = path.join(POSTS_BASE_DIR, lang.code);
-    if (!fs.existsSync(targetDir)) {
-      fs.mkdirSync(targetDir, { recursive: true });
-    }
-
-    const validationErrors = validateGeneratedPost(text, lang.code);
-    if (validationErrors.length) throw new Error('발행 전 검수 실패: ' + validationErrors.join(', '));
-
-    const filePath = path.join(targetDir, `${fileSlug}.md`);
-    fs.writeFileSync(filePath, text, 'utf-8');
-    generatedPostFiles.push(filePath);
-    console.log(`   ✅ [성공] 2호기 저장 완료: src/data/post/${lang.code}/${fileSlug}.md`);
+    fs.mkdirSync(checkpointDir, { recursive: true });
+    writeEncryptedCheckpoint(checkpointPath, text);
+    generatedPostContents.set(lang.code, text);
+    console.log(`   ✅ [검증 완료] ${lang.code} 원고를 재실행 복구용 체크포인트로 보존했습니다.`);
     return true;
   } catch (error) {
     console.error(`❌ [최종 실패] ${lang.name} 생성 실패:`, error.message);
@@ -472,33 +655,45 @@ theme: "${selectedTheme.name}"
 }
 
 async function run() {
-  console.log("==================================================");
-  console.log("⚡ [2호기 Life & Tech] (카테고리: life-tech) 12개국 고속 자동 포스팅 시작");
-  console.log("==================================================");
-
-  const batchStart = generatedPostFiles.length;
-  let successCount = 0;
+  console.log('==================================================');
+  console.log('⚡ [2호기 Life & Tech] 12개 언어 원고 검증 및 게시 시작 (최소 10개 통과)');
+  console.log('==================================================');
 
   for (let i = 0; i < TARGET_LANGS.length; i++) {
-    const isSuccess = await generateSinglePost(TARGET_LANGS[i], i);
-    if (isSuccess) successCount++;
-    if (i < TARGET_LANGS.length - 1) {
-      await delay(2000);
-    }
+    await generateSinglePost(TARGET_LANGS[i], i);
+    if (i < TARGET_LANGS.length - 1) await delay(2000);
   }
 
-  if (successCount === TARGET_LANGS.length) {
-    lines.shift();
-    fs.writeFileSync(TOPICS_FILE, lines.join('\n'), 'utf-8');
-    console.log(`\n🧹 총 ${successCount}개국 포스팅 완료. topics.txt에서 주제를 제거했습니다.`);
-    console.log(`📊 남은 주제 수: ${lines.length}개`);
-  } else {
-    for (const filePath of generatedPostFiles.slice(batchStart)) {
-      if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
-    }
-    console.error(`12개 언어 세트 검수 실패 (${successCount}/${TARGET_LANGS.length}). 생성된 이번 세트 파일을 되돌리고 topics.txt의 주제를 보존합니다.`);
+  const publication = decidePublishLocales(TARGET_LANGS, [...generatedPostContents.keys()], 10);
+  const successCount = publication.passingCodes.length;
+  const failedCodes = publication.failedCodes;
+  if (!publication.canPublish) {
+    console.error(
+      `세트 중단: 검증 통과 ${successCount}/12개로 최소 기준 10개 미만입니다. 실패 언어: ${failedCodes.join(', ')}. 공개 글과 topics.txt는 그대로 두고 암호화 체크포인트를 보존합니다.`
+    );
     process.exit(1);
   }
+
+  // 유효한 locale만 게시 직전 재검증하고 기록합니다.
+  for (const lang of publication.passingLocales) {
+    const text = generatedPostContents.get(lang.code);
+    if (typeof text !== 'string') throw new Error(`Missing validated locale checkpoint: ${lang.code}`);
+    const errors = validateGeneratedPost(text, lang.code);
+    if (errors.length) throw new Error(`${lang.code} 게시 직전 검증 실패: ${errors.join(', ')}`);
+  }
+  for (const lang of publication.passingLocales) {
+    const text = generatedPostContents.get(lang.code);
+    if (typeof text !== 'string') throw new Error(`Missing validated locale checkpoint: ${lang.code}`);
+    const targetDir = path.join(POSTS_BASE_DIR, lang.code);
+    fs.mkdirSync(targetDir, { recursive: true });
+    fs.writeFileSync(path.join(targetDir, `${fileSlug}.md`), text, 'utf-8');
+  }
+
+  lines.shift();
+  fs.writeFileSync(TOPICS_FILE, lines.join('\n'), 'utf-8');
+  console.log(`\n🧹 ${successCount}/12개 언어를 게시하고 topics.txt에서 주제를 소비했습니다.`);
+  if (failedCodes.length > 0) console.warn(`⚠️ 이번 세트에서 제외된 언어: ${failedCodes.join(', ')}`);
+  console.log(`📊 남은 주제 수: ${lines.length}개`);
 }
 
 run();
