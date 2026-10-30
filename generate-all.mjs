@@ -48,7 +48,8 @@ function refreshPublishDate(text, publishDate) {
   const frontmatterMatch = text.match(/^---\r?\n[\s\S]*?\r?\n---(?=\r?\n)/);
   if (!frontmatterMatch) throw new Error('Checkpoint has no frontmatter.');
   const dateLines = frontmatterMatch[0].match(/^publishDate:\s*.*$/gm) || [];
-  if (dateLines.length !== 1) throw new Error('Checkpoint must have exactly one publishDate field.');
+  if (dateLines.length !== 1)
+    throw new Error('Checkpoint must have exactly one publishDate field.');
   const updatedFrontmatter = frontmatterMatch[0].replace(
     /^publishDate:\s*.*$/m,
     'publishDate: ' + publishDate
@@ -57,7 +58,6 @@ function refreshPublishDate(text, publishDate) {
 }
 
 const CURRENT_PUBLISH_DATE = getKstPublishDateIso();
-
 
 // =========================================================================
 // [2호기 전용] 12개국 100% 현지어 섹션 제목 및 치환 딕셔너리 (영구 고정)
@@ -506,7 +506,8 @@ async function generateSinglePost(lang, index) {
       const refreshedCachedText = refreshPublishDate(cachedText, CURRENT_PUBLISH_DATE);
       const cachedErrors = validateGeneratedPost(refreshedCachedText, lang.code);
       if (cachedErrors.length === 0) {
-        if (refreshedCachedText !== cachedText) writeEncryptedCheckpoint(checkpointPath, refreshedCachedText);
+        if (refreshedCachedText !== cachedText)
+          writeEncryptedCheckpoint(checkpointPath, refreshedCachedText);
         generatedPostContents.set(lang.code, refreshedCachedText);
         console.log(`\n♻️ [${index + 1}/12] ${lang.name} (${lang.code}) 암호화된 검증 원고 재사용`);
         return true;
