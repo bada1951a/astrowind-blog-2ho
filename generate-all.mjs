@@ -10,7 +10,7 @@
 import fs from 'fs';
 import path from 'path';
 import { createHash, createCipheriv, createDecipheriv, randomBytes } from 'node:crypto';
-import { normalizeBoldSpacing, validateFaqLayout } from './markdown-normalizers.mjs';
+import { normalizeBoldSpacing, normalizeFaqMarkerProse, validateFaqLayout } from './markdown-normalizers.mjs';
 import { createCheckpointKey, createTopicFileSlug, decidePublishLocales } from './generation-identity.mjs';
 
 const GENERATION_PROMPT_VERSION = '2026-10-30-truthful-first-person-v3';
@@ -162,7 +162,7 @@ const I18N_SECTIONS = {
 // 🛡️ [2호기 자가 검수 및 치유 엔진: Self-Healing Inspector]
 // =========================================================================
 function inspectAndHealMarkdown(body, langCode) {
-  let healed = body.trim();
+  let healed = normalizeFaqMarkerProse(body.trim());
   void langCode;
   const auditLogs = [];
 

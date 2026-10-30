@@ -5,6 +5,63 @@ export function normalizeBoldSpacing(markdown) {
     .replace(/\*\*([^*\r\n]+?)[ \t]+\*\*/g, '**$1**');
 }
 
+export function normalizeFaqMarkerProse(markdown) {
+  const source = String(markdown);
+  const sourceLines = source.split(/\r?\n/);
+  const faqStart = sourceLines.findIndex((line) => /^##\s+5[.)]\s+\S/i.test(line));
+  if (faqStart < 0) return source;
+  const nextSection = sourceLines.findIndex((line, index) => index > faqStart && /^##\s+/.test(line));
+  const faqEnd = nextSection < 0 ? sourceLines.length : nextSection;
+  const faqLines = sourceLines.slice(faqStart, faqEnd);
+
+  const normalizeSegment = (segment) => {
+    const lines = segment.split(/\r?\n/);
+    let fenceCharacter = null;
+    let fenceLength = 0;
+
+    for (let index = 0; index < lines.length; index += 1) {
+      const line = lines[index];
+      const fence = line.match(/^ {0,3}(`{3,}|~{3,})(.*)$/);
+      if (fenceCharacter) {
+        if (fence && fence[1][0] === fenceCharacter && fence[1].length >= fenceLength && /^[ \t]*$/.test(fence[2])) {
+          fenceCharacter = null;
+          fenceLength = 0;
+        }
+        continue;
+      }
+      if (fence) {
+        fenceCharacter = fence[1][0];
+        fenceLength = fence[1].length;
+        continue;
+      }
+
+      const marker = line.match(/^[ \t]*(\*\*(?:Q|A)[1-3]\.\*\*)[ \t]*$/);
+      if (!marker) continue;
+
+      let proseIndex = index + 1;
+      while (proseIndex < lines.length && lines[proseIndex].trim() === '') proseIndex += 1;
+      const prose = lines[proseIndex]?.trim();
+      if (!prose || /^(?:\*\*(?:Q|A)[1-3]\.\*\*|#{1,6}\s|[-*+]\s|>\s|(?:`{3,}|~{3,}))/u.test(prose)) {
+        continue;
+      }
+
+      lines[index] = `${marker[1]} ${prose}`;
+      lines.splice(index + 1, proseIndex - index);
+    }
+
+    return lines.join('\n');
+  };
+
+  const faqSource = faqLines.join('\n');
+  const normalizedFaq = normalizeSegment(faqSource);
+  if (normalizedFaq === faqSource) return source;
+
+  const newline = source.includes('\r\n') ? '\r\n' : '\n';
+  return [...sourceLines.slice(0, faqStart), ...normalizedFaq.split(/\r?\n/), ...sourceLines.slice(faqEnd)].join(
+    newline
+  );
+}
+
 export function validateFaqLayout(markdown) {
   const errors = [];
   for (const number of [1, 2, 3]) {
