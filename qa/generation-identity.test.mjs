@@ -71,11 +71,11 @@ test('generator uses the tested publication plan to gate and select written loca
 
 test('the 2ho prompt requires independent locale generation and truthful first-person storytelling', () => {
   const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
-  assert.ok(source.includes('Write concise headings in the target language that fit ${currentTopic}'));
+  assert.ok(source.includes('Write concise headings in the target language that fit'));
   assert.ok(source.includes('Do not use generic boilerplate, promise guaranteed resolution times or outcomes'));
   assert.ok(source.includes('never copy their brackets or placeholder text'));
   const requiredDirectives = [
-    "const GENERATION_PROMPT_VERSION = '2026-10-30-topic-specific-headings-v1';",
+    "const GENERATION_PROMPT_VERSION = '2026-10-30-truthful-first-person-v3';",
     'separate locale-specific generation call, not a translation',
     'Carry a natural, topic-fit first-person storytelling voice throughout the full article.',
     'Keep roughly 30% engaging narrative and narrator reasoning/transitions and 70%',
@@ -83,10 +83,51 @@ test('the 2ho prompt requires independent locale generation and truthful first-p
     'Never imply that the author actually performed the repair or experienced the event.',
     'Do not invent customer stories, personal repair experiences,',
     'credentials, quotations, or outcomes.',
+    'Do not stage a personal scene.',
+    'specific city, date, time, or case.',
+    'Do not add a hypothetical-scene disclaimer.',
+    'Keep the first-person voice in present reasoning only;',
   ];
-
   for (const directive of requiredDirectives) {
-    assert.ok(source.includes(directive), `Missing prompt directive: ${directive}`);
+    assert.ok(source.includes(directive), 'Missing prompt directive: ' + directive);
+  }
+  const localeStart = source.indexOf('const TARGET_LANGS = [');
+  const localeEnd = source.indexOf('const delay =', localeStart);
+  assert.notEqual(localeStart, -1);
+  assert.notEqual(localeEnd, -1);
+  const localeConfig = source.slice(localeStart, localeEnd);
+  const localeContexts = localeConfig
+    .split('\n')
+    .filter((line) => line.includes('localeContext:'))
+    .join('\n')
+    .toLowerCase();
+  for (const place of [
+    'seoul',
+    'silicon valley',
+    'new york',
+    'nyc',
+    'tokyo',
+    'marunouchi',
+    'shinagawa',
+    'frankfurt',
+    'munich',
+    'münchen',
+    'berlin',
+    'paris la défense',
+    'madrid',
+    'milan',
+    'milano',
+    'são paulo',
+    'amsterdam',
+    'zuidas',
+    'warsaw',
+    'warszawa',
+    'jakarta',
+    'ho chi minh',
+    'quận 1',
+    'hà nội',
+  ]) {
+    assert.equal(localeContexts.includes(place), false, 'locale context must not seed a city: ' + place);
   }
 });
 
@@ -161,16 +202,31 @@ test('generator validates FAQ marker line layout before publishing', () => {
   assert.match(source, /errors\.push\(\.\.\.validateFaqLayout\(bodyWithoutCode\)\)/);
 });
 
-test('FAQ repair prompt requires standalone markers and same-line prose without rewriting locale text', () => {
+test('locale personas avoid unsupported credentials or experience claims', () => {
   const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
+  const personas = [...source.matchAll(/persona:\s*(['"])(.*?)\1/g)].map((match) => match[2].toLowerCase());
+  assert.equal(personas.length, 12);
+  const unsupportedClaim =
+    /(experienced|senior|expert|engineer|technician|specialist|professional|consultant|architect|現役|経験|専門家|エンジニア|기술자|전문가|경력|수리 기사|실무 경험|técnico|experto|especialista|technicien|ingénieur|esperto|experiente|techniker|ingenieur|serwisant|inżynier|chuyên gia|kỹ sư|teknisi senior)/i;
+  for (const persona of personas) {
+    assert.equal(
+      unsupportedClaim.test(persona),
+      false,
+      'Persona must not imply credentials or personal experience: ' + persona
+    );
+    assert.ok(persona.length > 0);
+  }
+});
 
-  assert.ok(source.includes('[REQUIRED FAQ LAYOUT]'));
-  assert.ok(
-    source.includes(
-      'Put each exact marker (**Q1.**, **A1.**, **Q2.**, **A2.**, **Q3.**, **A3.**) at the start of its own line'
-    )
-  );
-  assert.ok(source.includes('followed by that question or answer text on the same line'));
-  assert.ok(source.includes('Put one blank line between each question and its answer'));
-  assert.ok(source.includes('Keep all FAQ question and answer prose in ${lang.name}; preserve its meaning.'));
+test('repair prompt preserves explicit FAQ markers and blank-line layout', () => {
+  const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
+  for (const requirement of [
+    '[REQUIRED FAQ LAYOUT]',
+    'Keep all FAQ question and answer prose in ${lang.name}; preserve its meaning.',
+    'Put each exact marker (**Q1.**, **A1.**, **Q2.**, **A2.**, **Q3.**, **A3.**) at the start of its own line',
+    'Put one blank line between each question and its answer, and between FAQ pairs.',
+    'Do not place a question and its answer marker on the same line.',
+  ]) {
+    assert.ok(source.includes(requirement), 'Missing FAQ repair requirement: ' + requirement);
+  }
 });
