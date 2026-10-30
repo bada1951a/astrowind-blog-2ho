@@ -16,7 +16,10 @@ export function normalizeFaqMarkerProse(markdown) {
       let proseIndex = index + 1;
       while (proseIndex < lines.length && lines[proseIndex].trim() === '') proseIndex += 1;
       const prose = lines[proseIndex]?.trim();
-      if (!prose || /^(?:\*\*(?:Q|A)[1-3]\.\*\*|#{1,6}\s|[-*+]\s|>\s|```)/.test(prose)) {
+      if (
+        !prose ||
+        /^(?:\*\*(?:Q|A)[1-3]\.\*\*|#{1,6}\s|[-*+]\s|>\s|\x60\x60\x60)/.test(prose)
+      ) {
         continue;
       }
 
@@ -28,7 +31,7 @@ export function normalizeFaqMarkerProse(markdown) {
   };
 
   return markdown
-    .split(/(```[\s\S]*?```)/g)
+    .split(/(\x60\x60\x60[\s\S]*?\x60\x60\x60)/g)
     .map((segment, index) => (index % 2 === 0 ? normalizeSegment(segment) : segment))
     .join('');
 }
@@ -60,4 +63,3 @@ export function validateFaqLayout(markdown) {
   }
   return errors;
 }
-
