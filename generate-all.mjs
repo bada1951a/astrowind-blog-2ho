@@ -12,7 +12,7 @@ import path from 'path';
 import { createHash, createCipheriv, createDecipheriv, randomBytes } from 'node:crypto';
 import { createCheckpointKey, createTopicFileSlug, decidePublishLocales } from './generation-identity.mjs';
 
-const GENERATION_PROMPT_VERSION = '2026-10-30-first-person-story-v2';
+const GENERATION_PROMPT_VERSION = '2026-10-30-first-person-story-v3';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 if (!OPENAI_API_KEY) {
   console.error('❌ OPENAI_API_KEY 환경변수가 설정되지 않았습니다.');
@@ -538,8 +538,8 @@ Topic: "${currentTopic}"
 - For Korean (ko): Write exactly around 2,400 - 2,600 characters (do NOT exceed 3,000 characters).
 - For other languages: Write exactly 900 - 1,100 words.
 - Tone: Highly informative, professional, practical technician advice.
-- Narrative voice: Use natural first-person procedural phrasing ("I would first check…") where it fits, without implying an actual personal event, professional credentials, or repair experience.
-- Open with a vivid, reader-centered moment based on the assigned situation, then carry the article in a natural first-person guide voice. Aim for roughly 30% engaging narrative and transitions and 70% verified explanations, practical steps, and safety information.
+- Narrative voice: Carry a natural, topic-fit first-person storytelling voice throughout the full article. Use the guide narrator's reasoning, choices, and transitions to move the explanation forward; make first person the default narrative voice, not a personal anecdote.
+- Keep roughly 30% engaging narrative and narrator reasoning/transitions and 70% verified explanations, practical steps, and safety information. Use phrasing such as "I would first check…" to explain what to check and why, but do not force "I" into every sentence. Never imply that the author actually performed the repair or experienced the event.
 - In the opening paragraph, naturally present a specific situation the reader may recognize and the key unresolved question; answer it in useful stages so each section gives a reason to keep reading. Use the narrator's first-person reasoning and brief transitions to connect sections. Avoid exaggeration, clickbait, fabricated experiences, and rigid opening formulas; phrase this naturally for the locale.
 - Never begin with a disclaimer that a scene is hypothetical, illustrative, or not a real customer case. Do not invent customer stories, personal repair experiences, credentials, quotations, or outcomes. Use first person to explain what to check and why, without claiming events that did not happen.
 - Keep the story readable and the instructions easy to follow. Accuracy, useful steps, clear safety warnings, and reliable sources take priority over a forced story arc.

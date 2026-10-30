@@ -67,3 +67,21 @@ test('generator uses the tested publication plan to gate and select written loca
   assert.match(source, /if \(!publication\.canPublish\)/);
   assert.match(source, /for \(const lang of publication\.passingLocales\)/);
 });
+
+test('the 2ho prompt requires independent locale generation and truthful first-person storytelling', () => {
+  const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
+  const requiredDirectives = [
+    "const GENERATION_PROMPT_VERSION = '2026-10-30-first-person-story-v3';",
+    'separate locale-specific generation call, not a translation',
+    'Carry a natural, topic-fit first-person storytelling voice throughout the full article.',
+    'Keep roughly 30% engaging narrative and narrator reasoning/transitions and 70%',
+    'verified explanations, practical steps, and safety information.',
+    'Never imply that the author actually performed the repair or experienced the event.',
+    'Do not invent customer stories, personal repair experiences,',
+    'credentials, quotations, or outcomes.',
+  ];
+
+  for (const directive of requiredDirectives) {
+    assert.ok(source.includes(directive), `Missing prompt directive: ${directive}`);
+  }
+});
