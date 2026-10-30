@@ -222,7 +222,8 @@ test('the 2ho prompt asks for engaging truthful stories in independent locale ca
     'never imply that it happened to the narrator or a real customer',
     'Describe past tests or outcomes only when evidence is provided',
     'compose each locale independently',
-  ]) assert.ok(source.includes(directive), 'Missing storytelling directive: ' + directive);
+  ])
+    assert.ok(source.includes(directive), 'Missing storytelling directive: ' + directive);
 });
 
 const validFaq = [
@@ -324,3 +325,4 @@ test('repair prompt preserves explicit FAQ markers and blank-line layout', () =>
     assert.ok(source.includes(requirement), 'Missing FAQ repair requirement: ' + requirement);
   }
 });
+
