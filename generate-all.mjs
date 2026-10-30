@@ -18,7 +18,7 @@ import {
   decidePublishLocales,
 } from './generation-identity.mjs';
 
-const GENERATION_PROMPT_VERSION = '2026-10-30-truthful-first-person-v3';
+const GENERATION_PROMPT_VERSION = '2026-10-31-natural-story-v4';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 if (!OPENAI_API_KEY) {
   console.error('❌ OPENAI_API_KEY 환경변수가 설정되지 않았습니다.');
@@ -539,21 +539,16 @@ Topic: "${currentTopic}"
 - For Korean (ko): Write exactly around 2,400 - 2,600 characters (do NOT exceed 3,000 characters).
 - For other languages: Write exactly 900 - 1,100 words.
 - Tone: Highly informative, professional, practical technician advice.
-- Narrative voice: Carry a natural, topic-fit first-person storytelling voice throughout the full article. Use the guide narrator's reasoning, choices, and transitions to move the explanation forward; make first person the default narrative voice, not a personal anecdote.
-- Keep roughly 30% engaging narrative and narrator reasoning/transitions and 70% verified explanations, practical steps, and safety information. Use phrasing such as "I would first check…" to explain what to check and why, but do not force "I" into every sentence. Never imply that the author actually performed the repair or experienced the event.
-- Open on the assigned topic's concrete symptom, reader question, or decision point. Use the narrator's present-tense first-person reasoning and useful transitions to explain what I would check next and why. Keep it natural and engaging without staging a personal scene, inventing a past event, or adding filler.
-- Never begin with a disclaimer that a scene is hypothetical, illustrative, or not a real customer case. Do not invent customer stories, personal repair experiences, credentials, quotations, or outcomes. Use first person to explain what to check and why, without claiming events that did not happen.
-- Use first person only for the guide narrator's present reasoning and recommendations, such as what I would check next; do not claim past events.
-- Open with the assigned topic's symptom, reader question, or decision point, then explain what I would check and why. Do not stage a personal scene.
-- Unless the user supplied it as verified fact, do not invent or imply a narrator's past event, commute, customer interaction, meeting, named person, specific city, date, time, or case.
-- Do not add a disclaimer that a scene is hypothetical, fictional, illustrative, or not a real customer case.
-- Keep the story readable and the instructions easy to follow. Accuracy, useful steps, clear safety warnings, and reliable sources take priority over a forced story arc.
+- Narrative voice: Carry a natural, topic-fit first-person story through the whole guide. Let the narrator's reasoning, choices, and transitions connect the practical advice; aim for roughly 30% narrative and 70% clear explanation, diagnosis, steps, and safety guidance.
+- Begin with the topic's concrete symptom, decision, or reader question. A brief illustrative situation is allowed when relevant if the wording naturally cues it as an example (for instance, the local equivalent of “imagine this”); never imply that it happened to the narrator or a real customer.
+- Describe past tests or outcomes only when evidence is provided. Otherwise explain what I would check and what each result could mean. Do not invent facts, credentials, quotations, customer events, or guaranteed outcomes.
+- Keep the story engaging without a disclaimer, forced drama, unrelated emergencies, or filler. Write idiomatically for this locale, and compose each locale independently.
 
 [STRUCTURE - STRICT 5 H2 HEADINGS]
 Write exactly five numbered H2 headings in ${lang.name}, numbered 1 through 5. Write concise headings in the target language that fit ${currentTopic} and each section's content. Do not use generic boilerplate, promise guaranteed resolution times or outcomes, or imply unverified professional credentials. The bracketed descriptions below are instructions; never copy their brackets or placeholder text into the article.
 
 ## 1. [topic-specific opening heading]
-Write 2 detailed, engaging paragraphs that place the reader in a recognizable moment related to the actual topic. Keep the scene specific to "${currentTopic}" and do not invent a real customer case.
+Open on the assigned topic's symptom, reader question, or decision. In the first two paragraphs, explain what I would check first and why. A brief illustrative situation is allowed only when naturally cued as an example in the target locale; never present it as a real event.
 
 ## 2. [topic-specific heading in ${lang.name}]
 Write 2 clear paragraphs explaining plausible causes and observable clues specific to "${currentTopic}". Do not list unrelated hardware causes or state uncertain diagnoses as fact.
@@ -653,7 +648,7 @@ theme: "${selectedTheme.name}"
       console.warn(
         `⚠️ ${lang.code} 검수 실패(${validationErrors.join(', ')}). 해당 언어 correction ${correctionAttempt}/2 요청합니다.`
       );
-      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing or malformed, add five concise numbered headings in ${lang.name} that fit the topic and existing content. Avoid generic boilerplate, unsupported credentials, and guaranteed time or outcome claims. Reorganize relevant existing content without adding filler, unsupported facts, invented first-person experiences, or customer anecdotes. Preserve required FAQ markers and language. Keep the first-person voice in present reasoning only; do not invent a past event, commute, customer interaction, meeting, named person, city, date, time, or case. Do not add a hypothetical-scene disclaimer. [REQUIRED FAQ LAYOUT]\n- Keep all FAQ question and answer prose in ${lang.name}; preserve its meaning.\n- Put each exact marker (**Q1.**, **A1.**, **Q2.**, **A2.**, **Q3.**, **A3.**) at the start of its own line, followed by that question or answer text on the same line.\n- Put one blank line between each question and its answer, and between FAQ pairs. Do not place a question and its answer marker on the same line. Return raw Markdown only.\n\nOriginal article:\n${text}`;
+      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing or malformed, add five concise numbered headings in ${lang.name} that fit the topic and existing content. Avoid generic boilerplate, unsupported credentials, and guaranteed time or outcome claims. Reorganize only relevant existing content without adding filler or unsupported facts. Preserve any clearly cued illustrative example without presenting it as a real event. Preserve required FAQ markers and language. Never invent past experiences, customer events, credentials, or outcomes. [REQUIRED FAQ LAYOUT]\n- Keep all FAQ question and answer prose in ${lang.name}; preserve its meaning.\n- Put each exact marker (**Q1.**, **A1.**, **Q2.**, **A2.**, **Q3.**, **A3.**) at the start of its own line, followed by that question or answer text on the same line.\n- Put one blank line between each question and its answer, and between FAQ pairs. Do not place a question and its answer marker on the same line. Return raw Markdown only.\n\nOriginal article:\n${text}`;
       text = normalizeGeneratedResponse(await fetchWithRetry(repairPrompt));
       validationErrors = validateGeneratedPost(text, lang.code);
     }
