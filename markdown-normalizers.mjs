@@ -75,4 +75,3 @@ export function validateFaqLayout(markdown) {
   }
   return errors;
 }
-
