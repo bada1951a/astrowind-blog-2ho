@@ -230,4 +230,3 @@ test('repair prompt preserves explicit FAQ markers and blank-line layout', () =>
     assert.ok(source.includes(requirement), 'Missing FAQ repair requirement: ' + requirement);
   }
 });
-
