@@ -5,6 +5,34 @@ export function normalizeBoldSpacing(markdown) {
     .replace(/\*\*([^*\r\n]+?)[ \t]+\*\*/g, '**$1**');
 }
 
+export function normalizeFaqMarkerProse(markdown) {
+  const normalizeSegment = (segment) => {
+    const lines = segment.split(/\r?\n/);
+
+    for (let index = 0; index < lines.length; index += 1) {
+      const marker = lines[index].match(/^[ \t]*(\*\*(?:Q|A)[1-3]\.\*\*)[ \t]*$/);
+      if (!marker) continue;
+
+      let proseIndex = index + 1;
+      while (proseIndex < lines.length && lines[proseIndex].trim() === '') proseIndex += 1;
+      const prose = lines[proseIndex]?.trim();
+      if (!prose || /^(?:\*\*(?:Q|A)[1-3]\.\*\*|#{1,6}\s|[-*+]\s|>\s|```)/.test(prose)) {
+        continue;
+      }
+
+      lines[index] = `${marker[1]} ${prose}`;
+      lines.splice(index + 1, proseIndex - index);
+    }
+
+    return lines.join('\n');
+  };
+
+  return markdown
+    .split(/(```[\s\S]*?```)/g)
+    .map((segment, index) => (index % 2 === 0 ? normalizeSegment(segment) : segment))
+    .join('');
+}
+
 export function validateFaqLayout(markdown) {
   const errors = [];
   for (const number of [1, 2, 3]) {
@@ -32,3 +60,4 @@ export function validateFaqLayout(markdown) {
   }
   return errors;
 }
+
