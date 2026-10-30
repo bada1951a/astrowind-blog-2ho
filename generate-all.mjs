@@ -13,7 +13,7 @@ import { createHash, createCipheriv, createDecipheriv, randomBytes } from 'node:
 import { normalizeBoldSpacing, validateFaqLayout } from './markdown-normalizers.mjs';
 import { createCheckpointKey, createTopicFileSlug, decidePublishLocales } from './generation-identity.mjs';
 
-const GENERATION_PROMPT_VERSION = '2026-10-30-first-person-story-v3';
+const GENERATION_PROMPT_VERSION = '2026-10-30-topic-specific-headings-v1';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 if (!OPENAI_API_KEY) {
   console.error('❌ OPENAI_API_KEY 환경변수가 설정되지 않았습니다.');
@@ -168,16 +168,12 @@ function inspectAndHealMarkdown(body, langCode) {
 
   // 1) 헤딩 내부 볼드 제거 및 2호기 표준 소제목 강제 안착
   healed = healed.replace(/^(#{1,6}\s+)\*\*(.*?)\*\*/gm, '$1$2');
-  healed = healed.replace(/^#{1,6}\s*1[.\s]+([^\n]+)/m, `## ${i18n.s1}`);
-  healed = healed.replace(/^#{1,6}\s*2[.\s]+([^\n]+)/m, `## ${i18n.s2}`);
-  healed = healed.replace(/^#{1,6}\s*3[.\s]+([^\n]+)/m, `## ${i18n.s3}`);
-  healed = healed.replace(/^#{1,6}\s*4[.\s]+([^\n]+)/m, `## ${i18n.s4}`);
-  healed = healed.replace(/^#{1,6}\s*5[.\s]+([^\n]+)/m, `## ${i18n.s5}`);
+  healed = healed.replace(/^#{1,6}\s*1[.\s]+([^\n]+)/m, (_match, title) => `## 1. ${title.trim()}`);
+  healed = healed.replace(/^#{1,6}\s*2[.\s]+([^\n]+)/m, (_match, title) => `## 2. ${title.trim()}`);
+  healed = healed.replace(/^#{1,6}\s*3[.\s]+([^\n]+)/m, (_match, title) => `## 3. ${title.trim()}`);
+  healed = healed.replace(/^#{1,6}\s*4[.\s]+([^\n]+)/m, (_match, title) => `## 4. ${title.trim()}`);
+  healed = healed.replace(/^#{1,6}\s*5[.\s]+([^\n]+)/m, (_match, title) => `## 5. ${title.trim()}`);
 
-  if (!healed.startsWith('## 1.')) {
-    healed = `## ${i18n.s1}\n\n` + healed;
-    auditLogs.push('1번 헤딩 주입');
-  }
 
   // 2) 🛡️ Q&A 줄바꿈 뭉개짐 자동 분리 치유 (질문과 답변 사이 빈 줄 2개 보장)
   const rawQnACount = (healed.match(/Q[1-3]\./gi) || []).length;
@@ -538,21 +534,21 @@ Topic: "${currentTopic}"
 - Keep the story readable and the instructions easy to follow. Accuracy, useful steps, clear safety warnings, and reliable sources take priority over a forced story arc.
 
 [STRUCTURE - STRICT 5 H2 HEADINGS]
-Use these exact H2 headings:
+Write exactly five numbered H2 headings in ${lang.name}, numbered 1 through 5. Write concise headings in the target language that fit ${currentTopic} and each section's content. Do not use generic boilerplate, promise guaranteed resolution times or outcomes, or imply unverified professional credentials.
 
-## ${i18n.s1}
+## 1. [topic-specific opening heading]
 Write 2 detailed, engaging paragraphs that place the reader in a recognizable moment related to the actual topic. Keep the scene specific to "${currentTopic}" and do not invent a real customer case.
 
-## ${i18n.s2}
+## 2. [topic-specific heading in ${lang.name}]
 Write 2 clear paragraphs explaining plausible causes and observable clues specific to "${currentTopic}". Do not list unrelated hardware causes or state uncertain diagnoses as fact.
 
-## ${i18n.s3}
+## 3. [topic-specific heading in ${lang.name}]
 Provide 3 concrete practical emergency resolution steps. Use clean numbered lists with safe tools and exact diagnostic steps.
 
-## ${i18n.s4}
+## 4. [topic-specific heading in ${lang.name}]
 Write 2 practical paragraphs about safe use, mistakes to avoid, prevention where relevant, and when to seek professional help.
 
-## ${i18n.s5}
+## 5. [topic-specific heading in ${lang.name}]
 Provide exactly 3 practical Q&A items. You MUST put an empty line between Question and Answer:
 
 **Q1.** Question text
@@ -641,7 +637,7 @@ theme: "${selectedTheme.name}"
       console.warn(
         `⚠️ ${lang.code} 검수 실패(${validationErrors.join(', ')}). 해당 언어 correction ${correctionAttempt}/2 요청합니다.`
       );
-      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing, use exactly these localized headings: ${[i18n.s1, i18n.s2, i18n.s3, i18n.s4, i18n.s5].map((heading) => '## ' + heading).join(' | ')}. Reorganize relevant existing content without adding filler, unsupported facts, invented first-person experiences, or customer anecdotes. Preserve required FAQ markers and language. Return raw Markdown only.\n\nOriginal article:\n${text}`;
+      const repairPrompt = `You are correcting one generated ${lang.name} article for "${currentTopic}".\n\nFailed validation checks: ${validationErrors.join(', ')}. Return the complete Markdown including original frontmatter. Preserve existing useful content and factual meaning. Correct only the listed failures. If H2 headings are missing or malformed, add five concise numbered headings in ${lang.name} that fit the topic and existing content. Avoid generic boilerplate, unsupported credentials, and guaranteed time or outcome claims. Reorganize relevant existing content without adding filler, unsupported facts, invented first-person experiences, or customer anecdotes. Preserve required FAQ markers and language. Return raw Markdown only.\n\nOriginal article:\n${text}`;
       text = normalizeGeneratedResponse(await fetchWithRetry(repairPrompt));
       validationErrors = validateGeneratedPost(text, lang.code);
     }
