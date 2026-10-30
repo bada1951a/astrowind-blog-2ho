@@ -162,7 +162,11 @@ test('FAQ repair prompt requires standalone markers and same-line prose without 
   const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
 
   assert.ok(source.includes('[REQUIRED FAQ LAYOUT]'));
-  assert.ok(source.includes('Put each exact marker (**Q1.**, **A1.**, **Q2.**, **A2.**, **Q3.**, **A3.**) at the start of its own line'));
+  assert.ok(
+    source.includes(
+      'Put each exact marker (**Q1.**, **A1.**, **Q2.**, **A2.**, **Q3.**, **A3.**) at the start of its own line'
+    )
+  );
   assert.ok(source.includes('followed by that question or answer text on the same line'));
   assert.ok(source.includes('Put one blank line between each question and its answer'));
   assert.ok(source.includes('Keep all FAQ question and answer prose in ${lang.name}; preserve its meaning.'));
