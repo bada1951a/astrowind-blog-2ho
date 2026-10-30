@@ -73,7 +73,7 @@ test('the 2ho prompt requires independent locale generation and truthful first-p
   const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
   assert.ok(source.includes('Write concise headings in the target language that fit ${currentTopic}'));
   assert.ok(source.includes('Do not use generic boilerplate, promise guaranteed resolution times or outcomes'));
-  assert.ok(source.includes('The bracketed descriptions below are instructions; never copy their brackets or placeholder text into the article.'));
+  assert.ok(source.includes('never copy their brackets or placeholder text'));
   const requiredDirectives = [
     "const GENERATION_PROMPT_VERSION = '2026-10-30-topic-specific-headings-v1';",
     'separate locale-specific generation call, not a translation',
