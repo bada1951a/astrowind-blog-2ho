@@ -1,4 +1,3 @@
-Samsung Galaxy Split Screen Multi-Window App Freezing: Memory and Cache Tweak
 Phone Notification Bar and Status Bar Not Pulling Down: System UI Crash Fix
 Samsung Galaxy In-Display Fingerprint Sensor Not Working: Re-Registration Trick
 How to Fix iPhone Face ID Not Working: Step-by-Step Sensor Diagnostics
