@@ -50,7 +50,10 @@ test('generator migrates an exact-queue legacy cache before removing other keys'
   const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
 
   assert.match(source, /const legacyCheckpointDir = path\.join\(checkpointRoot, legacyCheckpointKey\)/);
-  assert.match(source, /fs\.existsSync\(legacyCheckpointDir\)[\s\S]*?fs\.renameSync\(legacyCheckpointDir, checkpointDir\)/);
+  assert.match(
+    source,
+    /fs\.existsSync\(legacyCheckpointDir\)[\s\S]*?fs\.renameSync\(legacyCheckpointDir, checkpointDir\)/
+  );
 });
 
 const publicationTargets = ['ko', 'en', 'ja', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'pl', 'id', 'vi'].map((code) => ({
