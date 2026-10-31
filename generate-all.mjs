@@ -47,7 +47,7 @@ function getKstPublishDateIso() {
   const year = kst.getUTCFullYear();
   const month = kst.getUTCMonth() + 1;
   const day = kst.getUTCDate();
-  return new Date(Date.UTC(year, month - 1, day, 10, 10, 0)).toISOString();
+  return new Date(Date.UTC(year, month - 1, day, 9, 38, 0)).toISOString();
 }
 
 function refreshPublishDate(text, publishDate) {
