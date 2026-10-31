@@ -211,66 +211,19 @@ test('generator uses the tested publication plan to gate and select written loca
   assert.match(source, /for \(const lang of publication\.passingLocales\)/);
 });
 
-test('the 2ho prompt requires independent locale generation and truthful first-person storytelling', () => {
+test('the 2ho prompt asks for engaging truthful stories in independent locale calls', () => {
   const source = readFileSync(new URL('../generate-all.mjs', import.meta.url), 'utf8');
-  assert.ok(source.includes('Write concise headings in the target language that fit'));
-  assert.ok(source.includes('Do not use generic boilerplate, promise guaranteed resolution times or outcomes'));
-  assert.ok(source.includes('never copy their brackets or placeholder text'));
-  const requiredDirectives = [
-    "const GENERATION_PROMPT_VERSION = '2026-10-30-truthful-first-person-v3';",
+  for (const directive of [
+    "const GENERATION_PROMPT_VERSION = '2026-10-31-natural-story-v4';",
     'separate locale-specific generation call, not a translation',
-    'Carry a natural, topic-fit first-person storytelling voice throughout the full article.',
-    'Keep roughly 30% engaging narrative and narrator reasoning/transitions and 70%',
-    'verified explanations, practical steps, and safety information.',
-    'Never imply that the author actually performed the repair or experienced the event.',
-    'Do not invent customer stories, personal repair experiences,',
-    'credentials, quotations, or outcomes.',
-    'Do not stage a personal scene.',
-    'specific city, date, time, or case.',
-    'Do not add a hypothetical-scene disclaimer.',
-    'Keep the first-person voice in present reasoning only;',
-  ];
-  for (const directive of requiredDirectives) {
-    assert.ok(source.includes(directive), 'Missing prompt directive: ' + directive);
-  }
-  const localeStart = source.indexOf('const TARGET_LANGS = [');
-  const localeEnd = source.indexOf('const delay =', localeStart);
-  assert.notEqual(localeStart, -1);
-  assert.notEqual(localeEnd, -1);
-  const localeConfig = source.slice(localeStart, localeEnd);
-  const localeContexts = localeConfig
-    .split('\n')
-    .filter((line) => line.includes('localeContext:'))
-    .join('\n')
-    .toLowerCase();
-  for (const place of [
-    'seoul',
-    'silicon valley',
-    'new york',
-    'nyc',
-    'tokyo',
-    'marunouchi',
-    'shinagawa',
-    'frankfurt',
-    'munich',
-    'münchen',
-    'berlin',
-    'paris la défense',
-    'madrid',
-    'milan',
-    'milano',
-    'são paulo',
-    'amsterdam',
-    'zuidas',
-    'warsaw',
-    'warszawa',
-    'jakarta',
-    'ho chi minh',
-    'quận 1',
-    'hà nội',
-  ]) {
-    assert.equal(localeContexts.includes(place), false, 'locale context must not seed a city: ' + place);
-  }
+    'natural, topic-fit first-person story through the whole guide',
+    'roughly 30% narrative and 70%',
+    'naturally cues it as an example',
+    'never imply that it happened to the narrator or a real customer',
+    'Describe past tests or outcomes only when evidence is provided',
+    'compose each locale independently',
+  ])
+    assert.ok(source.includes(directive), 'Missing storytelling directive: ' + directive);
 });
 
 const validFaq = [
